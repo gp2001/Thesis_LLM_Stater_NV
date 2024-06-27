@@ -1,0 +1,60 @@
+Een stresstest van het
+Nederlandse mkb
+Dit achtergronddocument biedt
+een eerste inschatting  van de effecten van de coronacrisis op
+de liquiditeitspositie en de
+doorwerking op de solvabiliteitspositie van het mkb. De steunmaatregelen die
+in maart en april 2020 zijn
+aangekondigd hebben geholpen de liquiditeitsschokken van bedrijven te dempen. De effecten zijn sterk
+sectorafhankelijk.In de eerste 3 maanden is er bij
+30% van het mkb een extra liquiditeitsbehoefte van
+minimaal 12 miljard euro
+ontstaan. Een aanzienlijk deel daarvan wordt door het beleidspakket opgevangen. CPB Achtergronddocument
+Benedikt Vogt, Karen van der Wiel
+juni 2020CPB ACHTERGRONDDOCUMENT – Een stresste st van het Nederlandse mkb  Pagina 2 van 20 Samenvatting
+Dit a chtergronddocument b ij de Risicorapportage financiële markten biedt beleidsmakers een eer ste
+inschatting   van de effecten v an d e coronacrisis op d e liquiditeitspositie en d e doorwerking op d e
+solvabiliteitspositie va n het Nederlandse m kb. We ge ven een eer ste antwoord op d eze vraag a an de hand
+van een ‘s tresstest’. Op b asis v an a dministratieve gegevens van he t Nederlandse midden - en k leinbedrijf uit
+2018 simuleren we omzetdalingen v oor in dividuele bedrijven in v erschillende sectoren. De financiële
+uitgangspositie van h et N ederlandse mkb p re-corona wa s ge middeld genomen goed: ve el be drijven wa ren
+zowel l iquide als solvabel. Vervolgens kijken w e wat h et ef fect van de c oronaschokken op d e liquiditeitspositie
+is en a nalyseren w e de liquiditeitsbehoefte. De steun maatregelen d ie in maart e n april 2 020 z ijn aangekondigd hebben g eholpen de
+liquiditeit sschokken van be drij ven te dempen. In d e stresstesten h ouden w e rekening m et h et u itstel v an
+belastingbetalingen, de tijdelijke N oodmaatregel O verbrugging voor W erkgelegenheid ( NOW), d e tijdelijke
+overbruggingsregelin g zelfstandig ondernemers (TOZO) en de tegemoetkoming s chad e COVID -19 (T OGS). Bovendien h ouden we rekening m et h et u itstel a an r entebetalingen en a flossingen d ie banken hun klanten
+hebben a angeboden. Door d e coronacrisis is er i n de e erste 3 m aanden bi j 30% van het Nederlandse mkb een ex tra
+liquiditeitsbehoefte v an m inimaal 1 2 miljard e uro ontstaan . Bij een v oortdurend e lage omzet z al dit binnen
+zes maanden oplopen t ot 3 0 m iljard b ij bijna 5 0% v an h et N ederlandse mkb. E en a anzienlijk d eel daarvan
+wordt d oor h et beleidspakket opgevangen. De gebruikte scenario ’s bevatten o verigens aannames d ie de
+stressbestendigheid van het b edrijfsleven w aarschijnlijk onderschatten. De effecten zi jn sterk sector afhankelijk. D e grootste liquiditeitsbehoefte ontstaat in d e handel, in dustrie,
+vervoer & o pslag en in de horeca.1 Er z ijn t wee verklaringen voor dit ef fect: d eze sectoren z ijn d oor d e
+lockdownmaatregelen h et sterkst g etroffen en h adden d e kwetsbaarste uitgangspositie. De so lvabiliteit van d e m eeste be drijven blijft in o nze str esstesten nog op orde, m aar dat li jkt mede te
+komen d oor o nze aan names die de effecten v an d e coronacrisis onderschatten. Ook h ier z ijn s terke
+verschillen t ussen d e sectoren zichtbaar. Volgens d e scenario ’s worden d e sectoren h oreca, industrie, h andel &
+cultuur e n sp ort het sterkst g eraakt in h un s olvabiliteit. H ier o ntstaat b innen z es m aanden bij m eer d an 2 5%
+van d e bedrijven een r isicovolle solvabiliteitspositie. Het b eleidspakket in d eze stresstesten h eeft een positief spillovereffect dat buiten be schouwing bl ijft in
+deze analyse. In on ze test zijn de total e kosten v an a lle maatregelen v oor een period e van drie maanden
+ongeveer vier miljard eu ro. Me t deze vier m iljard w ordt uiteindelijk n iet alleen d e liquiditeit v erhoogd, m aar
+gaan ook minder banen verloren. Hoeveel banenverlies dit scheelt, weten we niet. Dat hangt af van de
+doorwerking van de problemen van het ene bedrijf op het andere bedrijf. 1 Dat komt overeen met recente enquêteresultaten van het CBS , laatst geraadpleegd 25 -05-2020 ( link). CPB ACHTERGRONDDOCUMENT – Een stresste st van het Nederlandse mkb  Pagina 3 van 20 1 Methodiek
+Onze stresstest lijkt op een cashflowstresstest. Een dergelijke stresstest toetst hoelang een bedri jf de
+cashoutflows (lopende kosten) aan de hand van bestaande liquide middelen kan betalen. Figuur 1 .1 toont de
+methodiek van het stresstest in het kort. De stresstest bestaat uit drie stappen en lijkt sterk op scenario ’s die de
+OECD onlangs publiceerde (O ECD 2020;  Schivardi en Romano 2020). Omdat we geen echte cashflowdata
+beschikbaar hebben moeten we deze indirect benaderen. Dat betekent dat we aan de hand van de winst - en
+verliesrekening de kaspositie van een bedrijf berekenen. Een lager bedrijfsresulta at leidt tot minder liquide middelen. We gebruiken gegevens van de winst - en
+verliesrekening van alle Nederlandse mkb ’ers en dienen in eerste instantie een ‘schok ’ toe in de omzet van de
+bedrijven. In een tweede stap berekenen we het nieuwe bedrijfsresulta at ná de schok.2 Het verschil tussen het
+bedrijfsresultaat voor de schok en ná de schok interpreteren we als een daling va n de liquide middelen. Dat
+beïnvloedt de financiële situatie (met name liquiditeit en solvabiliteit) van een bedrijf die we aan de han d van
+gebruikelijke financiële kengetallen meten: cash buffer days, de quick ratio en uiteindelijk de solvabiliteit. Figuur 1.1 De stresstest in het kort
+Onze stresstests schetsen twee scenario ’s waarbij het aantal maanden van omzetdalingen inclusief een
+beleidspakket varieert tussen 3  (scenario 1)  en 6 maanden (scenario 2) . Het ‘beleidspakket ’ omvat de NOW -
+regeling, TOZO, TOGS en het rentelasten - en aflossingsuitstel van de Nederlandse banken. Hoe we het pakket
+vormgeven en in de liquiditeitspositie mee laten werken is uitgebreid in de appendix beschreven. 3
+De scenario ’s bevatten aannames die de stressbestendigheid van het bedrijfsleven waarschijnlijk
+onderschatten. We houden bijvoorbe eld geen rekening met de mogelijkheid dat  bedrijven zich creatief op
+een andere markt  begeven of dat zij juist helemaal de deur sluiten om kosten te drukken. De scenario ’s zijn
+dus als ‘worst case scenario ’s’ te beschouwen. Een uitgebreide beschrijving van de aannames bevindt zich in
+sectie 1.2. Een formele beschrijving van de stresstesten is te lezen in de appendix. 2 We gebruiken het bedrijfsresultaat vóór belastingen. 3 We nemen geen uitstel van de btw mee. Dat zal ervoor zorgen dat we de effecten van het pakket onderschatten.

@@ -1,0 +1,47 @@
+7. Een verzoek tot intrekking of schorsing is
+gedaan door de Gebruiker van het
+authenticatiemiddel;
+Een verzoek tot intrekking of schorsing is
+gedaan door
+een vertegenwoordigingsbevoegde van
+de Gebruiker van het
+authenticatiemiddel. Het middel blijkt te zijn
+gecompromitteerd;
+Het middel aantoonbaar kwetsbaar is
+geworden voor manipulatie of misbruik;
+De Gebruiker van het
+authenticatiemiddel zijn
+gebruiksverplichtingen niet nakomt. Indien een bevoegde vertegenwoordiger van
+de Gebruiker verzoekt om schorsing van het
+middel MOET de Deelnemer aan de
+vertegenwoordigingsbevoegde duidelijk
+maken dat de Gebruiker in staat zal zijn om
+het middel te heractiveren als deze zijn
+mogelijkheden tot heractivatie in bezit
+behoudt. De Deelnemer MOET aan kunnen tonen dat
+middelen die zijn ingetrokken of geschorst
+vanaf het moment van intrekken of schorsen
+niet meer gebruikt zijn. De Deelnemer MOET afdoende hebben
+geverifieerd dat het verzoek tot intrekking of
+schorsing door de
+bevoegde vertegenwoordiger is gedaan. De
+Deelnemer MOET het risico afwegen dat het
+verzoek niet door de bevoegde
+vertegenwoordiger is gedaan tegen de schade
+voor de gebruiker die het afhandelen of het
+niet afhandelen van het verzoek veroorzaakt. Verstrekken van een code bij de uitgifte van een
+authenticatiemiddel aan de gebruiker die voor revocatie
+en schorsingen/her-activering kan worden gebruikt. Tevens wordt de Gebruiker verzocht om
+beveiligingsvragen te beantwoorden (zogenaamd
+gedeeld geheim tussen de MU/AD en Gebruiker). De
+verstrekte code en de antwoorden op de
+beveiligingsvragen geven samen afdoende zekerheid dat
+de gene die het verzoek doet tot revocatie en schorsing
+/her-activering de Gebruiker is. Een online-dienst waarmee de gebruiker met inzet van
+zijn authenticatiemiddel(en) een authenticatiemiddel
+waarvan hij Gebruiker is kan laten intrekken, schorsen
+en her-activeren. In het proces voor schorsing (indien ondersteund) MAG
+soepeler worden omgegaan met de authenticatie van
+degene die de schorsing meldt met het oog op snellere
+verwerking. In dat geval moet de afwijking van het
+normale authenticatieproces expliciet vastgelegd zijn. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9777. a.

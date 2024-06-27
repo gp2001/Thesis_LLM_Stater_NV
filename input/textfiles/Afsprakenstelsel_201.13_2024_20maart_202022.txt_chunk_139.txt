@@ -1,0 +1,77 @@
+Note that PKIoverheid
+multiple certificates may be provided for cases like changing certificates. (Additonally: Signing
+certificates must NOT be used here but should be placed in the ). DV metadata for HMAfsprakenstelsel Elektronische Toegangsdiensten | pagina 813
+ServiceIntermediation (indication if intermediation of the service (Dienstbemiddeling) requires
+approval of the Service Provider, see ) AUC7 Proces verlenen toestemming dienstbemiddeling
+@intermediationAllowed (attribute indicating approval is required; possible values
+"noIntermediation" (default), "generalAvailable", "serviceProviderOnly", "requiresApproval")
+ServiceIntermediationAllowed (optional, holds one or more OINs of any Dienstbemiddelaar
+allowed to intermediate a service if @intermediationAllowed has the value
+"requiresApproval"). Classifiers (optional, multivalued entry that allows for one or more classifications of a ServiceInstance )
+Classifier (value indicating a particular classification applied for this SerivceInstance)
+: The following classifiers are defined
+Classifier Description Usage restrictions
+PublicDomain The ServiceInstance
+is operated by the
+Dienstverlener
+(Service Provider) to
+implement a service
+under a
+responsibility in the
+public domain.The Dienstverlener MUST operate under "Artikel 1:
+1 Algemene Wet Bestuursrecht". Although a service in the public domain will
+typically request an  or urn:etoegang:1.12
+, this is not mandatory. EntityConcernedID:RSIN
+Other identifiers may be used by services classified
+as PublicDomain as well. Service requesting aforementioned identifiers
+typically do operate as a PublicDomain service. In case the ServiceInstance is classified as 'eIDAS-
+outbound' as well, the actual DV in another
+member state operates under an equivalent
+legislation and are requested as such via the eIDAS
+interoperability framework (eIDAS: SPType
+'public'). eIDAS-
+inboundThe service is an
+eTD-service that is
+receptive to users
+from other eIDAS-
+member states.Services that want to accept authentication and
+authorization through eIDAS MUST be classified
+as 'eIDAS-inbound'. Currently the eIDAS-
+berichtenservice only accepts messages in the
+public domain. Therefore a service must use BOTH
+classifiers 'eIDAS-inbound' AND 'PublicDomain'
+combined to connect effectively to eIDAS. eIDAS-
+outboundThe service is a
+proxy for services in
+other member
+states under the
+eIDAS regulation. The eIDAS-berichtenservice has proxy-services
+listed in the Service Catalog for services in
+other eIDAS-member states that may be accessed
+through eIDAS. These proxy services MUST be
+classified as 'eIDAS-outbound'. The elements OrganizationDisplayName, ServiceName, ServiceDescription, ServiceDescriptionURL, PurposeStatement,
+ServiceURL and PrivacyPolicyURL MAY be included for different languages. Note: At this moment the use of ASTA-sets and Service Intermediarion is limited to the EB for eIDAS Outgoing. Any ServiceProvider interested in ServiceIntermediation or ASTA-sets should contact their HM for the proper procedure. Any changes in ServiceIntermediation elements in the ServiceCatalog will not be propagated automatically.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 814
+Rules for processing Service Catalog
+All ServiceUUIDs MUST be both global and temporal unique. The Beheerorganisatie MUST verify all UUIDs that are
+used are defined only once. changes to a Service SHOULD result in a new distinct ServiceUUID. Significant
+ServiceDefinitions with the same ServiceUUID are exempt from global uniqueness, these are shared services and
+MUST be identical (identical but excluding @IsPublic and HerkenningsmakelaarId). Herkenningsmakelaar passes on the ServiceUUID of the ServiceInstance matching the requested combination of
+Dienstverlener- AttributeConsumingServiceIndex, or whatever other mechanic used in the bilateral DV-HM
+interface, in further authentication and attribute requests. A receiving AD/MR/BSNk inspects the Service Catalogue to determine the exact authorization demands and relying
+parties for the requested ServiceInstance based upon the ServiceUUID. The following logic applies:
+The ServiceUUID of the referenced ServiceDefinition is always used to determine the mandate/authorization
+demands. The requested ServiceInstance always determine the relying entity (or entities) for the authorization request. In case of service intermediation: a service instance references a service instance (rather than a service
+definition) via the IntermediatedService element. In case of service intermediation: the service instance pointed to is considered the true relying party; the
+requesting party is merely an acceptable attesting entity (only to be included in subjectconfirmation HoK). Participants MUST check the validity of the Service Certificate when using any attributes in the certficate. In case of service intermediation; the approval verification MUST be based on the ServiceIntermediation element
+belonging to the referenced service instance. The following rules apply:
+@intermediationAllowed Processing rule
+noIntermediation Participants MUST NOT allow service intermediation for the Service (default)
+generalAvailable Participants MUST allow service intermediation by any dienstverlener listed in the
+Service Catalog as service intermediary for the Service
+serviceProviderOnly Participants MUST only allow the Service Provider itself to perform service
+intermediation ( = ) Dienstbemiddelaar  Dienstaanbieder
+requiresApproval Participants MUST allow only those Service Intermediaries that have their OIN listed
+under ServiceIntermediationAllowed to perform service intermediation for the Service
+Make sure to look at the rule relating to the use of BSN and minimal level of assurance mentioned in
+Betrouwbaarheidsniveaus
+The XML schema of the Service Catalog below is currently not correct. Use it only as example. A new initiative was started to automatically validate various XML-schemas, which always uses up-to-date XML-schemas.

@@ -1,0 +1,58 @@
+en release
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 297Afsprakenstelsel Elektronische Toegangsdiensten | pagina 2981. Toelichting processtappen
+Veranderbehoefte bespreken en actie bepalen
+Input De stakeholders van het stelsel zijn divers. De praktijk is dat de stakeholders haar weg vinden naar het Tactisch
+Beraad en/of het Leveranciersoverleg cq dat het Tactisch Beraad en Leveranciersoverleg de rol vervullen van
+stakeholder. Uit deze gremia komen de plannen wat de ambities zijn van komende periode zoals in een
+jaarplan. Als de stakeholders de handen op elkaar hebben om een wijziging komende periode te
+implementeren dan stellen ze hiervoor een productowner aan. Activiteit  De stakeholders prioriteren en communiceren van de veranderbehoefte. Denk aan een jaarplan en besluiten
+wat in een komende release als nieuwe functionaliteit gewenst is. De stakeholder leveranciersoverleg stelt een
+productowner aan. Output
+Jaarplan
+Aanstellen productowner
+Backlog met gewenste functionaliteit
+Wie? Stakeholders (combinatie van Leveranciersoverleg en Tactisch Beraad. 2. Opstarten refinement team
+Input Backlog met gewenste functionaliteit
+Activiteit De betrokken partijen (waaronder deelnemers en BO) leveren teamleden voor het refinement team. De
+BO vervult de rol van scrummaster. De productowner vervult zijn/haar rol volgens de definitie genoemd
+volgens scrum. Output
+Team
+Backlog voor team
+Wie? Deelnemers
+Productowner
+3. Uitvoeren refinement
+Input Backlog voor teamAfsprakenstelsel Elektronische Toegangsdiensten | pagina 299Activiteit Bepalen van de definition of done
+Het team werkt de veranderbehoefte uit in een RFC die klaar is om gebouwd te worden door de deelnemers. Dit is inclusief de beschrijving voor de benodigde veranderingen voor aanpalende systemen zoals de
+aggregator, simulator etc. en inclusief de beschrijving van testcases. Output Een RFC waarbij de deelnemers aangeven dat die voldoet aan de defintion of done. Wie? Team
+Operationeel Beraad
+4. Opleveren van RFC en doorgeleiden governance via changeproces
+Input RFC opgesteld door team
+Activiteit De productowner toets de defintion of done en meldt het als gereed. Hij ziet toe dat de RFC wordt doorgeleid
+aan de governance. Output Besluit Tactisch Beraad
+Wie? Operationeel Beraad
+Tactisch Beraad
+Voorzitter werkgroepAfsprakenstelsel Elektronische Toegangsdiensten | pagina 300Proces contentmanagement
+Voor een consistente externe communicatie is het van belang om een proces voor contentmanagement te hebben. Hiermee
+wordt de externe communicatie over  structureel inhoudelijk getoetst aan het Afsprakenstelsel en de eHerkenning
+deelnemersovereenkomst. Bij het opstellen van nieuwe content of het wijzigen van bestaande content is dit proces van
+toepassing. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3011. 2. Doelstelling
+Het proces contentmanagement heeft tot doel het:
+organiseren van consistente externe communicatie over eHerkenning Consistent betekent  in lijn met het
+Afsprakenstelsel en de deelnemersovereenkomst. op transparante wijze verwerken van aangevraagde wijzigingen, zoals veranderingen in of het verwijderen van
+bestaande content of het opstellen van nieuwe content.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 302Classificatie van wijzigingen
+Externe communicatiemiddelen betreft voornamelijk informatie op de website van eHerkenning, maar ook presentaties,
+factsheets, nieuwsbrieven, artikelen, folders, handleidingen etc. Impact Beslissingsbevoegdheid Voorbeelden
+Klein Beheerorganisatie Dagelijks beheer, zoals het plaatsen van nieuwsberichten, wijzigen van links en
+actualiseren van presentaties en factsheets
+Groot Tactisch Beraad Wijzigingen die van invloed zijn op het merk, het netwerk of de
+deelnemersovereenkomst, zoals wijzigingen in het aanmeldportaal of de keuzematrix.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 303Verantwoordelijkheden
+De  zijn verantwoordelijk voor het aanleveren van correcte content voor hun deel in de keuzematrix. deelnemers
+Tevens beheren de deelnemers hun eigen communicatiemiddelen omtrent ; eHerkenning
+Beheerorganisatie:
+De verzorgt namens de beheerorganisatie het dagelijks beheer van de algemene communicatieadviseur
+communicatiemiddelen van . De communicatieadviseur voert wijzigingen met een kleine eHerkenning
+impact door, alsmede wijzigingen met een grote impact nadat hier door het Tactisch Beraad akkoord op is
+gegeven. Als proceseigenaar  is de communicatieadviseur  er namens de beheerorganisatie tevens
+verantwoordelijk voor dat het proces wordt uitgevoerd conform de procesbeschrijving en dat de
+procesbeschrijving actueel blijft. Het heeft tot taak te besluiten over wijzigingen met een grote impact. Tactisch Beraad Afsprakenstelsel Elektronische Toegangsdiensten | pagina 304Overzicht processtappenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 305
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3061. 2. 3.

@@ -1,0 +1,300 @@
+Example Service with one EntityConcernedType
+... <esc:ServiceDefinition esc:IsPublic="true">
+<esc:ServiceUUID>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Voorbeelddienst</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Example Service</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Voorbeelddienst (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Example Service (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://example.etoegang.nl</esc:ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.12:EntityConcernedID:PseudoID</esc:
+EntityConcernedTypesAllowed>
+</esc:ServiceDefinition>
+... Example Service with two EntityConcernedTypes simultaniously
+... <esc:ServiceDefinition esc:IsPublic="true">
+<esc:ServiceUUID>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Voorbeelddienst</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Example Service</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Voorbeelddienst (BSN LoA3)</esc:ServiceDescription>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 821      <esc:ServiceDescription xml:lang="en">Example Service (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://example.etoegang.nl</esc:ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:RSIN</esc:
+EntityConcernedTypesAllowed>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:KvKnr</esc:
+EntityConcernedTypesAllowed>
+</esc:ServiceDefinition>
+... Example Service with twoEntityConcernedTypes as alternatives
+... <esc:ServiceDefinition esc:IsPublic="true">
+<esc:ServiceUUID>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Voorbeelddienst</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Example Service</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Voorbeelddienst (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Example Service (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://example.etoegang.nl</esc:ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:RSIN</esc:
+EntityConcernedTypesAllowed>
+<esc:EntityConcernedTypesAllowed setNumber="2">urn:etoegang:1.9:EntityConcernedID:KvKnr</esc:
+EntityConcernedTypesAllowed>
+</esc:ServiceDefinition>
+... Example Service with multiple Identifier sets
+... <esc:ServiceDefinition esc:IsPublic="true">
+<esc:ServiceUUID>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Voorbeelddienst</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Example Service</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Voorbeelddienst (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Example Service (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://example.etoegang.nl</esc:ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:RSIN</esc:
+EntityConcernedTypesAllowed>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:KvKnr</esc:
+EntityConcernedTypesAllowed>
+<esc:EntityConcernedTypesAllowed setNumber="2">urn:etoegang:1.12:EntityConcernedID:BSN</esc:
+EntityConcernedTypesAllowed>
+<esc:EntityConcernedTypesAllowed setNumber="2">urn:etoegang:1.9:EntityConcernedID:KvKnr</esc:
+EntityConcernedTypesAllowed>
+</esc:ServiceDefinition>
+... Example Service Accessible for EU-citizens via eIDAS
+... <esc:ServiceProvider esc:IsPublic="true">
+<esc:ServiceProviderID>99999999000000000099</esc:ServiceProviderID>
+<esc:OrganizationDisplayName xml:lang="nl">Voorbeeld DV</esc:OrganizationDisplayName>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 822        <esc:OrganizationDisplayName xml:lang="en">Example SP</esc:OrganizationDisplayName>
+<esc:ServiceDefinition esc:IsPublic="true">
+<esc:ServiceUUID>c230649d-647d-4289-80c7-b0297e3e6a29</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Voorbeelddienst EU-ready</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Example Service EU-ready</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Voorbeelddienst (BSN LoA3) die open staat voor EU-burgers
+via eIDAS</esc:ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Example Service (BSN LoA3) available for EU-citizens
+eIDAS</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://example.etoegang.nl</esc:ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed>urn:etoegang:1.12:EntityConcernedID:BSN</esc:
+EntityConcernedTypesAllowed>
+</esc:ServiceDefinition>
+<esc:ServiceInstance esc:IsPublic="true">
+<esc:ServiceID>urn:etoegang:DV:99999999000000000099:services:9994</esc:ServiceID>
+<esc:ServiceUUID>fabce53f-7ba6-44d7-aa75-789ec56431ad</esc:ServiceUUID>
+<esc:InstanceOfService>c230649d-647d-4289-80c7-b0297e3e6a29</esc:InstanceOfService>
+<esc:ServiceURL xml:lang="nl">http://example.nl</esc:ServiceURL>
+<esc:ServiceURL xml:lang="en">http://example.com</esc:ServiceURL>
+<esc:PrivacyPolicyURL xml:lang="nl">http://example.etoegang.nl/privacy.html</esc:
+PrivacyPolicyURL>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:SSOSupport>false</esc:SSOSupport>
+<esc:ServiceCertificate>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+</esc:ServiceCertificate>
+<esc:Classifiers>
+<esc:Classifier>PublicDomain</esc:Classifier>
+<esc:Classifier>eIDAS-inbound</esc:Classifier>
+</esc:Classifiers>
+<esc:BsnkStructureVersion>2</esc:BsnkStructureVersion>
+<esc:BsnkRecipientKeySetVersion>20201231</esc:BsnkRecipientKeySetVersion>
+</esc:ServiceInstance>
+<esc:ServiceInstance esc:IsPublic="true">
+<esc:ServiceID>urn:etoegang:DV:99999999000000000099:services:9993</esc:ServiceID>
+<esc:ServiceUUID>128d0878-2bc7-4400-9068-8427c5abeb47</esc:ServiceUUID>
+<esc:InstanceOfService>c230649d-647d-4289-80c7-b0297e3e6a29</esc:InstanceOfService>
+<esc:ServiceURL xml:lang="nl">http://app.example.nl</esc:ServiceURL>
+<esc:ServiceURL xml:lang="en">http://app.example.com</esc:ServiceURL>
+<esc:PrivacyPolicyURL xml:lang="nl">http://example.etoegang.nl/app/privacy.html</esc:
+PrivacyPolicyURL>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:SSOSupport>false</esc:SSOSupport>
+<esc:ServiceCertificate>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+</esc:ServiceCertificate>
+<esc:Classifiers>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 823                <esc:Classifier>PublicDomain</esc:Classifier>
+<esc:Classifier>eIDAS-inbound</esc:Classifier>
+</esc:Classifiers>
+<esc:BsnkStructureVersion>2</esc:BsnkStructureVersion>
+<esc:BsnkRecipientKeySetVersion>20201231</esc:BsnkRecipientKeySetVersion>
+</esc:ServiceInstance>
+</esc:ServiceProvider>
+... Example: Service Intermediation for eIDAS-UIT - EB intermediates BRP
+... <esc:ServiceProvider>
+<esc:ServiceProviderID>99999999000000000098</esc:ServiceProviderID>
+<esc:OrganizationDisplayName xml:lang="nl">BRP</esc:OrganizationDisplayName>
+<esc:OrganizationDisplayName xml:lang="en">BRP</esc:OrganizationDisplayName>
+<esc:ServiceDefinition>
+<esc:ServiceUUID>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Verstrekken BRP-attributen</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Verstrekken BRP-attributen</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Verstrekken BRP-attributen tbv EU inlog </esc:
+ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Verstrekken BRP-attributen tbv EU inlog </esc:
+ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://eb-toelichting.rvo.nl</esc:
+ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:KvKnr</esc:
+EntityConcernedTypesAllowed>
+<esc:ActingSubjectTypesAllowed setNumber="1">urn:etoegang:1.12:EntityConcernedID:BSN</esc:
+ActingSubjectTypesAllowed>
+</esc:ServiceDefinition>
+<esc:ServiceInstance>
+<esc:ServiceID>urn:etoegang:DV:99999999000000000098:services:9998</esc:ServiceID>
+<esc:ServiceUUID>94148585-90e3-467e-be43-5f5270326215</esc:ServiceUUID>
+<esc:InstanceOfService>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:InstanceOfService>
+<esc:ServiceURL xml:lang="nl">http://attrdienst.brp.nl</esc:ServiceURL>
+<esc:PrivacyPolicyURL xml:lang="nl">http://statement.brp.nl/privacy.html</esc:PrivacyPolicyURL>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:SSOSupport>false</esc:SSOSupport>
+<esc:ServiceCertificate>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+</esc:ServiceCertificate>
+<esc:ServiceIntermediation intermediationAllowed="requiresApproval">
+<esc:ServiceIntermediationAllowed>99999999000000000097</esc:ServiceIntermediationAllowed>
+</esc:ServiceIntermediation>
+<esc:Classifiers>
+<esc:Classifier>eIDAS-outbound</esc:Classifier>
+</esc:Classifiers>
+<esc:BsnkStructureVersion>2</esc:BsnkStructureVersion>
+<esc:BsnkRecipientKeySetVersion>20201231</esc:BsnkRecipientKeySetVersion>
+</esc:ServiceInstance>
+</esc:ServiceProvider>
+<esc:ServiceProvider>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 824        <esc:ServiceProviderID>99999999000000000097</esc:ServiceProviderID>
+<esc:OrganizationDisplayName xml:lang="nl">NL EU-knooppunt</esc:OrganizationDisplayName>
+<esc:OrganizationDisplayName xml:lang="en">NL EU-knooppunt</esc:OrganizationDisplayName>
+<esc:ServiceDefinition>
+<esc:ServiceUUID>hj67b0d3-eb48-4836-a9a4-fde50e32ac89</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Duitsland-overheid</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Germany Public service</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Duitsland-overheid (BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Germany Public service(BSN LoA3)</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://eb-toelichting.rvo.nl</esc:
+ServiceDescriptionURL>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:KvK</esc:
+EntityConcernedTypesAllowed>
+<esc:ActingSubjectTypesAllowed setNumber="1">urn:etoegang:1.12:EntityConcernedID:PseudoID</esc:
+ActingSubjectTypesAllowed>
+</esc:ServiceDefinition>
+<esc:ServiceInstance>
+<esc:ServiceID>urn:etoegang:DV:99999999000000000097:services:9997</esc:ServiceID>
+<esc:ServiceUUID>71dccfdd-2d4f-44e5-b03d-01c6580fad80</esc:ServiceUUID>
+<esc:InstanceOfService>hj67b0d3-eb48-4836-a9a4-fde50e32ac89</esc:InstanceOfService>
+<esc:IntermediatedService>94148585-90e3-467e-be43-5f5270326215</esc:IntermediatedService>
+<esc:ServiceURL xml:lang="en">http://example.com</esc:ServiceURL>
+<esc:PrivacyPolicyURL xml:lang="en">http://example.etoegang.nl/privacy_en.html</esc:
+PrivacyPolicyURL>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:SSOSupport>false</esc:SSOSupport>
+<esc:ServiceCertificate>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+</esc:ServiceCertificate>
+<esc:Classifiers>
+<esc:Classifier>eIDAS-outbound</esc:Classifier>
+</esc:Classifiers>
+<esc:BsnkStructureVersion>2</esc:BsnkStructureVersion>
+<esc:BsnkRecipientKeySetVersion>20201231</esc:BsnkRecipientKeySetVersion>
+</esc:ServiceInstance>
+</esc:ServiceProvider>
+... Example: Service Intermediation: Intermediate Service and Intermediairy Service have the same InstanceOfService (and therefore only require one mandate)
+... <esc:ServiceProvider>
+<esc:ServiceProviderID>99999999000000000098</esc:ServiceProviderID>
+<esc:OrganizationDisplayName xml:lang="nl">Naam DienstAanbieder</esc:OrganizationDisplayName>
+<esc:OrganizationDisplayName xml:lang="en">Name Intermediated ServiceProvider</esc:
+OrganizationDisplayName>
+<esc:ServiceDefinition>
+<esc:ServiceUUID>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:ServiceUUID>
+<esc:ServiceName xml:lang="nl">Naam Bemiddelde Dienst</esc:ServiceName>
+<esc:ServiceName xml:lang="en">Name Intermediated Service</esc:ServiceName>
+<esc:ServiceDescription xml:lang="nl">Beschrijving Bemiddelde Dienst</esc:ServiceDescription>
+<esc:ServiceDescription xml:lang="en">Description Intermedated Service</esc:ServiceDescription>
+<esc:ServiceDescriptionURL xml:lang="nl">http://example.etoegang.nl/</esc:ServiceDescriptionURL>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 825            <saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:EntityConcernedTypesAllowed setNumber="1">urn:etoegang:1.9:EntityConcernedID:KvKnr</esc:
+EntityConcernedTypesAllowed>
+</esc:ServiceDefinition>
+<esc:ServiceInstance>
+<esc:ServiceID>urn:etoegang:DV:99999999000000000098:services:9998</esc:ServiceID>
+<esc:ServiceUUID>94148585-90e3-467e-be43-5f5270326215</esc:ServiceUUID>
+<esc:InstanceOfService>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:InstanceOfService>
+<esc:ServiceURL xml:lang="nl">http://example.nl/</esc:ServiceURL>
+<esc:PrivacyPolicyURL xml:lang="nl">http://example.etoegang.nl/privacy.html</esc:
+PrivacyPolicyURL>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:SSOSupport>false</esc:SSOSupport>
+<esc:ServiceCertificate>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+</esc:ServiceCertificate>
+<esc:ServiceIntermediation intermediationAllowed="requiresApproval">
+<esc:ServiceIntermediationAllowed>99999999000000000097</esc:ServiceIntermediationAllowed>
+</esc:ServiceIntermediation>
+</esc:ServiceInstance>
+</esc:ServiceProvider>
+<esc:ServiceProvider>
+<esc:ServiceProviderID>99999999000000000097</esc:ServiceProviderID>
+<esc:OrganizationDisplayName xml:lang="nl">DV Naam</esc:OrganizationDisplayName>
+<esc:OrganizationDisplayName xml:lang="en">SP Name</esc:OrganizationDisplayName>
+<esc:ServiceInstance>
+<esc:ServiceID>urn:etoegang:DV:99999999000000000097:services:9997</esc:ServiceID>
+<esc:ServiceUUID>71dccfdd-2d4f-44e5-b03d-01c6580fad80</esc:ServiceUUID>
+<esc:InstanceOfService>cf48b0d3-ea45-4436-a6c4-fde50e19ef70</esc:InstanceOfService>
+<esc:IntermediatedService>94148585-90e3-467e-be43-5f5270326215</esc:IntermediatedService>
+<esc:ServiceURL xml:lang="en">http://example.com</esc:ServiceURL>
+<esc:PrivacyPolicyURL xml:lang="en">http://example.etoegang.nl/privacy_en.html</esc:
+PrivacyPolicyURL>
+<esc:HerkenningsmakelaarId>99999999000000000010</esc:HerkenningsmakelaarId>
+<esc:SSOSupport>false</esc:SSOSupport>
+<esc:ServiceCertificate>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+</esc:ServiceCertificate>
+</esc:ServiceInstance>
+</esc:ServiceProvider>
+... The use of BsnkRecipientKeySetVersion for BSNk-tranformation service is added tot AUC10.2 (see  AUC10.2
+) MachtigingsRegister of Authenticatiedienst gebruikt BSNk transformatie functieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 826The use of BsnkStructureVersion to select the appropriate BSNk-tranformation service is added tot AUC10.2 (see AUC10.2
+) MachtigingsRegister of Authenticatiedienst gebruikt BSNk transformatie functieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 827Publication
+The Beheerorganisatie publishes the service catalog at a predetermined location. Before it is published, the service catalog is
+sorted by HerkenningsmakelaarId and then by the ServiceID.

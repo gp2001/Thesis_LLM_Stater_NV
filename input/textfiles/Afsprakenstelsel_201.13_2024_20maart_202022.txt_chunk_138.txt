@@ -1,0 +1,52 @@
+MRs MAY use this text to help administrators determine the authorizations). ServiceDescriptionURL (a URL of max 512 characters where a detailed description of the service can be
+found, determined by the service provider. MRs MAY include this link to help administrators
+determine the authorizations). AuthnContextClassRef (assurance level that is required for the service, determined by the service
+provider)
+HerkenningsmakelaarId (the OIN of the  that provides the service catalog Herkenningsmakelaar (HM)
+entry for this service definition)
+EntityConcernedTypesAllowed (multivalue entry with the different types of service consumers that are
+granted access to the service). In case multiple EntityConcernedTypes are defined, they are assigned to
+Identifier sets (for more information on identifier sets, see below). ActingSubjectTypesAllowed (multivalue entry with the different types of acting subjects that are
+granted access to the service). In case multiple ActingSubjectTypes are defined, they are assigned to
+Identifier sets
+Allowed ActingSubjectTypes are:
+urn:etoegang:1.12:EntityConcernedID:PseudoID
+urn:etoegang:1.12:EntityConcernedID:BSN
+urn:etoegang:1.13:EntityConcernedID:Pseudo  (is always included by default and MUST
+NOT be specified in the ActingSubjectTypesAllowed identifier set)
+If the AD cannot deliver the ASTA, the AD will throw an error, see Interface
+specifications HM-AD
+EntityConcernedTypesAllowed and ActingSubjectTypesAllowed are split in their own lists and MUST be
+processed accordingly. The AD MUST process the ActingSubjectTypesAllowed list AND the  EntityConcernedID:Pseudo
+the MR and EB (in case of inbound authentication requests) MUST process
+the EntityConcernedTypesAllowed list
+Both EntityConcernedTypesAllowed and ActingSubjectTypesAllowed are grouped in separate Identifier
+Sets. An identifier set is a cluster of identifier Types with the same set number. Identifier Set  MUST adhere to the following rule:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 812
+Identifiers MAY be used in multiple identifier sets
+An SP may request multiple EntityConcernedTypes in an identifier set. The SP may also
+indicate to honor restrictions. When an Attribute with a ServiceRestriction is included
+in the AttributeStatement, users can access the service under the restrictions as
+specified for that type of restriction. Currently, the only restrictions supported are
+and   (deprecated). The ServiceRestriction:Vestigingsnr ServiceRestriction:SubdossierNr
+ServiceRestriction:Vestigingsnr CAN be indicated in the  , in such case Service catalog
+both the ServiceRestriction:Vestigingsnr and ServiceRestriction:SubdossierNr will be
+returned, if applicable. Identifier sets either only contain ASTA's or ECTA's
+The ASTA's MUST NOT be requested by DV's, ONLY the EB and BRP MAY request ASTA's
+ServiceRestrictionsAllowed (multivalue entry with the different types of service restrictions the service
+provider can honor). RequestedAttribute (multivalue entry with all the attributes that may be requested for this service)
+PurposeStatement (a statement by the service provider why this attribute is requested, 1024
+characters). isRequired: For each requested attribute that is included, the service provider MAY use
+isRequired to indicate whether the attribute is required for the DV application to work
+properly. If isRequired is not defined, the default value 'false' is implied. Per ServiceInstance:
+IsPublic (attribute that indicates whether the service provider is in public)
+ServiceID  (an identifier of a service instance that is unique in the context of the service provider)
+If the DV provides a , it MUST be specified in the service catalog with a reserved index portal function
+number 0. BsnkStructureVersion - Optional: This element is required when the ECTA or ASTA has a BSN or
+PseudoID, otherwise it MUST NOT be used. Value must be a valid BsnkStructureVersion (see BSNk
+confluence "1" or "2"). If no version is used, or if the BsnkStructureVersion is invalid, version 1 MUST
+be used. BsnkRecipientKeySetVersion - Optional: This element is required when the ECTA set or ASTA set
+contains a BSN or PseudoID, otherwise it MUST NOT be used. Value must be identical to the RKSV as
+noted on the BSNk keys the ServiceProvider is using voor decrypting the BSN or PseudoID. The old way of getting the recipientKeySetVersion (by retrieving this from the most recent certificate)
+MUST NOT be used after 1-1-2021. ServiceUUID  (a universally unique identifier to allow identifying and referencing this instance)
+InstanceOfService (a reference to a ServiceUUID of a Service definition being implemented. An
+InstanceOfService MUST be present).

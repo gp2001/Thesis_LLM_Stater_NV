@@ -1,0 +1,202 @@
+<md:ContactPerson>
+... </md:ContactPerson>
+</md:EntityDescriptor>
+</md:EntitiesDescriptor>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 795Versions
+When a system can send messages based on different versions of the framework, metadata MUST be supplied for each
+version. So, if an entity can communicate on several versions of the interface, both are included in the EntitiesDescriptor as
+separate EntityDescriptor. These EntityDescriptor elements MAY have the same or different EntityIDs. An HM MUST include separate EntityDescriptor elements in the metadata for the different logical systems that support the
+individual versions of the Elektronische Toegangsdiensten interfaces. So, an HM that can communicate on several versions
+of the interface will include both versions in the metadata as separate EntityDescriptor in the EntitiesDescriptor. These
+EntityDescriptors MAY have the same or different values for their EntityID attributes. An AD/KR/MR MUST inspect the values of version in the metadata to determine which EntityDescriptor is to be used to
+communicate with an HM. Only communication details from the applicable version MUST be used for processing requests
+and for authentication and securing of communication.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 796ValidFrom and ValidUntil
+For communicating a time specific change on an Entity, a participant can use SAML attribute validUntil and Elektronische
+Toegangsdiensten specific attribute validFrom (see schema below) on the EntityDescriptor. This can for instance be used to
+facilitate the transition to a new version, replacing certificates, etc... An HM MAY have one valid EntityDescriptor per supported version at any given time. If validFrom and/or validUntil are
+present, an AD/KR/MR MUST only accept requests from an HM using the communication details from a valid
+EntityDescriptor. An AD/KR/MR has only one valid EntityDescriptor at a given point in time. An AD/KR/MR MAY provide exactly two different
+EntityDescriptor elements, one of these EntityDescriptor elements MUST contain a validUntil, the other EntityDescriptor
+element MUST contain a validFrom. The dateTime value of both fields MUST be the same. These two EntityDescriptors MAY
+have the same or different EntityIDs. An HM MUST use the validFrom and validUntil in the metadata, if present, to determine
+which EntityDescriptor is valid for communication with an AD/KR/MR. Different EntityDescriptor elements for the same role MUST always be contained in a single EntitiesDescriptor element. See example  Example 2 ED - versions and validity.1.13.xmlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 797Level of assurance
+An AD or MR MUST include the   at which recognition requests can be processed in the EntityDescriptor, in Level of assurance
+the form of an extension of the EntityDescriptor element as described in the document SAML V2.0 Identity Assurance Profiles
+. Example LoA
+... <md:Extensions xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute"
+xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+<mdattr:EntityAttributes>
+<saml:Attribute NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" Name="urn:oasis:
+names:tc:SAML:attribute:assurance-certification">
+<saml:AttributeValue>urn:etoegang:assurance-class:loa3</saml:AttributeValue>
+</saml:Attribute>
+</mdattr:EntityAttributes>
+</md:Extensions>
+...Afsprakenstelsel Elektronische Toegangsdiensten | pagina 798Discovery endpoint
+An MR MUST include an endpoint which can be used by other MR's for the discovery service as specified on  Discovery
+This endpoint is defined as an attribute in the following manner: Interface MR-MR chain authorisations
+Attribute name Value
+Name urn:etoegang:service:discovery:V1
+NameFormat urn:oasis:names:tc:SAML:2.0:attrname-format:uri
+AttributeValue <URL VALUE OF ENDPOINT>
+Example discovery endpoint
+<md:EntityDescriptor eme:version="1.13" entityID="urn:etoegang:MR:...:entities:....">
+<md:Extensions>
+<mdattr:EntityAttributes>
+... <saml:Attribute
+NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"
+Name="urn:etoegang:service:discovery:V1">
+<saml:AttributeValue>https://example.mr.nl/discoveryEndpoint</saml:AttributeValue>
+</saml:Attribute>
+... </mdattr:EntityAttributes>
+</md:Extensions>
+... </md:EntityDescriptor>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 799RoleDescriptors
+AD IDPSSODescriptor
+An AD MUST include one IDPSSODescriptor element. The descriptor MUST contain , at least one SingleSignOnService element
+one SingleLogoutService and at least one ArtifactResolutionService element. The descriptor MUST NOT include any other
+elements. The first SingleSignOnService MUST indicate it supports the SAML Artifact Binding with the attributes Binding and
+Location. In case multiple SingleSignOnService elements are present, each MUST have an eme:name attribute, allowing
+Users to select an applicable endpoint. A SingleSignOnService and SingleLogoutService elements MUST indicate it supports
+the SAML Artifact binding with the attributes Binding and Location, and MUST NOT contain any other attributes. AD Example Descriptor
+... <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+WantAuthnRequestsSigned="true">
+... <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="
+https://..." index="1" />
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...."/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...." eme:name="AD1SAMLendpoint1"/>
+... </md:IDPSSODescriptor>
+... MR IDPSSODescriptor
+A MR MUST include one IDPSSODescriptor element. The descriptor MUST contain at least one SingleSignOnService elements
+and at least one ArtifactResolutionService element. The descriptor MUST NOT include any other elements. The first
+SingleSignOnService and SingleLogoutService elements MUST indicate it supports the SAML Artifact binding with the
+attributes Binding and Location, and MUST NOT contain any other attributes. In case a MR supports chain authorizations,
+another SingleSignOnService element MUST be present, with the indication it supports the SAML SOAP binding with the
+attributes Binding and Location, and MUST NOT contain any other attributes. The  SingleLogoutService MUST NOT be defined
+as part of the MR IDPSSODescriptor element. MR Example Descriptor
+... <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+WantAuthnRequestsSigned="true">
+... <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="
+https://..." index="1" />
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...." eme:name="AD1SAMLendpoint1"/>
+... </md:IDPSSODescriptor>
+... EB IDPSSODescriptor
+The eIDAS-berichtenservice (EB) MUST provide an IDPSSODescriptor in its metadata, identical  would to one an AD/MR
+supply.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 800HM SPSSODescriptors
+An HM MUST include only one IDPSSODescriptor and only one SPSSODescriptor and MUST NOT include any other elements. The IDPSSODescriptor from the HM MAY contain several SingleSignOnService and SingleLogoutService elements and MUST
+contain at least one SingleSignOnService and one SingleLogoutService element for which the Binding attribute has the value
+urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact. The SPSSODescriptor from the HM MUST contain two
+AssertionConsumerService elements with a Binding attribute which has the value urn:oasis:names:tc:SAML:2.0:bindings:
+HTTP-Artifact, and with indices 1 and 2 for responses from ADs and MRs, MUST contain at least one ArtifactResolutionService
+element with the SOAP binding and MAY NOT contain any other elements. If the HM offers support for eIDAS, the the SPSSODescriptor from the HM MUST contain one (extra)
+AssertionConsumerService element with a Binding attribute which has the value urn:oasis:names:tc:SAML:2.0:bindings:
+HTTP-Artifact, and with index 5. Example HM descriptor
+... <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+WantAuthnRequestsSigned="true">
+... <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="
+https://..." index="1" />
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...."/>
+... <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...."/>
+... </md:IDPSSODescriptor>
+<md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:
+protocol">
+... <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="
+https://..." index="1" />
+... <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://..." index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://..." index="2"/>
+</md:SPSSODescriptor>
+... BSNk
+BSNk fulfills two roles within the : Netwerk (voor Elektronische Toegangsdiensten)
+The role of Sleutelbeheerder (SB). The role of cryptographic service provider. The BSNk is a  as the Beheerorganisatie (BO) uses the metadata published (and as specified) by the BSNk special participant
+(Link will follow)
+Example metadata BSNk
+<md:EntityDescriptor entityID="urn:nl-gdi-eid:entity:99999999012345670000"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"Afsprakenstelsel Elektronische Toegangsdiensten | pagina 801    xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute">
+<md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:
+SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor>
+<ds:KeyInfo>
+<!--  PIP/PP/PI public signing key U for BSNk-activate in test network -->
+<ds:KeyName>urn:nl-gdi-eid:pp-key:test:1:U:1</ds:KeyName>
+<ds:KeyValue>
+<ds11:ECKeyValue>
+<ds11:NamedCurve URI="urn:oid:1.3.36.3.3.2.8.1.1.9"/>
+<ds11:PublicKey>Mwo=...</ds11:PublicKey>
+</ds11:ECKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:NameIDFormat>urn:nl-gdi-eid:1.0:id:Pseudonym</md:NameIDFormat>
+<md:NameIDFormat>urn:nl-gdi-eid:1.0:id:BSN</md:NameIDFormat>
+<md:SingleSignOnService Location="https://bsnk.exmaple.nl/kr/activate" Binding="http://schemas. xmlsoap.org/soap/http" />
+<md:NameIDMappingService Location="https://bsnk.exmaple.nl/kr/tranform" Binding="http://schemas. xmlsoap.org/soap/http" />
+</md:IDPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="nl">Voorbeeld BSNk</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="nl">Voorbeeld BSNk</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="nl">https://bsnk.example.nl/</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="technical">
+<md:SurName>BSNk koppelregister</md:SurName>
+<md:EmailAddress>koppelregister@bsnk.example.nl</md:EmailAddress>
+<md:TelephoneNumber>+31-10-1234567</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>
+The BSNk as Key Management Authority MUST publish its details as an SPSSODescriptor. The AssertionConsumerEndpoint
+element MUST contain the endpoint for obtaining Dienstverlener keys (AUC10 Verstrekken sleutelmateriaal Dienstverleners). The EntityDescriptor of the Sleutelbeheerder MUST contain an AdditionalMetadataLocation element, containing the location
+where the Autorisatielijst BSN can be obtained. Example SleutelBeheer EntityDescriptor
+<md:EntityDescriptor entityID="urn:nl-gdi-eid:entity:99999999012345670000"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute">
+<md:SPSSODescriptor WantAssertionsSigned="true" AuthnRequestsSigned="true" protocolSupportEnumeration="
+urn:oasis:names:tc:SAML:2.0:protocol">Afsprakenstelsel Elektronische Toegangsdiensten | pagina 802        <md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>...</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:NameIDFormat>urn:nl-gdi-eid:1.0:id:Pseudonym</md:NameIDFormat>
+<md:AssertionConsumerService Location="https://bsnk.example.nl/keymgmt/dv/key-request" index="1"
+isDefault="true" Binding="http://schemas.xmlsoap.org/soap/http" />
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="nl">Voorbeeld BSNk</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="nl">Voorbeeld BSNk</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="nl">https://bsnk.example.nl/</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="technical">
+<md:SurName>BSNk sleutelbeheer</md:SurName>
+<md:EmailAddress>sleutelbeheer@bsnk.example.nl</md:EmailAddress>
+<md:TelephoneNumber>+31-10-1234567</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>
+WantAuthnRequestsSigned
+An IDPSSODescriptor element MUST contain the WantAuthnRequestsSigned XML attribute with value "true" and MUST NOT
+contain any other optional attributes. An SPSSODescriptor element MUST contain the AuthnRequestsSigned XML attribute
+with value "true" and a WantAssertionsSigned XML attribute with value "true" and MUST NOT contain any other optional
+attributes. NameIDFormat
+An IDPSSODescriptor element MUST contain one or more NameIDFormat XML (s), containing the attribute Identificerende
+(EntityConcernedTypes) the participant supports.

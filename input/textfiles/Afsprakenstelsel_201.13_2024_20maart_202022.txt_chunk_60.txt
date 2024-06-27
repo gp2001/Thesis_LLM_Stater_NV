@@ -1,0 +1,77 @@
+Die genereert en verstrekt een Polymorf Pseudoniem en Polymorfe
+Identi
+AUC7 Proces verlenen toestemming dienstbemiddeling  — Voor Diensten die via Dienstbemiddeling kunnen
+worden ontsloten, kan toestemming van de Dienstaanbieder (DA) benodigd zijn. Dit proces beschrijft de
+werkwijze voor het verlenen van toestemming door een Dienstaanbieder aan een Dienstbemiddelaar (DB) om
+een Dienst te mogen bemiddelen. AUC8 Verkrijgen lijst Authenticatiediensten
+AUC9 Verstrekken sleutelmateriaal Dienstverleners  — Het BSNk beheert en verstrekt via een
+Herkenningsmakelaar cryptografisch sleutelmateriaal aan elke Dienstverlener (DV) die aantoonbaar beschikt
+over een PKIoverheid-certificaat. Indien de Dienstverlener geautoriseerd is om het BSN te verwerken verstrekt
+het BSNk speciaal BSN Sleutelmateriaal. De Dienstverlener ontsleutelt met dit Sleutelmateriaal het
+Versleutelde Identiteit of Versleutelde Pseudoniem van de Gebruiker dat de Dienstverlener verstrekt. AUC10 Transformeren
+AUC10.2 MachtigingsRegister of Authenticatiedienst gebruikt BSNk transformatie functie
+AUC10.3 HSM transformatie
+AUC11Afsprakenstelsel Elektronische Toegangsdiensten | pagina 469Use cases voor Gebruik
+Het gebruik van Elektronische Toegangsdiensten is geen doel op zich. Elektronische Toegangsdiensten wordt gebruikt als
+bouwsteen in een business use case waarin de business actor  een dienst afneemt van een business actor Gebruiker
+. Pas wanneer binnen deze dienst behoefte bestaat aan de  van de  speelt Dienstverlener (DV) Herkenning Dienstafnemer
+Elektronische Toegangsdiensten een rol. Use case diagrammen voor Gebruik
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 470
+Het use case diagram "Gebruik", hierboven, beschrijft de hoofd use cases waarin de herkenning van de gebruiker of een
+dienstafnemer binnen Elektronische Toegangsdiensten wordt geïmplementeerd en de sub use cases die daar een rol bij
+spelen. Per use case worden verschillende alternatieve scenario's beschreven. Hierin wordt aanvullende functionaliteit,
+functionaliteit als gevolg van een keuze van de gebruiker of functionaliteit als gevolg van een uitzondering (fout) beschreven. Daarnaast zijn er een aantal  . Use case overschrijdende alternatieve scenario'sAfsprakenstelsel Elektronische Toegangsdiensten | pagina 471GUC1 Gebruiken eToegang als dienstafnemer
+In deze use case wordt de identiteit van de dienstafnemer vastgesteld. De Herkenningsmakelaar geeft hierover een verklaring
+af aan de dienstverlener. De gebruiker voert hiertoe de  uit.De use case wordt hieronder in een GUC3 Aantonen identiteit
+activity diagram weergegeven. De verschillende acties voor use case GUC1 worden hier in meer detail beschreven. Voor de acties in use case GUC3 wordt
+verwezen naar . GUC3 Aantonen identiteit
+Nr. Actie Omschrijving
+Initiële staat De dienstafnemer gebruikt voor zichzelf een dienst bij een dienstverlener die
+authenticatie van de dienstafnemer vereist. De dienstafnemer is daarmee tevens
+gebruiker. 1.1 Dienstverlener stelt
+vraag aan
+HerkenningsmakelaarDe dienstverlener stuurt de gebruiker door naar de Herkenningsmakelaar en stelt daarbij
+een vraag. Deze vraag bevat het identificerend kenmerk van zowel de betreffende
+dienstverlener als de betreffende dienst. Alternatieve scenario's:
+Vóór stap 1.1 MAG de Dienstverlener de gebruiker een keuzescherm bieden voor het
+kiezen van een eHerkenning Authenticatiedienst. Deze lijst met relevante
+Authenticatiediensten wordt opgehaald bij de Herkenningsmakelaar en bevat eIDAS
+NIET als optie. Met de vraag wordt dan ook het identificerende kenmerk van de door
+de gebruiker gekozen Authenticatiedienst meegegeven in stap 1.1. De gebruiker kan
+ervoor kiezen deze keuze te bewaren bij de Dienstverlener in geval van succesvolle
+authenticatie. In het geval dat de dienst ook toegankelijk is na authenticatie met eIDAS-erkende
+buitenlandse authenticatie middelen, MOET de Dienstverlener de gebruiker een
+keuzescherm bieden voor het kiezen van authenticatie via eIDAS of eHerkenning
+(vóór stap 1.1). Op dit scherm kiest de dienstafnemer tussen authenticeren via eIDAS
+of via eHerkenning.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 472In het geval dat authenticatie via eIDAS wordt gekozen, wordt het identificerend
+kenmerk van de eIDAS Berichtenservice (EB) meegegeven in stap 1.1. De gebruiker
+kan er NIET voor kiezen om deze keuze te bewaren bij de Dienstverlener. 1.2 Uitvoeren GUC3
+Aantonen identiteitHet resultaat is dat de Herkenningsmakelaar een verklaring over de authenticatie van de
+gebruiker ontvangt met een . Pseudoniem
+Alternatieve scenario's:
+Wanneer in deze stap geconstateerd wordt dat er sprake is van vertegenwoordiging, wordt
+de use case vervolgd met  in . stap 2.3 GUC2 Gebruiken eToegang als vertegenwoordiger
+1.3 Herkenningsmakelaar
+beantwoordt vraag
+van dienstverlener
+met verklaringDe Herkenningsmakelaar beantwoordt de vraag van de dienstverlener. Dit antwoord bevat
+een verklaring die de Herkenningsmakelaar opstelt op basis van de van de
+authenticatiedienst ontvangen verklaring over de authenticatie van de gebruiker met
+daarin het betrouwbaarheidsniveau van de verklaring en . Identificerende kenmerken
+Finale staat De dienstafnemer is geauthenticeerd en de dienstverlener heeft daar de benodigde
+informatie over ontvangen. De dienstafname kan worden vervolgd. Informatie over de
+gebruiker kan benut worden voor personalisatie, logging e.d. ad actie 1.1: De vraag is als AuthnRequest in detail beschreven in  . Interface specifications DV-HM
+ad actie 1.3: Het antwoord is als Response in detail beschreven in  Interface specifications DV-HM . In het communication diagram hieronder is aangegeven welke varianten van AD-keuzen een Dienstverlener kan aanbieden
+en hoe de verwerkings-flow dan wordt:
+eH Inlog link: Dit is de link die de 'normale' flow waarbij de DV geen AD keuze aanbiedt start. ADList: Dit is het keuzescherm met eHerkennings authenticatie diensten dat een DV mag aanbieden. Deze lijst MAG
+de eIDAS-berichtenservice NIET bevatten. eIDAS Inlog link: Dit is de link die waarmee de gebruiker aangeeft met een buitenlands middel te willen inloggen. De
+flow wordt naar de eIDAS-berichtenservice doorgezet. Zie   Richtlijnen communicatie eIDAS
+Note: de genoemde "inlog links" in het lijstje hierboven, vind je o.a. op pagina 6 van het bijgevoegde
+document ("Klantreis eIDAS–adviesrapport 27082019.pdf").Afsprakenstelsel Elektronische Toegangsdiensten | pagina 473
+In de figuur is aangegeven volgens welke gebruikersinteractie bepaald wordt welke AD of EB gebruikt gaat wordenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 474
+GUC2 Gebruiken eToegang als vertegenwoordiger
+In deze use case, die een uitbreiding is op , wordt de identiteit van de GUC1 Gebruiken eToegang als dienstafnemer
+vertegenwoordigde dienstafnemer, de pseudo-identiteit van de gebruiker en de vertegenwoordigingsbevoegdheid van de
+gebruiker namens deze vertegenwoordigde dienstafnemer vastgesteld. De Herkenningsmakelaar geeft een nieuwe verklaring
+af aan de dienstverlener. Deze verklaring is samengesteld uit de verklaringen van de authenticatiedienst en het
+machtigingenregister.

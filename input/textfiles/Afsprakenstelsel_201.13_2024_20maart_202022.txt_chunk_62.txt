@@ -1,0 +1,101 @@
+ad actie 2.4: Het antwoord is als Response in detail beschreven in  . Interface specifications DV-HM  Afsprakenstelsel Elektronische Toegangsdiensten | pagina 476Alternatieve scenario's
+Voor deze use case bestaan geen zelfstandige alternatieve scenario's.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 477GUC3 Aantonen identiteit
+In deze use case kiest de  een authenticatiedienst en identificeert zich bij die  door het Gebruiker Authenticatiedienst (AD)
+gebruik van een authenticatiemiddel, dat hij eerder heeft verkregen (zie  ). De Use cases voor Administratie
+authenticatiedienst stelt het beoogde machtigingsregister vast en authenticeert de gebruiker voor de dienstverlener en het
+beoogde machtigingenregister en  geeft hierover een verklaring af aan de herkenningsmakelaar. Deze use case wordt
+Deze use case wordt hieronder in een activity diagram weergegeven. hieronder in een activity diagram weergegeven. De verschillende acties worden hier in meer detail beschreven. Nr. Actie Omschrijving
+Initiële staat De dienstverlener heeft een vraag gesteld aan de Herkenningsmakelaar. 3.1 De gebruiker kiest
+authenticatiedienstOp de website van de Herkenningsmakelaar kiest de gebruiker een authenticatiedienst
+uit de lijst van authenticatiediensten. De gebruiker kan ervoor kiezen deze keuze te
+bewaren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 478Zie . Dialoogbeschrijving Herkenningsmakelaars
+Alternatieve scenario's:
+Als bij stap 1.1 de gebruiker reeds een keuze voor een Authenticatiedienst heeft
+gemaakt bij de Dienstverlener, MOET stap 3.1 worden overgeslagen. De
+Herkenningsmakelaar dient de verkozen Authenticatiedienst over te nemen die in
+n. de herkenningsvraag is meegegeve
+Wanneer een  in het keuzescherm bij de Herkenningsmakelaar kiest voor Gebruiker
+een eIDAS-authenticatiedienst en zich dus wenst te authentiseren bij een
+uit een andere eIDAS-lidstaat, wordt de Gebruiker een Authenticatiedienst (AD)
+keuzescherm gepresenteerd door de  waarin de eIDAS-berichtenservice (EB)
+Gebruiker een landenkeuze moet maken (als deze keuze niet eerder bij de
+of  is geregistreerd). In het geval de DV als Herkenningsmakelaar Dienstverlener (DV)
+reeds gekozen Authenticatiedienst de   heeft eIDAS-berichtenservice (EB)
+meegegeven, geldt soortgelijk als bij de vorige bullet. De HM dient de EB als
+Authenticatiedienst over te nemen. De keuze voor de gewenste EU-lidstaat waar de gebruiker zich wenst te
+authenticeren, wordt verder gefaciliteerd door de EB. Na het maken van een
+landenkeuze, wordt de Gebruiker doorgestuurd naar de eIDAS-oplossing
+van de betreffende eIDAS-lidstaat. Wanneer de gebruiker is geauthenticeerd, stuurt
+de eIDAS-berichtenservice in zijn rol als Authenticatiedienst een antwoord naar de
+Herkenningsmakelaar, waarmee het proces vervolgt vanaf stap 3.5. De
+functionaliteit van de eIDAS-berichtenservice, anders dan het koppelvlak met een
+Herkenningsmakelaar, wordt niet in het Afsprakenstelsel gespecificeerd en hier
+uitsluitend vermeld voor volledigheid. 3.2 Herkenningsmakelaar
+stelt vraag aan
+authenticatiedienstDe Herkenningsmakelaar stuurt de gebruiker door naar de door de gebruiker
+geselecteerde authenticatiedienst en stelt daarbij een vraag. Deze vraag bevat het
+identificerend kenmerk van zowel de betreffende dienstverlener als de betreffende
+dienst. 3.3 Authenticatiedienst
+authenticeert gebruikerDe gebruiker identificeert zich bij de authenticatiedienst door het gebruik van zijn
+authenticatiemiddel, waarop de authenticatiedienst de gebruiker authenticeert. Zie . Verantwoordelijkheden Authenticatiedienst
+De gebruiker kan bevraagd worden over de te leveren attributen, bijvoorbeeld voor het
+geven van toestemming of het verstrekken van een attribuut dat nog niet eerder was
+vastgelegd. Dit heeft gevolgen voor de gebruikerservaring en de doorlooptijd van het
+authenticatieverzoek. Partijen dienen hier rekening mee te houden. Alternatief scenario:  GUC3.3 Authenticatie gebruiker mislukt
+3.4 Authenticatiedienst
+stelt rol gebruiker vastDe authenticatiedienst stelt vast in welke rol de gebruiker acteert. Mogelijke rollen zijn:
+Burger/consument
+Vertegenwoordiger
+De authenticatiedienst bepaalt dit op basis van de , de eigen Dienstencatalogus (DC)
+(contract-) administratie, of door de gebruiker te vragen een keuze te maken. Hierbij
+borgt de authenticatiedienst dat de gebruiker uitsluitend kan acteren als burger
+/consument als dit door de dienstverlener voor deze dienst is toegestaan en zodanig in
+de dienstencatalogus is vastgelegd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 479Alternatief scenario:  GUC3.3 Authenticatie gebruiker mislukt  authenticatie
+Voor het vervolg van deze use case wordt ervan uitgegaan dat de gebruiker mag acteren
+en acteert als burger/consument. De andere rollen worden in alternatieve scenario's
+uitgewerkt. Authenticatiedienst
+stelt
+het machtigingsregister
+van de gebruiker vast Indien de de gebruiker de rol van Vertegenwoordiger heeft stelt de authenticatiedienst
+vast wat het beoogde 'standaard' machtigingsregister is. Dit 'standaard'
+machtigingsregister is vastgelegd bij de aanschaf van het authenticatiemiddel (door de
+werkgever). Indien er geen 'standaard' machtigingsregister is geselecteerd start Alternatief scenario:
+. GUC3.4 Selecteren beoogd machtigingenregister RFC2331
+3.5 Authenticatiedienst
+vraagt gebruiker om
+goedkeuring voor het
+gebruik van BSN
+gegevensIndien een dienstverlener een uitvraag doet om BSN gegevens (middels de ASTA  urn:
+) MOET de AD vragen of de gebruiker zijn BSN wil etoegang:1.12:EntityConcernedID:BSN
+delen met de dienstverlener. Indien de gebruiker geen akkoord geeft, MOET de AD de
+ASTA  beschouwen als niet leverbaar en urn:etoegang:1.12:EntityConcernedID:BSN
+MOET hij proberen door te gaan met eventueel gedefinieerde ASTA (sets) met een lagere
+prioriteit. Als er niet voldaan kan worden aan de bij de dienst gedefinieerde ASTA-set,
+dan stopt de flow en reageert de AD met een Responder Error. Zie  . Error handling
+3.6 Authenticatiedienst
+beantwoordt vraag van
+Herkenningsmakelaar
+met verklaringDe authenticatiedienst beantwoordt de vraag van de Herkenningsmakelaar. Dit
+antwoord bevat een verklaring over de authenticatie met daarin het
+betrouwbaarheidsniveau van de verklaring en de gevraagde identificerende kenmerken
+van de gebruiker (versleuteld voor de beoogde ontvanger(s)). Indien de gebruiker in stap 3.1 heeft aangegeven zijn keuze voor de authenticatiedienst
+te willen bewaren dan slaat de Herkenningsmakelaar deze nu op, zodanig dat deze
+instelling ook voor andere Herkenningsmakelaars toegankelijk is. Finale staat De gebruiker is geauthenticeerd en de Herkenningsmakelaar heeft daar de benodigde
+informatie over ontvangen. ad actie 3.2: De vraag is als AuthnRequest in detail beschreven in  Interface specifications HM-AD
+ad actie 3.5: Het antwoord is als Response in detail beschreven in  Interface specifications HM-AD
+GUC3.3 Authenticatie gebruiker mislukt
+GUC3.4 Selecteren beoogd machtigingenregister RFC2331Afsprakenstelsel Elektronische Toegangsdiensten | pagina 480GUC3.3 Authenticatie gebruiker mislukt
+In stap 3.3 kan de authenticatie van de  om verschillende redenen mislukken: het authenticatiemiddel is niet van Gebruiker
+het minimaal door de dienstverlener gewenste betrouwbaarheidsniveau, het authenticatiemiddel is verlopen of
+ingetrokken, of de gebruiker gebruikt het authenticatiemiddel foutief (verkeerd wachtwoord, verkeerde kaart, et cetera). Deze situaties worden allemaal op dezelfde manier afgehandeld. De authenticatiedienst stelt de gebruiker op het scherm op de hoogte van de reden van het mislukken van de
+authenticatie. De authenticatiedienst geeft aan de gebruiker op het scherm een suggestie voor de vervolghandeling die de persoon
+naar aanleiding van de fout zou kunnen uitvoeren. De authenticatiedienst MAG de gebruiker aanbieden het opnieuw te proberen. De authenticatiedienst MOET de gebruiker de mogelijkheid bieden te annuleren (zie ). Gebruiker annuleertAfsprakenstelsel Elektronische Toegangsdiensten | pagina 481GUC3.4 Selecteren beoogd machtigingenregister RFC2331
+Nr. Actie Omschrijving
+3.4.1 Gebruiker kiest
+machtigingenregisterDe authenticatiedienst laat de gebruiker uit de lijst van machtigingenregisters het
+beoogde machtigingenregister kiezen. De gebruiker kan aangeven dat dit het 'standaard' machtigingenregister is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 482GUC4 Aantonen bevoegdheid
+eIn deze use case raadpleegt de gebruiker de machtigingenregister. Het machtigingenregister stelt op basis van de eerder met
+verkregen identiteit van de gebruiker en een eerder geregistreerde bevoegdheid (zie  GUC3 Aantonen identiteit Use cases voor
+), de identiteit van de vertegenwoordigde dienstafnemer en de pseudo-identiteit van de gebruiker vast en geeft Administratie
+hierover een verklaring af aan de Herkenningsmakelaar. De use case wordt hieronder in een activity diagram weergegeven. De verschillende acties voor use case GUC4 worden hier in meer detail beschreven. Nr. Actie Omschrijving
+Initiële staat De dienstverlener  heeft een vraag gesteld aan de Herkenningsmakelaar.

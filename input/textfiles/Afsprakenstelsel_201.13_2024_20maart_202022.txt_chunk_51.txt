@@ -1,0 +1,28 @@
+5. Handreiking exitplan
+Inleiding
+Deze handreiking geeft aanwijzingen voor een exitplan. De deelnemer kan de aanwijzingen gebruiken als basis voor het
+opstellen van zijn eigen exitplan. Het exitplan dient het doel de ordelijke stopzetting van de dienstverlening door de deelnemer, ongeacht de intentie of
+oorzaak, te waarborgen om daarmee de reputatie van de ETD-merken te beschermen en de veiligheid van en het vertrouwen
+in het stelsel te borgen. Deze stopzetting is, ofwel een gevolg van een voorziene en geplande situatie, óf het gevolg van een
+onvoorziene, niet geplande situatie, bijvoorbeeld in geval van een faillissement. De deelnemer gaat uit van een beslissing tot beëindiging van de dienstverlening en werkt daarbij minimaal één van de
+volgende scenario’s in het exitplan uit. De dienstverlening (van een of meerdere rollen) wordt overgedragen aan een andere deelnemer of;
+de dienstverlening (van een of meerdere rollen) wordt gestopt zonder overdracht. Als het stoppen van de dienstverlening slechts een (of meerdere) rol(len) betreft, terwijl de diensten van andere rollen
+worden voortgezet, dan betekent dit eveneens dat de deelnemersovereenkomst daarop aangepast dient te worden. In de beschrijving van het gekozen scenario worden de bijzonderheden aangegeven voor het geval het plan in werking moet
+treden in een onvoorziene situatie. Daarnaast moet het plan aansluiten bij hetgeen in het Operationeel Handboek is
+opgenomen over het proces uittreden. De deelnemer dient voor toetreding tot het afsprakenstelsel het exitplan uit te
+werken, waarbij inhoudelijk een detailniveau wordt verlangd dat in lijn is met de op dat moment beschikbare informatie. Als
+de deelnemer, na toetreding tot het afsprakenstelsel, daadwerkelijk de dienstverlening gaat beëindigen, dan dient het
+exitplan verder te worden uitgebreid met de dan beschikbare informatie. De situatie waarbij omgevingsfactoren ongeplande verstoring van de dienstverlening veroorzaken, valt buiten de scope van
+deze handreiking. Voor het opstellen van klassieke continuïteitsplannen is buiten het ETD-stelsel voldoende informatie
+beschikbaar. Het exitplan is een zelfstandig document, of een als zodanig herkenbaar onderdeel van het continuïteit-plan. Inhoudsopgave van het plan
+1. Doel van het exitplan
+Kerndoelen van het plan zijn:
+veiligstellen van de gebruiksgegevens , gebruikersgegevens  en berichten-logs  overeenkomstig in het 1 2 3
+afsprakenstelsel voorgeschreven bewaartermijnen;
+veilige en volledige overdracht van gebruikersgegevens, gebruiksgegevens en berichten-logs;
+waarborgen dat de bedoelde gegevens ook na de overdracht inzichtelijk gemaakt kunnen worden ten behoeve van
+opvraging door gebruikers, dienstverleners en opsporingsinstanties;
+waarborgen van mogelijkheden tot het doen van navraag door hierboven genoemde partijen over de hierboven
+genoemde gegevens;
+waarborgen van doeltreffende informatie aan klanten (Dienstverleners en Gebruikers), Beheerorganisatie en
+Toezichthouder, onderaannemers over de stopzetting en overdracht van dienstverlening en data. 2. Scope van het exit-planAfsprakenstelsel Elektronische Toegangsdiensten | pagina 4111.

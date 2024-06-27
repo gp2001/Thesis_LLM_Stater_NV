@@ -1,0 +1,54 @@
+3. De Deelnemer MOET bij essentiële wijziging in
+processen of de gebruikte technologie van
+authenticatiemechanisme of authenticatiemiddel
+opnieuw zijn processen en technische documentatie
+ter beoordeling aanbieden aan de Toezichthouder en
+de conformiteitsbeoordelaar. De deelnemer moet zijn dienstverlening aantoonbaar
+binnen de scope van de verplichte ISO 27001
+certificatie hebben gebracht.. ( zie ook authenticatiemiddel en mechanisme
+resp. par 2.2.1 en 3.2.1). In het kader van het Toezicht op het Stelsel
+vinden periodieke nalevingscontroles plaats
+door de toezichthouder. Ad 3 Toelichting: In het kader van ISO 27001
+certificatie vinden periodieke interne audits plaats
+die de voor de dienst relevante processen raken. LOA 3 4 Zelfde als LoA1 met toevoeging van:
+De MU/AD moet ten behoeve van de
+conformiteitsbeoordeling en het toezicht een actueel
+overzicht kunnen opleveren van de aan het
+authenticatiemiddel en autenticatiemechanisme,
+uitgevoerde wijzigingen, met daarbij een beschrijving
+van de impact op de conformiteit aan de gestelde
+eisen. Bij de conformiteitsbeoordeling wordt onderscheid
+gemaakt tussen verschillende typen onderzoek, te
+weten: een initieel onderzoek, een
+herhalingsonderzoek en een heronderzoek. Een initieel onderzoek is een eerste beoordeling
+over de volledige scope van het object van
+onderzoek op basis van de gestelde eisen;
+Een herhalingsonderzoek vindt uitsluitend plaats
+bij uitgevoerde wijzigingen aan het object van
+onderzoek die van invloed (kunnen) zijn op de
+conformiteit aan de gestelde eisen. De scope is
+beperkt tot de wijzigingen aan het object van
+onderzoek;
+Een heronderzoek vindt minimaal binnen drie
+jaar na uitgifte van de rapportage initieel
+onderzoek plaats over de volledige scope van het
+object van onderzoek.Ad 1 t/m 5 Toelichting: Ten behoeve van de
+voorbereiding op de conformiteitsbeoordeling is
+een 'Handreiking voorbereiding
+Conformiteitsbeoordeling' beschikbaar. Ad 3 Toelichting bij sub g: Indien van een
+conformiteitsbeoordelaar zoals bedoeld in sub g
+gebruik wordt gemaakt blijven sub a, e, f en h wel
+onverkort van toepassing. Ad 6 Toelichting: Dit artikel beschrijft de situatie dat
+de autor tot een positieve verklaring komt. Het is bij
+het afgeven van conformteitverklaringen
+een gangbare auditpraktijk dat er niet wordt gewerkt
+met vooraf bepaalde termijnen genoemd
+(bijvoorbeeld 3 maanden voor een kritieke
+afwijking). Een realistische oplostijd is namelijk
+afhankelijk van de activiteit die moet worden
+uitgevoerd (fundamentele systeemontwikkeling
+kost bijvoorbeeld meer tijd dan een aanpassing
+instellingen van applicaties en hardware). Daarom
+gaat vereist het vaststellen van deadlines maatwerk. Aangezien er een positieve auditor tot een positieve
+verklaring is gekomen zal de auditor de juiste
+uitvoering van het verbeterplan pas bij de volgende Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10033. a. b.

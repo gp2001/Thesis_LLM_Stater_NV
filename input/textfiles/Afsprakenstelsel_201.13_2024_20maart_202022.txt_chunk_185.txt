@@ -1,0 +1,290 @@
+Zie ook eis 8.3.2-02 NOTE 2. ICAO 9303 is beschikbaar op
+de volgende locatie:
+https://www.icao.int
+/publications/pages
+/publication.aspx? docnum=9303
+ICAO 9303  definities:
+MRTD = Machine Readable
+Travel Document
+Official document,
+conforming with the
+specifications contained in
+Doc , issued by a State or  9303
+organization which is used by
+the holder for international
+travel (e.g. MRP, MRV,
+MROTD) and which contains
+mandatory visual (eye
+readable) data and a separate
+mandatory data summary in a
+format which is capable of
+. being read by machine
+eMRTD = Electronic Machine
+Readable Travel Document
+An MRTD (passport, visa or
+card) that has a  contactless
+integrated circuit embedded
+in it and the capability of
+being used for biometric
+identification of the MRTD Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1010in accordance with the holder
+standards specified in the
+relevant Part of Doc —  9303
+Machine Readable Travel
+Documents. 8.3 Attribute and evidence validation
+8.3.1 General requirements
+VAL-8.3.1-08: The identity proofing
+process shall verify that the evidence is
+genuine and presented in its original
+form.NOTE 1: An evidence of a type that actually
+exists, and that is not counterfeit, has not
+been tampered with and, where applicable,
+is not a copy of the original. VAL-8.3.1-09: The authenticity and
+integrity of the evidence shall be verified. [CONDITIONAL] VAL-8.3.1-10: If the
+evidence has explicit security features
+/elements, these elements shall be
+verified.NOTE 2: This need not be all security
+elements of, e.g. a physical identity
+document. A selection of elements
+sufficient for assessing that the evidence is
+genuine can be applied.Deze eis geldt zowel voor
+fysieke identificatie, als
+identificatie op afstand. Het
+uitgangspunt is dat,
+onafhankelijk van de
+gebruikte
+identificatiemethode, alle
+veiligheidskenmerken van
+het identiteitsdocument de
+gecontroleerd zouden
+moeten worden. De
+Toetreder dient dit middels
+een analyse van de risico's,
+gecombineerd met de
+mogelijkheden die de
+identificatiemethode biedt,
+toe te lichten. 8.3.2 Validation of digital identity document
+[CONDITONAL] If digital identity
+documents are used as evidence, the
+requirements in the present clause apply.Met digitaal wordt hier
+bedoeld het uitlezen van de
+chip en/of de ‘Machine
+Readable Zone’ (MRZ). [CONDITIONAL] VAL-8.3.2-01: If the
+digital identity document is used in a
+remote identity proofing process, the
+data from the identity document shall be
+transferred to an environment
+controlled by the actor responsible for
+the identity proofing process in a
+manner that ensures authenticity,
+integrity, and confidentiality of the
+document content. VAL-8.3.2-02: The digital identity
+document shall only be accepted if the Bij NOTE 1: ETSI EN 319 102-
+1 is beschikbaar op de Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1011issuer's digital signature on the
+document is successfully validatedNOTE 1: Usually this means that the
+validation result is TOTAL-PASSED as
+defined by ETSI EN 319 102-1 [i.5]. NOTE 2: For an eMRTD document following
+ICAO 9303 part 10 [2], country signing
+, e.g. downloaded from the ICAO certificates
+PKD (Public Key Database), are needed for
+validation.volgende locatie:
+https://www.etsi.org/deliver
+/etsi_en/319100_319199
+/31910201/01.01.01_60
+/en_31910201v010101p.pdf
+[CONDITIONAL] VAL-8.3.2-03: If an
+online status service to confirm the
+document's validity exists and is
+practically available, the process shall
+use this service to verify that the
+document is currently valid.NOTE 3: Meaning not revoked, suspended,
+or reported as lost/stolen. Not all document
+issuers have available lookup services to
+check validity, and in some cases access to
+lookup services is restricted. Regarding
+current validity, note that there can be a
+delay in the order of days between the
+events of revoking a document and
+updating a status service. NOTE 4: If digital identity documents from
+many different sources are accepted, online
+access (interactive or by API) to all the
+different status services can be impractical
+for documents that occur infrequently.Voor ETD/eHerkenning wordt
+deze eis ingevuld middels  een
+gestolen/vermist-controle
+vanaf
+betrouwbaarheidsniveau
+LoA3. [CONDITIONAL] VAL-8.3.2-04: If the
+digital identity document is required to
+be read from a chip embedded in a
+physical identity document, the identity
+proofing process shall ensure that
+neither the applicant nor an external
+attacker can inject into the process a
+copy of a digital identity document that
+has previously been obtained and stored
+by the attacker.NOTE 5: Fulfilment of this requirement can
+depend on the protocol supported by the
+chip; reliable fulfilment can be difficult if
+the chip does not support a protocol that
+supports cloning detection. NOTE 6: Fulfilment of this requirement can
+rely on the applicant's use of software that is
+approved for the identity proofing process,
+e.g. mobile app functionality. VAL-8.3.2-05: Information obtained
+from the digital identity document shall
+be recorded as needed for binding to
+applicant and to evidence the identity
+proofing process.NOTE 7: In addition to identity attributes,
+required information to be recorded is
+typically at least  validity period, and issuer,
+the document's unique identification
+number.Bij NOTE 7: v oor ETD
+'issuer' /eHerkenning wordt
+geïnterpreteerd als het land
+van uitgifte van het WID. De
+ICAO-standaard haalt voor de
+landcodes de standaard ISO
+3166-1 aan. VAL-8.3.2-06: The face photo contained
+in the digital identity document shall be
+extracted to enable binding to applicant. 8.3.3 Validation of physical identity document
+[CONDITONAL] If a physical identity
+document is used as evidence, the
+requirements in the present clause apply.NOTE 1: A physical identity document can
+be used with the applicant's physical Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1012presence and remotely by the applicant
+presenting the document in front of a
+camera. VAL-8.3.3-01: The process shall verify
+that the physical identity document
+presented is visually equal to the
+expected visual appearance of the
+document type. [CONDITONAL] VAL-8.3.3-02: If a
+physical identity document is used as
+evidence in a remote validation process,
+the process shall ensure that the
+applicant has the document in hand and
+presents the document in real-time in
+front of a camera.NOTE 2: It is required that this happens at
+the time of the identity proofing;
+submission of a pre-recorded photo or
+video stream of an identity document is
+considered not to meet the requirements
+for identity proofing to Baseline LoIP. NOTE 3: This can rely on the applicant's use
+of software approved for the identity
+proofing process, e.g. mobile app
+functionality.Remote validation is in deze
+context het op afstand
+beoordelen van de echtheid
+van het fysieke
+identiteitsdocument. Zie ook
+de definitie van validation. VAL-8.3.3-03: The process shall ensure
+that the document presented by the
+applicant is a genuine, physical identity
+document that is not counterfeited or
+falsified/modified. [CONDITIONAL] VAL-8.3.3-04: If the
+physical identity document is used in a
+remote identity proofing process, the
+applicant's presentation of the identity
+document in front of a camera shall
+include recording of a video sequence to
+visualize the physical characteristics of
+the identity document and its security
+features. The recording shall cover each
+relevant side of the identity document
+presented by the applicant.EXAMPLE 1: The applicant can be given
+instructions for the movement of the
+identity document, where the specific
+actions and/or their sequence are
+unpredictable to the applicant. NOTE 4: With the current state of
+technology, the use of a still photo of the
+identity document is not considered
+sufficient for Baseline LoIP. This can change
+in the future with the development of image
+analysis technology. EXAMPLE 2: Both the front and back sides of
+a national identity card will usually need to
+be presented. [CONDITIONAL] VAL-8.3.3-05: If the
+physical identity document is used in a
+remote identity proofing process, the
+process shall ensure that the video
+stream is transmitted to an environment
+controlled by the actor responsible for
+the identity proofing process in a
+manner that ensures authenticity,
+integrity, and confidentiality of the video
+stream.NOTE 5: In particular, to protect against
+replay attack with the injection of another
+video stream in the process.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1013[CONDITONAL] VAL-8.3.3-06: If the
+process is performed with manual
+validation of the physical identity
+document, the registration officer shall
+have access to authoritative sources of
+information on document appearance
+and document validation.EXAMPLE 3: PRADO (Public Register of
+Authentic Travel and Identity Documents
+Online) for the EU and the EEA countries.Bij EXAMPLE 3: PRADO is
+beschikbaar op de volgende
+locatie:  https://www. consilium.europa.eu/prado
+/nl
+VAL-8.3.3-07: Security elements of
+physical identity documents shall be
+verified to the extent needed to obtain
+sufficient reliability in the genuineness
+of the document; the verification process
+shall be documented.EXAMPLE 4: Security elements can be
+watermarks, holograms, printing
+techniques, visual and infrared light
+patterns, and see-through elements. [CONDITONAL] VAL-8.3.3-08: If the
+process is performed with the physical
+presentation of physical identity
+documents, the registration officer shall
+verify optical and haptic/tactile security
+features if any. [CONDITIONAL] VAL-8.3.3-09: If an
+online status service to confirm the
+physical identity document's validity
+exists and is practically available, the
+process shall use this service to verify
+that the document is currently valid.NOTE 6: Meaning not revoked, suspended,
+or reported as lost/stolen. Not all document
+issuers have available lookup services to
+check validity, and in some cases access to
+lookup services is restricted. Regarding
+current validity, note that there can be a
+delay in the order of days between the
+events of revoking a document and
+updating a status service. NOTE 7: If physical identity documents from
+many different sources are accepted, online
+access (interactive or by API) to all the
+different status services can be impractical
+for documents that occur infrequently. VAL-8.3.3-10: Information printed on
+physical identity documents shall be
+recorded as needed for binding to
+applicant and to evidence the identity
+proofing process.NOTE 8: Information can be extracted by
+manual transcription, automatically for
+example by optical scanning and OCR
+techniques, and in some cases by photo
+/photocopy of the document. NOTE 9: In addition to identity attributes,
+required information to be recorded is
+typically at least issuer, validity period, and
+the document's unique identification
+number. [CONDITONAL] VAL-8.3.3-11: If face
+is applied to bind the physical biometricsAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1014identity identity document to the
+applicant, the face photo printed on the
+identity document shall be extracted. [CONDITONAL] VAL-8.3.3-12: If the
+physical identity document is used in a
+remote identity proofing process, and
+the identity document has an MRZ
+(machine readable zone), the
+information from the MRZ should be
+extracted and validated. [CONDITONAL] VAL-8.3.3-13: If the
+physical identity document is validated
+by manual procedures, the validation
+task should be assigned randomly
+among available registration officers. [CONDITONAL] VAL-8.3.3-14: If
+validation of physical identity
+documents is done manually, the
+validation shall be carried out by a
+registration officer that has received
+appropriate training covering at least the
+following:
+a) Fraud prevention and detection of
+forgery. b) Data protection. c) Communication training (when the
+registration officer is required to
+communicate with the applicant).

@@ -1,0 +1,155 @@
+. </saml2:AttributeStatement>
+</saml2:Assertion>
+Example HM assertion - Attribute Statement - eIDAS-OUT using Service Intermediation
+<saml2:AttributeStatement xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+<saml2:Attribute Name="urn:etoegang:core:ServiceUUID">
+<saml2:AttributeValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string"
+>dafca82e-4806-408e-956e-3a7092643e54</saml2:AttributeValue>
+</saml2:Attribute>
+<saml2:Attribute Name="urn:etoegang:core:ServiceID">
+<saml2:AttributeValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string"
+>urn:etoegang:DV:00000001111111110000:services:8002</saml2:AttributeValue>
+</saml2:Attribute>
+<saml:Attribute Name="urn:etoegang:core:Representation" xmlns:saml="urn:oasis:names:tc:SAML:2.0:
+assertion">
+<saml:AttributeValue xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xsi="http://www.w3. org/2001/XMLSchema-instance" xsi:type="xs:boolean">true</saml:AttributeValue>
+</saml:Attribute>
+<!-- igv de service via de Service Catalog vraagt om een ServiceRestriction en de MR-->
+<!-- heeft een service restriction bij de machtiging. Vb restrictie op KvK Vestigingsnr-->
+<saml:Attribute Name="urn:etoegang:1.9:ServiceRestriction:Vestigingsnr">
+<saml:AttributeValue xsi:type="xs:string">123456789012</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:ActingSubjectID" xmlns:saml="urn:oasis:names:tc:SAML:2.0:
+assertion">
+<saml:AttributeValue>
+<!-- # ActingSubjectID - BSN:VP@RVO (PseudoID voor de EB) -->
+<saml:EncrypedID>
+<xenc:EncryptedData Id="_cd52e15a16e2a0aa751725ce76a6b866" Type="http://www.w3.org/2001
+/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+<ds:KeyInfo>
+<ds:RetrievalMethod Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey"URI="
+#_15531f42aa31bbd4" />
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>...</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+<xenc:EncryptedKey Id="_15531f77a9f1e0b5e0cce442aa31bbd4" Recipient="urn:etoegang:DV:
+00000001111111110000:entities:9613">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+</xenc:EncryptionMethod>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>yRy923JJlgAi2MTgx1qohLiDBgi...</xenc:CipherValue>
+</xenc:CipherData>
+<xenc:ReferenceList>
+<xenc:DataReference URI="#_cd52e15a16e2a0aa751725ce76a6b866" />
+</xenc:ReferenceList>
+</xenc:EncryptedKey>
+</saml:EncrypedID>
+</saml:AttributeValue>
+<saml:AttributeValue>
+<!-- # ActingSubjectID - BSN:VI@RVIG (BSN voor BRP-Attributendienst)-->
+<saml:EncrypedID>
+<xenc:EncryptedData Id="_ed3457856888ad576a0aa751725ce76a6b866" Type="http://www.w3.org
+/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />Afsprakenstelsel Elektronische Toegangsdiensten | pagina 556                    <ds:KeyInfo>
+<ds:RetrievalMethod Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey"URI="
+#_4567788aa31bbd4" />
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>...</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+<xenc:EncryptedKey Id="_15531f77a9f1e0b5e0cce442aa31bbd4" Recipient="urn:etoegang:DV:
+00000002222222220000">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+</xenc:EncryptionMethod>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>UtEw923JJlgAi2MTgx1qohLiDBgi...</xenc:CipherValue>
+</xenc:CipherData>
+<xenc:ReferenceList>
+<xenc:DataReference URI="#_cd52e15a16e2a0aa751725ce76a6b866" />
+</xenc:ReferenceList>
+</xenc:EncryptedKey>
+</saml:EncrypedID>
+</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:LegalSubjectID" xmlns:saml="urn:oasis:names:tc:SAML:2.0:
+assertion">
+<saml:AttributeValue>
+<!-- # LegalSubjectID - KvK voor de EB)-->
+<saml:EncryptedID>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="
+_6bc1c98ef545444da370efd74371ff6f" Type="http://www.w3.org/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:RetrievalMethod URI="#_105e787ebce14ea2b6655adb4d736b86" Type="http://www.w3. org/2001/04/xmlenc#EncryptedKey" />
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>lx922tGEfI9T7WgoduHAZ941XA....</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="
+_105e787ebce14ea2b6655adb4d736b86" Recipient="urn:etoegang:DV:00000001111111110000:entities:9613">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+<ds:DigestMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="
+http://www.w3.org/2000/09/xmldsig#sha1" />
+</xenc:EncryptionMethod>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:KeyName>022A8DEA6C6F6CFA466BF18AF714F4CD0611DF3A4CAF23CF67B8BB8F7FC07CAF</ds:
+KeyName>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>gNDIheioi3mgjeyCTviEXDui3.....</xenc:CipherValue>
+</xenc:CipherData>
+<xenc:ReferenceList>
+<xenc:DataReference URI="#_6bc1c98ef545444da370efd74371ff6f" />
+</xenc:ReferenceList>
+</xenc:EncryptedKey>
+</saml:EncryptedID>
+</saml:AttributeValue>
+<! # LegalSubjectID - Geen KvK voor de dienstaanbieder.>
+</saml:Attribute>
+<!-- # CompanyName werkgever voor de EB.-->
+<saml:EncryptedAttribute>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="Afsprakenstelsel Elektronische Toegangsdiensten | pagina 557_67947663adfasdf9410780097b9bf2f04fa8" Type="http://www.w3.org/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+<ds:DigestMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3. org/2000/09/xmldsig#sha1" />
+</xenc:EncryptionMethod>
+<ds:KeyInfo>
+<ds:KeyName>57890EA6C6F6CFA466BF18AF714F4CD0611DF3A4CAF23CF67B8BB8F7FC07CAF</ds:KeyName>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>WYuIOsaf1aNbZdRQPXepQjlw4Tg...</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+</saml:EncryptedAttribute>
+<!-- # Optionele Bedrijfs attributen (CompanyName) voor de EB.-->
+<saml:EncryptedAttribute>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="
+_6974a3dsdf9410780097b9bf2f04fa8" Type="http://www.w3.org/2001/04/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+<ds:DigestMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3. org/2000/09/xmldsig#sha1" />
+</xenc:EncryptionMethod>
+<!-- # EB should recognise KeyName.-->
+<ds:KeyInfo>
+<ds:KeyName>57890EA6C6F6CFA466BF18AF714F4CD0611DF3A4CAF23CF67B8BB8F7FC07CAF</ds:KeyName>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>WYuIOsaf1aNbZdRQPXepQjlw4Tg...</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+</saml:EncryptedAttribute>
+</saml2:AttributeStatement>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 558AttributeStatement
+The <AttributeStatement> in the summary assertion MUST hold the relevant attribute values obtained in the assertions of
+the authentication process. The HM MUST NOT add any attributes that are not present in the gathered assertion. Element
+/@Attribute0..

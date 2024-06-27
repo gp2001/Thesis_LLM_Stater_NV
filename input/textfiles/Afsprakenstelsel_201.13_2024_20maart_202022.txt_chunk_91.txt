@@ -1,0 +1,38 @@
+3. Interface specifications AD-BSNk
+The most recent version of the technical BSNk specifications are available on  or on https://wiki.bsn-koppelregister.nl/
+request (beheerorganisatie BSNk through . The information below is for information only. servicecentrum@logius.nl)
+In order to provide a polymorphic pseudonym and/or identity of the acting user, an interface is necessary beween the AD/MU
+and BSNk. This interface facilitates three functions:
+It implements for the MU. AUC6 Activeren BSN
+It implements   so the AD can transform the PI into the EI or the PP into an EP. AUC10 Transformeren
+It registers the status of the authentication means in the BSNk inzageregister. The <ReadableCardInfo> that SHOULD
+be used is "eHerkenningsmiddel bij <naam aanbieder>"Afsprakenstelsel Elektronische Toegangsdiensten | pagina 607
+Interface specifications MR-BSNk
+The most recent version of the technical BSNk specifications are available on  or on https://wiki.bsn-koppelregister.nl/
+request (beheerorganisatie BSNk through . The information below is for information only. servicecentrum@logius.nl)
+In order to realize s tep 7 in the   an interface is necessary beween the MR and AUC3.1 Registreren bevoegdheid eenmanszaken
+BSNk. This interface wil implement  for the MR. In order to facilitate the AUC6 Activeren BSN transformation of the PI or PP
+this interface will also implement  . This will allow the MR to AUC10 Transformeren transform the PI  into the EI or the PP into
+of the owner of the sole trader for the DV who requested this information. an EP
+The correct recipientKeySetVersion used in this transformation MUST be  read from the  by reading the Service catalog
+field BSNk-recipientKeySetVersion. If no BSNk-recipientKeySetVersion has been set, the RKSV MUST be derived from the
+.notBefore (YYYYMMDD notation) date of the most recent issued (using validity.notBefore) certificate of the service validity
+instance in the . Service catalog
+On a technical level this interface to the  is identical (a specified SOAPaction will be used between MR and BSNk) Interface
+. The MR MUST implement  communicating to the BSNk. Specifications aux MR - BSNk this interface as if it were an ADAfsprakenstelsel Elektronische Toegangsdiensten | pagina 608Information security requirements
+This chapter describes the requirements that apply to the information security measures that are implemented. Digital signature
+DNSSEC
+Encryption
+SAML encryption  — Encryption in combination with SAML is achieved via XML-encryption. This paragraph
+provides an explanation of encrypted elements as well as elements encrypted to multiple recipients. End-to-end encryption  — End-to-end encryption is applied in Elektronische Toegangsdiensten to protect privacy of
+anyone (acting users) or organisations (especially "single person businesses" or "eenmanszaak"). The BSN is one of
+the main privacy concerns, following from Dutch law, but other personally identifiable information must also be
+protected. Using end-to-end encryption as described on this page avoids an Herkenningsmakelaar (HM) becoming an
+unintended hotspot for information on service usage. PKIoverheid
+Secure connection
+Secure cookies
+Synchronize system clocksAfsprakenstelsel Elektronische Toegangsdiensten | pagina 609Digital signature
+To guarantee authenticity, integrity and non-repudiation, each message described MUST be provided with a digital signature
+from the message sender. The message recipient MUST validate all of the digital signatures in the message before processing
+it. The recipient MUST check that the message is signed with a valid digital signature that envelopes the whole message
+with Enveloped Signature Transform.

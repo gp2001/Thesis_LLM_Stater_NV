@@ -1,0 +1,60 @@
+ii. De Deelnemer moet het e-
+mailadres en telefoonnummer
+valideren als deze
+contactgegevens gebruikt
+worden als onderdeel van het
+registratieproces (versturen
+van activatiecodes, links of
+(one-time) passwords). Voor validatie van de
+aangeleverde
+identiteitsverklaringen MOET
+geaccepteerd worden dat een
+van de onderstaande bronnen
+een invulling zijn van een
+officiële neutrale en
+betrouwbare bron;
+De Nederlandse
+Basisadministratie
+Personen (BRP, voorheen
+bekend als GBA)
+De HRM-database met
+persoonsgegevens van
+medewerkers van een
+onderneming of
+rechtspersoon, indien aan
+voorwaarden i, ii, iii
+en iv wordt voldaan:
+De bruikbaarheid van
+het middel is beperkt
+tot die onderneming
+of rechtspersoon in
+Nederland. Het middel en de
+machtigingen zijn bij
+dezelfde deelnemer
+uitgegeven.Ad 2 In Nederland is de Basisregistratie Personen (BRP) als de formele en
+gezaghebbende bron voor identiteitscontrole. Validatie van identificerende
+gegevens waarbij de HRM database van een werkgever of een
+werkgeversverklaring als bron wordt gebruikt MOETEN slechts betekenis
+hebben binnen de bedrijvencontext. Dergelijke validaties zijn vanwege de
+mogelijkheden tot opzettelijk misbruik door de aanvrager ongeschikt voor
+uitgifte van middelen die in het burgerdomein (BSN domein) en
+consumentendomein gebruikt kunnen worden. Deelnemers MOGEN NIET
+dit risico met gebruiksvoorwaarden afdekken. Het middel een MOET
+zodanige werking hebben dat gebruik daarvan in het burgerdomein en
+consumentendomein onmogelijk is gemaakt. In het geval de bankoverschrijving als een toegevoegde verificatie wordt
+gebruikt:
+De bankrekening MOET een privérekening zijn bij een bank waar de
+aanvrager dezelfde persoon is als de enige bankrekeninghouder
+en; waarvoor de financiële instelling voor het openen van de bankrekening
+de rekeninghouder zich conform wettelijke vereisten heeft moeten laten
+identificeren, op basis van een geldig identiteitsbewijs. Ad 4 Kern van deze norm is dat identificatie bij registratie of uitgifte altijd
+op het juiste heeft plaats gevonden. Voor een gekwalificeerd certificaat LoA
+heeft een identificatie op LoA4 plaats gevonden. Ten behoeve van de
+uitgifte van middelen voor gebruik in het burgerdomein moet altijd een
+verificatie van het BSN plaatsvinden aan het originele WID van de
+Aanvrager. Voor LoA3: Validatie van het BSN moet middels een registratie in
+het BSNk plaatsvinden. Ad 5c M.b.t. vereisten voor validatie van elektronische handtekening die
+niet op PKI zijn gebaseerd:
+Een gelijke kwaliteit (equal quality) van validatie kan uitsluitend
+worden bereikt met een handgeschreven  of op PKI- handtekeningen
+technologie gebaseerde handtekeningen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9332. b. iii.

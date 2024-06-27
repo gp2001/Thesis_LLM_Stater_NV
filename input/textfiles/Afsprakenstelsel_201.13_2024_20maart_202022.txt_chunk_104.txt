@@ -1,0 +1,61 @@
+TemporarilyUnavailable Request could temporarily not be processed. A new request for transformation of a Polymorphic
+Pseudonym or Polymorphic Identity MAY be sent at a later moment by the requesting party.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 660Alternative interfaces
+For eHerkenning, the use of Interface specifications DV-HM from versions 1.9 and up are allowed. An HM MAY offer alternative interfaces to DV's, provided they meet the   described in this Information security requirements
+document. Prior to doing so, the HM MUST submit the specifications for each alternative interface to the Beheerorganisatie for approval.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 661Attribute elements
+Within the interface specifications, a number of generic SAML, XACML and specific Elektronische
+Toegangsdiensten attributes are defined. These form our "profile". Generic attribute elements
+EntityID  — All systems in the network are identified by a unique EntityID, which is specified in the SAML
+metadata. Level of assurance  — Elektronische Toegangsdiensten distinguishes five different levels of assurance. LinkedDeclarationSignatureValue
+OIN format  — The OIN format is used to indicate participants, service providers and specific types of service
+consumers and intermediaries. OIN stands for Organization Identifying Number. Pseudonyms  — A user may be referred to as follows:
+Encrypted Pseudonym  — An Encrypted Pseudonym is a Persistent Pseudonym encrypted under
+Polymoprohic Pseudonimization for a specific recipient. Internal pseudonym  — The internal pseudonym is determined by the AD and MUST be unique within
+the AD its context. Every time the same authentication token is used, it should return the same
+internal pseudonym. When requested by the user, a new pseudonym MAY always be ignored. An
+internal pseudonym that has been used MUST NOT be reused. The only exception is when an
+authentication token is replaced and the AD can determine with sufficient certainty that it is really
+being replaced. In this case, the same internal pse
+Persistent Pseudonym  — A Persistent Pseudonym is a pseudonym identifier for a natural person
+specific for the relying party, that is persistent independent of the Attesting Party. Polymorphic Pseudonym  — A Polymorphic Pseudonym is a cryptographic structure that can be
+transformed into a specific Encrypted Pseudonym, without disclosing the relevant subject due to
+Polymorphic Pseudonimization. Specific pseudonym  — The specific pseudonym is unique for each different combination of user,
+represented service consumer, intermediary and service provider. ServiceID  — ServiceID is an identifier of a service that is unique in the context of the service provider. ServiceUUID  — ServiceUUID is an identifier of a service that is unique in the context of the network, but not
+linked to one service provider. SAML attribute elements  — This section describes the data elements that occur in messages as SAML attribute
+element. ActingSubjectID  — A SAML Attribute element with one or more identities of the user for one or more Relying
+Parties. AuthorizationRegistryID  — A SAML Attribute element with an EntityID from the MR that must be queried in
+the use case GUC4 Aantonen bevoegdheid. DeprecatedActingSubjectID  — A SAML Attribute element with one or more deprecated identities of the user
+for one or more Relying Parties, used to support migrations of identifiers. EherkenningPreferredLanguage  — A URL or POST variable containing the language preference of user. EntityConcernedID (SAML)  — A SAML Attribute element with the identifying attribute of the service consumer
+that is represented by the user (who might be the same). IntendedAudience  — A SAML Attribute element with an EntityID from the DV that will be the recipient of the
+response. Representation  — A SAML Attribute element with an indication whether there is an issue of representation
+ServiceID (SAML)  — A SAML Attribute element with the ServiceID of the service for which access is being
+requested or for which authorization has been determined. ServiceUUID (SAML)  — A SAML Attribute element with the ServiceUUID of the service for which access is
+being requested or for which authorization has been determined. XACML attribute elements  — This chapter describes all of the XACML data elements defined for Elektronische
+Toegangsdiensten. ActingEntityID  — A XACML Attribute element containing the specific pseudonym of the user. ActingSubjectID (XACML)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 662Action-ID  — A XACML Attribute element containing the action ID. AssertionConsumerServiceIndex  — An XACML Attribute element based on the SAML attribute with the same
+name containing the value that MUST match an index of the AssertionConsumerService in the metadata of
+the Herkenningsmakelaar. Assertions
+DeprecatedActingSubjectID (XACML)  — A XACML Attribute element containing the specific pseudonym of the
+user, for purposes of migrating user identifiers. EncryptedAttribute  — An encrypted additional attribute whereby each encrypted attribute is assigned a
+unique Encrypted_DATA_ID  that is the same as the name of the attribute in the Attribute catalog. Intermediates  — A multi-value SAML Attribute element containing the identification attributes of
+intermediaries in a chain authorization. LegalSubjectID
+LevelOfAssurance  — A XACML Attribute element containing the minimum level of assurance that is required
+by the service provider. LevelOfAssuranceUsed  — An XACML Attribute element containing the level of assurance of the registered
+authorization. ServiceID (XACML)  — An optional XACML Attribute element that matches the SAML attribute described in
+ServiceID (SAML). ServiceUUID (XACML)  — An optional XACML Attribute element that matches the SAML attribute described in
+ServiceUUID (SAML).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 663Generic attribute elements
+EntityID
+Level of assurance
+LinkedDeclarationSignatureValue
+OIN format
+Pseudonyms
+Encrypted Pseudonym
+Internal pseudonym
+Persistent Pseudonym
+Polymorphic Pseudonym
+Specific pseudonym
+ServiceID
+ServiceUUIDAfsprakenstelsel Elektronische Toegangsdiensten | pagina 664
+EntityID
+All systems in the network are identified by a unique EntityID, which is specified in the . SAML metadata The EntityID has the
+format  urn:etoegang: <ROLE>:<OIN>:entities:<index>  where <ROLE> can have the values DV, HM, AD, MR or EB, <OIN>
+represents the OIN of the participant. The <index> is a number between 0 and 8999 that can be selected by the participant or
+the service provider to define different endpoints. Numbers between 9000 and 9999 are reserved for test systems.

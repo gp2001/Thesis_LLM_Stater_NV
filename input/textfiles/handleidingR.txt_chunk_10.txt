@@ -1,0 +1,94 @@
+EengroepRstatemen tsisofweleenenkeleopdracht,
+ofweleenrijopdrachtenomsloten dooraccoladen. Bijvoorbeeld,defunctiesdev
+>sdev<-function(x) sqrt(var(x))
+berekentdesteekpro ef-standaarddeviatie. Hetdenitie gedeelte bestaat hieruiteenenkele
+statemen tenroepttweeandere functies aan.Eeningewikk eldervoorbeeldisdesteekpro ef
+kurtosis. >kurtosis <-function(x){
++vierdemoment <-sum((x-mean(x))^4)/(length(x )-1)
++tweedemoment <-var(x)
++vierdemoment/(tweedemom ent^2)
+}
+Wijzigen vandedenitie kanopverschillende manieren. Allereerst ishetmogelijk een
+nieuwedenitie vanvorenafaanintetypen.Gemakk elijkerisomgebruik temakenvan
+eeneditor. Na
+>kurtosis <-vi(kurtosis)12:ZelfFuncties Schrijven 31
+neemtdeUNIX-editorvihettijdelijk overvanRendefunctiedenitie kanbinnenvi
+worden veranderd. Savedeuiteindelijk etekst binnenvienverlaatvi.IndehervatteR
+sessie geldtvervolgens denieuwedenitie. Eenandere manier omgebruik temakenvaneeneditor isdoordefunctie eerstopeen
+UNIX-letedump en,deUNIX-letebewerkenmeteeneditor envervolgens delebinnen
+Rtesourcen. Ditisvooralhandig binnen eenwindo wsysteem, omdat Rendeeditor dan
+tegelijk ertijd inverschillende windo wskunnen worden gebruikt. Hetalgemene schema is
+alsvolgt. >dump("functienaam", "filenaam")
+:::
+(editdelefilenaam metjefavoriete editor, buiten R)
+:::
+>source("filenaam")
+Volgens hetzelfde ideeishetookmogelijk eennieuwefunctie binnen Rintevoeren. Creeer
+eerstmetbehulpvaneeneditor buiten Reentekstlemetdaarin dedenite vandefunctie. Gebruik vervolgenssource omdefunctie binnen Rtecreeren. Het`dump en'blijftnudus
+achterwegeenvoorhetaanbrengen vanveranderingen isdump ookonnodigzolang de
+oorspronk elijketekstleblijftbestaan. Bijdeaanroepvaneenfunctie isieder argumen tofwelverplicht,ofweloptioneel. Dit
+verschilwordtzowelbijdeuitvoeringalsbijdedenitie vandefunctie bepaald. Teneerste
+behoefteenargumen tdatbijeenbepaalde uitvoeringvandefunctie nietgebruikt wordt,
+ooknietteworden meegegev en.Bovendien iseeneenargumen tpermanen toptioneel als
+indedenitie vandefunctie eendefault waarde ismeegegev en.Ditgebeurtmetbehulp
+vandeconstructie arg=defaultwaar deindedenitie. >macht<-function(x, k=2)x^k#dedefaultwaarde voorkis2
+>
+>macht(5) #dedefaultwaarde wordtgebruikt
+[1]25
+>macht(5,3) #dedefaultwaarde wordtgenegeerd
+[1]125
+Toekenningen binnen eenfunctie zijnlocaalvoorhet`frame'vandiefunctie. Ditbetekent,
+datdedirecte resultaten vanzulketoekenningen nadevolledige uitvoeringvandefunctie
+verloren zijn.Alleen dewaarde vandelaatste regelvandefunctie wordtdoorgegev enaan
+hethoofdprogramma. Hulpvariabelenbinnen defunctie kunnen derhalv ezonder bezwaar
+dezelfde namen alsvariabeleninhethoofdprogramma bezitten. Andersom dientallerele-
+vanteinformatie vandefunctie opdelaatste regelteworden gezet. >x<-0
+>verloren <-function(x) {x<-3;x}
+>verloren(x)32 12:ZelfFuncties Schrijven
+[1]3
+>x
+[1]0
+Inhetzeldzame gevaldateenglobale enpermanen tetoekenning binnen eenfunctie debedoeling
+is,kangebruik worden gemaakt vande<<-operator. >bewaard <-function(x) x<<-3
+>bewaard(x)
+[1]3
+>x
+[1]3
+Deargumen tenvaneenfunctie mogen vaniedertypeR-objectzijn;derhalv eookfuncties. Bijvoorbeeld,alsqverdeling dekwantielfunctie vaneengeneriek ekansverdeling geeft,
+dangeeftdevolgende functie eengenerator vantoevalsgetallen uitdieverdeling. >rverdeling <-function(n,qverdelin g){
++u<-runif(n)
++qverdeling(u)}
+>
+Voordezinvolheid vandezedenitie hoefteenfunctie metdenaamqverdeling niet
+tebestaan, daarqverdeling alleen deformele naam isvanhettweedeargumen tvan
+rverdeling .Bijdeaanroepvanrverdeling moetvoorqverdeling echtereenechte
+functie worden ingevuld. >rverdeling(5, qnorm)
+[1]0.9332848 2.2774360 -0.3208976 0.1994874 -0.5723007
+>rverdeling(1000, qeinstein)
+Error: Object"qeinstein" notfound
+Dumped
+(Overigens isrnorm eenstandaard R-functie.) Alsbinnen eenfunctie andere functies
+worden aangero epen,dankunnen deargumen tenvoordiesecundaire functies worden
+meegegev enaandehoofdfunctie. Eenalgemenere vormvandetoevalsgetal generator
+isalsvolgt. >rverdeling <-function(n,qverdelin g,mean=0,sdev=1){
++u<-runif(n)
++qverdeling(u, mean,sdev)}
+Dezefunctie isechteralleen geschiktvoorgebruik tesamen metkwantielfuncties qverde-
+lingdieprecies tweeargumen tenbehoeven.Eenbeteremogelijkheid isomdeargumen ten
+impliciet doortegeven.13:If,For,While, Repeat 33
+>rverdeling <-function(n,qverdelin g,:::){
++u<-runif(n)
++qverdeling(u, :::)}
+Debetekenisvande(precies) driepuntjesis,datieder argumen t,datbijdefeitelijk e
+aanroepvanrverdeling opdeplaats van:::verschijnt,letterlijk wordtdoorgegev enaan
+qverdeling .Gegev endelaatste denitie vanrverdeling zijndevolgende tweeaanroepen
+nubeidegeoorloofd. >rverdeling(5, qnorm,10,1) #qnormverwacht 2argumenten
+>rverdeling(5,qpois,2) #qpoisverwacht 1argument
+13.IF,FOR,WHILE, REPEA T
+DeR-taal kenteenvoorwaardelijk econstructie enmogelijkheden voorloopsanaloogaan
+andere programmeertalen. Deiffunctie inRkenttweevormen. >if(conditie)expr1
+>if(conditie)expr1elseexpr2
+Inbeidegevallenwordteerstdeconditie geevalueerd; alsdewaardeTRUEiswordtexpr1
+uitgerek end. Isdewaarde vandeconditieFALSE ,dangebeurterniets indeeersteif
+statemen t;indetweedestatemen twordtexpr2 geevalueerd. Vergeet deronde haakjes
+rondconditie niet!

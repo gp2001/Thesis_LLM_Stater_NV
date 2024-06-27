@@ -1,0 +1,155 @@
+PDF), structured data (e. g. XML, JSON), or an identity assertion (e.g. OIDC, SAML). NOTE 2: The result of the identity proofing
+process can convey the attributes that are
+verified and the LoIP, but can even be a
+simple 'success' or 'failure' statement
+meaning that identity attributes provided by
+the TSP at the start of the identity proofing
+process are verified (or not) against the
+applicant to the required LoIP. NOTE 3: The present document makes no
+assumption on the attributes to convey,
+whether the applicant is a natural person, a
+legal person, or a natural person
+representing a legal person (roles or
+authorizations can be relevant in the latter
+case). NOTE 4: The present document makes no
+assumptions on the information to convey
+for identity proofing processes that do not
+complete successfully.Bij NOTE 2: voor ETD
+/eHerkenning kan de term
+TSP gelezen worden als
+middeluitgever (MU). Bij NOTE 3: 'legal person' is in
+deze context niet relevant
+voor de Nederlandse situatie. ISS-8.5.1-02: The result of the identity
+proofing process shall convey the LoIP
+achieved by the identity proofing process
+for the identity attributes required for
+the unique identification of the
+applicant in the identity proofing
+context. EXAMPLE 2: By referring to the Baseline
+LoIP defined by the present document.Bij EXAMPLE 2:  ETSI 119 461
+definities:
+baseline LoIP
+Level of Identity Proofing
+(LoIP) reaching a high level of
+confidence based on the
+fulfilment of general good
+practice requirements for the
+identity proofing process and
+considered suitable for the
+trust services policies
+currently defined by ETSI
+standards
+ISS-8.5.1-03: The result of the identity
+proofing process may convey LoIP
+separately for individual identity
+attributes that are not required for
+unique identification in the identity Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1022proofing context and where these LoIPs
+differ from the overall result of the
+identity proofing process. 8.5.2 Evidence of the identity proofing process
+ISS-8.5.2-01: Evidence of the identity
+proofing process shall be gathered and
+retained in compliance with the identity
+proofing context.NOTE 1: Evidence can be retained in digital
+or paper format. NOTE 2: The need to retain evidence of
+identity proofing processes that did not
+complete successfully can be determined by
+the identity proofing context. NOTE 3: Gathering and retention of
+evidence is required to comply with
+applicable data protection legislation,
+notably GDPR if the identity proofing
+process is carried out under the legislation
+of an EU Member StateDe bewaartermijnen dienen
+conform AVG te worden
+vastgesteld. ISS-8.5.2-02: The evidence of the
+identity proofing process shall document
+the identity evidence used in the identity
+proofing process and the issuer or source
+of that evidence.EXAMPLE 1: An identity document can be
+identified by the issuer name and document
+number, or by retaining a copy of the
+document, possibly in the form of a video
+sequence or image if a physical identity
+document is used. Retaining a copy can,
+depending on the identity proofing context,
+be required, allowed, or forbidden. ISS-8.5.2-03: The evidence of the
+identity proofing process should
+completely document the identity
+proofing process. EXAMPLE 2: Including video sequences used
+in a remote identity proofing process;
+however, retaining video sequences or
+images of a human applicant can,
+depending on the identity proofing context,
+be required, allowed, or forbidden. ISS-8.5.2-04: Evidence of the identity
+proofing process shall be retained for the
+necessary retention time given by the
+identity proofing context.EXAMPLE 3: A typical requirement from a
+TSP is to retain evidence of the identity
+proofing process as long as the applicant
+remains a subject/subscriber of the TSP plus
+several of years after that time.De bewaartermijnen dienen
+conform AVG te worden
+vastgesteld. Bij EXAMPLE 3: voor ETD
+/eHerkenning kan de term
+TSP gelezen worden als
+middeluitgever (MU). ISS-8.5.2-05: The evidence of the
+identity proofing process shall be stored
+in a tamper-proof way. ISS-8.5.2-06: The evidence of the
+identity proofing process shall be stored
+in a way that guarantees the
+confidentiality of the information.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1023ISS-8.5.2-07: The evidence of the
+identity proofing process shall be stored
+in a way that ensures the possibility to
+search, retrieve, and re-verify the identity
+proofing result.NOTE 4: Offline storage or other means that
+will result in a prolonged response time are
+acceptable. ISS-8.5.2-08: At the end of the retention
+time defined by ISS 8.5.2-04, the
+evidence of the identity proofing process
+and all personal data on the applicant
+shall be deleted.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1024
+Eisen Identificatie op Afstand niet van toepassing
+Onderstaande eisen zijn een selectie van de eisen in ETSI TS 119 461 . welke niet van toepassing zijn verklaard voor v1.1.1
+Elektronische Toegangsdiensten, met een onderbouwing waarom deze niet van toepassing zijn verklaard. hoofdstuk / paragraaf / norm toelichting ETSI eTD onderbouwing ' reeds
+bestaande eisen in
+afsprakenstelsel'
+5 Operational risk assessment Eisen zijn onderdeel van het
+Afsprakenstelsel ETD. 6 Policies and practices Eisen zijn onderdeel van het
+Afsprakenstelsel ETD. 7 Identity proofing service management and operation Eisen zijn onderdeel van het
+Afsprakenstelsel ETD. 8 Identity proofing service requirements
+8.1 Initiation
+INI-8.1-01: The applicant shall be
+informed of, and shall accept, the
+purpose of the identity proofing and
+the related terms and conditions as
+required by the identity proofing
+context.Eis is onderdeel van het
+Normenkader
+Betrouwbaarheidsniveaus,
+paragraaf 2.1.1. INI-8.1-02: If alternative identity
+proofing processes are available to
+achieve the purpose of the identity
+proofing, the applicant shall be
+allowed to select which of the
+alternative processes to use.NOTE 1: A physical or digital identity
+document as defined in the present document
+will usually represent a natural person only. Identity documents that evidence that a
+natural person represents a legal person can be
+envisaged but cannot be assumed to be
+generally available.Het is aan de leveranciers
+om een passend proces aan
+de klanten aan te bieden. INI-8.1-03: The applicant shall receive
+clear guidance regarding how the
+identity proofing process will be carried
+out, regarding the identity information
+that will be collected, regarding the
+evidence that the applicant is required
+to present, and regarding any tool that
+the applicant is required to use.EXAMPLE 1: Information on the applicable
+data protection rules, notably GDPR if the
+identity proofing process is carried out under
+the legislation of an EU Member State. EXAMPLE 2: The identity proofing process can
+require the use of a specific type of device (e.g. a smartphone) with the installation of specific
+software (e.g. an app).Eis is onderdeel van het
+Normenkader
+Betrouwbaarheidsniveaus,
+paragraaf 2.2.2.

@@ -1,0 +1,41 @@
+A participant MUST process the service catalog according to  . Proces doorvoeren nieuwe dienstencatalogusAfsprakenstelsel Elektronische Toegangsdiensten | pagina 828Testing
+This document describes the tests that (aspiring) participants should perform. To ensure that new releases and the
+application process of participants go smoothly, it is required that new functionality or systems are tested thoroughly before
+taken into production. It is the responsibilty of the (aspiring) participants to demonstrate interoperability and to create trust
+and confidence with the other participants related to their implementation. This document distinguishes Simulator test cases
+and Chain test cases . The simulator tests are executed utilizing the Elektronische Toegangsdiensten simulator, an instrument
+for initiating requests and validating responses. Focus on these tests is conformity with the Afsprakenstelsel. Chain tests are
+executed in a separate network of systems, each in its own DTAP A-environment. During the chain tests, the focus is
+interoperability of all participants' systems. The (aspiring) participant contacts the Beheerorganisatie when ready for executing chain test and for readiness of production
+go-live. The (aspiring) participant must proof  their readiness to the BO by means of a demonstration of the functionality
+and a presentation of the testproces and results. Based on the outcome of this proof, it is determined whether or not
+technical issues are remaining which should be solved before joining. Based on the outcome of these tests, it is determined
+whether or not technical issues are remaining which should be solved before joining. It is the sole responsibility of the (future) participant that the functionality is working correctly as described in the agreed
+specifications and that it is  with another participants system. For each technical release implementation the interoperable
+participants will make an agreement of the scope of testing: which usecases have to be shown and the criteria to pass. That
+agreement is part of the implementation plan, therefore public, and guarantees uniformity and a level playing field. The participant is free to choose how to proof that the agreed specifications are implemented correctly. The participant can
+use a provided simulator, or his own, but must be able to provide proof in a way that a third party (Beheerorganisatie) can be
+convinced. Interoperability is difficult to proof for the first participant because there is not another party available to demonstrate it. The participants can make agreements with each other to tackle this issue to shorten the time to market. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 829Continue here
+Requirements for testing
+Acquire test means  — In order to facilitate chain testing, it is necessary that all participants in the network
+must have authentication means and corresponding authorizations of each other. Announce chain test  — To be able to get support from other participants in a timely manner, it is necessary
+that all participants are aware when a chain test will take place. Exchange metadata  — Within the network, all Herkenningsmakelaars, Authenticatiediensten and
+Machtigingenregisters should exchange each others metadata, so the systems can verify the origin of a
+request and subsequently process it. Process service catalog  — All systems in the network must be aware of the properties of each service, in order
+to process authentication requests in a correct way. For this purpose, the beheerorganisatie maintains a
+aggregated service catalog. See Proces doorvoeren nieuwe dienstencatalogus. Network monitoringAfsprakenstelsel Elektronische Toegangsdiensten | pagina 830Requirements for testing
+In order to test your systems, be sure the following requirements are met. Acquire test means  — In order to facilitate chain testing, it is necessary that all participants in the network must have
+authentication means and corresponding authorizations of each other. Announce chain test  — To be able to get support from other participants in a timely manner, it is necessary that all
+participants are aware when a chain test will take place. Exchange metadata  — Within the network, all Herkenningsmakelaars, Authenticatiediensten and
+Machtigingenregisters should exchange each others metadata, so the systems can verify the origin of a request and
+subsequently process it. Process service catalog  — All systems in the network must be aware of the properties of each service, in order to
+process authentication requests in a correct way. For this purpose, the beheerorganisatie maintains a
+aggregated service catalog. See Proces doorvoeren nieuwe dienstencatalogus.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 831Acquire test means
+In order to facilitate chain testing, it is necessary that all participants in the network must have authentication means and
+corresponding authorizations of each other. An applicant is therefore entitled to request such information from other
+parties. The applicant should also supply means and authorizations to the other participants when requested. An HM is not required to test all provided levels of assurace for each AD/MR, and therefore needs only one test mean for each
+AD/MR.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 832Announce chain test
+To be able to get support from other participants in a timely manner, it is necessary that all participants are aware when a
+chain test will take place.It is therefore required to announce a chain test. Refer to   for more details. OnderhoudAfsprakenstelsel Elektronische Toegangsdiensten | pagina 833Exchange metadata
+Within the network, all Herkenningsmakelaars, Authenticatiediensten and Machtigingenregisters should exchange each
+others metadata, so the systems can verify the origin of a request and subsequently process it.

@@ -1,0 +1,18 @@
+The recipient MUST check that the message is signed with a valid digital signature that envelopes the whole message
+with Enveloped Signature Transform. The recipient MUST NOT process the message if it contains parts that are not signed with a valid digital signature. The following requirements apply to generating digital signatures:
+The digital signature is embedded in the message content with Enveloped Signature Transform  http://www.w3.org
+. /2000/09/xmldsig#enveloped-signature
+Canonicalization MUST be carried out according to the exclusive c14n method without comments, as identified by '
+' (see  ) http://www.w3.org/2001/10/xml-exc-c14n# http://www.w3.org/TR/xml-exc-c14n/
+Digests MUST be calculated with the SHA256 algorithm. The SignatureValue MUST be calculated with the RSA-SHA256 algorithm. The sender MUST sign messages with a PKIoverheid certificate (see for requirements ) with a key length PKIoverheid of
+. The (extended) key usage of the used certificate MUST allow use for signing. at least 2048 bits
+In case of signing metadata, the <Signature> element MUST contain only an <X509Data> element with an
+<X509Certificate> element. In all other cases, The signature MAY contain a <KeyInfo> element that contains a <KeyName>. The <KeyName>
+MUST match the <KeyName> stated in the metadata of the sender for the respective role. The signature MUST NOT
+contain other elements (such as <X509Data>). If a <KeyInfo> element is not included in the message, the metadata
+MUST contain at least one (1) valid certificate against which the message can be validated. If the metadata contains
+more than one certificate, the participant MUST validate the message against each valid certificate. The participant
+MAY agree with its service consumers to limit the period in which the metadata contains more than one certificate. This enables the high utilization of the system to be controlled. The Reference MUST refer to the signed element via an ID attribute in the local document, as per the signature profile
+of SAML2.0 core (§5.4) and SAML 2.0 Metadata (§3.1). Encryption Requirements (from  ) Secure connection
+The network wants to promote the use of strong cipher suites with minimum discomfort for end-users. Those roles that are
+in direct contact with their customers (e.g.

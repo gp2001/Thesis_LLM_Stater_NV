@@ -1,0 +1,56 @@
+5. De Deelnemer MOET het
+fysieke adres valideren als de
+uitgifte van het middel face-to-
+face (in person) plaatsvindt op
+het door de aanvrager
+opgegeven adres voor uitgifte. De Deelnemer MOET
+registreren welke
+contactgegevens zijn
+gevalideerd als onderdeel van
+het uitgifteproces en welke
+gegevens slechts zijn
+opgeslagen als
+comfortinformatie als
+onderdeel van de algemene
+bedrijfsvoering. Fysieke identificatie: een
+fysieke ontmoeting MOET
+plaatsvinden tijdens de
+registratie of tijdens het
+middelenuitgifteproces. Identificatie op afstand dit is:
+als alternatief voor de fysieke
+ontmoeting tijdens de
+registratie of tijdens het
+middelenuitgifteproces
+toegestaan. Dit MOET conform
+de beschreven
+normelementen in paragraaf
+. Eisen Identificatie op Afstand . De echtheid van
+identiteitsbewijzen MOET
+geverifieerd worden door het
+origineel van het
+identiteitsbewijs te
+controleren op specifiek voor Identificatie door een daarvoor opgeleide balie medewerker van de
+Authenticatiedienst. Identificatie door de Dienstafnemer conform de wettelijke verplichting
+van werkgevers tot identificatie van personeel. Nota bene 1: Voor middelen die op basis van identificatie door de
+werkgever worden uitgegeven moet het technisch onmogelijk zijn
+dat deze middelen in het BSN domein en consumentendomein
+gebruikt kunnen worden. Nota bene 2 Mogelijke zelfverklaring moeten worden
+uitgesloten. Niet acceptabel is dat wettelijke vertegenwoordigers
+en machtigingenbeheerders over zichzelf een identiteitsverklaring
+afgeven. De Dienstafnemer verklaart over de identiteit van de Gebruiker door de
+Dienstafnemer op grond van de plicht van werkgevers om medewerkers
+bij in diensttreden te identificeren. Mogelijke zelfverklaring moeten
+worden uitgesloten. Niet acceptabel is dat een wettelijke
+vertegenwoordiger en de machtigingenbeheerder over zichzelf een
+identiteitsverklaring afgeven. Indirecte vormen van face-to-face identificatie zijn niet zonder meer
+acceptabel:
+Identificatie op basis van een eerder uitgegeven persoonsgebonden op
+hetzelfde of hoger niveau waarbij indertijd face-to-face controle heeft
+plaatsgevonden
+Identificatie op basis van een banktransactie. De verificatie op basis van het resultaat van een geslaagde
+bankoverschrijving is slechts toegestaan als een additionele verificatie. Het is namelijk niet controleerbaar dat de aanvrager een andere
+persoon gemachtigd heeft voor zijn bankrekening of zijn
+inloggegevens heeft gedeeld met een andere persoon. Ad 5e ii Voor het introductieplateau bevat de set gegevens die aan BSNk
+moet worden aangeleverd minimaal uit:
+het BSN van de Aanvrager
+de geboortedatum van de AanvragerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 9375. a. b.

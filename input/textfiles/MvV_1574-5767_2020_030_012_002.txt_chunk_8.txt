@@ -1,0 +1,200 @@
+Rongen 2011, nr. 1268. 21. Kifid (Geschillencommissie) 31 maart 2016, JOR 2016/133 m.nt. Ron-
+gen.negatieve rente, maar anderzijds ook geen beperkingen te ver-
+goeden verstoort de kredietverstrekker een evenwicht op een
+manier die alleen ten nadele van de consument uitvalt, zonder
+dat hij daar een bevoegdheid voor heeft, aldus de Geschillen-
+commissie. Op grond hiervan overweegt de Geschillencom-
+missie dat een redelijke uitleg van de overeenkomst met zich
+meebrengt dat de kredietverstrekker de negatieve rente dient
+te vergoeden.22
+Het is de vraag op welke partij de verplichting tot vergoeding
+van negatieve rente rust in het geval de vordering door cessie is
+overgegaan naar de verkrijgende partij. Die vraag zal met name
+spelen in transacties waarin bij het aangaan van die transacties
+de mogelijkheid (van het vergoeden) van negatieve rente niet
+was voorzien en geen enkele bepaling hieromtrent is opge-
+nomen. Een vordering uit hoofde van lening gaat op de verkrijgende
+partij over zoals zij bij de overdragende partij bestond, inclu-
+sief de aan die vordering verbonden (neven)rechten en ver-
+plichtingen (art. 6:142 en 6:144 BW), zoals de Hoge Raad in
+r.o. 2.10 vaststelt. Vraag is dus of de (impliciete) betalingsverplichting om nega-
+tieve rente te vergoeden als nevenverplichting in de zin van
+art. 6:144 BW door de cessie is overgegaan naar de
+verkrijgende partij. Het is in onze ogen goed verdedigbaar dat
+een zodanig onverbrekelijk verband bestaat tussen de hoofd-
+vordering, het recht op rente dat als nevenrecht mee overgaat
+en deze verplichting om negatieve rente te betalen, dat hier
+sprake is van een nevenverplichting in de zin van art. 6:144
+BW en dat die nevenverplichting dus is komen te rusten op de
+verkrijgende partij. Complicerende factor is nog dat – in een normaal geval, bij
+een positieve rente – de rentevordering van de kredietverstrek-
+ker weliswaar overgaat naar de verkrijgende partij, maar bij
+stille cessie de overdragende partij inningsbevoegd blijft. Als
+de overdragende partij vervolgens uit dien hoofde de (ren-
+te)vordering int, dient zij vervolgens het geïnde af te dragen
+aan de verkrijgende partij. Hoe dan om te gaan met een
+(omgekeerde) betalingsverplichting van de verkrijgende partij
+ten aanzien van negatieve rente? Voorstelbaar is dat de geld-
+stromen dan zouden moeten omdraaien, in die zin dat de
+inningsbevoegdheid van de overdragende partij omslaat in een
+verplichting om de negatieve rente te vergoeden, en de
+22. In de uitspraak heeft de Geschillencommissie vastgesteld dat de krediet-
+verstrekker noch gesteld, noch aannemelijk gemaakt heeft dat hij finan-
+cieel nadeel zou kunnen ondervinden van een verplichting om negatieve
+rente te vergoeden. Hieruit zou kunnen worden opgemaakt dat als de
+kredietverstrekker dit wel had gesteld en had kunnen aantonen dat hij
+financieel nadeel ondervond, de Geschillencommissie dit dan bij de
+redelijke uitleg van de overeenkomst had meegewogen. Zo zou hebben
+kunnen meespelen dat de kredietverstrekker ten opzichte van zijn inves-
+teerder gebonden is aan een ‘zero floor’, aldus Rongen in zijn noot onder
+de uitspraak van de Geschillencommissie. Wij vragen ons echter af of in
+rechte deze eventuele mismatch in het nadeel van de consument zou
+worden uitgelegd. 426       M v V  2 0 2 0 ,  n u m m e r  1 2       d o i :  1 0 . 5 5 5 3 / M v V / 1 5 7 4 5 7 6 7 2 0 2 0 0 3 0 0 1 2 0 0 2
+Dit artikel uit Maandblad voor Vermogensrecht is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoeker
+verkrijgende partij op haar beurt verplicht is om die negatieve
+rente aan de overdragende partij te voldoen.23 Ervan uitgaande
+dat de verkrijgende partij ook steeds bevoegd zou blijven om
+de negatieve rente rechtstreeks aan de kredietnemer te vergoe-
+den, is deze omgekeerde situatie ook in lijn met art. 6:144
+BW, waaruit volgt dat de overdragende partij instaat voor de
+nevenverplichtingen van de verkrijgende partij. Overigens wordt bij veel financieringsconstructies doorgaans
+gewerkt met een zogenaamde stichting ontvangsten, waaraan
+de kredietnemer (op instructie van de kredietverstrekker) zijn
+betalingsverplichtingen onder de kredietovereenkomst bevrij-
+dend kan voldoen, ongeacht of de vordering (stil) is gece-
+deerd.24 Een ‘omgekeerde’ verplichting om negatieve rente te
+vergoeden zou in dat geval kunnen worden verwerkt in de
+transactiedocumentatie van de stichting, waarbij in onze ogen
+het uitgangspunt zou moeten zijn dat een dergelijke betaling,
+in de verhouding tussen de stichting, de overdragende partij en
+de verkrijgende partij (en de tussen hen geldende verdeelsleu-
+tels), in rang zou moeten voorgaan ten opzichte van alle
+andere betalingsverplichtingen van de stichting, en dat
+(bijvoorbeeld) desnoods ontvangen aflossingen kunnen wor-
+den aangewend om de negatieve rente te kunnen voldoen aan
+de kredietnemer. 5.3 Praktijkvoorbeeld: COVID-19-gerelateerde
+payment holidays en uitstel van executie
+Door de overheid is gestimuleerd dat hypothecaire krediet-
+verstrekkers coulant met hun klanten zouden omgaan
+wanneer deze als gevolg van de COVID-19-maatregelen niet
+(volledig) konden voldoen aan hun aflossings-
+verplichtingen.25Diverse grootbanken hebben in dit kader
+toegestaan dat kredietnemers drie maanden hun aflossings-
+verplichtingen opschorten (een zogenaamde ‘payment
+23. Waarbij weer een interessante vraag op zich is welke rangorde een der-
+gelijke vordering heeft in het geval van een faillissement van de
+verkrijgende partij, zowel voor de situatie dat de verplichting reeds
+bestond op datum faillissement als de situatie dat de verplichting is
+ontstaan na datum faillissement. 24. Doel hiervan is enerzijds het afscheiden van de ontvangsten van het
+vermogen van de overdragende partij ten behoeve van de verkrijgende
+partij(en) waarvoor de overdragende partij als inningsbevoegde betalin-
+gen ontvangt, en anderzijds het scheppen van continuïteit (en daarmee
+het verkleinen van de kans dat betalingen op de verkeerde rekening
+terechtkomen) van de rekening waarop de kredietnemer zijn betalings-
+verplichtingen dient te voldoen vóór en na cessie van de kredietvorde-
+ring. 25. De Nederlandse overheid greep daarmee minder dwingend in dan de
+Duitse wetgever, die bij wet van 27 maart 2020 (Gesetz zur Abmil-
+derung der Folgen der COVID-19-Pandemie im Zivil-, Insolvenz- und
+Strafverfahrensrecht) ten aanzien van consumentenkrediet heeft
+bepaald dat de kredietnemers die in de eerste maanden van de
+COVID-19-crisis in betaalproblemen zijn geraakt, recht hebben op een
+automatische betaalpauze van drie maanden, wat – behoudens andere
+afspraken tussen de kredietverstrekker en -nemer – leidt tot een verlen-
+ging van de looptijd van het krediet.holiday’).26Deze betaalpauze is in de meeste gevallen geëffec-
+tueerd als betalingsregeling. Als de vordering uit hoofde van
+het krediet door middel van cessie is overgedragen, bij wie ligt
+dan de bevoegdheid om een (dergelijke) betalingsregeling aan
+te gaan? Daarnaast heeft het Ministerie van Binnenlandse
+Zaken en Koninkrijksrelaties er, in overleg met de Neder-
+landse Vereniging van Banken, het Verbond van Verzeke-
+raars, Nationale Hypotheekgarantie en Vereniging Eigen
+Huis, op aangedrongen dat hypothecaire kredietverstrekkers
+in bepaalde perioden niet tot uitwinning overgaan.27
+In de Promontoria-arresten komt de vraag welke zorgplicht ná
+cessie van de vordering bij de oorspronkelijke kredietverstrek-
+ker achterblijft niet aan de orde. De vierde prejudiciële vraag
+raakt hier zijdelings aan.28 Als gezegd beantwoordt de Hoge
+Raad deze vraag niet, omdat Van Lanschot geen partij is bij de
+procedure en het antwoord niet nodig is om op de vorderin-
+gen van Alegre/Immobile tegen Promontoria te beslissen. In
+de praktijk is deze vraag echter wel degelijk relevant, onder
+andere bij het bovenstaande praktijkvoorbeeld, nu het vanuit
+het belang van de kredietnemer  toestaan van betaalpauzes en/of
+uitstellen van de executie van het hypotheekrecht naar onze
+mening juist die zorgplicht kunnen raken.29
+Hierbij speelt onder meer mee dat:
+a.de lender of record de (enige) contractspartij en doorgaans
+ook het enige aanspreekpunt van de kredietnemer blijft
+voor wat betreft de kredietovereenkomst en de uit hoofde
+daarvan te verrichten betalingen;
+b.wanneer het krediet aan consumenten betreft, de lender
+of record, ongeacht de eventuele kwalificatie van de
+verkrijger als aanbieder , in de praktijk – in elk geval fei-
+telijk – adressant blijft van bijvoorbeeld nieuwe relevante
+wet- en regelgeving en het door de AFM uitgevoerde
+toezicht en in dat kader de eventuele aanwijzingen,
+richtlijnen of handhavingsacties zal moeten opvolgen. Dit
+geldt ook voor het onderhavige verzoek van overheidswege
+om alle COVID-19-gerelateerde uitwinningen voor
+bepaalde tijd uit te stellen. 26. Wij verwijzen naar het uitgebreide artikel van M. van der Weide, De
+consequenties van een uitstel van betaling onder hypotheekleningen
+voor RMBS transacties, Ondernemingsrecht 2020/79, voor een
+beschrijving van de impact die deze betaalpauze kan hebben voor
+RMBS-securitisatietransacties. 27. Zie www.rijksoverheid.nl/actueel/nieuws/2020/04/07/geen-
+gedwongen-verkopen-van-huizen-gedurende-coronacrisis . Overigens
+versimpelen we dit voorbeeld enigszins, nu het aandringen mede inhield
+een verzoek aan de hypothecaire kredietverstrekkers tot het mede onder-
+tekenen van een verklaring waarin zij bevestigden in beginsel gedurende
+die periode niet tot uitwinning over te gaan. 28. In die zin dat deze aan de orde stelt welke rechten de kredietnemer ten
+opzichte van de overdragende kredietverstrekker kan uitoefenen, indien
+het handelen van de verkrijgende partij afwijkt van wat zou mogen wor-
+den verwacht van een bank op grond van de voor een bank geldende
+publiekrechtelijke regels en de op de bank rustende zorgplicht. 29. Waarbij uiteraard meespeelt in hoeverre het de kredietverstrekker zelf
+zou vrijstaan om van het (dringende) advies af te wijken. 427       M v V  2 0 2 0 ,  n u m m e r  1 2       d o i :  1 0 . 5 5 5 3 / M v V / 1 5 7 4 5 7 6 7 2 0 2 0 0 3 0 0 1 2 0 0 2
+Dit artikel uit Maandblad voor Vermogensrecht is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoeker
+Anders dan bij contractsovername, waarbij de verkrijgende
+partij als (nieuwe) lender of record alle rechten en verplichtin-
+gen uit de kredietovereenkomst overneemt en de oorspronke-
+lijke kredietverstrekker van die positie is ontheven, blijft bij
+cessie de contractuele relatie tussen de oorspronkelijke kre-
+dietverstrekker en de kredietnemer in stand. Algemeen wordt
+in geval van cessie aangenomen dat rechten die niet specifiek
+verbonden zijn aan de vordering maar betrekking hebben op
+de gehele rechtsverhouding, bij de overdragende partij achter-
+blijven. Op deze grond blijven wilsrechten, zoals de bevoegd-
+heid tot vernietiging of ontbinding van de kredietovereen-
+komst, achter bij de oorspronkelijke kredietverstrekker.30 Aan
+de vordering verbonden rechten die van belang zijn voor de
+uitoefening en inning van de vordering en die de inhoud en
+het bestaan van de vordering bepalen (bijvoorbeeld het verle-
+nen van finale kwijting alsmede het treffen van een afbeta-
+lingsregeling), komen de rechthebbende van de vordering toe
+en gaan dus als nevenrecht bij de overdracht van de vordering
+over naar de verkrijgende partij.31 Op basis hiervan kan wor-
+den aangenomen dat de bevoegdheden die relevant zijn in dit
+praktijkvoorbeeld (het overeenkomen van een betaalpauze en
+het uitstellen van executie) als gevolg van de cessie zijn overge-
+gaan op de verkrijgende partij, en dat de oorspronkelijke kre-
+dietverstrekker (zonder volmacht) hiertoe niet langer bevoegd
+is. Wij zagen hierboven dat uit de onderhavige arresten blijkt dat
+de zorgplicht van de oorspronkelijke kredietverstrekker niet
+als nevenrecht van de vordering of aan de vordering verbon-
+den verplichting (in de zin van art. 6:144 BW) mee overgaat
+naar de verkrijgende partij. Hoogstens is de inhoud van de
+vordering beperkt32 door de zorgplicht die rust op de oor-
+spronkelijke kredietverstrekker, en kan op de verkrijgende
+partij op grond van de redelijkheid en billijkheid (art. 6:2 BW)
+een eigen zorgplicht rusten. Dit betekent wat ons betreft echter niet dat de oorspronkelij-
+ke kredietverstrekker helemaal geen zorgplicht meer heeft ten
+aanzien van de schuldeisersbevoegdheden die overgegaan zijn
+naar (en alleen maar kunnen worden uitgeoefend door of
+namens) de verkrijgende partij. De oorspronkelijke kredietver-
+strekker zal in onze ogen uit hoofde van zijn eigen contractue-
+30. In dit kader dient de opzegging van de kredietovereenkomst door de len-
+der of record ter beëindiging van de contractuele relatie te worden
+onderscheiden van de opzegging van het krediet door de verkrijgende
+partij om de vordering opeisbaar te maken. 31. De pandhouder is in die zin slechter af dan de cessionaris. In geval van
+afstand van een pandrecht heeft de Hoge Raad geoordeeld, onder verwij-
+zing naar art. 3:246 BW en de parlementaire geschiedenis, dat de pand-
+gever bevoegd is tot het doen van afstand van een vorderingsrecht. Zie
+HR 21 februari 2014, ECLI:NL:HR:2014:415, NJ 2015/82 m.nt. H.J.

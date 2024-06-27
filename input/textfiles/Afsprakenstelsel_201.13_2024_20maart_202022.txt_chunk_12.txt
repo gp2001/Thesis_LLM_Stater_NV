@@ -1,0 +1,142 @@
+3. Authenticatie (authenticeren)
+De controle (het staven) van de (een) geclaimde identiteit van een partij en de set van zijn geclaimde attributen op een
+bepaald betrouwbaarheidsniveau. Herkomst
+Analoog aan KPMG , Modinis , opdrachtformulering Vraagstuk eHerkenning bedrijven en instellingen d.d. 10-1-2008, NTP 1 2
+Authorization Policy (AP) v1.1. Definitie is tevens analoog aan PKIoverheid  alwaar opgemerkt wordt: 3In de Wet EH wordt de
+term "Authentificatie" gebruikt. Het oorspronkelijke Engelstalige woord is "Authentication". In alle technische vakliteratuur
+wordt dit echter vertaald met "Authenticatie". In dit document wordt dit laatste dan ook gehanteerd. Voetnoten:
+Forum Standaardisatie, Verkenning Authenticatie, KPMG R.2007.ISC.18 (2007)
+Modinis, Common Terminological Framework for Interoperable Electronic Identity Management (2005)
+PKIoverheid, Programma van Eisen deel 4: Definities en Afkortingen, versie 2.1, 11 januari 2010Afsprakenstelsel Elektronische Toegangsdiensten | pagina 80
+Authenticatiedienst (AD)
+Een vereiste  binnen het  die door een  aan het Rol Netwerk (voor Elektronische Toegangsdiensten) Deelnemer
+wordt ingevuld en die de verantwoordelijkheid heeft voor het  van  Afsprakenstelsel (AS) authenticeren natuurlijke personen
+op basis van het door de natuurlijk persoon gebruikte . Authenticatiemiddel
+T.o.v. de definitie in Vraagstuk eHerkenning bedrijven en instellingen is hier onderscheid gemaakt in middelenuitgever
+enerzijds en authenticatiedienst anderzijds.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 81
+Authenticatiemiddel
+Een set van attributen (bijvoorbeeld een certificaat) op grond waarvan authenticatie van een partij kan plaatsvinden. Herkomst
+Analoog aan KPMGAfsprakenstelsel Elektronische Toegangsdiensten | pagina 82
+Authenticatieverklaring
+Een  waaruit het bestaan en de juistheid kan worden opgemaakt van een  die heeft Verklaring Authenticatie (authenticeren)
+plaatsgevonden in de context van een bepaalde handeling of dienst. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 83
+Autorisatie
+Het verlenen van toestemming (een bevoegdheid) aan een geauthenticeerde partij om toegang te krijgen tot een bepaalde
+dienst of toestemming om een bepaalde actie uit te voeren. Een autorisatie kan worden vastgelegd in toegangsrechten. Het verlenen van toegang kan (mede) gebaseerd zijn op die in
+toegangsrechten vastgelegde autorisatie. Nota bene
+Autorisatie is geen synoniem voor machtiging
+Herkomst
+Analoog aan Modinis / PKI overheid begrippenlijst (2005) waarbij autorisatie overeenkomt met betekenis 1 en toegang
+verlenen met betekenis 2 / Van Dale Groot woordenboek van de Nederlandse taal 14, maar specifiek gemaakt voor de context
+van Elektronische Toegangsdiensten. Tevens analoog aan Glossary for the OASIS Security Assertion Markup Language (SAML)
+V2.0 (saml-glossary-2.0-os). PKIoverheid hanteert een algemenere definitie die niet in strijd is met bovenstaande.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 84Autorisatielijst BSN
+De Autorisatielijst BSN is de lijst met  s die geautoriseerd zijn voor ontvangst van het , beschikbaar Dienstverlener (DV) BSN
+gesteld en ondertekend door de Beheerorganisatie BSNk. Deze  moet daarvoor minimaal één Dienst hebben Dienstverlener
+waarvoor hij een wettelijke taak uitvoert waarbij een BSN nodig is. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 85AVG
+Per 25 mei 2018 is de Algemene verordening gegevensbescherming (AVG) van toepassing. Dat betekent dat er vanaf die
+datum dezelfde privacywetgeving geldt in de hele Europese Unie (EU). De Wet bescherming persoonsgegevens (Wbp) geldt
+dan niet meer. De AVG is ook wel bekend onder de Engelse naam: General Data Protection Regulation (GDPR).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 86Backend
+Een server die via een frontend communiceert. Gebruikers benaderen een backend server niet rechtstreeks. Voorbeelden van
+backend systemen in ETD zijn:
+De server van een dienstverlener waarmee de gebruiker via een app communiceert. De server van een authenticatiedienst waarmee de gebruiker via zijn browser en de authenticatiedienst web-server
+communiceert. Wanneer een , Dienstverlener of andere rol een backend implementeert, wordt deze in het Afsprakenstelsel Deelnemer
+aangeduid met de afkorting van de rol en de toevoeging "-backend", bijvoorbeeld "DV-backend" in het geval van een
+backend server behorende bij een koppelvlak van een Dienstverlener.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 87
+Bedrijf
+Een partij die Elektronische Toegangsdiensten gebruikt om een dienst af te nemen bij een dienstverlener. De dienstafnemer
+is een partij van de vorm
+natuurlijk persoon die een onderneming drijft (een eenmanszaak), of
+een niet natuurlijk persoon conform de identificatie waarmee het is ingeschreven in het Nederlandse handelsregister
+of in een vergelijkbaar buitenlands openbaar register conform de voorschriften van het betreffende land, of
+een natuurlijk persoon die als privépersoon een dienst afneemt van een dienstverlener, of
+een natuurlijk persoon die als burger een dienst afneemt van een dienstverlener die gerechtigd is het BSN te
+gebruiken
+Een dienstafnemer is de  of wordt vertegenwoordigd door een gebruiker. Gebruiker
+Nota bene: In proposities aan bedrijven is het toegestaan de abstracte term “dienstafnemer” concreet te maken en te
+vervangen door “bedrijf”. Herkomst
+Herkomst: o.a. gebaseerd op Hrw 2007 en BW deel 3, artikel 15d en BAO artikel 47 lid 1.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 88
+Beheerorganisatie (BO)
+De Beheerorganisatie van het  die verantwoordelijk is voor het faciliteren van het beheer en de Afsprakenstelsel (AS)
+doorontwikkeling van het Afsprakenstelsel, alsmede de controle op en het monitoren van de naleving van het
+Afsprakenstelsel door de  en de  in opdracht van de . Dienstaanbieders (DA) Deelnemers Eigenaar
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 89
+Betrouwbaarheidsniveau
+Een relatief niveau van de sterkte van het bewijsmateriaal aangaande een authenticatie / identiteitsclaim, bevoegdheid,
+controle van bevoegdheid of wilsuiting dat wordt gevormd door een samenhangend geheel van factoren, waar van
+toepassing bestaande uit: de sterkte van de voorafgaande registratie, identificatie, authenticatie en uitgifte; de sterkte van
+het middel zelf en het gebruik van het middel (het authenticatiemechanisme). Herkomst
+Vertaald uit engels van STORK “assurance level” en aangepast aan terminologie afsprakenstelsel. Er bestaat nog verschil van mening in de werkgroepen over de vertaling van assurance in zekerheid dan wel
+betrouwbaarheid. Er is gekozen voor betrouwbaarheidsniveaus omdat deze term ook door PKIoverheid gehanteerd wordt,
+echter zonder daar expliciet te zijn gedefinieerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 90Beveiligingsincident
+Een gebeurtenis die een bedreiging vormt of kan vormen voor de betrouwbaarheid, vertrouwelijkheid of beschikbaarheid
+van een elektronische toegangsdienst en/of een inbreuk op beveiliging die leidt tot de aanzienlijke kans op ernstige nadelige
+gevolgen voor de bescherming van persoonsgegevens. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 91
+Bevoegdheid
+Het recht van een persoon om een handeling te verrichten. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 92
+BSN
+Burgerservicenummer: Persoonlijke identificatie van de Nederlandse overheid voor natuurlijke personen. Herkomst
+Gebaseerd op : het aan een natuurlijk persoon toegekende nummer. Zie Artikel 1 sub b Wabb https://wetten.overheid.nl
+/BWBR0022428/2018-07-28Afsprakenstelsel Elektronische Toegangsdiensten | pagina 93BSN-domein
+Het onderdeel binnen het Publieke domein waarin het  bij  gebruikt wordt. BSN de interactie
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 94
+BSNk
+Een publieke voorziening, onder verantwoordelijkheid van de , die Minister van Binnenlandse Zaken en Koninkrijksrelaties
+ten behoeve van   pseudoniemen en   verstrekt. Polymorfe pseudonimisering Sleutelmateriaal
+Bron
+Eigen definitie  specifiek voor de context van het afsprakenstelsel
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 95BSN koppelregister
+Oude benaming voor . BSNkAfsprakenstelsel Elektronische Toegangsdiensten | pagina 96
+Certificatie (certificeren)
+Een brede (zowel technisch als niet-technisch) evaluatie van de beveiligingseigenschappen van een informatiesysteem of,
+zoals in het kader van de PKI voor de overheid, een managementsysteem uitgevoerd door een onafhankelijke derde. Certificatie wordt uitgevoerd als een onderdeel van een proces, waarbij wordt nagegaan in welke mate een
+managementsysteem overeenkomt met een vastgestelde verzameling van eisen (ETSI TS 101 456). Herkomst
+PKIoverheid (en ETSI TS 101 456). Nota bene: in sommige Europese richtlijnen, waaronder de richtlijn elektronisch handtekening wordt dit als accreditatie
+aangeduid.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 97Commissie van Deskundigen (CvD)
+Een door de Ministerraad benoemde commissie die de minister van Binnenlandse Zaken adviseert over betreffende
+toetreding, handhaving en  . De Commissie van Deskundigen wordt ondersteund door het  incidenten Secretariaat van de
+. Commissie van Deskundigen
+Voluit: Commissie van Deskundigen voor het Toezicht op het . ETD-stelsel
+Zie https://zoek.officielebekendmakingen.nl/stcrt-2016-20595.htmlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 98
+Controle van bevoegdheid
+Controle van bevoegdheid zoals deze blijkt uit een in een machtigingenregister geregistreerde vertegenwoordigingsrelatie. Reden van het onderscheid tussen machtiging sec en controle van bevoegdheid is dat de machtiging ook kan bestaan los van
+het machtigingenregister. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 99
+Dataminimalisatie
+Het zodanig inrichten van een gegevensverwerking dat er zo weinig mogelijk identificerende gegevens bekend hoeven te zijn
+bij zo weinig mogelijk partijen. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 100
+Deelnemer
+Een partij die conform hetgeen daarover in het  is vastgelegd één of meer rollen vervult binnen het  Afsprakenstelsel (AS)
+. Deelnemers kunnen rollen voor eigen gebruik en/of voor gebruik door Netwerk (voor Elektronische Toegangsdiensten)
+derden vervullen. Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelselAfsprakenstelsel Elektronische Toegangsdiensten | pagina 101
+Dienst
+Een Dienst is een samenstel van elektronisch aanbod waarvoor   voorwaardelijk is, onder meer gericht op: Herkenning
+het tot stand komen van een rechtsbetrekking (het nemen van een besluit of sluiten van een overeenkomst);
+het leveren van een product of besluit;
+het beantwoorden van een informatievraag. De Dienst wordt aangeboden door een Dienstverlener en opgenomen in de Dienstencatalogus. Een Dienst kan door de
+Dienstafnemer rechtstreeks bij de Dienstaanbieder worden afgenomen of via een Dienstbemiddelaar. In beide gevallen is
+sprake van afname van de Dienst. Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 102
+Dienstaanbieder (DA)
+De Dienstaanbieder is een Dienstverlener welke bij  de afgenomen Dienst aanbiedt. De Dienstaanbieder Dienstbemiddeling
+verzorgt de inhoudelijk afhandeling van de Dienst in het . achterliggende systeem
+Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 103
+Dienstafnemer
+Een partij die Elektronische Toegangsdiensten gebruikt om een dienst af te nemen bij een dienstverlener. De dienstafnemer
+is een partij van de vorm
+natuurlijk persoon die een onderneming drijft (een eenmanszaak), of
+een niet natuurlijk persoon conform de identificatie waarmee het is ingeschreven in het Nederlandse handelsregister
+of in een vergelijkbaar buitenlands openbaar register conform de voorschriften van het betreffende land, of
+een natuurlijk persoon die als privépersoon een dienst afneemt van een dienstverlener, of
+een natuurlijk persoon die als burger een dienst afneemt van een dienstverlener die gerechtigd is het BSN te
+gebruiken
+Een dienstafnemer is de  of wordt vertegenwoordigd door een gebruiker. Gebruiker
+Nota bene: In proposities aan bedrijven is het toegestaan de abstracte term “dienstafnemer” concreet te maken en te
+vervangen door “bedrijf”. Herkomst
+Herkomst: o.a. gebaseerd op Hrw 2007 en BW deel 3, artikel 15d en BAO artikel 47 lid 1.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 104
+1.

@@ -1,0 +1,36 @@
+4. Beleidsuitgangspunten voor de naleving van de AVG
+Het afsprakenstelsel kent de volgende generieke beleidsuitgangspunten voor de naleving van de . Deze AVG
+beleidsuitgangspunten volgen mede uit de AVG. Deelnemers, Beheerorganisatie en BSNk, hierna genoemd partijen, zijn zelf verantwoordelijk voor het daadwerkelijk
+voldoen aan de AVG ongeacht hetgeen in dit beleid is aangegeven. Partijen MOETEN processen ingericht hebben waarmee zij aantonen en waarborgen dat zij voldoen aan de
+bepalingen van de AVG. De processen hebben minimaal betrekking op:
+Inventarisatie en vastlegging van de verwerking van persoonsgegevens met daarbij aangegeven de
+doelbinding, de rechtmatigheidsgrondslag en de noodzaak voor de verwerking gezien het doel. Jaarlijkse uitvoering van een Privacy Self Assessment
+Het aantoonbaar opvolging geven aan de aanbevelingen die volgen uit een Privacy Impact Analyse. Waarborgen van de meldplicht datalekken in relatie tot het incidentmanagementproces van het stelsel,
+Waarborgen van de bepalingen uit de AVG zoals de informatieplicht en informatieverstrekking aan derden,
+rechten van betrokkenen en bewaartermijnen. Waarborgen dat de beveiliging van de verwerking en opslag van beveiliging van persoonsgegevens integraal
+onderdeel is van het management van de informatiebeveiliging van de organisatie conform het Beleid voor
+Informatiebeveiliging van het stelsel. Waarborgen van de juistheid van persoonsgegevens. Partijen MOETEN een medewerker aanwijzen die contactpersoon is inzake de naleving van dit Privacybeleid. Dit Privacybeleid maakt onderdeel uit van het Afsprakenstelsel en daarom MOETEN partijen aan de Toezichthouder
+van het stelsel de naleving ervan aantonen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8681. Verantwoordelijkheden partijen afsprakenstelsel elektronische
+toegangsdiensten
+In dit hoofdstuk wordt voor de verschillende in netwerk van het afsprakenstelsel elektronische toegangdiensten te
+onderscheiden partijen aangegeven wat hun rol is bij de verwerking van persoonsgegevens. Alle deelnemers van het afsprakenstelsel elektronische toegangsdiensten zijn 'verantwoordelijke' in de zin van de AVG voor
+de verwerking van de persoonsgegevens voor de rol waarvoor zij zijn toegetreden. Dit houdt in dat Deelnemers
+ook zelf verantwoordelijk zijn voor de implementatie en de naleving van de voorwaarden die de AVG aan een rechtmatige
+verwerking van persoonsgegevens stelt. Naast de rol van 'verantwoordelijke' in de zin van de AVG, geldt specifiek voor de Authenticatiedienst dat zij ook 'bewerker' in
+de zin van de AVG is voor de verwerking van het BSN nummer. De Authenticatiedienst verwerkt het BSN nummer op basis van
+een bewerkersovereenkomst met de minister van BZK/BSNk. De minister van BZK is de verantwoordelijke in de zin van de AVG voor deze verwerking van het BSN nummer door BSNk. De
+wettelijke basis voor verwerking van het BSN door BSNk is belegd in de wet Elektronisch Berichtenverkeer Belastingdienst en
+de daarbij behorende Ministeriële Regeling Voorziening GDI . De Authenticatiedienst is verplicht de verwerkingen van 1
+persoonsgegevens in zijn hoedanigheid als 'verantwoordelijke' en 'bewerker' in de zin van de AVG strikt gescheiden te
+houden en zijn organisatie is hier op ingericht. Voetnoten
+De formele wettelijke basis voor de verwerking van het BSN door BSNk is artikel X van de Wet elektronisch bestuurlijk
+verkeer met de belastingdienst. Zie ook https://www.eerstekamer.nl/behandeling/20151028/publicatie_wet
+en artikel 4 van de Regeling Voorziening GDI   /document3/f=/vjyicpz4satc.pdf https://zoek.officielebekendmakingen. nl/stcrt-2015-37158.htmlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 869Invulling voorwaarden voor rechtmatige verwerking
+In dit hoofdstuk wordt, per beginsel zoals beschreven in de AVG, concreet aangegeven wat de deelnemers als
+verantwoordelijke voor de verwerking van persoonsgegevens dienen vast te leggen en te regelen om aan deze beginselen te
+voldoen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 870Afbakening set van persoonsgegevens en doel van de verwerking
+Om duidelijkheid te bieden over welke set van persoonsgegevens voor welke doeleinden mogen worden verwerkt voor het
+aanbieden van elektronische toegangsdiensten binnen het Afsprakenstelsel elektronische toegangsdiensten is hieronder een
+afbakening opgenomen die door de deelnemer kan worden vastgelegd. Met deze afbakening van toegestane doeleinden en de set van persoonsgegevens die voor die doeleinden mogen worden
+verwerkt, wordt meer specifiek invulling gegeven aan het in de PIA (Mazars, Privacy Impact Assessement Introductieplateau,
+versie 1.0 d.d. 31 juli 2015) onderkende risico "function creep".

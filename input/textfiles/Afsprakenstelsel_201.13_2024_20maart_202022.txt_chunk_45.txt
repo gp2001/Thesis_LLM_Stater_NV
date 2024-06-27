@@ -1,0 +1,30 @@
+Toelichting processtappen
+1. Controleren en aanleveren metadata
+Input
+Een deelnemer genereert nieuwe metadata conform de technische specificaties en ondertekent deze met
+zijn valide digitale handtekening. Uiterlijk 7 dagen voor daadwerkelijk doorvoeren van de geplande wijzigingen in zijn infrastructuur, stelt de
+deelnemer de gecontroleerde nieuwe metadata beschikbaar voor de beheerorganisatie op zijn productionele
+metadata (HTTPS) URL. Deelnemers publiceren hun productionele metadata op een aparte URL per rol binnen
+het Netwerk. Nieuwe entities worden hierin toegevoegd met een ValidFrom datum in het beoogde
+onderhoudswindow waarin de wijziging moet worden doorgevoerd. Overtollige entities worden verwijderd
+door het toevoegen van een ValidUntil datum in het beoogde onderhoudswindow waarin de wijziging moet
+worden doorgevoerd. Van gewijzigde entities wordt de oude entry op genomen met een validUntil datum en
+de nieuwe entry met een validFrom datum. Ook hierbij liggen beide data in het beoogde onderhoudsvenster
+waarin de wijziging moet worden doorgevoerd. Daarna informeert de deelnemer de andere deelnemers en de
+beheerorganisatie d.m.v. een  issue. Dit issue bevat minimaal:  Mantis
+Het verwachte tijdstip van doorvoeren
+Een beschrijving van de wijzigingen
+De URL van de nieuwe metadata
+Activiteit 2. Een automatisch controle proces voert de technische controles op de, door de deelnemer gepubliceerde
+nieuwe, metadata uit. Deze controles bestaan uit:
+Validatie van de het metadata bestand tegen de technische specificities
+Validatie van de elektronische handtekening van de deelnemer
+Controle van de consistentie van het metadata bestand
+Controle op juridische inhoud (de rollen en betrouwbaarheidsniveaus die de deelnemer o.b.v. deze
+metadata claimt te mogen uitvoeren), zoals vooraf gedefinieerd door de juridisch coördinator van de
+beheerorganisatie. N.B. Deze controlestap wordt voor metadata van het testnetwerk overgeslagen. Hier moeten (aankomende) deelnemers juist kunnen testen als onderdeel van het toetredingsproces. 3. Wanneer één van de genoemde controles geen positief resultaat heeft, wordt geen nieuwe metadata
+gepubliceerd op de URL van de beheerorganisatie. De deelnemers worden per e-mail van het resultaat van de controle op de hoogte gebracht, alleen als
+metadata van de deelnemer gewijzigd is om "spamming" te voorkomen. Bij fouten in de metadata die in
+stap 1 worden geconstateerd, worden deze via e-mail door het automatisch proces zowel naar de
+deelnemer als naar de beheerorganisatie verstuurd. Output
+In behandeling genomen goedgekeurde metadata. Terugmelding besluit. Wie?

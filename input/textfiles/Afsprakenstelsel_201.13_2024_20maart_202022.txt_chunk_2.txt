@@ -1,0 +1,30 @@
+Zij mogen alleen attributen
+aanbieden die in de Attribuutcatalogus beschreven worden. SAML metadata  — This chapter describes the metadata the participants must supply, how the Beheerorganisatie
+publishes the aggregated metadata, and how it is to be interpreted by the participants. Service catalog  — This chapter describes the format and publication of the Dienstencatalogus (DC) (service
+catalog). Testing  — This document describes the tests that (aspiring) participants should perform.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 13Informatiebeveiliging en privacy
+Dit hoofdstuk bevat de normenkaders en het beleid aangaande borging van veiligheid, privacy en continuïteit van
+Elektronische Toegangsdiensten. Beleid voor informatiebeveiliging  — Dit document bevat het beleid voor informatiebeveiliging dat onderdeel is
+van het Afsprakenstelsel Elektronische Toegangsdiensten. Privacybeleid  — Om Herkenningsdiensten te kunnen leveren worden persoonsgegevens verwerkt. De verwerking
+van persoonsgegevens is alleen rechtmatig als wordt voldaan aan de voorwaarden die de Algemene verordening
+gegevensbescherming (AVG) of andere toepasselijke specifieke privacy wet- en regelgeving hieraan stelt. Gemeenschappelijk normenkader informatiebeveiliging  — ISO 27001:2013 beheersdoelstellingen en
+beheersmaatregelen binnen de scope van eToegangsdiensten, - activiteiten, -objecten en -informatie
+Normenkader betrouwbaarheidsniveaus  — Beschrijft de wijze waarop authenticatiemiddelen en machtigingen
+geclassificeerd worden op betrouwbaarheidsniveau en de normen die daarbij worden toegepast. AttributenbeleidAfsprakenstelsel Elektronische Toegangsdiensten | pagina 14Templates en formulieren
+Template deelnemersovereenkomst  — De overeenkomst tussen deelnemers en beheerorganisatie op basis
+waarvan deelnemers gehouden zijn het afsprakenstelsel toe te passen. Deze deelnemersovereenkomst verwijst
+naar het afsprakenstelsel maar is er (strikt genomen) zelf geen onderdeel van. Template verzoek tot (uitbreiding) toetreding
+Template wijziging rechtspersoon deelnemer
+Template zelfverklaring DienstverlenerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 15Algemeen
+Hier vindt u de algemene introductie op het Afsprakenstelsel Elektronische Toegangsdiensten. Dit document beschrijft de
+werking van Elektronische Toegangsdiensten en geeft tevens een overzicht van de andere onderdelen van het
+afsprakenstelsel.Deze categorie bevat de volgende onderdelen:
+Algemene introductie  — In dit hoofdstuk vindt u de algemene introductie op het Afsprakenstelsel Elektronische
+Toegangsdiensten. Dit deel geeft een overzicht van het afsprakenstelsel, de diensten, rollen en gebruikers. De teksten
+gelden voor eHerkenning en Idensys. Waar nodig wordt voor één merk een verbijzondering gemaakt. Begrippenlijst  — Binnen Elektronische Toegangsdiensten wordt één begrippenlijst gehanteerd. In deze lijst zijn
+enkelvoudsvormen van zelfstandige naamwoorden en werkwoorden opgenomen. Waar in dit document de
+werkwoordsvorm van deze zelfstandige naamwoorden wordt gehanteerd, heeft deze dezelfde betekenis als de
+gedefinieerde zelfstandige naamwoorden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 16Toegankelijkheid
+Loopt u tegen een toegankelijkheidsprobleem aan? Of heeft u een vraag of opmerking over toegankelijkheid? Neem dan
+contact op via . info@eherkenning.nl
+Wat kunt u van ons verwachten? Binnen 5 werkdagen krijgt u een ontvangstbevestiging. We informeren u over de voortgang en de uitkomst. Binnen 3 weken is uw verzoek afgehandeld. Handhavingsprocedure
+Bent u niet tevreden met de manier waarop uw klacht is behandeld? Of hebben we niet op tijd gereageerd? Dan kunt u contact opnemen via .

@@ -1,0 +1,55 @@
+Maand Dagen Uren per dag Totaaltijd
+Maart 31 24 744
+HM Totaal
+tijdOnderhoudstijd Incident
+tijdOperationeel
+tijdBeschikbaarheidstijd Beschikbaarheid
+(A)
+Leverancier
+1744 0 0 744 744 100
+Leverancier
+2744 0 2 742 744 99,73
+Leverancier
+3744 4 0 740 740 100
+AD Totaal
+tijdOnderhoudstijd Incident
+tijdOperationeel
+tijdBeschikbaarheidstijd Beschikbaarheid
+(A)
+Leverancier
+1744 0 0 744 744 100
+Leverancier
+2744 0 2 742 744 99,73
+Leverancier
+3744 2 2 740 742 99,73
+MR Totaal
+tijdOnderhoudstijd Incident
+tijdOperationeel
+tijdBeschikbaarheidstijd Beschikbaarheid
+(A)
+Leverancier
+1744 0 2 742 744 99,73
+Leverancier
+2744 4 0 740 740 100
+Leverancier
+3744 0 0 744 744 100
+DC Totaal
+tijdOnderhoudstijd Incident
+tijdOperationeel
+tijdBeschikbaarheidstijd Beschikbaarheid
+(A)
+Leverancier
+1744 0 0 744 744 100
+Beschikbaarheid (A) HMs = (A HM1 + A HM2+ A HM3) / Totaal aantal HMs = (100 + 99,73 + 100) / 3 = 99,91%
+Beschikbaarheid (A) ADs = (A AD1 + A AD2+ A AD3) / Totaal aantal ADs = (100 + 99,73 + 99,73) / 3 = 99,82%Afsprakenstelsel Elektronische Toegangsdiensten | pagina 440Beschikbaarheid (A) MRs = (A MR1 + A MR2+ A MR3) / Totaal aantal HMs = (99,73 + 100 + 100) / 3 = 99.91%
+Beschikbaarheid (A) DCs = (A DC1) / Totaal aantal DCs = (100) / 1 = 100%
+Beschikbaarheid As = (A HMs) (A ADs) (A MRs) (A DCs) = (0,9991) (0,9982) (0,9991) (1) = 99,64%Afsprakenstelsel Elektronische Toegangsdiensten | pagina 441Performance
+Performance is datgene wat Elektronische Toegangsdiensten bereikt of levert, uitgedrukt in tijd of aantallen. Doel van het
+stellen van performancenormen is het waarborgen van een goede gebruikersbeleving op piekmomenten. Voor deelnemers Norm
+Verwerking van
+berichten 95% van de berichten MOET binnen 2 seconden worden beantwoord
+99% van de berichten MOET binnen 5 seconden worden beantwoord
+Elke deelnemer MOET ten minste 100 gelijktijdige berichten kunnen verwerken terwijl nog
+wordt voldaan aan de performance-eisenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 442Incidenten
+Onder ‘incidenten’ wordt verstaan: elke gebeurtenis die niet tot de standaardoperatie van een dienst behoort en die mogelijk
+impact c.q.

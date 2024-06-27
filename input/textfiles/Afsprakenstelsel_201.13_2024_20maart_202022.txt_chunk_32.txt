@@ -1,0 +1,27 @@
+3. Processtappen
+Input
+nieuwe versie van het afsprakenstelsel en/of;
+bij Elektronische Toegangsdiensten berustende openbare documenten met betrekking tot Elektronische
+Toegangsdiensten
+Activiteit
+De beheerorganisatie publiceert het nieuwe afsprakenstelsel en andere openbare stukken aangaande
+Elektronische Toegangsdiensten in pdf formaat op de gezamenlijke digitale documentatieomgeving van
+Elektronische Toegangsdiensten en de website Elektronische Toegangsdiensten. De deelnemers, de beheerorganisatie en sommige aangesloten overheidsdienstverleners hebben een
+gepersonaliseerde account met leesrechten voor de documentatieomgeving. Andere geïnteresseerde
+partijen kunnen via de website de openbare documentatie lezen en downloaden. De openbare documentatie blijft beschikbaar op de documentatieomgeving en de website. De
+deelnemers, de beheerorganisatie, de overheidsdienstverleners en andere geïnteresseerden kunnen het
+onbeperkt raadplegen. Output Actief gepubliceerde openbare documenten op de website van Elektronische Toegangsdiensten en de
+gezamenlijke digitale documentatieomgeving van Elektronische Toegangsdiensten. Wie? Secretaris van de beheerorganisatie
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 312Proces doorvoeren nieuwe dienstencatalogus
+In de dienstencatalogus zijn alle diensten van aangesloten dienstverleners opgenomen die worden onderscheiden binnen
+Elektronische Toegangsdiensten. De beheerorganisatie beheert de geaggregeerde dienstencatalogus. Dit proces beschrijft
+hoe wijzigingen op de dienstencatalogus worden doorgevoerd. Voor de publicatie van de dienstencatalogus in de testomgeving is geen formeel proces afgesproken buiten het feit dat deze
+op de, in het proces hieronder beschreven, URL wordt gepubliceerd. In de dienstencatalogus in de testomgeving worden de
+testdiensten van de simulator gepubliceerd, alsmede testomgevingen van dienstverleners indien en voor zover deze
+testmiddelen en -machtigingen van andere deelnemers willen gebruiken..Afsprakenstelsel Elektronische Toegangsdiensten | pagina 313Verantwoordelijkheden
+De proceseigenaar is er vanuit de beheerorganisatie verantwoordelijk voor dat het proces wordt uitgevoerd conform de
+procesbeschrijving. De technisch beheerder van de beheerorganisatie is er verantwoordelijk voor dat de procesbeschrijving
+actueel blijft.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 314Overzicht processtappen
+1. Aanleveren nieuwe dienstencatalogusinformatie
+2. Aanleveren nieuwe dienstencatalogus
+3.

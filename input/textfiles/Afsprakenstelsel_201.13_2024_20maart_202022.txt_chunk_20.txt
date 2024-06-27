@@ -1,0 +1,44 @@
+De toetredingseisen worden
+gesteld om een aantal redenen. De belangrijkste daarvan is de wetenschap dat het netwerk alleen goed zal kunnen
+functioneren als afnemers van diensten voldoende vertrouwen hebben in het afsprakenstelsel. Vertrouwen in het
+afsprakenstelsel en in de Herkenningsdiensten die in kader van het afsprakenstelsel geleverd worden vereist vertrouwen in
+de individuele deelnemers. Het afsprakenstelsel moet dus voorzien in duidelijke inhoudelijke eisen op basis waarvan
+deelnemers mogen toetreden (en uittreden).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 215Algemene toetredingseisen
+Het is van belang dat de deelnemer identificeerbaar is en kan voldoen aan zijn verplichtingen. Daarvoor is het volgende
+nodig:
+De deelnemer drijft een onderneming en is ingeschreven in het Nederlandse Handelsregister
+De deelnemer hanteert binnen Elektronische Toegangsdiensten uitsluitend een geregistreerde handelsnaam. De deelnemer verkeert niet in staat van faillissement, aan hem is geen surséance van betaling verleend en voor hem
+geldt geen schuldsaneringsregeling. Ook is ten aanzien van de deelnemer geen faillissement aangevraagd en heeft de
+deelnemer niet opgehouden zijn schulden te betalen. Als combinaties van deelnemers willen toetreden dan is dat mogelijk. In dat geval dienen alle deelnemers te voldoen aan de
+toetredingseisen. Als een Deelnemer gebruik maakt van derden (denk aan een onderaannemer) bij het vervullen van de rol (MU, AD, MR, HM)
+dan is de Deelnemer verantwoordelijk dat deze gehele keten voldoet aan de afspraken en verplichtingen genoemd in het
+stelsel. Indien een Deelnemer gebruik wil maken/ gebruik maakt van derden dan wordt dit gezien als een proceswijziging
+waarvoor het toetredingsproces voor moet worden doorlopen. De Deelnemer biedt deze diensten (HM, MU, AD, MR)  aan op
+eigen naam en/of label
+Let op: Het leveren van diensten als derde bij verkoopactiviteiten van de Deelnemer wordt niet gezien als het ondersteunen
+van het vervullen van de rol (MU, AD, MR, HM). Voor het gebruik maken van derden bij verkoopactiviteiten gelden de
+beschreven afspraken onder   en  Samenwerking met externe verkoopkanalen Eisen communicatie bij samenwerking met
+. Het is niet toegestaan dat deze derden een rol vervullen of activiteiten uitvoeren externe verkoopkanalen in het  (deel)proces
+Als ze dat wel doen dan wordt dat gezien als het ondersteunen als derde van de rollen waarmee de Deelnemer is toegetreden. (als onderaannemer) in het vervullen van de rol waarvoor het toetredingsproces moet worden doorlopen. De Deelnemer dient met deze derden (te weten onderaannemers) in een onderlinge overeenkomst afspraken te maken over:
+Exit(plan)
+Eigendom van klant- en loggegevens
+Aansprakelijkheid
+Bij wijzigingen/overdracht van derden (te weten onderaannemers) dient de continuïteit van de dienstverlening van de
+deelnemer te zijn gewaarborgd. Indien de combinatie onder een gemeenschappelijke naam Herkenningsdiensten wil verrichten, dienen de leden van de
+combinatie vanaf de start van deelname zodanig samen te werken dat ieder van de combinanten hoofdelijk aansprakelijk is
+voor de volledige en correcte nakoming van alle verbintenissen jegens de . Alle combinanten dienen te voldoen aan Eigenaar
+de toetredingseisen. Bij wijziging in de samenstelling van de combinatie moet de toetredingsprocedure voor nieuwe
+combinanten opnieuw worden doorlopen. Ter bevordering van de kwaliteit van de dienstverlening, dient bij het leveren van Herkenningsdiensten betrokken personeel
+voldoende bekwaam te zijn. Daarvoor is het volgende nodig:
+De deelnemer heeft op basis van CV's van personeel aangetoond over voldoende opleiding en ervaring te beschikken om aan
+het afsprakenstelsel te kunnen voldoen, met name op de volgende gebieden: juridisch, techniek, standaarden en het
+aanbieden van online diensten. Het betreffende personeel hoeft niet in een arbeidsrelatie tot de deelnemer te staan, het gaat
+erom dat de deelnemer kan aantonen dat het personeel dat bij het leveren van Herkenningsdiensten betrokken is, voldoende
+opgeleid en ervaren is. Een deelnemer kan op andere wijze invulling geven aan het aantonen van kwalificaties van de
+mensen waarvan zij gebruik maken die relevant zijn in kader van Elektronische Toegangsdiensten. Wat betreft de toetredingsprocedure geldt dat:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 216De deelnemer de toetredingsprocedure als beschreven in het afsprakenstelsel dient te accepteren en met goed gevolg
+dient te doorlopen. Het voorafgaand aan de toetreding succesvol doorlopen van de testen van de conformiteit van
+technische voorzieningen is hier onderdeel van. De deelnemer alle processen en procedures die noodzakelijk zijn voor het leveren van Herkenningsdiensten op het
+gespecificeerde betrouwbaarheidsniveau volledig dient te hebben gedocumenteerd en op te leveren. Wanneer een
+deelnemer relevante wijzigingen aanbrengt kan het zijn dat onderdelen van de toetredingsprocedure herhaald
+moeten worden. De deelnemer beschikt over de certificaties die expliciet voor het afsprakenstelsel noodzakelijk zijn of die uit
+toepasselijke wet- en regelgeving volgen. De deelnemer de deelnemersovereenkomst dient te ondertekenen en deze volledig dient te accepteren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 2171. 2. 1.

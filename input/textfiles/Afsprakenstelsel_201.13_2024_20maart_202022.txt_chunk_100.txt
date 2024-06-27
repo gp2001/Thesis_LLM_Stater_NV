@@ -1,0 +1,30 @@
+<ReadableCard > Info 0.. 1String max 60 chars. ReadableCardInfo is text that – combined with the MeansType – has
+just enough information for a user to recognise the specific 'collection of
+authorizations' in the domain of the MachtigingsRegister. ReadableCardInfo MUST be
+unique per user, but  MUST not be usable to identify the user. For privacy reasons this
+MUST have a low entropy so that many users have this same ReadableCardInfo
+. ReadableCardInfo
+For Autorisations a second part has to be added with the date of the last added
+Autorisation eg "Last Authorization added at 31-01-2018". Therefor the MR has to register
+a new status with every new autorisation. For MachtigingsRegister this element is
+required for every registration to have the most actual "Last Autorisation" (any new will
+overwrite the old text). <Status> 1 (as long as any authorization in  contain one of the specified statusses: MUST   Activated
+this collection is active in the BSN Domain), (if the last active authorization in Suspended
+this collection is suspended), (if the last active authorization in this collection is Expired
+expired) or  (if the last active authorization in this collection is Revoked). This  Revoked
+element is required for every registration to have the most actual status. Any new status
+will overwrite the old status. < > RevocationURL 0.. 1String max 1024 chars. RevocationURL is a valid URL which can be used by mijnoverheid
+(when providing the user an overview of electronic identification means) to redirect the
+user to the MachtigingsRegister for managing this collection of autorisations, for
+instance suspending authorizations. For privacy reasons this RevocationURL can have a
+random collection-specific unique-ID (not a userid!), but otherwise MUST consist of low
+entropy data. The URL could use other elements from this registration request message
+(except EncryptedPseudonym). In the Metadata the RoleDescriptor for MachtigingsRegister already has a generic URL to
+the MachtigingsRegister authorization management function. That URL will be default
+unless a RevocationURL is provided. This RevocationURL could be used to direct the user
+directly to the appropriate collection of authorizations. Or a RevocationURL with a
+random collection-specific unique-ID could me used to immediately Suspend the
+collection for a short period of time , possibly even without authenticating the user. Any new will overwrite the old text and empty string can be used to cancel the (working of
+this) RevocationURL. Processing rules for Status Registration Request
+A requesting MachtigingsRegister
+MUST await a successful response or retry to send the request. .

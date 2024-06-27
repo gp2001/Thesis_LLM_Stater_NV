@@ -1,0 +1,61 @@
+Er wordt gewerkt aan een governance proces om in de toekomst correcte, complete, en up-to-date bestanden te kunnen
+leveren. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 466Use cases
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Beschrijft de functionaliteit van Elektronische Toegangsdiensten in detail.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 467Leeswijzer
+Use cases voor Gebruik
+GUC1 Gebruiken eToegang als dienstafnemer  — In deze use case wordt de identiteit van de dienstafnemer
+vastgesteld. De Herkenningsmakelaar geeft hierover een verklaring af aan de dienstverlener. De gebruiker
+voert hiertoe de GUC3 Aantonen identiteit uit. GUC2 Gebruiken eToegang als vertegenwoordiger  — In deze use case, die een uitbreiding is op GUC1
+Gebruiken eToegang als dienstafnemer, wordt de identiteit van de vertegenwoordigde dienstafnemer, de
+pseudo-identiteit van de gebruiker en de vertegenwoordigingsbevoegdheid van de gebruiker namens deze
+vertegenwoordigde dienstafnemer vastgesteld. De Herkenningsmakelaar geeft een nieuwe verklaring af aan
+de dienstverlener. Deze verklaring is samengesteld uit de verklaringen van de authenticatiedienst en het
+machtigingenregister. De gebruiker voert
+GUC3 Aantonen identiteit  — In deze use case kiest de Gebruiker een authenticatiedienst en identificeert zich
+bij die Authenticatiedienst (AD) door het gebruik van een authenticatiemiddel, dat hij eerder heeft verkregen
+(zie Use cases voor Administratie). De authenticatiedienst stelt het beoogde machtigingsregister vast en
+authenticeert de gebruiker voor de dienstverlener en het beoogde machtigingenregister en geeft hierover een
+verklaring af aan de herkenningsmakelaar. Deze use case wordt hieronder in een activity diagram
+GUC3.3 Authenticatie gebruiker mislukt
+GUC3.4 Selecteren beoogd machtigingenregister RFC2331
+GUC4 Aantonen bevoegdheid  — In deze use case raadpleegt de gebruiker de machtigingenregister. Het
+machtigingenregister stelt op basis van de eerder met GUC3 Aantonen identiteit verkregen identiteit van de
+gebruiker en een eerder geregistreerde bevoegdheid (zie Use cases voor Administratie), de identiteit van de
+vertegenwoordigde dienstafnemer en de pseudo-identiteit van de gebruiker vast en geeft hierover een
+verklaring af aan de Herkenningsmakelaar. GUC4.1 Te bevragen machtigingenregister reeds bekend
+GUC4.2 Machtigingenregister vindt geen bevoegdheid die aan de vraag voldoet
+GUC4.3 Portaalfunctie
+GUC4.4 Verschillende bevoegdheden aanwezig
+GUC4.5 Ketenmachtiging
+Machtigingenregister vindt geen bevoegdheid die aan de vraag voldoet (stap 4.5c alternatief)
+Vertegenwoordigde dienstafnemer onbekend (stap 4.5 alternatief)
+Vaststellen bevoegdheid
+Use case overschrijdende alternatieve scenario's
+Alternatief scenario attribuutverstrekking
+Attributen niet leverbaar of niet toegestaan
+Attribuut komt niet voor in attribuutcatalogus
+Dienst of dienstverlener komt niet voor in dienstencatalogus
+Gebruiker annuleert
+Soort dienstafnemer kan niet worden geleverd
+Use cases Single Sign-On
+Geen reactie bij lezen of schrijven selectie authenticatiedienst
+Single Log-out
+Use cases voor Administratie
+AUC1 Aansluiten dienst
+AUC2 Verkrijgen authenticatiemiddel
+AUC3 Registreren bevoegdheid
+AUC3.1 Registreren bevoegdheid eenmanszaken
+AUC3.2 Registreren status machtigingen eenmanszaken
+AUC4 Registreren attribuut
+AUC6 Activeren BSN
+AUC6.1 Activeren BSN mbv VI  — In het kader van sleutelmigratie van de IdentityProviderKeySet en van
+de SchemeWideKeySet (zie Proces migratie sleutelmateriaal voor polymorfe pseudonimisering) moet
+een MachtigingsRegister en MiddelenUitgever alle nog active (en dus eerder geactiveerde) BSN's Afsprakenstelsel Elektronische Toegangsdiensten | pagina 468opnieuw activeren bij BSNk-Activeren. Hiervoor stuurt
+de Machtigingenregister of MiddelenUitgever de BSN in de vorm van een Versleutelde
+Identiteit naar BSNk-Activeren. Die genereert en verstrekt een Polymorf Pseudoniem en Polymorfe
+Identi
+AUC7 Proces verlenen toestemming dienstbemiddeling  — Voor Diensten die via Dienstbemiddeling kunnen
+worden ontsloten, kan toestemming van de Dienstaanbieder (DA) benodigd zijn.

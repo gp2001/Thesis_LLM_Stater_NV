@@ -1,0 +1,47 @@
+7. Organisation to organisation (chain authorisation)
+The AD provides to the HM:
+an encrypted  of the user for the MR, as EncryptedID, encrypted to the MR Internal pseudonym
+any identifiers as specified in the ActingSubjectTypesAllowed in the appropriate service in the service catalog,
+as EncryptedIDs, encrypted to the DV
+The HM
+forwards this in the request to the MR of the user (MR1)
+is not able to access the value of the pseudonym and is not able to trace recurring users. MR1
+decrypts the pseudonym from the HM request
+selects the user authorization for organisation A (Intermediary organisation). allows the user to choose the ultimate represented party (organisation B)
+provides a response to the HM with:
+the  of the user to the HM as EncryptedID, encrypted to the DV Specific pseudonym
+the standard identifier of the organisation A (intermediary organisation) as EncryptedID, encrypted to
+MR2 and DV
+an "obligation" with the following data related to the ultimate "represented party"
+the "default identifier" (currently KvK-nr), as EncryptedID, encrypted to MR2
+the "identity of the expected mandates register". The HM
+forwards this information in a request to the MR of the represented party (MR2)
+is not able to access the value of the pseudonym and is not able to trace recurring users. MR2
+decrypts the EncryptedIDs (encrypted to MR2) for the intermediary organisation (A) and represented
+organisation (B);
+selects the appropriate authorization of intermediary organisation (A) for represented organisation (B);
+provides a response to the HM with any identifiers of the "represented entity" as specified in the
+EntityConcernedTypesAllowed in the service definition as EncryptedIDs, encrypted to the DV. The HM provides in its response to the DV
+the EncryptedIDs (encrypted to the DV) of organisation A and B and
+the EncryptedIDs (encrypted to the DV) of the acting user
+The DV decrypts the EncryptedID's of both organisations and the user as it sees fit, and uses them for its business
+processes.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 626PKIoverheid
+In order to use PKIoverheid properly, message recipients MUST meet the requirements for the receiving party described in
+the PKIoverheid Programma van Eisen (PKIoverheid Requirements), refer to  https://www.logius.nl/ondersteuning
+. /pkioverheid/aansluiten-als-csp/programma-van-eisen/
+The following aspects are important:
+Trust the root certificates which are still valid and not revoked from the website   The https://cert.pkioverheid.nl/;
+following PKI root certificates are NOT allowed:
+So called "TEST certificaten"
+Roots which are marked with "Persoon"
+Know and trust all valid domain and TSP certificates under the PKIo hierarchy, refer to   https://cert.pkioverheid.nl/,
+with the exception of the folowing domains:
+Organisatie Persoon
+Burger
+Autonome apparaten
+Private Personen
+Check the PKIoverheid CRL on   regularly; https://crl.pkioverheid.nl
+Participants MUST process and handle changes made on the pages  and  https://cert.pkioverheid.nl/ https://crl. within 10 business days. pkioverheid.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 627Secure connection
+The network wants to promote the use of strong cipher suites with minimum discomfort for end-users. Those roles that are
+in direct contact with their customers (e.g. a HM with it's DV's and an AD/MR with its users) are allowed to tighten security
+based on their risk analysis.

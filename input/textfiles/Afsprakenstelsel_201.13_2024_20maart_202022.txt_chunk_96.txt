@@ -1,0 +1,70 @@
+a HM with it's DV's and an AD/MR with its users) are allowed to tighten security
+based on their risk analysis. All communication between peers in these specifications is based on HTTP. All communication MUST be secured using
+Transport Layer Security, TLS. As a result, all communication MUST be transported over HTTPS ( https://tools.ietf.org/html
+). /rfc2818
+For HTTPS and TLS, any implementation MUST take the recommendations in BCP195 ( ) https://tools.ietf.org/html/rfc7525
+and the latest version of the NCSC-security guidelines for TLS-usage (currently   https://www.ncsc.nl/binaries/ncsc
+/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-
+). The following requirements are applicable for this beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf
+specification in relation to the NCSC guidelines:
+For back-channel communication, the guidelines categorized as "good" MUST be applied. For front-channel communication, the guidelines for "good" MUST be applied and the guidelines for "sufficient"
+MAY be applied, depending on target audience and support requirements. Guidelines categorized as "insufficient" MUST NOT be applied and those categorized as "phase out" SHOULD NOT be
+used. As HTTP itself is stateless, implementations are free to choose a method of maintaining state or sessions with a User-agent
+when applicable. The following applies for any HTTP state/session mechanism:
+HTTP servers MUST ensure session and state information is secured and User-agents are properly instructed with
+relevant security settings (e.g. proper cookie lifetime, Secure setting for cookies, CORS headers and similar). Any HTTP session or state tracking mechanisms MUST be implemented using current best practices to avoid session
+hijacking and other attacks. For more information, see for instance https://github.com/OWASP/CheatSheetSeries
+. /blob/master/cheatsheets/Session_Management_Cheat_Sheet.mdAfsprakenstelsel Elektronische Toegangsdiensten | pagina 628Secure cookies
+If a participant uses cookies to store user preferences and/or session information, the parameters   and  Secure HttpOnly
+SHOULD be used. For the cookie that is used to store AD selection by HM, refer to . Single sign-on and user sessionsAfsprakenstelsel Elektronische Toegangsdiensten | pagina 629Synchronize system clocks
+The network uses Coordinated Universal Time, i.e. UTC. All time stamps in the messages are formatted as yyyy-mm-ddThh:
+mm:ssZ . The T(time) and Z(zulu) are fixed values. Each participant and service provider MUST synchronize the system with a reliable and precise time source so the system time
+never deviates more than 2 seconds either way.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 630Interface Specifications Auxillary Systems
+The interface is provided by the BSNk, for more information you can contact the beheerorganisatie BSNk via
+. servicecentrum@logius.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 631Interface specifications aux HM-BSNk - ProvideDVkeys
+This interface between a HM and BSNk Key Management (BSNk-Sleutelbeheer) enables a HM to request DV-keys that are
+required by every Service Provider (Dienstverlener) to get an identity (e.g. BSN) or persistent pseudonym as a result of an
+authentication request. Further information about the Sleutelbeheer role of BSNk can be found in the BSNk documentation. Voor meer informatie kunt u contact opnemen met de beheerorganisatie BSNk via .The HM MUST: servicecentrum@logius.nl
+Only initiate the request based on a authentic request of the DV. Hand over the key material unaltered to the DV, using measures to ensure integrity and confidentiality.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 632DV-key format
+Information about the technical format of the key file provided to Dienstverleners  (Service Providers) can be found in the
+BSNk documentation. Voor meer informatie kunt u contact opnemen met de beheerorganisatie BSNk via
+. servicecentrum@logius.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 633Interface Specifications aux MR - BSNk
+The   shall expose web services  for MachtigingsRegisters and publish the corresponding WSDL document. Further BSNk
+information can be found in the BSNk documentation. Voor meer informatie kunt u contact opnemen met de
+beheerorganisatie BSNk via . servicecentrum@logius.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 634
+BSNk: activate
+The most recent version of the technical BSNk specifications are available on  or on https://wiki.bsn-koppelregister.nl/
+request (beheerorganisatie BSNk through . The information below is for information only. servicecentrum@logius.nl)
+This interface between a MachtigingsRegister and   is used to activate a user's social security number ( ) for BSNk BSN
+government related electronic services. The activation requires a  and validation data and will result in the  BSN provisioning
+of  Polymorphic Pseudonymization structures (e.g. Polymorphic Identity and Polymorphic Pseudonym) by the one or more
+. BSNk
+The interface described in this document is used to implement the use case  " (activate BSN) and MUST "AUC6 Activeren BSN
+be implemented by every MachtigingsRegister.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 635WSDL
+WSDL activate
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+xmlns:bsnk="urn:nl-gdi-eid:1.0:webservices"
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"
+name="BSNK_activate"
+targetNamespace="urn:nl-gdi-eid:1.0:webservices">
+<wsdl:types>
+<xsd:schema targetNamespace="urn:nl-gdi-eid:1.0:webservices"
+attributeFormDefault="unqualified"
+elementFormDefault="qualified">
+<xsd:import namespace="urn:oasis:names:tc:SAML:2.0:assertion" schemaLocation="saml-schema-
+assertion-2.0.xsd"/>
+<xsd:element name="ProvidePPRequest" type="bsnk:ProvidePolymorphicRequestType">
+<xsd:annotation>
+<xsd:documentation>Request message to provide PP for a
+specific user, for future use via ProvideEP queries. The 'BSNk' will generate one or more
+polymorphic pseudonym(s) for the identified user. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ProvidePP_PPCAOptimizedRequest" type="bsnk:ProvidePolymorphicRequestType">
+<xsd:annotation>
+<xsd:documentation>Request message to provide PP for a
+specific user, for future use via ProvideEP queries.

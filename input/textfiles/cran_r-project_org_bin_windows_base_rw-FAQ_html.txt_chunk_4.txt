@@ -1,0 +1,35 @@
+How did you specify it? Backslashes have to be doubled in R character
+strings, so for example one needs
+‘ ’. You can make
+life easier for yourself by using forward slashes as path separators:
+they do work under Windows. You should include the file extension
+(e.g. ‘ ’ rather than just ‘ ’); sometimes
+this isn’t shown in Windows Explorer, but it is necessary in R. A simple way to avoid these problems is to use the function to invoke the standard Windows file selection
+dialog. If you select a file there, the name will be passed to R in
+the correct format. Another possible source of grief is spaces in folder names. We have
+tried to make R work on paths with spaces in, but many people writing
+packages for Unix do not bother. So it is worth trying the alternative
+short name (something like ‘ ’; you can get it as the
+‘MS-DOS name’ from the Properties of the file on some versions of
+Windows, and from in a ‘ ’ window),
+and using the function from R code. See also Q2.2. Yet another complication is a 260 character limit on the length of the
+entire path name imposed by Windows. The limit applies only to some system
+functions, and hence it is possible to create a long path using one
+application yet inaccessible to another. It is sometimes possible to
+reduce the path length by creating a drive mapping using and
+accessing files via that drive. As of Windows 10 version 1607 and R 4.3,
+one can remove this limit via Windows registry by setting to . Long paths still may not always work reliably: some
+applications or packages may not be able to work with them and Windows
+cannot execute an application with long path as the current directory. 2.16 Does R use the Registry? Not when R itself is running. When you run the R installer, there are options (under ‘ ’) to ‘ ’ and (for
+Administrator installs) ‘ ’. If you tick the first option, the following string entries are added to the
+Windows registry: If you do not have administrative privileges on the machine while
+running the installer, then the entries are created under . The same entries are also created under or , for 32- and
+64-bit R respectively (only 64-bit since R 4.2). If you tick the second option (shown with administrative privileges
+only) (‘ ’) then entries are created
+under and . After installation you can add the Registry entries by running in a sub-folder of the folder, and remove
+them by running this with argument . Note that this requires
+administrative privileges unless run with argument and
+neither sets up nor removes the file associations. 2.17 Does R support automation (OLE, COM)? Directly, no. See packages such as from Omegahat
+( ,
+source and binary packages for earlier versions of R available from )
+and the non-Free project at . 2.18 The Internet download functions fail. for example and the menu items on the Packages menu. We have had several reports of this, although they do work for us on of our machines.

@@ -1,0 +1,45 @@
+Binnen het Tactisch Beraad zal het gesprek over redelijkheid
+gevoerd worden. Deze voorwaarde is dus niet gekoppeld aan de formele toetredingsprocedure, omdat de toetredingsprocedure
+en besluitvorming buiten de governance is geplaatst.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 50Verantwoordelijkheden eIDAS-berichtenservice
+Verantwoordelijkheden
+Aan de  worden bij authenticatie van een persoon met een buitenlands authenticatiemiddel de eIDAS-berichtenservice (EB)
+volgende eisen gesteld:
+De eIDAS-berichtenservice
+achterhaalt  zodra daar wettelijke basis voor bestaat, in de  of de Nederlandse dienstverlener , Dienstencatalogus (DC)
+een BSN vereist. achterhaalt in de dienstencatalogus welke attributen de Nederlandse dienstverlener nodig heeft. De eIDAS
+Berichtenservice staat het toe dat de dienstverlener een subset van de in de catalogus bij de dienst gemarkeerde
+attributen vraagt. De  mag het niet toestaan dat de dienstverlener meer attributen vraagt eIDAS-berichtenservice (EB)
+dan in de dienstencatalogus aangegeven. neemt de bij dienstverlener of makelaar gemaakte landenkeuze voor authenticatie over. biedt de handelende persoon een landenkeuze voor authenticatie als die keuze nog niet bij de dienstverlener of
+makelaar gemaakt is. vormt de eIDAS attributen om naar eTD attributen. vormt (zodra daar wettelijke basis voor bestaat en indien het een BSN dienst betreft) de eIDAS attributen om naar BRP
+. attributen
+honoreert de verwerkingsregels die vanuit het stelsel eTD zijn afgesproken in relatie tot het verwerken van antwoord-
+en resultaatberichten voor zover de verordening dit toelaat. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 51Historie en status
+Versie 1.1
+Versie 1.2
+Versie 1.3
+Versie 1.4
+Versie 1.5
+Versie 1.6
+Versie 1.7
+Versie 1.8
+Versie 1.9
+Versie 1.10
+Versie 1.11
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 52Versie 1.1
+In opdracht van het Ministerie van EZ heeft het programma eHerkenning het proces georganiseerd om met geïnteresseerde
+marktpartijen te komen tot versie 1.1 van het afsprakenstelsel eHerkenning. Dit is gebeurd met een iteratief
+werkgroepproces, waarbij zowel marktpartijen als dienstverleners hun inbreng leverden. De behoeften van dienstverleners
+werden hierbij vertegenwoordigd door de Gebruikersraad. (Voorafgaand aan oprichting van de Gebruikersraad vervulde het
+Launching Customer overleg deze functie. Gedurende 2010 bestond dit "Launching Customer" overleg uit Agentschap NL,
+Kamer van Koophandel, LNV. Immigratie- en Naturalisatiedienst (IND), Belastingdienst. Inspectie Verkeer en Waterstaat,
+Dimpact, IPO (Inter Provinciaal Overleg), OLO (Omgevingsloket Online) en Antwoord voor bedrijven.)
+Het aldus gezamenlijk gerealiseerde afsprakenstelsel is vervolgens tijdelijk in beheer genomen door Stichting ICTU (zie voor
+de verdere uitwerking van de inrichting van het het beheer . In 2012 is het beheer overgedragen Organen en taakverdeling
+aan Logius). De verantwoordelijkheid voor het beheer van het afsprakenstelsel eHerkenning omvat ook het verder regisseren
+van de doorontwikkeling van dat afsprakenstelsel. Immers, de toepassing van afsprakenstelsel eHerkenning versie 1.1 levert nu al bewezen unieke en waardetoevoegende
+oplossingen, onder andere in de proefimplementatie bij Agentschap NL. Zo verschaft het zekerheid of de persoon met wie de
+dienstverlener zaken doet wel is voor wie hij of zij zich uitgeeft. Ook maakt het duidelijk of deze persoon wel bevoegd is om
+voor het handelende Nederlandse bedrijf deze (overheids)diensten af te nemen. Tegelijk liggen er breed gedragen wensen voor uitbreidingen van eHerkenning na versie 1.0. Zo dienen – alleen al vanwege
+EU-richtlijnen – ook buitenlandse bedrijven eHerkenning te kunnen gaan gebruiken, niet alleen Nederlandse. Verder ligt er
+het voornemen voor uitbreiding van eHerkenningsfunctionaliteit met bijvoorbeeld ondertekendiensten, waarbij de afnemer
+van de dienst zijn wilsuiting – bijvoorbeeld een belastingaangifte of vergunningsaanvraag – elektronisch kan bekrachtigen.

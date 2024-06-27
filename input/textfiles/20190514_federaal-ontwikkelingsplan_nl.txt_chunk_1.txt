@@ -1,0 +1,298 @@
+FEDERAAL
+ONTWIKKELINGSPLAN
+VAN HET
+TRANSMISSIENET
+2020-2030
+15/02/2019FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20302
+TIJD OM TE
+VERSNELLEN
+Beste lezer,
+Het Belgische energiesysteem ondergaat fundamentele veranderingen. De evolutie naar een duurzaam
+en Europees geïntegreerd net zorgt voor een ongeziene dynamiek. De energietransitie wordt met de dag
+tastbaarder. Dit is niet zonder gevolgen. Het vraagt om een aangepast systeem beheer, nauwere Europese
+samenwerking én een nieuwe configuratie van het net. De Europese transmissienet beheerders spelen
+hierin een belangrijke rol. Gedreven door de Europese klimaatdoelstellingen voor 2020 en 2030, zien we grote uitdagingen voor het
+Belgische energiesysteem. Op relatief korte termijn verwachten we o.a. een stijgend percentage her -
+nieuwbare energie productie (on- én offshore) én een belangrijke toename van internationale elektrici -
+teitsstromen die vaak moeilijk voorspelbaar zijn en zeer volatiel. Om deze uitdagingen optimaal aan te pakken, is het cruciaal dat de ontwikkeling van het transmis -
+sienet vooroploopt op deze snelle marktevoluties. Bouwen aan het transmissienet van de toekomst
+vraagt daarom een andere aanpak dan voorheen. De vlugge veranderingen van de energietransitie
+staan immers haaks op de lange doorlooptijd die infrastructuurwerken doorgaans kennen. Willen we
+de omslag naar een duurzaam, betrouwbaar én betaalbaar elektriciteitssysteem alle kansen geven, dan
+kunnen we qua netontwikkeling best proactief én versneld anticiperen op wat sowieso komt. BOUWEN AAN HET
+TRANSMISSIENET VAN DE
+TOEKOMST VRAAGT EEN ANDERE
+AANPAK DAN VOORHEEN. DE
+SNELLE VERANDERINGEN
+VAN DE ENERGIETRANSITIE
+STAAN IMMERS HAAKS OP DE
+LANGE DOORLOOPTIJD DIE
+INFRASTRUCTUURWERKEN
+DOORGAANS KENNEN. FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20303
+Dit Federaal Ontwikkelingsplan 2020-2030 beschrijft de verande -
+rende context en wijst op de verwachte bottle necks en de mis -
+sing links in het transmissienet die de energietransitie op korte
+en middellange termijn dreigen af te remmen en zelfs te blokke -
+ren als we geen gerichte actie ondernemen. Aangezien Elia als
+transmissienetbeheerder de wettelijke verplichting heeft om het
+transmissienet te plannen en uit te bouwen, stellen we met dit
+Federaal Ontwikkelingsplan een investeringsprogramma voor dat
+tegemoetkomt aan de toekomstige noden. Dit plan is tegelijk een
+opstap op weg naar een verdere toekomst die gekenmerkt is door
+een quasi volledige decarbonisering van onze samenleving tegen
+2050 zoals afgesproken op de VN-klimaatconferentie van Parijs. De opmaak van het Federaal Ontwikkelingsplan gebeurt om de
+4 jaar en is coherent met het Ten-Year Network Development Plan
+van ENTSO-E, de Europese organisatie van netwerkbeheerders. We nemen deze opdracht heel ernstig. Bij elke investeringsbe -
+slissing wordt het belang van de samenleving vooropgesteld. Het
+elektriciteitsnet is immers sturend voor de welvaart, de decar -
+bonisering én de socio-economische ontwikkeling van ons land. Gezien de omvang en de impact van het Federaal Ontwikkelings -
+plan 2020-2030 is het ook cruciaal dat het belang van de toe -
+komstige infrastructuurprojecten algemeen aanvaard wordt. Er is nood aan een breed maatschappelijk draagvlak waarvoor
+Elia rekent op de steun van diverse overheden, federaties én de
+bevolking. Enkel zo ontmijnen we het spanningsveld tussen de
+algemeen aanvaarde klimaatambities en de praktische uitwer -
+king ervan. Chris Peeters, CEO Elia groep HET FEDERAAL
+ONTWIKKELINGSPLAN 2020-2030
+BESCHRIJFT DE VERANDERENDE
+CONTEXT EN WIJST OP DE
+VERWACHTE BOTTLENECKS
+EN DE MISSING LINKS IN HET
+TRANSMISSIENET DIE DE
+ENERGIETRANSITIE OP KORTE
+EN MIDDELLANGE TERMIJN
+DREIGEN AF TE REMMEN, ZELFS
+TE BLOKKEREN, ALS WE GEEN
+GERICHTE ACTIE ONDERNEMEN.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20304
+EXECUTIVE
+SUMMARY FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20305
+1. WAAROM EEN FEDERAAL ONTWIKKELINGSPLAN? MORGEN IS VANDAAG
+Het hoogspanningsnet van Elia is een cruciale pijler van het Bel-
+gische energiesysteem. Performante elektriciteitsinfrastructuur
+stuurt de economische ontwikkeling van België en draagt bij tot
+de welvaart van onze samenleving. De veranderende context van de energietransitie met steeds
+méér hernieuwbare energieproductie en toenemend internatio-
+naal elektriciteitstransport, vraagt echter om een nieuwe confi-
+guratie van het Belgische hoogspanningsnet én een aangepast
+beslissingsbeleid dat inspeelt op toekomstige noden. Om maximale voordelen te halen uit de energietransitie, is het
+cruciaal dat de ontwikkeling van de Belgische netinfrastruc -
+tuur vooroploopt op de verwachte marktevoluties. Infrastruc -
+tuurprojecten kennen immers een lange doorlooptijd. Het versneld anticiperen op duurzame ontwikkelingen vraagt
+een proactief beleid dat op korte termijn beslissingen neemt
+over de opstart van de nodige infrastructuurprojecten. NETINFRASTRUCTUUR ALS KATALYSATOR
+VOOR DE ENERGIETRANSITIE
+Het Federaal Ontwikkelingsplan 2020-2030 identificeert de
+behoeften aan transmissiecapaciteit van het Belgische hoog-
+spanningsnet (110 tot 380 kV) in de periode tussen 2020 en 2030
+en beschrijft het gepaste investeringsprogramma om daaraan
+tegemoet te komen. Voor het zeer hoge spanningsnet 380 kV
+gaat het om projecten die zowel het interne elektriciteitsnet
+versterken (backbone), de integratie van bijkomende offshore
+windproductie mogelijk maken als internationale elektriciteits-
+uitwisseling bevorderen door de verdere ontwikkeling van inter -
+connecties. Voor het transmissienet 110 kV - 150 kV – 220 kV zijn
+de projecten o.m. nodig om verouderde netinfrastructuur te ver -
+vangen, om tegemoet te komen aan verwachte lokale economi-
+sche ontwikkelingen en de verdere integratie van hernieuwbare
+energie.Het ontwikkelingsplan wordt om de 4 jaar gepubliceerd. Elia is
+er wettelijk toe verplicht. De opmaak gebeurt in samenwerking
+met de federale overheidsdienst Economie én het Federaal Plan-
+bureau. Bij het identificeren van de investeringsbehoeften houdt
+Elia rekening met de veranderende context van de energie-
+transitie en de evolutie naar een sterk Europees geïntegreerde
+elektriciteitsmarkt. Het Federaal Ontwikkelingsplan is o.a. geba-
+seerd op het Ten-Year Network Development Plan (TYNDP) van
+ENTSO-E, het Europese netwerk van transmissienetbeheerders. In dit rapport identificeert Elia de capaciteitsbehoeften van het
+Belgische hoogspanningsnet voor de periode 2020-2030. De
+concrete investeringsprojecten op zeer hoge spanning (380 kV
+net) omvatten zowel de versterking van het interne elektrici-
+teitsnet, de integratie van bijkomende offshore windproductie
+als de verdere uitbouw van interconnecties. VALIDERINGSPROCES
+Voorafgaand aan de goedkeuring door de federale  minister
+van Energie in het voorjaar van 2019, was het Federaal
+Ontwikkelingsplan 2020-2030 voorwerp van een adviesronde
+bij diverse overheden en regulatoren, en werd een uitgebreid
+milieu effectenrapport opgesteld. Een publieke consul tatie vond
+plaats in het najaar van 2018. Elia wil voor het Federaal Ontwikkelingsplan 2020-2030 een
+breed maatschappelijk draagvlak creëren. In voorbereiding
+van de publieke consultatie, wordt er een uitgebreide informa-
+tieronde georganiseerd voor direct betrokken stakeholders en
+ook een uitgebreide communicatiecampagne voorbereid. ELIA WIL VOOR
+HET FEDERAAL
+ONTWIKKELINGSPLAN
+2020-2030 EEN BREED
+MAATSCHAPPELIJK
+DRAAGVLAK CREËREN.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20306
+2. DE CONTEXT VAN DE ENERGIETRANSITIE
+IMPACT VAN DE ENERGIETRANSITIE OP HET BELGISCHE ELEKTRICITEITSNET
+Conventionele energiebronnen maken
+plaats voor CO2 arme (hernieuwbare)
+energieproductie die op grote schaal
+doorbreekt. Het energiesysteem decentraliseert en
+elektriciteitsproductie verwijdert zich van
+de grote verbruikerscentra. Door digitalisering en de opkomst van
+nieuwe technologieën evolueert elektri-
+citeit naar een tweerichtingsstroom. De
+eindgebruiker krijgt een prominentere rol. Stilaan zien we de doorbraak van elektri-
+sche auto’s, batterijtechnologie, toene-
+mend vraagbeheer en energie-efficiëntie. De doorbraak van hernieuwbare energie-
+productie in Europa zorgt voor een stijging
+van de internationale elektriciteitsstro-
+men. Bijkomende interconnectoren zorgen
+voor een toenemende integratie van de
+Europese elektriciteitsmarkt. De ontwikkeling van het Belgische elektriciteitsnet speelt in op
+de Europese verbintenis om onze samenleving tegen 2050 met
+meer dan 80 procent te decarboniseren. Europa volgt daar -
+mee de ambities van de COP21 klimaatconferentie in Parijs van
+december 2015. De klimaatdoelstellingen zijn de onmiskenbare drijfveer van de
+energietransitie die vandaag duidelijk zichtbaar en onomkeer -
+baar is. Ze zorgen voor een grondige transformatie van het
+Europese energiesysteem waarbij tegelijk gefocust wordt op
+het verbeteren van de energie-efficiëntie, het elektrificeren van
+DE DOELSTELLINGEN VAN HET ENERGIE-TRILEMMA
+België heeft er alle belang bij om te investeren in het elektrici-
+teitsnet. Een robuust en betrouwbaar on- en offshore net is een
+absolute voorwaarde voor een geslaagde energietransitie naar
+een betrouwbaar, duurzaam én betaalbaar energiesysteem. 1. Een betrouwbaar systeem: dankzij
+een energiemix die op elk moment
+kan voldoen aan de vraag en zo de
+economische activiteit bevordert
+en ons comfort in stand houdt.2. Een duurzaam systeem: door
+de integratie van hernieuwbare
+energie waarbij het binnenlandse
+potentieel ten volle wordt benut
+en aangevuld wordt met her -
+nieuwbare energieproductie uit
+het buitenland (via bijkomende
+interconnecties). 3. Een betaalbaar systeem: dankzij
+een sterk uitgebouwd elektriciteit -
+snet krijgt België toegang tot de
+meest efficiënte energiebronnen
+in eigen land én in het buitenland. Dit zorgt voor prijsconvergentie
+met de buurlanden en verbetert
+onze concurrentiepositie. belangrijke sectoren zoals transport en verwarming als het door -
+gedreven decarboniseren van het elektriciteitssysteem. België heeft de meeste baten bij een Europees geïntegreerd
+elektriciteitssysteem dat steunt op hernieuwbare energie-
+bronnen, waarbij het volledige binnenlandse potentieel wordt
+gevaloriseerd en wordt aangevuld met geïmporteerde elektri-
+citeit via bijkomende interconnectoren. Het positieve effect
+van deze visie is berekend in de Elia studie van november 2017
+(Electricity Scenarios for Belgium towards 2050) . De energietransitie zal pas succesvol zijn als het maximaal voor -
+delen oplevert voor de drie pijlers van het energie-trilemma:
+betrouwbaarheid, betaalbaarheid én duurzaamheid. KLIMAATDOELSTELLINGEN ALS DRIJFVEER
+€FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20307
+In het verleden volgde de topografie van het elektriciteitsnet de
+productie-ontwikkelingen: het net verbond grote centrale pro-
+ductie-eenheden (kolen-, gas- en nucleaire centrales) met ver -
+bruikerscentra. De ontwikkeling van het grensoverschrijdende
+netwerk diende vooral voor het verzekeren van bijkomende
+bevoorradingszekerheid. Vanaf eind jaren ’90 zorgde de liberalisering van de Europese
+elektriciteitsmarkt voor een sterk veranderende context. De
+internationale elektriciteitshandel werd steeds belangrijker
+waardoor de prijsverschillen tussen de nationale markten sterk
+verminderden. Dit werd mogelijk dankzij de verdere ontwikkeling
+van interconnectoren én de koppeling van nationale markten via
+een gezamenlijk mechanisme. Vandaag wordt de ontwikkeling van het Belgische elektriciteits-
+net gestuurd door het Europese klimaatbeleid dat tegen 2050
+een quasi volledige decarbonisering van de elektriciteitssector
+vooropstelt via de massale integratie van hernieuwbare energie-
+bronnen zoals zon en wind. De evolutie naar een duurzaam en Europees geïntegreerd ener -
+giesysteem is niet zonder gevolgen voor het transmissienet. Om
+maximaal te kunnen inspelen op de snelle veranderingen, is een
+aangepaste netconfiguratie nodig. EVOLUTIE VAN DE BELGISCHE NETONTWIKKELING: VAN REACTIEF NAAR PROACTIEF
+De ontwikkeling van nieuwe netinfrastructuur duurt echter veel
+langer (gemiddeld 10 jaar) dan de bouw van hernieuwbare ener -
+gieproductie (ca. 3 tot 5 jaar). Als we het volledige potentieel van
+hernieuwbare energieproductie willen ontplooien, is een aange-
+past beleid nodig in netontwikkeling. Verwachte bottlenecks en
+missing links moeten proactiever en versneld worden geïdentifi-
+ceerd en aangepakt. Enkel zo krijgt de energietransitie maximale
+kansen om zich waar te maken. De ontwikkeling van het Belgische elektriciteitsnet evolueert
+van “reactief” naar “proactief”. De bouw van netinfrastructuur
+heeft immers een langere doorlooptijd dan de realisatie van
+hernieuwbare energieprojecten. Om de energietransitie moge-
+lijk te maken en maximaal te valoriseren, is het in het belang
+van de samenleving dat de transmissie-infrastructuur op tijd
+gerealiseerd wordt. DE ONTWIKKELING
+VAN HET BELGISCHE
+ELEKTRICITEITSNET EVOLUEERT
+VAN “REACTIEF” NAAR “PROACTIEF”. DE BOUW VAN NETINFRASTRUCTUUR
+HEEFT IMMERS EEN LANGERE
+DOORLOOPTIJD DAN DE
+REALISATIE VAN HERNIEUWBARE
+ENERGIEPROJECTEN. OM DE
+ENERGIETRANSITIE MOGELIJK
+TE MAKEN EN MAXIMAAL TE
+VALORISEREN, IS HET IN HET
+BELANG VAN DE SAMENLEVING DAT
+DE TRANSMISSIE-INFRASTRUCTUUR
+OP TIJD GEREALISEERD
+WORDT.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20308
+3. METHODOLOGIE
+ZO WEINIG MOGELIJK MAAR
+ZOVEEL ALS NODIG
+Bij het identificeren van de investeringsbehoeften wordt in de
+eerste plaats gekeken naar mogelijke optimalisaties. Dankzij
+nieuwe methodes van systeem- en infrastructuur management
+én het gebruik van nieuwe technologieën, beheert Elia het elek -
+triciteitsnet dichter tegen de limieten. Als een versterking van het elektriciteitsnet toch noodzakelijk
+is, bestudeert Elia eerst of dit mogelijk is binnen de bestaande
+corridor. Dit kan bv. door het aanbrengen van performantere
+geleiders, dwarsregeltransformatoren, flexibele nettoegang of
+de plaatsing van toestellen om meer capaciteit te benutten op
+een bestaande lijn in functie van de meteorologische omstan-
+digheden. Pas in laatste instantie en als er werkelijk geen andere
+optie mogelijk is, wordt overwogen om nieuwe corridors te
+ontwikkelen. Investeren in nieuwe netinfrastructuur gebeurt bij voor -
+keur binnen een bestaande corridor. Enkel als geen andere
+optie mogelijk is, wordt overwogen om nieuwe corridors te
+ontwikkelen.WERKMETHODE
+Het Federaal Ontwikkelingsplan bepaalt de toekomstige investe-
+ringsprojecten voor de tijdshorizon 2020-2030 en identificeert
+de behoeften aan bijkomende transportcapaciteit. Daarvoor
+heeft Elia markt- en netstudies uitgevoerd die in lijn zijn met
+de TYNDP 2018 methodologie. Deze studies analyseren diverse
+toekomstscenario’s en houden rekening met meerdere verande-
+ringsfactoren die een invloed kunnen hebben op deze scenario’s
+(sensitiviteiten). Gezien het langetermijnkarakter van de inves-
+teringen, heeft Elia de investeringsbehoeften bekeken voor de
+periodes 2025, 2030 én 2035-2040. De toekomstscenario’s die Elia gebruikt voor dit Federaal Ont -
+wikkelingsplan, werden vastgelegd na overleg met de Algemene
+Directie Energie en het Federaal Planbureau. In het Federaal Ontwikkelingsplan 2020-2030 analyseren
+we op diverse tijdsmomenten de behoeften aan bijkomende
+transport  capaciteit. Bij de ontwikkeling van ons netwerk zoekt
+Elia naar oplossingen die maatschappelijk verantwoord zijn
+én kosten- efficiënt. We streven naar maximale waardecreatie
+voor elke euro die de samenleving betaalt. ONS ENGAGEMENT
+Bij het ontwikkelen van het elektriciteitsnet van de toekomst engageert Elia zich op drie punten:
+1. De bouw van nieuwe infrastruc -
+tuur zoveel mogelijk minimalise-
+ren door voorrang te geven aan
+het optimaliseren en verbeteren
+van de bestaande infrastructuur.2. Open communicatie en samen-
+werking gedurende het volledige
+ontwikkelingsproces en dit vanaf
+een heel vroeg stadium.3. Respect voor mens en milieu b ij
+het bouwen en de exploitatie van
+onze infrastructuur.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-20309
+4. KERNPUNTEN VAN HET FEDERAAL
+ONTWIKKELINGSPLAN 2020-2030
+DE ONTWIKKELING VAN HET 380 KV NET
+3 PIJLERS VAN HET TOEKOMSTIGE 380 KV NET
+Het versterken en uitbreiden van het interne
+380 kV net: voor de integratie van binnenlandse
+hernieuwbare energieproductie, de aansluiting van
+nieuwe productie-eenheden en het transport van
+bijkomende internationale elektriciteitsstromen. Het versterken en uitbreiden van de interconnectie-
+capaciteit: om hernieuwbare energie op Europese
+schaal te integreren én toegang te hebben tot de
+meest competitieve prijzen op de internationale
+markt die zorgen voor prijsconvergentie.31
+Het uitbreiden van het offshore net: voor de
+verdere integratie van hernieuwbare elektrici-
+teitsproductie op zee.2FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-203010
+PIJLER 1 = HET VERSTERKEN
+EN UITBREIDEN VAN HET
+INTERNE 380 KV NET
+DE VERSTERKING VAN HET BESTAANDE 380 KV NET
+Waar? Tussen de hoogspanningsposten Massenhoven - Van Eyck –
+Gramme - Courcelles - Mercator. Hoe?

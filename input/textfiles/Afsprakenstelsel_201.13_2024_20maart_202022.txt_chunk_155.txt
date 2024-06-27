@@ -1,0 +1,61 @@
+6. (requests zonder response of
+met een foutmelding als
+response) in een periode. Elke Deelnemer en BSNk moet
+alle door haar ondertekende en
+alle door haar ontvangen
+ondertekende berichten
+minimaal 7 jaar archiveren. Na
+deze periode moeten ten minste
+de in deze berichten
+voorkomende
+persoonsgegevens vernietigd
+worden tenzij noodzaak kan
+worden aangetoond om deze
+langer te bewaren
+Authenticatiediensten moeten
+bij de gearchiveerde berichten
+een referentie naar het
+gebruikte middel opslaan, zodat
+de audit trail naar de gebruiker
+sluitend wordt. Machtigingenregisters moeten
+bij de gearchiveerde berichten
+een referentie naar de
+geregistreerde bevoegdheid
+waarop de verklaring van
+bevoegdheid berust opslaan,
+zodat de audit trail naar de
+machtigingsverlener sluitend
+wordt. Authenticatiediensten en
+Machtigingenregisters moeten
+bewijsstukken die zijn gebruikt
+bij uitgifte/registratie van
+middelen of machtigingen 7
+jaar archiveren zodat de
+audittrail naar gebruiker of Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9076. 1. machtingsverlener sluitend
+wordt, tenzij beargumenteerd
+wordt waarom dit niet wordt
+gearchiveerd
+A. 12.4.2Beschermen van informatie in
+logbestanden Logfaciliteiten en informatie in
+logbestanden moeten worden
+beschermd tegen vervalsing en
+onbevoegde toegang. Sv Sv Sv Dient aan te sluiten op de
+vereiste historie voor b.v. fraudeonderzoek (geen relatie
+met archivering), b.v. passend
+bij 6 maanden periode voor
+terugzoeken transacties en
+handelingen op kritieke
+systemenElke deelnemer en BSNk moet
+logging beveiligd opslaan en moet
+deze alleen toegankelijk maken voor
+bevoegde personen. Een
+deelnemer mag logging niet
+verwijderen binnen de verplichte
+bewaartermijn. A. 12.4.3Logbestanden van beheerders en
+operators Activiteiten van systeembeheerders en
+-operators moeten worden vastgelegd
+en de logbestanden moeten worden
+beschermd en regelmatig worden
+beoordeeld. Sv Sv Sv Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in, maar moet wel
+in VvT. A.

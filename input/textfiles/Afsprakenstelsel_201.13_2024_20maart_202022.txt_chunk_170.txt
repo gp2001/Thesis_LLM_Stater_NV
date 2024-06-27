@@ -1,0 +1,61 @@
+browser)
+plaatsvinden. Implementatietermijn
+Voor punt 1 en 2 geldt:
+Het Tactisch Beraad heeft 22 juni 2016 besloten de
+implementatietermijn te bepalen wanneer er duidelijkheid is
+over de wet GDI, waarin ook de businesscase voor de
+toepassing van de eIDAS betrouwbaarheidsniveaus  in
+overweging wordt genomen. De uiterlijke implementatiedatum van de RFC 2040 is
+gekoppeld aan de publicatie van de wet GDI,  verwacht per 31
+december 2017.Ad 2 Toelichting:
+Dit betekent dat:
+de Gebruiker op betrouwbare wijze
+informatie wordt getoond die bevestigd
+moet worden met een response van de
+Gebruiker, of;
+de gebruiker voert zelf informatie in op
+middel en maakt zo deel uit maakt van de
+response. In deze eis bedoelde handelingen van de
+Gebruiker zijn bijvoorbeeld:
+Het door de gebruiker invoeren van
+een ontvangen OTP die op een ander device
+dan waar het op is ontvangen wordt
+ingevoerd in de applicatie;
+Het door de gebruiker invoeren van een PIN
+op een separate cardlezer waarmee het
+certificaat als authenticatiefactor wordt
+ingezet;
+Het door de gebruiker presenteren en laten
+'lezen' van zijn biometrische kenmerk als
+authenticatiefactor.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9701. Indien z  authenticatie-afhandeling als de owel de
+inlog op het zelfde device kan plaats vinden moet
+de MU/AD dit risico-gedetecteerd hebben en
+compenserende maatregelen treffen zoals:
+het de gebruikers wijzen op de risico's van
+het gebruik van het zelfde device voor de
+inlog via de browser en risico voor de
+ontvangst en gebruik van de informatie die
+nodig is voor de afhandeling van de
+authenticatie. Voorbeeldsituaties:
+Inloggen via browser van een smartphone en
+ontvangst en gebruik op het zelfde toestel
+van een sms-code voor de afhandeling van de
+authenticatie. Inloggen via de browser van een tablet waar
+ook de OTP app op staat. LOA 4 Hetzelfde als LoA3 met toevoeging van:
+Het correct functioneren van het authenticatiemiddel
+moet weerstand bieden tegen fysieke en logische
+manipulatie door een aanvaller met een 'High
+attacker' potentieel in de zin van Annex B van de
+Common Criteria (ISO 1508-3 en evaluatie norm ISO/IEC
+18045).Ad 1 Toelichting: De eis omvat de doelstellingen:
+het middel MAG NIET gebruikt kunnen
+worden zonder expliciete actie va n de
+gebruiker in lijn met het multi-factor gebruik;
+het middel MAG NIET andere gegevens
+bevestigen dan wat de gebruiker
+verwacht; De toekomstige response van het
+middel MAG NIET vooraf te bepalen zijn;
+Specifiek voor LoA3: Het middel MAG NIET
+bij eventueel klonen in combinatie met het
+authenticatiemechanisme bruikbaar zijn.. Specifiek voor LoA4: Het middel MAG NIET te
+klonen zijn.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9711. a.

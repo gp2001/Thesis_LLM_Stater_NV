@@ -1,0 +1,45 @@
+). - Bedrijven met een p ositief balanstotaal . - We verwijderen bedrijven met een negatieve solvabiliteit  die kleiner is dan - 100% van het balanstotaal. We
+nemen bedrijven met een negatief eigenvermogen mee omdat dit juist voor startende bedrijven niet ongebruikelijk is. Als een (startend) bedrijf net een grote investering gemaakt heeft , kan zijn
+boekhoudkundige solvabiliteit negatief zijn. Dat betekent echter niet dat het bedrijf in economische termen ook insolvabel is. Onze data bevat in totaal 2 60 duizend bedrijven. Dat is een grotendeels representatief beeld voor het
+Nederlandse be drijfsleven met een belangrijke kanttekening: w e nemen geen zelfstandigen zonder personeel
+mee in onze analyse die een andere rechtsvorm hebben dan een B.V. . Dat leidt ertoe dat we de
+liquiditeitsbehoefte van vooral zeer kleine bedrijven op macroniveau ond erschatten. 1.2 Belangrijkste aannames
+1.2.1 Aannames die de stressbestendigheid onderschatten
+• De analyse is te zien als een ex -ante analyse. We nemen geen gedragsreacties mee en ook geen algemene
+evenwichtseffecten. In de berekeningen is bijvoorbeeld geen rekening gehouden met eventueel nieuwe
+(overbruggings)leningen die ondernemingen in deze periode aangaan. Dat doen we omdat we daar geen
+zicht op hebben. • Onze analyse is een ex -ante beleidsanalyse: als relevante beleidsmaatregelen nemen wij de grootste
+maatregelen mee die beschreven staan in de voorjaarsnota  2020. Dat wil zeggen dat we (heel grof) uitgaan
+van uitstel van alle belastingbetalingen zolang de coronascho k duurt. Bovendien houden we rekening
+met de tijdelijke noodmaatregel overbrugging voor werkgelegenheid (NOW), de tijdelijke
+overbruggingsregeling zelfstandig ondernemers(TOZO) en de tegemoetkoming schade COVID -19 (TOGS). Aangezien we nieuwe (overbruggings)leningen buiten beschouwing laten, spelen ook de
+garantieregelingen voor bankleningen geen rol in dez e stresstesten. Bovendien laten we de uitstel van de
+btw buiten beschouwing. • We nemen in de analyse niet  het effect van versnelde achterwaartse verliesverrekening  van de
+vennootschapsbelasting  mee, omdat we geen belastinggegevens uit 2019 beschikbaar hebben. Door toe te
+staan dat een coronareserve in mindering wordt gebracht op de winst van 2019, ontstaat extra liquiditeit. • De situatie uit eind 2018 geeft een voldoende representatief beeld van het N ederlandse  mkb  begin 2020. In tegenstellin g tot alle tot nu toe gepubliceerde stresstesten gebruiken we hier redelijk recente data (de
+CPB ACHTERGRONDDOCUMENT – Een stresste st van het Nederlandse mkb  Pagina 5 van 20 meest recente OECD - studies gebruiken data uit 2015 en 2016). Gezien dat er in 2018 en 2019 behoorlijke
+economische groei was , onderschatten we waarschijnlijk  de u itgangspositie in onze analyses.4
+• De verandering in liquide middelen is gelijk aan de verandering van het bedrijfsresultaat voor belastingen . Hierbij nemen we ook afschrijvingen mee.5 Omdat afschrijvingen vooral een boekhoudtechnische manier
+zijn om de da ling in activa mee te nemen , overschatten we hierdoor de daling in de liquiditeitspositie. 1.2.2 Aannames die de stressbestendigheid overschatten
+• We nemen aan dat bedrijven geen werknemers ontslaan als zij van de NOW -regeling gebruikmaken. De
+loonkosten lopen door en worden afhankelijk van de omzetdaling met 90% opgevangen  door de NOW -
+regeling. Omdat we het  NOW gebruik waarschijnlijk hoog inschatten overschatten we de
+stressbestendigheid van het bedrijfsleven. • Daarnaast bekijken we in onze analyse alleen B.V. ’s. Dat heeft als gevolg dat we een groot deel van de
+kleine bedrijven niet meenemen aangezien deze een andere rechtsvorm hebben ( v.o.f., eenmanszaak). De
+redenen daarvoor is dat het CBS geen microdata van de balansen voor dit soort rechtsvormen beschikbaar
+heeft. In sommige sectoren ( zoals in de horeca, maar ook in de overige dienstverlening ) leidt dit dan
+vooral tot een onderschatting van d e totale liquiditeitsbehoefte. • In deze analyses is geen rekening gehouden met algemene evenwichtseffecten die bijvoorbeeld
+doorwerken op de marktwaarde van de balans. Het is zeer goed mogelijk dat de balansen van mkb’ers
+verslechteren als gevolg van de al gemene verslechtering van de economische situatie: voorraden en vaste
+activa kunnen bijvoorbeeld tegen lagere prijzen worden verkocht dan in 2018. 1.2.3 Aannames die de stressbestendigheid onderschatten of overschatten
+• Onze modellen bevatten geen onzekerheid. D at betekent dat we geen aannames over de kansverdeling
+van de parameters maken. Als de omzetdalingen minder sterk zijn dan waar we in de berekeningen van uitgaan, overschatten we uiteraard de stressbestendigheid en de effecten voor bepaalde bedrijven (en v ice
+versa). • We baseren de elasticiteiten van de bedrijfskosten –  de mate waarin de kosten dalen als de omzet daalt –
+op basis van de meest recente studies van de OECD. Afhankelijk van de afwijking in deze elasticiteiten, onder - of overschatten we de aanpa ssingen van de lopende kosten. Als de elasticiteiten te hoog zijn ,
+overschatten we het aanpassingsvermogen van de bedrijven. Als de elasticiteiten te laag zijn ,
+onderschatten we dit juist. 2 Resultaten
+2.1 Liquiditeit
+De liquiditeitspositie van bedrijven verslec hter t uiteraard in de stresstest. We gebruiken hier drie
+maatstaven van liquiditeit. Ten eerste laten we de nieuwe liquiditeitsbehoefte zien. Onder de definitie van liquide middelen vallen: kasmiddelen, wissels, cheques, termijndeposito's, rekening -courant tegoeden en
+overige kortlopende vorderingen op financiële instellingen, zoals daggeldleningen. Ten tweede laten we de
+verdeling van het aantal cash buffer days  zien. En ten derde tonen we de verdeling van quick ratio ’s per scenario. 4 Voor bedrijven die in 2019 grote investeringen hebben gedaan overschatten we de uitgangspositie. 5 Voor details zie formule A1 in de appendix.

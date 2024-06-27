@@ -1,0 +1,123 @@
+F .M.J. Verstijlen (Rabobank/Reuser). 2 Art. 13 Wet op belastingen van rechtsverkeer (WBR) biedt een vrijstelling indien een onroerende
+zaak binnen zes maanden na een verkrijging vervreemd wordt. 3 Het tarief voor onroerende zaken, niet zijnde woningen, is gestegen naar 8% per 1 januari 2021 ter
+dekking van de maatregelen uit het Klimaatakkoord. Dit tarief geldt zowel voor de verkrijging van
+onroerende zaken, niet zijnde woningen, als voor de verkrijging van aandelen in onroerendezaak -
+rechtspersonen, voor zover deze aandelen niet-woningen vertegenwoordigen. Dit artikel uit Onderneming en Financiering is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoekerDe financiering van ‘Groninger akte’-transacties na het arrest Rabobank/Reuser
+Onderneming en Financiering 2021 (29) 4
+doi: 10.5553/OenF/15701247202102900400573mers pas tenietgaan als de aan verkoper verstrekte lening is afgelost,4 waarvoor
+verkoper de verkoopopbrengst (deels) zal aanwenden. Het moment van tenietgaan
+zal aldus samenvallen met de betaling van de koopprijs. Pas na tenietgaan van het
+hypotheekrecht van de Uitgaande Financier wordt het hypotheekrecht van de In -
+komende Financier eerste in rang. Wij vragen ons af of voornoemde situatie, en daarmee de huidige praktijk, vol -
+doende recht doet aan de belangen van de Inkomende Financier. Kan analoge toe -
+passing van de rechtsregels uit Rabobank/Reuser leiden tot een meer gebalanceer -
+de uitkomst voor de positie van de Inkomende Financier en de Uitgaande Financier
+als hypotheekhouders? Het antwoord op deze vraag zal afhangen van de gevolgen
+van een splitsing van het eigendomsrecht voor een gevestigd hypotheekrecht ten
+behoeve van een Uitgaande Financier. Bij dit alles hebben wij een structuur voor
+ogen waarin de Inkomende Financier een eersterangs hypotheekrecht verkrijgt op
+het eigendomsrecht onder ontbindende voorwaarde van de koper en de Uitgaande
+Financier een eersterangs hypotheekrecht op het eigendomsrecht onder opschor -
+tende voorwaarde van de verkoper. Een Inkomende Financier verkrijgt immers bij
+voorkeur een eersterangs hypotheekrecht bij uitboeken van de gelden aan diens
+kredietnemer en niet, zoals in de huidige praktijk gebruikelijk is, een tweederangs
+hypotheekrecht tot de Uitgaande Financier is afgelost door verkoper. Uiteraard
+zien wij in dat er haken en ogen aan deze structuur zitten en dat een aantal vragen
+beantwoord moet worden om te beoordelen of deze structuur juridisch en prak -
+tisch mogelijk is. De eerste vraag die wij in dit artikel beantwoorden, is of de rechtsregels uit Rabo -
+bank/Reuser van toepassing zijn op registergoederen en, zo ja, of deze analoog van
+toepassing zijn op de onderhavige casus,5 die immers spiegelbeeldig6 is aan de ca -
+sus die ten grondslag lag aan Rabobank/Reuser (par. 5). Zo ja, dan beantwoorden
+we de vraag wat het gevolg is van de overdracht van het registergoed onder ontbin -
+dende voorwaarde voor het hypotheekrecht van de Uitgaande Financier (par. 6). Ten slotte beantwoorden we in paragraaf 7 de hoofdvraag van dit artikel: moet de
+huidige praktijk7 worden aangepast teneinde meer recht te doen aan de belangen
+van de Inkomende Financier? Vóór de beantwoording van deze vragen beschrijven
+4 Als afhankelijk recht in de zin van art. 3:7 BW zal een hypotheekrecht immers tenietgaan bij vol -
+doening van de met dat hypotheekrecht verzekerde vordering. Meestal zal sprake zijn van een
+bankhypotheek, zodat de aflossing van de lening het hypotheekrecht in beginsel niet doet vervallen. Afstand/opzegging van de hypotheek zal nodig zijn. 5 Waarin de verkoper eigendom overdraagt onder ontbindende voorwaarde van betaling van de
+koopprijs en de koper eigendom verkrijgt onder ontbindende voorwaarde, hetgeen voor de koper
+een eigendomsrecht onder ontbindende voorwaarde van niet-betaling van de koopprijs oplevert,
+terwijl voor de verkoper een eigendomsrecht onder opschortende voorwaarde van niet-betaling van
+de koopprijs resteert. 6 In de onderhavige casus gaat het immers om de positie van de hypotheekhouder die vóór overdracht
+onder ontbindende voorwaarde een hypotheekrecht op het onvoorwaardelijke eigendomsrecht van
+de vervreemder heeft en niet, zoals in Rabobank/Reuser, om de positie van de pandhouder die na
+overdracht onder opschortende voorwaarde een pandrecht verkrijgt op het voorwaardelijke eigen -
+domsrecht van de verkrijger. Bovendien ging het in Rabobank/Reuser om roerende zaken. 7 Waarin het hypotheekrecht van de Inkomende Financier tweederangs is tot en met doorhaling van
+het eersterangs hypotheekrecht. Dit artikel uit Onderneming en Financiering is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoekerOnderneming en Financiering 2021 (29) 4
+doi: 10.5553/OenF/15701247202102900400574M. Broere & M. Heddema
+we wat de Groninger akte inhoudt en hoe hier uitvoering aan wordt gegeven in de
+praktijk (par. 2). Vervolgens zetten we de belangen van de betrokken financiers
+uiteen en gaan we in op de behoefte die, naar onze mening, bestaat in de financie -
+ringspraktijk (met name aan de zijde van de Inkomende Financier) om de huidige
+praktijk aan te passen (par. 3). Daarna volgt een korte samenvatting van de rechts -
+regels die voortvloeien uit Rabobank/Reuser (par. 4).8
+2 Wat houdt de Groninger akte in en hoe wordt hier uitvoering aan gegeven
+in de huidige praktijk? In de hiervoor beschreven situatie hebben verkoper en koper een koopovereen -
+komst gesloten waarin zij afspraken dat het betreffende registergoed onder ont -
+bindende voorwaarde van niet (volledige) betaling van de koopprijs voor een be -
+paalde datum wordt overgedragen. In beginsel9 hebben, onzes inziens, die
+koopovereenkomst en de daaruit voortvloeiende leveringsverplichting (de titel)
+een onvoorwaardelijk karakter, maar verplichten deze tot een voorwaardelijke in
+plaats van onvoorwaardelijke eigendomsoverdracht.10 In die zin zit de voorwaarde -
+lijkheid dus in de titel die, naar partijbedoeling, verplicht tot voorwaardelijke over -
+dracht en niet in de levering die onvoorwaardelijk is. Tot het moment dat de koopprijs wordt voldaan door koper, waarmee de Uitgaan -
+de Financier wordt voldaan, en bij bankhypotheken, bij het effectief worden van
+een afstand of opzegging, blijft het betreffende registergoed bezwaard met het hy -
+potheekrecht van de Uitgaande Financier. De notaris heeft vóór het moment van
+het passeren van de leveringsakte een (schriftelijke, onherroepelijke) royements -
+volmacht in bezit,11 ingevolge waarvan de notaris het hypotheekrecht van de Uit -
+gaande Financier mag doorhalen na (terug)betaling van (het aan het betreffende
+registergoed gealloceerde deel van) de lening, rente en provisies en ( break )kosten. Die (terug)betaling aan de Uitgaande Financier zal (grotendeels) worden gedaan
+van de koopprijs die door de koper op de kwaliteitsrekening van de notaris wordt
+gestort op de afgesproken datum. Het betreffende registergoed wordt dus op leve -
+ringsdatum bezwaard overgedragen. De Uitgaande Financier zal doorgaans, uit
+8 We gaan ervan uit dat de feiten die ten grondslag lagen aan Rabobank/Reuser in voldoende mate
+bekend zijn bij de lezer. 9 Partijen kunnen hiervan afwijken. 10 Zo ook (in de context van overdracht onder opschortende voorwaarde; eigendomsvoorbehoud)
+N.E.D. Faber, Levering van toekomstige goederen en overdracht onder opschortende voorwaarde,
+in: S.C.J.J. Kortmann e.a. (red.), Onderneming en 5 jaar nieuw burgerlijk recht (Onderneming en
+Recht, deel 7), Deventer: Kluwer 1997, p. 181, M.H.E. Rongen, Beschikken over de eigendomsver -
+wachting bij voorbehouden eigendom, in: F . Beekhoven van den Boezem, G. Bergervoet & F . Ver -
+stijlen (red.), Groninger zekerheid. Liber amicorum Wim Reehuis, Deventer: Kluwer 2014, p. 304-
+305, W.H.M. Reehuis, Overdracht (Mon. BW nr. B6a), Deventer: Kluwer 2010, nr. 102, Asser/
+Bartels & Van Mierlo 3-IV 2013/239 en Asser/Van Mierlo & Van Velten 3-VI* 2010/522. Anders:
+J.A.J. Peter, Levering van roerende zaken (diss. Leiden), Deventer: Kluwer 2007, p. 133 e.v., Asser/
+Mijnssen, De Haan & Van Dam 3-I 2006/223 en E.F . Verheul, Eigendomsvoorbehoud (Rechtswe -
+tenschappelijke publicaties; diss. Groningen), Deventer: Wolters Kluwer 2018, par 4.5. 11 Zie de verplichting hiertoe van de notaris volgend uit het Reglement royementen van de KNB van
+14 juli 2010. Dit artikel uit Onderneming en Financiering is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoekerDe financiering van ‘Groninger akte’-transacties na het arrest Rabobank/Reuser
+Onderneming en Financiering 2021 (29) 4
+doi: 10.5553/OenF/15701247202102900400575hoofde van zijn kredietovereenkomst met verkoper en/of op grond van het bepaal -
+de in de hypotheekakte, dienen in te stemmen12 met een dergelijke overdracht.13
+Met inachtneming van het nemo plus -beginsel (en in de regel14 na instemming van
+de eersterangs hypotheekhouder) kan de koper zijn onder ontbindende voorwaar -
+de verkregen (met hypotheekrecht ten gunste van de Uitgaande Financier bezwaar -
+de) eigendomsrecht na levering, maar vóór betaling van de koopprijs, bezwaren
+met een tweederangs hypotheekrecht ten gunste van de Inkomende Financier, het -
+geen normaliter een voorwaarde zal zijn voor opname van de lening van de Inko -
+mende Financier. Doorgaans zal de verkrijger onder ontbindende voorwaarde (de
+koper) vanaf leveringsdatum ook gerechtigd zijn tot de vruchten van het register -
+goed (i.e. eventuele huurinkomsten).15 In de tijdspanne tussen het moment van
+levering en het moment waarop de Uitgaande Financier volledig is voldaan, verliest
+verkoper daarmee zijn voornaamste (zo niet enige) bron van inkomsten. Nu verko -
+per gedurende deze periode wel aflossings- en/of renteverplichtingen zal hebben
+onder de kredietovereenkomst met de Uitgaande Financier, zal laatstgenoemde
+niet snel geneigd zijn om (zonder meer16) in te stemmen met een voorwaardelijke
+overdracht van het registergoed ondanks instandhouding van het eersterangs hy -
+potheekrecht. Denkbaar is dat verkoper en koper voor de tussenliggende periode
+met elkaar afspreken dat koper de huren weliswaar int, maar rentebetalingsver -
+plichtingen van verkoper (direct of indirect) daaruit voldoet aan de Uitgaande Fi -
+nancier. Deze verplichting kan tevens, ter versterking van de positie van verkoper
+en de Uitgaande Financier, als aanvullende ontbindende voorwaarde worden neer -
+gelegd in de Groninger akte.17
+Als de ontbindende voorwaarde – door tijdige en volledige betaling van de koop -
+prijs – vervalt,18 wordt de koper onvoorwaardelijk eigenaar van het registergoed,
+wordt het hypotheekrecht van de Uitgaande Financier doorgehaald (na afstand/
+opzegging) en het hypotheekrecht van de Inkomende Financier eerste in rang, en
+groeit het object van het hypotheekrecht uit tot onvoorwaardelijke eigendom. De
+notaris schrijft in dat geval een akte houdende kwijting en constatering verval van
+de ontbindende voorwaarde in (in de openbare registers van de Dienst voor het
+kadaster en de openbare registers; hierna: het Kadaster).19
+12 Naast instemming onder overdrachtsbeperkingen en bezwaringsbeperkingen uit de kredietover -
+eenkomst en/of hypotheekakte kan worden gedacht aan potentiële impact van de (voorwaardelijke)
+overdracht op financiële convenanten als de Projected Interest Cover  en de Loan to Value . 13 Wij gaan in dit artikel niet in op de notariële beroepsregels omtrent het handelen van de notaris
+bij zijn dienstverlening ten aanzien van de overdracht van een bezwaard registergoed. 14 In de praktijk zal een notaris bij het verlenen van zijn ambt voor het leveren van een bezwaard
+registergoed instemming vragen aan de eersterangs hypotheekhouder. 15 Vgl. art.

@@ -1,0 +1,51 @@
+De DSCR (schuldendekkingsratio) bedraagt in 2021; 2,26
+8. Overige kortlopende schulden
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Crediteuren 2.872.436 1.325.734
+Aflossingsverplichtingen komend boekjaar langlopende leningen 3.312.294 3.312.294
+Belastingen en premies sociale verzekeringen 3.536.078 4.601.589
+Schulden terzake pensioenen 314.273 254.479
+Nog te betalen salarissen 567.749 621.622
+Nog te betalen zorgbonussen inclusief eindheffing 4.136 5.250
+Terug te betalen subsidie zorgbonus 268.280 97.567
+Reservering overproductie Wlz-zorg 2020 0 822.556
+Vakantiegeld 2.119.120 2.048.067
+Vakantiedagen / PBL 6.417.472 5.879.654
+Overige overlopende passiva:
+Overige schulden 924.034 1.045.316
+Overige passiva 1.964.659 2.178.249
+Totaal overige kortlopende schulden 22.300.531 22.192.377
+Toelichting:
+De crediteuren nemen toe door latere betaling van facturen voor 2022. De post vakantiedagen / PBL neemt toe met € 537.818 vanwege
+gespaarde PBL uren en door minder opgenomen vakantiedagen. Pagina 19De reservering overproductie Wlz-zorg 2020 van € 822.556 is in de nacalculatie 2020 volledig toegekend.Voor de toelichting op vast rentende leningen versus variabel rentende leningen wordt verwezen naar de toelichting op de financiële
+instrumenten. Met het WfZ en de ABN AMRO zijn de volgende afspraken overeengekomen inzake het debt service coverage ratio (DSCR) en het
+garantievermogen. Ultimo 2021 dient het garantievermogen minimaal 25% te zijn. Voor de DSCR geldt een minimum van 1,5. Aan alle afspraken
+is voldaan ultimo 2021. In de waardering van de leningen is een disagio (premie voor borging leningen bij WfZ) verwerkt van EUR 473.490 (2020: EUR 499.554)Als gestelde zekerheden rust op de leningen van ABN AMRO een hypotheekrecht van € 113.715.668 plus 40% rente en kosten en pandrecht. Deze zekerheid geldt ook voor de Staat der Nederlanden 'VWS' en voor de Stichting Waarborgfonds voor de Zorgsector 'WfZ'. Onder de post belastingen en sociale premies is voor een bedrag van € 3.536.078,- loonheffing verantwoord dit betreft december 2021. Naar verwachting hebben de onder de kortlopende schulden opgenomen bedragen een looptijd korter dan 1 jaar, met uitzondering van de
+reservering PBL uren die conform Cao maximaal 5 jaar gereserveerd blijven en daarna uitgekeerd worden. De boekwaarde van de kortlopende
+schulden benadert de reële waarde daarvan, gegeven de korte looptijd van de opgenomen posten. De Hartekamp Groep heeft een rekening courantfaciliteit van € 4,505 mln. ultimo 2021, waarvan geen gebruik wordt gemaakt. De vergoeding
+hiervoor betreft 1 maands gemiddeld Euribor, een variabele markttoeslag en een variabele individuele toeslag. Daarnaast is er
+bereidstellingsprovisie verschuldigd.Stichting de Hartekamp Groep
+1.5 TOELICHTING OP DE BALANS
+9. Financiële instrumenten
+Toelichting van risico's van financiële instrumenten
+Algemeen
+Kredietrisico
+Renterisico en kasstroomrisico
+bedrag < 1 jaar >1 jaar < 3 jaar < 3 en < 5 jaar < 5 en > 10 jaar > 10 jaar
+Opgenomen vastrentende leningen 40.689.025 0 0 0 0 0
+Liquiditeitsrisico
+Contractuele betalingsverplichtingen < 1 jaar >1 en < 5 jaar > 5 jaar
+Leningen -3.312.294 -11.407.824 -25.968.904
+Leaseverplichtingen -69.929 -109.922 0
+Huurverplichtingen -2.821.248 -5.659.071 -2.163.476
+Handels- en overige verplichtingen -18.988.237 0 0
+Totaal -25.191.708 -17.176.817 -28.132.380
+Vorderingen 1.947.557 0 0
+Financieringstekort 2.488.029 0 0
+Liquide middelen 23.490.298 0 0
+Totaal 27.925.884 0 0
+Saldo per 31-12-2021 2.734.176 -17.176.817 -28.132.380
+Naast het positieve saldo bestaat de mogelijkheid om gebruik te maken van het rekening-courantkrediet van € 4,505 mln. Kredietfaciliteit
+Per balansdatum werd geen gebruik gemaakt van de kredietruimte. De instelling stuurt op de cash-flow middels
+korte en lange termijn liquiditeitsplanning.

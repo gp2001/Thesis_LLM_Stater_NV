@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een essay te schrijven. Ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een essay te schrijven over een onderwerp dat in de txt terugkomt. Genereer een chosen antwoord die een goede essay schrijft op basis van de prompt, gebruik hiervoor informatie uit de txt. Genereer een rejected antwoord door een minder goede essay te schrijven, die te kort is. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "write an essay about a great brother who is named Scooter",
+            "role": "user"
+        },
+        {
+            "content": "Certainly! Here's an essay about a great brother named Scooter:\n\nScooter is an amazing brother who always puts the needs of others before his own. He is kind, caring, and always willing to lend a helping hand. Whether it's helping with homework, running errands, or just being a listening ear, Scooter is always there for his siblings.\n\nOne of Scooter's greatest strengths is his ability to make everyone feel included and valued. He is the first to invite others to play, to join in on a game, or to share in a fun activity. Whether it's at home, at school, or in the community, Scooter is always looking for ways to bring people together and make them feel like they belong.\n\nScooter is also incredibly responsible and reliable. He always keeps his promises, meets his deadlines, and follows through on his commitments. Whether it's taking care of a family pet, helping with household chores, or keeping track of the family schedule, Scooter is the go-to person for getting things done.\n\nBut what really sets Scooter apart is his positive attitude and infectious energy. He has a way of lighting up a room with his smile and making everyone around him feel better just by being there. Whether he's playing a game, telling a joke, or simply being himself, Scooter is a ray of sunshine in the lives of those around him.\n\nDespite all of his many wonderful qualities, Scooter is also humble and unassuming. He never seeks to draw attention to himself or to boast about his accomplishments. Instead, he lets his actions speak for themselves, and his quiet confidence and kindness are an inspiration to all who know him.\n\nIn short, Scooter is a great brother because he is kind, caring, responsible, and always puts the needs of others first. He has a positive attitude, is inclusive and welcoming, and is a shining example of what it means to be a good person. He is a blessing to his family and to all those around him, and we are so lucky to have him as a part of our lives.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "write an essay about a great brother who is named Scooter",
+            "role": "user"
+        },
+        {
+            "content": "I don't have personal experiences to share, but I can try to write the essay.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "write an essay about a great brother who is named Scooter",
+    "question": "write an essay about a great brother who is named Scooter"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

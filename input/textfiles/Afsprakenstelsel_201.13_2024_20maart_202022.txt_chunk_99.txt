@@ -1,0 +1,84 @@
+</xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="SyntaxError">
+<xsd:annotation>
+<xsd:documentation>Request invalid. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="TemporarilyUnavailable">
+<xsd:annotation>
+<xsd:documentation>Request could temporarily not beAfsprakenstelsel Elektronische Toegangsdiensten | pagina 648                                processed. A new request for activation MAY be send
+at a later moment by the requesting party. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="RegisterStatusEIMFaultReasons">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="NotUnique">
+<xsd:annotation>
+<xsd:documentation>Provided information results in
+more than one match. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="RegistrationRefused">
+<xsd:annotation>
+<xsd:documentation>Registration refused for other
+(non-disclosed) reason. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:complexType name="FaultDescriptionType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="lang" type="xsd:language" />
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="BSNK_RegisterStatusEIMRequest">
+<wsdl:part name="in" element="bsnk:RegisterStatusEIMRequest" />
+</wsdl:message>
+<wsdl:message name="BSNK_RegisterStatusEIMResponse">
+<wsdl:part name="out" element="bsnk:RegisterStatusEIMResponse" />
+</wsdl:message>
+<wsdl:message name="BSNK_RegisterStatusEIMFault">
+<wsdl:part name="fault" element="bsnk:RegisterStatusEIMFault" />
+</wsdl:message>
+<wsdl:portType name="BSNK_RegisterStatusEIM_Port">
+<wsdl:operation name="BSNK_RegisterStatusEIM">
+<wsdl:input message="bsnk:BSNK_RegisterStatusEIMRequest" wsam:Action="urn:nl-gdi-eid:1.0:
+webservices:RegisterStatusEIMRequest" />
+<wsdl:output message="bsnk:BSNK_RegisterStatusEIMResponse" wsam:Action="urn:nl-gdi-eid:1.0:
+webservices:RegisterStatusEIMResponse" />
+<wsdl:fault message="bsnk:BSNK_RegisterStatusEIMFault" name="BSNK_RegisterStatusEIM_Fault"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="BSNK_RegisterStatusEIM_SOAP" type="bsnk:BSNK_RegisterStatusEIM_Port">
+<soap:binding style="document"
+transport="http://schemas.xmlsoap.org/soap/http" />
+<wsdl:operation name="BSNK_RegisterStatusEIM">
+<soap:operation soapAction="urn:nl-gdi-eid:1.0:webservices:RegisterStatusEIMRequest" />
+<wsdl:input>
+<soap:body use="literal" />
+</wsdl:input>
+<wsdl:output>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 649                <soap:body use="literal" />
+</wsdl:output>
+<wsdl:fault name="BSNK_RegisterStatusEIM_Fault">
+<soap:fault name="BSNK_RegisterStatusEIM_Fault" use="literal" />
+</wsdl:fault>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="BSNK_RegisterStatusEIM_Service">
+<wsdl:port binding="bsnk:BSNK_RegisterStatusEIM_SOAP" name="BSNK_RegisterStatusEIM">
+<soap:address location="https://.../TODO/RegisterStatusEIM" />
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>
+Request
+Consists of a  <  of the request message. registration request message > in the SOAP body RegisterStatusEIM Request
+SOAP should be implemented accoording to the   requirements . Web services
+Element/@Attribute 0..

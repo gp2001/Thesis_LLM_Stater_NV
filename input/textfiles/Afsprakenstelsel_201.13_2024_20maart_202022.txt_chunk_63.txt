@@ -1,0 +1,192 @@
+Actie Omschrijving
+Initiële staat De dienstverlener  heeft een vraag gesteld aan de Herkenningsmakelaar. De gebruiker is 1
+geïdentificeerd door een authenticatiedienst en de  gebruiker heeft bij deze
+Herkenningsmakelaar authenticatiedienst het beoogde machtigingsregister geselecteert . 2
+heeft daarover een verklaring met een identificerend kenmerk ten behoeve van het
+ontvangen. geselecteerde machtigingsregister
+4.2 Herkenningsmakelaar
+stelt vraag3 aan
+machtigingenregisterDe Herkenningsmakelaar stuurt de gebruiker door naar het door de gebruiker
+geselecteerde machtigingenregister en stelt daarbij een vraag. Deze vraag bevat het
+identificerend kenmerk van zowel de betreffende dienstverlener als de betreffende dienst,
+het door de dienstverlener gewenste betrouwbaarheidsniveau en het identificerend
+kenmerk van de gebruiker. Alternatieve scenario's:
+GUC4.2 Machtigingenregister vindt geen bevoegdheid die aan de vraag voldoet
+GUC4.3 Portaalfunctie
+GUC4.4 Verschillende bevoegdheden aanwezigAfsprakenstelsel Elektronische Toegangsdiensten | pagina 4831. 2. 3. GUC4.5 Ketenmachtiging
+4.3 Machtigingenregister
+stelt bevoegdheid
+gebruiker vastHet machtigingenregister bepaalt op basis van identificerend kenmerk voor welke
+dienstafnemer de gebruiker bevoegd is. Zie Verantwoordelijkheden Machtigingenregister
+. De wijze waarop de MR bepaald welke bevoegdheid van toepassing is wordt beschreven
+op de pagina  . Vaststellen bevoegdheid
+De gebruiker kan bevraagd worden over de te leveren attributen, bijvoorbeeld voor het
+geven van toestemming of het verstrekken van een attribuut dat nog niet eerder was
+vastgelegd. Dit heeft gevolgen voor de gebruikerservaring en de doorlooptijd van het
+authenticatieverzoek. Partijen dienen hier rekening mee te houden. 4.4 Machtigingenregister
+beantwoordt  vraag 3
+van
+Herkenningsmakelaar
+met verklaringHet machtigingenregister beantwoordt de vraag van de Herkenningsmakelaar. Dit
+antwoord bevat een verklaring over de bevoegdheid van de gebruiker met daarin het
+betrouwbaarheidsniveau van de verklaring, het identificerend kenmerk van de
+vertegenwoordigde dienstafnemer desgevraagd het identificerend kenmerk van de
+gebruiker. Finale staat De bevoegdheid van de gebruiker namens de vertegenwoordigde dienstafnemer is
+aangetoond en de Herkenningsmakelaar heeft daar de benodigde informatie over
+ontvangen. Voetnoten
+De vraag is als XACMLAuthzDecisionQuery in detail beschreven in . Interface specifications HM-MR
+De keuze lijst met machtigingsregisters komt nauwelijks voor omdat de gebruiker meestal slechts een machtiging
+heeft bij dezelfde ETD-Leverancier. Het antwoord is als XACMLAuthzDecision Response in detail beschreven in . Interface specifications HM-MRAfsprakenstelsel Elektronische Toegangsdiensten | pagina 484GUC4.1 Te bevragen machtigingenregister reeds bekend
+Indien al bekend is welk machtigingenregister geraadpleegd moet worden biedt de Herkenningsmakelaar de gebruiker geen
+lijst van machtigingenregisters aan. Met het bekende machtigingenregister wordt stap 4.2 vervolgd. De opgave van het
+machtigingenregister kan afkomstig zijn uit de verklaring van de authenticatiedienst (GUC3) of uit een verklaring van een
+ander machtigingenregister (zie ). GUC4.5 KetenmachtigingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 485GUC4.2 Machtigingenregister vindt geen bevoegdheid die aan de
+vraag voldoet
+Er kunnen verschillende redenen zijn waarom een machtigingenregister geen bevoegdheid vindt die aan de vraag voldoet. Voorbeelden hiervan zijn: de geregistreerde bevoegdheid is niet van het minimaal door de dienstverlener vereiste
+betrouwbaarheidsniveau, de machtiging is verlopen of ingetrokken of de dienst of dienstverlener komt niet (langer) voor in
+de dienstencatalogus. Deze situaties worden allemaal op dezelfde manier afgehandeld. Het machtigingenregister stelt de gebruiker op het scherm op de hoogte van de reden van het mislukken van de
+raadpleging. Het machtigingenregister geeft aan de gebruiker op het scherm een suggestie voor de vervolghandeling die de
+persoon naar aanleiding van de fout zou kunnen uitvoeren. De gebruiker kan annuleren (zie ). Gebruiker annuleertAfsprakenstelsel Elektronische Toegangsdiensten | pagina 486GUC4.3 Portaalfunctie
+Wanneer een dienstverlener een authenticatie van een uitvoerende dienstafnemer voor dienst 0 vraagt, wijzigen 4.3 en 4.4. Na deze stap wordt  gewoon met "Finale staat" vervolgd. GUC4 Aantonen bevoegdheid
+Nr. Actie Omschrijving
+4.3 Machtigingenregister
+stelt bevoegdheid
+gebruiker vastHet machtigingenregister bepaalt op basis van het identificerend kenmerk voor welke
+uitvoerende dienstafnemer de gebruiker voor tenminste één dienst een bevoegdheid is
+geregistreerd. Het machtigingenregister volgt de stappen zoals vastgelegd in . Vaststellen bevoegdheid
+Het machtigingenregister toont alle aanwezige machtigingen voor de uitvoerende
+dienstafnemer welke voldoen aan het vereiste betrouwbaarheidsniveau. Het machtigingenregister bewaakt hierbij dat het registratieproces waarmee de
+bevoegdheid is vastgelegd minimaal van het door de dienstverlener vereiste
+betrouwbaarheidsniveau is. Indien Dienstbemiddeling van toepassing is, mag er slechts 1 dienst worden gekozen. 4.4 Machtigingenregister
+beantwoordt vraag van
+eHerkenningsmakelaar
+met verklaringHet machtigingenregister beantwoordt de vraag van de Herkenningsmakelaar. Dit
+antwoord bevat een verklaring over de gekozen bevoegdheden van de gebruiker met
+daarin het betrouwbaarheidsniveau van de verklaring, het identificerend kenmerk van
+de vertegenwoordigde dienstafnemer.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 487GUC4.4 Verschillende bevoegdheden aanwezig
+Het is mogelijk dat voor het in de vraag gespecificeerde interne pseudoniem (van de gebruiker) meerdere geldige
+machtigingen voor dezelfde dienst gevonden worden. Denk hierbij aan situaties bij intermediairs, adviseurs met
+verschillende opdrachten, eigenaars van verschillende bedrijven, etc. Het is ook mogelijk dat een gebruiker meer (maar niet
+alle) vestigingen van een dienstafnemer mag vertegenwoordigen. Het Machtigingenregister vraagt een bevoegdheid te kiezen
+I.p.v. stap 4.3 zijn dan de volgende stappen nodig. Na deze stappen wordt GUC4 gewoon met stap 4.4 vervolgd. Nr. Actie Omschrijving
+4.3 Machtigingenregister
+toont mogelijke
+bevoegdhedenHet machtigingenregister bepaalt op basis van het identficerend kenmerk van de
+uitvoerende natuurlijke persoon welke mogelijke bevoegdheden bestaan en toont de
+bijbehorende dienstafnemers in een lijst. 4.3
+aGebruiker selecteert
+bevoegdheidDe gebruiker selecteert de bevoegdheid op basis waarvan hij ditmaal toegang vraagt uit de
+getoonde lijst. 4.3
+bMachtigingenregister
+stelt bevoegdheid
+gebruiker vastHet Machtigingenregister stelt de bevoegdheid van de gebruiker vast en verklaart hierover.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 488GUC4.5 Ketenmachtiging
+In verschillende situaties moet het machtigingenregister concluderen dat de gevonden bevoegdheid nog niet het volledige
+antwoord op de gevraagde bevoegdheid compleet maakt. Dit zijn de volgende situaties:
+Vertegenwoordigde dienstafnemer is in de vraag gespecificeerd en is ongelijk aan de partij die als vertegenwoordigde
+in de gevonden bevoegdheid voorkomt. Bij de gevonden bevoegdheid is een beperking vastgelegd die bepaalt dat de bevoegdheid alleen "voor derden" geldt
+en niet voor de in de bevoegdheid voorkomende vertegenwoordigde partij zelf. Deze derde moet dan als informatie
+bekend zijn in het betreffende machtigingenregister. Het machtigingenregister toont na bepalen van één geldige bevoegdheid (in stap 4.2 of 4.2a) een bevestigingscherm
+dat de optie bevat om in plaats van het bevestigen van de bevoegdheid een vertegenwoordigde dienstafnemer op te
+geven namens wie ditmaal toegang gevraagd wordt. De flow voor machtigingen wordt gevolgd die is vastgelegd op pagina . Vaststellen bevoegdheid
+Vervolgens is het verdere verloop als volgt:
+Nr. Actie Omschrijving
+4.4 Machtigingenregister
+beantwoordt vraag
+van
+Herkenningsmakelaar
+met verklaring en
+specificeert volgende
+machtigingenregister.Het machtigingenregister beantwoordt de vraag van de Herkenningsmakelaar en stuurt
+de gebruiker terug naar de Herkenningsmakelaar. Dit antwoord bevat een verklaring over
+de bevoegdheid van de gebruiker met daarin het betrouwbaarheidsniveau van de
+verklaring en desgevraagd het identificerend kenmerk van de gebruiker. Daarnaast wordt
+een bevoegdheidsketen meegegeven, wordt de aanduiding van het volgende
+machtigingenregister meegegeven. De bevoegdheidsketen bevat de specificatie van de
+vertegenwoordigde dienstafnemer (hetzij uit de vraag, hetzij zoals in dit
+machtigingenregister vastgelegd). De verklaring specificeert alleen dat het
+machtigingenregister voor de gevraagde schakel het bestaan van een machtiging heeft
+geverifieerd. Voor de rest van de bevoegdheidsketen wordt alleen informatief aangegeven
+hoe deze eruit ziet en waar deze geverifieerd kan worden. 4.4
+aHerkenningsmakelaar
+ontvangt incomplete
+keten.De Herkenningsmakelaar voert controles uit op de ontvangen verklaring en constateert
+dat de keten incompleet is. 4.4
+bHerkenningsmakelaar
+bevraagt volgend
+machtigingenregister.De Herkenningsmakelaar bevraagt het in voorgaande verklaring aangeduide
+machtigingenregister. De vraag daarbij bevat het identificerend kenmerk van zowel de
+betreffende dienstverlener als de betreffende dienst, het door de dienstverlener gewenste
+betrouwbaarheidsniveau en deze MOETEN identiek zijn aan hetgeen in de vraag bij stap
+4.2 gespecificeerd was. Daarnaast bevat de vraag het identificerende kenmerk van de
+intermediaire partij waarvoor aan het machtigingenregister een bevoegdheid gevraagd
+wordt en de bevoegdheidsketen van de gebruiker tot aan deze intermediaire partij. De
+vraag bevat tevens alle andere gegevens die van het voorgaande machtigingenregister
+ontvangen zijn en die in de initiële vraag aan de Herkenningsmakelaar gespecificeerd zijn. 4.4
+cMachtigingenregister
+bepaalt machtiging
+aan intermediaire
+partij.Het machtigingenregister bepaalt op basis van het identificerende kenmerk van de
+intermediaire partij of er inderdaad een bevoegdheid voor betreffende dienst is
+geregistreerd en controleert of deze het minimaal vereiste betrouwbaarheidsniveau heeft. 4.4
+dMachtigingenregister
+verstrekt gevraagde
+verklaring aan
+Herkenningsmakelaar.Het machtigingenregister levert een verklaring met het gevraagde antwoord aan de
+Herkenningsmakelaar. Dit antwoord bevat een verklaring over de bevoegdheid van de
+vertegenwoordigde dienstafnemer aan de in de vraag gespecificeerde intermediaire partij
+met daarin het betrouwbaarheidsniveau van de verklaring. Daarnaast wordt een Afsprakenstelsel Elektronische Toegangsdiensten | pagina 489bevoegdheidsketen meegegeven die volledig is van vertegenwoordigde dienstafnemer tot
+aan de intermediaire partij namens w de gebruiker bevoegd is. 4.4
+eHerkenningsmakelaar
+concludeert dat keten
+volledig is.De Herkenningsmakelaar voert controles uit op de ontvangen verklaring en constateert
+dat de keten compleet is (identiek aan stap 4.4a met ander resultaat). Finale staat De finale staat conform use case GUC4 is bereikt met dien verstande dat daarbij nu ook
+informatie over een complete ketenmachtiging bij de Herkenningsmakelaar bekend is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 490Varianten bij Ketenmachtiging
+Als onderdeel van de alternatieve flow voor ketenmachtiging kunnen de volgende varianten voorkomen (die hier dus als
+alternatieve flow binnen de alternatieve flow van  beschreven worden). GUC4.5 KetenmachtigingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 491Machtigingenregister vindt geen bevoegdheid die aan de vraag
+voldoet (stap 4.5c alternatief)
+Indien geen geldige bevoegdheid gevonden wordt, of indien meerdere bevoegdheden gevonden worden zonder dat op basis
+van gespecificeerde vertegenwoordigde dienstafnemer bepaald kan worden welke bevoegdheid gevraagd wordt (m.a.w. er is
+geen eenduidig antwoord te geven) dan wordt de bevraging afgebroken met foutmelding aan de Herkenningsmakelaar en
+deze geeft een foutmelding aan de gebruiker conform alternatief scenario GUC4.2 Machtigingenregister vindt geen
+, met dien verstande dat de Herkenningsmakelaar de foutmelding aan de gebruiker bevoegdheid die aan de vraag voldoet
+moet tonen en de afhandeling moet uitvoeren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 492Vertegenwoordigde dienstafnemer onbekend (stap 4.5 alternatief)
+Indien de vertegenwoordigde dienstafnemer niet is gespecificeerd in de vraag en niet aanvullend bij de gevonden
+bevoegdheid is opgenomen wordt de gebuiker gevraagd deze te specificeren. Deze vraag kan gecombineerd worden met de
+selectie voor het geval dat er verschillende bevoegdheden aanwezig zijn. Dat wil zeggen dat de gebuiker op dit punt gevraagd wordt alle informatie aan te vullen die nodig is om de rest van de keten
+zonder gebruikersinteractie door Herkenningsmakelaar middels bevraging van machtigingenregisters te laten verifiëren. De
+happy flow blijft de situatie waarbij al deze informatie reeds bij de bevoegdheid is vastgelegd tijdens de registratie. Belangrijk
+is dat alle aanvullende informatie als attribuut wordt doorgegeven en dus geen verklaring over geldigheid inhoudt, de
+verdere schakels van de keten MOETEN daadwerkelijk geverifieerd worden in het machtigingenregister waar ze geregistreerd
+zijn.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 493
+Vaststellen bevoegdheid
+In the paragraphs below is an example implementation of all the functionality which a MR must support, this is not the
+required implementation, other implementations are allowed as long as they deliver the same result. Process to find applicable authorisation
+1: Check LOA levels
+1A: If the level of assurance is included in XACMLAuthzDecisionQuery  request  Resource   LevelOfAssurance
+The LOA of the authentication means in the AD assertion MUST BE equal or greater than the LOA which is
+requested included in the  XACMLAuthzDecisionQuery   request  Resource  LevelOfAssurance
+The LOA which is included in the DC MUST BE equal or greater than the LOA which is requested included in
+the XACMLAuthzDecisionQuery  request  Resource   . LevelOfAssurance
+The LOA of the   MUST be equal or greater than the LOA included Machtiging (machtigen)
+in XACMLAuthzDecisionQuery  request  Resource   . LevelOfAssurance
+1B: If the level of assurance is NOT included in XACMLAuthzDecisionQuery  request  Resource  . Level of assurance
+Continue the process with the LOA which is specified in the Service Catalog. 2: Check ServiceUUID
+2A: If the requested service is NOT a portal service:
+The  ServiceUUID  at XACMLAuthzDecisionQuery   request  Resource   ServiceUUID  MUST match the
+serviceUUID (of the ServiceDefinition)  which is part of the  Machtiging (machtigen) . 3: Choose ( ) Dienstafnemer
+3A  for which the user has Authorizations (Machtigingen) Generate List of Dienstafnemers
+3B Remove Authorizations that are for other DV
+3B1 In case of a specific service request (  Index > 0): Remove the Dienstafnemers where the user does ServiceID
+not have an Authorization for the requested Service. 3B2 In case of a  request (  Index = 0): Remove the Dienstafnemers where the user does not Portaalfunctie ServiceID
+have an Authorization for any service of the Dienstverlener
+3C Filter based on ECTA
+3C1 In case of a specific service request: Filter the Dienstafnemers where the available EntityConcernedTypes of a
+Dienstafnemer cannot fulfill any ECTA set of the requested service
+3C2 In case of a Portaalfunctie request: Remove the Dienstafnemers from the list where the available
+EntityConcenedTypes of a Dienstafnemer cannot fulfill any ECTA set of any service of the Dienstverlener. Note:
+Here a Dienstverlener/Dienst combination can occur that later when filtering on Service Restriction turns out not
+to be . usable
+3D Alternative flow: No DienstafnemersAfsprakenstelsel Elektronische Toegangsdiensten | pagina 494If the user does not have any authorizations left, the MR MUST inform the user and offer the option to cancel the
+login process (link to cancel flow)
+3E Let user select the Dienstafnemer he wants to represent
+Note: MR MAY skip this step is the user can represent exactly one (1) Dienstafnemer. 4. In case of a Chain authorization and multiple Intermediairy organizations, let user select the Intermediary organiz ation.

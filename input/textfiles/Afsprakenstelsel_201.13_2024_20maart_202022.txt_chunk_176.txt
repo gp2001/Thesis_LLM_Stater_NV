@@ -1,0 +1,47 @@
+b. 2.4 Beheer en organisatie
+2.4.1 Algemene bepalingen
+LoA Vereiste elementen Toelichting en good practice
+LOA 1
+Partijen die deelnemen in het Stelsel
+MOETEN het toetredingsproces
+hebben doorlopen dat is vastgelegd in
+het Afsprakenstelsel. Het is van belang
+dat de Deelnemer identificeerbaar is
+en kan voldoen aan zijn
+verplichtingen. Daarvoor MOET de
+Deelnemer bij toetreding en daarna
+voldoen aan de volgende vereisten:
+De Deelnemer drijft een
+onderneming en MOET als
+zodanig zijn ingeschreven in het
+Nederlandse Handelsregister. De
+Deelnemer MOET binnen het
+Stelsel uitsluitend een
+geregistreerde handelsnaam
+hanteren. De Deelnemer MAG NIET in staat
+van faillissement verkeren, aan
+hem MAG NIET een surseance van
+betaling zijn verleend en voor
+hem MAG NIET een
+schuldsaneringsregeling van
+toepassing zijn. Ook MAG NIET
+ten aanzien van de deelnemer
+een faillissement zijn Ad 1 Het Afsprakenstelsel Elektronische Toegangsdiensten is een
+publiek private samenwerking onder vigerend Nederlands
+Recht. Alle verplichtingen die een deelnemer aangaat bij
+toetredingen zijn vastgelegd in het . De specifieke Juridisch kader
+vereisten m.b.t privacybescherming en informatiebeveiliging zijn
+opgenomen in het  respectievelijk het Privacybeleid Beleid voor
+. Het proces voor toetreding is vastgelegd in informatiebeveiliging
+het Operationeel Handboek, . Onderdeel van dit Proces toetreden
+proces is een toetsing door de Toezichthouder van de relevante
+processen, procedures en uitgevoerde technische tests. Ad 2 Hoe deze algemene regels in een concreet geval uitwerken, is
+afhankelijk van de feiten en de omstandigheden van het geval. De
+deelnemer kan zijn aansprakelijkheid beperken in de overeenkomst
+die hij sluit met een dienstafnemer of met een dienstverlener. Daarbij blijft hij gebonden aan de algemene regels van het
+Nederlandse recht inzake aansprakelijkheid en schadevergoeding. Ad 3 De aansprakelijkheidsregels zijn opgenomen in het Juridisch
+kader
+Ad 4 Deze eIDAS eis overlapt de eis met betrekking tot sub-
+contractanten in 2.4.5. Zowel het  en vooral het Juridisch kader Gemeenschappelijk
+bevatten voor deze eis relevante normenkader informatiebeveiliging
+specificaties.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9901. b. c.

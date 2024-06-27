@@ -1,0 +1,11 @@
+In 2020 zal dit aanzienlijk lager zijn door de lagere winst. De uitkomst van bovenstaande formule is gelijk aan de uitkomst van
+onderstaande formule. Omloopsnelheid * nettowinstmarge
+Solvabiliteit (garantievermogen/balanstotaal)U kunt de rentabiliteit van het eigen vermogen ook berekenen door een
+aantal andere kengetallen te combineren. Hiermee wordt aangetoond dat kostenbeheersing, de financieringsstructuur en de omzet- en winststuring niet los van elkaar gezien kunnen worden. Is de rentabiliteit over het eigen vermogen niet optimaal, dan is het raadzaam de afzonderlijke kengetallen nader te onderzoeken. Naarmate een kantoor een hoger risicoprofiel heeft, zal het vereiste
+rendement hoger zijn. Het minimumpercentage bedraagt ongeveer 15%. In de branche zal het gemiddelde echter veel hoger zijn, vaak zelfs tussen 75% en de 100%. Dat is te verklaren door de lagere kapitaalintensiteit en de goede rendementen bij kantoren in de accountancy. Door de lagere kapitaalintensiteit is het balanstotaal  lager en hoeft het eigen vermogen niet groot te zijn. Ter controle van de berekende REV van 188% berekenen we de uitkomst
+van de combinatie van de drie genoemde kengetallen. Hefboomeffect
+(RTV -/- kosten vreemd vermogen) * gemiddeld vreemd vermogenGemiddeld eigen vermogen
+Als de kosten waartegen u vreemd vermogen kunt aantrekken lager
+zijn dan de RTV (Rentabiliteit Totaal Vermogen), dan is het lucratief om meer vreemd vermogen aan te trekken. Het rendement neemt dan toe naarmate er meer vreemd vermogen is. Let op: dat geldt alleen bij een positief hefboomeffect. Bij een negatief hefboomeffect wordt ook wel gesproken van een molensteeneffect of een koudedouche-effect.Bij een positief hefboomeffect is het dus goed voor de rentabiliteit om vreemd vermogen te hebben. Het is echter niet goed voor de solvabiliteitskengetallen. Het voorbeeldkantoor had een RTV (nettowinst vóór belasting /
+gemiddeld totaal vermogen) van 39% en betaalde een rente aan de bank van 3,8%. De vreemdvermogenfinanciering zorgt voor een verbetering van de rentabiliteit. Het hefboomeffect komt uit op 164%. 4.4  D uPont-schema
+Het DuPont-schema toont de samenhang tussen diverse kengetallen. Een deel van deze kengetallen is al behandeld. Het schema is ontwikkeld in 1919 door E.I. Du Pont de Nemours & Co.

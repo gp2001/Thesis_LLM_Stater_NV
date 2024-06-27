@@ -1,0 +1,57 @@
+14. dat bepaalde
+organisatorenonderdeel / die
+bepaalde vestiging beperkt
+zijn. Het machtigingenregister MOET de
+onderstaande functionaliteit
+bieden:
+Registratie van een
+machtigingenbeheerder
+Registratie en beheer van
+bevoegdheden door de
+machtigingenbeheerder
+Het Machtigingenregister
+registreert één of meerdere
+personen in de rol van
+Machtigingenbeheerder:
+a. De wettelijke
+vertegenwoordiger(s) stelt
+een persoon in de rol van
+machtigingenbeheerder aan. b. De
+Machtigingenbeheerder
+heeft de bevoegdheid om
+namens/als de wettelijke
+vertegenwoordiger(s)
+machtigingen te laten
+registreren bij de
+machtigingenregister. c. Indien de wettelijke
+vertegenwoordiger geen
+andere persoon in de rol van
+machtigingenbeheerder
+wenst aan te stellen, vervult
+de wettelijke kerkleden (in totaal minimaal 5) dat hij mag optreden als
+wettelijke vertegenwoordiger. Als alternatief voor de verklaring
+mag het MR additioneel bewijs accepteren zoals een banktransactie
+waarmee de vertegenwoordiger aantoont dat hij de beschikking
+heeft over een bankrekening op naam van het Kerkgenootschap
+aangevuld met ander bewijs, notulen en agenda's van
+vergaderingen waaruit de geclaimde bevoegdheid blijkt. Het MR MOET de associatie van de vertegenwoordiger valideren
+aan de hand van het overlegde statuut en de getekende verklaring. Alternatief 2:
+De koepelorganisatie van het kerkgenootschap, geregistreerd in
+het handelsregister, MOET met een formele brief aan de MR, het
+bestaan van het Kerkgenootschap en de bestuurssamenstelling
+bevestigen en de verantwoordelijkheid op zich voor de juistheid
+van deze bevestiging nemen. Het MR verifieert de KvK nummer en vestigingsplaats van de
+koepelorganisatie aan het handelsregister. Alternatief 3:
+De gebruiker levert gegevens van het kerkgenootschap die de
+gebruiker wil vertegenwoordigen op aan het MR. Het MR controleert deze gegevens bij het  register (uitsluitend ANBI
+digitaal bereikbaar via de beveiligde website van de Belastingdienst
+"opzoeken ANBI"). Het MR neemt contact op met de contactpersoon van het
+kerkgenootschap zoals deze is geregistreerd in het ANBI register. Deze contactpersoon schriftelijk bevestigen dat de gebruiker MOET
+gerechtigd is om namens het kerkgenootschap op te . treden
+Ad 2 Protocol voor controle van interne mandaatbesluiten: Voor de
+controle van interne mandaatbesluiten die als alternatief voor
+controle in het handelsregister worden toegestaan geldt de
+volgende werkwijze:
+het mandaatbesluit wordt door degene die opgave doet verstrekt
+degene die opgave doet duidt aan op basis van welke in het
+mandaatbesluit genoemde functie hij de opgave doetAfsprakenstelsel Elektronische Toegangsdiensten | pagina 9604. 5. 14.

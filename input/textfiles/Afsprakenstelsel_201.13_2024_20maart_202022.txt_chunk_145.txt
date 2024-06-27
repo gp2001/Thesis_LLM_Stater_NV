@@ -1,0 +1,55 @@
+Dit uitgangspunt omvat alle stelselgegevens. Deelnemers, Beheerorganisatie en BSNk MOETEN een verzoek waarbij gearchiveerde gegevens worden opgevraagd
+honoreren in de volgende gevallen:
+Wanneer er beroep is ingesteld tegen een bestuursrechtelijk besluit dat de publieke Dienstverlener heeft
+genomen op basis van gegevens die zijn verkregen middels een stelseldienst en de Dienstverlener deze
+bewijsstukken nodig heeft in het kader van de beroepsprocedure moeten de gegevens worden verstrekt aan
+zowel betreffende Dienstverlener als gebruiker of machtigingsverlener die het beroep heeft ingesteld. Op vordering van een bevoegde opsporingsinstantie, een inlichtingen- of veiligheidsdienst of een bevoegde
+Toezichthouder moeten de gegevens aan betreffende instantie worden verstrekt. Op verzoek van de Beheerorganisatie. Bijv. omdat elders in de keten informatie verloren is gegaan en met als
+doel dat de ontbrekende informatie wordt hersteld. Een partij MOET een verzoek voor het vrijgeven van gearchiveerde informatie in beginsel indienen bij de betreffende
+Deelnemer. Een Dienstverlener MOET een dergelijk verzoek in beginsel indienen bij zijn makelaar. In geval van
+geschillen, of bij onvoldoende medewerking MAG een partij een verzoek indienen bij de Beheerorganisatie van het
+Stelsel, die vervolgens de coördinatie op zich MOET nemen. De Deelnemers, Beheerorganisatie en BSNk MOETEN logging kunnen inzetten voor foutopsporing. Deelnemers, Beheerorganisatie en BSNk MOETEN met behulp van logging over elke periode vragen over transacties
+kunnen beantwoorden waarin een van de volgende criteria, of een combinatie ervan, zijn opgenomen:
+Identificerend kenmerk Deelnemer
+Identificerend kenmerk/pseudoniem Gebruiker
+Identificerend kenmerk dienstbemiddelaar partij (indien van toepassing)
+Identificerend kenmerk van dienstverlener
+Dienst en dienstenset uit dienstencatalogus
+Betrouwbaarheidsniveaus
+Indien deelnemers vanwege aanpassingen in de voorgeschreven architectuur niet of niet meer in staat zijn om een of
+meerdere van deze gegevens op te leveren dan zijn ze ontslagen van de verplichting om die specifieke gegevens op te kunnen
+leveren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 859Meer lezen over bewaartermijnen
+Doelomschrijving Authenticatiedienst als verantwoordelijke
+Doelomschrijving Middelenuitgever
+Doelomschrijving Machtigingenregister
+Technische specificaties en procedures voor uitgifte van authenticatiemiddelen
+Specificaties voor het beheer van bevoegdheden
+Gemeenschappelijk normenkader informatiebeveiliging  Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8601. 2. Afspraken voor de integriteit van medewerkers
+Bij integriteit en betrouwbaarheid gaat het zowel om het handelen in overeenstemming met algemeen aanvaarde
+maatschappelijke normen en waarden, (wettelijke) richtlijnen en procedures als het nakomen van afspraken en
+toezeggingen aan klanten, medewerkers, leveranciers en andere belanghebbenden. Deelnemers, Beheerorganisatie en BSNk MOETEN het risico verminderen dat medewerkers worden aangenomen die
+door hun gedrag de integriteit en betrouwbaarheid van het Stelsel in gevaar brengen. Screening van medewerkers of kandidaat medewerkers MOET betrekking hebben op al het vaste en tijdelijke
+personeel dat werkzaamheden uitvoert binnen de scope van het Stelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 861Beleid voor penetratietesten
+Het Stelsel MOET periodiek en door een onafhankelijke ter zake deskundige partij laten toetsen of de technische
+beveiligingsmaatregelen die zijn genomen door Deelnemers, Beheerorganisatie daadwerkelijk effectief en adequaat zijn. Een
+dergelijke controle is nuttig om zwakke plekken in het systeem te ontdekken en om te controleren hoe doeltreffend de
+beheersmaatregelen zijn bij het voorkómen van onbevoegde toegang als gevolg van deze zwakke plekken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 862Uitgangspunten
+Tenminste tweemaal per jaar worden er pentesten uitgevoerd. Deze zullen verdeeld worden in   (gecoördineerd door centraal
+de beheerorganisatie) en   (onder directe verantwoordelijkheid van individuele deelnemers). decentraal
+Centraal
+De beheerorganisatie zal tenminste éénmaal per jaar een centrale pentest organiseren. Indien gewenst kan het thema ervan
+worden bepaald in overleg met de Security officers van de deelnemers tijdens het Security officers overleg. Black-box  test MOET plaatsvinden op alle endpoints van alle in het netwerk aanwezige systemen. Black-box  test MOET plaatsvinden op alle aangeboden diensten van de Beheerorganisatie, waaronder Mantis,
+Confluence en de dienstencatalogus- en metadata-aggregator. Deze test MAG NIET plaats vinden tijdens een koppelvlak release en daarmee een release hinderen. Decentraal
+Georganiseerd door deelnemers zelf. Deelnemer MOET tenminste éénmaal per jaar een eigen pentest uitvoeren, in elk geval direct volgend op de livegang
+van een nieuwe koppelvlakrelease. Deze pentest MOET tenminste , maar MAG   worden uitgevoerd. Grey-box White-box
+Het implementatieplan van een nieuwe release MAG de opdracht tot een pentest bevatten. Deelnemer MOET alle endpoints van in het netwerk beschikbare systemen onderwerpen aan een pentest
+Deelnemer MOET ook eventuele uitgebrachte apps (t.b.v. authenticatie e.d.) die een rol in het Netwerk vervullen
+laten pentesten. Deelnemer ZOU bij deze pentest ook gerelateerde systemen, zoals self-service portalen, mee MOETEN nemen Afsprakenstelsel Elektronische Toegangsdiensten | pagina 863Randvoorwaarden voor penetratietesten
+De penetratietest MOET worden uitgevoerd door een partij die:
+Onafhankelijk is van de organisatie waar de pentesten plaatsvinden
+Aantoonbaar deskundig is op het gebied van standaarden die voor het Stelsel relevant zijn, zoals SAML, XACML en
+Signing.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 864Rapportage van penetratietesten
+Het rapport van de Decentrale en Centrale penetratietest MOET ter inzage worden aangeboden aan de toezichthouder. Uit
+het rapport van de Centrale penetratietest worden de bevindingen door de Beheerorganisatie gedeeld met de betreffende
+Voor bevindingen die geclassificeerd zijn als Hoog dient op basis van een risico analyse een Corrective geauditte partij. Action Plan (CAP) gemaakt te worden door de deelnemer en beheerorganisatie, waarin beschreven staat wanneer de
+bevinding wordt opgelost.

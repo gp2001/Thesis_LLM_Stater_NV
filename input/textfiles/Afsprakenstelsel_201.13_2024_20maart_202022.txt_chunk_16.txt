@@ -1,0 +1,75 @@
+A. MohrAfsprakenstelsel Elektronische Toegangsdiensten | pagina 190
+Vestiging
+Een vestiging is een onderdeel van een  met een afbakening die in een  is opgenomen. Dienstafnemer Handelsregister
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 191
+Wettelijke vertegenwoordiging
+Een  die voortvloeit uit de wet zonder dat er sprake is van het toekennen van een Vertegenwoordiging (vertegenwoordigen)
+volmacht of machtiging door de . Vertegenwoordigde
+Voorbeelden zijn: de bestuurder(s) van een , de curator, de ouders van een minderjarige. Rechtspersoon
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 192
+Wettelijk identificatie document (WID)
+Een geldig document als bedoeld in Wet ter voorkoming van witwassen en financieren van terrorisme artikel 11, lid 1 en
+nader gespecificeerd in de Uitvoeringsregeling Wet ter voorkoming van witwassen en financieren van terrorisme artikel 4 lid
+1. Dat wil zeggen onder andere een Nederlands of buitenlands paspoort, een Nederlandse identiteitskaart of rijbewijs, een
+rijbewijs uitgegeven door een andere EU lidstaat en vreemdelingendocumenten, allen mits geldig. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 193
+Zelfstandige Zonder Personeel (ZZP)
+Een ZZP-er is een ondernemer die geen personeel in dienst heeft en zijn  niet drijft in een Onderneming
+samenwerkingsverband of in een rechtspersoon waarin andere personen participeren. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 194
+Zelfverklaard attribuut
+Een attribuut waarvan de gegevens NIET zijn gecontroleerd aan de hand van gegevens uit een officiële, neutrale en
+betrouwbare bron. Herkomst
+Eigen definitie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 195Juridica
+Hier vindt u de juridische documenten van het Afsprakenstelsel Elektronische Toegangsdiensten: het juridisch kader en de
+gebruiksvoorwaarden. Deze documenten bevatten informatie over de besturing van Elektronische Toegangsdiensten, de
+naleving van het afsprakenstelsel, de overeenkomst tussen de beheerorganisatie en de aanbieders en de minimale
+gebruiksvoorwaarden waaronder de dienstverleners en ondernemers Elektronische Toegangsdiensten mogen gebruiken. Deze categorie bevat de volgende onderdelen:
+Juridisch kader  — Beschrijft het juridisch kader, het besturingsmodel en de controle op en monitoring van de
+naleving van het afsprakenstelsel. Gebruiksvoorwaarden Elektronische Toegangsdiensten  — Deze Gebruiksvoorwaarden zijn van toepassing op het
+verlenen van diensten door Deelnemers aan Dienstverleners en Dienstafnemers in het kader van Elektronische
+Toegangsdiensten. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 196Juridisch kader
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Elektronische Toegangsdiensten is gericht op het leveren van "vertrouwen". Duidelijke juridische kaders dragen daar aan bij
+evenals een goed georganiseerde besturing gebaseerd op duidelijke rollen en verantwoordelijkheden  zoals uitgewerkt in
+. Organen en taakverdeling
+Bovendien zijn de wettelijke eisen aangaande betrouwbaarheid van e-diensten, aangaande identificatie en ondertekening
+van belang voor het begrip en de uitwerking van de door het Netwerk te leveren Herkenningsdiensten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 197Wet- en regelgeving
+Het afsprakenstelsel baseert zich op bestaande Europese en Nederlandse wet- en regelgeving. De instelling van de besturing
+van het afsprakenstelsel elektronische toegangsdiensten is vastgelegd in het Instellingsbesluit Besturing Elektronische
+. Toegangsdiensten
+Het juridisch kader inzake het Afsprakenstelsel Elektronische Toegangsdiensten is, behalve in toepasselijke wet- en
+regelgeving, verder uitgewerkt in het afsprakenstelsel zelf en de bijbehorende deelnemersovereenkomsten ( Template
+) en . deelnemersovereenkomst Gebruiksvoorwaarden Elektronische ToegangsdienstenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 198Leeswijzer
+Aansprakelijkheid  — Binnen het afsprakenstelsel is iedere deelnemer aansprakelijk voor zijn eigen handelen en/of
+nalaten binnen de rol die hij vervult. Voor de aansprakelijkheid gelden de algemene regels van het Nederlands recht
+ten aanzien van de inhoud en omvang van wettelijke verplichtingen tot schadevergoeding. De deelnemers mogen en
+kunnen niet afwijken van deze algemene regels. Hoe deze regels in een concreet geval uitwerken, is afhankelijk van
+de feiten en de omstandigheden van het geval. Aanvullende verplichtingen  — In aanvulling op de juridisch bindende verplichtingen uit de genoemde documenten
+(Afsprakenstelsel Elektronische Toegangsdiensten, Template deelnemersovereenkomst en Gebruiksvoorwaarden
+Elektronische Toegangsdiensten) gelden specifiek nog de onderstaande verplichtingen voor de deelnemers en de
+dienstverleners
+Betrouwbaarheidsniveaus  — Het vaststellen van het voor een bepaalde dienst vereiste
+Betrouwbaarheidsniveau wordt bepaald door de dienstaanbieder. Inrichting toezicht  — Een goede naleving van het Afsprakenstelsel is onontbeerlijk voor het vertrouwen in
+het Netwerk (voor Elektronische Toegangsdiensten). Het toezicht op en het handhaven van de naleving is belegd bij
+de staatssecretaris van Binnenlandse Zaken die naast de rol van Eigenaar ook de rol van Toezichthouder vervult. De
+Toezichthouder houdt toezicht op de naleving van stelselafspraken door de Eigenaar, Beheerorganisatie, Deelnemers
+en BSNk. Juridische structuur  — Het afsprakenstelsel geldt voor alle partijen die deelnemen aan of gebruik maken van
+Elektronische Toegangsdiensten. Het afsprakenstelsel is vastgelegd in een aantal documenten. Zie Startpagina voor
+een opsomming van deze documenten. In al deze documenten kunnen voor een of meer partijen juridisch bindende
+verplichtingen zijn neergelegd. Vanzelfsprekend moeten alle juridisch bindende verplichtingen door de betreffende
+partij worden nageleefd. Organen en taakverdeling  — In de besturing van Elektronische Toegangsdiensten worden drie lagen onderscheiden:
+Samenwerking met externe verkoopkanalen
+Toetredingseisen  — Alle deelnemers aan het afsprakenstelsel dienen te voldoen aan de algemene toetredingseisen. De toetredingseisen worden gesteld om een aantal redenen. De belangrijkste daarvan is de wetenschap dat het
+netwerk alleen goed zal kunnen functioneren als afnemers van diensten voldoende vertrouwen hebben in het
+afsprakenstelsel. Vertrouwen in het afsprakenstelsel en in de snippet.diensten die in kader van het afsprakenstelsel
+geleverd worden vereist vertrouwen in de individuele deelnemers. Het afsprake
+Vertegenwoordiging, volmacht en machtiging  — Vertegenwoordiging is binnen het afsprakenstelsel zowel op grond
+van het burgerlijk recht als op grond van het bestuursrecht van belang. De privaatrechtelijke kant doet zich voor bij
+vertegenwoordiging van rechtspersonen en natuurlijke personen. De publiekrechtelijke kant is van belang bij
+vertegenwoordiging van bestuursorganen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1991. 2. 3.

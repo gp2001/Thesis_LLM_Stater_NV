@@ -1,0 +1,28 @@
+In figuur 2 is het verloop van een grondexploitatie geschetst. In deze afbeelding van de verwachte kasstroom
+van de grondexploitatie is te zien dat het zes jaar duurt (2018-2024), voordat de gemaakte kosten zijn
+terugverdiend (break-even-point). In dit voorbeeld wordt ervan uitgegaan dat de grondexploitatie eindigt
+met een positief resultaat. De verkoop van de woningen kan echter langzamer of sneller gaan. Hierdoor
+kunnen de kosten voor de rente toe of afnemen en worden de opbrengsten beïnvloed. Tijdens de crisis
+is zowel de verkooptijd als de grondwaarde anders uitgepakt dan gedacht (langer en lager). Stel dat de Vereniging van Nederlandse Gemeenten11grondexploitatie twee jaar langer doorloopt en de grondopbrengst 15% lager is, dan kan het saldo door deze
+vertraging negatief worden. De gemaakte kosten worden niet helemaal terugverdiend. Op het moment dat
+de woningprijzen dalen, daalt de grondprijs door het residuele effect verhoudingsgewijs nog veel meer. De
+gemeente draait geheel of gedeeltelijk voor deze risico’s op. Bij actief grondbeleid draait de gemeente hier
+volledig voor op, bij een PPS naar rato van het afgesproken aandeel. De gemeente moet bij een verwacht tekort de grondexploitatie afboeken of een zogenaamde ‘voorziening’
+opnemen in de gemeentebegroting. Bij faciliterend grondbeleid ligt dit risico grotendeels bij marktpartijen. Het treffen van een afboeking is nodig als de huidige marktwaarde lager is dan de boekwaarde. Een voorzie -
+ning gebeurt bij een geprognosticeerd verlies direct ter grootte van dit volledige verlies en wordt na het
+afsluiten van de grondexploitatie geheel of gedeeltelijk gebruikt. -25-20-15-10-50 5 10 15 20 25 30
+2018  2019  2020  2021  2022 2023 2024 2025Ontwikk eling GREX in de tijd
+Saldo GREX
+Kosten cumulatief
+Opbre ngsten cumulatief
+Saldo vertraagd e GREX
+Figuur 2
+Netto contante waarde en eindwaarde van de grondexploitatie
+Bij een grondexploitatie worden de verwachte kosten en opbrengsten van een project in de tijd uitgezet
+(jaarreeksen worden opgesteld). Na afloop van de looptijd van het project kunnen van de verwachte opbreng -
+sten alle kosten (inclusief rente) worden afgetrokken. Dit levert de eindwaarde van een grondexploitatie op. Dat is dus de waarde van een grondexploitatie na afloop van het project, bijvoorbeeld in 2024. Om meerdere
+projecten met verschillende looptijden (2024 en 2027) met elkaar te kunnen vergelijken, is correctie nodig
+voor de verschillen in looptijd. Een project dat bijvoorbeeld een positief resultaat van € 1 mln. oplevert in
+2024 is meer waard dan een ander project dat in 2027 ook € 1 mln. oplevert. Daarom worden alle kosten en
+opbrengsten teruggerekend naar de contante waarde op 1 januari van het huidige jaar (peildatum jaarreke -
+ning).

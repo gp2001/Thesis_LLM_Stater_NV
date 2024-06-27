@@ -1,0 +1,122 @@
+Definities
+Artikel 2. Toepassingsgebied
+Artikel 3. Tussentijdse beëindiging van de Overeenkomst door beëindiging deelname
+Artikel 4. Beperking van aansprakelijkheid
+Artikel 5. Geheimhouding
+Artikel 6. Achterhalen netwerkfalen
+Artikel 7. Overdraagbaarheid rechten en verplichtingen Overeenkomst
+Artikel 8. Toepasselijk recht
+Verplichtingen voor de Dienstafnemer
+Artikel 10. Dienstafnemer
+Artikel 11. Beveiligingsverplichting van de Dienstafnemer
+Artikel 12. Toezicht van de Dienstafnemer op gedragingen van personen
+Artikel 13. Vervulling rol(len) door de Dienstafnemer
+Verplichtingen van de Dienstverlener
+Artikel 14. Vaststellen openstellingsbesluit
+Artikel 15. Melding onregelmatigheden
+Artikel 16. Beveiliging dienstverlener
+Artikel 17. SSO
+Artikel 18. Beveiliging
+Artikel 19. Betrouwbaarheidsniveaus
+Artikel 20. Informatieverplichting
+Artikel 21. Privacy
+Artikel 22. Cookies
+Artikel 23. ToezichtAfsprakenstelsel Elektronische Toegangsdiensten | pagina 231Artikel 1. Definities
+Alle in deze Gebruiksvoorwaarden met een hoofdletter geschreven begrippen hebben de volgende betekenis. Afsprakenstelsel (AS)
+Het geheel aan afspraken op gebied van organisatie, besturing, toezicht,
+beheer, architectuur, toepassingen, techniek. procedures en regels
+aangaande het  in een Netwerk (voor Elektronische Toegangsdiensten)
+bepaalde vastgestelde versie. Het doel is betrouwbare  en authenticatie
+verstrekking van identiteitsinformatie op basis van de
+eHerkenningsdiensten van een goed gereguleerd netwerk voor
+eHerkenning. Authenticatiedienst (AD)
+Een vereiste  binnen het Rol Netwerk (voor Elektronische
+die door een  aan het  Toegangsdiensten) Deelnemer Afsprakenstelsel (AS)
+wordt ingevuld en die de verantwoordelijkheid heeft voor het
+van  op basis van het door de authenticeren natuurlijke personen
+natuurlijk persoon gebruikte . Authenticatiemiddel
+Authenticatiemiddel
+Een set van attributen (bijvoorbeeld een certificaat) op grond waarvan
+authenticatie van een partij kan plaatsvinden. Beheerorganisatie (BO)
+De Beheerorganisatie van het  die verantwoordelijk is Afsprakenstelsel (AS)
+voor het faciliteren van het beheer en de doorontwikkeling van het
+Afsprakenstelsel, alsmede de controle op en het monitoren van de
+naleving van het Afsprakenstelsel door de  en de Dienstaanbieders (DA)
+in opdracht van de . Deelnemers Eigenaar
+Betrouwbaarheidsniveau
+Een relatief niveau van de sterkte van het bewijsmateriaal aangaande een
+authenticatie / identiteitsclaim, bevoegdheid, controle van bevoegdheid
+of wilsuiting dat wordt gevormd door een samenhangend geheel van
+factoren, waar van toepassing bestaande uit: de sterkte van de
+voorafgaande registratie, identificatie, authenticatie en uitgifte; de sterkte
+van het middel zelf en het gebruik van het middel (het
+authenticatiemechanisme). Beveiligingsincident
+Een gebeurtenis die een bedreiging vormt of kan vormen voor de
+betrouwbaarheid, vertrouwelijkheid of beschikbaarheid van een
+elektronische toegangsdienst en/of een inbreuk op beveiliging die leidt
+tot de aanzienlijke kans op ernstige nadelige gevolgen voor de
+bescherming van persoonsgegevens. Herkenning
+In deze context wordt onder (electronische) herkenning verstaan: ieder
+van de functies van het  Netwerk (voor Elektronische Toegangsdiensten)
+gericht op het handhaven en controleren van vertrouwen aangaande
+identiteiten, machtigingen, wilsuitingen en bevoegdheden in relaties of
+transacties tussen dienstverleners en bedrijven en de daarin betrokken
+. gebruikers
+Herkenningsdiensten
+Diensten voor , te weten: , Herkenning Authenticatie (authenticeren)
+controle van , vastlegging van een wilsuiting en de daarbij Bevoegdheid
+benodigde identificaties en garanties voor onweerlegbaarheid evenals de
+daartoe benodigde registratieprocessen. Herkenningsmakelaar (HM)
+Een vereiste  binnen het Rol Netwerk (voor Elektronische
+die door een  aan het  Toegangsdiensten) Deelnemer Afsprakenstelsel (AS)
+wordt ingevuld en die het single point of contact vormt waarlangs
+afnemen, die de dienstverleners Herkenningsdiensten
+verantwoordelijkheid heeft om het berichtenverkeer van en naar de
+dienstverleners te ontkoppelen van de interne berichten binnen het
+netwerk en die optreedt als routeerder naar alle deelnemende
+, . authenticatiediensten machtigingenregisters
+Machtigingenbeheerder
+Een  met de bevoegdheid om namens een  Gebruiker Dienstafnemer
+machtigingen te registreren, te schorsen, in te trekken en anderszins
+bijbehorende registratieprocessen uit te voeren. Machtigingenregister (MR)
+Een vereiste  binnen het Rol Netwerk (voor Elektronische
+die door een  aan het  Toegangsdiensten) Deelnemer Afsprakenstelsel (AS)
+wordt ingevuld en die de verantwoordelijkheid heeft voor het registreren,
+beheren, controleren van en andere  en het machtigingen bevoegdheden
+afleggen van  over bevoegdheden (c.q. het op verzoek van de verklaringen
+verstrekken van machtigingsverklaringen). Gebruiker
+Middelenuitgever (MU)
+Een vereiste rol binnen het Netwerk (voor Elektronische Toegangsdiensten)
+die door een  aan het  wordt ingevuld en Deelnemer Afsprakenstelsel (AS)
+die de verantwoordelijkheid heeft voor het uitgeven van
+en conform de eisen van het gespecificeerde Authenticatiemiddel
+. BetrouwbaarheidsniveauAfsprakenstelsel Elektronische Toegangsdiensten | pagina 232Deelnemer
+Een partij die conform hetgeen daarover in het  is  Afsprakenstelsel (AS)
+vastgelegd één of meer rollen vervult binnen het Netwerk (voor
+. Deelnemers kunnen rollen voor eigen Elektronische Toegangsdiensten)
+gebruik en/of voor gebruik door derden vervullen. Dienstafnemer
+Een partij die Elektronische Toegangsdiensten gebruikt om een dienst af te
+nemen bij een dienstverlener. De dienstafnemer is een partij van de vorm
+natuurlijk persoon die een onderneming drijft
+(een eenmanszaak), of
+een niet natuurlijk persoon conform de
+identificatie waarmee het is ingeschreven in het
+Nederlandse handelsregister of in een
+vergelijkbaar buitenlands openbaar register
+conform de voorschriften van het betreffende
+land, of
+een natuurlijk persoon die als privépersoon een
+dienst afneemt van een dienstverlener, of
+een natuurlijk persoon die als burger een dienst
+afneemt van een dienstverlener die gerechtigd
+is het BSN te gebruiken
+Een dienstafnemer is de  of wordt Gebruiker
+vertegenwoordigd door een gebruiker. Nota bene: In proposities aan bedrijven is het
+toegestaan de abstracte term “dienstafnemer” concreet
+te maken en te vervangen door “bedrijf”. Eigenaar
+De staatssecretaris van Binnenlandse Zaken die politiek verantwoordelijk
+is voor de veilige en betrouwbare werking van het  en Afsprakenstelsel (AS)
+als merkeigenaar verantwoordelijk voor de bescherming van het woord-
+en beeldmerk dat voor het Afsprakenstelsel wordt gebruikt. Gebruiker
+Elektronische Toegangsdiensten gebruikt om Een Natuurlijk persoon  die
+een dienst af te nemen bij een dienstverlener. Zie ook  .

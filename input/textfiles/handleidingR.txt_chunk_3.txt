@@ -1,0 +1,71 @@
+*/ vermenigvuldiging endeling . +- plusenmin
+<><=>===!= logischevergelijking
+! logischeontkenning
+&|&&|| en,of
+<--> toekenning LAAG
+Tabel2.Prioriteitsv olgorde vanR-operaties vanhoognaarlaag.5-Logisc heenKarakter Vectoren 9
+Genereren vanRoosterpun ten
+Regelmatige rijengetallen speleneenbelangrijk erolinhetgebruik vantalloze R-functies. Zulkeroosters kunnen opmeerdere manieren worden gegenereerd. Desnelste operatie is
+dedubbelepunt:. >index<-1:20
+>index
+[1]1234567891011121314151617181920
+Omgek eerdgeeft20:1dezelfde rijindalende volgorde. Defunctieseqlevertalgemenere
+rijtjes. Hierin wordtofweldegewenstestapgro otteofwelhetaantalgewensteroosterpun ten
+alsargumen topgegev en,tesamen metheteerste enlaatste roosterpun t. >u<-seq(-3,3,by=.5) #eenregelmatig rooster metstapgrootte .5
+>u
+[1]-3.0-2.5-2.0-1.5-1.0-0.50.00.51.01.52.02.53.0
+Precies hetzelfde eect hebbendevolgende commando's. >u<-seq(-3,3,length=13) #geeft13roosterpunten
+>u<-(-6):6/2
+Defunctiereprepliceert eengegevenvector. Alshettweedeargumen teenenkelgetalis,
+wordtheteerste argumen tevenzoveelmalen herhaald. >rep(1:4,4)
+[1]1234123412341234
+Hettweedeargumen tvanrepkanookeenvectorzijnvandezelfde lengte alsheteerste argumen t. Indatgevalgeeftiedere coordinaat aanhoevaakdecorresp onderende coordinaat vandeeerste
+vectormoetworden herhaald. >rep(1:4,rep(4,4))
+[1]1111222233334444
+Logisc heenKarakter Vectoren
+Naast numeriek kunnen decoordinaten vaneenvector ookdelogischesymbolenFALSE
+(`false')andTRUE(`true'),ofkarakterstrings (rijtjes letters en/of symbolen) zijn.Iedere
+vectorisechterongemengd indezin,datallecoordinaten vanhetzelfde typezijn.Derhalv e
+zijnernumeriek e,logischeenkarakter vectoren inR. Logisc hevectoren worden meestal gecreeerduitcondities. >x
+[1]1053610 5-Logisc heenKarakter Vectoren
+>y<-x>9 #y[i]isTalsx[i]>9
+>y
+[1]TRUEFALSEFALSEFALSE
+Netalsmetrekenkundige bewerkingen wordtincondities delengte vandekortste vector
+doorrecycling aangepast aandelengte vandelangste vector. Devoorgaande toekenning
+isidentiekaanhetnodelooslangey<-x>rep(9, 4). Delogische vergelijkingen zijn<,<=,>,>=,==voorgelijkheid en!=voorongelijkheid. (Hetsymbool=isgeenlogischeoperator!) Delogischeoperatoren en,ofenontkenning
+worden gegevendoor&,|en!.Analo ogaanderekenkundige bewerkingen kunnen deze
+operatoren opvectoren worden toegepast. >(3<x)&(x<10) #gebruik niet(3<x<10)! [1]FALSETRUEFALSETRUE
+>(!y)
+[1]FALSETRUETRUETRUE
+Deronde haakjes rondom!yzijnnietaltijd noodzakelijk,maar kunnen inditgevalniet
+worden gemist. Eenvoordehandliggende foutishetafkorten vanheteerste commando tot
+(3<x<10) .Dezeuitdrukking issyntactisc hcorrect, maar heeftniethetgewenste resultaat. (Hetcommando wordtgenterpreteerd als(3<x)<10methetresultaat TRUETRUETRUE
+TRUE,gebruikmak endvan`coercie' alsbeschrevenindevolgende paragraaf.)
+Oplogischevectoren kunnen ookrekenkundige bewerkingen worden toegepast. Indat
+gevalworden delogischewaardenFALSE enTRUEeerstvervangen door0en1(zogenaamde
+coercie).Bijvoorbeeld,defunctiesum(x) berekentdesomvandecoordinaten vaneen
+vectorx.Daarom geeftsum(y) hetaantalkeerTRUEindelogischevectory. >sum(x>9) #aantalcoordinaten x[i]>9
+[1]1
+Eenkaraktervectorterlengte 1wordtbinnen Raangegev endooreenrijletters ofcijfers
+omgev endooraanhalingstek ens,zoals"x"of"x-waarden" .Inhetvolgende wordteen
+karakter vectorterlengte drieoptweemanieren gecreeerd. >x<-c("rowa","rowb","rowc")
+>x
+[1]"rowa""rowb""rowc"
+>letters[1:3] #eenstandaard karakter vector
+[1]"a""b""c"
+>paste("row",letters[1 :3])
+[1]"rowa""rowb""rowc"
+Eenalternatief voorimpliciete coercieisomeenlogischevectorpermanen tineennumeriek evector
+teveranderen metdefunctiemode. >y5-Missing Data 11
+[1]TRUEFALSEFALSEFALSE
+>mode(y) <-"numeric"
+>y
+[1]1000
+>mode(y) <-"logical"
+>y
+[1]TRUEFALSEFALSEFALSE
+Missing Data
+Opderegeldateenvector ongemengd moetzijn,bestaat eenuitzondering. Despeciale waarde
+`NA'maginvectoren vaniedertypevoorkomen. Dezewaarde kanworden gebruikt voormissing
+data.

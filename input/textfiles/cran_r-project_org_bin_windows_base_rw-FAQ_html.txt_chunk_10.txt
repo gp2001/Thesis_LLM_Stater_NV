@@ -1,0 +1,67 @@
+This is less common with LCD screens but not unknown, particularly if
+they are not running at their native resolution. 5.4 How do I move focus to a graphics window or the console? You may want to do this from within a function, for example when calling
+‘ ’ or ‘ ’. Use the function
+‘ ’. With its default argument it brings the active
+graphics window to the top and gives it focus. With argument ‘ ’
+it brings the console to the top and gives it focus. This works for in MDI and SDI modes, and can be used for
+graphics windows from (although Windows may not always
+act on it). 5.5 What does TAB completion do? Both and support completion. Hitting whilst entering a command line completes the current
+‘word’ as far as is unambiguously possible. Hitting a second
+time then shows a list of possible completions (or the first few if
+there are many): the user can then enter one or more characters and hit again. What is it ‘completing’? There are two modes: within an unterminated
+(single- or double-) quoted expression it completes file
+paths. Otherwise, it is completing R expressions: most obviously
+it will match visible R object names and keywords, so followed
+by will (in a vanilla session) complete to . After a function name and parenthesis (e.g. ) it will
+complete argument names (and ), and after or it
+will complete list components or slot names respectively. This feature can be turned off: has two menu items to do
+so, and setting the environment variable to turns it off completely for both and . Further, the behaviour can be fine-tuned: to see the
+settings available use which also explains how the various types of completion work. This feature is very similar to the completion available in the -based command line interface on Unix-alikes: the macOS
+GUI has a different completion scheme. 6 Workspaces 6.1 My workspace gets saved in a strange place: how do I stop this? Have you changed the working directory?: see Q6.2. 6.2 How do I store my workspace in a different place? Use the ‘File | Change Dir...’ menu item to select a new working
+directory: this defaults to the last directory you loaded a file
+from. The workspace is saved in the working directory. You can also
+save a snapshot of the workspace from the ‘Save Workspace...’ menu item. From the command line you can change the working directory by the
+function : see its help page. 6.3 Can I load workspaces saved under Unix/GNU-Linux or Mac macOS? Yes. All ports of R use the same format for saved workspaces, so they
+are interchangeable (for the same 4.x.? version of R, at least). It is possible to save references to package namespaces when saving the
+workspace: if that happens the package will need to be installed on the
+machine loading the workspace. As of R 3.6, which uses serialization format 3 for saving the workspace by
+default, information about the current encoding is recorded in the
+workspace. Note though that character data in a workspace will be in a particular
+encoding that may not be recorded in the workspace for older versions of R, so workspaces
+containing non- character data may not be interchangeable
+even on the same OS. Since R marks character data when it knows it to
+be in UTF-8 or Latin-1 (including its Windows superset, CP1252), strings
+in those encodings are likely to be transferred correctly: fortunately
+this covers most of the common cases (macOS normally uses UTF-8, and
+Linux users are likely to use UTF-8 or perhaps Latin-1). As of R 3.6, when the workspace is loaded, the characters in other encodings
+are converted to the current encoding, if possible. When this is not
+possible, such as the characters are not representable in such encodings,
+they are converted to UTF-8 with a warning, which may cause some disruption
+or confuse some software. As of R 4.2, when running on recent Windows, the native encoding is UTF-8
+and so these problems should disappear. 7 The R Console 7.1 When using Rgui the output to the console seems to be delayed. This is deliberate: the console output is buffered and re-written in
+chunks to be faster and less distracting. You can turn buffering off or
+on from the ‘Misc’ menu or the right-click menu: toggles
+the setting. If you are sourcing R code or writing from a function, there is another
+option. A call to the R function will write out
+the buffer and so update the console. 7.2 Long lines in the console or pager are truncated. They only to be truncated: that $ at the end indicates you
+can scroll the window to see the rest of the line. Use the horizontal
+scrollbar or the keys to scroll
+horizontally. (The keys work in the pager too.) 8 Building from Source 8.1 How can I compile R from source? See the ‘R Installation and Administration’ manual (for the version of R
+you want to install). 8.2 Can I use a fast BLAS? Fast BLAS (Basic Linear Algebra Subprograms, ) routines are used to
+speed up numerical linear algebra. There is support in the R sources
+for the ‘tuned’ BLAS called ATLAS
+( ). The savings can be
+appreciable but because ATLAS is tuned to a particular chip we can’t use
+it generally. However, linear algebra on large matrices is not often an
+important part of R computations, and more typical calculations on small
+matrices may run slower. BLAS support is supplied by the single DLL , and you can add a fast BLAS just by
+replacing that. Replacements for 32-bit R and some of the older common
+chips are available on CRAN in directory . See the R Installation and
+Administration’ manual for how to build an ATLAS tuned
+to your system using the R sources. Unfortunately the process has been
+less successful when tried for the common current CPUs. Note that fast BLAS implementations may give different (and often
+slightly less accurate) results than the reference BLAS included in R. 8.3 How do I include compiled C code? We strongly encourage you to do this building an R package:
+see the manual. In any event you should
+get and install the tools and toolchain mentioned in the ‘R Installation
+and Administration’ manual. Then you can use to make . Use for
+further options, or see .

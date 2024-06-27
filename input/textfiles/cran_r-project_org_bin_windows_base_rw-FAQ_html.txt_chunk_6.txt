@@ -1,0 +1,96 @@
+This has often been reported after an upgrade. The R installer does not put (nor any other R
+executable) on your . What seems to have happened is that
+people did this for themselves in the past, upgraded R (which by default
+will install to a different location) and un-installed the old version
+of R. If you do that (or install R for the first time), you need to
+edit the . The element you want to add to the path is something like for 64-bit , replacing by for
+32-bit. How you set the path depends on your OS version. Under recent versions,
+go to ‘User Accounts’ in the Control Panel, and select your account and
+then ‘Change my environment variables’. (System policies can prevent
+end users making changes.) An alternative is to set the in the shell you are running
+( is  a command-line program). For those using the
+standard Windows ‘Command Prompt’ Duncan Murdoch suggested: The simple way to do it just for the command prompt is to write a little
+batch file containing and then run with 3 Languages and Internationalization 3.1 The installer does not offer my language. Only a limited range of languages is supported, currently
+Catalan,
+both Simplified and Traditional Chinese,
+Czech,
+Danish,
+Dutch,
+Finnish,
+French,
+German,
+Greek,
+Hebrew,
+Hungarian,
+Italian,
+Japanese,
+Korean,
+Norwegian,
+Polish,
+Portuguese (Brazil),
+Portuguese (Portugal),
+Russian,
+Slovenian,
+Spanish (Spain)
+and Ukranian. 3.2 I want R in English (and not in French/Chinese/...)! The default behaviour of R is to try to run in the language you run
+Windows in. Apparently some users want Windows in their native language, but not R. To do so, set as discussed in Q2.2 and Q2.15, or in the file. 3.3 I want to run R in Chinese/Japanese/Korean. Suitable versions of Windows support what it calls ‘East Asian’
+languages, but e.g. Western installations of Windows often do not have
+such support. So we need to assume that your copy of Windows does. R 4.2 and later on recent versions of Windows (see Q2.2) use UTF-8 as the native
+encoding. It is thus possible to use characters outside of the system
+locale code page in R, including the command-line front-end (and , where limited support has
+existed before). For use in , one needs to choose suitable fonts
+which have the required glyphs, such as for Asian languages. Use from R to check whether R is really running in UTF-8
+as native encoding. With R 4.2 and later on earlier versions of Windows and with earlier versions of R,
+the following content still applies. Both and support single- and
+double-width characters. It will be necessary to select suitable fonts
+in files and (see or the
+comments in the files: the system versions are in the folder); in the latter you can replace by , and we tried and in . (Note that only applies to Windows
+graphics devices and not, say, to .) Note that it is important that the console font uses double-width
+characters for all CJK characters (as that is what the width table used
+assumes): this is true for the fonts intended for CJK locales but not
+for example for or . You do need to ensure that R is running in a suitable locale: use to find out. (CJK users may be used to their
+language characters always being available, which is the case for
+so-called ‘Unicode’ Windows applications. However, R is primarily
+written for Unix-alikes and is not therefore ‘Unicode’ in the Windows
+sense.)  You can find suitable locale names from and beware that is Traditional Chinese (code page 950,
+Big5) and is needed for Simplified Chinese (code page 936,
+GB2312). When using the window in which it is run has to be set
+up to use a suitable font (e.g. or , not the OEM raster fonts) and a suitable codepage
+(which for the Windows Cmd shell can be done using ). In R 4.2
+and later on recent versions of Windows where UTF-8 is the native encoding, will automatically switch the console codepage to UTF-8. 3.4 I selected English for installation but R runs in Chinese. Precisely, you selected English ! The language
+of the installer has nothing to do with the language used to run R: this
+is completely standard Windows practice (and necessary as different
+users of the computer may use different languages). The language R uses for menus and messages is determined by the : please read the appropriate manual (‘R Installation and
+Administration’) for the details. You can ensure that R uses English
+messages by appending to the shortcut you use to
+start R, or setting it in the file. 3.5 I would like to be able to use Japanese fonts. for example, in the console and to annotate graphs. Similar comments
+apply to any non-Western-European language. With suitable fonts, this should just work. You will need to set MS
+Mincho or MS Gothic as the console font to ensure that single- and
+double-width characters are handled correctly. The default graphics
+fonts for the graphics device can handle most common
+Japanese characters, but more specialized fonts may need to be set. (See Q5.2 for how to set fonts: the console font can also be set from
+the ‘GUI preferences’ menu item.)  The help for has
+examples of selecting Japanese fonts for the family of
+devices. In addition, the Hershey vector fonts (see , and ) can be used on any graphics
+device to display Japanese characters. To use non-Latin-1 characters in the graphics device,
+see its help page (which also applies to ). 3.6 I don’t see characters with accents at the R console, for example in ?text. You need to specify a font in (see Q5.2) that supports
+the encoding in use. This used to be a problem in earlier versions of
+Windows, but now it is hard to find a font which does not. Support for these characters within depends on the
+environment (the terminal window and shell, including locale and
+codepage settings) within which it is run as well as the font used by
+the terminal window. Those are usually on legacy DOS settings and need
+to altered (see Q3.3). 3.7 The dialog buttons are not translated. In most cases they actually are, but by Windows. Setting the locale or
+the environment variable does not change the Windows
+setting of its ‘UI language’. Vista and later talk about the ’UI
+language’ and the ’system locale’ for setting the language used for
+‘non-Unicode’ programs (on the ’Administrative’ tab in Windows 7). If you have Windows running completely in say French or Chinese these
+settings are likely to be consistent. However, if you try to run
+Windows in one language and R in another, you may find the way Windows
+handles internationalization slightly odd. 4 Packages 4.1 Can I install packages into libraries in this version? Yes, but you will need a lot of tools to do so, unless the author or the
+maintainers of the section on CRAN have been
+kind enough to provide a binary version for Windows as a file, or the package is a simple one involving no compiled
+code (and binary versions are usually available for simple
+packages). You can install binary packages either from a repository such as
+CRAN or from a local file by using :
+see its help page. There are menu items on the menu to
+provide a point-and-click interface to package installation.

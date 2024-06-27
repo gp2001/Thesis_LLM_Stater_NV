@@ -1,0 +1,295 @@
+c. Het screeningsproces moet
+worden doorlopen voor elk
+personeelslid (vast of
+ingehuurd):
+Bij indiensttreding. Ingeval van een bestaand
+dienstverband als de
+screening nog niet heeft
+plaatsgevonden of is
+verlopen. Bij verandering van functie
+of werkgebied van een
+medewerker als de nieuwe
+werkzaamheden meer
+omvatten of in hoge mate
+afwijken van de vroegere
+werkzaamheden. A.7.1.2 Arbeidsvoorwaarden  De contractuele overeenkomst met
+medewerkers en contractanten moet
+hun verantwoordelijkheden voor
+informatiebeveiliging en die van de
+organisatie vermelden. Sv Sv Sv Bijv. in de vorm van een
+ondertekend arbeidscontract
+of vergelijkbaar alternatief.Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.7.2 Tijdens het dienstverband Ervoor zorgen dat medewerkers en
+contractanten zich bewust zijn van
+hun verantwoordelijkheden op het
+gebied van informatiebeveiliging en
+deze nakomen. A.7.2.1 Directieverantwoordelijkheden  De directie moet van alle
+medewerkers en contractanten eisen
+dat ze informatiebeveiliging
+toepassen in overeenstemming met
+de vastgestelde beleidsregels en
+procedures van de organisatie. Sv Sv Sv Management dient personeel
+dat een taak/activiteit verricht
+ten behoeve van een rol in het
+stelsel, o.m. op de hoogte te Afsprakenstelsel Elektronische Toegangsdiensten | pagina 894stellen van de relevante eisen
+uit het afsprakenstelsel en
+bijbehorende procedures
+A.7.2.2 Bewustzijn, opleiding en training ten
+aanzien van informatiebeveiliging Alle medewerkers van de organisatie
+en, voor zover relevant, contractanten
+moeten een passende
+bewustzijnsopleiding en -training
+krijgen en regelmatige bijscholing
+van beleidsregels en procedures van
+de organisatie, voor zover relevant
+voor hun functie. Sv Sv Sv Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.7.2.3 Disciplinaire procedure  Er moet een formele en
+gecommuniceerde disciplinaire
+procedure zijn om actie te
+ondernemen tegen medewerkers die
+een inbreuk hebben gepleegd op de
+informatiebeveiliging. Sv Sv Sv Voor deelnemers, BSNk en
+Beheerorganisatie is de
+maatregel bedoeld voor
+werknemers die inbreuk op de
+beveiliging hebben gepleegd. Iedere organisatie binnen het
+stelsel bepaalt zelf of daartoe
+een formeel disciplinair proces
+moet worden vastgesteld.Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.7.3 Beëindiging en wijziging van
+dienstverband Het beschermen van de belangen van
+de organisatie als onderdeel van de
+wijzigings- of beëindigingsprocedure
+van het dienstverband. Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.7.3.1 Beëindiging of wijziging van
+verantwoordelijkheden van het
+dienstverband Verantwoordelijkheden en taken met
+betrekking tot informatiebeveiliging
+die van kracht blijven na beëindiging
+of wijziging van het dienstverband
+moeten worden gedefinieerd,
+gecommuniceerd aan de medewerker
+of contractant, en ten uitvoer worden
+gebracht. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.8 Beheer van bedrijfsmiddelenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 895A.8.1 Verantwoordelijkheid voor
+bedrijfsmiddelen Bedrijfsmiddelen van de organisatie
+identificeren en passende
+verantwoordelijkheden ter
+bescherming definiëren. A.8.1.1 Inventariseren van bedrijfsmiddelen  Bedrijfsmiddelen die samenhangen
+met informatie en
+informatieverwerkende faciliteiten
+moeten worden geïdentificeerd, en
+van deze bedrijfsmiddelen moet een
+inventaris worden opgesteld en
+onderhouden. Sv Sv Sv Het stelsel beschikt niet over
+gemeenschappelijke
+bedrijfsmiddelen.Vooralsnog zijn er geen
+gemeenschappelijke
+bedrijfsmiddelen onderkend. Indien
+dit wel het geval zou worden, is de
+Beheerorganisatie verantwoordelijk
+voor het bijhouden van de
+inventarisatie. A.8.1.2 Eigendom van bedrijfsmiddelen Bedrijfsmiddelen die in het
+inventarisoverzicht worden
+bijgehouden moeten een eigenaar
+hebben. v v v idem
+A.8.1.3 Aanvaardbaar gebruik van
+bedrijfsmiddelen Voor het aanvaardbaar gebruik van
+informatie en van bedrijfsmiddelen
+die samenhangen met informatie en
+informatieverwerkende faciliteiten
+moeten regels worden
+geïdentificeerd, gedocumenteerd en
+geïmplementeerd. v v v idem
+A.8.1.4 Teruggeven van bedrijfsmiddelen  Alle medewerkers en externe
+gebruikers moeten alle
+bedrijfsmiddelen van de organisatie
+die ze in hun bezit hebben bij
+beëindiging van hun dienstverband,
+contract of overeenkomst teruggeven. v v v idem
+A.8.2 Informatieclassificatie  Bewerkstelligen dat informatie een
+passend beschermingsniveau krijgt
+dat in overeenstemming is met het
+belang ervan voor de organisatie. A.8.2.1 Classificatie van informatie  Informatie moet worden S S S Deelnemers, BSNk en BO Afsprakenstelsel Elektronische Toegangsdiensten | pagina 896geclassificeerd met betrekking tot
+wettelijke eisen, waarde, belang en
+gevoeligheid voor onbevoegde
+bekendmaking of wijziging. moeten een eigen classificatie
+van hun informatie hebben
+gebaseerd op de richtlijnen
+voor classificatie van
+informatie uit het
+Informatiebeveiligingsbeleid,
+de stelselrisicoanalyse en hun
+eigen risicoanalyse.Zie Afspraken Gemeenschappelijke
+Classificatie van Stelselinformatie
+A.8.2.2 Informatie labelen Om informatie te labelen moet een
+passende reeks procedures worden
+ontwikkeld en geïmplementeerd in
+overeenstemming met het
+informatieclassificatieschema dat is
+vastgesteld door de organisatie. Sv Sv S idem
+A.8.2.3 Behandelen van bedrijfsmiddelen  Procedures voor het behandelen van
+bedrijfsmiddelen moeten worden
+ontwikkeld en geïmplementeerd in
+overeenstemming met het
+informatieclassificatieschema dat is
+vastgesteld door de organisatie. v v v Het stelsel Elektronische
+Toegangsdiensten beschikt
+niet over gemeenschappelijke
+bedrijfsmiddelen. Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.8.3 Behandelen van media  Onbevoegde openbaarmaking,
+wijziging, verwijdering of vernietiging
+van informatie die op media is
+opgeslagen voorkomen. A.8.3.1 Beheer van verwijderbare media  Voor het beheren van verwijderbare
+media moeten procedures worden
+geïmplementeerd in
+overeenstemming met het
+classificatieschema dat door de
+organisatie is vastgesteld. Sv Sv Sv   Alleen specifiek: Deelnemers, BSNk
+en BO moeten ten minste een
+procedure inrichten voor voor
+zorgvuldig beheer van verwijderbare
+media die drager zijn van
+persoonsgegevens en metagegevens. A.8.3.2 Verwijderen van media  Media moeten op een veilige en
+beveiligde manier worden verwijderd
+als ze niet langer nodig zijn,
+overeenkomstig formele procedures.Sv Sv Sv Media waar
+archiveringsgegevens zijn
+opgeslagen.De BO is verantwoordelijk voor het
+verwijderen van media binnen de
+eigen organisatiecontext en op het
+niveau van het stelsel. Deelnemers Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8971. 2. Media waar persoonsgegevens
+zijn opgeslagen. Media waar metadata is
+opgeslagen.en BSNk zijn verantwoordelijk voor
+het verwijderen media binnen de
+eigen organisatie context. A.8.3.3 Media fysiek overdragen Media moeten op een veilige en
+beveiligde manier worden verwijderd
+als ze niet langer nodig zijn,
+overeenkomstig formele procedures.Sv Sv Sv idem idem
+A.9 Toegangsbeveiliging
+A.9.1 Bedrijfseisen voor
+toegangsbeveiligingToegang tot informatie en
+informatieverwerkende faciliteiten
+beperken. A.9.1.1 Beleid voor toegangsbeveiliging  Een beleid voor toegangsbeveiliging
+moet worden vastgesteld,
+gedocumenteerd en beoordeeld op
+basis van bedrijfs- en
+informatiebeveiligingseisen. S
+SvS
+SvS
+SvSpecificatie (S) bedoeld voor de
+registratie van externe
+gebruikers i.c. bedrijven
+/klanten van deelnemers. Voor interne gebruikers
+(medewerkers van deelnemers)
+bepaalt de deelnemers zelf de
+invulling (Sv).Toegangsbeveiligingsbeleid moet in
+overeenstemming overeenstemming
+met:
+de classificatie van informatie
+voor stelselinformatie en
+de betrouwbaarheidsniveaus
+van stelseldiensten t.b.v. gebruikers van stelseldiensten. Zie voor 1) Beleid voor
+informatiebeveiliging
+Zie voor 2) Normenkader
+betrouwbaarheidsniveaus
+A.9.1.2 Toegang tot netwerken en
+netwerkdiensten Gebruikers moeten alleen toegang
+krijgen tot het netwerk en de
+netwerkdiensten waarvoor zij
+specifiek bevoegd zijn. S
+SvS
+SvS
+Svidem Zie Normenkader
+betrouwbaarheidsniveaus
+A.9.2 Beheer van toegangsrechten van Toegang voor bevoegde gebruikers Op stelselniveau gaat het om Afsprakenstelsel Elektronische Toegangsdiensten | pagina 898gebruikers  bewerkstelligen en onbevoegde
+toegang tot systemen en diensten
+voorkomen. de registratie van gebruikers
+van stelselsystemen:
+Confluence, Mantis, Metadata,
+Dienstencatalogus,
+Managementinformatie,
+Simulator. A.9.2.1 Registratie en uitschrijving van
+gebruikers Een formele registratie- en
+uitschrijvingsprocedure moet worden
+geïmplementeerd om toewijzing van
+toegangsrechten mogelijk te maken. S
+SvS
+SvS
+SvSpecificatie (S) bedoeld voor de
+registratie van externe
+gebruikers i.c. bedrijven
+/klanten van deelnemers. Voor interne gebruikers
+(medewerkers van deelnemers)
+bepaalt de deelnemers zelf de
+invulling (Sv).Met name voor MU, MR:
+Procesbeschrijvingen en registratie
+moeten voldoen aan de beschrijving
+van de betrouwbaarheidsniveaus
+voor het verkrijgen van
+authenticatiemiddelen en
+registraties van machtigingen. A.9.2.2 Gebruikers toegang verlenen Een formele gebruiker-
+toegangsverleningsprocedure moet
+worden geïmplementeerd om
+toegangsrechten voor alle typen
+gebruikers en voor alle systemen en
+diensten toe te wijzen of in te trekkenSv Sv
+A.9.2.3 Beheren van speciale toegangsrechten Het toewijzen en gebruik van
+bevoorrechte toegangsrechten
+moeten worden beperkt en
+gecontroleerd.Sv Sv Sv
+A.9.2.4 Beheer van geheime authenticatie-
+informatie van gebruikers Het toewijzen van geheime
+authenticatie-informatie moet
+worden beheerst via een formeel
+beheersproces. Sv Sv Sv
+A.9.2.5 Beoordeling van toegangsrechten van
+gebruikersEigenaren van bedrijfsmiddelen
+moeten toegangsrechten van
+gebruikers regelmatig beoordelen. Sv Sv Sv
+A.9.2.6 Toegangsrechten intrekken of De toegangsrechten van alle Sv Sv SvAfsprakenstelsel Elektronische Toegangsdiensten | pagina 899aanpassen  medewerkers en externe gebruikers
+voor informatie en
+informatieverwerkende faciliteiten
+moeten bij beëindiging van hun
+dienstverband, contract of
+overeenkomst worden verwijderd, en
+bij wijzigingen moeten ze worden
+aangepast. A.9.3 Gebruikersverantwoordelijkheden Gebruikers verantwoordelijk maken
+voor het beschermen van hun
+authenticatie-informatie. A.9.3.1 Geheime authenticatie-informatie
+gebruiken Van gebruikers moet worden verlangd
+dat zij zich bij het gebruiken van
+geheime authenticatie-informatie
+houden aan de praktijk van de
+organisatie.Sv Sv Sv Gebruikers worden geacht een goede
+beveiligingspraktijk te hanteren bij
+het selecteren en gebruik van
+wachtwoorden. Zie Gebruiksvoorwaarden
+Elektronische Toegangsdiensten
+A.9.4 Toegangsbeveiliging van systeem en
+toepassingOnbevoegde toegang tot systemen en
+toepassingen voorkomen. A.9.4.1 Beperking toegang tot informatie  Toegang tot informatie en
+systeemfuncties van applicaties moet
+worden beperkt in overeenstemming
+met het beleid voor toegangscontrole.Sv Sv Sv
+A.9.4.2 Beveiligde inlogprocedures  Indien het beleid voor
+toegangsbeveiliging dit vereist, moet
+toegang tot systemen en
+toepassingen worden beheerst door
+een beveiligde inlogprocedure. Sv Sv Sv
+A.9.4.3 Systeem voor wachtwoordbeheer  Systemen voor wachtwoordbeheer
+moeten interactief zijn en sterke
+wachtwoorden waarborgen. Sv Sv Sv Specifiek voor MU: Voor
+authenticatiemiddelen in het stelselAfsprakenstelsel Elektronische Toegangsdiensten | pagina 900Zie Normenkader
+betrouwbaarheidsniveaus
+A.9.4.4 Speciale systeemhulpmiddelen
+gebruiken Het gebruik van
+systeemhulpmiddelen die in staat zijn
+om beheersmaatregelen voor
+systemen en toepassingen te
+omzeilen moet worden beperkt en
+nauwkeurig worden gecontroleerd.v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.9.4.5 Toegangsbeveiliging op
+programmabroncode Toegang tot de programmabroncode
+moet worden beperkt. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in.

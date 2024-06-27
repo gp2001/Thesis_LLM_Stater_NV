@@ -1,0 +1,43 @@
+Leveranciersoverleg
+Tactisch beraad
+6. Verwerken release in het Afsprakenstelsel
+Input Vastgestelde release door het Tactisch Beraad. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 292Activiteit De Beheerorganisatie verwerkt de wijzigingen in de het Afsprakenstelsel. Bij administratieve RFC's is het moment na de vaststelling door het Tactisch Beraad. Indien er een
+implementatietermijn van toepassing is zal die worden aangegeven in het afsprakenstelsel zelf. Bij koppelvlak RFC's is het moment zodra de wijziging is ingepland voor realisatie. De penvoerder of Beheerorganisatie voert een review uit of de wijziging correct is doorgevoerd aan de hand
+van het 4 ogen principe. Na de review publiceert de Beheerorganisatie een nieuwe versie van het afsprakenstelsel
+Output Gepubliceerde nieuwe versie van het afsprakenstelsel
+Wie? Change manager
+PenvoerderAfsprakenstelsel Elektronische Toegangsdiensten | pagina 293Proces realisatie koppelvlak wijzigingenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 294Doelstelling
+Om tot een soepele implementatie te komen zijn kwalitatief goede specificaties nodig en deelnemers en dienstverleners die
+de nieuwe functionaliteit willen gebruiken. De ingrediënten voor succes zijn grondige kennis wat er moet gebeuren in
+combinatie met een heldere bussinesscase. Door met elkaar (deelnemers, dienstverleners en BO)  meer energie te steken in de voorkant van het totstandkomingsproces
+is het de verwachting dat de kwaliteit van specificaties, use- en testcases en ondersteunde tooling zullen toenemen en de
+doorlooptijd en impact van de implementatie verkorten. Door daarnaast gebruik te maken van de Agile/Scrum methodiek bij het schrijven van specificaties is het de verwachting dat
+vergelijkbare voordelen worden behaald als bij het ontwikkelen van software. Deze voordelen zijn:
+de nauwe betrokkenheid van de belanghebbenden
+de input vanuit meerdere disciplines
+snel schakelen bij veranderingen
+inzicht in de voortgang en de focus op een werkend product
+Het ontwikkelen van testfaciliteiten, testberichten en testcases vormen een integraal onderdeel van het
+voortbrengingsproces van RFC’s. Het doel van deze werkwijze is om te komen tot specificaties van hogere kwaliteit (vooral
+meer eenduidig en compleet) die testbaar zijn en in kortere cycli opgeleverd kunnen worden. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 295Verantwoordelijkheden
+In het worden de volgende verantwoordelijkheden onderscheiden:
+Het Leveranciersoverleg is een stakeholder : Voor aanpassingen in het koppelvlak is dit de initiële plek om
+veranderbehoefte te agenderen mbt businesscase en prioriteit. De veranderbehoefte is afkomstig van de klant, de
+dienstverlener, waar een leverancier een relatie mee heeft. De leverancier en dienstverlener stellen samen de
+behoeftestelling op en die wordt door de overige deelnemers besproken op haalbaarheid en marktpotentie. Het
+leveranciersoverleg beslist of een werkgroep start met het uitwerken van de oplosrichting. Het leveranciersoverleg
+benoemt de productowner om een deel van de veranderbehoefte klaar te maken voor bouw. De productowner is verantwoordelijk voor het beheer van de productbacklog. Deze persoon geeft met input van het
+LO aan welke RFC's het refinementteam oppakt en bepaalt of deze producten gereed zijn voor implementatie door de
+deelnemers. De productowner handelt met een zekere zelfstandigheid om de snelheid van bouw optimaal te laten
+verlopen. De rol van de governance is het meedenken en helpen bij het weghalen van belemmeringen. Het refinementteam bestaat uit belanghebbenden (o.a. dienstverleners, deelnemers en BO) waarbij het principe
+geldt dat diegene die het ook wil de inspanning levert om het te realiseren en daarbij draagvlak organiseert bij de
+betrokken. De samenstelling ligt niet vast en is afhankelijk van de fase waarin het zich bevindt of het onderwerp wat
+besproken wordt. Het team bestaat uit specialisten vanuit verschillende disciplines: architect, security officer, tester,
+jurist, ontwerper, bouwer en projectleiding. De agile /scrum methodiek wordt toegepast om de producten te
+realiseren. Het  is een stakeholder en toetst of de initiële oplosrichtingen qua functionaliteit past in de Operationeel Beraad
+bestaande architectuur en bepaalt eventueel de impact. Het Operationeel beraad geeft hierover advies aan het
+Tactisch Beraad. Het   is een stakeholder en beoordeelt of het voorstel past bij de ambitie en strategie van het stelsel. Tactisch BeraadAfsprakenstelsel Elektronische Toegangsdiensten | pagina 296Proces ontwerp koppelvlak RFC
+Dit proces is van toepassing op RFC's die deel uit maken van een koppelvlakrelease en implementatie vanuit een duidelijke
+behoeftestelling en opdracht van het leveranciersoverleg. Het moet worden gezien als een voortraject op het  Proces change
+. en release
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 297Afsprakenstelsel Elektronische Toegangsdiensten | pagina 2981.

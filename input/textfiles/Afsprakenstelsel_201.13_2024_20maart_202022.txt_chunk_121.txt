@@ -1,0 +1,35 @@
+AttribuutcatalogusAfsprakenstelsel Elektronische Toegangsdiensten | pagina 749Identificerende kenmerken van dienstafnemers
+Een speciale categorie attributen zijn de identificerende kenmerken van de verschillende soorten dienstafnemers of
+intermediairs. Geleverde identificerende kenmerken van dienstafnemers hebben een attribuutnaam die begint met "urn:etoegang:<versie>:
+EntityConcernedID:". Geleverde identificerende kenmerken van intermediairs hebben een attribuutnaam die begint met "urn:etoegang:<versie>:
+IntermediateEntityID:". De volgende paragrafen beschrijven de typen identificerende kenmerken van dienstafnemers en intermediairs. Indien 'Vertegenwoordiging' het teken   bevat, dan mag dit type identificerend kenmerk
+worden gebruikt voor
+. dienstafnemers
+Indien 'Vertegenwoordiging' het teken  bevat, dan mag dit type identificerend kenmerk
+NIET worden gebruikt voor
+. dienstafnemers
+Indien ‘Ketenmachtigen’ het teken  bevat, dan mag dit type identificerend kenmerk worden gebruikt voor
+in een keten van machtigingen. dienstafnemers of intermediairs
+Indien 'Ketenmachtigen' het teken  bevat, dan mag dit type identificeren kenmerk NIET worden gebruikt
+voor dienstafnemers. NB: Ketenmachtigingen maken voor intermediairs gebruik van het KvK nummer.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 750EncryptedID
+Alle identificerende kenmerken binnen Elektronische Toegangsdiensten worden geleverd als SAML EncryptedID. Het type
+identificerend kenmerk wordt als NameQualifier van dit EncryptedID gecommuniceerd. Voor identifiers die per ontvangende partij verschillen, zoals  , kan uit het urn:etoegang:1.12:EntityConcernedID:PseudoID
+'Recipient' attribuut van de EncryptedKey worden afgeleid voor wie deze bestemd en bruikbaar is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 751EntityConcernedID:eIDASLegalIdentifier
+Attribuutnaam urn:etoegang: EntityConcernedID:eIDASLegalIdentifier 1.11:
+Omschrijving Een identificerend kenmerk dat wordt gebruikt om een Niet Natuurlijk Persoon bij Herkenning via
+eIDAS te identificeren  binnen Elektronische Toegangsdiensten
+Formaat String,  varieert per lidstaat van oorsprong. lengte
+Ketenmachtigingen
+Vertegenwoordiging
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 752EntityConcernedID:KvKnr
+Attribuutnaam urn:etoegang: EntityConcernedID:KvKnr 1.9:
+urn:etoegang: 1.9: IntermediateEntityID:KvKnr
+Omschrijving Het KvK nummer van de vertegenwoordigde dienstafnemer/intermediair of vergelijkbaar nummer
+Formaat Het KvK nummer bestaat uit 8 cijfers, bijvoorbeeld 12345678
+Ketenmachtigingen
+Vertegenwoordiging
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 753EntityConcernedID:PROBASnr
+Attribuutnaam urn:etoegang: 1.13: EntityConcernedID:PROBASnr
+Omschrijving Door de Belastingdienst uitgereikt nummer aan organisaties die niet staan ingeschreven in het
+. Het PROBASnr staat ingeschreven in het PROBAS-register welke in beheer is bij Handelsregister
+Ministerie van Buitenlands Zaken. Formaat Het PROBASnr bestaat uit 9 cijfers.

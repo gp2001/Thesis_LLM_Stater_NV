@@ -1,0 +1,23 @@
+<md:NameIDFormat>urn:etoegang:1.9:EntityConcernedID:KvKnr</md:NameIDFormat>
+<md:NameIDFormat>urn:etoegang:1.9:EntityConcernedID:Pseudo</md:NameIDFormat>
+... </md:IDPSSODescriptor>
+...Afsprakenstelsel Elektronische Toegangsdiensten | pagina 804
+KeyDescriptor
+An IDPSSODescriptor, SPSSODescriptor or AttributeAuthorityDescriptor element MUST contain one or more KeyDescriptor
+elements with the use XML attribute with value "signing". The IDPSSODescriptor of a MR or the AttributeAuthorityDescriptor
+of a KR MUST contain at least one or more KeyDescriptor with the use XML attribute with value "encryption". Alternatively, at
+least one KeyDescriptor without a use XML attribute MAY be included, indicating the default that the key is for both signing
+and encryption. Every KeyDescriptor element marked for "signing" MUST contain a KeyName element and a valid PKIoverheid
+certificate with which the participant's SAML messages and/or direct TLS connections can be authenticated. KeyDescriptors
+marked for "signing" MAY contain valid certificates for authenticating direct TLS connections that are not PKIoverheid, as
+long as they comply with the requirements in . Every KeyDescriptor element marked for "encryption" Secure connection
+MUST contain a KeyName element and a valid PKIoverheid certificate for encrypting IDs and attributes for that participant. In case a role is a source or recipient for Polymorphic Pseudonyms (or Polymorphic Identities), this roles has one or more PP-
+scheme specific keys. These keys are versioned, to allow for key-management. A role MAY have one or more versions of PP-KeySet in use. In case no version is specified, the default value "1" is to be used
+as keyset version. In case multiple KeySetVersions are listed, one MUST be marked as"default". Additional KeyDescriptor elements without specificied "use" attribute MAY be included, to describe (derived) keys used in the
+Polymorphic Pseudonymzation algorithm. These KeyDescriptor MUST contain a KeyInfo element, with a KeyName element
+using 'urn:nl-gdi-eid:1.0:pp-key:<Environment>:<SchemeKeySetVersion>:<KeyName>:<KeyVersion>' to describe the key. In
+case of public keys, these MUST be included as KeyValue element using a ECKeyValue and a NamedCurve with PublicKey
+(NOTE: ECKeyValue is specified in XML-signature 1.1). In case of derived keys, other elements MUST NOT be included. Note
+Service providers and participants MUST process all of the described KeyDescriptor elements. KeyName in the signatures and
+protocol messages indicates which certificate in the metadata is used for the signature. Example KeyDescriptor
+...

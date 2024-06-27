@@ -1,0 +1,60 @@
+MUST correspond with attributes from
+. Attribuutcatalogus
+@isRequired  0.. 1For each requested attribute that is included, the service provider MAY use
+isRequired to indicate whether the attribute is required for the DV application to
+work properly. If isRequired is not defined, the default value 'false' is implied. The XML schema for the DV Metadata is that of the SAML 2.0 Metadata specification (see https://docs.oasis-open.org/security
+). The optional version attribute is identical to the version attribute as defined in /saml/v2.0/saml-schema-metadata-2.0.xsd
+the , to be used on the EntityDescriptor. Metadata for participantsAfsprakenstelsel Elektronische Toegangsdiensten | pagina 786Processing Rules for the HM
+The HM MUST validate the metadata provided by the DV. The HM MUST validate the Required attributes based on the  . Attribuutcatalogus
+The HM MUST validate the metadata based on the SAML specification
+The HM MAY validate the URL Location parameters in the AssertionConsumerService  and ArtifactResolutionService. After successfull validation the HM MUST use the DV metadata. The HM MUST NOT use self generated metadata when
+DV metadata is available
+After successfull validation the HM MUST use the supplied DV metadata as input to create a derivative for the
+. The HM MAY use additional information as log as it does not overwrite the DV metadata. Dienstverlener (DV)
+After successfull validation the HM MUST add the PKIoverheid certificate's in the KeyDescriptor element(s) marked
+for "encryption" into the ServiceCertificate of the corresponding ServiceInstance in the   . Note: In the Service catalog
+case of DV's employing versions 1.9 or lower, the HM MAY add a valid PKIoverheid certificate of it's own (containing
+the OIN of the HM) for decryption purposes. The HM MAY archive this metadata for future use. Example DV Metadata
+<md:EntityDescriptor entityID="urn:etoegang:DV:...">
+<ds:Signature>...</ds:Signature>
+<md:SPSSODescriptor ...>
+... </md:SPSSODescriptor>
+</md:EntityDescriptor>
+Example DV SPSSODescriptor
+... <md:SPSSODescriptor AuthnRequestsSigned="true"
+WantAssertionsSigned="true"
+protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor>...</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="
+https://..." index="0" />
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://..." index="1" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:etoegang:1.11:binding:native-app" Location="my-app://..."
+index="2"/>
+<md:AttributeConsumingService isDefault="true" index="1">
+<md:ServiceName xml:lang="nl">Voorbeeld Dienst 1</md:ServiceName>
+<md:RequestedAttribute Name="urn:etoegang:DV:0000000312345678000:services:0001"/>
+<md:RequestedAttribute isRequired="false"
+Name="urn:etoegang:attribute:FirstName"/>
+<md:RequestedAttribute isRequired="true"
+Name="urn:etoegang:attribute:18OrOlder"/>
+<md:RequestedAttribute isRequired="false"
+Name="urn:etoegang:attribute:PlaceOfBirth"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService isDefault="false" index="2">
+<md:ServiceName xml:lang="nl">Voorbeeld Dienst 50</md:ServiceName>
+<md:RequestedAttribute Name="urn:etoegang:DV:0000000312345678000:services:0050"/>
+<md:RequestedAttribute isRequired="false"
+Name="urn:etoegang:attribute:Gender"/>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 787        <md:RequestedAttribute isRequired="true"
+Name="urn:etoegang:attribute:DateOfBirth"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+... Example DV KeyDescriptor
+... <md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:KeyName>
+2fd4e1c6 7a2d28fc ed849ee1 bb76e739 1b93eb12
+</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>
+...

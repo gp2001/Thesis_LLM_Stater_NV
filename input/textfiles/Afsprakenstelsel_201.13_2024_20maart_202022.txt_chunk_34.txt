@@ -1,0 +1,39 @@
+2. Output
+Aangeleverde nieuwe / gewijzigde dienstinformatie van dienstverlener
+Geïnformeerde Herkenningsmakelaar
+Wie? Dienstverlener
+2. Aanleveren nieuwe dienstencatalogus
+Input Aangeleverde nieuwe/gewijzigde dienstinformatie van dienstverlener
+Activiteit Deelnemers (in de rol van Herkenningsmakelaar ) vullen de door de dienstverlener geleverde informatie
+zonodig nog aan met het ServiceID, ServiceUUID, het HerkenningsmakelaarID en
+AdditionalHerkenningsmakelaarID en stellen de, door de dienstverlener beschikbaar gestelde, wijziging op de
+dienstencatalogus binnen twee werkdagen na ontvangst ter beschikking aan bij de beheerorganisatie door
+deze te publiceren op een URL (deze URL verwijst naar een dienstencatalogusbestand met daarin alle diensten
+van de klanten van deze HM). Een Herkenningsmakelaar neemt Diensten die gebruik maken van Dienstbemiddeling alleen op indien
+toestemming aan de Dienstbemiddelaar is verleend door de Dienstaanbieder (indien van toepassing). Indien voor een Dienst het   als identificerend kenmerk wordt urn:etoegang:1.12:EntityConcernedID:BSN
+gevraagd, MOET een Herkenningsmakelaar controleren of de Dienstverlener vermeld staat op de
+. Als de Dienstverlener vermeld staat op de Autorisatielijst dan MAG de Dienst het Autorisatielijst BSN   urn:
+vragen; anders niet. etoegang:1.12:EntityConcernedID:BSN
+Output
+Beschikbare nieuwe/gewijzigde dienstencatalogusentries van deelnemer
+Geïnformeerde collega deelnemers in het stelsel
+Wie? Technisch beheerders deelnemers
+3. Controleren en aggregeren dienstencatalogus
+Input Aangeleverde nieuwe dienstencatalogus van deelnemer
+Activiteit
+De beheerorganisatie verwerkt één keer per  de wijzigingen in de dienstencatalogi van de kwartier
+deelnemende HM's door middel van een automatisch proces. Dit proces controleert de aangeleverde dienstencatalogus wijziging(en) op conformiteit en verwijdert de
+handtekeningen. Als een wijziging niet door de controle komt, dan wordt de betreffende deelnemer via
+mail op de hoogte gebracht en worden wijzigingen van deze deelnemer niet verder verwerkt tot een
+correcte dienstencatalogus wordt aangeleverd. Vervolgens aggregeert dit proces de dienstencatalogi van de verschillende deelnemers tot één nieuw
+bestand. Vervolgens wordt de nieuwe dienstencatalogus gepubliceerd op een publieke URL: https://aggregator. . etoegang.nl/1.13/servicecatalog.xml
+De dienstencatalogus van de testomgeving wordt gepubliceerd op de publieke URL: https://aggregator. . etoegang.nl/test/1.13/servicecatalog.xml
+Tevens wordt de nieuwe dienstencatalogus voor productie gearchiveerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3181. 2. Output Gepubliceerde geaggregeerde nieuwe dienstencatalogus
+Wie? Technisch beheerder van de beheerorganisatie
+4. Nieuwe dienstencatalogus doorvoeren
+Input Gepubliceerde geaggregeerde nieuwe dienstencatalogus
+Activiteit De deelnemers halen de nieuwe dienstencatalogus op vanaf de publieke URL en voeren deze door in hun
+systeem door middel van een automatisch proces. Deelnemers moeten een gewijzigde dienstencatalogus
+uiterlijk twee uur na publicatie doorvoeren. Output Doorgevoerde nieuwe dienstencatalogus. Wie? Technisch beheerder beheerorganisatie
+Technisch beheerders deelnemers
+5.

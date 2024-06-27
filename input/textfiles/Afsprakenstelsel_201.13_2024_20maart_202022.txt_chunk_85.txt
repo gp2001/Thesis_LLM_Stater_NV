@@ -1,0 +1,26 @@
+The value MUST be '2.0'. @IssueInstant SAML: Time at which the message was created. @Destination SAML: URL of the HM on which the message is offered. MUST match the . SAML metadata
+@Consent Elektronische Toegangsdiensten: MUST NOT be included
+Issuer Elektronische Toegangsdiensten: MUST contain the  of the MR. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProvidedID MUST NOT be included. Signature Elektronische Toegangsdiensten: MUST contain the  of the MR for the enveloped Digital signature
+message. Extensions Elektronische Toegangsdiensten: MUST NOT be included
+Status Elektronische Toegangsdiensten: MUST be filled conform SAML 2.0 specs when the request is
+successfully processed. MUST be filled according to  in case of an error or when the request was cancelled. Error handling
+Assertion Elektronische Toegangsdiensten: MUST contain an assertion about the authorization (see the next
+section). Rules for processing responses
+A receiving HM:
+MUST verify the structure and contents of the response. A responding MR MUST:
+The MR MUST communicate the Level of Assurance of the . A MR MUST NOT registered authorization
+communicate a level for which it is not certified. In case of a chain of authorizations, the MR MUST communicatie the minimum of the LoA of all
+Representation authorizations in the applicable chain (so far). In case of a request for a portal service, a MR MUST communicate the Level of Assurance as the minimum
+Level of Assurance of all applicable service authorizations chosen by the user.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 594Authorization assertion
+Assertion @Version SAML: Version of the SAML protocol. The value MUST be '2.0'. @ID SAML: Unique reference to the assertion
+@IssueInstant SAML: Time at which the assertion was created
+Issuer Elektronische Toegangsdiensten: MUST contain the  of the MR. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProvidedID MUST NOT be
+included. Signature Elektronische Toegangsdiensten: MUST contain the  of the MR for Digital signature
+the enveloped assertion. Subject Elektronische Toegangsdiensten: MUST contain a different transient <NameID> from
+the AD Assertion as received in the Request or preceding MR assertion in case of chain
+authorization. Each assertion MUST contain a new transient identifier, that is unique for
+the issuer during at least the past 12 months. Conditions Elektronische Toegangsdiensten: MAY be included. The attributes NotBefore and
+NotOnOrAfter MAY be included but should be ignored by the receiver. Other conditions MUST NOT be included. Advice Elektronische Toegangsdiensten: MUST be included, containing an AssertionIDRef
+referencing the Assertion this declaration is directly linked to.

@@ -1,0 +1,90 @@
+A. 12.6.1Beheer van technische
+kwetsbaarheden Informatie over technische
+kwetsbaarheden van
+informatiesystemen die worden
+gebruikt moet tijdig worden
+verkregen, de blootstelling van de
+organisatie aan dergelijke
+kwetsbaarheden moet worden
+geëvalueerd en passende maatregelen
+moeten worden genomen om het
+risico dat ermee samenhangt aan te
+pakken.Sv Sv S Er wordt een hoog niveau van
+beveiliging verwacht. Specifiek
+wordt van de deelnemer
+verwacht dat deze zelf de
+ontwikkelde
+informatiesystemen test op
+alle bekende technische
+kwetsbaarheden in de
+broncode (test/audittools) en
+werking van het
+informatiesysteem
+(penetratietesten). Daarnaast
+dient conform de afspraken in
+het afsprakenstelsel periodiek,
+op initiatief van de
+beheerorganisatie, een
+penetratietest te worden
+uitgevoerd op het netwerk en
+de specifieke systemen van een
+deelnemer en het BSNk.De deelnemers, BSNk en de
+beheerorganisatie moeten ten
+minste tweemaal per jaar een
+penetratietest laten uitvoeren. In het geval dat de
+beheerorganisatie
+penetratietesten organiseert ten
+behoeve van het stelsel
+dan moeten deelnemers
+en  BSNk hier aan meewerken. A. 12.6.2Beperkingen voor het installeren van
+software Voor het door gebruikers installeren
+van software moeten regels worden
+vastgesteld en geïmplementeerd. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.12.7 Overwegingen betreffende audits van
+informatiesystemen De impact van auditactiviteiten op
+uitvoeringssystemen zo gering
+mogelijk maken. A. 12.7.1Beheersmaatregelen betreffende
+audits van informatiesystemen Auditeisen en -activiteiten die
+verificatie van uitvoeringssystemen
+met zich meebrengen, moeten
+zorgvuldig worden gepland en
+afgestemd om bedrijfsprocessen zo
+min mogelijk te verstoren. Sv Sv S Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in, maar moet wel
+in VvT. BO beheert de auditeisen i.e. normenkaders. A.13 CommunicatiebeveiligingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 909A.13.1 Beheer van netwerkbeveiliging  De bescherming van informatie in
+netwerken en de ondersteunende
+informatieverwerkende faciliteiten
+waarborgenBeveiligen van verbindingen en
+ondertekenen van berichten
+MOET gebeuren conform de
+specificaties in de
+koppelvlakbeschrijvingen
+A. 13.1.1Beheersmaatregelen voor netwerken  Netwerken moeten worden beheerd
+en beheerst om informatie in
+systemen en toepassingen te
+beschermen. S S S Netwerkverkeer tussen
+deelnemers onderling, tussen
+deelnemers en dienstverleners
+en tussen deelnemers en
+dienstafnemers.Conform Interface specifications
+A. 13.1.2Beveiliging van netwerkdiensten  Beveiligingsmechanismen,
+dienstverleningsniveaus en
+beheerseisen voor alle
+netwerkdiensten moeten worden
+geïdentificeerd en opgenomen in
+overeenkomsten betreffende
+netwerkdiensten. Dit geldt zowel voor
+diensten die intern worden geleverd
+als voor uitbestede diensten. S S S Beheerorganisatie is
+verantwoordelijk voor
+doorvertaling maatregelen
+naar onderlinge afspraken in
+het afsprakenstelsel. Let ook
+op doorvertaling naar
+onderaannemers van de
+deelnemers.Conform  en Interface specifications
+BSNk mag uitsluitend pakketten die
+van trusted IP-adressen komen
+(white listing) accepteren. A. 13.1.3Scheiding in netwerken  Groepen van informatiediensten, -
+gebruikers en -systemen moeten in
+netwerken worden gescheiden.

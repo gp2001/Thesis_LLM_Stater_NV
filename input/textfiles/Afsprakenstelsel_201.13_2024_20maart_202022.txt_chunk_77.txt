@@ -1,0 +1,129 @@
+Therefore the  interface will not specify a technical or machine to machine
+protocol specific implementation but rather a set of principles, concepts and requirements. Currently, a reference for the
+interface DB-DA based on SOAP WebsServices is provided. In a future version these design principles will be further
+illustrated by including several other reference architectures of common service implementations, and how they map with
+these specifications and principles. Concerning association of the Authorization Token with the Service-Request. Elektronische Toegangsdiensten-Declarations can be used to ‘add’ security (more precise authorization) to a message by
+applying them as Authorization/Security Tokens. To be considered valid Authorization tokens, these declarations have to
+conform to certain conditions. These conditions concern the concepts of ‘meaningful consent’ and the proof of this consent
+(to establish ‘non-repudiation’). we mean that the user has to reach a well informed conscience decision concerning whether or not With meaningful consent
+to consume the service. For transactions with high juridical or legal consequences the process to establish this ‘well
+informedness’ will have to meet higher standards than for user actions with a lower impact. For example, accessing relative
+harmless information like ‘last time visited’, might require a very implicit informedness like ‘You are logging on to ..’. However, transactions for services with significant implications will require a more formal 'informedness' and might even
+require independent Signature Services. When the user has reached an informed decision,  about this decision has to be achieved. The preferred way  non-repudiation
+to achieve this is to associate;
+the Elektronische Toegangsdiensten-Declarations, with
+the specific Request message used to consume the service, and
+the means on how this request message has been established/constructed
+In a reliable, provable and accountable way.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 565The Elektronische Toegangsdiensten-Declaration s give insight in who is consuming the service, on whose behalf, including
+information which the Dienstaanbieder can use to conduct its authorization decision. conforms to the input for the (web) service as specified by the The specific Request message used to consume the service
+Dienstaanbieder, and therefore does not have to be in a human readable form. This technical message however, should be
+no more than a perfect transformation of a users intended action into a format as understood by the Dienstaanbieder. This ‘service’/intended users action could be anything i.e. ‘logging on’, ‘retrieving last time visited’, ‘declare taxes’, ‘request
+permit’, ‘retrieve information from a portal’ etc. The transformed technical message could be anything from a specific SOAP
+or REST message, to PDF or ByteArray etc. The means on how this request message has been established/constructed  should be present to provide a provable and
+accountable link between the first 2 pieces of information; the user and its intended user action, and the resulting technical
+translation used to consume the service. The above results in the following requirements:
+A DA MUST provide clear, non-ambiguous documentation for the technical interface for a Service to a DB, to allow
+proper implementation by the DB. A DB MUST make an exact transformation of the user's input and intend into the technical messages sent to the DA. A
+DB MUST make an exact transformation of the DA's response to the user as well. A DB MUST get the user's explicit consent and approval before sending the messages to the DA. A DB will receive the identifying attribute of the user; the DB MAY use this identity to verify that the user for approving
+/sending the request to the DA is the same as the user that prepared the request, in case such a business case or
+security requirement exists for the service. A DB MUST send the Elektronische Toegangsdiensten declarations along with the request to the DA. MUST be This
+verbatim copies, so that digital signatures are not affected. A DA MUST verify the Elektronische Toegangsdiensten declarations before processing a message and using the
+identity in its authorization decision. The DA and DB MUST ensure that security of the interface DB-DA is appropriate for the security needs and risk profile of the
+service. The security of the interface DB-DA SHOULD ensure confidentiality, integrity and mutual authentication of the
+communication. It is therefore recommended that:
+Communication between DB and DA SHOULD use a  or a communication method with at least Secure connection
+equivalent security properties. A DB SHOULD send the technical messages with all applicable Elektronische Toegangsdiensten declarations, bound
+together through a digital signature to safeguard integrity and authenticity – both at transmission and for audit
+purposes afterwards – and as declaration of following the requirements for this interface for the request. The digital
+signature SHOULD have the same cryptographic strength as specified in  or a method with at least Digital signature
+equivalent security properties. A DA SHOULD verify the digital signature of the DB. An interface between DA and DB MAY follow one of the reference architectures, these have been verified to fulfil the
+technical requirements above.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 566Reference Architecture DB-DA SOAP
+DB-DA sequence diagram
+This paragraph describes a reference architecture and specification of , for use with a machine- Interface specifications DB-DA
+to-machine interface using WebServices (SOAP). This reference architecture describes the interface offered by a (Service supplier) for use with a Dienstaanbieder (DA)
+(service intermediary), in case of a Webservice interface based on SOAP in a  use Dienstaanbieder (DA) Dienstbemiddeling
+case. By nature, the exact interface specification and its contents depend on the service(s) offered and are specific for its
+context. The generic reference architecture for such SOAP WebService with  is described as: Dienstbemiddeling
+The DA provides a service interface defined as a documented API, using a WSDL to define the service interface. The DB requires recognition of the user, using  to request the applicable service with Interface specifications DV-HM
+Dienstbemiddeling in the . Service catalog
+The DB calls the service confirm this WSDL, adhering to . Interface specifications DB-DA
+The DB provides the Elektronische Toegangsdiensten declarations, by adding the Assertion obtained from the HM as
+a SOAP-header. The DB signs the SOAP-body (or all requests elements thereof) and the Assertion using a WS-Security Signature valid
+for the DB's own signing certificate. The DA verifies upon receipt the SOAP-headers with the signature and Assertion before processing the message. The
+verification MUST validate the assertion (see processing rules in  ) and the signature. Interface specifications DV-HM
+A practical implementation for providing the Assertion and a signature can be done as described in WS-Security SAML Token
+profile for the holder-of-key Subject Confirmation Method. Next to the SAML token, a WS-Security Signature (can be based
+on the WS-Security X509 token profile) over the SAML Assertion  SOAP Body is present to associate the Elektronische and
+Toegangsdiensten Declaration with the request body. is based on these specifications. The example below
+Example DB-DA SOAP-request
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="..." xmlns:wsse="..." xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:
+ds="..." xmlns:wsu="...">Afsprakenstelsel Elektronische Toegangsdiensten | pagina 567
+<soap:Header>
+<wsse:Security>
+<!-- eToegang SAML Assertion applicable to SOAP-request, authenticating the user -->
+<saml:Assertion ID="_a75adf55-01d7-40cc-929f-dbd8372ebdfc" IssueInstant="2016-02-05-17T10:06:02Z">
+<saml:Issuer>urn:etoegang:HM:...</saml:Issuer>
+<!-- Signature over assertion by HM -->
+<ds:Signature>
+... </ds:Signature>
+<saml:Subject>
+<saml:EncryptedID NameQualifier="..." Format="">...</saml:EncryptedID>
+<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+<saml:SubjectConfirmationData InResponseTo="_52B816C631C564BACF59E758CBA91718" NotOnOrAfter="
+2016-02-05T10:11:48Z" Recipient="https://..."/>
+</saml:SubjectConfirmation>
+</saml:Subject>
+<saml:Conditions NotBefore="2016-02-05T10:06:03.173Z" NotOnOrAfter="2016-02-05T10:11:33.173Z"/>
+<saml:AttributeStatement>
+... </saml:AttributeStatement>
+</saml:Assertion>
+<!-- WS-Security Signature by DB over SOAP-Body and eToegang SAML Assertion, to associate message and
+assertion and proof authenticity  -->
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<!-- Signature covers SOAP-body: -->
+<ds:Reference URI="#MsgBody">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+<!-- Signature covers eToegang SAML Assertion: -->
+<ds:Reference URI="#_a75adf55-01d7-40cc-929f-dbd8372ebdfc">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>
+<ds:KeyInfo>
+<wsse:SecurityTokenReference>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>CN=...,...,O=...,C=NL</ds:X509IssuerName>
+<ds:X509SerialNumber>...834756978854956...</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+</wsse:SecurityTokenReference>
+</ds:KeyInfo>
+</ds:Signature>
+</wsse:Security>
+</soap:Header>
+<soap:Body wsu:Id="MsgBody">Afsprakenstelsel Elektronische Toegangsdiensten | pagina 568
+<!-- Actual SOAP-request from user to DA -->
+<MyRequest xmlns="...">
+<RequestDetails>...</RequestDetails>
+... </MyRequest>
+</soap:Body>
+</soap:Envelope>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 569Interface specifications HM-AD
+Sequence diagram HM-AD
+This page describes the messages that are exchanged between an  and an Herkenningsmakelaar (HM) Authenticatiedienst
+(identity provider).In the interface described here, the use case  consists of an SAML 2.0 (AD) GUC3 Aantonen identiteit
+AuthnRequest and Response. The specific content of these messages is described below. Detailed information about the
+value of fields can be found in  .

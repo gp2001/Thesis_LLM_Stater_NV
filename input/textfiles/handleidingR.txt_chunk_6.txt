@@ -1,0 +1,133 @@
+Soms ishetechtervanbelang omeenvoorgaand
+resultaat exact tereproduceren. Ditismogelijk doordewaarde van.Random.seed tebewaren. >seed<-.Random.seed
+>seed
+[1]616042628312223229392
+>rnorm(5)
+1]-1.4643258 1.6484454 -1.1360949 -0.8188030 0.4044431
+>.Random.seed <-seed
+>rnorm(5)
+1]-1.4643258 1.6484454 -1.1360949 -0.8188030 0.4044431
+Ombetere(`toevalligere') resultaten tekrijgen ishetookmogelijk derandom numbergenerator
+opeenplaats vaneigen keuzetestarten. Ditkanervoorzorgen dattweesimulatiestudies niet
+vandezelfde rijtoevalsgetallen gebruik maken.Eengemakk elijkemanier isgebruik temakenvan
+set.seed metalsargumen teenzelfgekozennatuurlijk getal. >set.seed(i)
+7.GRAFIEKEN
+Hetproduceren vangraek enbehoorttotdekernvanhetR-programma. Grasc heoutput
+kanzowelophetscherm worden bekekenalsoppapier worden geprin t.Wanneer Rgestart
+isbinnen hetX-windo wssysteem zaleengraphics window automatisc hworden geopend
+wanneer eenplotop drachtgegevenwordt. Deoutput vanplotop drachtenverschijntau-
+tomatisc hinditgraphics windo w.Grootteenplaats vanhetgraphics windo wkunnen
+opdegebruik elijkemanier worden veranderd. Naverandering vandegroottewordthet
+plaatje opnieu wgetekend,opzo'nmanier datdegraek hetgehele windo wvult. Erzijntweesoorten plotop drachteninR. -Highlevelplotfuncties produceren volledige plaatjes enwissen zonodigdeoutput vaneen
+voorgaande plotop drachtuit. -Lowlevelplotfuncties zijnbedoeldomgrasc heoutput aaneeneerder gemaakt plaatje toe
+tevoegen.18 7:Graek en
+Voorhetmakenvantweegraek enineenplaatje isderhalv eeenhighlevelplotfunctie
+nodig,eneenlowlevelplotfunctie. Demeest gebruikte plotfunctie isplot.Zonder opties levertdezeeenscatterplot vande
+coordinaten vandeenevectortegen dievaneentweedevector. >x<-rnorm(50); y<-rnorm(50)
+>plot(x,y,main="figuur 1") #ziefiguur1
+Metdeoptietype="l" worden opeenvolgende puntenverbonden doorlijnstukjes. Dit
+maaktplotgeschiktvoorhetplotten vaneengraek. >u<-seq(0,4*pi,by=0.05); v<-sin(u)
+>plot(u,v,type="l",xla b="",ylab="sin",main="figuur2")#ziefiguur2
+Andere highlevelplotting functies makenmeer speciek eplots. Plots vanstatistisc he
+betekeniszijnhethistogram,deboxplot endeqq-plots . >x<-rnorm(50)
+>hist(x, main="figuur 3") #figuur3
+>text(0,5,"histogram") #print"histogram" inhetpunt(0,5)
+>boxplot(x, main="figuur 4")
+>qqnorm(x, main="figuur 5") #figuur5
+Derange vandeassen ineenplotisgelijk aandecoordinaten vandevectorenxlimen
+ylim.Bijsimpelgebruik ishethandig omRdefault waarden voordezevectoren telaten
+kiezen. Voorspeciale eecten kunnen dewaarden vanxlimenylimechteralsoptionele
+argumen tenaandeplotfuncties worden meegegev en. Hetzelfde geldt voordelabelsopdeassen, enboven-enondertitels. Tabel5geeft een
+overzichtvanenkelevanzulkeoptionele argumen ten.Veleandere aspecten vandeplots
+kunnen worden gecontroleerd metpar.Ziehelpvoornadere informatie. Defunctielines isdelowlevelversievanplot( :::,type="l") .Dezefunctie kanworden
+gebruikt omeentweedegraek overeeneerste heentetekenen. Beschouwbijvoorbeeldhet
+plotten vaneenhistogram endewaredichtheid vaneennormale steekpro efineenplaatje. >x<-rnorm(100)
+>range(x)
+[1]-3.226397 2.001791 #default wordtderangeinhist(x): (-4,3)
+>hist(x,xlim=c(-4,4), xlab="", prob=T, main="figuur 6")
+>u<-seq(-4,4,by=0.1)
+>lines(u,dnorm(u))
+Meerdere plaatjes kunnen naast enonder elkaarineenplotgetekendworden metbehulp
+vandefunctiepar. >par(mfrow=c( r,k))7:Graek en 19
+··
+··
+·
+·
+··
+··
+··
+··
+···
+···
+····
+·
+···
+·
+···
+·· ···
+··
+··
+···
+···
+··
+·
+xy
+-3 -2 -1 0 1 2-2-1 012figuur 1
+sin
+0 2 4 6 8 10 12-1.0-0.5 0.00.51.0figuur 2
+-4 -2 0 20 5 10 15
+xhistogramfiguur 3
+-3-2-1012figuur 4
+···
+···
+··
+·
+··
+·
+···
+···
+··
+··
+···
+·
+···
+··
+·
+···
+··
+·····
+·
+··
+··
+···
+Quantiles of Standard Normalx
+-2 -1 0 1 2-3-2-1012figuur 5
+-4 -2 0 2 40.00.10.20.30.4figuur 6
+xy
+-60 -40 -20 00.00.20.40.60.81.0
+123
+45
+67
+89
+10
+1112
+1314
+1516
+171819
+20figuur 7
+5101520
+X5101520
+Y
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7Zfiguur 820 7:Graek en
+Deeerstvolgende (rk)plotsworden danineenplaatje gezet, inrespectievelijkrrijen
+enkkolommen. Eenextragraphics window kanworden geopendmethetcommando
+>x11()
+Deoutput vandeplotop drachtenverschijntnuinhetextra windo w. Omplaatjes teprintenoftebewarenalseenpostscript-le moetereenpostscript `graphics device'
+geopendworden.

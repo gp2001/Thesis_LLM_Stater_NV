@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. In het onderstaande gesprek stelt de gebruiker een vraag over bepaalde informatie en wil antwoord in de vorm van een samenvatting in bulletpoints, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een samenvatting in bulletpoints van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord (in bulletpoints) met in de tekst behaalde gegevens. Genereer een rejected antwoord dat erg lijkt op het chosen antwoord, maar die informatie geeft die niet klopt, antwoordt weer in bulletpoints. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "Promise of Outcome: What are the most common goals or desires for independent artists? Give me a summary in bullet points.",
+            "role": "user"
+        },
+        {
+            "content": "- Creative freedom: Independent artists usually prioritize creative control over their work, seeking originality and the ability to express their unique style and vision.\n\n- Financial sustainability: Achieving a steady income through art, allowing them to support themselves and invest in their creative projects without relying on external funding or a secondary job.\n\n- Building a fanbase: Connecting with an audience that appreciates their work, and fostering a loyal following through engaging content, events, and interaction on social media or other platforms.\n\n- Skill development: Continuously enhancing their technical and creative abilities through practice, collaboration, and learning from other artists or industry professionals.\n\n- Networking and collaboration: Forming relationships with other artists, producers, and creative individuals for mutual growth, inspiration, and potential joint projects.\n\n- Exposure and recognition: Gaining visibility for their work, either through art exhibitions, social media, online platforms, or other opportunities to showcase their talent.\n\n- Positive impact: Many independent artists aim to make a difference in their communities or the world at large through their creative projects, such as addressing social or environmental issues or promoting positivity and inclusiveness.\n\n- Long-term success: Striving to establish a lasting career in the arts, with the possibility of transitioning into more influential or lucrative roles, such as teaching, curating, or production.\n\n- Work-life balance: Balancing their creative pursuits with personal life, ensuring they have the time and energy to maintain healthy relationships and self-care practices.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Promise of Outcome: What are the most common goals or desires for independent artists? Give me a summary in bullet points.",
+            "role": "user"
+        },
+        {
+            "content": "* Building a dedicated fan base\n* Gaining more exposure and recognition\n* Improving their music production skills\n* Developing a unique and authentic sound\n* Collaborating with other artists and industry professionals\n* Earning a sustainable income from their music\n* Expanding their network in the music industry\n* Continuously growing and evolving as an artist\n* Maintaining creative control over their work\n* Achieving greater work-life balance\n* Navigating the music industry with more confidence and ease",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Promise of Outcome: What are the most common goals or desires for independent artists? Give me a summary in bullet points.",
+    "question": "Promise of Outcome: What are the most common goals or desires for independent artists? Give me a summary in bullet points."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

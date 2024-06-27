@@ -1,0 +1,36 @@
+Decrypted pseudoID ASN.1 notation
+Identity ::= SEQUENCE {
+notationIdentifier     OBJECT IDENTIFIER (id-BSNk-decrypted-identifier),
+schemeVersion          INTEGER,
+schemeKeySetVersion    INTEGER,
+recipient              IA5String,
+type                   INTEGER,
+identityValue          IA5String
+}
+Pseudonym ::= SEQUENCE {
+notationIdentifier     OBJECT IDENTIFIER (id-BSNk-decrypted-pseudonym),
+schemeVersion          INTEGER,
+schemeKeySetVersion    INTEGER,
+recipient              IA5String,
+recipientKeySetVersion INTEGER,
+diversifier            IA5String,
+type                   INTEGER,
+pseudonymValue         IA5String
+}
+In case of an Identity, the identity can be extracted from the X coordinate of the EllipticCurvePoint of the Identity. In
+schemeVersion 1, the X coordinate, after conversion from a number to a bytearray, contains an encoded identity padded
+as defined in Section 7.1 of  (PKCS#1 v2.2). Here the following parameters are chosen: using OAEP RFC8017
+The place of n (RSA modulus) is taken by the order of curve q; length in bytes of q is denoted by k as in PKCS #1, i.e. equal to 40 for the Brainpool320r1 curve used in version 1 of the scheme. Hash function is SHA384 truncated to first 10 bytes, i.e. hLen = 10. Message length mLen = to k – 2hLen – 2 (PKCS #1 only requires ), i.e. equal to 18. MGF1 as defined in PKCS #1 is used as Mask Generation Function. Optional Label is empty string. The decoded identity (18 bytes) consists of a prefix of three bytes and the identity (e.g. BSN). The prefix consists of a version, a
+type and a length of the identifier. All not used bytes are zero. That is, 15 bytes is the longest size supported for an identifier
+in version 1. In case of a Pseudonym, the identifying, persistent pseudonym of a user is EllipticCurvePoint of the Pseudonym. The the
+RECOMMENDED representation of a Pseudonym used in a DV registration, consists of the recipientKeySetVersion (decimal
+string of length 8) of the closing key with the uncompressed EllipticCurvePoint appended. If two such representations are
+equal the pseudonyms correspond to the same person. However, we can only deduce that two pseudonyms do not
+correspond to the same person if  the pseudonymValue differ while all other values are equal. We note that the
+recipientKeySetVersion of the closing key can be different from the recipientKeySetVersions of the EI and EP decryption key. For each decrypted pseudonym the DV shall archive the additional fields decrypted from the Encrypted Pseudonym.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 730id-BSNk-decrypted OBJECT IDENTIFIER ::= { id-BSNk-identifiers 3 }
+id-BSNk-decrypted-identifier OBJECT IDENTIFIER ::= { id-BSNk-decrypted 1 }
+id-BSNk-decrypted-pseudonym OBJECT IDENTIFIER ::= { id-BSNk-decrypted 2 }
+Key formats
+Polymorphic pseudonimization uses various keys. These keys have been versioned, see the syntax above. Keys for relying parties are provided using the notation described in . DV-key format
+Several of the scheme-wide keys are public, and can be used to use the polymorphism or verify signatures. These keys are
+defined in  and under the role PPSteutelSet in .

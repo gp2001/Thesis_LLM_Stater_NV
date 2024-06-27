@@ -1,0 +1,56 @@
+Using end-to-end
+encryption as described on this page avoids an  becoming an unintended hotspot for Herkenningsmakelaar (HM)
+information on service usage.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 616Introduction
+Personally Identifiable Information (PII) forms the basis of authentication and authorisation (mandates). PII can lead to
+identification of the particular person, either through the data itself (identifiers), or by combining data, leading to
+recognising the person through patterns in that data. Within eTD, PII is dispersed over various registers, operated by various
+participants. During the authentication and authorisation processes this data must be combined using assertions that are
+strongly linked together, in order to firmly establish involved identities and appropriate mandates that can be trusted by
+service providers in order to securely provide requested services. Usage of this sensitive data implies that both "security" and "privacy" are important. Security refers to confidentiality,
+integrity (among which authenticity) and availability of the information. Privacy aims that the user is always in control of his
+/her data, and can trust that only parties for which (s)he gave consent for, have access to that data. In order to protect PII during this process, several measures are taken, jointly called "end-to-end encryption", that are
+intended to:
+allows only the intended recipients to see data as needed to perform the required service (principle of "least
+privilege"); this applies to eTD-participants as well as service providers
+prevent "hotspots" to attack; within eTD this applies especially to the HM, since all information is routed through the
+HM.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 617Overview of protection measures
+The data that must be protected, is categorised as:
+identifiers (BSN, pseudonyms, KvK-nrs, etc)
+content/attributes (name, address, date of birth, etc)
+Both categories contain data that is considered sensitive, but the measures to protect them, while partly overlapping, are
+also partly different. Basic measures that apply to both categories, are:
+Sensitive data is encrypted for the intended recipient using XML-based encryption to provide confidentiality
+for "content" the only valid recipient is the DV (for "identifiers", see below)
+note that for Service Intermediation (dienstbemiddeling) it is important to distinguish between the
+"dienstbemiddelaar" (DB, Service Broker) and "dienstaanbieder" (DA, service provider); each has its own entry
+/service in the Service Catalog, and the data must be encrypted for the appropriate party that provides that
+particular service. Assertions are digitally signed to provide proof of integrity/authenticity
+Key management is regulated to provide appropriate availability
+For "content" these basic measures are deemed sufficient. For "identifiers", on top of these basic measures, some additional measures were taken, because:
+some identifiers (especially BSN) are determined as extra sensitive in Dutch law
+identifiers are more easily recognised by hackers, and allow for easy correlation of related data
+identifiers are sometimes relevant to multiple relying parties (recipients; e.g. DV, MR) and must therefore be
+encrypted separately for each recipient
+The additional measures for identifiers are:
+Pseudonymisation:
+Using separate pseudonyms for the user per "relying party" whenever this is sufficient (i.e. no formal
+identifier like "BSN" needed)
+These pseudonyms are  "relying party", so it can recognise "returning users" persistent per
+These pseudonyms are  "relying parties", so users cannot be traced across "relying parties". different across
+Encryption of identifiers
+All identifiers (including the pseudonyms) are encrypted during transfer in each assertion
+The "encrypted value" is different during each "transfer", so in-between parties (e.g. HM) cannot relate
+various "transfers" of the same identifier
+For identifiers and pseudonyms based on the "BSN", and the "eIDAS Uniqueness Identifier", polymorphic
+is used encryption
+In the future, polymorphic encryption could also be used for other identifier typesAfsprakenstelsel Elektronische Toegangsdiensten | pagina 618Note that using the BSN for polymorphic encryption, requires "activation" of the BSN at BSNk. BSNk only allows this
+activation if a minimum authentication of LoA 3 (substantial) is provided.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 619Impact on interfaces
+The measures described above are applied in different ways, depending on the situation. The relevant situations are
+detemined by aspects like:
+"is the acting person acting for him/herself (no representation), or someone else (representation of person or
+organisation)",
+"is the BSN required or not",
+"is the BSN known by the eTD-participant or not", and
+"what version of the interfaces are supported by the Service Provider". Normal "content" is only intended for the Service Provider (and not for any of the eTD-participants). This means that when
+this data is deemed sensitive, it is always XML-encrypted with the public key of the Service Provider, as provided in the Service
+Catalog. Therefore only the Service Provider can access this data. For "identifiers", the sections below apply.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 6201. 2.

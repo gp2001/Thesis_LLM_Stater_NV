@@ -1,0 +1,19 @@
+a. Toelichting processtappen
+1. Intake en 1e beoordeling
+Input Verzoek tot wijziging van externe content. Activiteit
+Elke partij kan een verzoek tot het wijzigen van externe content indienen bij de beheerorganisatie op
+. Deelnemers kunnen in plaats daarvan een verzoek indienen in Mantis. Het verzoek emailadres
+bestaat minimaal uit:Alle wijzigingsverzoeken worden door de beheerorganisatie gearchiveerd in Mantis
+of in de e-mail. de voorgestelde wijziging;
+de reden voor de wijziging;
+de urgentie van de wijziging. De beheerorganisatie beoordeelt de impact van het wijzigingsverzoek en of het in lijn is met het
+Afsprakenstelsel en de deelnemersovereenkomst. De beheerorganisatie neemt het verzoek al dan niet in behandeling. In het geval van een afwijzing wordt hiervan een onderbouwde tergmelding gedaan naar de aanvrager. Output
+Eerste beoordeling verzoek tot wijziging;
+In behandeling genomen wijzigingsverzoek of afgewezen wijzigingsverzoek. Wie? De secretaris van de beheerorganisatie beoordeelt de impact van het wijzigingsverzoek. 2. Opstellen, doorvoeren en terugmelden
+Input Eerste beoordeling verzoek tot wijziging.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 307Activiteit 5. Na een eerste beoordeling formuleert de beheerorganisatie een wijzigingsvoorstel dat in lijn is met het
+verzoek tot wijziging, het Afsprakenstelsel en de deelnemersovereenkomst. Bij twijfel wordt het 6. De beheerorganisatie beoordeelt de impact van het opgestelde wijzigingsverzoek. verzoek voorgelegd aan inhoudelijke experts uit de beheerorganisatie zodat zij het kunnen toetsen aan het
+Afsprakenstelsel. a. Bij een wijziging met kleine impact:
+De communicatieadviseur van de beheerorganisatie voert de wijziging na eigenstandig door;
+Wijzigingen die zijn doorgevoerd op de website zijn terug te vinden in het log van het Content
+Management Systeem (Typo3), waarmee de website onderhouden wordt. In de praktijk vinden vrijwel alle
+gezamenlijke communicatie-uitingen ook plaats via de website (ook factsheets, handleidingen etc. worden via de website aangeboden). b.

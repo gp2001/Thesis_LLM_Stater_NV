@@ -1,0 +1,82 @@
+b.t. de fysieke kenmerken van
+de houder. Overige
+informatie over de uiterlijke
+kenmerken op het
+identiteitsdocument is voor
+ETD/eHerkenning geen
+vereiste. COL-8.2.3-03: For each identity proofing
+context supported, a list of the identity
+documents that are accepted shall be
+documented and published.EXAMPLE: The list can consist of document
+types, e.g. all passports, or named
+documents, e.g. passports and national
+identity cards from specific countries.Voor ETD/eHerkenning is de
+eis alleen van toepassing op
+identificatie op afstand en
+worden alleen paspoorten en
+nationale identiteitskaarten,
+zoals vermeld bij PRADO,
+geaccepteerd. PRADO is beschikbaar op de
+volgende locatie:
+https://www.consilium. europa.eu/prado/nl
+[CONDITIONAL] COL-8.2.3-04: If
+physical identity documents are used as
+evidence, only passports, national
+identity cards and other official identity
+documents that according to the identity
+proofing context offer comparable
+reliability of the identity shall be
+accepted; where the judgement on
+comparable reliability shall be based on
+an assessment of the security features
+and issuance process of the other
+identity document towards the security
+features and issuance process of passport
+and/or identity card.NOTE 5: The comparable reliability of other
+identity documents can be based on a
+comparison of protection against known
+threats. NOTE 6: Some countries issue national
+identity cards or have valid national identity
+cards that are below current practice in the
+security of national identity documents. Identity proofing context requirements can
+be to not accept such national identity cards.Voor ETD/eHerkenning is de
+eis alleen van toepassing op
+identificatie op afstand en
+worden alleen paspoorten en
+nationale identiteitskaarten,
+zoals vermeld bij PRADO,
+geaccepteerd. [CONDITIONAL] COL-8.2.3-05: If
+physical identity documents are used as
+evidence, the documents shall be NOTE 7: Meaning the applicant is required
+to present the original in the identity
+proofing process to evidence proof of Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1009presented in their original form. possession of the identity document; the
+identity proofing process can subsequently
+capture another representation of the
+document, e.g. by a video sequence, photo,
+or scan. [CONDITIONAL] COL-8.2.3-06: If digital
+identity documents are used as evidence,
+only eMRTD digital identity documents
+according to ICAO 9303 part 10 [2] and
+other digital documents that according
+to the identity proofing context offer
+comparable reliability of the identity
+shall be accepted; where the judgement
+on comparable reliability shall be based
+on an assessment of the security features
+and issuance process of the other
+identity document towards the security
+features and issuance process required by
+ICAO 9303 part 10.NOTE 8: The comparable reliability of other
+identity documents can be based on a
+comparison of protection against known
+threats.Voor ETD/eHerkenning wordt
+eMRTD alleen geaccepteerd
+als de data uit de chip
+gevalideerd kan worden door
+een controle van de digitale
+handtekening van het
+betreffende land. Een gevolg
+hiervan is, onder meer, dat
+een rijbewijs niet kan worden
+geaccepteerd voor
+identificatie op afstand. Zie ook eis 8.3.2-02 NOTE 2.

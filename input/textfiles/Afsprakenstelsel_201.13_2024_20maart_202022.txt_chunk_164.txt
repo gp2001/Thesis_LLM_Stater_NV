@@ -1,0 +1,51 @@
+a. Dienstafnemer MOET conform de
+vereisten voor  identificatie bij uitgifte
+van LoA1 authenticatiemiddelen (zie
+paragraaf 2.1.1 en 2.1.2) worden
+uitgevoerd, OF conform de aangeven
+alternatieven in punt 4. Dit geldt in het
+bijzonder voor onder staande
+vertegenwoordigers:
+De wettelijke vertegenwoordiger(s)
+van de Dienstafnemer. De machtigingenbeheerder die door
+de wettelijke vertegenwoordiger
+geautoriseerd is en de machtigingen
+met betrekking tot de
+Dienstafnemer administreert. De Gevolmachtigde die door de
+wettelijke vertegenwoordiger
+geautoriseerd is namens deze te
+handelen. Het machtigingenregister MOET de
+Dienstafnemer of de gemachtigde
+Rechtspersoon registreren. Het machtigingenregister MOET de
+feitelijke juistheid van de door de
+aanvrager aangeleverde informatie
+verifiëren in het Handelsregister van de
+Kamer van Koophandel alvorens de
+aanvraag formeel geaccepteerd mag
+worden. Het volgende MOET ten minste
+juist zijn:
+Bedrijfsnaam en wettelijke naam
+van de Dienstafnemer
+Ten minste één vestigingsadres
+Identificatienummers (KvK nummer
+en RSIN)
+Correspondentieadres
+Toegestane alternatieven voor verificatie:KvK nummer en RSIN   MOETEN beide bruikbaar zijn in de
+Machtigingenregisters om machtigingen te registeren. Niet van toepassing op organisaties die niet beschikken over een
+KvK-nummer en/of RSIN. In het geval van eenmanszaken wordt ten behoeve van de
+belastingdienst het BSN van de wettelijke vertegenwoordiger als
+identificatienummer toegevoegd. Deze situatie is van toepassing
+vanaf niveau eH3 en wordt beschreven in paragraaf 2.1.4. Ad5 Interpretatie: Indien de dienst niet aan professionals wordt
+geleverd is deze norm niet van toepassing. Bedoeld worden
+registers zoals het BIG voor zorgprofessionals, BAR voor
+advocaten en KNB register voor notarissen. Advies: De opsomming is gebaseerd op de lijst van geregistreerde
+professionals die willen handelen vanuit of namens hun beroep
+te vinden in het PKI overheid Programma van eisen deel 3a bij
+3.2.5-1.: a. Aangewezen door een Staatssecretaris. Niet voor alle
+professionals bestaat al een dergelijk register. Ad 4.c Het ANBI Register is uitsluitend digitaal bereikbaar via de
+beveiligde website van de Belastingdienst "opzoeken ANBI". Ad 4.c.iii het RSIN wordt in het ANBI register van de
+Belastingdienst vermeld in de kolom RSIN. In de situatie dat een
+ander nummer dan het RSIN staat vermeld kan dit alternatief niet
+toegepast worden. Ad 4.c.iiii Het correspondentieadres is te achterhalen via de
+weblink van de instelling op de ANBI pagina en de daar vermelde
+contactgegevens.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9424. a. b.

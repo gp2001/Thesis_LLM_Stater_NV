@@ -1,0 +1,44 @@
+If it does not appear there, run in the top-level installation directory. On recent versions of Windows
+you may be asked to confirm that you wish to run a program from an
+‘unknown’ or ‘unidentified’ publisher. Uninstalling R only removes files from the initial installation, not
+(for example) packages you have installed or updated in your personal
+library. If all else fails, you can just delete the whole directory in which R
+was installed. 2.8 What’s the best way to upgrade? That’s a matter of taste. For most people the best thing to do is to
+uninstall R (see the previous Q), install the new version, and then handle
+the library. For those with a personal library (folder of
+your directory in R since 4.2.0, or of your home
+directory with earlier versions of R), nothing has to be done when the
+major and minor version of R ( ) stays the same, but it may still be
+an opportunity to run . When the minor or even major version of R changes, one has to install all
+required packages again. The new version of R will use a different location
+for the personal library and the old personal library will be left intact
+(it may be deleted manually when no longer needed). Installed packages
+should not be copied from the old library to the new one, because they may
+be incompatible with the new version of R. 2.9 How can I keep workspaces for different projects in different directories? Create a separate shortcut for each project: see Q2.5. All the paths to
+files used by R are relative to the starting directory, so setting the
+‘Start in’ field (and removing the argument) automatically helps separate projects. Alternatively, start R by double-clicking on a saved file
+in the directory for the project you want to use, or drag-and-drop a
+file with extension onto an R shortcut. In either case,
+the working directory will be set to that containing the file. 2.10 How do I print from R? It depends what you want to print. 2.11 Can I use ? Yes: use or for full details. You can also set up a batch file using . A sample
+batch file might contain (as one line) The purpose of is to redirect warnings and errors to the
+same file as normal output. 2.12 Can I use R-4.3.3 with ESS and Emacs? Yes. ESS has for a long time supported R under Windows: it does so by
+running without a visible console. For help with ESS, please send email to ,
+not the R mailing lists. 2.13 What are HOME and working directories? Several places in the documentation use these terms. The working directory is the directory from which or was launched, unless a shortcut was used when it is given
+by the ‘Start in’ field of the shortcut’s properties (or was passed as argument). You can find this
+from R code by the call . The home directory (sometimes referred to as user’s home directory, but not
+R home directory) is set as follows: If environment variable is set, its value is used. Otherwise if environment
+variable is set, its value is used. After those two
+user-controllable settings, R tries to find system-defined home
+directories. It first tries to use the Windows "personal" directory
+(typically ). If that fails (but that
+is not expected on current Windows), if both
+environment variables and are set (and
+they normally are), the value is . If
+all of these fail, the current working directory is used. You can find the home directory from R code by or , ‘ ’ being Unix notation for the home
+directory. Note that some distributions of Unix utilities for Windows, such
+as Msys2 (and hence Rtools) or cygwin set the environment variable to a user directory of their choice. When R is invoked from a
+shell of such an distribution, the home directory in R would hence
+typically not be the Windows "personal" directory. With Rtools40,
+Rtools42 and Rtools43, it is the user profile (e.g. ). The R home directory is the directory where R was installed. You can find
+this from R code by or . From
+outside R, you can find it by invoking .

@@ -1,0 +1,50 @@
+. 1091Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8
+Startpagina
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Omwille van de leesbaarheid van de tekst is overal ‘hij’ geschreven waar ‘hij of zij’ bedoeld wordt. De woorden “MOET”, “MAG NIET”, “ZOU MOETEN”, “ZOU NIET MOETEN”, en “MAG” in dit document moeten worden
+geïnterpreteerd gelijk aan hun Engelstalige equivalenten (“MUST", "MUST NOT / SHALL NOT", "SHOULD", "SHOULD
+NOT" en "MAY") als beschreven in RFC 2119 ( http://www.ietf.org/rfc/rfc2119.txt ). Waar deze exacte termen bedoeld zijn
+worden ze in hoofdletters weergeven. De betekenis van deze woorden is:
+MOET: een absolute vereiste
+MAG NIET: een absoluut verbod
+ZOU MOETEN: sterke wens, tenzij er valide reden is in specifiek geval af te wijken
+ZOU NIET MOETEN: ongewenst, tenzij er valide reden is om het in specifiek geval toe te laten
+MAG: een vrije keuze, een optie
+Op deze pagina vindt u de meest actuele versie van het Afsprakenstelsel Elektronische Toegangsdiensten. Het
+afsprakenstelsel is een set van technische, functionele, juridische en organisatorische afspraken op basis waarvan
+eHerkenning wordt geleverd. De afspraken hebben als doel om samenwerking en zekerheid in het Netwerk te
+garanderen. Tegelijkertijd bieden de afspraken ook voldoende vrijheid aan de deelnemers om competitieve proposities
+te leveren aan hun klanten. Het afsprakenstelsel wordt inhoudelijk compleet beschreven in onderstaande documenten:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9Algemeen
+Hier vindt u de algemene introductie op het Afsprakenstelsel Elektronische Toegangsdiensten. Dit document beschrijft
+de werking van Elektronische Toegangsdiensten en geeft tevens een overzicht van de andere onderdelen van het
+afsprakenstelsel. Algemene introductie  — In dit hoofdstuk vindt u de algemene introductie op het Afsprakenstelsel Elektronische
+Toegangsdiensten. Dit deel geeft een overzicht van het afsprakenstelsel, de diensten, rollen en gebruikers. De
+teksten gelden voor eHerkenning en Idensys. Waar nodig wordt voor één merk een verbijzondering gemaakt. Begrippenlijst  — Binnen Elektronische Toegangsdiensten wordt één begrippenlijst gehanteerd. In deze lijst zijn
+enkelvoudsvormen van zelfstandige naamwoorden en werkwoorden opgenomen. Waar in dit document de
+werkwoordsvorm van deze zelfstandige naamwoorden wordt gehanteerd, heeft deze dezelfde betekenis als de
+gedefinieerde zelfstandige naamwoorden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10Juridica
+Hier vindt u de juridische documenten van het Afsprakenstelsel Elektronische Toegangsdiensten: het juridisch kader en
+de gebruiksvoorwaarden. Deze documenten bevatten informatie over de besturing van Elektronische Toegangsdiensten,
+de naleving van het afsprakenstelsel, de overeenkomst tussen de beheerorganisatie en de aanbieders en de minimale
+gebruiksvoorwaarden waaronder de dienstverleners en ondernemers Elektronische Toegangsdiensten mogen gebruiken. Juridisch kader  — Beschrijft het juridisch kader, het besturingsmodel en de controle op en monitoring van de
+naleving van het afsprakenstelsel. Gebruiksvoorwaarden Elektronische Toegangsdiensten  — Deze Gebruiksvoorwaarden zijn van toepassing op het
+verlenen van diensten door Deelnemers aan Dienstverleners en Dienstafnemers in het kader van Elektronische
+Toegangsdiensten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 11Organisatie
+Hier vindt u de organisatorische documenten van het Afsprakenstelsel Elektronische Toegangsdiensten: het operationele
+handboek, de service level, het businessmodel en het handboek huisstijl. Deze documenten bevatten informatie over de
+stelselbrede beheerprocessen, de algemene service level die Elektronische Toegangsdiensten hanteert en het gebruik
+van het beeldmerk van eHerkenning bij externe communicatie. Operationeel handboek  — Dit document beschrijft de operationele beheerprocessen voor het Netwerk. Deze
+processen hebben als doel om het merk Elektronische Toegangsdiensten te beheren. Onder merkbeheer valt
+onder andere het beheren van de documentatie van het afsprakenstelsel, de relaties in het netwerk, het
+technische netwerk, digitale sleutels, toetreding en wensen of wijzigingen. Businessmodel  — Dit document beschrijft het businessmodel voor Elektronische Toegangsdiensten. Onder het
+businessmodel worden verstaan de afspraken die betrekking hebben op de onderlinge verrekening van kosten en
+baten tussen verschillende partijen die samen het Netwerk (voor Elektronische Toegangsdiensten) invullen. Het is
+bedoeld voor deelnemers en dienstverleners. Service level  — Dit document beschrijft de Service Level afspraken die gelden voor deelnemers en de
+beheerorganisatie van Elektronische Toegangsdiensten. Het betreft een beschrijving van het minimale Service
+Level dat de deelnemers moeten leveren aan elkaar en hun dienstafnemers en het minimale Service Level dat de
+beheerorganisatie levert aan de deelnemers. Communicatie  — Dit document beschrijft de richtlijnen voor naam en merkgebruik, huisstijl afspraken en
+communicatierichtlijnen voor de merken eHerkenning en eIDAS. Het is bedoeld voor alle betrokken partijen:
+deelnemers en dienstverleners.

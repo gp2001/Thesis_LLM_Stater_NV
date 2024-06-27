@@ -1,0 +1,50 @@
+Error handling
+StatusMessage 0.. 1Only present if top-level StatusCode is not success . ' '
+StatusDetail 0 Elektronische Toegangsdiensten: MUST NOT be included. Assertion 0.. 1Elektronische Toegangsdiensten: MUST contain the <Assertion> that is delivered in the
+response, if the request was processed successfully. See below. EncryptedAssertion 0 Elektronische Toegangsdiensten: MUST NOT be included. Example message
+<?xml version="1.0" encoding="UTF-8"?>
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ID="_5e702d5c-de06-11e4-a5a1-080027a35b78"
+InResponseTo="6984066c-de03-11e4-a571-080027a35b78"
+Version="2.0"
+Destination="https://..."
+IssueInstant="2015-04-08T16:30:06Z">
+<saml:Issuer>urn:etoegang:HM:...</saml:Issuer>
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_5e702d5c-de06-11e4-a5a1-080027a35b78">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:Status>
+<samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+</samlp:Status>
+<saml:Assertion Version="2.0"
+ID="_535162e2-de06-11e4-98a2-080027a35b78"
+IssueInstant="2015-04-08T16:30:05Z">
+<saml:Issuer>urn:etoegang:HM:...</saml:Issuer>
+... </saml:Assertion>
+</samlp:Response>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 550HM Summary assertion
+This paragraph describes a HM summary <Assertion>
+Element/@Attribute 0.. 1Description
+@ID 1 SAML: MUST identify the <Assertion> uniquely within the scope of the Issuer for a
+period of at least 12 months. @Version 1 SAML: Version of the SAML protocol. The value MUST be '2.0'. @IssueInstant 1 SAML: Time of issuing of the assertion. Issuer 1 Elektronische Toegangsdiensten: MUST contain the  of the HM EntityID
+@NameQualifier 0 Elektronische Toegangsdiensten: MUST NOT be included. @SPNameQualifier 0 Elektronische Toegangsdiensten: MUST NOT be included. @Format 0 Elektronische Toegangsdiensten: MUST NOT be included. @SPProvidedID 0 Elektronische Toegangsdiensten: MUST NOT be included. Signature 1 Elektronische Toegangsdiensten: MUST contain the  of the Issuer (HM) Digital signature
+. for the enveloping Assertion
+Subject 1 Elektronische Toegangsdiensten: MUST be included. BaseID 0 Elektronische Toegangsdiensten: MUST NOT be included. NameID 0..

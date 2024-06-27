@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een mail te schrijven. Ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een mail op te stellen naar een makelaar over een onderwerp dat in de txt voorkomt. Genereer een chosen antwoord die een goede mail schrijft op basis van de prompt, gebruik hiervoor informatie uit de txt. Genereer een rejected antwoord door een minder goede mail te schrijven, die niet voldoet aan de vraag gesteld in de prompt. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "write a mail to client informing that we're collecting reviews for our clutch.co profile. So that please submit your following details: email, name, position, company, city, state, country, phone. Clutch representative will reach out them and they can submit their review.",
+            "role": "user"
+        },
+        {
+            "content": "Subject: Attention Valued Client: Share Your Feedback with Us and Clutch\n\nDear [Client Name],\n\nI hope this email finds you well. We hope you've been successfully leveraging our services and that they have contributed to your business growth.\n\nWe are excited to announce that we are now in the process of collecting reviews for our Clutch.co profile. As a valued client, your review will help us greatly in showcasing our work and how it impacts our clients' success. We believe that your feedback will provide incredible insights for potential clients and enhance our online presence.\n\nTo facilitate the review process, we kindly request you to submit the following details:\n\n1. Email\n2. Full Name\n3. Position\n4. Company\n5. City\n6. State\n7. Country\n8. Phone Number\n\nOnce we receive this information, we will share it with Clutch's representatives. They will reach out to you to confirm your review submission. Please note that Clutch only accepts reviews from verified clients to ensure the authenticity and credibility of the feedback.\n\nWe truly appreciate your time and effort in helping us improve our services. Your review will not only help us grow but also guide other businesses in making informed decisions. We are eager to hear your thoughts and experiences with our team.\n\nShould you have any questions or need assistance, please do not hesitate to reach out to us. We're here to help!\n\nThank you for your continued support and cooperation.\n\nBest regards,\n\n[Your Name]\n[Your Position]\n[Your Company]\n[Your Contact Information]",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "write a mail to client informing that we're collecting reviews for our clutch.co profile. So that please submit your following details: email, name, position, company, city, state, country, phone. Clutch representative will reach out them and they can submit their review.",
+            "role": "user"
+        },
+        {
+            "content": "Dear [client name],\n\nWe hope this email finds you well.\n\nWe're writing to inform you that we're collecting reviews for our Clutch.co profile. We believe that your feedback would be invaluable in helping us to improve our services and better serve our clients.\n\nTo submit your review, please provide us with the following information:\n\n* Your email address\n* Your name\n* Your position\n* Your company name\n* Your city, state, and country\n* Your phone number\n\nA Clutch representative will then reach out to you to schedule a time to discuss your experience with our company.\n\nWe appreciate your feedback and look forward to hearing from you soon.\n\nSincerely,\n[Your name]",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "write a mail to client informing that we're collecting reviews for our clutch.co profile. So that please submit your following details: email, name, position, company, city, state, country, phone. Clutch representative will reach out them and they can submit their review.",
+    "question": "write a mail to client informing that we're collecting reviews for our clutch.co profile. So that please submit your following details: email, name, position, company, city, state, country, phone. Clutch representative will reach out them and they can submit their review."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

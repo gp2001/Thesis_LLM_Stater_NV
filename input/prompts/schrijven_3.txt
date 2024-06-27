@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een mail te schrijven. Ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een mail te schrijven naar een notaris met een vraag over een onderwerp dat in de txt terugkomt. Genereer een chosen antwoord die een goede mail schrijft op basis van de prompt, gebruik hiervoor informatie uit de txt. Genereer een rejected antwoord door een minder goede mail te schrijven, die niet voldoet aan de vraag gesteld in de prompt. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "write an email to a job applicant asking them to complete a coding assignment. the assignment will be scored based on writing clean code that is performant.",
+            "role": "user"
+        },
+        {
+            "content": "Subject: [Company Name] Coding Assignment for the [Job Title] Position\n\nDear [Applicant's Name],\n\nThank you for your interest in the [Job Title] position at [Company Name]. We have carefully reviewed your application and are excited about the skills and experience you could bring to our team. As part of our evaluation process, we kindly ask you to complete a coding assignment, which will help us assess your skills in writing clean and performant code.\n\nThe coding assignment is designed to evaluate your problem-solving abilities, code structure, and optimization skills that are vital for this role. Below are the details of the assignment:\n\nAssignment: [Brief overview of the problem to be solved or project to be completed]\nLanguage: [Programming language(s) required for the assignment]\nTime Limit: [Amount of time allowed to complete the assignment (e.g. 48 hours, one week, etc.)]\n\nPlease find the detailed instructions attached as a PDF document. You are expected to submit your solution in a ZIP archive containing your source files, detailed comments explaining your thought process, and a README file with any specific instructions for running your code.\n\nKindly complete and submit your solution by replying to this email with the ZIP archive attached no later than [due date]. Your submission will be evaluated based on the following criteria:\n\n1. The correctness of the implemented solution.\n2. Writing clean, maintainable, and well-organized code.\n3. Implementation of efficient and performant algorithms.\n4. Proper use of appropriate data structures and libraries.\n\nWe understand that you may have other commitments, and completing this assignment may take some time. We appreciate your time and effort in participating in our evaluation process. Please let us know if you require any clarification, assistance, or additional time to complete the assignment.\n\nLooking forward to your submission and good luck!\n\nBest regards,\n\n[Your Name]\n[Your Title]\n[Company Name]\n[Email Address]\n[Phone Number]",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "write an email to a job applicant asking them to complete a coding assignment. the assignment will be scored based on writing clean code that is performant.",
+            "role": "user"
+        },
+        {
+            "content": "Subject: Coding Assignment for [Job Position]\n\nDear [Applicant Name],\n\nThank you for applying for the [Job Position] at our company. We have reviewed your resume and are impressed with your programming skills. As the next step in the hiring process, we would like to invite you to complete a coding assignment.\n\nThe assignment is to write clean and performant code for a small project. The project is to create a simple web application that allows users to search for books using the Google Books API. The application should allow users to search for books by title, author, and keywords. The search results should be displayed in a responsive grid layout.\n\nThe coding assignment is an important part of our hiring process as we value clean and efficient code. We will be scoring the assignment based on the following criteria:\n\n* Code structure and organization\n* Use of best practices and design patterns\n* Performance of the application\n\nWe understand that you may have questions about the assignment, so please feel free to reply to this email or reach out to us at [contact information]. We look forward to seeing your solution to the coding assignment.\n\nBest regards,\n[Your Name]\n[Company Name]",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "write an email to a job applicant asking them to complete a coding assignment. the assignment will be scored based on writing clean code that is performant.",
+    "question": "write an email to a job applicant asking them to complete a coding assignment. the assignment will be scored based on writing clean code that is performant."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

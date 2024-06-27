@@ -1,0 +1,36 @@
+Deze verklaring is samengesteld uit de verklaringen van de authenticatiedienst en het
+machtigingenregister. De gebruiker voert hiertoe de use cases   en   uit. GUC3 Aantonen identiteit GUC4 Aantonen bevoegdheid
+Deze use case is een uitbreiding op  en wordt hieronder in een activity diagram GUC1 Gebruiken eToegang als dienstafnemer
+weergegeven. De verschillende acties voor use case GUC2 worden hier in meer detail beschreven. Nr. Actie Omschrijving
+Initiële staat De dienstafnemer laat zich voor het afnemen van een dienst vertegenwoordigen bij een
+dienstverlener die authenticatie van de dienstafnemer vereist. De gebruiker handelt als
+vertegenwoordiger. 2.1 Dienstverlener stelt
+vraag aan
+HerkenningsmakelaarZie stap 1.1 GUC1 Gebruiken eToegang als dienstafnemer
+2.2 Uitvoeren GUC3
+Aantonen identiteitHet resultaat is dat de Herkenningsmakelaar een verklaring over de authenticatie van de
+gebruiker ontvangt met een de gevraagde identificerende kenmerken van de gebruiker. 2.3 Uitvoeren GUC4
+Aantonen
+bevoegdheidHet resultaat is dat de Herkenningsmakelaar een verklaring over de bevoegdheid van de
+gebruiker ontvangt. Indien het een ketenmachtiging betreft verifieert de
+Herkenningsmakelaar de hele keten alvorens deze te gebruiken in de volgende stap. Alternatief scenario:
+In het geval dat een gebruiker zich heeft geauthenticeerd met een eIDAS-
+authenticatiemiddel uit een andere eIDAS-lidstaat, ontvangt de Herkenningsmakelaar in
+het antwoord van de  mogelijk ook een autorisatieverklaring eIDAS-berichtenservice (EB)
+en kan stap 2.3 worden overgeslagen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 475
+Let op: dit scenario is uitsluitend van toepassing op eIDAS Inkomend, NIET op eIDAS
+Uitgaand. 2.4 Herkenningsmakelaar
+beantwoordt vraag
+van dienstverlener
+met verklaringDe Herkenningsmakelaar beantwoordt de vraag van de dienstverlener. Dit antwoord bevat
+een verklaring die de Herkenningsmakelaar opstelt (op basis van én met inbegrip van de
+authenticatiedienst en van het machtigingenregister/de machtigingenregisters ontvangen
+verklaringen over de authenticatie en de bevoegdheid van de gebruiker) met daarin het
+betrouwbaarheidsniveau van de verklaring, de identificerende kenmerken van de
+vertegenwoordigde dienstafnemer, de identificerende kenmerken van de gebruiker en
+(indien relevant) informatie over de ketenmachtiging. Het betrouwbaarheidsniveau is gelijk aan het laagste betrouwbaarheidsniveau van de
+betrouwbaarheidsniveaus van de verklaringen van de authenticatiedienst en het
+machtigingenregister/de machtigingenregisters. Finale staat De dienstafnemer is geauthenticeerd en de dienstverlener heeft daar de benodigde
+informatie over ontvangen. De dienstafname kan worden vervolgd ten behoeve van de
+vertegenwoordigde dienstafnemer. Informatie over de gebruiker en zijn bevoegdheid kan
+benut worden voor personalisatie, logging e.d. ad actie 2.4: Het antwoord is als Response in detail beschreven in  .

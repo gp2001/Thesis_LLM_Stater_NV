@@ -1,0 +1,21 @@
+@ProviderName is afkomstig uit de DV-Request
+Op het scherm van de Herkenningsmakelaar wordt vermeld wat het door de dienstverlener minimaal vereiste
+betrouwbaarheidsniveau is. Het vakje "Onthoud deze keuze" is default aangevinkt, ook indien na annuleren er hernieuwde selectie plaatsvindt. Als gebruiker dit vakje uitvinkt, moet deze selectie onthouden worden door het plaatsen van een cookie. Zie Single
+. sign-on and user sessions
+Deelnemers die ETD voorzieningen gerealiseerd hebben m.b.v. een subsidie uit Europa moeten dit vanwege de
+subsidie regeling vermelden. Omdat standaardisatie van de HM look & feel gewenst is MOETEN die deelnemers dit
+vermelden onderaan de template met de voorgeschreven logo, zie  . template cef voor HM.zip
+Note: At this moment the use of ASTA-sets and Service Intermediation is limited to the EB for eIDAS Outgoing.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 533Voorbeelden
+Een voorbeeld voor eIDAS-outbound (dienstbemiddeling):
+U wilt inloggen bij  voor (Finanzamt) en bij  Authenticatie buitenlandse dienstverlener    Publieke dienst in Duitsland
+voor . U heeft hiervoor een inlogmiddel nodig Rijksdienst voor Identiteitsgegevens    Ophalen persoonsgegevens voor EU inlog
+van minimaal betrouwbaarheidsniveau EH3. eHerkenning template:
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 534Toegankelijkheid
+Alle dialoogvensters die door partijen in het herkenningsproces worden ingezet MOETEN voldoen aan de eisen die worden
+gesteld aan niveau 1 (" Toegankelijkheid prioriteit 1") van het Waarmerk drempelvrij.nl ( ). Partijen www.drempelvrij.nl
+MOETEN dit aantonen door middel van een zelfverklaring en MOGEN dit verder aantonen door middel van certificering. Alle dialoogvensters die door partijen in het registratieproces van middelen worden ingezet MOETEN voldoen aan de eisen
+die worden gesteld aan niveau 1 ("Toegankelijkheid prioriteit 1") van het Waarmerk drempelvrij.nl. Partijen MOETEN dit
+aantonen door middel van een zelfverklaring en MOGEN dit verder aantonen door middel van certificering. Alle webpagina's in het herkenningsproces MOETEN ten minste in het Nederlands als in het Engels beschikbaar zijn. Voor
+alle rollen geldt dat er naar de Browser taal gekeken moet worden. Als de rol (HM,AD,MR,EB,BSNk) niet de door de gebruiker
+gewenste taal kan weergeven MOET de rol Nederlands gebruiken. Een rol MAG ook een functie aanbieden om de gebruiker
+een andere taal te laten selecteren. De registratieprocessen MOGEN ook alleen in het Nederlands worden aangeboden.

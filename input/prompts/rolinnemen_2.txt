@@ -1,0 +1,78 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek stelt eerst een vraag en vraagt daarna door, genereer een soortgelijk gesprek. Analyseer de txt, stel een prompt op die een vraag stelt over een onderwerp dat in de txt terugkomt en stel daarna nog meer vragen in hetzelfde gesprek. Ik wil dat in de prompt aangegeven wordt dat de assistent de rol van een notaris moet innemen ("Reageer als een financieel adviseur"). Genereer een chosen antwoord door in de tekst behaalde gegevens, waarin de assistent de rol van een financieel adviseur inneemt. Genereer een rejected gesprek waarbij wel de juiste antwoorden worden gegeven, maar niet in het taalgebruik van een financieel adviseur. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "General-Instruct",
+    "chosen": [
+        {
+            "content": "Pretend you are a museum curator and give a short explanation of the significance of Vincent van Gogh's painting, 'The Starry Night'.\n",
+            "role": "user"
+        },
+        {
+            "content": "'The Starry Night' is a significant work of art by Vincent van Gogh, created in 1889. It showcases the artist's distinctive technique, with bold brushstrokes, vivid colors, and a swirling night sky. The painting reflects van Gogh's fascination with the stars and the night sky, as well as his emotional state during his time at the Saint-R\u00e9my-de-Provence asylum. Often considered a highlight of Post-Impressionism, 'The Starry Night' remains one of the most recognizable and important works in the history of art.",
+            "role": "assistant"
+        },
+        {
+            "content": "Analyze the impact of Van Gogh's mental health on his artistic style and the interpretation of 'The Starry Night'.",
+            "role": "user"
+        },
+        {
+            "content": "Vincent van Gogh's mental health struggles had a profound impact on his artistic style and the interpretation of his works, including 'The Starry Night'. His art became a medium for expressing his inner turmoil and emotional intensity.\n\nVan Gogh suffered from bouts of depression and mental illness throughout his life, and these struggles are often reflected in his work. His use of bold, dramatic brush strokes and intense, sometimes unsettling colors can be seen as a manifestation of his emotional state.\n\nIn the case of 'The Starry Night', the painting was created while van Gogh was in an asylum at Saint-R\u00e9my-de-Provence. The turbulent, swirling patterns of the night sky could be seen as a reflection of the turmoil in his mind. The cypress tree in the foreground, a common symbol of death and eternity, might represent his thoughts of mortality.\n\nHowever, despite the possible melancholy undertones, 'The Starry Night' also demonstrates a sense of hope. The bright stars and the serene village beneath the tumultuous sky might suggest a longing for peace and tranquility.\n\nThus, van Gogh's mental health struggles not only shaped his unique artistic style but also added layers of complexity to the interpretation of his works. His ability to channel his emotions into his art resulted in masterpieces that continue to captivate audiences today.",
+            "role": "assistant"
+        },
+        {
+            "content": "Discuss the symbolism of the cypress tree in Van Gogh's works beyond 'The Starry Night'.",
+            "role": "user"
+        },
+        {
+            "content": "Vincent van Gogh's use of the cypress tree in his paintings is a recurring motif that holds significant symbolism. In his works, the cypress tree often represents a bridge between life and death, earth and heaven, due to its tall, reaching form that seems to connect the ground with the sky.\n\nBeyond 'The Starry Night', van Gogh used cypress trees in other paintings such as 'Wheat Field with Cypresses' and 'Cypresses'. In these works, the trees are often depicted as dark and brooding, yet vibrant and full of life, possibly symbolizing van Gogh's own internal struggles.\n\nIn 'Wheat Field with Cypresses', for instance, the cypress trees stand tall and resilient against the swirling sky, perhaps symbolizing steadiness and endurance in the face of life's tumultuous challenges.\n\nIn 'Cypresses', van Gogh uses intense, fiery colors to depict the trees, which could be seen as a reflection of his passionate and intense emotional state. The cypress trees in this painting dominate the landscape, standing as a testament to their strength and resilience.\n\nOverall, the cypress tree in van Gogh's works serves as a powerful symbol, reflecting his personal emotions, his perception of the world around him, and his exploration of life's profound themes.",
+            "role": "assistant"
+        },
+        {
+            "content": "Elaborate on the connection between the fiery colors used in 'Cypresses' and Van Gogh's emotional state during its creation.",
+            "role": "user"
+        },
+        {
+            "content": "In 'Cypresses', Vincent van Gogh used fiery colors to convey his emotional state, a common practice in his body of work. The vibrant hues of orange, yellow, and green are not just a representation of the cypress trees, but also a reflection of his inner feelings.\n\nVan Gogh's use of color was often symbolic and subjective rather than realistic. He used it to express his emotions and to evoke certain feelings in the viewer. The intense, fiery colors in 'Cypresses' could be seen as a representation of his passionate, and at times, turbulent emotional state. \n\nThe dominance of the cypress trees in the painting, accentuated by these fiery colors, could suggest a sense of overwhelming emotion or turmoil. The cypress, often associated with mourning and death, combined with the intense colors, might also reflect his mental struggles and contemplation of mortality.\n\nAt the same time, the energy and vibrancy of the colors also convey a sense of life and vitality. This could be interpreted as van Gogh's resilience and his intense engagement with the world around him, despite his mental health challenges.\n\nIn essence, the fiery colors in 'Cypresses' serve as a powerful emotional language, providing insight into van Gogh's inner world during the creation of this artwork.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Pretend you are a museum curator and give a short explanation of the significance of Vincent van Gogh's painting, 'The Starry Night'.\n",
+            "role": "user"
+        },
+        {
+            "content": "'The Starry Night' is a significant work of art by Vincent van Gogh, created in 1889. It showcases the artist's distinctive technique, with bold brushstrokes, vivid colors, and a swirling night sky. The painting reflects van Gogh's fascination with the stars and the night sky, as well as his emotional state during his time at the Saint-R\u00e9my-de-Provence asylum. Often considered a highlight of Post-Impressionism, 'The Starry Night' remains one of the most recognizable and important works in the history of art.",
+            "role": "assistant"
+        },
+        {
+            "content": "Analyze the impact of Van Gogh's mental health on his artistic style and the interpretation of 'The Starry Night'.",
+            "role": "user"
+        },
+        {
+            "content": "Vincent van Gogh's mental health struggles had a profound impact on his artistic style and the interpretation of his works, including 'The Starry Night'. His art became a medium for expressing his inner turmoil and emotional intensity.\n\nVan Gogh suffered from bouts of depression and mental illness throughout his life, and these struggles are often reflected in his work. His use of bold, dramatic brush strokes and intense, sometimes unsettling colors can be seen as a manifestation of his emotional state.\n\nIn the case of 'The Starry Night', the painting was created while van Gogh was in an asylum at Saint-R\u00e9my-de-Provence. The turbulent, swirling patterns of the night sky could be seen as a reflection of the turmoil in his mind. The cypress tree in the foreground, a common symbol of death and eternity, might represent his thoughts of mortality.\n\nHowever, despite the possible melancholy undertones, 'The Starry Night' also demonstrates a sense of hope. The bright stars and the serene village beneath the tumultuous sky might suggest a longing for peace and tranquility.\n\nThus, van Gogh's mental health struggles not only shaped his unique artistic style but also added layers of complexity to the interpretation of his works. His ability to channel his emotions into his art resulted in masterpieces that continue to captivate audiences today.",
+            "role": "assistant"
+        },
+        {
+            "content": "Discuss the symbolism of the cypress tree in Van Gogh's works beyond 'The Starry Night'.",
+            "role": "user"
+        },
+        {
+            "content": "Vincent van Gogh's use of the cypress tree in his paintings is a recurring motif that holds significant symbolism. In his works, the cypress tree often represents a bridge between life and death, earth and heaven, due to its tall, reaching form that seems to connect the ground with the sky.\n\nBeyond 'The Starry Night', van Gogh used cypress trees in other paintings such as 'Wheat Field with Cypresses' and 'Cypresses'. In these works, the trees are often depicted as dark and brooding, yet vibrant and full of life, possibly symbolizing van Gogh's own internal struggles.\n\nIn 'Wheat Field with Cypresses', for instance, the cypress trees stand tall and resilient against the swirling sky, perhaps symbolizing steadiness and endurance in the face of life's tumultuous challenges.\n\nIn 'Cypresses', van Gogh uses intense, fiery colors to depict the trees, which could be seen as a reflection of his passionate and intense emotional state. The cypress trees in this painting dominate the landscape, standing as a testament to their strength and resilience.\n\nOverall, the cypress tree in van Gogh's works serves as a powerful symbol, reflecting his personal emotions, his perception of the world around him, and his exploration of life's profound themes.",
+            "role": "assistant"
+        },
+        {
+            "content": "Elaborate on the connection between the fiery colors used in 'Cypresses' and Van Gogh's emotional state during its creation.",
+            "role": "user"
+        },
+        {
+            "content": "Vincent van Gogh's use of fiery colors in 'Cypresses' is a powerful reflection of his emotional state during its creation, characterized by high energy, passion, and intensity. At the time of painting 'Cypresses,' Van Gogh was experiencing overwhelming emotions and mental distress. He often turned to painting as a form of emotional release, and this was particularly true during his time at Saint-Paul-de-Mausole asylum in Saint-R\u00e9my-de-Provence.\n\nVan Gogh's emotional state during the making of 'Cypresses' was a result of the dramatic landscape of Saint-R\u00e9my-de-Provence, with its rolling hills, vivid skies, and beautiful cypress trees. He sought to capture this picturesque beauty and his emotional and spiritual connection to it through his paintings.\n\nIn 'Cypresses', Van Gogh selected bold hues, including deep yellows, oranges, reds, and greens, to interpret the surrounding landscape with intensity and passion. The fiery colors employed in the painting imbue a sense of urgency and warmth which represent his powerful feelings of passion and enthusiasm towards life. They also serve as a way to convey the heat and warmth of the Mediterranean landscape, reminding the viewer of the importance of embracing life's vibrancy and coherence.\n\nAdditionally, Van Gogh's vivid palette employed in 'Cypresses' is echoed in his contemporaneous letters, where he discusses his experiences of light and color in the Proven\u00e7al landscape. He wrote, \"The colors in the sun are red, violet, and green - the orange color has been delayed - animals and nature are not clothed in those colors.\"\n\nThus, Van Gogh's use of fiery colors in 'Cypresses' speaks to one of the most defining characteristics of his artistic style, a passion-filled engagement with the natural world that sought to bring his experiences and emotions to life on his canvas.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Pretend you are a museum curator and give a short explanation of the significance of Vincent van Gogh's painting, 'The Starry Night'.\n",
+    "question": "Pretend you are a museum curator and give a short explanation of the significance of Vincent van Gogh's painting, 'The Starry Night'.\n"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij! 
+```json

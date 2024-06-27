@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een gedetailleerde samenvatting van bepaalde informatie, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een gedetailleerde samenvatting van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord door in de tekst behaalde gegevens, die een goede gedetailleerde samenvatting geeft. Genereer een rejected antwoord die ook een goede samenvatting geeft, maar die minder gedetailleerd is. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "Give me a detailed summary of the book Principles by Ray Dalio",
+            "role": "user"
+        },
+        {
+            "content": "\"Principles\" is a self-help and entrepreneurship book, written by Ray Dalio, the founder of Bridgewater, one of the world's largest hedge funds. The book is a guide to living a fulfilling life based on Dalio's personal principles and experience. It encourages readers to create their own principles for success and happiness.\n\nHere is a detailed summary of the book:\n\n1. Introduction: Dalio shares his personal story and the importance of having principles in life.\n2. Work Principles: Dalio outlines the principles he's developed over his career, which emphasize radical honesty, radical transparency, and meritocracy in the workplace.\n3. Starting and Maintaining a successful Business: He guides readers through the process of starting a business, including setting up goals, defining roles, and holding oneself accountable.\n4. Understanding People: Dalio discusses the importance of understanding people internally and externally, and how to effectively manage relationships and conflicts.\n5. Managing and Learning: He outlines how to manage people effectively, learn from mistakes, and maintain a growth mindset.\n6. Exploring and Embracing Problems: Dalio encourages a systematic approach to problem-solving and risk management.\n7. Implementing and Following Principles: The author details how to put your principles into action by creating a culture where they can be effectively followed.\n8. Making Life Decisions: Dalio applies his principles to life decision-making, covering areas like health, family, and personal life.\n9. Self Review and Improvement: Finally, the book emphasizes the importance of regular self-assessment to improve oneself continually.\n\nThroughout the book, Dalio backs his points with evidence, supported by his experiences at Bridgewater, where he's developed and applied these principles over many years. He suggests that everyone should develop unique principles to guide their life and work decisions, leading to personal and professional fulfillment.\n\nIn summary, \"Principles\" serves as a comprehensive guide to becoming a successful entrepreneur and achieving success and happiness in life by leveraging Dalio's principles and experiences.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Give me a detailed summary of the book Principles by Ray Dalio",
+            "role": "user"
+        },
+        {
+            "content": "Principles, by Ray Dalio, is an insightful book that outlines principles and ideas to help individuals, firms, and governments succeed in life, business, and beyond. The book is composed of 12 clear and intuitive principles written in an easy-to-digest, step-by-step structure that covers an array of topics such as decision-making, risk, values, success, and failure. Through stories, examples, and diagrams, Dalio takes the reader on a journey of self-discovery, providing keen insight into how to develop plans and take risks to achieve one\u2019s goals. He also emphasizes the importance of proper communication in workplace and social settings in order to effectively implement these principles. The book provides useful tools and frameworks that are universally applicable, empowering people to reach their goals and achieve success in any field.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Give me a detailed summary of the book Principles by Ray Dalio",
+    "question": "Give me a detailed summary of the book Principles by Ray Dalio"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

@@ -1,0 +1,77 @@
+The digital signature MUST be included as a query Digital signature
+string parameter. This parameter is designated as Signature.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 708Error handling
+This chapter describes how errors MUST be handled in the network, in order to inform and serve both users and participants
+sufficiently.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 709Status codes
+For error handling, conformity regarding the interpretation of the status codes as used in the   element is <Response>
+critical. Only the following top-level status codes MAY be used:
+urn:oasis:names:tc:
+SAML:2.0:status:
+RequesterThis status code is used for errors caused by the initiator of the SAML request. For example, because
+an assurance level is requested which is not supported by the recipient, or because the request
+message has expired. urn:oasis:names:tc:
+SAML:2.0:status:
+ResponderThis status code is used for errors caused by the recipient of the SAML request. For example, because
+of technical failure or because the recipient does not support requested (optional) functionality. Only the following second-level status codes MAY be used:
+urn:oasis:names:tc:SAML:
+2.0:status:AuthnFailedThis status code is used when an user cannot be authenticated for example because invalid
+credentials have been provided or the cancel button has been used. urn:oasis:names:tc:SAML:
+2.0:status:
+RequestUnsupportedThis status code is used when a message is correctly formatted by the requester, and
+understood by the recipient, but that functionality is requested which is not supported by the
+recipient. urn:oasis:names:tc:SAML:
+2.0:status:
+UnknownPrincipalThis status code is only used by the BSNk in case a pseudoID is queried but not associated.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 710Cancelling
+During the process of authenticating and authorizing, a user may cancel the process by clicking on the cancel
+button. Examples:
+A user arrives at a  , but does not yet have an account Herkenningsmakelaar (HM)
+A user has selected the wrong  and wishes to retry the selection Authenticatiedienst (AD)
+A user does not want to authenticate now, and be returned to the Service provider
+If a user cancels, the participant MUST direct the user automatically to the latest sender of a SAML request, accompanying a
+valid SAML response message including valid SAML status codes ( with urn:oasis:names:tc:SAML:2.0:status:Responder   urn:
+). A   element MAY be included, containing for example oasis:names:tc:SAML:2.0:status:AuthnFailed <StatusMessage>
+the value "Authentication cancelled". If a Herkenningsmakelaar receives a cancellation message (from an Authenticatiedienst or ), it Machtigingenregister (MR)
+MUST ask the user to re-select an Authenticatiedienst or cancel. If a  receives a cancellation message (from a Herkenningsmakelaar), it MUST indicate to the user that he Dienstverlener (DV)
+is not logged in, and MAY offer the user the option to re-authenticate.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 711Attributes not supported
+A participant can receive a message that matches the  , but cannot be processed by the recipient. Interface specifications
+Examples:
+The request contains an attribute that cannot be provided by the participant
+A participant receiving such a message
+MUST show the user a message indicating what went wrong
+MAY offer the user the option to cancel, in that case the flow continues as stated in  CancellingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 712Incorrect message (recoverable)
+A participant can receive a message that matches the Interface specifications, but cannot be processed by the recipient. Examples:
+The request contains an   that cannot be provided by the participant Level of assurance
+The request contains an EntityConcernedType that cannot be provided by the participant
+The recipient MUST direct the user to initiator of the SAML request, accompanying a valid SAML response message including
+valid SAML status codes ( with urn:oasis:names:tc:SAML:2.0:status:Responder   urn:oasis:names:tc:SAML:2.0:status:
+). A   element MUST be included, containing a description of the problem (for RequestUnsupported <StatusMessage>
+example "Level of assurance not supported"). A participant receiving such a response
+MUST show the user a message indicating authentication has failed, including the contents of <StatusMessage>. If the participant is a Herkenningsmakelaar, it MUST ask the user to re-select an Authenticatiedienst or cancel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 713Incorrect message (non-recoverable)
+A participant can receive an invalid formatted message. Examples:
+Not a valid SAML message
+XML does not match XSD
+Alternatively, the message can be valid according to SAML specifications, but it does not match the  . Interface specifications
+Examples:
+Unknown issuer
+Invalid NotValidOnOrAfter
+Invalid signature
+The request contains invalid  , attributes or EntityConcernedTypes ServiceID
+The response contains  , attributes, EntityConcernedTypes or a   that does not match the ServiceID Level of assurance
+request
+Such messages are the result of either a wrong implementation of a participant, or an attempt to hack the system. The user
+cannot always be sent back to the requester, because the source of the message is unknown and/or cannot be trusted. If the
+message is a response, it would not make sense to send the user back to the responder. A participant that receives a message in this category
+MUST investigate the nature of the error. MUST show the user a message indicating a non-recoverable error has occured, advicing the user to contact his
+for assistance, in case a binding is used where the user is involved; Middelenuitgever (MU)
+MUST return a SAML response message with status codes (  and urn:oasis:names:tc:SAML:2.0:status:Requester urn:
+) or an HTTP error in case a binding is used where a oasis:names:tc:SAML:2.0:status:RequestUnsupported
+synchronuous response is expected and can be returned, like SOAP. If the participant is a Herkenningsmakelaar, it MUST ask the user to re-select an Authenticatiedienst or cancel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 714Single sign-on and user sessions
+Within certain boundaries, single sing-on and user sessions are allowed. This document describes the technical
+requirements. For other requirements, see  . Use cases Single Sign-OnAfsprakenstelsel Elektronische Toegangsdiensten | pagina 715Sessions at participants
+Participants MAY maintain a session for single sign-on if the user so indicated. The following data MAY be maintained in this
+session:
+an  maintains user preferences (selected AD and MR). Herkenningsmakelaar (HM)
+an  maintains the identity of the user. Based on this session, the AD MAY directly issue a new Authenticatiedienst (AD)
+authentication assertion to the service providers making a request in which single sign-on is specified. The
+requirements for the maximum life span must be followed. an  maintains user preferences (chosen party to represent). Machtigingenregister (MR)
+The maximum life span of a session at the AD is 2 hours unless a new authentication assertion is issued in the meantime
+whereby the session MAY be extended to a maximum of 2 hours. Participants MAY provide a user the option to log out. This option has the same function as logging out from a service provider (see below).

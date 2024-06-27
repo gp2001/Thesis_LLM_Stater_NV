@@ -1,0 +1,127 @@
+Wie? De beheerorganisatie stelt de rapportage ter beschikking.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 360Schema
+XML schema
+<?xml version="1.0"?>
+<xs:schema
+xmlns="urn:nl:eherkenning:rapport:1.5"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+targetNamespace="urn:nl:eherkenning:rapport:1.5" elementFormDefault="qualified" attributeFormDefault="
+unqualified">
+<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsig-core-schema.xsd"/>
+<xs:simpleType name="BerichtCategorieType">
+<xs:restriction base="xs:string">
+<xs:enumeration value="AuthnRequest"/>
+<xs:enumeration value="Response"/>
+<xs:enumeration value="Authnfailed response"/>
+<xs:enumeration value="XACMLAuthzDecisionQuery"/>
+<xs:enumeration value="XACMLDeny response"/>
+<xs:enumeration value="XACMLPermit response"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="NiveauType">
+<xs:restriction base="xs:string">
+<xs:enumeration value="urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified"/>
+<xs:enumeration value="urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport"/>
+<xs:enumeration value="urn:oasis:names:tc:SAML:2.0:ac:classes:MobileTwoFactorUnregistered"/>
+<xs:enumeration value="urn:oasis:names:tc:SAML:2.0:ac:classes:MobileTwoFactorContract"/>
+<xs:enumeration value="urn:oasis:names:tc:SAML:2.0:ac:classes:SmartcardPKI"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:complexType name="AantallenType">
+<xs:sequence>
+<xs:element name="NieuwDezePeriode" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+<xs:element name="AfgeslotenDezePeriode" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+<xs:element name="TotaalDezePeriode" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="AantallenPerNiveauType">
+<xs:sequence>
+<xs:element name="Niveau" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType>
+<xs:complexContent>
+<xs:extension base="AantallenType">
+<xs:attribute name="niveau" type="NiveauType"/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="AantalBerichtenPerKoppelvlakType">
+<xs:sequence>
+<xs:element name="AantalBerichten" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:integer">
+<xs:attribute name="berichtCategorie" type="BerichtCategorieType"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 361        <xs:attribute name="entityID" type="xs:string"/>
+</xs:complexType>
+<xs:element name="Rapport">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="ds:Signature" minOccurs="1" maxOccurs="1"/>
+<xs:element name="Opmerking" type="xs:string" minOccurs="0"/>
+<xs:element name="HMRol" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="AantalDienstverleners" type="AantallenType" minOccurs="1"
+maxOccurs="1"/>
+<xs:element name="AantalBerichtenDienstverlener" type="
+AantalBerichtenPerKoppelvlakType" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="AantalBerichtenAuthenticatieDienst" type="
+AantalBerichtenPerKoppelvlakType" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="AantalBerichtenMachtigingregister" type="
+AantalBerichtenPerKoppelvlakType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+<xs:attribute name="entityID" type="xs:anyURI"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="ADRol" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="AantalBerichtenHerkenningsmakelaar" type="
+AantalBerichtenPerKoppelvlakType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+<xs:attribute name="entityID" type="xs:anyURI"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="MURol" minOccurs="0" maxOccurs="1">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="AantalMiddelen" type="AantallenPerNiveauType" minOccurs="1"
+maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="MRRol" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="AantalBedrijven" type="AantallenType" minOccurs="1"
+maxOccurs="1"/>
+<xs:element name="AantalBerichtenHerkenningsmakelaar" type="
+AantalBerichtenPerKoppelvlakType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+<xs:attribute name="entityID" type="xs:anyURI"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="oin" type="xs:anyURI"/>
+<xs:attribute name="title" type="xs:string"/>
+<xs:attribute name="datumOpgeleverd" type="xs:dateTime"/>
+<xs:attribute name="rapportPeriodeVan" type="xs:dateTime"/>
+<xs:attribute name="rapportPeriodeTot" type="xs:dateTime"/>
+</xs:complexType>
+</xs:element>
+</xs:schema>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 362Rapportage Belastingdienstmiddelen
+Er moet worden gerapporteerd over het aantal belastingdienstmiddelen. Het gaat hier per  kalendermaand over de volgende
+getallen:
+Aantal nieuwe belastingdienstmiddelen geregistreerd in deze kalendermaand
+Aantal afgesloten belastingdienstmiddelen in deze kalendermaand
+Totale aantal belastingdienstmiddelen aan het einde van deze kalendermaand (laatste dag om 23.59 Nederlandse tijd)
+De definitie van een belastingdienstmiddel is: eHerkenningsmiddel op EH3 waarmee een persoon namens een organisatie
+kan handelen en dat een specifieke restrictie heeft om enkel bruikbaar te zijn bij de belastingdienst. Het middel komt in
+aanmerking voor de subsidieregeling uitgevoerd door RVO voor het belastingdienstmiddel.

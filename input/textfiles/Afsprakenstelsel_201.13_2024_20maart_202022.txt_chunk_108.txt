@@ -1,0 +1,41 @@
+The element MUST NOT contain other attributes (@) than those described here. @AttributeId urn:etoegang:core:LegalSubjectID
+@Datatype urn:oasis:names:tc:SAML:2.0:assertion#EncryptedID
+@Issuer EntityID of the asserting MR. AttributeValue The type and value of the contained identifier vary per context and recipient. The NameQualifier of the
+NameID after decryption holds the used type, see . Identificerende kenmerkenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 699LevelOfAssurance
+Description A XACML Attribute element containing the minimum level of assurance that is required by the service
+provider.The element MUST NOT contain other attributes (@) than those described here. @AttributeId urn:etoegang:core:LevelOfAssurance
+@Datatype http://www.w3.org/2001/XMLSchema#string
+@Issuer EntityID of the eHerkenningsmakelaar. AttributeValue See Level of assuranceAfsprakenstelsel Elektronische Toegangsdiensten | pagina 700LevelOfAssuranceUsed
+Description An XACML Attribute element containing the level of assurance of the registered authorization.If there are
+several registrations(authorizations) for an assertion and these registrations are established at different
+levels of assurance (for instance a generic authorization at level eH2 and a specific authorization at level
+), the highest level of assurance MUST be used. eH3
+The element MUST NOT contain other attributes (@) than those described here. @AttributeId urn:etoegang: LevelOfAssuranceUsed core:
+@Datatype http://www.w3.org/2001/XMLSchema#string
+@Issuer EntityID of the ”machtigingenregister”. See EntityID
+AttributeValue See Level of assuranceAfsprakenstelsel Elektronische Toegangsdiensten | pagina 701ServiceID (XACML)
+Description An optional XACML Attribute element that matches the SAML attribute described in . ServiceID (SAML)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 702ServiceUUID (XACML)
+Description An optional XACML Attribute element that matches the SAML attribute described in . ServiceUUID (SAML)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 703Bindings
+Different bindings can be used in SAML to transport messages between parties. The interfaces   and   MUST use Artifact-Artifact binding. Interface specifications HM-AD Interface specifications HM-MR
+The interface   MUST use Artifact binding for the response. The   Interface specifications DV-HM Herkenningsmakelaar (HM)
+MUST offer the Artifact binding and MAY offer alternative bindings to the   to communicate the  Dienstverlener (DV)
+Authentication Request. The response will always be delivered over an Artifact-binding (i.e. Artifact-Artifact, Redirect-Artifact
+or Post-Artifact). The interface   MUST use Artifact-Artifact binding. Interface specifications HM-EB
+[  ] [  ] [  ] [  ] [ HTTP Artifact ArtifactResolve ArtifactResponse SAML SOAP binding Alternative bindings to communicate the
+] [  ] [  ] Authnrequest to the Herkenningsmakelaar HTTP Post HTTP RedirectAfsprakenstelsel Elektronische Toegangsdiensten | pagina 704
+HTTP Artifact
+The SAML V2.0 defined artifact type of type code 0x0004, as described in paragraph §3.6.4 of the   SAML Bindings 2.0
+document MUST be used. Note that the artifact resolution endpoint is a web service as described under . Web services
+Furthermore, an artifact MUST be provided only once, as per §3.6.5.2 of . SAML Bindings 2.0
+The <Status> element of an ArtifactResponse MUST always include a <StatusCode> element with the code value 'urn:oasis:
+names:tc:SAML:2.0:status:Success', in accordance with SAML Binding §3.6.6. In case an Artifact cannot be provided, an error MUST be returned in the Status element of the response child element of the
+ArtifactResponse. A generic Response (SAML ResponseType) element MAY be used to hold that status.The status reported in
+the response child element's Status MUST be in accordance with . Error handling
+SAML Bindings 2.0 §3.6.4 recommends filling the artifact's SourceID in artifacts by taking the SHA-1 hash of the issuer (=
+EntityID). In Elektronische Toegangsdiensten all parties MUST apply this recommended method to define and resolve the
+SourceID in artifacts. SAML Bindings 2.0 §3.6.3 specifies that artifact can be encoded as either HTTP GET or HTTP POST request and both
+techniques MUST be supported. ArtifactResolve
+@ID SAML: Unique message characteristic. MUST identify the message uniquely within the scope of the sender
+and receiver for a period of at least 12 months. @Version SAML: Version of the SAML protocol. The value MUST be '2.0'. @IssueInstant SAML: Time at which the message was created. @Destination Elektronische Toegangsdiensten: MUST NOT be included. @Consent Elektronische Toegangsdiensten: MAY be included. When Consent is included, the default value MUST
+contain urn:oasis:names:tc:SAML:2.0:consent:unspecified. Issuer Elektronische Toegangsdiensten: MUST contain the  of the sender. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProviderID MUST NOT be included.

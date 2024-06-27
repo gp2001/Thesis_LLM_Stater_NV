@@ -1,0 +1,233 @@
+3. Juridische structuur
+Het vertrouwen dat  in elkaar stellen bij gebruik van het  is gebaseerd partijen Netwerk (voor Elektronische Toegangsdiensten)
+op overeenkomsten die worden gesloten tussen:
+De Minister van Binnenlandse Zaken en ; de Deelnemers
+De deelnemers en degenen aan wie diensten worden verleend
+De samenwerking van partijen is daarbij gebaseerd op de volgende documenten:
+Afspr  Elektronische Toegangsdiensten samen met  akenstelsel
+de , en  Template deelnemersovereenkomst
+de Gebruiksvoorwaarden Elektronische Toegangsdiensten
+Het afsprakenstelsel geldt voor alle partijen die deelnemen aan of gebruik maken van Elektronische Toegangsdiensten. Het
+afsprakenstelsel is vastgelegd in een aantal documenten. Zie  voor een opsomming van deze documenten. In al Startpagina
+deze documenten kunnen voor een of meer partijen juridisch bindende verplichtingen zijn neergelegd. Vanzelfsprekend
+moeten alle juridisch bindende verplichtingen door de betreffende partij worden nageleefd.De deelnemersovereenkomst
+bevat de basisafspraken tussen de beheerorganisatie en de deelnemers. Deze overeenkomst is voor alle deelnemers gelijk. Deze overeenkomst zorgt ervoor dat de deelnemers gebonden zijn om de op hen rustende verantwoordelijkheden en
+verplichtingen zorgvuldig uit te voeren en binden de deelnemers ook aan de besturings- en nalevingsafspraken die
+noodzakelijk zijn voor het borgen van het vertrouwen. Deelnemers mogen alleen  verrichten indien zij Herkenningsdiensten
+deze deelnemersovereenkomst hebben gesloten met de beheerorganisatie. De gebruiksvoorwaarden zijn van toepassing op alle overeenkomsten die een deelnemer ( , Middelenuitgever (MU)
+of  sluit met een , en op alle overeenkomsten die een Authenticatiedienst (AD) Machtigingenregister (MR) Dienstafnemer
+deelnemer (  sluit met een . De deelnemers zijn, binnen de kaders van het Herkenningsmakelaar (HM) Dienstverlener (DV)
+afsprakenstelsel, vrij om zelf met de dienstafnemers of dienstverleners in een overeenkomst nadere afspraken te maken over
+de inhoud en de omvang van hun dienstverlening. Een deelnemer dient echter wel altijd de gebruiksvoorwaarden van
+toepassing te verklaren tussen hem en de dienstafnemer of tussen hem en de dienstverlener, maar in de verdere inrichting
+van zijn overeenkomst is hij vrij. Alle bovenstaande relaties zijn privaatrechtelijk van aard.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 218Rollen en verantwoordelijkheden in relatie tot de Wet bescherming persoonsgegevens
+Voor het kunnen verrichten van elektronische toegangsdiensten worden persoonsgegevens verwerkt. Iedere deelnemer is
+'verantwoordelijke' in de zin van de Wet bescherming persoonsgegevens voor de verwerking van de persoonsgegevens voor
+de rol waarvoor hij tot het afsprakenstelsel is toegetreden. Dit houdt in dat de deelnemers ook zelf verantwoordelijk zijn voor
+de implementatie en de naleving van de voorwaarden die de  aan een rechtmatige verwerking van persoonsgegevens AVG
+stelt. Om ervoor te zorgen dat persoonsgegevens door de partijen binnen het afsprakenstelsel op een eenduidige wijze
+worden verwerkt en om vragen over rechtmatigheid van deze verwerkingen te voorkomen, zal een  en Privacybeleid
+bijbehorende handreikingen (waaronder verdere duiding van de ) vanuit het stelsel worden opgesteld. Meldplicht datalekken
+Op basis van deze documenten kunnen partijen ook aantonen en wordt ook controleerbaar gemaakt dat partijen
+persoonsgegevens overeenkomstig het bepaalde in de privacy wet- en regelgeving verwerken. Naast de rol van 'verantwoordelijke' in de zin van de AVG, zijn de authenticatiedienst en het machtigingsregister ook
+'verwerkers' in de zin van de AVG voor de verwerking van het BSN nummer. De authenticatiedienst en het
+machtigingsregister verwerken het BSN nummer op basis van een vewerkersovereenkomst met de minister van BZK. De
+Minister van BZK is de verantwoordelijke in de zin van de AVG voor deze verwerking van het BSN nummer door het BSNk. De
+wettelijke basis voor verwerking van het BSN door het BSNk is belegd in de wet Elektronisch berichtenverkeer Belastingdienst
+en de daarbij behorende  AMvB 1. "De authenticatiedienst en het machtigingsregister zijn verplicht de verwerkingen van
+persoonsgegevens in hun hoedanigheid als 'verantwoordelijke' en 'verwerker' in de zin van de AVG strikt gescheiden te
+houden en hun organisaties zijn hier op ingericht.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 219Toezicht
+Het toezicht op het afsprakenstelsel is belegd bij de staatssecretaris van Binnenlandse Zaken. De reikwijdte van het toezicht omvat:
+de deelnemers;
+de beheerorganisatie;
+de eigenaar;
+de centrale voorzieningen die noodzakelijk zijn om het netwerk van het stelsel van elektronische toegangsdiensten te
+laten functioneren, waaronder het BSNk;
+de handhavingsverzoeken, meldingen en klachten van Deelnemers, Dienstverleners en Dienstafnemers. Het toezicht op de gebruikers van het afsprakenstelsel (dienstafnemers en dienstverleners) bestaat uit het indirect toezicht. Dit indirecte toezicht houdt in dat:
+de herkenningsmakelaar de naleving van de stelselafspraken door de dienstverlener controleert;
+de middelenuitgever, de authenticatiedienst, het machtigingenregister en de stelselafspraken met hun
+dienstafnemers controleren;
+de toezichthouder er op toeziet dat de Deelnemers op afdoende wijze zijn gebruikers controleert op naleving van de
+stelselafspraken. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 220Aanvullende verplichtingen
+In aanvulling op de juridisch bindende verplichtingen uit de genoemde documenten (Afsprakenstelsel Elektronische
+Toegangsdiensten,  en ) gelden Template deelnemersovereenkomst Gebruiksvoorwaarden Elektronische Toegangsdiensten
+specifiek nog de onderstaande verplichtingen voor de deelnemers en de dienstverleners:
+Informatie - en medewerkingsplicht deelnemer: verstrekking van alle noodzakelijke informatie aan de
+beheerorganisatie met betrekking tot deelname aan het  en op eerste Netwerk (voor Elektronische Toegangsdiensten)
+verzoek van de toezichthouder het verstrekken van de gevraagde informatie, alsmede desgevraagd zijn medewerking
+te verlenen aan een onderzoek van de toezichthouder. Beveiliging- en auditverplichtingen: De deelnemers en dienstverleners zijn verantwoordelijk voor de beveiliging en
+controle van de eigen netwerkverbindingen en systemen en voldoen aan de auditverplichtingen, conform wet- en
+regelgeving en zoals vastgelegd in het afsprakenstelsel. Intellectuele eigendom: Alle Intellectuele Eigendom voor alle soorten zaken die worden ontwikkeld door, voor of
+namens de beheerorganisatie, komen toe aan de beheerorganisatie behoudens hetgeen hierover is bepaald in het
+document . De deelnemers en dienstverleners dienen zich te onthouden van inbreuken op de Interface specifications
+Intellectuele Eigendomsrechten van zaken die door, voor of namens de beheerorganisatie zijn ontwikkeld. Geheimhouding: Partijen dienen strikte geheimhouding in acht nemen ten aanzien van vertrouwelijke informatie en
+informatie waarvan men het vertrouwelijk karakter redelijkerwijs kan vermoeden, tenzij een wettelijke plicht of een
+rechterlijke uitspraak openbaarmaking van deze gegevens gebiedt. Naleving van deze verplichting zal geen vrijwaring
+van strafrechtelijke vervolging met zich meebrengen. Wijziging : De beheerorganisatie is gerechtigd de Gebruiksvoorwaarden Elektronische Toegangsdiensten
+Gebruiksvoorwaarden te wijzigen nadat deze zijn vastgesteld overeenkomstig de change en release cyclus van
+Elektronische Toegangsdiensten. Deelnemers communiceren de gewijzigde Gebruiksvoorwaarden Elektronische
+richting hun klanten. Toegangsdiensten
+Overdraagbaarheid rechten en verplichtingen afsprakenstelsel: Partijen zijn niet bevoegd hun rechten en
+verplichtingen uit het afsprakenstelsel over te dragen aan een derde, behalve na schriftelijke toestemming van diens
+wederpartij en voor zover de afspraken neergelegd in het afsprakenstelsel zich niet tegen deze overdracht verzetten. In het geval deelnemer zijn rechten en plichten wil overdragen, dient de overnemende Partij eveneens toegetreden te
+zijn tot het Netwerk als deelnemer in dezelfde rol en op hetzelfde betrouwbaarheidsniveau. Merkenrecht: de staatssecretaris van Binnenlandse Zaken is, om zijn verantwoordelijkheden voor Elektronische
+Toegangsdiensten waar te kunnen maken, eigenaar van het merkenrecht betreffende het Netwerk. De Staat der
+Nederlanden is dus eigenaar van het merk eHerkenning. Het merkenrecht is gekoppeld aan toe- en uittreding en
+daarmee een belangrijk sturingsinstrument voor BZK. In het afsprakenstelsel is een transparante procedure
+vastgelegd die potentiële deelnemers gelijke kansen biedt rond toetreding. In het afsprakenstelsel is eveneens een
+procedure voor vrijwillige en onvrijwillige uittreding opgenomen. Bij onvrijwillige uittreding wordt het publieke
+belang van het stelsel op objectieve en onderbouwde gronden gewogen tegen de belangen van de deelnemer en
+diens gebruikers. In de praktijk zal BZK deze bevoegdheden niet veelvuldig gebruiken. De governance van het
+afsprakenstelsel voorziet in procedures die onder meer de normale gang van zaken omtrent toe- en uittreding en
+uitvoering van het nalevingsbeleid op zich nemen. De informatietaak van de beheerorganisatie: publicatie wat conform het afsprakenstelsel verstrekt dient te worden en
+bescherming van concurrentiegevoelige informatie. De informatieplicht van de beheerorganisatie: informatieverstrekking aan de toezichthouder van alle bij de
+beheerorganisatie aanwezige informatie die de beheerorganisatie in het kader van de uitoefening van haar taken,
+verantwoordelijkheden en bevoegdheden als beheerorganisatie van het Afsprakenstelsel tot haar beschikking heeft. Koppeling met eigen registraties: Wanneer een DV het mogelijk maakt meer dan één Herkenningsmiddel te koppelen
+aan één account uit de eigen registratie (meervoudige koppeling van middelen), moet voldoende zeker zijn dat elk
+gekoppeld Herkenningsmiddel dezelfde dienstafnemer betreft. Bijvoorbeeld door tijdens het koppelen van een
+tweede middel een additionele controle uit te voeren. In het bedrijvendomein kan de DV controleren of tenminste
+het KvK-nummer overeenkomt met dat uit een eerdere koppeling. In het consumentendomein kan een DV
+meegeleverde attributen controleren om zekerheid te hebben dat het dezelfde persoon betreft, maar zijn andere
+controles met vergelijkbare zekerheid ook mogelijk.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 221Is een dergelijke controle niet mogelijk, dan moet bij het koppelen van het tweede middel de eerste
+koppeling ongedaan worden gemaakt. De DV moet zijn makelaar informeren over eventuele meervoudige koppeling van middelen met een
+beschrijving van het proces dat zekerheid moet bieden dat het dezelfde dienstafnemer betreft. De dienstaanbieder neemt in de dienstencatalogus op dat een of meer van zijn diensten beschikbaar is voor
+Dienstbemiddeling. Daarbij geeft de dienstaanbieder aan of de betreffende dienst vrij bemiddelbaar is of dat een
+dienstbemiddelaar alleen wordt toegelaten na voorafgaand akkoord van de dienstaanbieder. De dienstaanbieder geeft in de dienstencatalogus aan welk betrouwbaarheidsniveau minimaal vereist is voor de
+betreffende dienstbemiddelaar. De dienstaanbieder staat alleen een dienstbemiddelaar toe om Bemiddelingsdiensten te verrichten indien de
+dienstbemiddelaar heeft aanvaard dat hij alle verplichtingen moet nakomen die op grond van het afsprakenstelsel op
+hem rusten en dat hij aansprakelijk is voor zijn eigen handelen en nalaten. De herkenningsmakelaar ziet er op toe dat de dienstbemiddelaar alle op hem rustende verplichtingen van het
+afsprakenstelsel naleeft. Dit betreft onder meer de beveiliging van de verbinding en haar systemen, de website en de
+koppeling met de dienstaanbieder.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 222Vertegenwoordiging, volmacht en machtiging
+Het Netwerk moet het mogelijk maken om de vertegenwoordigingsbevoegdheid van de  te controleren. Gebruiker
+is de overkoepelende term voor de situatie waarin de ene  (de Vertegenwoordiging (vertegenwoordigen) Natuurlijk persoon
+) de  heeft om in naam van een andere persoon (de ) een rechtshandeling Vertegenwoordiger Bevoegdheid Vertegenwoordigde
+te verrichten met het gevolg dat die ander is gebonden door de rechtshandeling. Vertegenwoordiging is binnen het afsprakenstelsel zowel op grond van het burgerlijk recht als op grond van het
+bestuursrecht van belang. De privaatrechtelijke kant doet zich voor bij vertegenwoordiging van rechtspersonen en
+natuurlijke personen. De publiekrechtelijke kant is van belang bij vertegenwoordiging van bestuursorganen. Voor de wijze waarop een vertegenwoordigingsbevoegde kenbaar maakt namens een ander te handelen bestaan geen vaste
+vormen. Het Burgerlijk Wetboek legt wel vast dat degene die gevraagd wordt bevoegdheid te vertrouwen (hier: de
+dienstverlener) een schriftelijke onderbouwing kan vragen of een bevestiging van de vertegenwoordigde. Voor
+overheidsdienstverleners volgt dit eveneens uit art. 2.1 Algemene Wet Bestuursrecht. Elektronisch gebruik van vertegenwoordigingsbevoegdheden vereist vastlegging in elektronische vorm. De partij die
+verantwoordelijk is voor deze registratie is het . Deze moet bewijs vastleggen dat de elektronische Machtigingenregister (MR)
+bevoegdheid is terug te voeren op de wil van de vertegenwoordigde dienstafnemer om zich op die wijze te laten
+vertegenwoordigen of op wettelijke vertegenwoordiging. Bij de vastlegging in elektronische vorm wordt de strekking van de vertegenwoordigingsbevoegdheid uitgedrukt in termen
+van de elektronische diensten die de bevoegde namens de vertegenwoordigde mag uitvoeren. Deze vastlegging is de
+verantwoordelijkheid van de vertegenwoordigde dienstafnemer. Deze moet de strekking correct opgeven aan het
+. Het machtigingenregister controleert dat de strekking niet breder is dan uit het meegeleverde bewijs machtigingenregister
+blijkt. (Naast deze beperking kunnen er nog andere beperkingen aan de strekking bestaan). Een vertegenwoordigingsbevoegdheid eindigt door herroeping door de vertegenwoordigde of doordat hetzij de
+vertegenwoordigingsbevoegde, hetzij de vertegenwoordigde overlijdt, opgeheven wordt, onder curatele komt, failliet wordt
+verklaard of in schuldsanering komt. Dit moet tevens leiden tot beëindiging van iedere elektronische registratie van
+betreffende vertegenwoordigingsbevoegdheid. In een machtigingenregister vastgelegde bevoegdheden worden beschouwd als informatie die alleen gedeeld mag worden
+met de betrokkenen: de vertegenwoordigde, degene die laat registreren en de bevoegde. Verklaringen worden alleen
+verstrekt voor dienstverleners die de in een bevoegdheid opgenomen dienst aanbieden en in de dienstencatalogus hebben
+laten registreren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 223Privaatrechtelijke vertegenwoordiging
+Vertegenwoordigingsbevoegdheid kan ontstaan op grond van de wet of op grond van volmacht. Voorbeelden van
+vertegenwoordiging op grond van de wet zijn:
+vertegenwoordiging van minderjarigen door ouders of voogd;
+vertegenwoordiging van onder curatele gestelden door een curator;
+vertegenwoordiging van  zoals verenigingen, stichtingen, NV's en BV's, door hun bestuurders; rechtspersonen
+vertegenwoordiging door een zaakwaarnemer die andermans belangen waarneemt. Volmacht is de bevoegdheid die een volmachtgever verleent aan een ander, de gevolmachtigde, om in zijn naam
+rechtshandelingen te verrichten. Hieronder wordt ook verstaan het in ontvangst nemen van een verklaring. Het gaat erom
+dat voor de derde duidelijk is dat de gevolmachtigde als vertegenwoordiger voor een ander, namelijk de volmachtgever,
+optreedt. Met het geven van een volmacht blijft de bevoegdheid van de volmachtgever om zelf te handelen te allen tijde
+bestaan. Een volmacht kan uitdrukkelijk of stilzwijgend worden verleend. De wet maakt een onderscheid tussen de algemene
+volmacht en de bijzondere volmacht. Een rechtshandeling verricht door de gevolmachtigde, binnen de grenzen van zijn
+volmacht en in naam van de volmachtgever, bindt de volmachtgever. De gevolmachtigde "valt er tussenuit". Juridisch zijn de
+volmachtgever en de derde aan elkaar gebonden. Indien de gevolmachtigde buiten zijn volmacht handelt, is de
+volmachtgever toch gebonden indien hij de betreffende rechtshandeling bekrachtigt, of indien er sprake is van de schijn van
+volmachtverlening, dan wel de schijn van vertegenwoordigingsbevoegdheid. De schijn van volmachtverlening doet zich voor
+indien een pseudo-gevolmachtigde zonder een toereikende volmacht handelt en de derde op grond van een verklaring of
+gedraging van de pseudo-volmachtgever heeft aangenomen en onder de gegeven omstandigheden redelijkerwijs mocht
+aannemen dat er wel een toereikende volmacht was verleend.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 224Publiekrechtelijke vertegenwoordiging
+De  heeft de volgende juridische achtergrond. In bestuursrechtelijke verhoudingen kan een ieder Machtiging (machtigen)
+zich ter behartiging van zijn belangen in het verkeer met bestuursorganen:
+laten bijstaan; of
+door een gemachtigde laten vertegenwoordigen. Door te spreken van machtiging in plaats van volmacht wenst de wetgever aan te geven dat de regeling van volmacht niet
+rechtstreeks van toepassing is maar alleen "voor zover de aard van de rechtshandeling of de rechtsbetrekking zich daartegen
+niet verzet". In de documentatie van Elektronische Toegangsdiensten wordt de term machtiging ook in meer algemene zin
+gebruikt wanneer vertegenwoordigingsbevoegdheid bedoeld is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 225Ketenmachtiging (recht op substitutie)
+Bij ketenmachtigingen gaat het om het doorgeven van een volmacht. Dit wordt ook het recht op substitutie genoemd. Het
+uitgangspunt van het recht op substitutie is dat dit recht expliciet door de volmachtgever aan de gemachtigde moet worden
+verleend. Vervolgens kan de gemachtigde, op grond van dit recht op substitutie, de volmacht doorgeven. De substituut
+volmacht kan zowel aan een natuurlijk persoon als aan een onderneming of rechtspersoon worden verleend. De
+volmachtgever dient in de volmacht aan de gevolmachtigde op te nemen of de gevolmachtigde al dan niet met toestemming
+van de volmachtgever de volmacht aan een ander (substituut volmacht) mag verlenen. Een ander uitgangspunt bij het recht op substitutie is dat de volmachtgever tenminste op de hoogte moet worden gesteld in
+het geval substitutie plaatsvindt zodat hij kan bepalen of hij de vertegenwoordigingsbevoegd van de substituut
+gevolmachtigde wil handhaven. Dit uitgangspunt geldt o.m. niet voor de bevoegde die zijn werknemer inzet om de aan hem verleende bevoegdheden te
+gebruiken. Verder kan in een overeenkomst door een vertegenwoordigde "anders bepaald" worden. Een vertegenwoordigde weet dus wie namens hem zou kunnen handelen, met uitzondering mogelijk van de laatste schakel,
+indien dit een werknemer is van de één na laatste bevoegde. Andersom wordt er van uitgegaan dat degene die als bevoegde
+optreedt dit met een helder doel voor ogen doet, namelijk het realiseren van een rechtshandeling voor de
+vertegenwoordigde, derhalve kan er van uitgegaan worden . dat deze de hele keten naar zich toe kent
+In een keten van vertegenwoordiging kent eenieder de keten "boven" hem. Ieder kent ook degene aan wie hij zelf een
+bevoegdheid heeft verleend op grond van substitutie. De vertegenwoordigde tenslotte kent de hele keten, met uitzondering
+van de laatste schakel indien dit een werknemer van de bevoegde betreft en voorzover niet anders bepaald bij overeenkomst. De vertegenwoordigde moet een bevoegdheid en een verleend recht van substitutie te allen tijde kunnen intrekken. Eveneens moet een bevoegde die substitutie heeft verleend deze kunnen intrekken. Derhalve moet een geregistreerde
+bevoegdheid te allen tijde kunnen worden ingetrokken door degene die daartoe gerechtigd is. Evenals bij een volmacht blijft bij een substituut volmacht, de volmachtgever bevoegd de rechtshandelingen waarvoor
+volmacht is verleend te verrichten, De bevoegdheid om zelf te handelen blijft ook voor de gemachtigde bestaan. Dit is slechts
+anders als tussen partijen is overeengekomen, bijvoorbeeld in een overeenkomst tot lastgeving, dat de volmachtgever voor
+de duur van die overeenkomst zelf niet meer bevoegd is de betreffende rechtshandelingen te verrichten. Het is mogelijk het recht van substitutie ook van toepassing te verklaren op vormen van vertegenwoordiging die niet
+voortvloeien uit volmacht, zoals machtigingen voor publiekrechtelijke taken of mandatering binnen een
+overheidsorganisatie. Door voor het publiekrechtelijke domein te spreken van machtiging in plaats van volmacht, wenst de
+wetgever aan te geven dat de regeling van volmacht niet rechtstreeks van toepassing is maar alleen "voor zover de aard van de
+rechtshandeling of de rechtsbetrekking zich daartegen niet verzet". Zie ook artikel 3:79 BW. Een dergelijke beperking kan
+bijvoorbeeld zijn gelegen in specifieke wet en regelgeving voor een overheidsdienstverleners.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 226Aansprakelijkheid
+Binnen het afsprakenstelsel is iedere deelnemer aansprakelijk voor zijn eigen handelen en/of nalaten binnen de rol die hij
+vervult. Voor de aansprakelijkheid gelden de algemene regels van het Nederlands recht ten aanzien van de inhoud en
+omvang van wettelijke verplichtingen tot schadevergoeding. De deelnemers mogen en kunnen niet afwijken van deze
+algemene regels. Hoe deze regels in een concreet geval uitwerken, is afhankelijk van de feiten en de omstandigheden van het
+geval. De deelnemer kan zijn aansprakelijkheid beperken in de overeenkomst die hij sluit met een dienstafnemer of met een
+dienstverlener. Daarbij blijft hij gebonden aan de algemene regels van het Nederlandse recht inzake aansprakelijkheid en
+schadevergoeding. Weliswaar is BSNkgeen deelnemer van het afsprakenstelsel, BSNk speelt wel een essentiële rol binnen het netwerk van het
+afsprakenstelsel in het BSN domein. Ook voor BSNk geldt dat zij aansprakelijk is voor haar eigen handelen en/of nalaten
+binnen de rol die zij vervult. Ook de dienstbemiddelaar is aansprakelijk voor zijn eigen handelen en/of nalaten . Weliswaar is de   geen Deelnemer van het afsprakenstelsel, de eIDAS-berichtenservice speelt wel eIDAS-berichtenservice (EB)
+een essentiële rol binnen het netwerk van het afsprakenstelsel. De eIDAS-berichtenservice valt onder de ministeriële
+verantwoordelijkheid van de staatssecretaris van Binnenlandse Zaken. Dit houdt in dat de staatssecretaris van Binnenlandse
+Zaken ook aansprakelijk is voor handelen en/of nalaten van de rol van de eIDAS-berichtenservice.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 227Betrouwbaarheidsniveaus
+Het vaststellen van het voor een bepaalde dienst vereiste  wordt bepaald door de dienstaanbieder. Betrouwbaarheidsniveau
+Indien de dienstaanbieder voor (een van) zijn diensten het BSN specificeert (=  ), urn:etoegang:1.12:EntityConcernedID:BSN
+dan geldt de regel dat deze dienst minimaal het betrouwbaarheidsniveau substantieel moet uitvragen. Dit om te voorkomen dat een grote onderneming minder drempels heeft om in te loggen in vergelijking met een
+zelfstandige onderneming. Dit geldt zowel voor een publiek- als een privaatrechtelijke dienstaanbieder. De overheidsdienstaanbieder moet ter naleving
+van de Awb invulling geven aan de norm van een betrouwbare en vertrouwelijke communicatie. De zal dus steeds bij het aanbieden van een dienst een risicoanalyse moeten uitvoeren en na moeten gaan dienstaanbieder
+welke maatregelen moeten worden genomen om de elektronische communicatie voldoende betrouwbaar en vertrouwelijk
+te laten plaatsvinden. Onderdeel hiervan is een keuze voor het vereiste betrouwbaarheidsniveau voor een bepaalde dienst
+waarvoor Herkenningsdiensten worden gebruikt. Naast het vaststellen van het door de gekozen dienstaanbieder
+betrouwbaarheidsniveau zal de overheidsdienstaanbieder nog andere maatregelen moeten nemen om een dienst conform
+de vereisten van de Awb betrouwbaar elektronisch aan te bieden. De extra te treffen maatregelen zijn afhankelijk van het
+betrouwbaarheidsniveau. Waar Elektronische Toegangsdiensten wordt toegepast voor e-diensten buiten de overheid (B2B en B2C) gelden de specifieke
+Awb eisen uiteraard niet. In geval van B2B en B2C diensten geldt dat middelenuitgevers, machtigingenregisters en ook de
+betreffende een "dienst van de informatiemaatschappij" en/of een zogenaamde 'dienst op afstand' (als dienstverleners
+gedefinieerd in het Burgerlijk Wetboek) aanbieden. Deze partijen zijn zelf verantwoordelijk om aan de daarbij behorende
+informatieplichten en plichten ten aanzien van de totstandkoming van een rechtsgeldige overeenkomst, zoals opgenomen
+in het Burgerlijk Wetboek, te voldoen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 228Samenwerking met externe verkoopkanalen
+De Deelnemer MAG samenwerken met externe, niet-toegetreden, partijen voor de verkoop van zijn eHerkenningsmiddelen. Het gaat hierbij om niet-toegetreden partijen die (een deel van) het verkoopproces voor de Deelnemer uitvoeren en daarbij
+geen rol hebben en/of activiteiten uitvoeren in het  (deel)proces van de rollen waarmee de Deelnemer is toegetreden
+De Deelnemer MOET zich daarbij houden aan de volgende afspraken:
+De Deelnemer blijft eindverantwoordelijk voor de uitgifte van de middelen, of andere taken die zijn voorbehouden
+aan de Deelnemer (juridisch, technisch, procedureel e.d.);
+De Deelnemer blijft verantwoordelijk voor het voldoen aan de eisen in het Afsprakenstelsel, o.a. t.a.v. incidenten,
+privacy, beveiliging, vraag- en klachtafhandeling;
+De Deelnemer MOET erop toezien dat het externe verkoopkanaal waarmee zij samenwerkt de eisen t.a.v. samenwerking met externe verkoopkanalen naleeft;
+De Deelnemer ziet er op toe dat het verkoopkanaal waarmee samengewerkt wordt, het vertrouwen in en de goede
+naam van eHerkenning niet beschadigd;
+De Deelnemer MOET afspraken over de samenwerking vastleggen in een overeenkomst met het externe
+verkoopkanaal;
+De Deelnemer MOET in de overeenkomst met deze partij in ieder geval afspraken maken over:
+Eigendom van klant- en loggegevens;
+Naleving Afsprakenstelsel;
+Wijze van communiceren;
+Beëindiging van de overeenkomst (incl. opzegtermijn en recht op schade) indien de externe verkoper zich
+niet houdt aan de afspraken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 229Meldplicht
+De Deelnemer MOET de intentie om samen te gaan werken met een extern verkoopkanaal voor de Nederlandse markt
+melden bij het Secretariaat van de Commissie van Deskundigen en de volgend informatie aanleveren:
+De statutaire naam en kvk-nummer van de externe partij waarmee de partij is ingeschreven in het Nederlands
+handelsregister;
+De domeinnaam/-namen en handelsnaam/ -namen die de externe verkoper beoogd te gebruiken in het
+verkoopproces;
+Een zelfverklaring waarmee de Deelnemer verklaart dat de samenwerking met de externe verkoper voldoet aan de
+eisen uit het Afsprakenstelsel en aan de eisen ten aanzien van communicatie bij samenwerking met externe
+verkoopkanalen. het samenwerkingscontract
+Nadat het Secretariaat van de Commissie van Deskundigen de wijze van samenwerking heeft beoordeeld meldt de Deelnemer
+de samenwerking met specifieke externe verkoopkanalen bij de Beheerorganisatie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 230Gebruiksvoorwaarden Elektronische Toegangsdiensten
+Gebruikersvoorwaarden
+Versie G1.7 Geldig vanaf versie van het AS 1.13p
+Deze Gebruiksvoorwaarden zijn van toepassing op het verlenen van diensten door Deelnemers aan Dienstverleners en
+Dienstafnemers in het kader van Elektronische Toegangsdiensten. Artikel 1. Definities
+Artikel 2.

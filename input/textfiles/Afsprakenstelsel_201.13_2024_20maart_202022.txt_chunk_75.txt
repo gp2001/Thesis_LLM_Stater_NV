@@ -1,0 +1,92 @@
+Element
+/@Attribute0.. 1Description
+Attribute 0..n Elektronische Toegangsdiensten:
+Depending on : Rules for processing request
+one or more 's ActingSubjectID
+one or more LegalSubjectID
+one or more EntityConcernedID
+ServiceID  as multi-valued XACML attribute
+exactely one IntermediateEntityID, the identity of Intermediate
+one or more ServiceRestrictions, eg ServiceRestriction:Vestigingsnr
+In case of , MUST contain the attribute IntermediateEntityID. Ketenmachtiging
+EncryptedAttribute 0..n Depending on   Rules for processing request
+one or more EncryptedAttributes  requested by the DV and provided by the AD and/or
+MR
+Example HM AttributeStatement for citizen domain
+<saml:AttributeStatement>
+<saml:Attribute Name="urn:etoegang:core:ServiceUUID">
+<saml:AttributeValue xsi:type="xs:string">1ff84f14-df64-11e4-ba1a-080027a35b78</saml:
+AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:AuthorizationRegistryID">
+<saml:AttributeValue xsi:type="xs:string">urn:etoegang:AD:...</saml:AttributeValue>
+</saml:Attribute>
+</saml:AttributeStatement>
+Example HM AttributeStatement for consumer domain
+<saml:AttributeStatement>
+<saml:Attribute Name="urn:etoegang:core:ServiceUUID">
+<saml:AttributeValue xsi:type="xs:string">0013c492-84cd-4c4b-8206-b13007ac2a1c</saml:
+AttributeValue>
+</saml:Attribute>
+<saml:EncryptedAttribute>
+<xenc:EncryptedData Id="_copy_Encrypted_FirstName" Type="http://www.w3.org/2001/04
+/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+<ds:KeyInfo>
+<ds:Keyname>...</ds:Keyname>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>...</xenc:CipherValue>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 559            </xenc:CipherData>
+</xenc:EncryptedData>
+</saml:EncryptedAttribute>
+<saml:EncryptedAttribute>
+<xenc:EncryptedData Id="_copy_Encrypted_18OrOlder" Type="http://www.w3.org/2001/04
+/xmlenc#Element">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+<ds:KeyInfo>
+<ds:Keyname>...</ds:Keyname>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>...</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+</saml:EncryptedAttribute>
+</saml:AttributeStatement>
+Example HM AttributeStatement for business domain
+<saml:AttributeStatement>
+<saml:Attribute Name="urn:etoegang:core:ServiceID">
+<saml:AttributeValue xsi:type="xs:string">urn:etoegang:DV:...:services:...</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:ServiceUUID">
+<saml:AttributeValue xsi:type="xs:string">dd4dae83-0f35-4695-b24a-29d470a63ea7</saml:
+AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:1.9:EntityConcernedID:KvKnr">
+<saml:AttributeValue xsi:type="xs:string">12345678</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:1.9:ServiceRestriction:Vestigingsnr">
+<saml:AttributeValue xsi:type="xs:string">123456789012</saml:AttributeValue>
+</saml:Attribute>
+</saml:AttributeStatement>
+Example HM AttributeStatement for business domain with multiple entityconcernedtypes
+<saml:AttributeStatement>
+<saml:Attribute Name="urn:etoegang:core:ServiceID">
+<saml:AttributeValue xsi:type="xs:string">urn:etoegang:DV:...:services:...</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:ServiceUUID">
+<saml:AttributeValue xsi:type="xs:string">dd4dae83-0f35-4695-b24a-29d470a63ea7</saml:
+AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:1.9:EntityConcernedID:KvKnr">
+<saml:AttributeValue xsi:type="xs:string">12345678</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:1.9:EntityConcernedID:RSIN">
+<saml:AttributeValue xsi:type="xs:string">987654321</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:1.9:ServiceRestriction:Vestigingsnr">
+<saml:AttributeValue xsi:type="xs:string">123456789012</saml:AttributeValue>
+</saml:Attribute>
+</saml:AttributeStatement>
+Rules for processing responsesAfsprakenstelsel Elektronische Toegangsdiensten | pagina 560
+On a successful authentication the HM MUST generate a 'Summary Assertion' based on the Assertions gathered during
+the authentication process, using the following processing rules. MUST sign the enclosed <Assertion> as well as the <Response> (and/or the enclosing <ArtifactResponse>). MUST verify each collected assertion has at minimum the Level of Assurance as requested by the DV.

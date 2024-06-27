@@ -1,0 +1,41 @@
+Requesting services of
+other Service Providers is not allowed. A  (Service Intermediary) can intermediate another Dienstbemiddelaar (DB)
+service, if permitted by the Dienstaanbieder (Service Supplier), by indicating this in the Service Catalog
+(@IntermediatedService in ServiceInstance). MAY use the  to reference the service (as specified in the metadata). @AttributeConsumingServiceIndex
+MAY use the <RequestedAuthnContext> to indicate a requested level of assurance, optionally lower than the LoA
+listed in the Service Catalogue for the requested Service. NB. Using the <RequestedAuthnContext> indicates the DV can accept/process the LoA in the
+<AuthnContextClassRef> in the response as well. (NB. this may restrict out-of-box-processing by appliances!)
+MAY pass AD pre-selected for authentication. In this case:
+the DV MUST use an authentic list (signed by BO/HM) of accredited ADs. The list SHOULD be updated at
+least once every 15 minutes, the list MUST NOT be older than 30 minutes. the DV MUST show the OrganizationDisplayName of all valid, applicable ADs, in alphabetic order and
+equal appearance. Applicable means an AD supporting at least a LevelOfAssurance equal to or greater than
+the minimum requested level of assurance and the requested NameIDFormat(s) (=EntityConcernedType). The OrganizationDisplayName MUST be taken from the beforementioned list of accredited ADs, which
+MUST contain an exact copy from the . Network metadata
+In case of a Portal request the eIDAS-berichtenservice MUST NOT be offered in the list of AD's to be
+selected. If eIDAS-inbound is supported for the service, the eIDAS-berichtenservice MUST be displayed as a
+separate option / brand for authentication, next to eHerkenning. The EB MUST NOT be part of the
+eHerkenning AD list. The list of AD's for eHerkenning as returned by service requestADList will not contain the eIDAS
+Berichtenservice (anymore). In case of multiple OrganizationDisplayNames: if a user-specified preference or user interface
+language is available, the DV MUST present the OrganizationDisplayName with a
+matching LanguageQualifier; else if an OrganizationDisplayName with LanguageQualifier "nl" is
+present, this Dutch OrganizationDisplayName MUST be displayed; else if an
+OrganizationDisplayName with LanguageQualifier "en" is present, this English Afsprakenstelsel Elektronische Toegangsdiensten | pagina 544OrganizationDisplayName MUST be displayed; else, the first OrganizationDisplayName with a
+different LanguageQualifier MUST be displayed. the DV MUST show the logo of the applicable brand of the service classifier specified by the DV:
+Domain LoA in
+requestEntityConcernedType in service catalog Branding
+Business 1, 2, 2+, 3, 4 urn:etoegang:1.9:EntityConcernedID:KvKnr
+urn:etoegang: 1.9: EntityConcernedID:RSIN
+urn:etoegang:1.13:EntityConcernedID:PROBASnr
+urn:etoegang:1.11:EntityConcernedID:
+eIDASLegalIdentifiereHerkenning
+Business,
+Consumer1, 2, 2+, 3, 4 urn:etoegang:1.12:EntityConcernedID:PseudoID
+urn:etoegang:1.9:EntityConcernedID:PseudoeHerkenning
+Citizen* 3, 4 urn:etoegang:1.12:EntityConcernedID:BSN eHerkenning
+* Citizen: r1.12 only EU-citizens via eIDAS BerichtenService
+in case an AD has multiple endpoints (SingleSignOnService elements): the user MUST be allowed to select
+one of the endpoints, based on the eme:name attribute of applicable SingleSignOnService endpoints, by
+listing an AD multiple times with the eme:name appended. Additionally a DV MUST present A separate  "eIDAS" login option , to opt for the eIDAS-berichtenservice as
+an AD for login with an eIDAS-authentication scheme from another eIDAS-member state:
+The Dienstverlener MUST use the   to present the eIDAS. Richtlijnen communicatie eIDAS
+Berichtenservice to the user.

@@ -1,0 +1,38 @@
+1Elektronische Toegangsdiensten: MAY be included. If IsPassive is included,
+the value MUST be 'false'. @ProtocolBinding 0.. 1SAML: Specifies the used binding. MUST only be used when an @
+is used, MUST NOT be used in combination AssertionConsumerServiceURL
+with an @ . AssertionConsumerServiceIndex
+@AssertionConsumerServiceIndex 0.. 1Elektronische Toegangsdiensten: This attribute element specifies the URL to
+which the HM sends the response for the DV. If present this index MUST
+refer to an endpoint of an AssertionConsumerService in the DV metadata for
+.HM
+MUST NOT be present if  is present. @AssertionConsumerServiceURL
+If neither  or @AssertionConsumerServiceIndex
+is present, the HM MUST send the @AssertionConsumerServiceURL
+response to the endpoint in the metadata that is marked with
+'isDefault=true'
+@AssertionConsumerServiceURL 0.. 1SAML: If present, URL MUST point to a SAML endpoint acknowlegded in the
+. If present, the participant MUST check whether the DV metadata for HM
+is included in the DV's @AssertionConsumerServiceUrl  DV metadata for HM
+. If it is not included in the metadata, the participant MUST reject the
+message with the status code RequestDenied. MUST NOT be present if  is present. @AssertionConsumerServiceIndexAfsprakenstelsel Elektronische Toegangsdiensten | pagina 542
+@AttributeConsumingServiceIndex 0.. 1SAML: If present, MUST refer to an AttributeConsumingService in the DV's
+metadata. If absent, the AttributeConsumingService marked as default in
+the  SHOULD be used. DV metadata for HM
+The AttributeConsumingService MUST contain exactly  attribute with a one
+name that is the same as a long formatted . The ServiceID
+AttributeConsumingService MAY contain attributes to be requested. Multiple AttributeConsumingService elements MAY be present in the DV
+and can be mapped to the same ServiceID. This allows DVs metadata for HM
+to request authentication for a single service with varying attributes
+depending on the context. The union of all attributes that may be queried
+for a ServiceID MUST be declared in the Service Catalog. An application that cannot pass an AttributeConsumingServiceIndex can
+now retrieve different services and/or attribute contracts by exchanging
+metadata between different s. EntityID
+@ProviderName 0.. 1Elektronische Toegangsdiensten (DV): MAY contain a more detailed
+description of the service, complimentary to the entry in the service catalog
+Elektronische Toegangsdiensten MAY NOT contain personally identifiable
+information
+Issuer 1 Elektronische Toegangsdiensten: MUST contain the  of the DV. EntityID
+@NameQualifier 0 Elektronische Toegangsdiensten: MUST NOT be included. @SPNameQualifier 0 Elektronische Toegangsdiensten: MUST NOT be included. @Format 0 Elektronische Toegangsdiensten: MUST NOT be included. @SPProvidedID 0 Elektronische Toegangsdiensten: MUST NOT be included. Signature 1 Elektronische Toegangsdiensten: MUST contain the  of the Digital signature
+DV for the envelopping message. Extensions 0 Elektronische Toegangsdiensten: MUST NOT be included. Subject 0 Elektronische Toegangsdiensten: MUST NOT be included. NameIDPolicy 0 Elektronische Toegangsdiensten: MUST NOT be included. Conditions 0 Elektronische Toegangsdiensten: MUST NOT be included. RequestedAuthnContext 0.. 1Elektronische Toegangsdiensten: MAY be used to explicitly request a specific
+LoA.

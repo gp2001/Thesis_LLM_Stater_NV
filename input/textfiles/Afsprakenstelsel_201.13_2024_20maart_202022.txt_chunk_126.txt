@@ -1,0 +1,140 @@
+Both encodings are allowed, with a preference for uncompressed encoding. A Polymorphic Identity of Polymorphic Pseudonym can be signed for integrity protection:
+SignedPolymorphicIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-identity-signed),
+signedPI SEQUENCE {
+polymorphicIdentity PolymorphicIdentity,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+},
+signatureValue ECDSA-Signature
+}
+SignedPolymorphicPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-pseudonym-signed),
+signedPP SEQUENCE {
+polymorphicPseudonym PolymorphicPseudonym,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+},
+signatureValue ECDSA-Signature
+}
+An auditElement holds an audit value consisting of an identifier for the creator, a timestamp and a sequence number from
+that creator. This auditElement is 16 bytes (32-bit creator, 32-bit timestamp and 64-bit sequence-number). The creator
+identifies the party providing the Polymorphic/Encrypted Identity or Pseudonym and the unique device used. The timestamp
+and sequence number can be used in case of a compromise or dispute, so that mitigating measure or resolution can be
+accomplished. Note: the timestamp is 32-bit in seconds since 1 jan 1970 UTC. The auditElement is encrypted under a key
+only retrievable by the supervisor of the scheme, which is provided to the supervisior by the keymanagement role. The signatureValue can be used to assert the authenticity of the (polymorphic/encrypted) Identity or Pseudonym. The
+signature is applied to the byte sequence of the complete DER-encoded signed sequence (e.g. signedPP in a
+SignedPolymorphicPseudonym). The public key for verification can be retrieved using the creator from the structure covered
+under the signature and the signingKeyVersion. -- ECPoint is described in ANSI X9.62 (2005), annex E.6. -- In particular, encoding from point to octet string andAfsprakenstelsel Elektronische Toegangsdiensten | pagina 776-- from octet string to a point is defined in annex A.5.7
+-- and A.5.8 of ANSI X9.62. ECPoint ::= OCTET STRING
+ECDSA-Signature ::= SEQUENCE {
+signatureType      OBJECT IDENTIFIER (ecdsa-with-SHA384),
+signatureValue     EC-Sig-Value
+}
+-- EC-Sig-Value is identitical to BSI TR 03111 ECDSA-Sig-Value. -- which is identical to ECDSA-Sig-Value defined in RFC5480 as well. EC-Sig-Value ::= SEQUENCE {
+r  INTEGER,
+s  INTEGER
+}
+ecdsa-with-SHA384 OBJECT IDENTIFIER ::= {
+iso(1) member-body(2) us(840) ansi-X9-62(10045) signatures(4)
+ecdsa-with-SHA2(3) 3 }
+id-BSNk-scheme-nl OBJECT IDENTIFIER ::= { joint-iso-itu-t(2) country(16) nl(528) nederlandse-organisatie(1)
+nederlandse-overheid(1003) ..... TODO }
+id-BSNk-identifiers OBJECT IDENTIFIER ::= { id-BSNk-scheme-nl 1 }
+id-BSNk-polymorphics OBJECT IDENTIFIER ::= { id-BSNk-identifiers 1 }
+id-BSNk-polymorphic-identity OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 1 }
+id-BSNk-polymorphic-pseudonym OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 2 }
+id-BSNk-polymorphic-identity-signed OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 3 }
+id-BSNk-polymorphic-pseudonym-signed OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 4 }
+PIP – PPCA optimized
+For privacy enhanced implementation, Polymorphic Identities and Pseudonyms can be implemented on a smartcard. This is
+called a PP-card application, or PPCA. A Polymorphic Identity and a Polymorphic Pseudonym can be combined to 5 points
+on an elliptic curve rather than six, for optimization in a smartcard implementation. The PPCA-optimized PIP version of
+Polymorphic Identities or Pseudonyms are provided in  . Interface spec BSNk: activate
+The combined notation for an Polymorphic Identity and Pseudonym is as follows:
+Polymorphic Identity and Pseudonym (PIP) ASN.1 notation
+PIP ::= SEQUENCE {
+notationIdentifier  OBJECT IDENTIFIER (id-BSNk-polymorphic-pip),
+schemeVersion INTEGER,
+schemeKeyVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+type INTEGER,
+points SEQUENCE (SIZE (5)) OF ECPoint
+}
+The first, second and fourth ECPoint in a PIP correspond to those of a PI. Similarly, the first, third and fifth correspond to
+those of a PP. In this fashion one can extract a PI and PP from a PIP.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 777There also exists a signed version of a PIP:
+SignedPIP::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-pip-signed),
+signedPIP SEQUENCE {
+pip PIP,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+}
+signatureValue ECDSA-Signature
+}
+Which follows the same concepts as described for a Polymorphic Identity or Polymorphic Pseudonym. id-BSNk-polymorphic-pip OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 5 }
+id-BSNk-polymorphic-pip-signed OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 6 }
+Encrypted Identity or Pseudonym
+An Encrypted Identity or Pseudonym consists of 3 points on an elliptic curve. The notation for a complete Encrypted Identity
+and an Encrypted Pseudonym is as follows:
+Encrypted pseudoID ASN.1 notation
+EncryptedIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-identity),
+schemeVersion INTEGER,
+schemeKeyVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+EncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-pseudonym),
+schemeVersion INTEGER,
+schemeKeyVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+diversifier IA5String OPTIONAL,
+type INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+SignedEncryptedIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-identity-signed),
+signedEI SEQUENCE {
+encryptedIdentity EncryptedIdentity,
+auditElement OCTET STRING
+}
+signatureValue EC-Schnorr-Signature
+}
+SignedEncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-pseudonym-signed),
+signedEP SEQUENCE {
+encryptedPseudonym EncryptedPseudonym,Afsprakenstelsel Elektronische Toegangsdiensten | pagina 778        auditElement OCTET STRING
+}
+signatureValue EC-Schnorr-Signature
+}
+DirectEncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-direct-pseudonym),
+schemeVersion INTEGER,
+schemeKeyVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+type INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+SignedDirectEncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-direct-pseudonym-signed),
+signedDEP SEQUENCE {
+directEncryptedPseudonym DirectEncryptedPseudonym,
+auditElement OCTET STRING
+}
+signatureValue EC-Schnorr-Signature
+}
+The fields correspond to the same fields in a Polymorphic Identity or Pseudonym. The recipientKeySetVersion holds the
+version number for the set of recipient's keys for Identities and Pseudonyms (PD-Di, PC-Di and PI-Di). Note: In
+schemeVersion 1 the recipientKeySetVersion for DVs is a value of 8 decimal digits corresponding with the issue date
+(notBefore) of the certificate, in the format YYYYMMDD, used to request the PEM file at the party generating the keys within
+the scheme.

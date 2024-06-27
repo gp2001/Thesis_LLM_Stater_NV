@@ -1,0 +1,456 @@
+13.1.3Scheiding in netwerken  Groepen van informatiediensten, -
+gebruikers en -systemen moeten in
+netwerken worden gescheiden. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.13.2 Informatietransport  Handhaven van de beveiliging van
+informatie die wordt uitgewisseld
+binnen een organisatie en met een
+externe entiteit. A. 13.2.1Beleid en procedures voor
+informatietransport Ter bescherming van het
+informatietransport, dat via alle
+soorten communicatiefaciliteiten
+verloopt, moeten formele
+beleidsregels, procedures en
+beheersmaatregelen voor transport
+van kracht zijn. S S S Conform Information security
+. requirements
+Beleid, procedures en afspraken met
+betrekking tot de uitwisseling van
+informatie en programmatuur
+tussen Deelnemers, BSNk en BO is
+vastgelegd in het Afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 910A. 13.2.2Overeenkomsten over
+informatietransport Overeenkomsten moeten betrekking
+hebben op het beveiligd
+transporteren van bedrijfsinformatie
+tussen de organisatie en externe
+partijen. S S S Betreft uitwisseling van informatie
+en programmatuur tussen
+deelnemers, BSNk en BO. A. 13.2.3Elektronische berichten  Informatie die is opgenomen in
+elektronische berichten moet passend
+beschermd zijn. S S S Conform Interface specifications
+A. 13.2.4Vertrouwelijkheids- of
+geheimhoudingsovereenkomst Eisen voor vertrouwelijkheids- of
+geheimhoudingsovereenkomsten die
+de behoeften van de organisatie
+betreffende het beschermen van
+informatie weerspiegelen moeten
+worden vastgesteld, regelmatig
+worden beoordeeld en
+gedocumenteerd. Sv Sv Sv Uit risico-analyse zal moeten
+blijken dat toegang tot
+bepaalde gegevens extra
+aandacht voor of eisen ten
+aanzien van de
+geheimhoudingsplicht zal
+vereisen.Het betreft tenminste die gegevens
+die persoons- en bedrijfsgevoelige
+elementen bevatten zoals:
+bij MU: registaties van personen
+en middelen,
+bij AD: persistent pseudoniem,
+authenticatiecredentials
+bij MR: registraties van
+personen, bedrijven en
+machtigingen
+bij BSNk: BSN en persistent
+pseudoniem
+bij BO: commerciële informatie
+deelnemers, metagegevens. Geheimhoudingsovereenkomsten
+(non-disclosure agreements) worden
+geacht de eisen ten aanzien van deze
+gegevens te reflecteren of te
+omvatten. Het is niet noodzakelijk
+om betreffende gegevens expliciet in
+de geheimhoudingsverklaring op te
+nemen. A.14 Acquisitie, ontwikkeling en
+onderhoud van
+informatiesystemen Afsprakenstelsel Elektronische Toegangsdiensten | pagina 911A.14.1 Beveiligingseisen voor
+informatiesystemen Waarborgen dat
+informatiebeveiliging integraal deel
+uitmaakt van informatiesystemen in
+de
+gehele levenscyclus. Hiertoe behoren
+ook de eisen voor
+informatiesystemen die diensten
+verlenen via openbare netwerken. A. 14.1.1Analyse en specificatie van
+informatiebeveiligingseisen De eisen die verband houden met
+informatiebeveiliging moeten
+worden opgenomen in de eisen voor
+nieuwe informatiesystemen of voor
+uitbreidingen van bestaande
+informatiesystemen. Sv Sv Sv Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in, maar moet wel
+in VvT. A. 14.1.2Toepassingsdiensten  op openbare
+netwerken beveiligen Informatie die deel uitmaakt van
+en die via uitvoeringsdiensten
+openbare netwerken wordt
+uitgewisseld, moet worden
+beschermd tegen frauduleuze
+activiteiten, geschillen over
+contracten en onbevoegde
+openbaarmaking en wijziging. Sv Sv S BO is verantwoordelijk voor het
+beheer van de openbaar beschikbare
+informatie van het Stelsel. Van
+belang is bijv dat informatie over het
+stelsel juist is en consistent is met de
+informatie die deelnemers openbaar
+maken. A. 14.1.3Transacties van toepassingsdiensten
+beschermen Informatie die deel uitmaakt van
+transacties van toepassingsdiensten
+moet worden beschermd ter
+voorkoming van onvolledige
+overdracht, foutieve routering,
+onbevoegd wijzigen van berichten,
+onbevoegd openbaar maken,
+onbevoegd vermenigvuldigen of
+afspelen. S S S Implementatie conform de
+relevante
+koppelvlakspecificaties.Conform , Interface specifications
+waarbij te allen tijde een of meerdere
+versies geïmplementeerd dienen te
+zijn die door het afsprakenstelsel zijn
+toegestaan. A.14.2 Beveiliging in ontwikkelings- en
+ondersteunende processen Bewerkstelligen dat
+informatiebeveiliging wordt
+ontworpen en geïmplementeerd Afsprakenstelsel Elektronische Toegangsdiensten | pagina 912binnen de ontwikkelingslevenscyclus
+van informatiesystemen. A. 14.2.1Beleid voor beveiligd ontwikkelen Voor het ontwikkelen van software en
+systemen moeten regels worden
+vastgesteld en op
+ontwikkelactiviteiten binnen de
+organisatie worden toegepast. Sv Sv Sv Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in, maar moet wel
+in VvT. A. 14.2.2Procedures voor wijzigingsbeheer
+met betrekking tot systemen Wijzigingen aan systemen binnen de
+levenscyclus van de ontwikkeling
+moeten worden beheerst door het
+gebruik van formele
+controleprocedures voor
+wijzigingsbeheer. S S S Conform . Proces change en release
+A. 14.2.3Technische beoordeling van
+toepassingen na wijzigingen
+bedieningsplatform Als bedieningsplatforms zijn
+veranderd, moeten bedrijfskritische
+toepassingen worden beoordeeld en
+getest om te waarborgen dat er geen
+nadelige impact is op de activiteiten
+of de beveiliging van de organisatie. Sv Sv Sv Van belang voor
+betrouwbaarheid netwerk. Specifiek wordt van
+Deelnemers, BSNk en
+Beheerorganisatie een
+zorgvuldig proces verwacht ten
+aanzien van wijzigingen in
+relatie tot de andere partijen
+en adequaat patch- en
+updatebeleid.Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A. 14.2.4Beperkingen op wijzigingen aan
+softwarepakketten Wijzigingen aan softwarepakketten
+moeten worden ontraden, beperkt tot
+noodzakelijke veranderingen en alle
+veranderingen moeten strikt worden
+gecontroleerd.S S S Conform  Proces change en release . Restricties kunnen volgen uit de
+besluiten van het Tactisch Beraad. A. 14.2.5Principes voor engineering van
+beveiligde systemenPrincipes voor de engineering van
+beveiligde systemen moeten worden
+vastgesteld, gedocumenteerd,
+onderhouden en toegepast voor alle v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 913verrichtingen betreffende het
+implementeren van
+informatiesystemen. A. 14.2.6Beveiligde ontwikkelomgeving  Organisaties moeten beveiligde
+ontwikkelomgevingen vaststellen en
+passend beveiligen voor verrichtingen
+op het gebied van
+systeemontwikkeling en integratie die
+betrekking hebben op de gehele
+levenscyclus van de
+systeemontwikkeling. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A. 14.2.7Uitbestede softwareontwikkeling  Uitbestede systeemontwikkeling
+moet onder supervisie staan van en
+worden gemonitord door de
+organisatie. Sv Sv Sv Bij uitbesteding van
+ontwikkelwerkzaamheden aan
+een onderaannemer, dienen de
+stelselspecifieke eisen ten
+aanzien van het te ontwikkelen
+product doorvertaald te
+worden naar de
+onderaannemer.Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A. 14.2.8Testen van systeembeveiliging  Tijdens ontwikkelactiviteiten moet de
+beveiligingsfunctionaliteit worden
+getest. Sv Sv Sv Bij uitbesteding van
+ontwikkelwerkzaamheden aan
+een onderaannemer, dienen de
+stelselspecifieke eisen ten
+aanzien van het te ontwikkelen
+product doorvertaald te
+worden naar de
+onderaannemer.Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A. 14.2.9Systeemacceptatietests  Voor nieuwe informatiesystemen,
+upgrades en nieuwe versies moeten
+programma’s voor het uitvoeren van
+acceptatietests en gerelateerde
+criteria worden vastgesteld. S S S Bij wijzigingen, onderhoud en
+verstoringen dienen
+stelselspecifieke afspraken
+gevolgd te worden.Conform Operationeel handboek
+A.14.3 Testgegevens  Bescherming waarborgen van
+gegevens die voor het testen zijn Afsprakenstelsel Elektronische Toegangsdiensten | pagina 914gebruikt. A. 14.3.1Bescherming van testgegevens  Testgegevens moeten zorgvuldig
+worden gekozen, beschermd en
+gecontroleerd. Sv Sv S Conform . Testing
+A.15 Leveranciersrelaties
+A.15.1 Informatiebeveiliging in
+leveranciersrelaties De bescherming waarborgen van
+bedrijfsmiddelen van de organisatie
+die toegankelijk zijn voor
+leveranciers. A. 15.1.1Informatiebeveiligingsbeleid voor
+leveranciersrelaties Met de leverancier moeten de
+informatiebeveiligingseisen om risico’
+s te verlagen die verband houden met
+de toegang van de leverancier tot de
+bedrijfsmiddelen van de organisatie,
+worden overeengekomen en
+gedocumenteerd. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A. 15.1.2Opnemen van beveiligingsaspecten in
+leveranciersovereenkomstenAlle relevante
+informatiebeveiligingseisen moeten
+worden vastgesteld en
+overeengekomen met elke leverancier
+die toegang heeft tot IT-
+infrastructuurelementen ten behoeve
+van de informatie van de organisatie,
+of deze verwerkt, opslaat,
+communiceert of biedt. Sv Sv Sv Bij uitbesteding (deel) van de
+rol/activiteiten aan een
+onderaannemer, dienen de
+stelselspecifieke (beveiligings)
+eisen doorvertaald te worden,
+de opdrachtgever (deelnemer,
+BSNk,BO) blijft
+verantwoordelijk.Iedere overeenkomst met een derde
+moet een paragraaf/onderdeel te
+bevatten met eisen ten aanzien van
+informatiebeveiliging. Deze eisen
+moeten zijn gebaseerd op een
+risicoanalyse. A. 15.1.3Toeleveringsketen van informatie- en
+communicatietechnologie Overeenkomsten met leveranciers
+moeten eisen bevatten die betrekking
+hebben op de
+informatiebeveiligingsrisico’s in
+verband met de toeleveringsketen van
+de diensten en producten op het
+gebied van informatie- en
+communicatietechnologie. Sv Sv Sv Bij uitbesteding (deel) van de
+rol/activiteiten aan een
+onderaannemer, dienen de
+stelselspecifieke (beveiligings)
+eisen doorvertaald te worden,
+de opdrachtgever (deelnemer,
+BSNk,BO) blijft
+verantwoordelijk.Iedere overeenkomst met een derde
+moet een paragraaf/onderdeel te
+bevatten met eisen ten aanzien van
+informatiebeveiliging m.b.t. de
+toeleveringsketen. Deze eisen
+moeten zijn gebaseerd op een
+risicoanalyse.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 915A.15.2 Beheer van dienstverlening van
+leveranciers Een overeengekomen niveau van
+informatiebeveiliging en
+dienstverlening in overeenstemming
+met de leveranciersovereenkomsten
+handhaven. A. 15.2.1Monitoring en beoordeling van
+dienstverlening van leveranciers Organisaties moeten regelmatig de
+dienstverlening van leveranciers
+monitoren, beoordelen en auditen. Sv Sv Sv Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A. 15.2.2Beheer van veranderingen in
+dienstverlening van leveranciers Veranderingen in de dienstverlening
+van leveranciers, met inbegrip van
+handhaving en verbetering van
+bestaande beleidslijnen, procedures
+en beheersmaatregelen voor
+informatiebeveiliging, moeten
+worden beheerd, rekening houdend
+met de kritikaliteit van
+bedrijfsinformatie, betrokken
+systemen en processen en
+herbeoordeling van risico’s.Sv Sv Sv Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.16 Beheer van
+informatiebeveiligingsincidenten
+A.16.1 Beheer van
+informatiebeveiligingsincidenten en -
+verbeteringenEen consistente en doeltreffende
+aanpak bewerkstelligen van het
+beheer van
+informatiebeveiligingsincidenten,
+met inbegrip van communicatie over
+beveiligingsgebeurtenissen en zwakke
+plekken in de beveiliging. A. 16.1.1Verantwoordelijkheden en
+procedures Directieverantwoordelijkheden en -
+procedures moeten worden
+vastgesteld om een snelle, S S S Er dient per deelnemer en voor
+BSNk een contactpersoon te
+zijn voor coördinatie van
+beveiligingsincidenten.Conform Proces
+. incidentmanagementAfsprakenstelsel Elektronische Toegangsdiensten | pagina 916doeltreffende en ordelijke respons op
+informatiebeveiligingsincidenten te
+bewerkstelligen. De centrale coördinatie wordt
+gedaan door de
+beheerorganisatie. A. 16.1.2Rapportage van
+informatiebeveiligingsgebeurtenissen Informatiebeveiligingsgebeurtenissen
+moeten zo snel mogelijk via de juiste
+leidinggevende niveaus worden
+gerapporteerd. S S S   Conform  Proces
+incidentmanagement . A. 16.1.3Rapportage van zwakke plekken in de
+informatiebeveiligingVan medewerkers en contractanten
+die gebruikmaken van de
+informatiesystemen en -diensten van
+de organisatie moet worden geëist dat
+zij de in systemen of diensten
+waargenomen of vermeende zwakke
+plekken in de informatiebeveiliging
+registreren en rapporteren. S S S   Conform Proces
+. incidentmanagement
+A. 16.1.4Beoordeling van en besluitvorming
+over
+informatiebeveiligingsgebeurtenissenInformatiebeveiligingsgebeurtenissen
+moeten worden beoordeeld en er
+moet worden geoordeeld of zij
+moeten worden geclassificeerd als
+informatiebeveiligingsincidenten.S S S   Conform Proces
+. incidentmanagement
+A. 16.1.5Respons op
+informatiebeveiligingsincidenten Op informatiebeveiligingsincidenten
+moet worden gereageerd in
+overeenstemming met de
+gedocumenteerde procedures. S S S   Conform  Proces
+incidentmanagement . A. 16.1.6Lering uit
+informatiebeveiligingsincidenten Kennis die is verkregen door
+informatiebeveiligingsincidenten te
+analyseren en op te lossen moet
+worden gebruikt om de
+waarschijnlijkheid of impact van
+toekomstige incidenten te verkleinen. S S S Iedere organisatie dient de
+beveiligingsincidentregistraties
+en -rapportages te evalueren
+op trends en verbeterpuntenPeriodiek moeten trend-analyses van
+incidenten worden gemaakt en
+besproken in het security officers
+overleg bestaande uit de de security
+officers van deelnemers, BSNk en BO. Indien mogelijk en beschikbaar deelt
+de BO de analyses van het NCSC met
+de deelnemers.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 917A. 16.1.7Verzamelen van bewijsmateriaal  De organisatie moet procedures
+definiëren en toepassen voor het
+identificeren, verzamelen, verkrijgen
+en bewaren van informatie die als
+bewijs kan dienen. S S S Bij aanleiding tot onderzoek
+(intern het stelsel of op verzoek
+van opsporingsinstanties)
+dient relevante informatie voor
+een transactie door de keten
+van de deelnemers heen
+verzameld te kunnen worden. Conform Beleid voor
+. informatiebeveiliging
+A.17 Informatiebeveiligingsaspecten
+van bedrijfscontinuïteitsbeheer
+A.17.1 Informatiebeveiligingscontinuïteit  Informatiebeveiligingscontinuïteit
+moet worden ingebed in de systemen
+van het bedrijfscontinuïteitsbeheer
+van de organisatie. A. 17.1.1Informatiebeveiligingscontinuïteit  De organisatie moet haar eisen voor
+informatiebeveiliging en voor de
+continuïteit van het
+informatiebeveiligingsbeheer in
+ongunstige situaties, bijv. een crisis of
+een ramp, vaststellen. Sv Sv S Alle Rollen (inclusief BSNk) en
+BO: Bedrijfscontinuïteit is van
+belang voor het imago van het
+netwerk. In te vullen n.a.v. risicoanalyse voor het halen
+van de service levels. Ook
+aandacht besteden aan
+maatregelen voor herstel van
+de dienstverlening na een
+calamiteit.Deelnemers, BSNk en de BO moeten
+maatregelen nemen op basis van een
+risicobeoordeling en de SLA. Hierbij
+moet rekening worden gehouden
+met processen die zijn uitbesteed
+processen. Op stelselniveau moet de
+bedrijfscontinuïteit worden
+gemonitord door de BO. A. 17.1.2Informatiebeveiligingscontinuïteit
+implementeren De organisatie moet processen,
+procedures en beheersmaatregelen
+vaststellen, documenteren,
+implementeren en handhaven om het
+vereiste niveau van continuïteit voor
+informatiebeveiliging tijdens een
+ongunstige situatie te waarborgen. Sv Sv S Stelseltaak voor BO Conform Service level
+A. 17.1.3Informatiebeveiligingscontinuïteit
+verifiëren, beoordelen en evalueren De organisatie moet de ten behoeve
+van
+informatiebeveiligingscontinuïteit Sv Sv S Stelseltaak voor BO Conform  Service level  Afsprakenstelsel Elektronische Toegangsdiensten | pagina 918vastgestelde en geïmplementeerde
+beheersmaatregelen regelmatig
+verifiëren om te waarborgen dat ze
+deugdelijk en doeltreffend zijn tijdens
+ongunstige situaties. A.17.2 Redundante componenten  Beschikbaarheid van
+informatieverwerkende faciliteiten
+bewerkstelligen. A. 17.2.1Beschikbaarheid van
+informatieverwerkende faciliteitenInformatieverwerkende faciliteiten
+moeten met voldoende redundantie
+worden geïmplementeerd om aan
+beschikbaarheidseisen te voldoen. Sv Sv Sv   Conform  Service level . De BO moet
+de mate van redundantie van rollen
+in het Stelsel monitoren. A.18. Naleving
+A.18.1 Naleving van wettelijke en
+contractuele eisen Voorkomen van schendingen van
+wettelijke, statutaire, regelgevende of
+contractuele verplichtingen
+betreffende informatiebeveiliging en
+beveiligingseisen. A. 18.1.1Vaststellen van toepasselijke
+wetgeving en contractuele eisen Alle relevante wettelijke statutaire,
+regelgevende, contractuele eisen en
+de aanpak van de organisatie om aan
+deze eisen te voldoen moeten voor
+elk informatiesysteem en de
+organisatie expliciet worden
+vastgesteld, gedocumenteerd en
+actueel gehouden. Sv Sv Sv   Conform . Juridisch kader
+Deelnemers, BSNk en BO moeten
+zelf een overzicht vast te stellen van
+toepasselijke wetgeving en
+contractuele eisen. A. 18.1.2Intellectuele eigendomsrechten Om de naleving van wettelijke,
+regelgevende en contractuele eisen in
+verband met intellectuele-
+eigendomsrechten en het gebruik van
+eigendomssoftwareproducten te Sv Sv Sv Deelnemers, BSNk en BO dienen dit
+zelf in te vullen. De Eigenaar van het stelsel moet de
+verantwoordelijkheid nemen voor Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9191. waarborgen moeten passende
+procedures worden
+geïmplementeerd. borging van de IPR betreffende
+stelselbrede rechten zoals het
+merkenrecht. A. 18.1.3Beschermen van registraties  Registraties moeten in
+overeenstemming met wettelijke,
+regelgevende, contractuele en
+bedrijfseisen worden beschermd
+tegen verlies, vernietiging, vervalsing,
+onbevoegde toegang en onbevoegde
+vrijgave. Sv Sv Sv Beschermingsniveau
+afhankelijk van classificatie.Conform  en Juridisch kader
+Operationeel handboek
+A. 18.1.4Privacy en bescherming van
+persoonsgegevensPrivacy en bescherming van
+persoonsgegevens moeten, voor
+zover van toepassing, worden
+gewaarborgd in overeenstemming
+met relevante wet- en regelgeving.Sv Sv Sv Er behoort door de
+Deelnemers, BSNk en de BO
+een beleid voor bescherming
+van persoonsgegevens te
+worden ontwikkeld en
+ingevoerd. Dit beleid behoort
+te worden gecommuniceerd
+naar alle personen die
+betrokken zijn bij het
+verwerken van
+persoonsgegevens.Conform Privacybeleid en
+Normenkader
+. betrouwbaarheidsniveaus
+En specifiek betreft dit het omgaan
+met persoonsgegevens i.c. het
+gebruik van pseudoniemen binnen
+het netwerk. A.

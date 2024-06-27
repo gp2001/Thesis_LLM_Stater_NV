@@ -1,0 +1,86 @@
+De beheerorganisatie publiceert de laatste versie van de  op  attribuutcatalogus https://extranet.eherkenning.nl/1.11
+. /attribuutcatalogus.xml
+Schema AttribuutCatalogus
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:eac="urn:etoegang:1.9:attribute-catalogue"
+targetNamespace="urn:etoegang:1.9:attribute-catalogue"
+elementFormDefault="qualified"
+attributeFormDefault="unqualified"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata http://docs.oasis-open.org/security/saml/v2.0
+/saml-schema-metadata-2.0.xsd">Afsprakenstelsel Elektronische Toegangsdiensten | pagina 763    <xs:import namespace="http://www.w3.org/2000/09/xmldsig#"
+schemaLocation="http://www.w3.org/TR/xmldsig-core/xmldsig-core-schema.xsd" />
+<xs:import namespace="urn:oasis:names:tc:SAML:2.0:metadata"
+schemaLocation="http://docs.oasis-open.org/security/saml/v2.0/saml-schema-metadata-2.0.xsd" />
+<xs:element name="Attribute" type="eac:AttributeType" />
+<xs:complexType name="AttributeType">
+<xs:sequence>
+<xs:element name="Name" type="xs:anyURI" />
+<xs:element name="Type" type="xs:anyURI" />
+<xs:element name="FriendlyName" type="md:localizedNameType" maxOccurs="unbounded" />
+<xs:element name="Description" type="md:localizedNameType" maxOccurs="unbounded" />
+<xs:element name="PermissibleSource" type="xs:anyURI" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+<xs:element name="AttributeCatalogue" type="eac:AttributeCatalogueType" />
+<xs:complexType name="AttributeCatalogueType" >
+<xs:sequence>
+<xs:element ref="ds:Signature" />
+<xs:element ref="eac:Attribute" maxOccurs="unbounded" />
+</xs:sequence>
+<xs:attribute name="IssueInstant" type="xs:dateTime" use="required" />
+<xs:attribute name="Version" type="xs:anyURI" use="required" />
+</xs:complexType>
+</xs:schema>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 764Toegestane bronnen
+Bij elke wijziging moet het attribuut met dezelfde betrouwbaarheid opnieuw gevalideerd worden
+URN Omschrijving Eisen aan het verificatieproces van het attribuut
+urn:
+etoegang:
+1.11:
+attribute-
+ID sourceid:Geregistreerd door deelnemer vanaf
+een geldig identiteitsbewijs volgens
+het Normenkader
+betrouwbaarheidsniveausTijdens een registratieproces op betrouwbaarheidsniveau 3 of 4
+overgenomen (of afgeleid van) het ID, of overgenomen van een
+kopie ID en gecontroleerd bij een tweede bron
+urn:
+etoegang:
+1.11:
+attribute-
+sourceid:
+IDCopyGeregistreerd door deelnemer vanaf
+een kopie van een geldig
+identiteitsbewijs volgens het
+Normenkader
+betrouwbaarheidsniveausTijdens een registratieproces op betrouwbaarheidsniveau 2
+overgenomen (of afgeleid van) een kopie ID
+urn:
+etoegang:
+1.9:
+attribute-
+sourceid:
+NLGBAVerkregen door deelnemer vanaf de
+Basisregistratie PersoonsgegevensOpgehaald uit de Basisregistratie Persoonsgegevens (op basis van
+een Tijdens een registratieproces op betrouwbaarheidsniveau 3
+of 4 van een WID overgenomen BSN)
+urn:
+etoegang:1 . 11:
+attribute-
+sourceid:
+NLKvKVerkregen van het Handelsregister van
+de Kamer van KoophandelConform eisen geldend voor de betrouwbaarheid van vaststellen
+identiteit Dienstafnemer
+urn:
+etoegang:
+1.11:
+attribute-
+sourceid:
+eIDAS :XXVerkregen door de eIDAS-node
+verkregen vanuit een andere lidstaat. Als PermissibleSource in de
+attributencatalogus wordt 'urn:
+etoegang:1.11:attribute-sourceid:
+eIDAS' opgenomen.

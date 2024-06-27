@@ -1,0 +1,123 @@
+KVK GIDS VOOR
+BEDRIJFSFINANCIERINGKamer van Koophandel®Colofon
+Uitgave
+Kamer van Koophandel®, januari 2023
+KVK Gids voor bedrijfsfinanciering is een uitgave van KVK, Utrecht
+Eindredactie en samenstelling
+Marty Zanen (KVK)
+Medewerking
+Stichting MKB Financiering
+Copyright
+Alle rechten voorbehouden. Niets uit deze uitgave mag worden gereproduceerd door
+middel van druk, fotokopie of op enig andere wijze zonder voorafgaande schriftelijke
+toestemming van de auteurs. KVK streeft ernaar de informatie in de KVK Gids
+voor Bedrijfsfinanciering zo actueel, volledig en nauwkeurig mogelijk te houden. Desondanks kunnen onjuistheden niet worden uitgesloten. Mocht je een fout zien
+of ontbreekt er naar jouw idee informatie? Laat het ons weten, wij stellen jouw
+reactie bijzonder op prijs. Aan de in deze uitgave vermelde bedragen en gegevens
+kunnen geen rechten worden ontleend. Wanneer KVK verwijst naar hyperlinks van
+derden dan betekent dit niet dat deze door KVK worden aanbevolen. KVK wijst iedere
+aansprakelijkheid ten aanzien van deze hyperlinks van de hand. © 2023 KVK
+2  |  KVK Gids voor bedrijfsfinancieringInhoudsopgave
+Vooraf 4
+1. Aanleiding financieringsbehoefte 5
+1.1 Waarin ga je investeren 5
+1.2 Kengetallen en begrippen 5
+2. Voorbereiden financieringsaanvraag 9
+2.1 Ondernemingsplan en cijfers 9
+2.2 De rol van een financieringsadviseur 9
+2.3 Pitchen 10
+2.4 Waar letten financiers op? 10
+2.5  Maak van afwijzingsredenen succesfactoren 11
+3. Financieringsvormen 13
+3.1 Selecteer je financieringsvorm 13
+3.2  Eigen middelen en financiering uit eigen bedrijf 16
+3.3 Subsidies en overheidsregelingen 17
+3.4 Vreemd vermogen 194. Je financiering tegen het licht houden 24
+4.1 Jaarlijkse check 24
+4.2 Klachten 25
+5. Handige links 26
+3  |  KVK Gids voor bedrijfsfinancieringVooraf
+Financiering voor je bedrijf
+Naast een lening bij de bank zijn er nog veel andere financieringsvormen. Denk
+aan crowdfunding, business angels, leasing en factoring. Heb je geld nodig
+voor de start van je bedrijf of de verduurzaming of uitbreiding ervan? Of voor
+overbrugging van een lastige periode? De KVK Gids voor bedrijfsfinanciering
+is je wegwijzer en helpt je bij een passende keuze voor jouw situatie. Je vindt
+informatie over de voorbereiding van een financieringsaanvraag. En waar een
+financier op let. Daardoor ben je beter voorbereid en klop je bij de juiste financier
+aan. Zo bieden wij meer houvast bij je financieringsaanvragen. Greet Prins
+Voorzitter Raad van Bestuur KVKMarkt in beweging
+De mkb-financieringsmarkt is sterk in ontwikkeling en dit geeft veel nieuwe
+mogelijkheden voor ondernemers om financiering op te halen. Door het bredere
+aanbod is de zoektocht naar financiering complexer geworden. Het platform Passend Financieren is een goed online startpunt om snel de
+juiste financier of adviseur te vinden, maar het ontbrak nog aan een goede
+gids met duidelijke informatie voor ondernemers. Daarom ben ik blij dat KVK
+en het ministerie van Economische Zaken en Klimaat het initiatief hebben
+genomen om samen met de Stichting MKB Financiering het aanbod van finan-
+cieringsvormen te beschrijven. Dit helpt ondernemers die behoefte hebben aan
+financiering van hun plannen en activiteiten op weg. Meer dan ooit gaat de
+stelling op: voor elk goed plan is passende financiering beschikbaar! Ronald Kleverlaan, voorzitter Stichting MKB Financiering
+4  |  KVK Gids voor bedrijfsfinanciering1. Aanleiding
+financieringsbehoefte
+Ondernemen betekent investeren. Dat kan in verschillende
+situaties zoals start, groei of overname en bij verschillende
+doelen. Financieel inzicht hebben en de taal van een financier
+spreken, zijn factoren die bepalen of je een succesvol
+ondernemer wordt. 1.1 Waarin ga je investeren
+Er zijn veel aanleidingen om op zoek te gaan naar financiering. Denk aan specifieke
+situaties en fasen waarin je onderneming zich bevindt zoals start, bedrijfsovername, groei,
+internationalisering, innovatie en financiële problemen. Daarnaast kun je binnen die fasen
+investeren in verschillende doelen zoals bedrijfsmiddelen, werkkapitaal of onroerend goed. Je vergroot de kans op een succesvolle financieringsaanvraag als je de financieringsvorm
+en de financier zoveel mogelijk laat aansluiten bij het financieringsdoel. 1.2 Kengetallen en begrippen
+Een financier gebruikt kengetallen om financiën te beoordelen. Enkele belangrijke zijn
+solvabiliteit, rentabiliteit en liquiditeit. Als een of meer van die cijfers niet aan de criteria
+voldoen, kan dat afwijzing van een aanvraag betekenen. Om een goede gesprekspartner voor je financier of financieel adviseur te zijn, is het
+handig om inzicht te hebben in onderstaande begrippen. • De balans  is een overzicht van bezittingen, schulden en het eigen vermogen op een
+bepaald moment (meestal 31 december). Je kijkt dan naar alles wat op dat moment
+aanwezig is in jouw onderneming zoals alle schulden, goederen en uitstaande
+5  |  KVK Gids voor bedrijfsfinancieringrekeningen. Dit geef je vervolgens in een balans schematisch weer.activa=bezittingen passiva=financiering
+> 1 jaar vastgoed
+bedrijfsmiddelenpermanent eigen vermogen
+> 1 jaar hypotheek
+leningen
+lease
+< 1 jaar voorraad
+debiteuren
+liquide middelen< 1 jaar rekening-courantkrediet
+crediteuren
+Tabel 1: Voorbeeld van een balans
+• Activa  zijn de bezittingen van je bedrijf. Vaste activa zijn bezittingen die langer dan
+een jaar in je bedrijf aanwezig zijn zoals inventaris en vastgoed. Vlottende activa
+zijn bezittingen die korter dan een jaar in je bedrijf aanwezig zijn zoals voorraad en
+vorderingen of geld dat je tegoed hebt van klanten. Liquide geld is direct beschikbaar
+geld op je zakelijke rekening of in kas. • Passiva  zijn uitstaande schulden waarmee bezittingen zijn gefinancierd. Passiva
+bestaan uit ingebracht eigen vermogen (eigen geld en middelen), lang en kort
+vreemd vermogen (geld van derden). Bij lang vermogen is de looptijd van schulden
+langer dan een jaar. Bij kort vermogen is de looptijd van schulden korter dan een jaar. • Crediteuren  zijn bedrijven of instanties aan wie jij geld moet betalen zoals
+leveranciers en anderen die jou een factuur sturen. • Debiteuren  zijn bedrijven of particulieren aan wie je goederen of diensten hebt
+geleverd en van wie je geld tegoed hebt omdat ze hun factuur nog moeten betalen. • De winst- en verliesrekening  is het overzicht van de opbrengsten (omzet) en kosten
+van je onderneming in een bepaalde periode (meestal één jaar). • De brutowinstmarge  is het percentage van je omzet dat overblijft als je alle inkopen
+hebt betaald. Je drukt de brutowinstmarge uit in een percentage van de inkoopprijs
+of inkoopwaarde. Je kunt hiervoor de volgende formule gebruiken: (Omzet - kostprijs
+van producten) / omzet * 100%.• Cash flow , of in het Nederlands kasstroom, is het verschil tussen je ontvangsten
+en uitgaven gedurende een bepaalde periode. Als je uitgaven de ontvangsten
+overtreffen, heet dat een negatieve kasstroom. Zijn de ontvangsten groter dan de
+uitgaven, dan is er een positieve kasstroom. Het gaat niet alleen om contant geld,
+maar ook om het tegoed op je bankrekening. • Liquiditeit  is de mate waarin je onderneming op de korte termijn aan haar
+betalingsverplichtingen kan voldoen. Voor de beoordeling van de liquiditeit van een
+onderneming gebruikt men drie kengetallen (ratio’s): current ratio, quick ratio en
+netto-werkkapitaal. • Current ratio  geeft aan of je (kortlopende) schulden uit de vlottende activa kunt
+betalen. Je berekent dit als volgt: Vlottende activa / kort vreemd vermogen = current
+ratio. Als de vlottende activa groter zijn dan het kort vreemd vermogen is de current
+ratio groter dan 1. Dat beoordeelt een financier als positief. • Quick ratio  geeft aan of je (kortlopende) schulden uit de vlottende activa kun
+betalen. Het verschil met de current ratio is dat je bij deze berekening je voorraden
+niet meerekent. Je berekent dit als volgt: (Vlottende activa – voorraden) / kort
+vreemd vermogen = quick ratio. Een positieve waarde voor dit kengetal is minimaal
+1. Aanvullend op de current ratio en de quick ratio kijkt een financier naar je
+voorraadtermijn en debiteurentermijn. • Netto-werkkapitaal  is het verschil tussen vlottende activa en het kort vreemd
+vermogen op de balans van jouw onderneming. Je berekent dit als volgt: Vlottende
+activa - kort vreemd vermogen = netto werkkapitaal. Het (netto) werkkapitaal is
+positief wanneer de vlottende activa groter zijn dan het vreemd vermogen op de
+korte termijn. • Solvabiliteit  is de verhouding van je eigen vermogen ten opzichte van het
+balanstotaal. Dit is de maatstaf om te beloordelen of je onderneming de schulden
+op lange termijn kan voldoen.

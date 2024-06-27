@@ -1,0 +1,177 @@
+BIN-8.4.2-10: The PAD measures and
+APCER and BPCER rates shall be kept up
+to date concerning advances in the threat
+landscape and available technology.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10188.4.3 Binding to applicant by automated face biometrics
+[CONDITONAL] If binding to applicant is
+by automated face biometrics, the
+following requirements apply:NOTE 1: Use of other biometric means than
+face biometrics is currently out of scope but
+can be a future possibility. BIN-8.4.3-01 The process shall provide a
+reliable, automated comparison
+between the face image extracted from
+the identity document presented by the
+applicant and a face image captured
+according to the requirements of clause
+8.4.2 of the present document. BIN-8.4.3-02: Only data capture and
+preliminary data quality assessment shall
+be done in equipment controlled by the
+applicant. BIN-8.4.3-03: Biometric signal
+processing, comparison, data storage,
+and decision SHALL be carried out in
+secure processing equipment. EXAMPLE 1: To protect against threats to the
+biometric system as described in clause 5.1
+in ISO/IEC 30107-1 [i.16]. [CONDITONAL] BIN-8.4.3-04: If
+biometric face recognition is used with
+the physical presence of the applicant,
+properly secured equipment shall be
+used to read the identity document
+presented by the applicant and obtain a
+face image of the applicant. [CONDITONAL] BIN-8.4.3-05: If
+biometric face recognition is used with
+the physical presence of the applicant,
+locally installed and properly secured
+equipment may be used for the
+biometric face recognition processing.EXAMPLE 2: For fulfilment of the two
+requirements above, a biometric kiosk as
+commonly used at passport offices, or
+equipment similar to that used for
+automated border control, can be used. BIN-8.4.3-06: The biometric algorithms
+and technologies applied shall be
+systematically tested against reference
+datasets and kept updated to cope with
+changes in the threats and risk situation. NOTE 2: See for example, clauses for face
+biometrics in ISO/IEC 19795-1 [i.17]. BIN-8.4.3-07: Test results for the
+biometric face recognition shall show a
+FAR (false acceptance rate) at the level of
+industry best practice.NOTE 3: No specific number is specified for
+FAR. Rapid technology improvement can
+lead to significant progress in industry best
+practice FAR performance even in the short
+term.ETSI 119 461 definities:
+False Acceptance Rate (FAR)
+proportion of verification
+transactions with false
+biometric claims erroneously
+acceptedAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1019NOTE 4: An example of industry best
+practice reference can be the one-to-one
+face matching results reported from the
+NIST Face Recognition Vendor Test.NOTE: Source ISO/IEC 19795-
+1 [i.17]. BIN-8.4.3-08: Test results for the
+biometric face recognition should show
+a FRR (false rejection rate) at the level of
+industry best practice.NOTE 5: False rejection rate has no impact
+on security but on user-friendliness.ETSI 119 461 definities:
+False Rejection Rate (FRR)
+proportion of verification
+transactions with true
+biometric claims erroneously
+rejected
+NOTE: Source ISO/IEC 19795-
+1 [i.17]. De Toetreder dient via een
+risicoanalyse aan te tonen dat
+hierop zicht wordt gehouden. BIN-8.4.3-09: The biometric face
+recognition may apply measures to
+detect morphed photos in identity
+documents.NOTE 6: A morphed photo is created by
+merging the face photos of two or more
+different persons into one photo. Since
+some countries allow persons to bring their
+own photo for issuing a passport or
+national identity card, there is a risk that
+documents are issued with morphed
+photos. With a morphed photo, there is a
+risk that both/all the persons can be
+recognized both by a human registration
+officer and by face biometrics with a
+reliability above the applied threshold,
+meaning more than one person can use the
+identity document containing the morphed
+photo. NOTE 7: Morphing detection means are best
+applied in the binding to applicant step of
+an identity proofing process when a new
+photo, known not to be morphed, of the
+applicant can be compared to the
+potentially morphed reference photo.Het voorkomen van morphed
+foto's op het WID is een
+primaire taak van de uitgever
+van het WID. 8.4.4 Binding to applicant by manual face verification
+[CONDITONAL] If manual binding of the
+applicant to an identity document is
+used, the following requirements apply:
+BIN-8.4.4-01: The registration officer
+shall compare the face photo obtained
+from the applicant's identity document Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1020with the applicant's physical appearance,
+either from the applicant's the physical
+presence or from a video sequence. BIN-8.4.4-02: The registration officer
+performing the binding to applicant
+shall receive training before being
+allowed to make any comparison, with
+training repeated or refreshed at least
+yearly.EXAMPLE 1: See the FISWG Minimum
+Training Criteria for Assessors Using Facial
+Recognition Systems [i.22] or for more
+extensive description the ENFSI Best Practice
+Manual for Facial Image Comparison [i.23],
+Appendix A.Bij EXAMPLE 1:
+Het FISWG-document
+waaraan gerefereerd
+wordt is beschikbaar op
+de volgende locatie:
+https://fiswg.org
+/documents.html
+Het ENFSI-document
+waaraan gerefereerd
+wordt is beschikbaar op
+de volgende locatie:
+https://enfsi.eu
+/documents/best-
+practice-manuals
+BIN-8.4.4-03: The registration officer
+shall perform a morphological analysis
+according to a defined feature list. EXAMPLE 2: As recommended by the FISWG
+Facial Comparison Overview and
+Methodology Guidelines [i.20] and the
+corresponding checklist in [i.21].Bij EXAMPLE 2: De
+documenten waaraan
+gerefereerd wordt zijn
+beschikbaar op de volgende
+locatie:  https://fiswg.org
+/documents.html
+BIN-8.4.4-04: The registration officer
+shall be allowed to spend sufficient time
+for the face comparison. NOTE 1: In general, an assessment
+according to the FISWG Facial Comparison
+Overview and Methodology Guidelines [i. 20] can be sufficient, while a review
+according to the same document can be
+required at least for remote identity
+proofing. BIN-8.4.4-05: The registration officer
+shall have tools available to magnify
+images to view details. NOTE 2: With physical presence and physical
+identity document, this can be a magnifying
+glass for the face image printed on the
+document. If face images are used,
+computerized tools are assumed. [CONDITIONAL] BIN-8.4.4-06: If binding
+to applicant is done by comparing face
+images or video sequences, the
+registration officer should use
+computerized tools in the face
+comparison.EXAMPLE 3: Tool for superimposition of
+images described by the FISWG Facial
+Comparison Overview and  Methodology
+Guidelines [i.20].Bij EXAMPLE 3: De
+documenten waaraan
+gerefereerd wordt zijn
+beschikbaar op de volgende
+locatie:  https://fiswg.org
+/documents.html
+8.5 Issuing of proof
+8.5.1 Result of the identity proofing
+ISS-8.5.1-01: The result of the identity
+proofing shall be delivered securely to
+the trust service provider, regarding the Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1021authenticity, integrity, and
+confidentiality of the result. EXAMPLE 1: The result can be digitally
+signed and encrypted at the message level or
+be transmitted over a properly secured
+communication channel. NOTE 1: The present document places no
+requirement on the format of the result of
+the identity proofing.

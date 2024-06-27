@@ -1,0 +1,92 @@
+A Polymorphic Identity and a Polymorphic Pseudonym can be combined to 5 points
+on an elliptic curve rather than six, for optimization in a smartcard implementation. The PPCA-optimized PIP version of
+Polymorphic Identities or Pseudonyms are provided in Interface spec BSNk: activate. The combined notation for an Polymorphic Identity and Pseudonym is as follows:
+Polymorphic Identity and Pseudonym (PIP) ASN.1 notation
+PIP ::= SEQUENCE {
+notationIdentifier  OBJECT IDENTIFIER (id-BSNk-polymorphic-pip),
+schemeVersion INTEGER,
+schemeKeySetVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+type INTEGER,
+points SEQUENCE (SIZE (5)) OF ECPoint
+}
+The first, second and fourth ECPoint in a PIP correspond to those of a PI. Similarly, the first, third and fifth correspond to
+those of a PP. In this fashion one can extract a PI and PP from a PIP. There also exists a signed version of a PIP:
+SignedPIP::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-pip-signed),
+signedPIP SEQUENCE {
+pip PIP,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+},Afsprakenstelsel Elektronische Toegangsdiensten | pagina 727    signatureValue ECDSA-Signature
+}
+Which follows the same concepts as described for a Polymorphic Identity or Polymorphic Pseudonym. id-BSNk-polymorphic-pip OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 5 }
+id-BSNk-polymorphic-pip-signed OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 6 }
+-- the following OID is reserved for usage in the specifications of the protocol for PP on smartcard
+(polymorphic card application)
+id-PCA OBJECT IDENTIFIER ::= { id-BSNk-scheme-nl 9 }
+Encrypted Identity or Pseudonym
+An Encrypted Identity or Pseudonym consists of 3 points on an elliptic curve. The notation for a complete Encrypted Identity
+and an Encrypted Pseudonym is as follows:
+Encrypted pseudoID ASN.1 notation
+EncryptedIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-identity),
+schemeVersion INTEGER,
+schemeKeySetVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+EncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-pseudonym),
+schemeVersion INTEGER,
+schemeKeySetVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+diversifier IA5String OPTIONAL,
+type INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+SignedEncryptedIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-identity-signed),
+signedEI SEQUENCE {
+encryptedIdentity EncryptedIdentity,
+auditElement OCTET STRING
+},
+signatureValue EC-Schnorr-Signature
+}
+SignedEncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-pseudonym-signed),
+signedEP SEQUENCE {
+encryptedPseudonym EncryptedPseudonym,
+auditElement OCTET STRING
+},
+signatureValue EC-Schnorr-Signature
+}
+DirectEncryptedPseudonym ::= SEQUENCE {Afsprakenstelsel Elektronische Toegangsdiensten | pagina 728    notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-direct-pseudonym),
+schemeVersion INTEGER,
+schemeKeySetVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+type INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+SignedDirectEncryptedPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-encrypted-direct-pseudonym-signed),
+signedDEP SEQUENCE {
+directEncryptedPseudonym DirectEncryptedPseudonym,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+},
+signatureValue ECDSA-Signature
+}
+The fields correspond to the same fields in a Polymorphic Identity or Pseudonym. The recipientKeySetVersion holds the
+version number for the set of recipient's keys for Identities and Pseudonyms (PD-Di, PC-Di and PI-Di). Note: In
+schemeVersion 1 the recipientKeySetVersion for DVs is a value of 8 decimal digits corresponding with the issue date
+(notBefore) of the certificate, in the format YYYYMMDD, used to request the PEM file at the party generating the keys within
+the scheme.

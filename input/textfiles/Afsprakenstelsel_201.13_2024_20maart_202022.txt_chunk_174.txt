@@ -1,0 +1,48 @@
+c. LOA 3 Hetzelfde als LoA1 met toevoeging van:
+Bij gebruik van het
+authenticatiemiddel MOET de
+Gebruiker expliciet duidelijk
+gemaakt worden dat hij een
+authenticatie in de context van
+een Stelselmerk uitvoert, ook
+wanneer zijn applicatie (o.a. de
+browser) of platform (o.a. PC)
+waarop de applicatie actief is
+gecorrumpeerd is. Indien het
+middel buiten de Stelselcontext
+wordt gebruik MAG een
+Stelselmerk NIET getoond worden. De toegang tot diensten van elke
+afzonderlijke dienstverlener MOET
+het aanloggen met behulp van het
+authenticatiemiddel vereisen. Het authenticatiemechanisme
+MOET bescherming bieden tegen
+de meeste van deze dreigingen:
+Raden (guessing): dreiging
+dat een geheim gegeven
+(cryptografische sleutel, PIN,
+etc.) in de communicatie
+wordt geraden. Afluisteren (eavesdropping):
+dreiging dat informatie in de
+communicatie wordt
+afgeluisterd ten behoeve van
+analyse en vervolgaanvallen. Overnemen van een sessie
+(hijacking): dreiging dat een
+geauthenticeerde Ad 1 Toelichting: Authenticatie onder een merk van het AS wil zeggen
+onder eHerkenning. Als het middel wordt gebruikt in een andere
+context moet het middel die notificatie achterwege laten of de andere
+context aangeven. Doel is om hiermee het transactierisico voor de
+gebruiker verminderen in het geval dat zijn applicatie/browser is
+gecorrumpeerd. Ad 2 Toelichting: Single Sign On voor diensten van een enkele
+dienstverlener op LoA3 en LoA4 is toegestaan. SSO tussen
+dienstverleners is slechts toegestaan op LoA1 en LoA2. Beide situaties
+uiteraard met handhaving van de beperking dat de LoA van het middel
+alleen toegang mag geven tot diensten met een zelfde LoA of een lagere
+LoA. Single Sign On tussen Dienstverleners moet op LoA3 en LoA4
+worden beperkt. Het betrouwbaarheidsniveau wordt met SSO tussen
+dienstverleners te veel ondermijnd omdat de transactie kwetsbaar wordt
+voor Man-in-the-front en Man-in-the-browser aanvallen. Daarnaast
+accepteren Dienstverleners in formeel juridische zin een authenticatie
+en daarmee kan SSO tussen dienstverleners op LoA3 en LoA4 niet alleen
+meer een oplossing zijn voor gebruiksgemak. Ad 5 Toelichting: De wijze waarop conformiteit met deze eis moet
+worden aangetoond is aangegeven in paragraaf 2.4.7 Compliance en
+Audit.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9843. c. d.

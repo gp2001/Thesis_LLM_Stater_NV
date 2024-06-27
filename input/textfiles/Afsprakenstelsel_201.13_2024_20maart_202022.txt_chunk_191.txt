@@ -1,0 +1,304 @@
+Jr). VAL-8.3.1-05: The identity proofing
+process shall verify that the evidence is
+of a type accepted according to the
+identity proofing context. VAL-8.3.1-06: The identity proofing
+process shall verify that the evidence is
+issued by an authoritative source that is
+trusted according to the identity
+proofing context. [CONDITONAL] VAL-8.3.1-07: If the
+evidence has an explicit validity period,
+the identity proofing process shall
+verify that the time of the identity
+proofing is within this validity period.EXAMPLE 3: Valid from and valid to attributes
+of a digital signature certificate, date of expiry
+of an identity
+document. VAL-8.3.1-11: The identity proofing
+process shall as far as possible verify
+that the evidence is valid at the time of
+the identity proofing.EXAMPLE 4: An identity document can be
+declared lost, stolen, or revoked, but not all
+document issuers provide an online status
+service that can be used to check current
+status, and if an online status service
+exists, its availability can be restricted. VAL-8.3.1-12: Validation of evidence
+shall be done in an environment
+controlled by the actor responsible for
+the identity proofing process.NOTE 3: This requirement does not prohibit
+remote access to this environment by
+registration officers. 8.3.4 Validation of eID De eisen in deze paragraaf
+gaan over het gebruik van
+andere elektronische
+identificatiemiddelen voor
+het aantonen van de
+identiteit. Het proces voor
+identificatie op afstand bij
+ETD/eHerkenning biedt
+geen ruimte voor het
+gebruik van andere
+elektronische
+identificatiemiddelen voor Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1037het aantonen van de
+identiteit. [CONDITONAL] If authentication by use
+of an existing eID means is used as
+evidence, the requirements in the
+present clause apply. VAL-8.3.4-01: An authentication
+protocol that confirms that the holder
+of the eID means is successfully
+authenticated and that the eID means
+used is valid (not expired, suspended,
+or revoked) shall be executed.NOTE 1: Successful authentication implies that
+the eID means as evidence is validated, that the
+identity
+information conveyed from the eID means is
+validated, and that the identity information is
+bound to the
+applicant. NOTE 2: The eID means can represent a natural
+person, a legal person, or a natural person
+representing a legal person. 8.3.5 Validation of digital signature with certificate De eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.2. [CONDITONAL] If a digital signature
+with certificate is used as evidence, the
+requirements in the present clause
+apply. VAL-8.3.5-01: The digital signature
+shall be created as part of the identity
+proofing process.NOTE 1: This is to avoid threats from the use of
+documents previously signed by the applicant. VAL-8.3.5-02: The digital signature
+shall be validated and the signing
+certificate shall only be used as
+evidence for identity attributes if the
+signature is valid.NOTE 2: Usually, this means that the validation
+result is TOTAL-PASSED as defined by ETSI EN
+319 102-1 [i.5]. NOTE 3: If the digital signature is valid, the
+information obtained from the certificate
+supporting the digital signature can be
+considered valid and bound to the applicant. NOTE 4: The certificate can represent a natural
+person, a legal person, or a natural person
+representing a legal person. [CONDITIONAL] VAL-8.3.5-03: If the
+identity proofing context requires a
+digital signature supported by a
+qualified certificate according to the
+eIDAS Regulation, the signature should
+be validated according to ETSI TS 119
+172-4 [i.14].Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10388.3.6 Validation of information obtained from trusted registers De eisen in deze paragraaf
+zijn onderdeel van het
+normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.4.3 en 2.4.6. [CONDITONAL] If trusted registers are
+used in an identity proofing process,
+the requirements in the present clause
+apply. [CONDITONAL] VAL-8.3.6-01: If the
+communication towards the trusted
+register is online, the communication
+channel shall be secured by using an up
+to date version of the TLS protocol or
+another protocol offering a comparable
+level of security. [CONDITONAL] VAL-8.3.6-02: If the
+communication towards the trusted
+register is online, the trusted register
+shall be authenticated.EXAMPLE 1: By a website certificate. [CONDITONAL] VAL-8.3.6-03: If the
+communication towards the trusted
+register is message-based, all messages
+shall be authenticated and integrity
+protected.EXAMPLE 2: By use of digital signatures. The
+identity proofing context can pose
+requirements that a digital signature is
+required to fulfil to be accepted. [CONDITONAL] VAL-8.3.6-04: If the
+communication towards the trusted
+register is message-based, all messages
+containing personal identity
+information shall be encrypted. VAL-8.3.6-05: The integrity and
+authenticity of the information
+obtained from the trusted register shall
+be validated. VAL-8.3.6-06: The procedure to apply
+in case of discrepancies between the
+information obtained from trusted
+registers and information from other
+evidence shall be documented.EXAMPLE 3: A trusted register can override
+information obtained from other evidence. The identity proofing context can pose
+requirements. 8.3.7 Validation of proof of access De eisen in deze paragraaf
+gaan over het gebruik van
+vertrouwde
+toegangsmethoden voor het
+aantonen van de
+identiteit. Het proces voor
+identificatie op afstand bij Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1039ETD/eHerkenning maakt
+geen gebruik controle van
+vertrouwde
+toegangsmethoden voor het
+antonen van de identiteit. [CONDITONAL] If proof of access is
+used in an identity proofing process,
+the requirements in the present clause
+apply. VAL-8.3.7-01: A proof of access
+protocol shall be executed to ensure
+that the applicant controls the item in
+question.EXAMPLE 1: To confirm possession of mobile
+phone number, email address, or bank
+account. VAL-8.3.7-02: The identity information
+obtained shall be transferred or
+otherwise be made available for the
+identity proofing process in a way that
+ensures the authenticity of the source
+of information and integrity and
+confidentiality of the information. VAL-8.3.7-03: The integrity and
+authenticity of the identity attributes
+obtained shall be validated.EXAMPLE 2: Information from an existing
+customer record of a bank or a
+telecommunications service provider. [CONDITIONAL] VAL-8.3.7-04: If proof
+of access to a bank account is used as
+supplementary evidence, the
+applicant's access to the bank account
+shall be reliably authenticated.EXAMPLE 3: By use of eID means fulfilling
+requirements for PSD2 (EU Payment Services
+Directive) SCA
+(Strong Customer Authentication) [i.2]. EXAMPLE 4: A payment made by the applicant
+to an account associated with the identity
+proofing process can be part of the proof of
+access protocol. VAL-8.3.7-05: The procedure to apply
+in case of discrepancies between the
+identity attributes obtained from proof
+of access and identity attributes from
+other evidence shall be documented.EXAMPLE 5: The information obtained from
+proof of access can be regarded as
+authoritative and override other sources of
+information, or other evidence can be
+regarded as authoritative, or an arbitration
+procedure can be used. The identity proofing
+context can pose requirements. 8.3.8 Validation of documents and attestations De eisen in deze paragraaf
+gaan over het gebruik
+documenten en
+verklaringen voor het
+aantonen van de
+identiteit. Het proces voor
+identificatie op afstand bij
+ETD/eHerkenning maakt
+geen gebruik documenten Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1040en verklaringen voor het
+aantonen van de identiteit. [CONDITONAL] If documents and
+attestations are used in an identity
+proofing process, the requirements in
+the present clause apply. VAL-8.3.8-01: The identity proofing
+process shall verify that the document
+or attestation presented is of an
+accepted type and is issued by an actor
+trusted according to the identity
+proofing context. VAL-8.3.8-02: The identity of the issuer
+of the document or attestation, and the
+authenticity and integrity of the
+contained information, shall be
+verified.NOTE 1: For a digital document, this can imply
+validating a digital signature on the document
+or attestation. The identity proofing context
+can pose requirements that a digital signature
+is required to fulfil to be accepted. NOTE 2: For a physical document, this can be
+by physical signatures or seals, logos and other
+visual elements, and by examining the
+document to detect falsification and
+tampering. [CONDITIONAL] VAL-8.3.8-03: If a
+document or attestation is in physical
+form or digital form rendered for
+human validation, the identity
+proofing process shall verify that the
+document presented is visually equal to
+the expected visual appearance. [CONDITIONAL] VAL-8.3.8-04: If a
+document or attestation is in physical
+form and the document type contains
+security elements, these security
+elements shall be verified to the extent
+required by the identity proofing
+context. VAL-8.3.8-05: The procedure to apply
+in case of discrepancies between the
+identity attributes obtained from
+documents and attestations and
+identity attributes from other evidence
+shall be documented.EXAMPLE: The information obtained from
+documents and attestations can be regarded as
+authoritative and override other sources of
+information, or other evidence can be
+regarded as authoritative, or an
+arbitration procedure can be used. The identity
+proofing context can pose requirements. 8.4 Binding to applicant
+8.4.5 Binding to applicant for legal person and natural person representing legal personDe eisen in deze paragraaf
+zijn onderdeel van het Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1041Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.4. [CONDITONAL] If the applicant is a
+legal person or a natural person
+representing a legal person, the
+following requirements apply:
+BIN-8.4.5-01: Validated evidence shall
+prove that the legal person exists and
+that the application to the trust service
+is a willful act carried out on behalf of
+the legal person. [CONDITIONAL] BIN-8.4.5-02: If the
+applicant is a natural person
+representing a legal person, the
+identity of the natural person shall be
+proven according to the requirements
+of the present document. [CONDITIONAL] BIN-8.4.5-03: If the
+applicant is a natural person
+representing a legal person, validated
+evidence shall prove the natural
+person's authorization to represent the
+legal person. [CONDITIONAL] BIN-8.4.5-04: If the
+applicant is a natural person
+representing a legal person, and the
+legal person is listed in an authoritative
+business register, the natural person's
+authorization to represent the legal
+person should be proven by
+information from that register.NOTE: This implies that the natural person has
+one of the roles listed in the business register
+and that this role is authorized to represent the
+legal person in the identity proofing context. 9 Use cases for identity proofing to Baseline LoIP Eisen zijn onderdeel van het
+Afsprakenstelsel ETD.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1042
+Specificaties voor het beheer van bevoegdheden
+EH1 vervalt per 1-7-2021
+Met ingang van 1 juli 2021 komt het gebruik van het betrouwbaarheidsniveau eH1 te vervallen en moeten de middelen en
+machtigingen minimaal voldoen aan de normen van het betrouwbaarheidsniveau eH2. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1043Norm LoA Vereisten Best practices
+3 LOA 1 2 3 4 Vereisten voor de kwaliteit van registratie van
+machtigingen
+3.1 Generieke vereisten
+3.1.2 LOA 1 2 3 4 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat het beheers proces van
+machtigingen deugdelijk wordt uitgevoerd. 3.1.2.3 LOA 1 2 3 4 De machtigingenbeheerder MAG slechts
+geautoriseerd worden om zich te registreren en om
+bevoegdheden te registreren die zich op hetzelfde of
+op een lager niveau bevinden dan zijn eigen
+autorisatieniveau.Interpretatie: In de praktijk valt op niveau LoA 1
+de rol van machtigingenbeheerder en
+gemachtigde samen. 3.1.2.4 LOA 1 2 3 4 De machtigingenbeheerder MOET geauthenticeerd
+worden voor dat hij toegang tot het
+machtigingenregister krijgt.Interpretatie: In de praktijk valt op niveau LoA 1
+de rol van machtigingenbeheerder en
+gemachtigde samen. 3.1.2.5 LOA 1 2 3 4 De geldigheid van geregistreerde machtigingen
+MOET tot een nader omschreven periode worden
+beperkt, waarbij een maximale geldigheidsperiode
+van 5 jaar geldt.Advies: De bewaking van de geldigheidsduur kan
+op verschillende wijzen worden vormgegeven en
+hoeft niet een specifiek bewakingsproces te zijn. Bijvoorbeeld een abonnementsstructuur kan een
+manier zijn om periodiek de geldigheidsduur te
+bewaken. 3.1.2.6 LOA 1 2 3 4 Het machtigingenregister MOET het resultaat van
+een registratie of wijziging aan
+machtigingenbeheerder bevestigen.Interpretatie: Bij online beheer van machtigingen
+door de beheerder wordt automatisch voldaan
+aan deze norm. Als het Machtigingenregister in
+opdracht van de beheerder wijzigingen uitvoert
+moet deze norm een specifiek uitwerking krijgen. 3.1.2.7 LOA 1 2 3 4 De machtigingenbeheerder MOET op ieder moment
+inzage hebben in de feitelijk geregistreerde
+machtigingen binnen zijn Interpretatie: Bij online beheer van machtigingen
+door de beheerder wordt automatisch voldaan
+aan deze norm. Als het machtigingenregister in Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1044verantwoordelijkheidsdomein. opdracht van de beheerder wijzigingen uitvoert
+moet deze norm een specifiek uitwerking krijgen. 3.1.3 LOA 1 2 3 4 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat de reikwijdte van de
+machtigingen deugdelijk wordt geregistreerd. 3.1.3.1 LOA 1 2 3 4 De tijdens de registratie van een machtiging
+verschafte gegevensverklaringen MOETEN bestaan
+uit:
+Kenmerken ter identificatie van de
+vertegenwoordigde Dienstafnemer
+Kenmerken ter identificatie van de
+vertegenwoordiger(s) van de Dienstafnemer
+welke van toepassing zijn op een machtiging. Dit vereiste hoeft niet in acht genomen te
+worden als de vertegenwoordiger slechts op
+LoA 1 geïdentificeerd is. Kenmerken ter identificatie van de
+Gemachtigde. De reikwijdte van de machtiging: de omvang
+van de diensten en procedures waar de
+vertegenwoordiger voor gemachtigd is.

@@ -1,0 +1,21 @@
+Error handling
+StatusMessage 0.. 1Only present if top-level StatusCode is not success . ' '
+StatusDetail 0 Elektronische Toegangsdiensten: MUST NOT be included. Assertion 0.. 2Elektronische Toegangsdiensten: MUST contain the <Assertion> that is delivered in the
+response, if the request was processed successfully. In case of representation MUST contain a
+second, linked Assertion, containing the <Assertion> with the authorization information. See
+below. EncryptedAssertion 0 Elektronische Toegangsdiensten: MUST NOT be included. Processing rules for responses
+A responding EB
+MUST provide an Assertion identical to that of an AD and apply all processing rules for a responding AD in Interface
+. specifications HM-AD
+In case of representation by the user from another eIDAS member state:
+MUST also provide an Authorization Assertion containing a XACMLDecisionStatement identical to that of an
+MR and apply all processing rules for a responding MR in . Interface specifications HM-MR
+MUST ensure the AD-assertion and MR-assertion originate from the same authentication and are properly
+linked. MAY provide attributes that have 'eIDAS' as source. These attributes MUST be translated from the corresponding
+eIDAS messages.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 601MUST NOT provide any other attributes or use other attribute sources. MUST respond with the identifier(s) using the following rules:
+MUST respond with all the EntityConcernedTypes in an  . Identifier Set
+An identifier set is a cluster of EntityConcernedTypes with the same set number in the  . Service catalog
+If no set numbers are used, only one EntityConcernedType is allowed, which MUST be handled as if it was in 1
+set. MUST respond with all the EntityConcernedTypes in the identifier set with the lowest set number. If the cannot respond with all the EntityConcernedTypes the set, the next set with the lowest number MUST EB
+be used, until all sets are proven to be impossible. Only then an error MUST be returned. A receiving HM
+MUST validate the response and signature.

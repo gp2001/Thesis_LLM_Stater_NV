@@ -1,0 +1,39 @@
+Versioning
+Because different versions of the interface specifications (e.g. 1.9 and up) must be distinguished from each other at the
+interface level, message versioning MUST be used in the implemented interface. Because SAML 2.0 messages do not have a
+field for this and it is not desirable to use an extension in the messages, participants MUST link the URL on which SAML
+messages can be offered to a version of the framework in the published metadata. For example,  https://www.deelnemer.nl
+. /SAML-endpoint/v1.0/
+The same URL MUST NOT be used for two different versions of the framework. See also  . SAML metadata
+Language preference
+The language preference of the user can be specified, so the dialogue can take place in that language. Because SAML 2.0
+messages do not have a field for this and it is not desirable to use an extension in the messages,
+MAY be used as query variable in the URL or provided as POST variable. See also section  EherkenningPreferredLanguage
+. SAML attribute elements
+Character set and encoding
+All message MUST the Unicode character set. All characters MUST be UTF-8 encoded.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 539Contents of this chapter
+Interface specifications DV-HM  — This page describes the messages for the interface specification between a
+Dienstverlener (DV) (service provider) and an Herkenningsmakelaar (HM) (broker). Interface specifications DB-DA  — This paragraph describes the (guidelines for) interface(s) between
+the Dienstbemiddelaar (DB) (Service Intermediary) and the Dienstaanbieder (DA) (Service Supplier). The interface
+between a DB and a DA is considered a machine to machine interface. The implementation details of this interface
+will always be specified by the Dienstaanbieder. In order to facilitate adoption, Elektronische Toegangsdiensten aims
+to deliver an Authorization Solution compatible not only with green field implementation,
+Reference Architecture DB-DA SOAP  — This paragraph describes a reference architecture and specification of
+Interface specifications DB-DA, for use with a machine-to-machine interface using WebServices (SOAP). Interface specifications HM-AD  — This page describes the messages that are exchanged between an
+Herkenningsmakelaar (HM) and an Authenticatiedienst (AD) (identity provider). Interface specifications HM-MR  — This page describes the messages for the interface between an
+Herkenningsmakelaar (HM) (broker) and a Machtigingenregister (MR) (authorization information provider). Interface specifications HM-EB  — This page describes the interface between a Herkenningsmakelaar (HM) and the
+eIDAS-berichtenservice (EB)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 540Interface specifications DV-HM
+DV-HM sequence diagram
+This page describes the messages for the interface specification between a  (service provider) and an Dienstverlener (DV)
+(broker). Herkenningsmakelaar (HM)
+For eIDAS Outbound, the eIDAS Berichtenservice acts as a DV, and as Dienstbemiddelaar (DB) for the BRP. Any statement
+in this page about the DV should therefore be interpreted as "DA (BRP) and/or EB". The interface specification described in this document is used to implement the use case GUC1 Gebruiken eToegang als
+(Use eToegang as service consumer) and MUST (with the exception of alternative ) be dienstafnemer Bindings
+implemented by every Herkenningsmakelaar and offered to their customers, the DVs. This is in order to prevent lock-in
+and enables middleware suppliers to write generic code that can be used by all Herkenningsmakelaars. In the interface described here, the use case  is populated with an SAML 2.0 GUC1 Gebruiken eToegang als dienstafnemer
+AuthnRequest and Response. The specific contents of these messages is described below. A column in a message description that starts with 'SAML:'
+indicates that this is a standard value within the official SAML specification. A value that starts with 'Elektronische
+Toegangsdiensten' indicates that the value is specific to Elektronische Toegangsdiensten. [  ] [  ] [  ] [  ] [  ] [ AuthnRequest (1) Rules for processing requests Response (2) HM Summary assertion AttributeStatement
+] [  ] [  ] Rules for processing responses LogoutRequest ProvideKeyMaterialAfsprakenstelsel Elektronische Toegangsdiensten | pagina 541AuthnRequest (1)
+This section describes regular Authentication Requests. Element/@Attribute 0.. nDescription
+@ID 1 SAML: Unique message characteristic.

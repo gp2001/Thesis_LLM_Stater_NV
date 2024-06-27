@@ -1,0 +1,370 @@
+De ‘uniforme’ scenarioset
+voor pensioenberekeningen
+In het nieuwe pensioenstelsel
+wordt een prominente plek
+ingeruimd voor een nieuwe
+uniforme scenarioset. De
+invloed van de scenarioset zal
+toenemen ten opzichte van de
+huidige uniforme scenarioset in
+het huidige pensioenstelsel. Het is daarom belangrijk de
+aannames bij het maken van
+een scenarioset goed te
+onderbouwen, en ook oog te
+hebben voor de
+simulatieresultaten.In dit achtergronddocument
+worden de aannames bij de
+huidige uniforme scenarioset
+beschreven, worden resultaten uit
+de scenarioset naast historische
+data gezet, en voorbeelden
+gegeven van andere verdedigbare
+aannames voor het maken van
+een nieuwe scenarioset. CPB Achtergronddocument
+Luuk Metselaar, Rixt Swierstra, Peter Zwaneveld
+oktober 2021ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  Pagina 2 van 18 Samenvatting
+De ‘uniforme’ scenarioset is relevant voor vrijwel alle Nederlanders , en wordt nog belangrijker. Nu al
+wordt deze set gebruikt voor de pensioenverwachtingen (goed weer, mediaan en slecht weer) in het wettelijk
+verplichte Uniform Pensioenoverzicht (UPO) en de haalbaarheidstoets. Na invoering van het nieuwe pensioen stelsel  zal een nieuwe uniforme scena rioset worden voorgeschreven die gebruikt  zal worden  voor de
+bepaling van de fiscale premiegrens  en het bewaken van de balans tussen de doelstelling en de premie. Ook
+wordt de nieuwe scenarioset ingezet om de risicohoudingen van de deelnemers en de aansluiting daarop van het beleggingsbeleid en de toedeelregels vast te stellen en te toetsen,  en communicatie van de
+pensioenuitkeringen in verschillende scenario’s richting  de deelnemers  te waarborgen . Dit vraagt om een
+beschouwing van de scenarioset  en hoe dez e tot stand komt. A
+annames spelen onvermijdelijk een belangrijke rol in de totstandkoming van een scenarioset. Op dit
+moment bepalen expert -oordelen voor inflatie, rente en aandelenrendement een van de belangrijkste
+uitkomsten in de uniforme scenarioset:  het mediane verwachte pensioen. De goed - en slechtweerscenario’s
+rondom dit mediane pensioenscenario worden deels bepaald door expert -oordelen en deels door de model -
+en datakeuze. Daarbij komt dat enkel risico’s die aanwezig zijn in de data of in de hand matig opgelegde
+randvoorwaarden in de set zullen voorkomen. Grote structurele veranderingen in de economie vormen geen onderdeel van de scenarioset. D
+e aannames in de huidige uniforme scenarioset zijn verdedigbaar, maar andere aannames zijn
+eveneens verd edigbaar . In d it achtergronddocument  laten we zien dat o p lange termijn de cumulatieve reële
+rendementen in de huidige uniforme scenarioset vaker negatief zijn dan in historische data van 1979- 2019 te
+observeren is . Deze resultaten vloeien voort uit (impliciete) aannames, de opgelegde randvoorwaarden, de
+keuze van de data en de schattingsmethodiek. Deze keuzes zijn ondanks het niet overeenkomen met historische datareeksen overigens niet per se onjuist. De beste toeko mstvoorspelling zou heel goed kunnen
+afwijken van historische realisaties; hoe de toekomst eruit ziet is tenslotte een ‘ known unknown ’. Het is wel een
+reden om de aannames goed te onderbouwen. In dit achtergronddocument geven we een aantal voorbeelden
+van andere verdedigbare aannames die tot een andere scenarioset zouden leiden . E
+en goede onderbouwing en analyse van de scenarioset is niet eenvoudig, maar wel een cruciale
+opdracht voor een volgende Commissie Parameters. Het maken van een consistent geschat te scenarioset
+met heldere aannames over de financiële economie en plausibele simulatieresultaten op lange termijn is ingewikkeld en vraagt betrokkenheid van veel experts. Goed onderbouwde  aannames en een gedegen analyse
+van simulatieresultaten  zijn  hierbij van belang . Als verschillende aannames plausibel worden geacht zou een
+volgende Commissie Parameters de invloed van die aannames op de simulatieresultaten kunnen onderzo eken
+door middel van verschillende scenariosets. De – moeilijke – vraag die dan opdoe mt is: welke van deze
+scenariosets wordt de nieuwe uniforme scenarioset , of is er meer dan één set nodig? Het uitleggen van de
+gemaakte keuzes in de uiteindelijk te kiezen uniforme scenarioset(s) is dan extra belangrijk, net als het benoemen van mogelijke beperkingen bij het gebruik van deze scenarioset(s). ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  1 Inleiding
+1.1 Belang van de set
+In de concept Memorie van toelichting bij de Wet toekomst pensioenen1 wordt een prominente rol
+toebedeeld aan een Commissie Parameters. Uiterlijk iedere vijf jaar moet die commissie advies uitbrengen
+over onder meer maximale parameters2 en een uniforme scenarioset. In het huidige pensioenstelsel wordt
+ook uiterlijk iedere vijf jaar het advies van een Commissie Parameters gevraagd, over onder andere parameters voor het vaststellen van de kostendekkende premie en een uniforme scenarioset voor de pensioenverwachtingen (goed weer, mediaan en slecht weer) in het wettelijk verplichte Uniform Pensioenoverzicht (UPO) en de haalbaarheidstoets
+3. De Nederlandsche Bank vermeldt overigens expliciet op
+haar website dat de scenarioset niet is ontworpen voor het bepalen van de invulling van het beleggingsbeleid. Pensioenfondsen maken daarv oor eigen ALM- studies. Ook op kortingen en indexaties in het huidige
+pensioencontract heeft de scenarioset geen invloed: de dekkingsgraad van een pensioenfonds is hiervoor bepalend en die wordt bepaald op basis van de rekenrente, pensioentoezeggingen en de actuele marktwaarde
+van bezittingen. N
+a invoering van het nieuwe pensioenstelsel zal de nieuw voor te schrijven uniforme scenarioset gebruikt
+worden voor de volgende wettelijke functies:
+- Pensioenuitvoerders zullen berekeningen verstrekken aan cao -partij en op basis van de uniforme
+scenarioset. Deze berekeningen bieden cao -partijen een handvat om de balans tussen de premie en
+de pensioendoelstelling – inclusief de kans dat deze doelstelling wordt behaald – te beoordelen. - De fiscale premiegrens zal bepaald  en periodiek bijgesteld worden op basis van het te verwachten
+rendement, waarbij uitgegaan wordt van de meest recente uniforme scenarioset. - Voor de vaststelling van de risicohoudingen van deelnemers zullen drie maatstaven bepaald worden, aan de hand van de uniforme scenarioset, die gecombineerd leiden tot een bandbreedte voor het
+gewenste risico per leeftijdscohort. Ook bij de toets of het beleggingsbeleid en de eventuele toedeelregels passen bij de vastgestelde risicohouding wordt uitgegaan van de unifor me scenarioset. - Deelnemers krijgen inzicht in hun pensioenuitkering bij goed weer, mediaan en slecht weer,wederom aan de hand van de uniforme scenarioset. D
+e rol van het advies van de Commissie Parameters en de daaruit voortvloeiende parameters en unif orme
+scenarioset wordt in het nieuwe pensioenstelsel dus explicieter en belangrijker. 1.2 Doel van  de set
+De uniforme scenarioset bevat mogelijke toekomsten (we spreken in deze tekst over paden)4, waarbij
+financieel -economische risico’s in samenhang gemodell eerd worden. Een pensioenfonds maakt
+1 Ministerie van Sociale Zaken en Werkgelegenheid, Internetconsultatie Wet toekomst pensioenen, link. 2 Pensioenfon dsen worden door de wetgever beperkt in het maximale portefeuillerendement en de maximale inflatieontwikkeling
+waarmee ze mogen rekenen. 3 Pensioenfondsen moeten met de haalbaarheidstoets beoordelen of het fonds met het huidige beleggings - en risicobeleid  op lange
+termijn aan de pensioenambitie kan voldoen. Zie ook de website van De Nederlandsche Bank ( link). 4 Een pad wordt gegenereerd met een stochastisch proces ( in dit geval beschreven in het KNW -model). Deze paden (mogelijke
+toekomsten) zijn nadrukkelijk fictief. Het is met zekerheid te zeggen dat geen van de paden in de scenarioset de realisatie z al worden. Een goede scenarioset geeft een inschatting van bandbreedtes, maar moet niet gezien worden als voorspelling. Pagina 3 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  berekeningen van pensioenresultaten in elk van deze mogelijke toekomsten, om de risico’s voor deelnemers
+in te kunnen schatten. Voor het maken van een scenarioset is een model noodzakelijk5. De Commissie
+Parameters (2019) kiest hierbij voor het KNW -model (Koijen et al., 2010) vanwege de balans tussen
+uitvoerbaarheid en plausibiliteit. Daarnaast maken de aannames in het KNW -model het mogelijk om van de
+projectieset (P- set, of, in d it achtergronddocument, scenarioset) naa r de risiconeutrale waarderingsset (Q -set)
+te gaan. Deze eigenschap is wenselijk gegeven de afwegingen die gemaakt moeten worden in de transitie naar het nieuwe pensioenstelsel
+6. Tot slot is het mogelijk om binnen het KNW -model langetermijnverwachtingen
+en restricties op te leggen. Voorbeelden van langetermijnverwachtingen zijn inflatieverwachtingen,
+rendementsverwachtingen van aandelen en een ultimate forward rate op de risicovrije obligatierente (UFR). Voorbeelden van restricties zijn een fractie van de 10 -jaars rente s die negatief  mag zijn  en een restrictie op de
+standaarddeviatie van de 10 -jaarsrente. B
+ij de keuze voor een model worden expliciet (bijvoorbeeld door het opleggen van een meetkundig gemiddeld
+rendement) en impliciet (bijvoorbeeld in de wisselwerking tussen aandelen - en obligatierendementen)
+aannames gedaan. Omdat deze aannames invloed hebben op de uiteindelijke scenarioset, is het belangrijk om
+deze aannames te expliciteren en te beargumenteren. Vervolgens is het noodzakelijk de res ulterende
+scenario set te evalueren. In d it achtergronddocument nemen we het KNW -model als uitgangspunt, gegeven
+dat dit model momenteel wordt gebruikt bij het genereren van de uniforme scenarioset. We laten daarbij zien wat de simulatie -uitkomsten van de scenarioset zijn. Door ook de simulatieresultaten van scenariosets met
+andere plausibele aannames te analyseren, kan beter worden bepaald hoe robuust de uitkomsten zijn en wat het gevolg voor het beleid van pensioenfondsen  en voor pensioenuitkomsten  zou zijn. 1.3 Implicaties gebruik van set in ALM -studies
+Uit Metselaar en Zwaneveld (2020) blijkt dat de spreiding in pensioenuitkomsten bij gebruik van de uniforme scenarioset zeer groot is. In figuur 1 .1 laten we de gemiddelde vervangingsratio’s tijdens pensionering
+(gemiddelde verhouding tussen pensioenuitkering en loongeïndexeerd middelloon in de pensioenjaren) zien in de uniforme scenarioset
+7. In het 5% -percentiel is de vervangingsratio op lange termijn circa 35%, in het
+mediane scenario circa 85% en in het 95% -percentiel circa 225%, bij een pensioenpremie van 20% van het
+pensioengevend loon. De deelnemers van het gemodelleerde pensioenfonds kunnen gezien worden als representatief voor de Nederlandse bevolking als geheel, met een gemiddeld participatie- en carri èreprofiel,
+en een gemiddelde levensverwachting. 5 Ook het handmatig prikken van mogelijke toekomsten is een vorm van modelleren. 6 Zie Metselaar, Nibbelink  en Zwaneveld (2020). Nieuwe pensioenregels. CPB Notitie link  voor een analyse van de transitie naar het nieuwe
+pensioencontract in vervangingsratio’s en zekerheidsequivalenten (berekend met de P- set) en netto profijt (berekend met de Q -set). 7 We gebruiken hiervoor de uniforme scenarioset van het tweede kwartaal van 2021. Pagina 4 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  Figuur 1.1 Vervangingsratio’s tijdens pensioenperiode, mediaan, 5e en 95e percentiel in de uniforme scenarioset  van het
+tweede kwartaal van 2021 . D
+e grote spreiding in pensioenuitkomsten in de huidige scenarioset gekoppeld aan het toegenomen belang
+van de scenarioset  vraagt om een beschouwing van de inhoud van de scenarioset en de gemaakte
+veronderstellingen. In  het vervolg van dit achtergronddocument  geven we in hoofdstuk  2 een beschouwing
+van de aannames en inhoud van de huidige uniforme scenarioset. In hoofdstuk  3 analyseren we de simulatie-
+uitkomsten van de scenarioset en zetten die naast historische data . In hoofdstuk  4 geven we aandachtspunten
+voor de ontwikkeling van toekomstige scenariosets in het licht van de wetenschappelijke literatuur. Vervolgens concluderen we. 2 De huidige uniforme scenarioset
+De huidige uniforme scenarioset wordt gegenereerd op basis  van het KNW -model. Hieronder bespreken we
+kort enkele belangrijke eigenschappen van het model en de aannames die daarbij impliciet of expliciet gedaan worden. Ook gaan we in op het concept ‘ scenario ’. 2.1 Het KNW -model
+De Commissie Parameters (2019) kiest vo or het maken van de huidige scenarioset voor het KNW- model
+vanwege de balans tussen uitvoerbaarheid en plausibiliteit. Het wordt als een voordeel gezien dat het model relatief eenvoudig is met een beperkt aantal beleggingscategorieën en een beperkt aantal onderliggende factoren. Tegelijk kan het model gebruikt worden om rente- , inflatie - en zakelijkewaardenrisico’s in
+samenhang te modelleren. Deze financiële risico’s worden in het KNW -model niet expliciet gekoppeld aan
+macro -economische factoren, zoals wins ten of economische groei. Aanvullend op de keuze voor het KNW-
+model en de schattingsdata - en methode, legt de Commissie Parameters langetermijnverwachtingen en een
+restrictie op. Deze verwachtingen en restricties komen tot uiting in de scenario’s in de huidige scenarioset. D
+e modelaannames in het KNW -model maken het mogelijk om van de projectieset naar een risiconeutrale
+waarderingsset te gaan. In een projectieset komt het verschil tussen belegging en in aandelen of obligaties tot
+uitdrukking in het feit dat aandelen gemiddeld meer opleveren vanwege (onder andere) risicopremies. In een
+Pagina 5 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  risiconeutrale set is de verwachte (verdisconteerde) waarden van alle investeringen exact gelijk: de
+zogenoemde marktconsistente waardering. In de transitie naar het nieuwe pensioenstelsel zullen de verwachte pensioenresultaten (vervangingsratio’s, zekerheidsequivalenten en een marktconsistente waarde, meestal uitgedrukt in netto profijt) afgewogen moeten worden. Het is daarbij wenselijk als de projectie- en
+waarderingsset cons istent met elkaar zijn
+8. 2.2 Aannames in huidige set
+Het is  belangrijk om op te merken dat de scenario’s in de huidige uniforme scenarioset berusten op een aantal
+aannames . Deze aannames zijn een gevolg van model - en datakeuze en eerdergenoemde  opgelegde
+verwachtingen  en restricties. Vo
+or het genereren van de huidige uniforme scenarioset wordt het KNW -model gebruikt. Dit betekent, onder
+andere, dat de financieel -economische schokken een normale verdeling volgen9 en dat twee factoren alle
+economische dynamiek bevatten die niet expliciet in het model is ingebouwd maar wel invloed heeft op de ontwikkeling van de financiële variabelen. Denk voor deze economische dynamiek bijvoorbeeld aan economische conjunctuur. Onda nks dat we deze twee factoren niet werkelijk kunnen observeren, wordt er
+aangenomen dat ze bestaan en een bepaald pad volgen. Daarnaast wordt aangenomen dat de reële loongroei
+onafhankelijk is van de financiële variabelen en de twee economische factoren. E
+en aanname met betrekking tot de datakeuze is dat de dataperiode die wordt gebruikt voor het schatten van
+het model alle nodige informatie bevat e n lang genoeg is om dataruis van datatrends te onderscheiden. Daaraan gerelateerd is de aanname dat de  invloe d van externe  factoren op de macro -economie ( bijv. monetair
+beleid, fiscaal beleid, globalisatie, demografie) in de afgelopen twee decennia representatief is voor de periode waarover berekeningen worden gedaan . I
+n de scenario’s is een van de belangrijkste uitkomsten, namelijk de ‘verwachte of mediane’
+pensioenuitkering, volledig bepaald door experts op basis van ‘expert opinion’. Zo koos de laatste Commissie Parameters voor een inflatie van 1,9% op lange termijn, een meetkundig gemiddeld aandelenrendement  van
+5,6% en een korte rente die snel oploopt naar uiteindelijke ca. 2% (ongeveer gelijk aan de toenmalige UFR). Als gevolg van deze korte rente is de tienjaarsrente op lange termijn 3,5% en de twintigjaarsrente circa 4%. Met name de keuze voor een lange rente van 4% is opmerkelijk (Metselaar en Zwaneveld, 2020), hoewel over de recente verlaging daarvan ook de nodige discussie ontstond
+10. Deze gekozen mediane uitkomsten worden in
+de schattingsmethode als harde randvoorwaarde opgelegd. De geschatte parameter s en het KNW -model
+bepalen vervolgens de stochastiek van de financiële variabelen rondom deze harde randvoorwaarden. 2.3 Scenario’s in huidige scenarioset
+De scenarioset bevat meerdere paden  (toekomsten) waarin elk pad een ander verloop van de financiële
+variabelen voor de komende 60 jaar weergeeft. De ontwikkeling van de financiële variabelen in deze paden en de bijbehorende korte- en langetermijnrelaties worden bepaald door het KNW -model. Ondanks dat de
+langetermijnverwachtingen geprikt zijn, kan de ontwikkeling over de jaren heen sterk afwijken van deze
+8 De waarderingsset moet zoveel mogelijk consistent zijn met marktprijzen. 9 Zie de OECD Pensions Outlook 2020 ( link) p. 113 voor een kort overzicht van alternatieve methoden om schokken te modelleren. 10 Zie hier  het document met wetenschappelijk commentaar . Pagina 6 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  verwachtingen. Zo zijn de jaarlijks e nominale aandelenrendementen in de scenarioset tussen de - 17 % tot 34%
+per jaar en  de 20-jaars g eannual iseerde cumulatieve aandelenrendementen tussen de - 1% tot 13%.11,12
+B
+ij pen sioenverwachtingen wordt gesproken over goed -, mediaan - en slechtweer scenario’s . Zo wordt bij
+‘mediaan weer’ voor elk jaar het 50e percentiel van het pensioenresultaat gemeten in  vervangingsratio’s
+weergegeve n. Omdat jaarlijks e rendementen en de inflatie op lange termijn gemiddeld naar opgelegde
+waardes toe bewegen, is ‘ mediaan  weer ’ vergelijkbaar met de ‘verwachte ’ pensioenuitkering . Goed - en slecht
+weer geven de bandbreedtes13 waarbinnen het toekomstige financiële pad zich zal ontwikkelen gegeven dat
+alle gemaakte veronderstellingen  juist zijn. 3 Analyseren van simulatieresultaten
+In dit hoofdstuk analyseren we de gesimuleerde rendementen op aandelen en tienjaarso bligaties
+(gecorrigeerd voor looninflatie) 14,15. Omdat de  vervangingsratio is gedefinieerd als de pensioenuitkering
+gedeeld door het loongeïndexeerd middelloon , is v oor een analyse van de uitkomsten het
+langetermijnrendement gecorrigeerd voor looninflatie van belang . We laten rendementen zien voor periodes
+van één jaar en twintig jaar door gebruik te maken van cumulatieve distributiefuncties. Het naast elkaar zetten
+van de historische rendementen en de  rendementen in de  scenarioset draagt bij aan het inzic htelijk maken
+van de verschillen tussen kortetermijn - en langetermijnrelaties in de historische data en de scenarioset. Om
+deze zelfde reden kijken we ook naar de historische rentes voor looptijden van één jaar en tien jaar, en naar de
+reële looninflatie. De historische data in onderstaande vergelijking loopt van 1979 tot 201916. Het is belangrijk
+om bij deze resultaten op te merken dat een goede voorspelling voor de toekomst niet per se leidt tot een scenarioset met rendementen die overeenkomen met historische rendementen. De vergelijking is dus niet bedoeld als toets. Historische rendementen zijn waarschijnlijk aan de hoge kant geweest door de sterk gedaalde rente; het is mogelijk  dat rendementen in de toekomst lager zijn. 3.1 Reëel aandelenrendement
+In fig uur 3.1 laten we het 1- jaars -aandelenrendement (links) en het geannualiseerd 20 -jaars -
+aandelenrendement (rechts) zien, gecorrigeerd voor looninflatie. De verdeling van de 1- jaars -
+aandelenrendementen in de uniforme scenarioset is op het oog redelijk vergelijkbaar met de historische data. Opvallend is dat i n de historische data slechts een fractie van de 20 -jaars -aandelenrendementen negatief  is,
+terwijl deze kans in de scenarioset 20% is. In de scenarioset  is in 15% van de gevallen sprake van een rendement
+kleiner dan - 1% per jaar. In 1% van de paden in de scenarioset is sprake van jaarlijkse rendementen lager dan -
+5% per jaar, over een periode van 20 jaar. Dit zou betekenen dat van een euro inleg na twintig jaar na correctie
+11 Technisch: het 5%- en 95% -percentiel van het 1 -jaars nominaal aandelenrendement. 12 Technisch: het 5% - en 95% -percentiel van het geannualiseerde 20 -jaars nominaal aandelenrendement. 13 Behorend bij een bepaald kanseninterval. In geval van goed en slecht weer gaat het om het 75% - en 25% -percentiel. 14 Rendementen afzetten tegen de prijsinflatie geeft vergelijkbare resultaten. De rendementen zijn in dat geval in absolute zin iets
+hoger, om dat de looninflatie in het algemeen iets hoger is dan de prijsinflatie. 15 De weergegeven vervangingsratio’s in figuur 1 .1 zijn op basis van een beleggingsmix met 50% aandelen en 50% obligaties met een
+looptijd gelijk aan de looptijd van de verwachte toeko mstige betalingen. We vereenvoudigen dit in d it achtergronddocument  tot enkel
+10-jaarsobligaties. 16 We kiezen voor een zo lang mogelijke historische dataset omdat langetermijnrendementen van belang zijn voor pensioenfondsen. Onder de aanname van independ ent and identically distributed random variables  wijst de  two -sample Kolmogorov -Smirnov test uit dat de
+jaarlijkse rendementen en inflatie in de data van 1979 -1999 niet significant verschilt van de data van 2000 -2019. Een belangrijke
+kanttekening is dat de  tijdreeksdata autocorrelatie vertoont, waardoor aan de aanname van onafhankelijke en gelijk verdeelde
+random variabelen niet wordt voldaan. Pagina 7 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  voor  loongroei slechts 0,36 euro overblijft. Voor de 20 -jaars -rendementen is er naar ons weten geen
+statistische toets mogelijk om te bepalen of er verschillen tussen de gesimuleerde rendementen en de
+historische rendementen zijn. Figu ur 3.1 Geannualiseerde cumulatieve reële aandelenrendementen (gecorrigeerd voor prijs - en (cao -)looninflatie),
+voor periodes van 1 en 20 jaar. Donkerblauw is op basis van historische data van 1979 tot 2019, l ichtblauw is
+op basis van de uniforme scenarioset van het tweede kwartaal van 2021. Uitleg: in deze grafieken geven we de cumulatieve distributiefuncties weer. De cumulatieve distributiefunctie geeft de kans weer dat
+het jaarlijks rendement kleiner dan of gelijk is aan de waarde op de horizontale as. Bijvoorbeeld bij het 1 -jaarsrendement: daar is in de
+uniforme scenarioset 40% kans op een jaarlijks rendement kleiner dan of gelijk aan 0%. Een grotere gradiënt betekent dat de s preiding
+van de verdeling kleiner is. 3.2 Reëel obligatierendement
+In figuur 3 .2 vergelijken we obligatierendementen voor een periode van 1 jaar (links) en geannualiseerde
+obligatierendementen voor een periode van 20 jaar (rechts), gecorrigeerd voor looninflatie. Van de
+obligatierendem enten voor een periode van 1 jaar is in de historische data circa 15% negatief, met
+rendementen variërend van - 1,5% tot 7,5%. In de scenarioset is de helft van de rendementen negatief, en
+variëren ze van circa -15% tot 15%. De obligatierendementen voor een  periode van 20 jaar zijn in de historische
+data niet negatief en variëren van een jaarlijks rendement van circa 0,5% tot 4%. De positieve rendementen in het verleden kunnen deels worden verklaard door de daling van de nominale rente. In de scenarioset is de verwachting opgenomen dat de nominale rente de komende jaren licht oploopt en daarna stabiliseert. De rendementen voor een periode van 20 jaar zijn in de scenarioset in ongeveer de helft van de gevallen negatief. De jaarlijkse rendementen zijn tussen de - 4% en 4%. In de historische data zijn de vergelijkbare jaarlijkse
+rendementen tussen de 0,5% en 4,5%. Pagina 8 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  Figuur 3.2 Geannualiseerde cumulatieve reële 10 -jaarsobligatierendementen (gecorrigeerd voor prijs - en (cao-
+)looninflatie), voor periodes van 1 en 20 jaar. Donkerblauw is op basis van historische data van 1979 tot 2019,
+lichtblauw is op basis van de uniforme scenarioset van het tweede kwartaal van 2021. 3.3 Nominale rente
+In figuur 3.3 zetten we de nominale 1- jaarsrentes (links) en 10 -jaarsrentes (rechts) in de historische data en in
+de scenarioset naast elkaar. In de scenarioset is de nominale 1- jaarsrente in de mediaan circa 0%, terwijl het
+5%- en 95% -percentiel op ongeveer - 3% en 3% liggen. De nominale 1- jaarsrente is in de historische data alleen
+in de recentste jaren licht negatief, en was in de mediaan circa 5%. Voor de nominale 10 -jaarsrente is eenzelfde
+beeld te zien: in de scenarioset is die in de mediaan ongeveer 1% en liggen h et 5% - en 95% -percentiel op
+ongeveer -2% en 4%. De historische 10 -jaarsrente is vrijwel evenredig verdeeld tussen 0% en 10% jaarlijkse
+interest. De nominale 10 -jaarsrentes dicht bij 0% in de historische data zijn wederom afkomstig uit de meest
+recente jaren. Dit laat zien dat bij het maken van de scenarioset gekozen is om de mediaan dichter bij de meest
+recente data aan te sluiten. Pagina 9 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  Figuur 3.3 Nominale 1 -jaarsrente en 10 -jaarsrente. Donkerblauw is op basis va n historische data van 1979 tot 2019,
+lichtblauw is op basis van de uniforme scenarioset van het tweede kwartaal van 2021. 3.4 Reële looninflatie
+In figuur 3.4 vergelijken we looninflatie voor een periode van 1 jaar (links) en geannualiseerde looninflatie
+voor een periode van 20 jaar (rechts), gecorrigeerd voor prijsinflatie. In de scenarioset is de looninflatie
+gegeven door een vaste opslag van 0,4% op de prijs inflatie. De 0,4% -opslag is op basis van het gemiddelde uit
+het verleden. Dat zien we ook terug in de historische data. De reële looninflatie voor een periode van 1 jaar is
+in de historische data in circa 35%  van de gevallen  negatief, en variërend van - 2,5% tot 3,5%. De  reële
+looninflatie voor een periode van 20 jaar is  in de historische data niet negatief en varieert  van een jaarlijks
+rendement van circa 0,1% tot 0,6%. Figuur 3.4 Geannualiseerde cumulatieve prijsgecorrigeerde (cao- )looninflatie, voor periodes van 1 en 20 jaar. Donkerblauw is op basis van historische data van 1979 tot 2019, lichtblauw is op basis van de uniforme
+scenarioset van het tweede kwartaal van 2021. Pagina 10 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  3.5 Conclusie
+Voor pensioenbereken ingen zijn l angjarige cumulatieve rendementen van belang. Een visuele inspectie laat
+zien dat d e 20 -jaars cumulatieve reële aandelenrendementen in de scenarioset vaker negatief  zijn  dan in de
+historische data. De 20 -jaars cumulatieve reële obligatierendementen zijn in de scenarioset in 50% van de
+gevallen negatief, terwijl dit in de historische datareeks vanwege de langjarige daling van de rente niet
+voorkomt. Deze observaties vloeien voort uit de aannames die impliciet en expliciet (zoals de oplopende rent e) worden gemaakt in het KNW -model, de opgelegde randvoorwaarden en de keuze van de data. Deze
+keuzes zijn ondanks het niet overeenkomen met historische datareeksen niet per se onjuist (de beste toekomstvoorspelling zou heel goed af kunnen wijken van histo rische realisaties), maar wel een reden om de
+keuzes goed te beargumenteren. B
+ij elke aanname is het van belang expliciet aan te geven welke aspecten lastig of niet vooraf in zijn te
+schatten: de ‘known unknowns’. De ontwikkeling van de nominale rente is  hier een goed voorbeeld van: in de
+historische data zien we een gestage daling van de rente tot het huidige peil rond 0%. In de scenarioset is de verwachting opgenomen dat de rente licht gaat oplopen en daarna stabiliseert. Dit is enerzijds denkbaar maar anderzijds ook zeer onzeker. Sinds 1980 laten de nominale en reële rente een dalende trend zien (Blanchard, 2019; Jorda et al., 2019). Structurele redenen voor een dalende rente die in de economische literatuur genoemd worden zijn lage investeringen en hog e besparingen (Brand et al., 2015; Rachel en Summers, 2019) en de
+toegenomen ongelijkheid (Mian et al., 2021). Aan de andere kant wordt beargumenteerd dat stagnerende vergrijzing, de grotere behoefte aan sociale zekerheid, en kleinere besparingen in opkomende markten in de toekomst juist tot hogere rentes kunnen  leiden (Lunsford en West, 2018). Dit is een lopend debat waarover
+nog geen overeenstemming is. Het verloop van de rente voor de komende jaren is dus erg onzeker. Het is belangrijk om hier bewust van  te zijn bij het maken van een scenarioset. 4 Inhoud van een scenarioset
+De uniforme scenarioset wordt gebruikt als raming  van de pensioenuitkomsten op lange termijn bij goed -,
+mediaan - en slecht  weer. Hoofdstuk 3 toont aan dat een  visuele inspectie van de  historische data en
+uitkomsten van de scenarioset inzichtelijk kan maken waar de verschillen zitten  en spoort aan om deze
+verschillen te duiden. De onderbouwing van de aannames, als gevolg van model - en datakeuzen en de
+schattingsmethode, is daarbij cru ciaal. Dit hoofdstuk  beschrijft een aantal alternatieven. Paragraaf 4.1
+bespreekt mogelijke alternatieve scenarioset definities en paragraaf 4.2 geeft alternatieven voor de data - en
+modelkeuze. 4.1 Goed - en slechtweer scenario’s
+Een belangrijke notie bij de goed- en slechtweerscenario’s is dat alleen risico’s die in de modelstructuur of de
+data voorkomen een rol kunnen spelen. Structurele veranderingen die mogelijk kunnen plaatvinden in de komende jaren maken momenteel geen onderdeel uit van de scenarioset. Structurele veranderingen kunnen voortkomen uit ‘rare events’, denk hierbij bijvoorbeeld aan pandemieën of hyperinflatie, of door mogelijk e
+nieuwe ‘frequent events’, bijvoorbeeld klimaatrampen. De methode voor het bepalen van een scenarioset neemt door de schatting op data alleen die risico’s mee die in de schattingsperiode zijn opgetreden, buiten het
+Pagina 11 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  met de hand bijsturen door het opleggen van randvoorwaarden. De impliciete aanname voor de goed - en
+slechtweerscenario’s is dus dat de structuur van de (financ iële) economie niet verandert. Vo
+or sommige doeleinden, zoals het vaststellen van de premie of het visualiseren van onzekerheid rondom
+toekomstig pensioen, kunnen deterministische scenario’s wenselijk zijn. Voor communicatie met
+pensioendeelnemers is het  namelijk van belang dat er duiding wordt gegeven aan de geraamde
+pensioenuitkomsten. Daarnaast k unnen duidelijk gedefinieerd e goed - en slechtweerscenario helpen bij het
+inschatten van het effect van wijzigingen in deze scenario’s. Een voorbeeld is de recente aanpassing van de gemiddelde rente op lange termijn
+17: daarvan was niet op voorhand duidelijk wat de invloed op goed - en
+slechtweerscenario’s zou zijn. 4.2 Toekomstige paden in de set
+In deze paragraaf gaan we in op de inhoud van t oekomstige paden in de scenarioset aan de hand van
+data keuzes, modelkeuzes  en keuzes rond de modellering van de relatie tussen macro -economie en financi ële
+markten . Verschillende verdedigbare economische veronderstelling over relaties tussen bijvoorbeeld
+loongroei en  aandelenrendementen leiden tot verschillende modelstructuren. Met modelstructuur bedoelen
+we de manier waarop de financiële variabelen zich ontwikkelen  en verhouden tot elkaar . Uit Swierstra (2020)
+blijkt dat met verschillende modelstructuren voor financieel -economische grootheden een vergelijkbaar
+goede fit kan worden behaald  op de historische data. De simulatie- uitkomsten van die vergelijkbaar goede
+scenario sets kunnen vervolgens sterk verschillen. Het is hierom nuttig om in alle gevallen de simulatie-
+uitkomsten te analyseren  en te relateren aan de gemaakte keuze s. 4.2.1 Implicaties van datakeuze
+De huidige uniforme scenarioset  wordt bepaald op basis van het KNW -model met een schatting op maanddata
+van 1999- 2018 door middel van maximum likelihood . Het is echter niet duidelijk hoe robuust de resulterende
+scenarioset is tegen veranderingen in de datakeuze. Zo worden voor de schatting zes rentereeksen gebruikt met looptijden van 1, 5, 10, 15, 20 en 30 jaar. Het effect van de keuze voor een ander aantal rentereeksen en/of andere looptijd op simulatie- uitkomsten is momenteel nog onduidelijk. Daarnaast is er, ondanks dat er
+verschillen de schattingen zijn gedaan (Draper, 2014; Muns, 2015 ; Commissie Parameters, 2019), geen studie
+die bekijkt hoe gevoelig de simulatie- uitkomsten zijn voor verschillende dataperioden. Het is mogelijk dat in
+de huidige schatting veel kortetermijneffecten worden opgepikt waarbij de langjarige reeksen meer naar de achtergrond verdwijnen. Voor het pensioenresultaat zijn vooral langjarige rendementen van belang, dus het zou een redelijke keuze kunnen zijn hier in de schatting dichter bij aan te sluiten. Dit kan bijvoorbeeld door een datareeks met lagere frequentie te gebruiken of door expliciete restricties op te leggen in de schatting van het model zodat de fit op langjarige rendementen beter wordt. D
+e keuze voor een bepaalde historische datareeks bepaalt mede de geschatte relaties tussen de financiële
+variabelen, bijvoorbeeld de relatie tussen aandelen - en obligatierendementen. De correlatie tussen
+aandelenrendement en obligatierendement wordt in de literatuur al langere tijd onderzocht. D eze correlatie is
+tot h et jaar 2000 duidelijk positief terwijl de correlatie daarna negatief is ( Baele  en Van Holle , 2017). Ook de
+historische data die in d it achtergronddocument geanalyseerd worden, laten een verschillende relatie tussen
+het jaarlijkse obligatie - en aandelenren dement zien in de korte datareeks ( 1999 tot 201 9) en de lange datareeks
+17 DNB heeft met ingang van 1 januari 2021 modelparameters van de uniforme scenarioset aangepast ten opzichte van de Commissie
+Parameters 2019 waardoor de gemiddelde ren te op lange termijn in de scenarioset lager uitvalt. Zie hier  het document met
+wetenschappelijk commentaar . Pagina 12 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  (1979 tot 2019) . In de korte datareeks is de correlatie tussen aandelen - en obligatierendement gemiddeld
+negatief  terwijl de correlatie in de lange historische datareeks gemiddeld positief  is. D
+e huidige uniforme scenarioset wordt gegenereerd op basis van het KNW- model  waarin de parameters zijn
+verkregen door een schatting op historische data. Parameteronzekerheid speelt in deze set momenteel geen
+rol. Gegeven dat voor sommige paramete rs de standaardfout meer dan de helft van de omvang van de
+parameterschatting is (Pelsser, 2019), kan het relevant zijn om rekening te houden met deze onzekerheid. Daarbij kan ook overwogen worden om onzekerheid rondom de geprikte langetermijnverwachtingen  mee te
+nemen in de scenarioset. 4.2.2 Implicaties van modelstructuur
+Naast het onderzoeken van het effect van datakeuze op simulatie -uitkomsten, kan ook het effect van de
+gekozen modelstructuren  onderzocht worden . Hieronder worden mogelijke variaties gegeven op de
+modelstructuur voor aandelenprijzen en economische factoren, die in de literatuur ook als plausibel  worden
+gezien. M
+ean reversion in aandelenprijzen
+De eerste betreft het gebruik van een andere structuur voor aandelenprijzen, namelijk mean reversion . Mean
+reversion betekent dat prijzen op lange termijn terugkeren naar het gemiddelde18. Cochrane (2011) stelt
+bijvoorbeeld dat winsten op middellange termijn voorspelbaar zijn, waarmee rendementen ook voorspelbaar zouden zijn. De theoretische verklaringen voor mean reversion zijn gerelateerd aan de kwestie van de
+efficiënte- markt -hypothese en worden samengevat in Spierdijk et al. (2012). De efficiënte- markt -hypothese
+stelt dat alle informatie wordt gevangen in de aandelenprijzen, waardoor mean reversion soms gezien wordt als marktinefficiëntie. Zo kan het veroorzaakt worden door irrationeel gedrag van noise traders . Dit kan
+voortkomen uit ‘fads’ , overreacties op financieel nieuws, of uit opportunistische investeringen. Maar ook in
+efficiënte markten kan mean reversion in aandelenprijzen optreden. In een efficiënte markt worden aandelenprijzen bepaald door de verwachte rendementen. Dit betekent dat wanneer verwachte rendementen mean reverting zijn, aandelenprijzen ook mean reversion vertonen. Mean reversion in verwachte rendementen kan voortkomen uit onzekerheid over de economie, rationele speculatieve bubbels en onzekere bedrijfsvooruitzichten. E
+mpirische resultaten over de aanwezigheid van mean reversion in aandelenprijzen zijn  erg uiteenlopend. Zo
+geven Spierdijk et al. (2012) een overzichtelijke samenvatting van 20 jaar aan onderzoek, waarbij onderscheid wordt gemaakt naar het type mean reversion (absoluut of relatief) en wordt benoemd welke complicaties optreden bij het aantonen van mean reversion. Ook wordt in dit onderzoek duidelijk beschreven welke factoren invloed hebben op het meten van mean reversion en de meanreversionsnelheid, namelijk datakeuze en de politieke- en economische omgeving. Daarnaast toont het onderzoek va n Pástor  en Stambaugh (2012)
+aan dat aandelenrendementen op de lange termijn juist volatieler zijn dan op de korte termijn vanuit een investeerdersperspectief, wanneer rekening wordt gehouden met imperfecte kennis. Gegeven de uiteenlopende resultaten over de aanwezigheid van mean reversion in aandelenprijzen is het inzichtelijk om te onderzoeken wat de implicaties op financiële uitkomsten in de scenarioset zouden zijn. Spierdijk et al. (2017) laten  bijvoorbeeld zien  dat de optimale investeringsportefeuille kan veranderen wanneer er mean
+reversion wordt aangenomen
+19, wat implicaties heeft voor langetermijninvesteerders. Ook in de simulatie van
+18 Technisch betekent mean reversion  dat er op lange termijn negatieve autocorrelatie is tussen aandelenrendementen en dat het
+aandelenprijsproces stationair is. Wanneer aandelenprijzen mean reverting zijn geldt dit ook voor de corresponderende
+aandelenrendementen (vice versa hoeft  dit niet  te gelden ). 19 i.p.v. het standa ard random walk process  van aandelenprijzen
+Pagina 13 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  de scenarioset kan een schatting van het KNW -model met en zonder mean  reversion in aandelenprijzen
+inzichtelijk maken  wat het effect op pensioenuitkomsten is. Aantal economische factoren
+De tweede variatie betreft het toevoegen en/of schrappen van een van de economische factoren. Zoals
+beschreven in paragraaf 2.2 is aangenomen dat de f actoren alle economische dynamiek bevatten die niet
+expliciet in het model is ingebouwd maar wel invloed hebben  op de ontwikkeling van de financiële
+variabelen. In de praktijk is het kiezen van het aantal factoren een balans tussen enerzijds ‘genoeg’ om alle
+dynamiek te vangen en anderzijds ‘niet te veel’ waardoor onterecht ruis wordt opgepikt. In de literatuur is er geen consensus over het optimale aantal factoren in het beschrijven van de financiële variabelen. Zo stelt de FED
+20 dat de keuze voor drie factoren in het FED -model niet specia al onderbouwd is. Onderzoek toont
+desondanks aan dat verschillen kunnen optreden in de geschatte parameterwaarden en fit op historische data wanneer een andere hoeveelheid factoren wordt gekozen ( De Jong, 2000). Gezien het belang van deze factoren
+in de mo delstructuur, is het nuttig om het effect van het gekozen aantal op de simulatieresultaten te kunnen
+duiden. Andere rentetermijnstructuur
+Als derde noemen we de mogelijkheid om anders met de rentetermijnstructuur om te gaan. In de huidige scenarioset wordt aangenomen dat de korte rente op lange termijn richting de UFR beweegt. De UFR wordt bepaald door het ongewogen gemiddelde te nemen van de 30 -jaars forward rente over de afgelopen 10 jaar. Bij
+het schatten van de scenarioset wordt deze UFR exogeen opgelegd voor de eenjaarsrente op de zeer lange termijn. In combinatie met het KNW -model leidt dit tot een monotoon stijgende rentetermijnstructu ur
+21. In
+de praktijk kent de huidige rentetermijnstructuur niet een dergelijk verloop (Balter et al., 2021): voor de middellange looptijden stijgt en voor zeer lange looptijden daalt de rentetermijnstructuur. Dit duidt erop dat er geen eenduidige waarde is  voor de eenjaarsrente op de lange termijn. Hierdoor is het nuttig om de impact
+van andere modelleringen van de hoogte van de eenjaarsrente en de ontwikkeling van de rentetermijnstructuur te onderzoeken. 4.2.3 Macro -economie en financiële markt
+Naast een an alyse van de implicaties van datakeuze en de gekozen  modelstructuur op de resultaten, is het ook
+van belang om andere aanpassingen aan het KNW -model te overwegen. Er zijn natuurlijk veel alternatieve
+modellen die onderzocht kunnen worden, variërend  van puu r datagedreven tot puur theoretisch. Wij nemen
+het KNW -model als startpunt, gezien de argumenten voor gebruik in paragraaf  2.1. G
+egeven dat pensioenresultaten afhankelijk zijn van resultaten op financiële markten én macro -economische
+uitkomsten, is het belangrijk om deze interactie goed te kunnen  modelleren . Daarom worden in deze
+paragraaf twee alternatieven beschreven waarbij de interactie tussen de macro -economie en de financiële
+markt verder uitgewerkt wordt. De eerste betreft een u itbreiding waarbij loondynamiek wordt toegevoegd aan
+het KNW -model. Ten tweede wordt beschreven hoe het model aangepast kan worden door een alternatieve
+interactie van de macro -economie met de financiële markt toe te passen. Loondynamiek toevoegen aan model
+Zoals in paragraaf 2.2 en 3. 4 beschreven, bevat het KNW -model momenteel geen loondynamiek. Wanneer
+loondynamiek wordt toegevoegd, moet er een loonmaatstaaf (loonkosten of brutoloon) en een loonstructuur gekozen worden. De meest voor de hand liggende keuze voor de loonstructuur is om eenzelfde structuur op te leggen als bij de prijsindex, waarbij de loonindex afhankelijk is van de economische factoren en de financiële-
+20 https://www.federalreserve.gov/data/three- factor -nominal- term -structure- model.h tm
+21 Monotoon stijgend betekent dat de rente voor looptijd x+1 altijd groter dan of gelijk is aan de rente voor looptijd x. Pagina 14 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  risico -categorieën . Hierbij wordt de uiteindelijke relatie tussen loon en andere variabelen in het model
+bepaald in de schattingsprocedure. Er kan daarnaast ook gekozen worden voor het expliciet opleggen van een
+relatie tussen looninkomen en kapitaalinkomen. Economische intuïtie zegt dat bij enigszins stabiele arbeidsinkomensquote en vergelijkbare productiviteitsontwikkeling per eenheid arbeid en kapitaal, zakelijke rendementen en looninflatie in dezelfde richting moeten bewegen. Zo beschrijven Boelaars en Mehlkopf (2018) in hun introductie dat aandelenrendement op de lange termijn positief gerelateerd kan zijn aan loon omdat economische factoren op de lange termijn zowel rendement op arbeid als op kapitaal beïnvloeden. I
+n de empirie zijn er verschillende onderzoeken gedaan naar de relatie tussen loon en aandelen. Lucas en
+Zeldes (2016) verm elden dat er tijdvariatie in de correlatie tussen consumptiegroei en dividendgroei is. De
+correlatie zou op de lange termijn veel sterker zijn dan op de korte termijn. Deze observatie wordt door Lucas en Zeldes (2016) als reden genoemd om een langetermijnrelatie tussen aandelenrendement en loon aan te
+nemen
+22. Ook zijn er studies die voortbouwen op het onderzoek van Benzoni et al. (2007)23, waarin empirisch
+wordt aangetoond dat loon en rendement op aandelen op de lange termijn in dezelfde richting bewegen. Gezien het belang van loon - en aandelendynamiek in de pensioenuitkomsten (de vervangingsratio is immers
+de uitkering gecorrigeerd voor de loongroei), kan het nuttig zijn om deze relatie verder te onderzoeken en eventueel te implementeren. Alternatieve int eractie financiële variabelen en  macro -economie
+Zoals eerder beschreven moeten de economische factoren in het KNW- model alle economische dynamiek
+bevatten die niet expliciet in het model is ingebouwd , maar wel invloed heeft  op de ontwikkeling van de
+finan ciële variabelen. In de huidige modelstructuur wordt aangenomen dat deze factoren bestaan maar niet
+geobserveerd kunnen worden. Door het exogeen opleggen van het pad dat de factoren volgen in het KNW -
+model, kan met behulp van de financiële markdata een schatting worden gemaakt van deze factoren. Hierbij wordt geen macro- economische data gebruikt. O
+m de interactie tussen de macro -economie en financiële markt duidelijker mee te nemen in het KNW -model,
+kan overwogen worden om de financiële variabelen op een andere manier te relateren aan macro -
+economische variabelen. Ten eerste kan er een alternatieve schatting van de factoren worden gedaan, waarbij macro -economische data wordt gebruikt. Er zijn  verschillende statische methoden mogelijk waarop macro -
+economisc he variabelen gecombineerd kunnen worden in een factor, die daarna als ‘geobserveerd’ aan het
+KNW -model toegevoegd k an worden, zie bijvoorbeeld hoofdstuk 2 van Muns (2017). Ten tweede kan ervoor
+gekozen worden om in plaats van een partieel evenwichtsmodel een algemeen evenwichtsmodel op te stellen. Cochrane (2021) pleit bijvoorbeeld voor het gebruiken van een algemeen evenwichtsperspectief als het gaat om aandelen - en obligatieprijzen. Een algemeen evenwichtsmodel kan bijvoorbeeld verkregen worden door
+het pad van de factoren niet exogeen maar endogeen te laten zijn. In het onderzoek van Wu (200 1) zijn de
+factoren afhankelijk van een rational expectations general equilibrium model . Doordat de factoren endogeen bepaald
+worden op basis van economische theorie,  is de interpretatie van de factoren ook inzichtelijker. 5 Conclusie
+De uniforme scenarioset voor pensioenuitkomsten is belangrijk en wordt nóg belangrijker voor vrijwel alle Nederlanders. Expert -oordelen voor inflatie, rente en aandelenrendement bepalen een van de belangrijkste
+uitkomsten in de huidige uniforme scenarioset: het mediane verwachte pensioen. De goed - en
+22 Er zijn echter ook studies die argumenteren dat de langetermijnrelatie juist negatief moet zijn (Lustig en van Nieuwerbu rgh, 200 8). 23 Zie bijvoorbeeld het ond erzoek van Catherine (2019) dat voortbouwt op de coïntegratie -aanname van Benzoni  et al. (2007). Pagina 15 van 18 ACHTERGRONDDOCUMENT  – De 'uniforme' scenarioset voor pensioenberekeningen  slechtweerscenario’s rondom dit mediane pensioenscenario worden deels bepaald door expert -oordelen
+(vanwege de restrictie op het aantal negatieve rentes) en deels door de model - en datakeuze. Daar komt bij dat
+enkel risico’s die aanwezig zijn in de data of in de handmatig opgelegde randvoorwaarden in de set zullen
+voorkomen. Grote structurele veranderingen in de economie maken geen onderdeel uit van de huidige
+scenarioset. D
+e spreiding in obligatie- en aandelenrendementen is in de scenarioset groter dan in de geobserveerde
+historische data. Dit betekent niet dat de resulterende spreiding in vervangingsratio’s onjuist is: de beste voorspelling voor de toekomst zou heel goed kunnen afwijken van historische realisaties. Het roept wel de
+vraag op welke achterliggende aannames eraan bijdragen. De spreiding wordt bepaald door de gekozen data, het gekozen model en aanvullende expert -oordelen. Andere keuzes die óók verdedigbaar zijn, kunnen tot
+verschillende simulatieresultaten leiden en daarmee tot andere inschattingen voor premiebetalingen en andere inschattingen voor pensioenuitkomsten voor vrijwel alle Nederlanders. B
+ij het maken van een scenariose t is het belangrijk om economische aannames helder te benoemen en te
+beargumenteren . Een volgende Commissie Parameters zou alternatieve data -, model- en structuurkeuzes
+kunnen overwegen. De modelaannames in het KNW -model zijn verdedigbaar, maar andere aannames zijn ook
+verdedigbaar. Denk hierbij aan  bijvoorbeeld  mean reversion van aandelenrendementen, een koppeling tussen
+loondynamiek en aandelenrendementen, een model met meer dan twee onderliggende economische factoren of een directere koppeling  van de macro -economie aan de financiële markt. Bij het maken van een scenarioset
+kan ook gekozen worden om de impact van de keuzes op basis van simulaties (en daarbij vervangingsratio of reële pensioenuitkomsten) te evalueren. H
+et maken van een consistent geschatte scenarioset met een goede fit op historische data en plausibele
+simulatieresultaten op lange termijn is ingewikkeld. Deze analyse vraagt naast de meer macro -economische
+blik van het CPB veel meer kennis, met name fina ncieel -econometrische expertise van gespecialiseerde
+bureaus en wetenschappers. Het vereist overeenstemming over de gemaakte aannames en een gedegen
+analyse van simulatieresultaten. Als verschillende aannames plausibel worden geacht zou een volgende Commissie Parameters de invloed van die aannames op de simulatieresultaten kunnen onderzo eken door
+middel van verschillende scenariosets. De – moeilijke – vraag die dan opdoemt is: welke van deze scenariosets
+wordt de nieuwe uniforme scenarioset , of is er meer dan één set nodig? Het uitleggen van de gemaakte keuzes
+in de uiteindelijk te kiezen uniforme scenarioset(s) is dan extra belangrijk, net als het benoemen van mogelijke beperkingen bij het gebruik van deze scenarioset(s). 6 Literatuur
+B
+aele, L. en F. Van H olle, 2017.

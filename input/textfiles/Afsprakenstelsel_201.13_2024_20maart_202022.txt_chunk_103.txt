@@ -1,0 +1,19 @@
+Element/@Attribute 0.. nDescription
+@DateTime 1 Time of issuing of the request. @RequestID 1 Unique identifier for this request. <Requester> 1 EntityID (OIN) of the requesting MachtigingsRegister. <RelyingParty> 1 EntityID (OIN) of the intended relying party. <RelyingPartyKeySetVersion> 1 Key set version to be used for relying party. <PolymorphicPseudonym> 1 Polymorphic Pseudonymization structure for the user to be transformed to an
+encrypted pseudonym or identity. Only one (non-signed) Polymorphic Pseudonym /
+Identity MUST be present, depending on the request type. <Role> 0.. 1Optional "persoonsrol". Reserved for future use where the same user can act in
+different roles, e.g. private, volunteer and employee. <TransactionID> 0.. 1Optional "transactie ID". Reserved for future use where privacy prohibits use of a
+persistent pseudonym. TransactionID can be used to create a transaction-, session- or
+case- specific pseudonym. Also for guarantees for the 4-eyes principle, TransactionID
+can be used in combination with the default Role (otherwise a person could break a 4-
+eyes signature by using two different Roles). Another example is eIDAS that requires a
+pseudonym per EU country, for which a countryID can be used als TransactionID to
+make the resulting pseudonym specific and persistent per country. Rules for processing a Transformation Request
+A requesting MachtigingsRegister:
+MUST authenticate a User at the requested Level of Assurance before requesting a transformation. MUST check the relying party is listed in the   as authorized before requesting transformation of a Autorisatielijst BSN
+PI. For ETD this requirement is implemented via the (aggregation) of the ServiceCatalog (by the BO ETD) . MUST only provide a PP for a <ProvideEPRequest> and MUST only provide a PI for a <ProvideEIRequest>. SHOULD randomize the PP/PI to be transformed before requesting a transformation, to enhance the privacy of the
+User.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 659Response
+Consists of a response message <ProvideEPResponse> or <ProvideEIResponse> in the SOAP body of the response message,
+containing an Encrypted Pseudonym or Encrypted Identity for the requested Relying Party. In case an error occurs a SOAP
+fault will be used. The SOAP fault will contain error codes as <FaultReason> as described below, with one (or more)
+(localized) <FaultDescription>s.

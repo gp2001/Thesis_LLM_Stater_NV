@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een samenvatting van bepaalde informatie, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een samenvatting van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord met in de tekst behaalde gegevens. Genereer een rejected antwoord die een slechte samenvatting geeft. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "Dove",
+    "chosen": [
+        {
+            "content": "Could you give a summary of Chapter 3 of the Yoga Sutras?",
+            "role": "user"
+        },
+        {
+            "content": "Chapter 3 of the Yoga Sutras, also known as the Vibhuti Pada, focuses on the extraordinary powers and abilities that can be achieved through the practice of yoga and meditation. Consisting of 56 sutras, this chapter primarily deals with the concepts of Samyama, Dharana, Dhyana, and Samadhi.\n\nSamyama is the combined practice of Dharana (concentration), Dhyana (meditation), and Samadhi (complete absorption or union with the object of meditation). It is believed that when a yogi can master these three practices together, they can achieve supernatural abilities or \"siddhis.\"\n\nThe chapter delves into the methods of achieving these powers, such as focusing the mind on specific objects or ideas to gain control over them. Some of the siddhis mentioned include the ability to become invisible, to levitate, to control the body's functions, to know the past and future, and to access the universal consciousness.\n\nHowever, Patanjali, the author of the Yoga Sutras, warns that these powers should not be the ultimate goal of yoga practice. Instead, these abilities are merely by-products of the spiritual journey towards self-realization and should not be sought after for personal gain or ego satisfaction. The true goal of yoga is liberation from the cycle of birth and death and union with the divine consciousness.\n\nIn summary, Chapter 3 of the Yoga Sutras discusses the extraordinary powers that can be obtained through the mastery of Samyama, while emphasizing the importance of maintaining focus on the ultimate goal of spiritual enlightenment.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Could you give a summary of Chapter 3 of the Yoga Sutras?",
+            "role": "user"
+        },
+        {
+            "content": "Chapter 3 of the Yoga Sutras, also known as the Vibhuti Pada, is the third of the four chapters of the text and contains 56 sutras. The chapter translates to the \"Chapter on Manifestations of Power,\" and it mainly deals with various abilities and powers that a yogi can gain through profound meditation and practice. The chapter is divided into three parts: \n\n1. Ability to consciousness and knowledge: In this part, Patanjali discusses the abilities and faculties one can gain through yoga practices. These abilities include remembering past lives (pralayakrta), knowing the minds of others (manolaya), and witnessing the inner lights (tejas). \n\n2. Glory (Aisvarya): In this section, Patanjali outlines the benefits and powers, a yogi can gain once they attain samadhi or ultimate union with the divine. These benefits include the ability to hear the subtle sounds of nature, to know the thoughts and intentions of others, to materialize one's desires, and to control the physiological aspects of the body such as digestion, heartbeat, and excretion. \n\n3. Arthava or Realities (Para-validsthana): This part lists the authorities and sources for these abilities and powers, such as the statements of yogis, seen experiences, and scriptural evidence. It also discusses that these abilities are not the end goal of yoga, but rather a means to reach the ultimate goal of self-realization. \n\nIn summary, Chapter 3 of the Yoga Sutras describes the various powers and abilities gained by a yogi who is able to attain deep meditation and self-realization. These manifestations of power serve as a marker to the reader that progress in yoga is possible when one practices with dedication and focus.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Could you give a summary of Chapter 3 of the Yoga Sutras?",
+    "question": "Could you give a summary of Chapter 3 of the Yoga Sutras?"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

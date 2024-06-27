@@ -1,0 +1,65 @@
+8.2 Attribute and evidence collection
+8.2.1 General requirementsDe eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.1 en 2.1.2. COL-8.2.1-01: The identity attributes
+required for the identity proofing Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1025context shall be defined and collected. COL-8.2.1-02: The identity attributes
+collected shall provide unique
+identification of the applicant for the
+identity proofing context. COL-8.2.1-03: The identity attributes
+shall be validated by use of one or more
+authoritative evidence.NOTE 1: An identity proofing process can use
+multiple evidence, including several evidence
+of the same type, e.g. several identity
+documents, either routinely, or with further
+evidence added if identity proofing using the
+initial evidence yields insufficient reliability of
+the result. COL-8.2.1-04: The evidence collected
+shall meet the requirements of the
+identity proofing context.NOTE 2: The identity proofing context can pose
+requirements for the use of specific types of
+evidence, e.g. resulting from applicable legislation. COL-8.2.1-05: The evidence shall be
+issued by entities trusted in the identity
+proofing context.NOTE 3: Meaning that the evidence can be
+validated and that the reliability of the
+attributes conveyed can be assessed. COL-8.2.1-06: A list of the identity
+proofing use cases supported, the
+evidence that can be trusted, and, as far
+as possible, the identity proofing
+contexts supported shall be published.NOTE 4: Identification of use cases can be by
+reference to clause 9 of the present document. NOTE 5: While the list of evidence that can be
+trusted is required to be comprehensive, a
+specific identity proofing context can place
+restrictions on the selection of evidence
+applicable to the identity proofing context. COL-8.2.1-07: The freshness of the
+identity information obtained from
+evidence shall be evaluated against the
+freshness requirements of the identity
+proofing context.EXAMPLE: A passport can have a lifetime of 10
+years, and an eID or signing certificate can
+have a lifetime of 2-5 years, meaning the
+identity attributes obtained from this evidence
+can have changed since the
+evidence was issued. Some evidence issuers
+can apply revocation and re-issuing if
+information
+changes. NOTE 6: If the information conveyed from an
+evidence does not fulfil the information
+freshness requirements of the identity
+proofing context, the situation can be
+compensated by the use of supplementary
+evidence. 8.2.2 Attribute collection
+8.2.2.1 Attribute collection for natural personDe eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.1.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1026[CONDITONAL] If the applicant is a
+natural person, the requirements in the
+present clause apply. COL-8.2.2.1-01: For each identity
+proofing context supported, the means
+used to collect identity attributes for a
+natural person shall be documented
+and published.EXAMPLES:
+• From a physical identity document by
+transcription or scanning (e.g. OCR reading). • From a digital identity document.

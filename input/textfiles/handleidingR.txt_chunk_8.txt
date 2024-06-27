@@ -1,0 +1,29 @@
+>plot(x,y,type="n") Plotdeassen, maar nietdepunten. >plot(x,y,type="s") Ploteentrapfunctie. >plot(mat) Plotdepunten(mat[i,1],mat[i,2]) . >matplot(matx,maty) Plotkolommen vanmatrices tegen elkaar. >hist(x) Histogram vanvectorx. >boxplot(x) Boxplot vanvectorx. >qqnorm(x) qq-plot tegen denormale verdeling. >qqverd qq-plot tegen dekansverdeling metcodeverd. >qqplot(x,y) Empirisc heqqplot vanxtegeny. >persp(z) Quasi drie-dimensionale plot. EnkeleLowLevelPlotfuncties
+>lines(x,y) Plotvandepunten(x[i],y[i]) metopeenvolgende
+puntenverbonden dooreenrechte. >title(" titel","ondertitel ")Printtitels. >text(x,y) Plotcoordinaatn ummers opdepunten(x[i],y[i]) . >text(x,y,label) Plotdekarakter stringlabel[i] op(x[i],y[i]) . >abline(a,b) Voegdelijny=a+bx toe. >points(x,y) Voegdepunten(x[i],y[i]) toe. >polygon(x,y) Veelhoekmethoekpun ten(x[i],y[i]) . >mtext(" tekst",side,line) Plottekstineenkantlijn. >legend() Voegeenlegenda toe. Figuren 7en8illustreren nogtweeandere grasc hemogelijkheden. Zewerden opdevolgende
+manier verkregen.22 8:Lists
+>x<-rcauchy(20); y<-runif(20);
+>plot(x,y,type="n", main="figuur 7");text(x,y)
+>
+>u<-dnorm(seq(-1,1,0.1),0,0 .5)
+>z<-outer(u,u)
+>persp(z, main="figuur 8") #eenbivariate dichtheid
+Sommige R-functies makengebruik vandemuis. Metdefunctieidentify(x,y,labels) kunjeerachterkomen welkpunteengegevenpuntin
+eenpuntenwolkis,bijvoorbeeldeenuitbijter. >plot(x,y)
+>identify(x,y,labels)
+Klikvervolgens metdelinkerknop vandemuisopdeplaats vaneenpunt.Alsdithetpunt
+(x[i],y[i]) is,verschijntvervolgens opdeplaats vanhetpuntdei-decoordinaat vande
+character vectorlabels .Hetdefault labelisi.Jekuntditherhalen. Eendrukopderechter
+knopvandemuisbeeindigtidentify() . HetR-commando locator ishandig alsjedeprecieze coordinaten vaneenaantalpuntenophet
+scherm wiltweten,bijvoorbeeldomdaartekstaftedrukk en.Start methettypenvan:
+>z<-locator( n)
+Klikvervolgens opnpunteninhetgraphics windo w.Decoordinaten vandezepuntenworden
+opgeslagen indelistz.Hetisextra handig omlocator tecombineren mettext. >text(locator(1),"Tekst opdejuisteplaats")
+Detekstverschijntnuopdeplaats indegraek waarmetdemuisgeklikt wordt. Doornalocator(n=2,type="l") optweepunteninhetgraphics windo wteklikkenkaneen
+lijnstuk indegraek worden getekend. 8.LISTS
+Eenlistisruwwegeenvector waarvandecomponentenverschillende typenR-objecten
+mogen zijn. Eenvoorbeeldiseenlistbestaande uiteennumeriek evector, eenkarakter
+vector, eenandere list(sublist) eneenfunctie. Bijelemen tairgebruik vanRisdelistvooral
+belangrijk, omdat deresultaten vanstandaard functies vaakuiteenlistbestaan. Beschouw
+bijvoorbeeldhetresultaat vandefunctielsfit .Inzijneenvoudigste vormberekentdeze
+dekleinste-kw adraten-lijn vanregressie vanyopx.

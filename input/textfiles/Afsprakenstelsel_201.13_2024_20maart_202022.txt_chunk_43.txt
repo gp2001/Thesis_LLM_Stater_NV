@@ -1,0 +1,39 @@
+Toelichting processtappen
+1. Melding aanmaken
+Input Een melding kan door zowel deelnemers als de beheerorganisatie worden aangemaakt. Vaak gebeurt
+dit door deelnemers van het stelsel, maar de beheerorganisatie kan ook zelf nieuwe meldingen
+aanmaken. Een persoon die een melding maakt heet een aanmelder. Activiteit
+Er wordt ingelogd in   met de verstrekte gebruikersnaam en wachtwoord. Mantis
+Er wordt in   een project gekozen waar de melding bij past Mantis
+De aanmelder geeft een korte samenvatting en omschrijft de melding met relevante details
+De aanmelder kiest het versienummer van het afsprakenstelsel waar de melding van toepassing op
+is. Er mag voor n.v.t. gekozen worden als het versienummer niet relevant is. De aanmelder wijst de melding toe aan een individu als de melding specifiek voor die persoon
+bedoeld is. In het andere geval gaat de melding naar de organisatie. Als de melding door
+verschillende deelnemers opgepakt moet/kan worden, wijst de aanmelder deze toe aan zijn eigen
+organisatie en stelt de betreffende deelnemers op de hoogte middels de functie "Herinnering
+verzenden" in de aangemaakte melding. De toegewezen persoon/organisatie wordt op de hoogte gesteld van de nieuwe melding middels
+een automatisch verzonden e-mail. Soms kan een melding leiden tot een nieuwe melding. Deze mag niet als reactie in een bestaande
+melding geplaatst worden, maar dient als nieuwe melding geregistreerd te worden. Als er een relatie
+bestaat met andere meldingen kan hiervoor de betreffende functionaliteit van   worden gebruikt. Mantis
+Gerapporteerde
+meldingGerapporteerde en toegewezen melding
+Wie? De beheerorganisatie beheert . Deelnemers en leden van de beheerorganisatie kunnen op Mantis
+een melding aanmaken. Mantis
+2. Melding behandelen
+Input Toegewezen meldingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 3711. 2. 3. Activiteit Deelnemers en beheerorganisatie behandelen de melding volgens de afspraken in het   en Service level
+controleren regelmatig de aan hen toegewezen meldingen en meldingen die al lange tijd open staan. Ze
+voeren daarbij de volgende acties uit:
+Reageer op de melding zodat de aanmelder weet dat die gelezen is. Als de persoon/organisatie extra
+informatie nodig heeft plaatst deze een reactie op de melding. Behandel de melding. Wanneer de toegewezen persoon/organisatie de melding heeft opgelost
+/afgehandeld moet de status worden gewijzigd naar "Opgelost" en wijs de melding toe aan de aanmelder
+zodat die kan controleren of de melding terecht is afgemeld; bijvoorbeeld omdat het probleem is opgelost
+of omdat er eenvoudigweg geen actie hoeft te worden ondernomen. De aanmelder controleert of de
+afmelding terecht is en bevestigd dit in de reactie van de melding. De aanmelder sluit de melding door
+deze de status "Afgesloten" te geven. Alvorens de aanmelder de melding sluit door deze de status
+"Afgesloten" te geven, moet de melding worden toegewezen aan de organisatie waar het probleem zat. Als de aanmelder/toegewezen persoon niet reageert mag deze herinnerd worden door van de
+"Herinnering verzenden" mogelijkheid gebruik te maken. In enkele gevallen is het gewenst dat een ander
+persoon dan de aanmelder reageert op een melding. In dat geval wordt deze persoon op de hoogte gesteld
+dat hij moet reageren middels een herinnering die door de aanmelder verstuurd wordt met de betreffende
+functionaliteit van . Mantis
+Output Afgesloten melding
+Wie? De persoon die verantwoordelijk is gemaakt zorgt er voor dat de melding correct wordt behandeld.

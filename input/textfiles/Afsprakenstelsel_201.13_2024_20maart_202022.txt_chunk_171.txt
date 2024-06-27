@@ -1,0 +1,103 @@
+/of adres) worden verkregen. Onderstaande vereisten zijn in
+het bijzonder van toepassing:
+Een door de uitgever van het
+token aangemaakte
+gebruikersnaam en
+wachtwoord MOET separaat
+verzonden worden met
+gebruikmaking van een 'buiten
+de bandprocedure' naar een
+van tevoren tijdens het
+registratieproces door de
+Aanvrager aangegeven plaats. Een token dat rechtstreeks van
+internet is gedownload door de
+Aanvrager na het volgen van de
+registratieprocedure komt tot
+stand door een link door te
+geven naar een plaats die de
+Aanvrager tijdens het
+registratieproces heeft
+opgegeven; in dat geval MOET
+de link na 24 uur verlopen zijn. De Deelnemer MOET de
+Gebruiker op de hoogte
+brengen van het procesverloop
+van aanvraag tot uitgifte van
+het middel. De Deelnemer MOET de
+Gebruiker notificeren dat een
+middel op zijn naam is
+uitgegeven. De Deelnemer  MOET de
+Gebruiker notificeren van de
+uitgifte via een kanaal dat
+betrouwbaar is geassocieerd
+met de voornaam en De Gebruiker wordt in staat gesteld afwijkingen in het proces van
+uitgifte van een middel te detecteren. De Gebruiker wordt in staat gesteld om te vast te stellen dat er een
+middel terecht op zijn naam is uitgegeven. Good practice: Voorbeelden van notificaties:
+Het verzenden van een bericht (email of brief) aan de Gebruiker dat
+bewaard kan worden ter herinnering. In het bericht is de naam van de
+AD waar het middel is geregistreerd opgenomen. Deze practice
+geeft daarnaast alleen bescherming bij een aanvraag voor een tweede
+middel op naam van de gebruiker. Het gebruik van een mededeling in een terugboeking door AD/MU van
+een eerdere betaling door Gebruiker met een bankrekening op de
+opgegeven voor- en achternaam. Deze maatregel geeft enige
+bescherming bij toepassing voor nieuwe als bestaande Gebruikers, op
+voorwaarde dat de tenaamstelling van de bankrekening overeenkomt
+met de naam op het WID. Het verzenden van een brief naar een adres dat is gekoppeld aan de
+voor en achternaam van de Gebruiker. Het adres is geverifieerd aan
+een origineel uittreksel uit de BPR dat de gebruiker heeft overhandigd. Ad 6: Toelichting: De betrouwbaarheid van de associatie met de voornaam
+een achternaam van de gebruikers neemt toe naarmate de validatie van de
+associatie onafhankelijker van het registratieproces uitgevoerd kan worden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9736. achternaam van de gebruiker. LOA 3 Het token wordt met een
+gemiddelde verificatie van de
+identificerende gegevens van de
+aanvrager (bijv. naam en/of
+adres) verkregen.Onderstaande voorbeelden verduidelijken dit type uitgifte van een token:
+Het token wordt per aangetekende post verzonden na voorafgaande
+validatie van het opgegeven adres bij een officiële identiteitsdatabase waar
+dit fysieke adres geregistreerd staat. Dit betekent:
+a) Het token wordt verzonden naar adres van de Dienstafnemer dat in het
+Handelsregister is opgenomen geadresseerd aan de Gebruiker,
+Machtigingenbeheerder of de Wettelijke vertegenwoordiger of;
+b) Het token wordt verzonden naar het adres van de Gebruiker zoals dit
+door de Dienstafnemer is opgegeven. Het risico dat het niet de bevoegde
+vertegenwoordiger(s) van de Dienstafnemer is die verzocht heeft om de
+uitgifte van het middel moet worden gemitigeerd. Acceptabele mitigerende
+maatregelen zijn in elk geval:
+i. In het geval het verzoek is gedaan door 1 wettelijke vertegenwoordiger of
+machtigingenbeheerder heeft verzocht om de uitgifte van het middel. Moet
+de Dienstafnemer van de verzending worden genotificeerd middels een
+brief naar het adres van de Dienstafnemer dat in het Handelsregister is
+opgenomen met het verzoek te reageren indien de uitgifte ongedaan
+gemaakt moet worden. De brief is gesteld geadresseerd aan de
+Machtigingenbeheerder of Wettelijke vertegenwoordiger van de
+Dienstafnemer. Alternatief voor een persoonlijke brief is een mail aan de in
+b) genoemde vertegenwoordigers op hun persoonlijke mailadres in het
+geverifieerde   van de Dienstafnemer. domein
+ii. In het geval 2 wettelijke vertegenwoordigers, machtigingenbeheerders of
+een combinatie daarvan het verzoek hebben gedaan is de notificatie aan de
+dienstafnemer zoals bedoeld bij punt b) i. geen verplichting.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9741. c) Het token wordt verzonden naar het adres dat is gekoppeld aan de voor
+en achternaam van de Gebruiker. Het adres is geverifieerd aan
+een origineel uittreksel uit de . BRP
+Alternatieven a) en b) mogen gebruikt worden voor middelen die slechts
+bruikbaar zijn in de context van de Dienstafnemer. De authenticatiefactoren van het authenticatiemiddel worden gescheiden
+in tijd verzonden of worden via verschillende communicatiekanalen
+verzonden. Het is denkbaar dat voor de verzending van de verschillende
+authenticaticatiefactoren een combinatie van hetgeen onder a) en b) is
+gesteld wordt gebruikt. Indien een van de authenticatiefactoren naar het
+email adres van de gebruiker wordt verzonden moet dit email adres zijn
+geverifieerd. Opgave van het email-adres door de Dienstafnemer op een
+met b) vergelijkbare wijze is toegestaan mits de gebruiker juistheid van het
+email-adres voorafgaande aan de verzending van de authenticatiefactor
+heeft bevestigd. Het token is gedownload van internet nadat het verzoek om een verklaring
+door de aanvrager ondertekend is met een gekwalificeerde handtekening in
+overeenstemming met de voorwaarden van de Richtlijn elektronische
+handtekeningen en geverifieerd door een CSP. Onmiddellijk na de
+verificatie MOET het token snel aangemaakt worden door de CSP en op de
+browser van de aanvrager worden gedownload. Het token wordt
+rechtstreeks door de aanvrager gedownload na het invoeren van een
+persoonlijk wachtwoord dat aan de aanvrager is uitgereikt tijdens de
+registratie op ten minste niveau 3. LOA 4
+Tokens met
+betrouwbaarheidsniveau 4
+MOETEN met een zware
+aanvangsverificatie van
+de identificerendegegevens van
+de Aanvrager worden Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9751. a. b.

@@ -1,0 +1,175 @@
+3. Specific pseudonym
+The specific pseudonym  is unique for each different combination of user, represented service consumer, intermediary and
+service provider. It can be created in two ways:
+In the event of representation by an MR
+In the event of non-representation by an AD
+A specific pseudonym is preferably generated once and then stored, but it can also be generated for each request as long as it
+is always generated in the same way and the same value is generated for each request. Differences in specific pseudonyms can be used by service providers to determine that the users are different (four-eye
+principle). This is the reason why an MR MUST have permission to generate a new pseudonym for an existing combination of
+service provider, user and service consumer (or intermediary in the case of chain authorizations) from the authorization
+manager or legal representative of the service consumer (or the intermediary). Reasons to generate a new pseudonym can be:
+user has been assigned a new job in the same company and may therefore no longer obtain access with the old
+pseudonym to files at service providers that are linked to the old role;
+The identity of the user was accidently disclosed to the service provider(s) and a new pseudonym is needed to protect
+/pseudonymize the identity;
+Migration to a new pseudonym is needed because the service providers merged/split. The format of the specific pseudonym MUST have a hexadecimal value of 32 byte. For example,
+ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890
+In the event of representation, this value is followed by an @ and hexadecimal value of 16 byte. For example,
+ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890@ABCDEF1234567890ABCDEF1234567890
+The 32-byte value MUST be a random value This can be achieved, for example, by calculating an SHA256 hash over the
+following elements (in this sequence and separated by a separator):
+The service provider's OIN. A unique (but not necessarily exclusive) identifying attribute for the user in the context of the service consumer. This
+attribute MAY be determined by the administrator or the creator of the pseudonym, but MAY also be the Internal
+. pseudonym
+The identifying attribute for the represented service consumer (only in the event of representation without chain
+authorization) or for an intermediary (in the event of chain authorization). Other methods to reach a 32-byte random value are also allowed. The value of 16 byte MUST be an MD5 hash over the identifying attribute for the represented service consumer (or
+intermediary in the case of chain authorization). Other formats of specific pseudonyms may be in use. Users of the specific pseudonym are advised not to use (parts of) the
+pseudonym for other purposes than to identify the user.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 675
+ServiceID
+ServiceID is an identifier of a service that is unique in the context of the service provider. Services are registered in the   with both a ServiceID and a  . Service catalog ServiceUUID
+The ServiceID is an urn in the format urn:etoegang:DV:<OIN>:services:<index>  where <OIN> represents the OIN of the
+service provider . When calculating a unique ServiceID, any prefix zero's in the index are ignored. Registered services MUST have an index of 1 or higher. A  is specified (in messages and in the ) portal function Service catalog
+by the reserved index with value '0'. When an index with value '0' is used in a request, then a multivalued ServiceID MAY be
+returned in the response, representing all ServiceID's for which the subject has a registered authorization. Although they look similar, 's are not to be confused with ServiceID's. There is an n:n relationship between EntityID
+EntityID's and ServiceID's. One system may offer more than one service, or the other way around: more systems can offer the
+same service.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 676
+ServiceUUID
+ServiceUUID is an identifier of a service that is unique in the context of the network, but not linked to one service provider. Services are registered in the   under ServiceInstance with both a ServiceUUID and a  . Service catalog ServiceID
+A  (entitlements registry) MUST register entitlements to the ServiceUUID rather than the Machtigingenregister (MR) ServiceID
+. This way, service providers can share ServiceUUID's for generic services, such as "Apply for a parking permit". Once a user is
+entitled for this service, he will be entitled for the same service for all service providers that offer it. There are also ServiceUUID's registered in the ServiceCatalog under ServiceDefinition, but the interface specifications refer to
+the ServiceUUID under ServiceInstance.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 677SAML attribute elements
+This section describes the data elements that occur in messages as SAML attribute element. ActingSubjectID  — A SAML Attribute element with one or more identities of the user for one or more Relying Parties. AuthorizationRegistryID  — A SAML Attribute element with an EntityID from the MR that must be queried in the use
+case GUC4 Aantonen bevoegdheid. DeprecatedActingSubjectID  — A SAML Attribute element with one or more deprecated identities of the user for one
+or more Relying Parties, used to support migrations of identifiers. EherkenningPreferredLanguage  — A URL or POST variable containing the language preference of user. EntityConcernedID (SAML)  — A SAML Attribute element with the identifying attribute of the service consumer that is
+represented by the user (who might be the same). IntendedAudience  — A SAML Attribute element with an EntityID from the DV that will be the recipient of the
+response. Representation  — A SAML Attribute element with an indication whether there is an issue of representation
+ServiceID (SAML)  — A SAML Attribute element with the ServiceID of the service for which access is being requested or
+for which authorization has been determined. ServiceUUID (SAML)  — A SAML Attribute element with the ServiceUUID of the service for which access is being
+requested or for which authorization has been determined.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 678ActingSubjectID
+Description A SAML Attribute element with one or more identities of the user for one or more Relying Parties. Name urn:etoegang:core:ActingSubjectID
+Type urn:oasis:names:tc:SAML:2.0:assertion#EncryptedID
+AttributeValue One or more SAML EncryptedID(s), specific per Recipient (specified using the @Recipient of the
+EncryptedKey). Comments The type and value of the contained identifier vary per context and recipient. The NameQualifier of the
+NameID after decryption holds the used type . Afsprakenstelsel Elektronische Toegangsdiensten | pagina 679AuthorizationRegistryID
+Description A SAML Attribute element with an  from the MR that must be queried in the use case EntityID GUC4
+.This EntityID MUST exist in the metadata. See Aantonen bevoegdheid SAML metadata
+Name urn:etoegang:core:AuthorizationRegistryID
+Type http://www.w3.org/2001/XMLSchema#string
+AttributeValue See EntityID
+Comments When an AuthorizationRegistryID is returned by an AD, the value of the Representation attribute MUST
+be TRUE.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 680DeprecatedActingSubjectID
+Description A SAML Attribute element with one or more deprecated identities of the user for one or more Relying
+Parties, used to support migrations of identifiers. Name urn:etoegang:core:DeprecatedActingSubjectID
+Type urn:oasis:names:tc:SAML:2.0:assertion#EncryptedID
+AttributeValue One or more SAML EncryptedID(s), specific per Recipient (specified using the @Recipient of the
+EncryptedKey). Comments The type and value of the contained identifier vary per context and recipient. The NameQualifier of the
+NameID after decryption holds the used type.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 681EherkenningPreferredLanguage
+Description A URL or POST variable containing the language preference of user. Name EherkenningPreferredLanguage
+Format Following ISO 639-1:2002Afsprakenstelsel Elektronische Toegangsdiensten | pagina 682EntityConcernedID (SAML)
+Description A SAML Attribute element with the identifying attribute of the service consumer that is represented by
+the user (who might be the same). Name Any value listed in Identificerende kenmerken
+Type http://www.w3.org/2001/XMLSchema#string
+AttributeValue See Identificerende kenmerken  Afsprakenstelsel Elektronische Toegangsdiensten | pagina 683IntendedAudience
+Description A SAML Attribute element with an  from the DV that will be the recipient of the response. EntityID
+Name urn:etoegang:core:IntendedAudience
+Type http://www.w3.org/2001/XMLSchema#string
+AttributeValue See EntityID
+Comments Both AD and MR need the EntityID's of the DV(s) to process requests according to specs as definied in
+and  . Interface specifications HM-AD interface specification HM-MR
+Since the AD and MR do not have an administration of DV EntityID's, the HM will provide the correct
+EntityID in the request using this extension. In case of dienstbemiddeling (serviceintermediation) the HM provides the EntityID's of both the both the
+Dienstaanbieder (service supplier) and Dienstbemiddelaar (service intermediary). In case of a DV  for
+whom only the OIN is known, the notation 'urn:etoegang:DV: <OIN> ' is to be used.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 684Representation
+Description A SAML Attribute element with an indication whether there is an issue of representation
+Name urn:etoegang:core Representation:
+Type http://www.w3.org/2001/XMLSchema#boolean
+AttributeValue true or falseAfsprakenstelsel Elektronische Toegangsdiensten | pagina 685ServiceID (SAML)
+Description A SAML Attribute element with the ServiceID of the service for which access is being requested or for
+which authorization has been determined. Name urn:etoegang:core ServiceID:
+Type http://www.w3.org/2001/XMLSchema#string
+AttributeValue See ServiceIDAfsprakenstelsel Elektronische Toegangsdiensten | pagina 686ServiceUUID (SAML)
+Description A SAML Attribute element with the ServiceUUID of the service for which access is being requested or for
+which authorization has been determined. Name urn:etoegang:core ServiceUUID:
+Type http://www.w3.org/2001/XMLSchema#string
+AttributeValue See ServiceUUIDAfsprakenstelsel Elektronische Toegangsdiensten | pagina 687XACML attribute elements
+This chapter describes all of the XACML data elements defined for Elektronische Toegangsdiensten. ActingEntityID  — A XACML Attribute element containing the specific pseudonym of the user. ActingSubjectID (XACML)
+Action-ID  — A XACML Attribute element containing the action ID. AssertionConsumerServiceIndex  — An XACML Attribute element based on the SAML attribute with the same name
+containing the value that MUST match an index of the AssertionConsumerService in the metadata of the
+Herkenningsmakelaar. Assertions
+DeprecatedActingSubjectID (XACML)  — A XACML Attribute element containing the specific pseudonym of the user,
+for purposes of migrating user identifiers. EncryptedAttribute  — An encrypted additional attribute whereby each encrypted attribute is assigned a unique
+Encrypted_DATA_ID  that is the same as the name of the attribute in the Attribute catalog. Intermediates  — A multi-value SAML Attribute element containing the identification attributes of intermediaries in a
+chain authorization. LegalSubjectID
+LevelOfAssurance  — A XACML Attribute element containing the minimum level of assurance that is required by the
+service provider. LevelOfAssuranceUsed  — An XACML Attribute element containing the level of assurance of the registered
+authorization. ServiceID (XACML)  — An optional XACML Attribute element that matches the SAML attribute described in ServiceID
+(SAML). ServiceUUID (XACML)  — An optional XACML Attribute element that matches the SAML attribute described in
+ServiceUUID (SAML).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 688
+ActingEntityID
+Description A XACML Attribute element containing the specific pseudonym of the user.The element MUST NOT
+contain other attributes (@) than those described here. @AttributeId urn:etoegang:core ActingEntityID:
+@Datatype http://www.w3.org/2001/XMLSchema#string
+AttributeValue See Pseudonyms
+Warning
+This ID is used for backwards compatibility purposes. It will be deprecated in the next release.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 689ActingSubjectID (XACML)
+Description A XACML Attribute element containing one or more identities of the user for one or more Relying Parties. @AttributeId urn:etoegang:core:ActingSubjectID
+@Datatype urn:oasis:names:tc:SAML:2.0:assertion#EncryptedID
+@Issuer EntityID of the asserting MR. AttributeValue The type and value of the contained identifier vary per context and recipient. The NameQualifier of the
+NameID after decryption MUST be urn:etoegang:1.13:EntityConcernedID:PseudoAfsprakenstelsel Elektronische Toegangsdiensten | pagina 690Action-ID
+Description A XACML Attribute element containing the action ID.The element MUST NOT contain other attributes
+(@) than those described here. @AttributeId urn:oasis:names:tc:xacml:1.0:action:action-id
+@Datatype http://www.w3.org/2001/XMLSchema#string
+AttributeValue MUST contain the value 'Authenticate'Afsprakenstelsel Elektronische Toegangsdiensten | pagina 691AssertionConsumerServiceIndex
+Description Elektronische Toegangsdiensten: This attribute element indicates the URL to which the response must be
+sent.An XACML Attribute element based on the SAML attribute with the same name containing the value
+that MUST match an index of the AssertionConsumerService in the metadata of the
+Herkenningsmakelaar.The element MUST NOT contain other attributes (@) than those described here. @AttributeId urn:etoegang:core AssertionConsumerServiceIndex:
+@Datatype http://www.w3.org/2001/XMLSchema#unsignedShort
+@Issuer EntityID  of the Herkenningsmakelaar
+AttributeValue 0 to 65535Afsprakenstelsel Elektronische Toegangsdiensten | pagina 692Assertions
+Description  A XACML element that contains  in an MR <authorization assertion> for checking authorization GUC9
+. Token refresh (native apps)
+@AttributeId urn:etoegang:core ssertions:A
+@Datatype urn:oasis:names:tc:SAML:2.0:assertion#Assertion
+@Issuer EntityID  of the Herkenningsmakelaar
+AttributeValue copy of  SAML <assertion> or XACML <authorization assertion> in XML form, copied such that Signature
+still can be validated. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 693DeprecatedActingSubjectID (XACML)
+Description A XACML Attribute element containing the specific pseudonym of the user, for purposes of migrating
+user identifiers.The element MUST NOT contain other attributes (@) than those described here. @AttributeId urn:etoegang:core DeprecatedActingSubjectID:
+@Datatype http://www.w3.org/2001/XMLSchema#string
+@Issuer EntityID  of the issuing MR
+AttributeValue The NameQualifier of the NameID after decryption holds the used type, see . Specific pseudonymAfsprakenstelsel Elektronische Toegangsdiensten | pagina 694EncryptedAttributeAfsprakenstelsel Elektronische Toegangsdiensten | pagina 695Description An encrypted additional attribute whereby each encrypted attribute is assigned a unique Encrypted_DATA_ID  that is the
+same as the name of the attribute in the . Attribute catalog
+The service provider's service certificate that is included in the service catalogue MUST be used for encryption. A level of
+assurance is also passed for each EncryptedAttribute. A cipher value is included in the encrypted attribute. This cipher
+value contains the encrypted value of the request attribute that is encrypted with the key of the DV in the service
+catalogue. Example
+Example attribute metadata
+<saml:Attribute NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"
+Name="urn:etoegang:1.9:attribute:FirstName"
+xmlns:ext="urn:oasis:names:tc:SAML:attribute:ext"
+ext:LastModified="2014-7-23T7:34:00Z"
+ext:OriginalIssuer="urn:etoegang:1.9:attribute-sourceid:
+NLWID">
+<saml:AttributeValue xsi:type="xs:string">Maurice</saml:AttributeValue>
+</saml:Attribute>
+Example of a multivalued attribute:
+Example multivalued attribute metadata
+<saml:Attribute NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"
+Name="urn:etoegang:1.9:attribute:Bankaccount"
+xmlns:ext="urn:oasis:names:tc:SAML:attribute:ext"
+ext:LastModified="2014-7-23T7:34:00Z"
+ext:OriginalIssuer="urn:etoegang:1.9:attribute-sourceid:
+0000000012312123100">
+<saml:AttributeValue xsi:type="xs:string">NL91INGB0006481668</saml:
+AttributeValue>
+<saml:AttributeValue xsi:type="xs:string">NL91INGB0003712814</saml:AttributeValue>
+<saml:AttributeValue xsi:type="xs:string">NL91INGB0006481665</saml:AttributeValue>
+</saml:Attribute>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 696Afsprakenstelsel Elektronische Toegangsdiensten | pagina 697Intermediates
+Description A multi-value SAML Attribute element containing the identification attributes of intermediaries in a
+chain authorization. Name urn:etoegang:core:Intermediates
+Type multi-value, with values of the type urn:etoegang:1.9:IntermediateEntityID:
+AttributeValue See . Identificerende kenmerken
+(the multi-value attribute contains only one value).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 698LegalSubjectID
+Description A XACML Attribute element containing the identifier of the Legal subject in case of Representation.

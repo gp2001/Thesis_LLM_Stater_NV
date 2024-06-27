@@ -1,0 +1,212 @@
+De reikwijdte van de machtiging: de omvang
+van de diensten en procedures waar de
+vertegenwoordiger voor gemachtigd is. Aard van de machtiging: kenmerken van de
+machtiging zoals het 'recht op vervanging' en
+'bevoegdheid om zelfstandig op te treden'. Ingangsdatum en geldigheidsdatum van de
+machtiging. 3.1.3.2 LOA 1 2 3 4 Tijdens het registratieproces MOET het
+machtigingenregister uitdrukkelijke toestemming
+van de Dienstafnemer krijgen om de
+persoonsgegevens van het gemachtigde personeel
+van de Dienstafnemer te tonen aan de
+machtigingenbeheerder.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10453.1.3.3 LOA 1 2 3 4 De reikwijdte van de machtigingen kan beperkt
+worden tot één Vestiging of een Dienstafnemer. In
+het geval van een gemachtigde tussenpersoon of
+een gemachtigde derde MOGEN de machtigingen
+niet tot één Vestiging of tussenpersoon beperkt
+worden.Interpretatie: Deze norm betreft
+ketenmachtigingen. Bijvoorbeeld de machtiging
+van een accountantskantoor kan niet beperkt
+worden tot één vestiging van die accountant. 3.3 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat aanvragers deugdelijk
+geregistreerd, geïdentificeerd en geauthenticeerd
+zijn, en dat de identiteitsverklaringen behoorlijk
+geverifieerd zijn conform de
+betrouwbaarheidsniveaus voor het uitgegeven
+middel. Specifiek is hierbij het volgende vereist
+3.3.1 LOA 2 3 4 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat de machtigingen deugdelijk
+beheerd worden door de Dienstafnemer. 3.3.1.1 LOA 2 3 4 Voor de elektronische administratie van
+machtigingen op betrouwbaarheidsniveaus LoA 2, 3
+en 4:
+Nadat opdracht is verleend tot de
+dienstverlening van het machtigingenregister
+zal de Dienstafnemer vertegenwoordigd
+worden door de perso(o)n(en) die de functie
+van machtigingenbeheerder bekleedt:
+De machtigingenbeheerder MOET in het bezit
+zijn van een middel uit het stelsel. De machtigingenbeheerder MOET bevoegd zijn
+in het Machtigingenregister. 3.3.1.2 LOA 2 3 4Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1046Voor de niet-elektronische administratie van
+machtigingen op betrouwbaarheidsniveaus LoA 2, 3
+en 4:
+Nadat opdracht is verleend tot de
+dienstverlening van het machtigingenregister
+zal de Dienstafnemer vertegenwoordigd
+worden door de perso(o)n(en) die de functie
+van machtigingenbeheerder bekleedt/bekleden:
+De machtigingenbeheerder MOET bevoegd zijn
+in het machtigingenregister.De
+machtigingenbeheerder MOET ieder ingediend
+ver zoek met een handgeschreven
+handtekening ondertekenen. Het machtigingenregister MOET de
+handgeschreven handtekening steeds
+verifiëren door deze te vergelijken met de
+gearchiveerde handgeschreven handtekening
+van de machtigingenbeheerder. 3.3.2 LOA 1 2 3 4 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat de machtigingen beheerd
+worden door de juiste Dienstafnemer. 3.3.2.1 LOA 1 Elektronisch verzoek
+De Dienstafnemer MOET geïdentificeerd worden op
+basis van de bevoegdheid van de
+machtigingenbeheerder. 3.3.2.2 LOA 1 Niet-elektronisch verzoek
+De Dienstafnemer MOET geïdentificeerd worden
+volgens hoofdstuk 2, paragraaf 2.1.3 Bewijs van
+verificatie van identiteit (rechtspersoon). 3.3.2.3 LOA 2 3 4Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1047De Dienstafnemer MOET ten minste op
+betrouwbaarheidsniveau 2 geïdentificeerd worden
+op basis van een machtiging van
+machtigingenbeheerder. In het geval dat de reikwijdte van de bevoegdheid
+beperkt is tot één Vestiging MOET de identificatie
+uitgevoerd worden volgens hoofdstuk 2, paragraaf
+2.1.3 Bewijs van verificatie van identiteit
+(rechtspersoon). 3.3.3 LOA 1 2 3 4 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat machtigingen of wijzigingen
+uitsluitend door de geregistreerde
+vertegenwoordiger van de Dienstafnemer
+aangevraagd kunnen worden. 3.3.3.1 LOA 1 2 3 4 Elektronische verzoeken:
+De machtigingenbeheerder MOET geauthenticeerd
+worden op basis van zijn middel uit het stelsel en in
+overeenstemming met het toepasselijk
+betrouwbaarheidsniveau in het
+machtigingenregister. 3.3.3.2 LOA 1 Niet-elektronische verzoeken:
+De machtigingenbeheerder MOET geauthenticeerd
+worden volgens de vereisten in  paragraaf 2.1.3 bij
+LoA1. Specifieke uitzondering: machtigingenbeheerder
+hoeft niet opnieuw een kopie van zijn
+identiteitsdocument op te sturen in het geval dat
+het machtigingenregister hem/haar anderszins kan
+identificeren. 3.3.3.3 LOA 2 Niet-elektronische verzoeken:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1048De machtigingenbeheerder MOET geauthentiseerd
+worden volgens de vereisten van paragraaf 2.1.3 bij
+LoA2, plus en een van de onderstaande verificaties
+van een kopie van het identiteitsdocument. Verificatie in het register voor gestolen of
+vermiste identiteitsbewijzen. verificatie met het gebruik van een door de
+machtigingenbeheerder gedane
+bankoverschrijving. Bij herhaalde verificatie in het register voor gestolen
+of vermiste identiteitsbewijzen, hoeft de
+machtigingenbeheerder, zolang het
+identiteitsdocument niet verlopen is, niet opnieuw
+een kopie van zijn identiteitsdocument op te sturen. 3.3.3.4 LOA 3 De machtigingenbeheerder MOET
+geauthenticeerd worden volgens de vereisten van
+paragraaf 2.1.3 bij LoA3 . Naast het voorgaande MAG
+het Machtigingen register NIET een andere
+alternatieve procedure gebruiken. 3.3.3.5 LOA 4 In aanvulling op 3.3.3.1
+De machtigingenbeheerder MOET de aanvraag
+elektronisch ondertekenen met een gekwalificeerde
+handtekening. Niet-elektronische verzoeken:
+De machtigingenbeheerder MOET
+geauthenticeerd worden middels  de alternatieven
+genoemd in paragraaf 2.1.3 bij LoA4. Naast het
+voorgaande MAG het Machtigingen register NIET
+een andere alternatieve procedure gebruiken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10493.4 Controledoelstelling: Het machtigingenregister
+MOET bewaken dat de kwaliteit van de verlenging
+van machtigingen dezelfde is als bij de eerste
+registratie. 3.4.1 LOA 1 De machtigingenbeheerder MOET ten minste op
+betrouwbaarheidsniveau LoA 1 geauthenticeerd zijn. De betrokkenheid van de machtigingenbeheerder
+bij de Dienstafnemer MOET ten minste op
+betrouwbaarheidsniveau LoA 1 ingeschaald zijn. 3.4.2 LOA 2 De machtigingenbeheerder MOET ten minste op
+betrouwbaarheidsniveau LoA 2 geauthenticeerd zijn. De betrokkenheid van de machtigingenbeheerder
+bij de Dienstafnemer MOET ten minste op
+betrouwbaarheidsniveau LoA 2 ingeschaald zijn. 3.4.3 LOA 3 De machtigingenbeheerder MOET ten minste op
+betrouwbaarheidsniveau LoA 3 geauthenticeerd zijn. De procedure om de betrokkenheid van de
+machtigingenbeheerder bij de Dienstafnemer vast
+te stellen MOET ten minste in overeenstemming zijn
+met betrouwbaarheidsniveau LoA 3. 3.4.4 LOA 4 De machtigingenbeheerder MOET ten minste op
+betrouwbaarheidsniveau LoA 4 geauthenticeerd zijn. De procedure om de betrokkenheid van de
+machtigingenbeheerder bij de Dienstafnemer vast
+te stellen MOET ten minste in overeenstemming zijn
+met betrouwbaarheidsniveau . LoA 3
+3.4.5 LOA 2 3 4 De te verlengen machtiging MOET ten minste
+geïdentificeerd worden:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1050In overeenstemming met identificatie van de
+Dienstafnemer op betrouwbaarheidsniveau
+LoA 2; en
+Met de unieke identiteitskenmerken van de
+persoon die bevoegd gaat worden. 3.5 Controledoelstelling: Het machtigingenregister
+MOET erop toezien dat intrekking- en
+schorsingsprocedures in overeen stemming met
+de juiste betrouwbaarheidsniveaus worden
+doorgevoerd. 3.5.1 LOA 1 2 3 4 Het machtigingenregister MOET verzoeken voor
+intrekking of schorsing van machtigingen afkomstig
+van de volgende partijen accepteren:
+de Rechtbank;
+de wettelijke vertegenwoordiger(s) van de
+Dienstafnemer, waaronder mede begrepen de
+curator;
+de Gevolmachtigde namens de wettelijke
+vertegenwoordiger;
+de Machtigingenbeheerder. 3.5.2 LOA 1 Een intrekking MOET middels een handmatig
+ondertekende brief of e-mail worden verzocht. De in vereiste 3.5.1 genoemde partij MOET ten
+minste op betrouwbaarheidsniveau LoA 1
+geauthenticeerd zijn.Interpretatie: In het proces voor schorsing (indien
+ondersteund) mag soepeler worden omgegaan
+met de authenticatie van degene die de schorsing
+meldt met het oog op snellere verwerking. In dat
+geval moet de afwijking van het normale
+authenticatieproces expliciet vastgelegd zijn. Advies: Het is voorstelbaar dat bij een verzoek
+Rechter tot schorsing of intrekking de
+identificatieprocedure niet conform de
+aangegeven vereisten kan worden uitgevoerd. Kern is dat dan een mate van zekerheid wordt Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1051bereikt over de authenticiteit van het verzoek dat
+overeenkomt met het juiste LoA. Bijvoorbeeld
+verificatie van een of meer identificerende
+kenmerken via een of meer andere kanalen dan
+waarlangs het verzoek is gedaaan. 3.5.3 LOA 2 De partijen die een intrekkings- of
+schorsingsverzoek van bevoegdheid mogen
+indienen (zie vereiste 3.5.1.) MOETEN ten minste op
+betrouwbaarheidsniveau LoA 2 geauthenticeerd zijn
+(zie hoofdstuk 2, paragraaf 2.1.1 en 2.1.2)Interpretatie: In het proces voor schorsing (indien
+ondersteund) mag soepeler worden omgegaan
+met de authenticatie van degene die de schorsing
+meldt met het oog op snellere verwerking. In dat
+geval moet de afwijking van het normale
+authenticatieproces expliciet vastgelegd zijn. Advies: Het is voorstelbaar dat bij bijvoorbeeld
+een verzoek Rechter tot schorsing of intrekking
+de identificatieprocedure niet conform de
+aangegeven vereisten kan worden uitgevoerd. Kern is dat dan een mate van zekerheid wordt
+bereikt over de authenticiteit van het verzoek dat
+overeenkomt met het juiste LoA. Bijvoorbeeld
+verificatie van een of meer identificerende
+kenmerken via een of meer andere kanalen dan
+waarlangs het verzoek is gedaaan. 3.5.4 LOA 3 4 De in vereiste 3.5.1 genoemde partij MOET ten
+minste op betrouwbaarheidsniveau LoA 3
+geauthenticeerd zijn (zie hoofdstuk 2, paragraaf
+2.1.1 en 2.1.2).Interpretatie: In het proces voor schorsing (indien
+ondersteund) mag soepeler worden omgegaan
+met de authenticatie van degene die de schorsing
+meldt met het oog op snellere verwerking. In dat
+geval moet de afwijking van het normale
+authenticatieproces expliciet vastgelegd zijn. Advies: Het is voorstelbaar dat bij een verzoek
+Rechter tot schorsing of intrekking de
+identificatieprocedure niet conform de
+aangegeven vereisten kan worden uitgevoerd. Kern is dat dan een mate van zekerheid wordt
+bereikt over de authenticiteit van het verzoek dat Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10521. overeenkomt met het juiste LoA. Bijvoorbeeld
+verificatie van een of meer identificerende
+kenmerken via een of meer andere kanalen dan
+waarlangs het verzoek is gedaaan. 3.5.5 LOA 1 Er zijn geen vereisten voor de doorlooptijd van de
+verwerking van het intrekkingsverzoek. 3.5.6 LOA 2 3 4 Intrekking MOET als volgt worden verwerkt:
+Alternatief 1 voor elektronische verzoeken:
+Intrekking MOET onmiddellijk worden verwerkt:
+Alternatief 2 voor elektronische verzoeken:
+Intrekking MOET binnen een dag na ontvangst van
+het verzoek worden ver werkt. 3.5.7 LOA 1 2 3 4 Een verzoek tot heractivering van geschorste
+machtiging MOET worden gedaan door
+machtigingenbeheerder of een andere wettelijke
+vertegenwoordiger van de Dienstafnemer die
+volgens de vereisten voor eerste identificatie in
+overeenstemming met het toepasselijke
+betrouwbaarheidsniveau (zie hoofdstuk 2, paragraaf
+) is geïdentificeerd. 2.1.1
+3.6 Controledoelstelling: Het machtigingenregister
+MOET misbruik van niet-actieve machtigingen
+voorkomen. 3.6.1 LOA 3 4 De Machtigingendienst waarborgt dat het bedrijf of
+de organisatie de geregistreerde machtigingen
+actueel houdt:
+Het machtigingenregister  verzoekt de
+machtigingenbeheerder in elk geval
+tweejaarlijks de geregistreerde set
+van machtigingen te bevestigen, dan wel te Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10531. 2. 3.

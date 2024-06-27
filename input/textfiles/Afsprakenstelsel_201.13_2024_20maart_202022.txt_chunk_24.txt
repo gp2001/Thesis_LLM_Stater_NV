@@ -1,0 +1,24 @@
+3. Toelichting processtappen
+1. Melding helpdesk
+Input Vraag, probleem, issue van een deelnemer
+Activiteit
+De deelnemer meldt zijn vraag, probleem of issue aan de helpdesk van de beheerorganisatie per e-mail:
+. info@eherkenning.nl
+De beheerorganisatie formuleert indien mogelijk direct een oplossing. Indien dit niet mogelijk is, wordt
+de vraag verder in de beheerorganisatie uitgezet. De beheerorganisatie beantwoordt de vraag van de deelnemer of verstuurt een voortgangsbericht. Output Oplossing voor vraag, probleem of issue van de deelnemer
+Wie? Beheer officer van de beheerorganisatie
+Indien nodig, andere experts in de beheerorganisatie
+DeelnemersAfsprakenstelsel Elektronische Toegangsdiensten | pagina 264Proces aanvragen BSNk-sleutelmateriaal
+Voor het decrypten van het (polymorf) versleutelde BSN en PseudoID heeft de DV speciaal BSNk-Sleutelmateriaal nodig. Dit
+moet door haar Herkenningsmakelaar (HM) aangevraagd worden bij het BSNk
+Dit proces beschrijft hoe dat aanvraagproces verloopt..Afsprakenstelsel Elektronische Toegangsdiensten | pagina 265Verantwoordelijkheden
+De HM is verantwoordelijk dat het proces wordt uitgevoerd conform de procesbeschrijving.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 266Toelichting processtappen
+Het BSNk beheert en verstrekt cryptografisch sleutelmateriaal aan elke   die aantoonbaar beschikt over Dienstverlener (DV)
+een PKIoverheid-certificaat. Indien de Dienstverlener geautoriseerd is om het   te verwerken verstrekt het BSNk speciaal BSN
+(extra) BSN Sleutelmateriaal anders alleen sleutelmateriaal waarmee een PseudoID ontsleuteld kan worden. Ter ontzorging
+van de DV verzorgt de HM deze aanvraag. Hiervoor implementeert de HM de Interface specifications aux HM-BSNk -
+. ProvideDVkeys
+Het proces volgt de stappen zoals beschreven bij . AUC9 Verstrekken sleutelmateriaal DienstverlenersAfsprakenstelsel Elektronische Toegangsdiensten | pagina 267
+Proces attribuutcatalogus
+In het Netwerk wordt de  gebruikt voor het beschrijven van de beschikbare attributen en de toegestane Attribuutcatalogus
+bronnen binnen het Afsprakenstelsel Elektronische Toegangsdiensten.

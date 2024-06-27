@@ -1,0 +1,167 @@
+TemporarilyUnavailable Request could temporarily not be processed. A new request for activation MAY be sent at a later
+moment by the requesting party.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 645
+BSNk: registerStatusEIM
+The most recent version of the technical BSNk specifications are available on  or on https://wiki.bsn-koppelregister.nl/
+request (beheerorganisatie BSNk through . The information below is for information only. servicecentrum@logius.nl)
+A MachtigingsRegister uses this interface to register the status the collection(s) of authorizations per person at the   BSNk
+, every time when a new authorization is added or the status of the collection is changed. A Inzageregister
+MachtigingsRegister MUST register the status of every 'collection of authorizations' (with a description)    BSNk Inzageregister
+that makes sense to the involved Person. A MachtigingsRegister MUST NOT register the status of every individual
+autorisation. As a minimum a MachtigingsRegister MUST make a distinction between autorisations with this Person as R
+R epresentative and as epresentee. At this moment ETD only supports Representee! As a maximum a MachtigingsRegister can
+register multiple collections of authorizations at the   , for instance with a specific purpose eg "Business BSNk Inzageregister
+authorizations for administrative employees". The interface described in this document is used to implement the  and MUST be implemented use case  AUC6 Activeren BSN
+by every MachtigingsRegister. WSDL registerStatusEIM
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+xmlns:bsnk="urn:nl-gdi-eid:1.0:webservices"
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+name="BSNK_registerStatusEIM"
+targetNamespace="urn:nl-gdi-eid:1.0:webservices">
+<wsdl:types>
+<xsd:schema targetNamespace="urn:nl-gdi-eid:1.0:webservices"
+attributeFormDefault="unqualified"
+elementFormDefault="qualified">
+<xsd:element name="RegisterStatusEIMRequest" type="bsnk:RegisterStatusEIMRequestType">
+<xsd:annotation>
+<xsd:documentation>Request message to register a EIM status. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="RegisterStatusEIMRequestType">
+<xsd:complexContent>
+<xsd:extension base="bsnk:BSNkProvideRequestBasetype">
+<xsd:sequence>
+<xsd:element name="EncryptedPseudonym" type="bsnk:EncryptedPseudonymType" />
+<xsd:element name="DeprecatedEP" type="bsnk:EncryptedPseudonymType" minOccurs="
+0"/>
+<xsd:element name="MeansNumber" type="bsnk:MeansNumberType" />
+<xsd:element name="StatusDateTime" type="xsd:dateTime" />
+<xsd:element name="LevelOfAssurance" type="bsnk:LevelOfAssuranceType" />
+<xsd:element name="MeansType" type="bsnk:MeansType" />
+<xsd:element name="Domains" type="bsnk:DomainsType" minOccurs="0"/>
+<xsd:element name="ReadableCardInfo" type="bsnk:ReadableCardInfoType"
+minOccurs="0" />
+<xsd:element name="IDP" type="bsnk:OINType" minOccurs="0" />
+<xsd:element name="Status" type="bsnk:StatusType" />
+<xsd:element name="RevocationURL" type="bsnk:RevocationURLType" minOccurs="0" />
+</xsd:sequence>
+</xsd:extension>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 646                </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="BSNkProvideRequestBasetype" abstract="true">
+<xsd:sequence>
+<xsd:element name="Requester" type="bsnk:OINType" />
+</xsd:sequence>
+<xsd:attribute name="DateTime" type="xsd:dateTime" use="required" />
+<xsd:attribute name="RequestID" type="xsd:ID" use="required" />
+</xsd:complexType>
+<xsd:simpleType name="MeansNumberType">
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="16" />
+<!--                     <xsd:pattern value="[0-9]+"></xsd:pattern> -->
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="LevelOfAssuranceType">
+<xsd:restriction base="xsd:anyURI">
+<!--                     <xsd:maxLength value="128" /> -->
+<xsd:enumeration value="http://eidas.europa.eu/LoA/substantial" />
+<xsd:enumeration value="http://eidas.europa.eu/LoA/high" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:complexType name="DomainsType">
+<xsd:sequence>
+<xsd:element name="Domain" type="bsnk:DomainType" minOccurs="1" maxOccurs="2"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:simpleType name="DomainType">
+<xsd:restriction base="xsd:token">
+<xsd:enumeration value="Private" />
+<xsd:enumeration value="Public" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="MeansType">
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="25" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="StatusType">
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="64" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="EncryptedPseudonymType">
+<xsd:annotation>
+<xsd:documentation>Pseudonym encrypted as an EncryptedPseudonym
+according to Polymorphic Pseudonimization. </xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:base64Binary" />
+</xsd:simpleType>
+<xsd:simpleType name="ReadableCardInfoType">
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="40" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="RevocationURLType">
+<xsd:restriction base="xsd:anyURI">
+<xsd:maxLength value="1024" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="OINType">
+<xsd:annotation>
+<xsd:documentation>OIN type. </xsd:documentation>
+</xsd:annotation>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 647                <xsd:restriction base="xsd:string">
+<xsd:length value="20" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="RegisterStatusEIMResponse" type="bsnk:RegisterStatusEIMResponseType">
+<xsd:annotation>
+<xsd:documentation>
+Response to a RegisterStatusEIMRequest. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="RegisterStatusEIMResponseType">
+<xsd:complexContent>
+<xsd:extension base="bsnk:BSNkProvideResponseBasetype">
+<xsd:sequence>
+<xsd:element name="Status" type="bsnk:StatusType" />
+</xsd:sequence>
+</xsd:extension>
+</xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="BSNkProvideResponseBasetype" abstract="true">
+<xsd:attribute name="DateTime" type="xsd:dateTime" use="required" />
+<xsd:attribute name="ResponseID" type="xsd:ID" use="required" />
+<xsd:attribute name="InResponseTo" type="xsd:NCName" use="required" />
+</xsd:complexType>
+<xsd:element name="RegisterStatusEIMFault" type="bsnk:RegisterStatusEIMFaultType">
+<xsd:annotation>
+<xsd:documentation>
+Fault response to a RegisterStatusEIMRequest. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="RegisterStatusEIMFaultType">
+<xsd:sequence>
+<xsd:element name="FaultReason" type="bsnk:RegisterStatusEIMFaultReasonType" />
+<xsd:element name="FaultDescription" type="bsnk:FaultDescriptionType" maxOccurs="
+unbounded" />
+</xsd:sequence>
+</xsd:complexType>
+<xsd:simpleType name="RegisterStatusEIMFaultReasonType">
+<xsd:union memberTypes="bsnk:FaultReasons bsnk:RegisterStatusEIMFaultReasons" />
+</xsd:simpleType>
+<xsd:simpleType name="FaultReasons">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="NotFound">
+<xsd:annotation>
+<xsd:documentation>Provided information results in
+zero matches. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="AuthorizationError">
+<xsd:annotation>
+<xsd:documentation>Authentication invalid or access denied. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="SyntaxError">
+<xsd:annotation>
+<xsd:documentation>Request invalid.

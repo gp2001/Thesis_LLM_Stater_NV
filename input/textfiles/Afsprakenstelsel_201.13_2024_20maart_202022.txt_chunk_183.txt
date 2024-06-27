@@ -1,0 +1,88 @@
+De
+tweede kolom bevat een toelichting op, of voorbeeld bij de eisen in de eerste kolom. In de eisen dienen de woorden " ", " ", " ", " ", " ", " ", " " en " " te worden shall shall not should should not may need not can cannot
+geïnterpreteerd zoals beschreven in clause 3.2 van  . ETSI Drafting Rules
+SHALL: een absolute vereiste
+SHALL NOT: een absoluut verbod
+SHOULD: sterke wens, tenzij er valide reden is in specifiek geval af te wijken
+SHOULD NOT: ongewenst, tenzij er valide reden is om het in specifiek geval toe te laten
+MAY: een vrije keuze, een optie
+NEED NOT: niet verplicht
+CAN: mogelijkheid
+CANNOT: onmogelijkheid
+Terms ETSI TS 119 461 v1.1.1
+Definitie van de termen  die gehanteerd worden in de norm. De termen zijn integraal overgenomen uit de norm en derhalve
+in de Engelse taal. applicant: person (legal or natural) whose identity is to be proven
+authoritative evidence: evidence that holds identifying attribute(s) that are managed by an authoritative source
+authoritative source: any source irrespective of its form that can be relied upon to provide accurate data, information
+and/or evidence that can be used to prove identity
+(identity) attribute: quality or characteristic ascribed to a person
+baseline LoIP: Level of Identity Proofing (LoIP) reaching a high level of confidence based on the fulfilment of general
+good practice requirements for the identity proofing process and considered suitable for the trust services policies
+currently defined by ETSI standards
+binding to applicant: part of an identity proofing process that verifies that the applicant is the person identified by
+the presented evidence
+digital identity document: identity document that is issued in a machine-processable form, that is digitally signed by
+the issuer, and that is in purely digital form
+electronic identification means (eID means): material and/or immaterial unit containing person identification data
+and which is used for authentication for an online service
+eID scheme: governance model and technical specifications allowing interoperability between eID means from
+different eID providers
+(identity) evidence: information or documentation provided by the applicant or obtained from other sources, trusted
+to prove that claimed identity attributes are correct
+False Acceptance Rate (FAR): proportion of verification transactions with false biometric claims erroneously accepted
+False Rejection Rate (FRR): proportion of verification transactions with true biometric claims erroneously rejected
+identity: attribute or set of attributes that uniquely identify a person within a given context
+identity document: physical or digital document issued by an authoritative source and attesting to the applicant's
+identity
+identity proofing context: external requirements affecting the identity proofing process, given by the purpose of the
+identity proofing, the related regulatory requirements, and the resulting restrictions on the selection of attributes
+and evidence and on the identity proofing process itself
+identity proofing (process): process by which the identity of an applicant is verified by the use of evidence attesting to
+the required identity attributesAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1007
+identity proofing policy: set of rules that indicates the applicability of an identity proofing service to a particular
+community and/or class of application with common security requirements
+legitimate evidence holder: person for whom the evidence is issued
+Level of Identity Proofing (LoIP): confidence achieved in the identity proofing
+liveness detection: measurement and analysis of anatomical characteristics or involuntary or voluntary reactions, to
+determine if a biometric sample is being captured from a living subject present at the point of capture
+physical identity document: identity document issued in physical and human-readable form
+physical presence: identity proofing where the applicant is required to be physically present at the location of the
+identity proofing
+presentation attack: presentation to the biometric data capture subsystem with the goal of interfering with the
+operation of the biometric system
+Presentation Attack Detection (PAD): automated determination of a presentation attack
+proof of access: any source irrespective of its form that can be trusted for reliable data, information and/or evidence
+that can be used in an identity proofing process, provided that the applicant is able to demonstrate access to the
+source
+pseudonym: fictitious identity that a person assumes for a particular purpose, which differs from their original or
+true identity
+remote identity proofing: identity proofing process where the applicant is physically distant from the location of the
+identity proofing
+subject: legal or natural person that is enrolled to a trust service
+subscriber: legal or natural person bound by an agreement with a trust service provider to any subscriber obligations
+supplementary evidence: evidence that is used in addition to authoritative evidence to strengthen the reliability of
+the identity proofing and/or as evidence for attributes that are not evidenced by the authoritative evidence
+trusted register: public register, database, or other source that is trusted for the conveyance of identity attributes in
+the identity proofing context
+trust service component: one part of the overall service of a TSP
+validation: part of an identity proofing process that determines whether or not attributes are validated by the
+presented evidence and whether or not the evidence is genuine, authoritative, and valid
+hoofdstuk / paragraaf / norm toelichting ETSI toelichting eTD
+8 Identity proofing service requirements
+8.2 Attribute and evidence collection
+8.2.3 Use of physical and digital identity documents as evidence
+[CONDITONAL] If physical and/or digital
+identity documents are used as evidence,
+the requirements in the present clause
+apply.Met een fysiek document
+wordt hier bedoeld het
+uitlezen van de ‘Visual
+Inspection Zone’ (VIZ). Dat is
+te beschouwen als het voor
+mensen gemakkelijk leesbare
+gedeelte van het
+identiteitsbewijs. Met digitaal
+wordt hier bedoeld het
+uitlezen van de chip en/of de
+‘Machine Readable Zone’
+(MRZ).

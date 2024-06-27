@@ -1,0 +1,49 @@
+5. Een gebruiker MAG met een bestaand
+geldig middel vernieuwing aanvragen
+op hetzelfde betrouwbaarheidsniveau. LOA 2 3 4 LoA1 met toevoeging van:
+De Deelnemer MOET de verwachte
+levensduur van een authenticatiemiddel
+jaarlijks vaststellen op basis van een
+analyse van de kenmerken en
+kwetsbaarheden van het middel. Een Authenticatiemiddel waarvan is
+aangetoond dat deze kwetsbaar is
+geworden voor misbruik of manipulatie
+MOET door de Deelnemer worden
+ingetrokken. De vastgestelde levensduur van een
+authenticatiemiddel MOET zijn
+gerelateerd aan de te verwachten
+technische levensduur van het middel
+maar ZOU niet meer MOETEN zijn dan
+tien (10) jaar. De Gebruiker MOET minimaal elke tien
+(10) jaar het gehele proces identificatie
+tot de uitgifte van een
+authenticatiemiddel opnieuw
+doorlopen. De Deelnemer MAG een
+authenticatiemiddel vernieuwen op
+basis van een bestaand en geldig
+authenticatiemiddel. Het vernieuwde
+authenticatiemiddel MOET aan de
+Gebruiker worden verstrekt met de
+zekerheid die behoort bij het LoA van Ad 3. Een authenticatiemiddel bestaat uit een technische
+component en procedurele component. Voor
+de maximale levensduur van het het middel (technisch en
+procedureel) is aangesloten bij de levensduur van paspoorten en
+gekwalificeerde certificaten. Het is vanuit optiek van het Stelsel
+belangrijker dat de kwetsbaarheid van de verschillende technische
+componenten van het middel wordt gemonitord door de AD/MU
+dan dat een specifieke levensduur wordt opgelegd van de
+technische componenten waaruit een middel kan bestaan. Ad 4. mogelijk dat er in de  van de tijd fouten Het is altijd loop
+gemaakt worden waardoor een persoon niet of niet meer in bezit
+is van de juiste credentials om over een specifiek middel te mogen
+beschikken. Daarom is het nodig om personen periodiek opnieuw
+te identificeren conform het proces van de initiële uitgifte van een
+middel. Bij de keuze voor de termijn van 10 jaar is aangesloten bij
+de bestaande praktijk voor het vernieuwen van Nederlandse
+identiteitsbewijzen. Ad 5. Om dezelfde reden als bij 4. en omdat misbruik door derden
+niet is uit te sluiten van gestolen, verloren middelen of middelen
+van bijvoorbeeld overledenen is een extra vorm van controle
+voorgeschreven die eens in de 5 jaar plaatsvindt. good practice voor middelen die bedoeld zijn voor gebruik in het
+BSN domein op LoA3 en LoA4:
+Uitvoeren van een her-registratie van het middel bij BSNk. Indien een gebruiker niet meer in leven zou zijn geeft BSNk
+een foutmelding. Deze toets wordt aangevuld met een toets
+op recent gebruik van het middel in de laatste 12 maanden. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9805. 6. a.

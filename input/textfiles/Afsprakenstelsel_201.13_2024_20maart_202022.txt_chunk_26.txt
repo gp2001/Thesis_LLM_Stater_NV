@@ -1,0 +1,41 @@
+2. Toelichting processtappen
+1. Aanleveren nieuwe certificaat
+Input Geplande certificaatwissel bij een deelnemer
+Activiteit
+De deelnemer informeert de beheerorganisatie  over de geplande certificaatwissel. tijdig
+De deelnemer levert het nieuwe metadatabestand aan bij de beheerorganisatie, voorafgaand aan moment
+waarop het huidige certificaat verloopt. In deze metadata is opgenomen:
+de huidige public key die in gebruik is
+de nieuwe public key die de deelnemer wil gaan gebruiken
+De beheerorganisatie aggregeert en publiceert de nieuwe metadata volgens het , Proces netwerkmetadata
+en attendeert alle deelnemers op de certificaatwissel. De deelnemers MOETEN de nieuwe versie van de metadata binnen het eerstvolgende gebruikelijke
+doorvoeren. Onderhoudsvenster
+Na het onderhoudsvenster MAG de betreffende deelnemer het nieuwe certificaat gebruiken. Output Doorgevoerde metadata met oude en nieuwe certificaat
+Wie? Beheerorganisatie, technisch beheerder
+Deelnemers, technisch beheerders
+2. Verwijderen oude certificaat
+Input Doorgevoerde metadata met oude en nieuwe certificaat
+Activiteit
+Wanneer het nieuwe certificaat overal binnen het netwerk is geaccepteerd, kan het oude certificaat uit de
+metadata worden gehaald. De betreffende deelnemer levert nieuwe metadata aan met daarin alleen de
+public key van het nieuwe certificaat. De beheerorganisatie aggregeert en publiceert de nieuwe metadata volgens het , Proces netwerkmetadata
+en attendeert alle deelnemers op de certificaatwissel. Output Doorgevoerde metadata met enkel het nieuwe certificaat
+Wie? Beheerorganisatie, technisch beheerder
+Deelnemers, technisch beheerders
+Certificaatwissel kan ook voorkomen bij certificaten die niet in de metadata zijn opgenomen. Voor de werking van Single
+Sign On heeft iedere Herkenningsmakelaar een eigen fysieke cookieserver op gezamenlijk domein . Dit *.sso.eherkenning.nl
+gezamenlijke domein wordt beheerd door de beheerorganisatie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 283De cookieservers verzenden geen berichten maar maken wel gebruik van certificaten. Wanneer deze certificaten worden
+gewisseld, wordt ongeveer hetzelfde proces doorlopen als bij de certificaatwissel in metadata. Dat proces verloopt dan als
+volgt:
+De deelnemer meldt tijdig (minimaal twee weken van te voren) bij de beheerorganisatie dat het certificaat moet
+worden gewisseld via de issuetracker . Hierbij vermeldt de deelnemer de huidige public key die in gebruik is, Mantis
+de nieuwe public key en de termijn waarop de wijziging moet plaatsvinden. De beheerorganisatie vervangt de public key van de betreffende deelnemer. De deelnemer ontvangt een bevestiging van de beheerorganisatie via  wanneer de vervanging is afgerond. Mantis
+De deelnemer KAN nu het nieuwe certificaat gebruiken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 284
+Proces change en release
+Het Afsprakenstelsel Elektronische Toegangsdiensten is dynamisch. Het change en releaseproces beschrijft het proces van
+het ontstaan van een wijziging, de toetsing en de besluitvorming en het verwerken van de wijziging in het  Afsprakenstelsel
+.Het   beschrijft de implementatie van een change in het (AS)  Proces implementatie koppelvlakrelease  Netwerk (voor
+door een betrokken partij. Elektronische Toegangsdiensten)
+Indien een wijziging de juridische of technische strekking van het Afsprakenstelsel niet aantast, dan MAG de wijziging direct
+worden doorgevoerd in het Afsprakenstelsel. Waaronder begrepen, maar niet beperkt tot herstructureren van content,
+corrigeren van taal- en stijlfouten, onderhoud aan hyperlinks en labels. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 2851. 2.

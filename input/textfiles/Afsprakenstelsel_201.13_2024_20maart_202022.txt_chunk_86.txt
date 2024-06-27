@@ -1,0 +1,47 @@
+Advice Elektronische Toegangsdiensten: MUST be included, containing an AssertionIDRef
+referencing the Assertion this declaration is directly linked to. XACMLAuthz-
+Decision
+StatementElektronische Toegangsdiensten: MUST contain an SAML Statement of the type
+XACMLAuthzDecisionStatementType. See below. XACMLAuthzDecision
+StatementResponse Result @ResourceID Elektronische Toegangsdiensten: MUST NOT be included
+Decision XACML: One of the values allowed in XACML 2.0. In the event of a cancellation or error, the element
+MUST be populated with the value 'Deny'. See also Error
+. handling
+Status XACML: must be filled with one of the values that are
+allowed according to the XACML 2.0 specifications
+Obligations Obligation urn:etoegang:core:
+RequireConfirmationFromNextMR
+FulfillOn=Permit
+AttributeAssignment urn:etoegang: core:
+AuthorizationRegistryID = <MR2> (see ) EntityID
+Elektronische Toegangsdiensten: In the event of chain
+authorization, such is established by the first MR, which Afsprakenstelsel Elektronische Toegangsdiensten | pagina 595then specifies, by means of an Obligation, that the
+second link MUST be verified or Decision = 'Permit' is
+otherwise invalid. Request Subject Elektronische Toegangsdiensten:
+Any received AuthenticationMeansID MUST be deleted
+and not returned in the response to the HM. If the Decision is ‘Permit’ THEN
+Depending on the Rules for processing
+: request
+an ActingEntityID
+an ActingSubjectID.EncryptedID@SP
+one LegalSubjectID with one or more
+AttributeValues with an
+EncryptedID@SP
+a LinkedDeclarationSignatureValue
+Resource Elektronische Toegangsdiensten: MUST contain the
+attribute-elements contained in the resource element
+from the request. If the Decision is 'Permit'
+ServiceID MUST be included as multi-valued XACML
+attribute
+ServiceUUID MUST be included as multi-valued
+XACML attribute
+LevelOfAssuranceUsed MUST be included. See Level
+of assurance
+Depending on the : Rules for processing request
+an EntityConcernedID
+one or more ServiceRestrictions
+an IntermediateEntityID.EncryptedID
+one or more Encrypted Attributes
+NextAuthorizationRegistryID MAY be included. See
+. EntityID
+Other attributes MUST NOT be included.

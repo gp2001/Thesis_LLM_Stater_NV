@@ -1,0 +1,63 @@
+3. het contact met de Toezichthouder en Beheerorganisatie op het moment dat het plan in werking treedt, is
+gewaarborgd;
+indien relevant, zijn taken van onderaannemers gewaarborgd. Uitwerking van de benodigde voorzieningen voor uitvoering van het plan zijn in paragraaf 4 opgenomen. 4. Uitwerking voorzieningen
+Beschrijft in elk geval de organisatorische, juridische, technische en financiële waarborgen voor de uitvoering van het exit-
+plan. 5. Onderhoud
+Beschrijft hoe het plan is opgenomen in de risicomanagementcyclus van de onderneming en maakt duidelijk hoe de
+actualiteit van het exitplan is gewaarborgd. Begrippen
+Gebruiksgegevens: alle gegevens over het gebruik van een specifiek middel en machtiging. Gebruikersgegevens: alle gegevens die over een gebruiker zijn vastgelegd ten behoeve van de uitgifte van een middel
+en registratie van een machtiging. Berichten-logs: het betreft hier de verzameling van (technische) ondertekende berichten die de Deelnemer ontvangt
+en verzendt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 413Proces uitvoeren centrale penetratietest
+De centrale penetratietest wordt conform het   éénmaal per jaar uitgevoerd. Beleid voor penetratietesten
+Hieronder staan de processtappen genoemd rondom het uitvoeren van deze test.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 414
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 415
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 4161. Toelichting
+Start opstellen opdracht
+Input
+Bevindingen eerdere penetratietesten
+Input vanuit het security officers overleg
+Aanbieding externe specialist
+Activiteit De Beheerorganisatie stelt een opdracht voor het uitvoeren van een centrale penetratietest op. In deze
+opdracht neemt de BO de bevindingen mee van de afgelopen centrale penetratietest en mogelijke input vanuit
+het security officers overleg. Het Secretariaat van de CvD krijgt een afschrift van de opdracht. De Beheerorganisatie verstrekt de opdracht tot het uitvoeren van een penetratietest aan een
+onafhankelijke externe specialist (Opdrachtnemer). Output Opdracht voor de penetratietest en een opdrachtnemer penetratietest. Wie? Beheerorganisatie
+Opdrachtnemer
+2. Voorbereiden opdracht
+Input Opdracht
+Activiteit De opdrachtnemer zorgt dat de   een getekende vrijwaringsverklaring overlegt en maakt afspraken Deelnemer
+over de start van de testen. Zonder deze vrijwaringsverklaring kan de test niet starten en stopt het proces
+uitvoeren van de penetratietest voor de betreffende Deelnemer. Output
+Getekende vrijwaringsverklaring
+Planning
+Wie? Opdrachtnemer
+Deelnemer
+3. Uitvoeren opdracht
+Input Planning
+Activiteit De Opdrachtnemer voert de penetratietesten uit. De resultaten worden aan de hand van de principes hoor en wederhoor teruggekoppeld aan de Deelnemer.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 417De Deelnemer krijgt hierbij de mogelijkheid om bevindingen toe te lichten en/of op te lossen. De Opdrachtnemer Penetratietest rapporteert integraal over de uitgevoerde penetratietesten aan de
+beheerorganisatie. Output Integraal testrapport
+Wie? Opdrachtnemer
+Deelnemer
+Beheerorganisatie
+4. Communiceren resultaten penetratietest
+Input Integraal testrapport
+Activiteit De Beheerorganisatie stelt het individuele rapport beschikbaar aan de Deelnemer en aan het Secretariaat van
+de CvD. De Beheerorganisatie en Deelnemer gebruikt het rapport als input voor een volgende penetratietest. Output Individueel testrapport
+Wie? Deelnemer
+Beheerorganisatie
+Secretariaat van de CvDAfsprakenstelsel Elektronische Toegangsdiensten | pagina 418Proces wijziging rechtspersoon
+Wanneer een deelnemer de rechtspersoon wil wijzigen, maakt hij dit kenbaar aan de beheerorganisatie door middel van het
+formulier  De deelnemer retourneert het ingevulde formulier en met Template wijziging rechtspersoon deelnemer . bijbehorende bijlagen naar . info@eherkenning.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 419Businessmodel
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Dit document beschrijft het businessmodel voor Elektronische Toegangsdiensten. Onder het businessmodel worden
+verstaan de afspraken die betrekking hebben op de onderlinge verrekening van kosten en baten tussen verschillende partijen
+die samen het  invullen. Het is bedoeld voor deelnemers en dienstverleners. Netwerk (voor Elektronische Toegangsdiensten)
+Het businessmodel gaat uit van de volgende afspraken:
+De kosten voor verplichte functionaliteit worden gedeeld tussen de  van het twee primaire doelgroepen Netwerk (voor
+: bedrijven en dienstverleners. De dienstverlener betaalt voor de dienstverlening van Elektronische Toegangsdiensten)
+de Herkenningsmakelaar, terwijl de bedrijven betalen voor de dienstverlening door de  Authenticatiedienst (AD)
+(inclusief  ) en het . Authenticatiemiddel Machtigingenregister (MR)
+Deelnemers kunnen onderling afspraken maken met betrekking tot de volgende zaken:
+Onderlinge verrekeningen. Tariefstructuren.

@@ -1,0 +1,141 @@
+Herkomst
+PKIoverheidAfsprakenstelsel Elektronische Toegangsdiensten | pagina 163Publieke domein
+Het domein waarbij interacties plaatsvinden tussen natuurlijke personen / niet-natuurlijke personen enerzijds en de
+Dienstverleners met een publieke taak anderzijds. Een Dienstverlener is 'publiek' wanneer het een bestuursorgaan in de zin van afdeling 1.1 van de Algemene
+wet bestuursrecht betreft,  ook wanneer het andere overheidsorganen alsmede natuurlijke en rechtspersonen, niet maar
+zijnde overheidsorganen betreft, die vanwege het uitoefenen van een publieke taak gerechtigd zijn het
+burgerservicenummer ( ) te gebruiken  BSN
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 164Randomisatie
+Het maken van een  van een polymorfe vorm (Polymorfe identiteit/pseudoniem, Versleutelde Identiteit/Pseudoniem) kopie
+dat cryptografisch niet te herleiden is naar het origineel. Een polymorfe vorm is technisch gezien een ElGamal versleuteld bericht en met randomisatie maakt men een nieuw
+versleuteld bericht met dezelfde inhoud, maar dat er 'aan de buitenkant' anders uitziet. Voor randomisatie is geen geheime
+sleutel benodigd. Omdat randomisaties ook buiten de HSM kunnen worden uitgevoerd, wordt dit in detail gespecificeerd. Een PI, PP, VI en VP
+bestaan elk uit drie punten op een elliptische curve, (P, Q, S). Bij randomisatie wordt een willekeurig (‘random’) getal r
+gekozen met 0 < r < q waar q de grootte van de elliptische groep is. De gerandomiseerde vorm is (P + r*S, Q + r*S, S). Afsprakenstelsel Elektronische Toegangsdiensten | pagina 165
+Rechtspersoon
+Een juridische eenheid en subject van rechten en drager van plichten. Iets is een rechtspersoon op grond van de wet of
+omdat het conform wettelijke vereisten is ontstaan, een rechtspersoon heeft een bepaalde rechtsvorm. Scope: Rechtspersonen welke niet in een handelsregister of vergelijkbaar openbaar register van enige EU lidstaat zijn
+ingeschreven conform de voorschriften van betreffend land vallen buiten de scope van Elektronische Toegangsdiensten. Herkomst
+Definitie conform Catalogus BasisregistratiesAfsprakenstelsel Elektronische Toegangsdiensten | pagina 166
+Rol
+Eén van de verantwoordelijkheden die binnen het  voorkomt die gezamenlijk Netwerk (voor Elektronische Toegangsdiensten)
+met de andere rollen  levert. Herkenningsdiensten
+Indien rol voorkomt zonder de toevoeging " " dan is de term rol algemener Netwerk (voor Elektronische Toegangsdiensten)
+bedoeld dan hier gedefinieerd. Herkomst
+Eigen definitie specifiek voor het afsprakenstelselAfsprakenstelsel Elektronische Toegangsdiensten | pagina 167Secretariaat van de Commissie van Deskundigen
+De   heeft een eigen ambtelijke ondersteuning in de vorm van een secretariaat. Dit Commissie van Deskundigen (CvD)
+secretariaat bereidt dossiers voor en ondersteunt de CvD bij zijn toezichthoudende taken (informeren, toetsen,
+onderhouden, behandelen, sanctioneren). Het secretariaat is het aanspreekpunt voor de CvD.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 168
+Service provider (SP)
+Een rol die vervuld wordt door een afgebakend en actief onderdeel van een systeem dat diensten aanbiedt aan partijen of aan
+andere onderdelen van dat systeem. Herkomst
+Glossary for the OASIS Security Assertion Markup Language (SAML) V2.0 (saml-glossary-2.0-os)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 169
+Single Sign On (SSO)
+Een functie die wordt gefaciliteerd zoals omschreven in het , waardoor een authenticatie van een Afsprakenstelsel (AS)
+gebruiker wordt hergebruikt, waardoor deze gebruiker niet opnieuw hoeft in te loggen. Herkomst
+Deze definitie komt overeen met de definitie bij DigiD.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 170Sleutelmateriaal
+Er bestaan verschillende soorten cryptografische sleutels, ook wel sleutelmateriaal genoemd. Het Stelsel hanteert sleutels
+voor beveiliging van communicatie (PKI Overheid certificaten) en sleutels waarmee de polymorfe structuren worden
+gevormd en ontsleuteld. Er zijn drie soorten polymorfe sleutels:
+Allereerst zijn er j   ten behoeve van activatie, i.e. waarmee Polymorfe Identiteiten en Pseudoniemen sleutels bi BSNk
+worden gevormd. Ten tweede zijn er sleutels aanwezig bij en of   waarmee transformaties naar Versleutelde Authenticatiedienst BSNk
+Identiteiten en Pseudoniemen kunnen worden uitgevoerd. Voor het merendeel omvat dit gedeelde sleutels. Tot slot zijn er sleutels bij  s. Hiermee kunnen zij Versleutelde Identiteiten en Pseudoniemen Dienstverlener
+ontsleutelen alsmede de authenticiteit daarvan vaststellen. De eerste twee categorieën polymorfe sleutels hebben een lange levensduur en worden (daarom) in  s beheerd. De HSM
+laatste categorie polymorfe sleutels kunnen relatief eenvoudig worden vervangen en hoeven daarom niet in HSMs te worden
+beheerd. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 171Sleutelverstrekkingslijst
+Een publiekelijk toegankelijke lijst waarin de Beheerorganisatie BSNk de Dienstverleners publiceert die sleutelmateriaal
+verkregen hebben van het BSNk Sleutelbeheer
+Unable to render {include}  The included page could not be found. Unable to render {include}Afsprakenstelsel Elektronische Toegangsdiensten | pagina 172
+Specifiek pseudoniem
+dat gedurende een langere periode toegepast wordt in een specifiek werkingsdomein. Een Pseudoniem
+dienstverlenerspecifiek pseudoniem is steeds hetzelfde voor dezelfde  in wiens context het gebruikt Dienstverlener (DV)
+wordt, een dienstafnemerspecifiek pseudoniem is steeds hetzelfde voor de context van één dienstafnemer etc. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 173
+Stamgegeven
+Een  (BSN), dat in   wordt gebruikt om een  Identificerend kenmerk Polymorfe pseudonimisering Polymorf Pseudoniem  te
+middels een cryptografische bewerking. Op basis van een stamgegeven kan het   een   genereren BSNk Polymorf Pseudoniem
+en   genereren. Het Stamgegeven kan uit een    uitsluitend door Polymorfe Identiteit Polymorfe Identiteit worden afgeleid,
+gerechtigde Ontvangende partijen die over het daartoe vereiste   beschikken. Sleutelmateriaal
+Bron
+Eigen definitie specifiek voor de context van het afsprakenstelsel
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 174Status tbv InzageRegister
+Een MachtigingsRegister moet de status van elke  ( zie  'Verzameling van Machtigingen' AUC3.2 Registreren status
+) voor een Eenmanszaak in het   registeren en daarna actueel houden bij het  machtigingen eenmanszaken BSN-domein
+. Inzageregister (IR)  Bij de status van de Verzameling van Machtigingen hoort een beschrijving die zinvol is voor de eigenaar
+van de eenmanszaak.De status van de 'Verzameling van Machtigingen' wordt bij het Inzageregister geregistreerd. De
+volgende statussen zijn zichtbaar voor de Gebruiker:
+Activated zolang er één active machtiging (in de Verzameling van Machtingen) bruikbaar is voor het BSN Domein. Suspended  als de laatste active machtiging (in de Verzameling van Machtingen) niet (meer) actief is in het Publieke
+domein, bijvoorbeeld omdat de Gebruiker kiest om deze machtiging te de-activeren of omdat
+het MachtigingsRegister een indicatie heeft dat de machtiging misbruikt wordt. Revoked als de laatste active machtiging (in de Verzameling van Machtingen)  ingetrokken is, bijvoorbeeld omdat de
+Gebruiker het middel niet meer onder zijn controle heeft (kwijt, gestolen) of als de relatie tussen Gebruiker
+en het MachtigingsRegister is beëindigd. Expired  als de uiterste gebruiksdatum van de laatste active machtiging (in de Verzameling van Machtingen) verstreken
+is. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 175
+Strategisch Beraad (gremium)
+Het strategische overleg inzake de publiek- private samenwerking ten behoeve van Elektronische Toegangsdiensten,
+waarvoor de beheerorganisatie het secretariaat voert en waarvoor de  een onafhankelijke voorzitter benoemt en het Eigenaar
+Instellingsbesluit besturing Elektronische Toegangsdiensten vaststelt. Zie ook  . Strategisch Beraad
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 176
+Tactisch Beraad (gremium)
+Het tactische overleg aangaande beheer van het , dat wordt georganiseerd door de beheerorganisatie en Afsprakenstelsel
+binnen de grenzen van jaarplan, opdracht van ministerie van Binnenlandse Zaken en in  vastgelegde Operationeel handboek
+procedures de beheerorganisatie tactisch bestuurt. Zie Tactisch Beraad
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 177
+Toegang verlenen
+Een proces onder verantwoordelijkheid van de dienstverlener waarin op grond van door Elektronische Toegangsdiensten
+verstrekte verklaringen en mogelijke controles van andere relevante toegangsrechten die door de dienstverlener zelf zijn
+vastgelegd bepaald wordt of een gebruiker toegang krijgt tot een bepaalde dienst of gerechtigd is een bepaalde actie uit te
+voeren. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 178Toezichthouder
+De staatssecretaris van Binnenlandse Zaken. Als Eigenaar van het afsprakenstelsel voor elektronische toegangsdiensten, is de staatssecretaris van BZK tevens
+Toezichthouder. Om de rollen van Eigenaar en Toezichthouder zo veel als mogelijk te scheiden, is een Commissie van
+Deskundigen ingesteld door de Ministerraad. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 179
+Transactiebericht
+Een set van gegevens in elektronische vorm die betrekking heeft op het gebruik van een . Dienst
+Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 180
+User consent
+De geïnformeerde uitdrukkelijke toestemming die wordt gevraagd voorafgaand aan registratie en verstrekking van
+aanvullende attributen. Dit houdt in dat degene die verantwoordelijk is voor de verwerking van persoonsgegevens ervoor
+zorgt dat voorafgaande aan de uitdrukkelijke toestemming van de betrokkene informatie wordt verstrekt over het doel van
+de verwerking van persoonsgegevens, welke gegevens worden verwerkt, of er sprake is van derdenverstrekking en zo ja, met
+welk doel alsmede de rechten die betrokkenen tegen de gegevensverwerking kunnen uitoefenen. Herkomst
+(EU) 2016/679 AVG overweging 32Afsprakenstelsel Elektronische Toegangsdiensten | pagina 181
+Verklarende Partij
+Partij die een  verstrekt. Wordt in het stelsel ook wel "Attesting party" genoemd Verklaring
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 182
+Verklaring
+Een elektronisch vastgelegd bericht dat gevraagde identiteitsinformatie en attributen bevat conform de
+koppelvlakspecificaties en waarvoor een bepaalde  aantoonbaar instaat. Deelnemer
+Afhankelijk van de betreffende identiteitsinformatie wordt gesproken van een authenticatieverklaring, een
+machtigingsverklaring of een . Een verklaring kan andere verklaringen omvatten en voor de Ketenverklaring
+aantoonbaarheid vereisen, dan wordt gesproken over een verklaring over x en y waarbij de wijze waarop de verklaringen in
+elkaar grijpen in detail in de  is beschreven. Interface specifications
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 183
+Verplicht te verstrekken attribuut
+Een attribuut dat een Deelnemer MOET verstrekken. Herkomst
+Eigen definitie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 184
+Versleutelde Identiteit
+De Versleutelde Identiteit (VI) is een specifiek cryptografisch element die door een Authenticatiedienst gemaakt wordt
+door een Polymorfe Identiteit van een Gebruiker te transformeren voor een specifieke Ontvangende Partij. Omdat de VI
+specifiek is voor deze beoogde Ontvangende Partij wordt ze genoteerd als (voorbeeld Belastingdienst): VI@Belastingdienst. Een Authenticatiedienst kan slechts een Middelenuitgever specifiek Polymorfe identiteit (PI@MU) transformeren als hij
+dezelfde partij is als de Middelenuitgever. In alle andere gevallen moet een Authenticatiedienst speciaal geautoriseerd
+worden door de betreffende Middelenuitgever (via "MU - AD affiliation" in de Metadata). Pas dan kan de
+Authenticatiedienst de PI@MU transformeren naar een Ontvangende partij specifieke Versleutelde Identiteit (VI@OP). De
+betreffende Ontvangende Partij kan op zijn beurt deze VI@OP gebruiken om daaruit (met het juiste Sleutelmateriaal)
+de Gebruiker te identificeren met een originele identiteit (BSN in geval van het Publiek Domein). De in het Afsprakenstelsel gehanteerde Engelse vertaling van Versleutelde Identiteit is "Encrypted Identity". Afsprakenstelsel Elektronische Toegangsdiensten | pagina 185
+Versleuteld Pseudoniem
+Een Versleuteld Pseudoniem (VP) is een specifiek cryptografisch element die door een   gemaakt wordt Authenticatiedienst
+door een   van een Gebruiker te transformeren voor een specifieke  . Omdat de VP Polymorf Pseudoniem Ontvangende Partij
+specifiek is voor deze beoogde Ontvangende Partij wordt ze genoteerd als (voorbeeld Belastingdienst): VP@Belastingdienst. Een Authenticatiedienst kan slechts een Middelenuitgever-specifiek Polymorfe Pseudoniem (PP@MU) transformeren als hij
+dezelfde partij is als de Middelenuitgever. In alle andere gevallen moet een Authenticatiedienst speciaal geautoriseerd
+worden door de betreffende Middelenuitgever (via "MU - AD affiliation" in de Metadata). Pas dan kan de
+Authenticatiedienst de PP@MU transformeren naar een Ontvangende partij specifieke Versleuteld Pseudoniem (VP@OP). De
+betreffende Ontvangende Partij kan op zijn beurt deze VP@OP gebruiken om daaruit (met het juiste Sleutelmateriaal)
+de Gebruiker te identificeren met een Persistent Pseudoniem. De in het Afsprakenstelsel gehanteerde Engelse vertaling van Versleutelde Identiteit is "Encrypted Pseudonym". Afsprakenstelsel Elektronische Toegangsdiensten | pagina 186
+Vertegenwoordigde
+De partij die de vertegenwoordiger de bevoegdheid heeft verleend om in naam van eerstgenoemde te handelen. Herkomst
+Artikel 3:60 lid 1 BW; Analoog aan AP1.1.

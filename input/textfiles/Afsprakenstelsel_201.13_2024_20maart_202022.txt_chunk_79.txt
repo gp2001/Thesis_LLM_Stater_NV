@@ -1,0 +1,85 @@
+MUST sanitize @ProviderName to remove any script or formatting before displaying. In case of Dienstbemiddeling (service intermediation), MUST verify the Dienstbemiddelaar (Service Intermediary)
+is still authorized by the Dienstaanbieder (Service Supplier) by verifying the authorization status of the mediated
+service in the Service Catalog. The AD MUST determine the branding to be used. If IntendedAudience is eIDAS Berichtenservice, use eIDAS Outbound branding as described in Richtlijnen
+. communicatie eIDAS
+Else, base the branding on the information elements listed in the table below. Domain LoA in
+requestEntityConcernedType in service catalog Branding
+Business 1, 2, 2+, 3, 4 urn:etoegang:1.9:EntityConcernedID:KvKnr
+urn:etoegang: 1.9: EntityConcernedID:RSIN
+urn:etoegang:1.13:EntityConcernedID:PROBASnr
+urn:etoegang:1.11:EntityConcernedID:
+eIDASLegalIdentifiereHerkenning
+Business,
+Consumer1, 2, 2+, 3, 4 urn:etoegang:1.12:EntityConcernedID:PseudoID
+urn:etoegang:1.9:EntityConcernedID:PseudoeHerkenning
+Citizen* 3, 4 urn:etoegang:1.12:EntityConcernedID:BSN eHerkenning
+* Citizen: r1.12 only EU-citizens via eIDAS BerichtenService
+The AD MUST process the ActingSubjectTypesAllowed list AND the  . EntityConcernedID:Pseudo
+If one of the criteria is not met, the AD MUST handle this as a non-recoverable error (see  ). Error handlingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 573Note: When an AD specifies a MR for the HM to use as the next hop, the AD may only specify a MR of the same version.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 574Response (2)
+@ID SAML: Unique message characteristic. @InResponseTo SAML: Unique attribute of the AuthnRequest for which this response message is the answer. @Version SAML: Version of the SAML protocol. The value MUST be '2.0'
+@IssueInstant SAML: Time at which the message was created. @Destination SAML: URL of the HM fered. MUST match the HM's metadata. on which the message is of
+@Consent Elektronische Toegangsdiensten: MUST NOT be included. Issuer Elektronische Toegangsdiensten: MUST contain the  of the AD. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProvidedID MUST NOT be included. Signature Elektronische Toegangsdiensten: MUST contain the  of the AD for the enveloped Digital signature
+message. Extensions Elektronische Toegangsdiensten: MUST NOT be included
+Status Elektronische Toegangsdiensten: MUST be filled conform SAML 2.0 specs when the request is
+successfully processed. MUST be filled according to  in case of an error or when the request was cancelled. Error handling
+Assertion Elektronische Toegangsdiensten: MUST contain an assertion about the authentication (see the next
+section). Example AD Response
+<?xml version="1.0" encoding="UTF-8"?>
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+Destination="https://..."
+ID="_62619615-e452-47d3-a44b-93da2d5a76f9"
+InResponseTo="_4b5af9ca-33ef-400f-9c97-398ab0c8e9c7"
+IssueInstant="2015-04-10T11:16:28Z"
+Version="2.0">
+<saml:Issuer>urn:etoegang:AD:...</saml:Issuer>
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_62619615-e452-47d3-a44b-93da2d5a76f9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 575        <ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:Status>
+<samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+</samlp:Status>
+<saml:Assertion ID="_f0ba7712-50e4-4d30-8bb5-e63a771507de" IssueInstant="2015-04-10T11:16:28Z"
+Version="2.0">
+<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">urn:etoegang:AD:...</saml:Issuer>
+.... </saml:Assertion>
+</samlp:Response>
+Note: the above example only provides the response. The response will be sent via an Artifact binding.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 576
+Authentication assertion
+Assertion @Version SAML: Version of the SAML protocol. The value MUST be '2.0'
+@ID SAML: Unique reference to the assertion
+@IssueInstant SAML: Time at which the assertion was created
+Issuer Elektronische Toegangsdiensten: MUST contain the  of the AD. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProvidedID MUST NOT
+be included. Signature Elektronische Toegangsdiensten: MUST be included
+Subject Elektronische Toegangsdiensten: MUST contain a <NameID> with a Transient ID. A   element that meets the Web Browser SSO profile MUST be SubjectConfirmation
+included. Other SubjectConfirmation or SubjectConfirmationData elements MUST NOT
+be included. Conditions Elektronische Toegangsdiensten: MUST be included. The attributes NotBefore and
+NotOnOrAfter MAY be included but should be ignored by the receiver. An Audience element in the AudienceRestriction element that meets the Web Browser
+SSO profile MUST be included. Other audience elements MUST include relevant parties: EntityIDs of the requesting DV
+and the MR/KR/HM (if applicable) to whom the assertion will be targeted. In case of
+Dienstbemiddeling (service intermediation), both the Dienstaanbieder (service
+supplier) and Dienstbemiddelaar (service intermediary) are a relevant party and must be
+listed as audience. For a Dienstaanbieder for whom only the OIN is known, the
+notation 'urn:etoegang:DV: ' is to be used. <OIN>
+Note that for eIDAS Outbound, the eIDAS Berichtenservice has the role of
+Dienstverlener. So the notation of the EntityID is identical as for the DV (with ROLE
+"DV" and not "EB"). Other conditions MUST NOT be included. Advice Elektronische Toegangsdiensten: MUST NOT be included
+AuthnStatement Elektronische Toegangsdiensten: The attribute AuthnInstant MUST contain the time of
+authentication.

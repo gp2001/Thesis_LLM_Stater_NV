@@ -1,0 +1,28 @@
+When changes are made to the participant's system (e.g. when moving to a new version of Elektronische Toegangsdiensten)
+the participant MAY change a system's EntityID. Although they look similar, EntityID's are not to be confused with 's. There is an n:n relationship between ServiceID
+EntityID's and ServiceID's. One system may offer more than one service, or the other way around: more systems can offer the
+same service.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 665
+Level of assurance
+Elektronische Toegangsdiensten distinguishes five different levels of assurance. LoA eIDAS SAML2 AuthnContextClassRef element
+1 Non existent urn:etoegang:core:assurance-class:loa1
+2 Low urn:etoegang: core: assurance-class:loa2
+2+ Low urn:etoegang: core: assurance-class:loa2plus
+3 Substantial urn:etoegang: core: assurance-class:loa3
+4 High urn:etoegang: core: assurance-class:loa4
+Other values MUST NOT be used. Refer to  for legal context, and   for level of assurance in the Betrouwbaarheidsniveaus Normenkader betrouwbaarheidsniveaus
+context of the eIDAS regulation (EU 2015/1502). For the Level of Assurance communicated in assertions in Elektronische Toegangsdiensten technical interfaces, the following
+rules apply:
+The AD MUST communicate the Level of Assurance at which the authentication was realized. This realization is the
+and the Level of Assurance of minimum of the Level of Assurance of the registration process of the authenticated user
+the authentication mechanism applied. An AD MUST NOT communicate a level for which it is not certified. The MR MUST communicate the Level of Assurance of the . A MR MUST NOT communicate a registered authorization
+level for which it is not certified. In case of a chain of authorizations, the MR MUST communicatie the minimum of the LoA of all
+Representation authorizations in the applicable chain (so far). In case of a request for a portal service, a MR MUST communicate the Level of Assurance as the minimum
+Level of Assurance of all applicable service authorizations chosen by the user. The HM MUST communicate the effective Level of Assurance of the combined assertions. The effective Level of
+assurance is the minimum of the LoA of the Authentication assertion and (if applicable) the LoA of the
+Representation authorization assertion(s). The MR communicates two Levels of Assurance in its Assertion. A LevelOfAssurance (requested) and a
+LevelOfAssuranceUsed (actually obtained). The HM MUST use the LevelOfAssuranceUsed from the MR Assertion as the
+LoA of the Representation authorization.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 666LinkedDeclarationSignatureValue
+Description The value of the signature of the referenced Assertion. Name urn:etoegang:core:LinkedDeclarationSignatureValue
+Type #base64Binary http://www.w3.org/2001/XMLSchema
+Issuer
+(XACML)Applicable in case attribute is enclosed in XACML: EntityID of the MR issuing the linked declaration. Value (copy of the) Base64 value of the SignatureValue of the Signature by the Issuer of the referenced Assertion. Comment Including the SignatureValue links the containing declaration to the referenced Assertion.

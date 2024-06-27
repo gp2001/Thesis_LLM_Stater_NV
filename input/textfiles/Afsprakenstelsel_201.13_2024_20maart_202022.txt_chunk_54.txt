@@ -1,0 +1,186 @@
+Ondersteuning  — Ondersteuning betreft het afhandelen van zaken als vragen, verzoeken en klachten. Contentmanagement
+Managementrapportage  — Managementrapportages zijn bedoeld om de groei van het netwerk en de service level
+afspraken binnen het netwerk te monitoren. Zie ook Proces managementrapportage. Monitoring  — De monitoring van de in het service level gemaakte afspraken zal door de beheerorganisatie worden
+uitgevoerd. ResponsetijdenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 422Beschikbaarheid
+Dit hoofdstuk beschrijft wat het service level voor deelnemers en de beheerorganisatie zijn op het vlak van
+beschikbaarheid. De beschikbaarheid wordt aan de hand van de volgende vensters gedefinieerd:
+Beschikbaarheidsvenster
+Onderhoudsvenster
+Servicevenster
+Openstellingsvenster
+Rekenmethode
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 423Beschikbaarheidsvenster
+Binnen het openstellingsvenster geeft Elektronische Toegangsdiensten aan de hand van het beschikbaarheidsvenster
+garanties voor de beschikbaarheid van eHerkenning. Deze garanties worden gegeven voor de werking van de primaire en
+secundaire functionaliteit binnen de productieomgeving van eHerkenning, met als primaire doel een gebruiker in staat te
+stellen in te kunnen loggen bij een dienst(verlener). Er worden vanuit Elektronische Toegangsdiensten geen garanties
+gegeven voor de functionele beschikbaarheid van de externe functionaliteit. Functionaliteit eHerkenning Openstellingsvenster Beschikbaarheidsvenster Minimale
+beschikbaarheid
+per rolMinimale
+beschikbaarheid
+van het stelsel
+Productieomgeving: de primaire
+functionaliteit is inloggen
+Onder inloggen wordt verstaan
+het kunnen kiezen voor
+eHerkenning bij de Dienstverlener
+(DV), het kunnen kiezen van
+leverancier bij de
+Herkenningsmakelaar (HM), het
+kunnen invoeren van
+inloggegevens bij de
+Authenticatiedienst (AD) en het
+kunnen selecteren van de juiste
+machtiging bij het
+Machtigingenregister (MR), met
+als resultaat een inlog bij de
+Dienstverlener. Het betreft hier de
+primaire functionaliteit die onder
+beheer van het stelsel van
+Elektronische Toegangsdiensten
+valt. Voor eenmanszaken en eIDAS
+functionaliteit is Elektronische
+Toegangsdiensten afhankelijk van
+overheidsvoorzieningen. Deze
+overheidsvoorzieningen hanteren
+eigen serviceniveaus, te weten
+99,2% op werkdagen van 8.00 tot
+17.00.24 uur alle dagen 24 uur alle dagen -
+onderhoudsvenster99,5% per
+maand99,2 % per
+maand
+Productieomgeving: de
+secundaire functionaliteit is
+ondersteunend aan inloggen
+Onder ondersteunend aan
+inloggen wordt die functionaliteit
+verstaan die nodig is om beheer te
+kunnen uitoefenen op de
+productieomgeving, waarbij deze 24 uur alle dagen 24 uur alle dagen -
+onderhoudsvenster99,5% per
+maand99,2 % per
+maandAfsprakenstelsel Elektronische Toegangsdiensten | pagina 424functionaliteit niet vereist is om in
+te kunnen loggen. Het betreft hier
+de secundaire functionaliteit die
+onder beheer van het stelsel van
+Elektronische Toegangsdiensten
+valt. Productieomgeving: de externe
+functionaliteit
+Onder externe functionaliteit
+wordt die functionaliteit verstaan
+waarbij het beheer niet onder het
+beheer van het stelsel van
+Elektronische Toegangsdiensten
+valt.24 uur alle dagen Geen garanties
+vanuit  Elektronische
+Toegangsdiensten- -
+Pre-Productieomgeving: de
+functionaliteit is het bieden van
+een testnetwerk. Onder het testnetwerk wordt die
+functionaliteit bedoeld nodig voor
+het uitvoeren van ketentesten.24 uur alle dagen 24 uur alle dagen -
+onderhoudsvensterBest effort Best effortAfsprakenstelsel Elektronische Toegangsdiensten | pagina 425Componenten
+De op deze pagina beschreven functionaliteiten eHerkenning worden gerealiseerd middels één of meerdere componenten. Een overzicht van de onderliggende componenten is opgenomen onder  . ComponentenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 426Onderhoudsvenster
+Het onderhoudsvenster stelt partijen in staat op vooraf vastgestelde tijden regulier onderhoud uit te voeren. Tijdens het
+onderhoudsvenster kan het voorkomen dat eHerkenning niet beschikbaar is, of onderdelen van eHerkenning niet
+beschikbaar zijn. Deze periode wordt niet meegenomen in de beschikbaarheidsprestaties, zie Beschikbaarheidsvenster. De mogelijke onderhoudsvensters zijn:
+Maandag t/m zaterdag 00:00 - 06:00
+Zaterdag t/m zondag 20:00 - 06:00Afsprakenstelsel Elektronische Toegangsdiensten | pagina 427Publicatie
+De beheerorganisatie publiceert het onderhoud  . op www.eherkenning.nl/onderhoudAfsprakenstelsel Elektronische Toegangsdiensten | pagina 428Bepalingen
+Bepaling primaire functionaliteit
+Definitie
+Wijzigingen aan de primaire   worden gezien als onderhoud als Componenten  er een productieonderbreking wordt
+verwacht. Regels
+Onderhoud  is gebonden aan onderhoudsvensters . Onderhoud MOET worden aangekondigd. Aankondiging van onderhoud MOET tenminste 5 werkdagen van tevoren worden gedaan via  onder vermelding  Mantis
+van  datum, tijdslot en dienst. Als er op kortere termijn onderhoud noodzakelijk is, MOET de beheerorganisatie toestemming geven. In overleg
+wordt dan het tijdstip vastgesteld. Bepaling secundaire functionaliteit
+Definitie
+Wijzigingen aan de secundaire   worden gezien als onderhoud Componenten  als er een productieonderbreking wordt
+verwacht. Regels
+Onderhoud  is gebonden aan onderhoudsvensters. Onderhoud  MOET worden aangekondigd. Aankondiging van onderhoud MOET tenminste op de dag van het onderhoud gedaan worden via  Mantis  onder
+vermelding van  datum, tijdslot en dienst. Bepaling externe functionaliteit
+Er kunnen geen garanties worden afgegeven voor de functionele beschikbaarheid van onderdelen buiten ETD en van
+individuele diensten (of middelen) die afhankelijk zijn van externe  . Componenten
+Neem contact op met de beheerorganisatie BSNk voor informatie over haar SNO. Bepaling testnetwerk functionaliteit
+Definitie
+Wijzigingen aan testnetwerk   worden niet gezien als onderhoud Componenten  (gaat niet gepaard met
+productieonderbrekingen). Regels
+Onderhoud MAG plaatsvinden buiten het onderhoudsvenster. Onderhoud MAG worden aangekondigd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 429Afsprakenstelsel Elektronische Toegangsdiensten | pagina 430Componenten
+Het   geeft een overzicht van de functionaliteiten eHerkenning en de definitie hiervan. Beschikbaarheidsvenster Deze
+functionaliteiten bestaan uit de componenten zoals hier weergegeven. Componenten primaire functionaliteit productieomgeving
+Componenten  noodzakelijk voor  de primaire functionaliteit:
+Authenticatiedienst  Authenticatiedienst (AD)
+Machtigingenregister Machtigingenregister (MR)
+Herkenningsmakelaar Herkenningsmakelaar (HM)
+Cookieservers
+Endpoints voor dienstencatalogus en attribuutcatalogus *
+Endpoint voor netwerkmetadata *
+De functionaliteit die is gebaseerd op verwerking BSN voor eenmanszaken en eIDAS en gezien wordt als primair, maar valt
+onder de verantwoordelijkheid van externe overheidsvoorzieningen buiten ETD, worden bij de componenten apart
+beschouwd onder componenten externe functionaliteit productieomgeving. * Noodzakelijke ondersteunende diensten voor de productieomgeving tbv de primaire functionaliteit in beheer bij de
+beheerorganisatie
+Componenten secundaire functionaliteit productieomgeving
+Componenten  noodzakelijk voor de secundaire functionaliteit:
+Confluence
+Managementrapportage
+Metadata-aggregator
+Dienstencatalogus-aggregator
+eHerkenning website
+Mantis
+Componenten externe functionaliteit productieomgeving
+behorend bij externe functionaliteit: Dit zijn p Noodzakelijke componenten artijen buiten ETD die net als ETD deel
+uitmaken van een keten van organisaties die gezamenlijk dienstverlening leveren voor polymorfe pseudonymering voor
+gebruik van BSN en dienstverlening voor Europees inloggen onder eIDAS. Dit zijn:
+- RVO eIDAS-berichtenservice (EB)
+eIDAS attributendienst ( ) - RvIG BRPk
+- Logius BSNk
+Deze componenten zijn onderdeel van primaire functionaliteit voor authenticatie tbv eenmanszaken en tbv eIDAS, maar
+hanteren eigen richtlijnen voor beschikbaarheid, onderhoud, en service.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 431Er kunnen geen garanties worden afgegeven voor de functionele beschikbaarheid van individuele diensten (of middelen),
+aangezien configuratie en inrichting bij de dienstverlener, werkgever of gebruiker buiten het beschikbaarheidsvenster van
+eHerkenning valt. Componenten testnetwerk fuctionaliteit pre-productieomgeving
+noodzakelijk voor het testnetwerk: Componenten
+Simulator
+Dienstencatalogus pre-productie
+Metadata-aggregator pre-productie
+test-systemen van de deelnemersAfsprakenstelsel Elektronische Toegangsdiensten | pagina 432Voorbeeld externe functionaliteit
+Het voorbeeld schetst dienstverlening  voor Europees inloggen onder eIDAS waarbij de componenten buiten het
+eHerkennings domein worden geillustreerd (componenten buiten het roze kader). De componenten zoals gebruikt voor een
+eIDAS outbound flow waarbij wordt ingelogd met eHerkenning bij een buitenlandse dienstverlener. Inloggen bij een buitenlandse dienstverlener kan met eHerkenning. Gegevens worden daarbij opgehaald in Nederland. Na
+authenticatie met eHerkenning wordt het versleutelde BSN m.b.v. de BSNk service via eHerkenning geleverd aan het eIDAS
+knooppunt waar na controle eIDAS attributen worden gekoppeld en geleverd aan de dienstverlener.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 433Servicevenster
+Het servicevenster is de tijd waarbinnen eindgebruikers deelnemers en de beheerorganisatie Elektronische Toegangsdiensten
+kunnen benaderen voor ondersteuning. Het onderstaand servicevenster, is het minimale servicevenster waarbinnen
+deelnemers en de beheerorganisatie beschikbaar moeten zijn. Deelnemers en beheerorganisatie dienen duidelijk te
+communiceren richting eindgebruikers welke service varianten ze aanbieden en hoe eindgebruikers in contact kunnen
+treden. Tijdens het servicevenster zijn deelnemers en beheerorganisatie bereikbaar voor meldingen over de dienstverlening
+en de producten. Denk daarbij aan incidenten, vragen en/of klachten. Bereikbaarheid deelnemers en beheerorganisatie Minimale servicevenster
+Voor ondersteuning en het melden van incidenten  Werkdagen tussen 09:00 - 17:00Afsprakenstelsel Elektronische Toegangsdiensten | pagina 434Openstellingsvenster
+Elektronische Toegangsdiensten hanteert een openstellingsvenster van 24 uur voor alle dagen van het jaar. Tijdens dit
+openstellingsvenster is alle functionaliteit van eHerkenning te gebruiken d  alle betrokkenen. Er worden geen garanties oor
+gegeven voor de werking van eHerkenning binnen het openstellingsvenster. Het openstellingsvenster is het
+beschikbaarheidsvenster plus het onderhoudsvenster.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 435Rekenmethode
+Het  geeft een minimale beschikbaarheid in procenten weer. Partijen MOETEN rapporteren over de Beschikbaarheidsvenster
+beschikbaarheid volgens de hier vastgestelde rekenmethode. De rekenmethode is gebaseerd op het principe van parallel en
+serieel geschakelde componenten. Hierbij worden de parallel geschakelde componenten gemiddeld en worden de seriële
+geschakelde componenten gelijk gewogen. De seriële en parallele componenten schematisch weergegeven.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 436Definities rekenmethode
+Rapportage periode Per kalendermaand
+Totaal tijd Dagen in de maand x uren per dag (24 uur)
+Incident tijd Tijd dat een rol niet operationeel is door een incident (in uren)
+Onderhoudstijd Tijd dat een rol niet operationeel is door onderhoud (in uren)
+Beschikbaarheidstijd Tijd dat een rol operationeel moet zijn (totaal tijd - onderhoudstijd)
+Operationeel tijd Tijd dat een rol operationeel is (totaal tijd - incident tijd - onderhoudstijd)
+Beschikbaar (A) percentage dat rol operationeel is
+Niet beschikbaar (NA)  percentage dat een rol niet operationeel is
+Formule beschikbaarheid (Operationeel tijd / Beschikbaarheidstijd) x 100 = (in procenten)
+HM Rol Herkenningsmakelaar
+AD Rol Authenticatiedienst
+MR Rol Machtigingenregister
+DC Rol Dienstencatalogus, attribuutcatalogus en netwerkmetadataAfsprakenstelsel Elektronische Toegangsdiensten | pagina 437Formule beschikbaarheid per rol
+Een leverancier dient de beschikbaarheid per rol als volgt te berekenen; (Operationeel tijd / Beschikbaarheidstijd) x 100 = (in
+procenten). Voor de bepaling van de operationeel tijd en de beschikbaarheidstijd dienen de definities zoals onder definities
+rekenmethode weergegeven te worden gehanteerd. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 438Formule stelselbeschikbaarheid
+De gemiddelden voor de parallelle componenten dient als volgt te worden berekend:
+Beschikbaarheid (A) HMs = (A HM1 + A HM2+ A HM3 + A HM...) / Totaal aantal HMs;
+Beschikbaarheid (A) ADs = (A AD1 + A AD2+ A AD3 + A AD...) / Totaal aantal ADs;
+Beschikbaarheid (A) MRs = (A MR1 + A MR2+ A MR3 + A MR...) / Totaal aantal HMs;
+Beschikbaarheid (A) DCs = (A DC1 + A DC2+ A DC3 + A DC...) / Totaal aantal DCs.

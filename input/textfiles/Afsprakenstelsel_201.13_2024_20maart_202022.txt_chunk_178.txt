@@ -1,0 +1,54 @@
+a. Specifieke vereisten voor registratie en archivering: De deelnemer
+aan het Stelsel MOET een log bijhouden van alle uitgevoerde
+verificaties en validaties. Het betreft minimaal de:
+validaties van inschrijvingen in het Handelsregister van de
+Kamer van Koophandel. validaties van handgeschreven handtekeningen
+validaties van een identiteit door bankoverschrijving
+validaties van elektronische handtekeningen
+validaties van authenticaties in het elektronische
+registratieproces
+elektronische berichten met een identiteitsverklaring van de
+Aanvrager ter registratie, waaronder de verplichte bijlage. controles van (interne) Machtigingen
+Archivering van verificaties en validaties is verplicht:
+gedurende de geldigheidsduur van uitgegeven middelen en;
+tot 7 jaar na intrekking of verlopen van het middel. Met het oog op de betrouwbare elektronische communicatie
+MOETEN de deelnemers voldoen aan volgende eisen ten aanzien
+van archivering:
+Elke Deelnemer MOET gearchiveerde gegevens beveiligd
+opslaan zodat zij niet toegankelijk zijn voor onbevoegden. Elke
+Deelnemer MOET alle door haar ondertekende en alle door
+haar ontvangen ondertekende berichten 7 jaar archiveren. Na
+deze periode MOETEN ten minste de persoonsgegevens in deze
+berichten vernietigd worden. Een Deelnemer MAG NIET
+persoonsgegevens afkomstig van berichten of bewijsstukken
+langer bewaren dan noodzakelijk voor het doel waarvoor ze
+worden verwerkt (conform Wet Bescherming
+Persoonsgegevens).onleesbaar zijn gemaakt. Deelnemers zijn voor al hun
+stelselactiviteiten zelf
+verantwoordelijk voor de naleving
+van de wettelijke vereisten uit de
+Algemene verordening
+gegevensbescherming (AVG). Indien een deelnemer afwijkt van
+de hetgeen in de toelichting is
+aangegeven is deze afwijking voor
+de auditor slechts acceptabel als:
+de afwijking is gedocumenteerd
+en formeel is geaccepteerd door
+het bevoegde managementniveau
+van de Deelnemer. De deelnemer een expliciete
+afweging heeft gemaakt in het
+kader van de wet bescherming
+persoonsgegevens t.a.v. het doel
+van de opslag en de risico's die dit
+met zich mee brengt voor
+personen. De Deelnemer blijft  te allen tijde
+zelf verantwoordelijk voor de
+inhoud van de gemaakte
+afweging. Het oordeel van de
+auditor over naleving van deze
+norm heeft geen enkele betekenis
+als verweer indien de Deelnemer
+door de bevoegde instanties in het
+kader van de AVG ter
+verantwoording wordt geroepen. Ad 4 en 5 Toelichting: Afwijken
+van deze norm is slechts Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9981. a. b.

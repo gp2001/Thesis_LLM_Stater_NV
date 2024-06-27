@@ -1,0 +1,114 @@
+Vergeet deronde haakjes
+rondconditie niet! Alsdeconditie toteenlogischevector vanlengte groter daneenevalueert, dangeeft Reen
+waarschuwing, maar voerttochdeifstatemen tuitmetdeeerste coordinaat vandelogische
+vector. Bijhetschrijvenvaneenfunctie kandeconstructie if(!missing( argument))worden gebruikt
+omtetesten ofbijdeaanroepvandefunctie eenbepaald argumen tismeegegev enofniet. Uitdevoorgaande secties isduidelijk, datRveelloop-iteraties impliciet uitvoert.Bijvoor-
+beeld,hetcommando sqrt(x) pastautomatisc hdewortelfunctie toeopallecoordi-naten
+vandevectorx.Doorhiervanhandig gebruik temakenishetvaakmogelijk expliciete
+loopconstructies tevermijden. Naast totbesparing vantypwerkleidtditinveelgevallen
+ooktotaanzienlijk sneller rekenwerk.Denutebesprek enexpliciete loopconstructies zijn
+inRrelatief langzaam. Debelangrijkste loopconstructie isdeforconstructie. >for(nameinvalues)expr
+Hetresultaat isheteenvooreentoekennen vandeelemen tenvanvalues aannameenhet
+steeds evalueren vanexpr.Hierbij isvalues meestal eenvector ofeenlist.Degrootheid
+nameiseendumm y,dieaanheteindvandeforstatemen tnietmeerbestaat. >x<-y<-NULL #NULLiseenleegobject34 13:If,For,While, Repeat
+>for(iin1:10){x<-c(x,i); y<-c(y,0)}
+>x
+[1]12345678910
+>y
+[1]0000000000
+Eenalternatief isdewhile statemen t. >while(conditie)expr
+Deuitvoeringbegintmethettesten vandeconditie .AlsdewaardeFALSE is,stopt deuitvoering;
+alsdewaardeTRUE is,danwordtexprgeevalueerd enbegintdeuitvoeringvanvorenafaan. >x<-numeric(10)
+>x
+[1]0000000000
+>i<-0
+>while(i<10){i<-i+1
++ x[i]<-i}
+>x
+[1]12345678910
+Hetzijopgemerkt, datdevoorgaande voorbeelden geengoedgebruik vanRzijn.Vergelijk het
+commando. >x<-1:10
+Derepeat constructie kanworden gebruikt insamenhang metbreak .Dealgemene vormis
+>repeat{
+:::
+if(conditie)break
+:::
+}
+Wanneer Rbreak evalueert, verlaat hetdebinnenste for,while ,ofrepeat loopwaarinbreak
+bevatis.Naastbreak ishetookmogelijknext tegebruik en.Ditzorgt ervoor,datdevolgende
+iteratie vandelooponmiddelijk wordtbegonnen, zonder dehuidige afteronden.14:DataDirectories 35
+14.DATADIRECTORIES
+Bijhetafsluiten vanRwordtgevraagd ofdeworkspace bewaardmoetblijven.Indien jey
+(vanyes)intyptworden alleobjecten diejetijdens jeR-sessie gecreeerdhebt,bewaardinde
+le'.RData' indedirectory waarjeRhadopgestart. Zezijndustijdens jevolgende R-sessie
+weeraanwezigalsjeRindezelfde directory opstart. Technischgesprok encorresp ondeert
+metiederR-objecteengewoneUNIX-lemetdezelfde naam alshetR-object.Ditbetekent,
+datdelekanworden weggego oid,gecopi eerd, vannaam veranderd, etcetera, metde
+desbetreende UNIX-commandos. Delesinde.Data -directory zijnechtergeentekstles
+enkunnen nietbuiten Rworden gelezen: omdewerking vanRteversnellen worden de
+R-objecten ineenspeciaal format gecodeerd. Jekuntleesbare afdrukk envanR-objecten
+makenmetbehulpvandeR-commando's write encat(voordata-ob jecten) endump
+(vooralgeschiktvoorfuncties). Binnen Rkrijgjeeenoverzichtvanalleobjecten inje.Data -directory methetlscom-
+mando. Onnodigeobjecten kunnen worden verwijderd metrm. >ls()
+>ls("x*") #printalleobjecten waarvan denaambegintmetx
+>rm(x,y,object) #verwijdert x,yenobject
+Beide operaties kunnen ookmetdegelijkluidende UNIX-commando's buiten Rworden
+uitgev oerd.Wildcards zijntoegestaan. Naast dedoorjezelf gecreeerde R-objecten bevindt zicheengrootaantalstandaard R-
+objecten, voornamelijk functies, indirectories ergens inhetsysteem. Rdoorzoektrelevante
+directories voortdurend teneinde degevraagde objecten tevinden. Ditzoekenvindt plaats
+ineenvastevolgorde, desearchlist.Bijdefault bestaat dezeuitde.Data directory vanje
+home directory
+Rstopt metzoekenzodrahetgenoemde objectgevonden is.Eengevolgis,dateenstan-
+daardfunctie meteenbepaalde naam (indeR-functies directory) onbruikbaar isvanafhet
+momen t,dateenfunctie vandezelfde naam inde.Data -directory bestaat. Deremedie bij
+dubbelgebruik vaneennaam, isomhetzelfgecreeerde objectteverwijderen. Jebehoeft
+nietbangtezijneenstandaardfunctie teverwijderen: Rzaleendergelijk eopdrachtaltijd
+weigeren. 15.CATEGORISCHE DATA
+Eencategoryiseendata-structuur inR,diekanworden gebruikt bijhetanalyseren van
+categorisc hedata: datawaarvanhetwaarden bereikeenverzameling codesis.Defunctie
+cut(x,breaks) creeerteencategory uiteennumeriek evectorxdoorvooriedervande
+coordinaten vanxnategaaninwelkvandedoorbreaks gedenieerde intervallenhetligt. >x
+[1]335155
+>breaks
+[1]0246836 15:Categorisc heData
+> #deintervallen zijn(0,2],(2,4],etc. > #x[1]isinhet2einterval, x[3]inhetderde,etc
+>cut(x,breaks)
+[1](2,4](2,4](4,6](0,2](4,6](4,6]
+Levels: (0,2](2,4](4,6](6,8]
+Defunctiecutkanworden gecom bineerd mettable omhetaantalcoordinaten vanxdat
+iniederintervalvalttetellen. >table(cut(x,breaks))
+(0,2](2,4](4,6](6,8]
+1230
+Eencategory kanworden opgevatalseenvector meteenextra attribuut: levels.Dit
+betekent,datmeteencategory kanworden gerekendalsmetvectoren. >table(cut(x,breaks))+ 10
+(0,2](2,4](4,6](6,8]
+11121310
+Defunctietable kanookworden gebruikt voorhetcreerenvanhoger dimensionale
+tabellen. Gegev entweevectoren ofcategories xenyvangelijkelengte, produceertta-
+ble(x,y) eenkrmatrix metals(i;j)elemen thetaantalparen(x[l],y[l]) datlevel
+iinxenleveljinyheeft. Hierbij zijndelevelsvaneenvector gelijk aandegeordende
+verschillende waarden. >x
+[1]335155
+>y
+[1]010011
+>
+>table(x,y)
+01
+110
+311
+512
+>
+>table(cut(x,breaks),y)
+y
+01
+(0,2]10
+(2,4]11
+(4,6]1215:Categorisc heData 37
+(6,8]00
+Defunctietapply(x,category,func tie)kanworden gebruikt omeengegevenfunctiefunc-
+tietoetepassen opallecoordinaten vaneenvectorxvanhetzelfde level,vooriederlevel.De
+levelsworden gegeveninhettweedeargumen tcategory :x[i] wordtgedachtlevelcategory[i]
+tebezitten. Dewerking ishetgemakk elijkst intweestappenvoortestellen. Eerst worden alle
+coordinaten vanxperlevelgesorteerd. Vervolgens wordtopiedergroepjecoordinaten vanhet-
+zelfde level(opgev atalseensubvectorvanx)defunctie toegepast. Hetresultaat iseenvectorter
+lengte vanhettotaal aantallevels.

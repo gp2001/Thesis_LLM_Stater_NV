@@ -1,0 +1,52 @@
+5. iv) Geboorteplaats van de
+eigenaar
+b. Als aan bepaling 3a is voldaan,
+dan MOET het BSN worden
+overgenomen uit het WID
+document en geregistreerd
+als het 'identificatienummer' van
+de onderneming. 3. Indien een eenmanszaak reeds
+gebruik maakt van de diensten van
+een Machtigingenregister en het BSN
+van de eigenaar van de eenmanszaak is
+nog niet bekend bij het
+Machtigingenregister, dan kan het BSN
+worden geregistreerd middels
+authenticatie met het eTD-
+identificatiemiddel van de eigenaar,
+of een formulier met de handschreven
+handtekening van de eigenaar. In beide
+gevallen dient een document zoals
+gespecificeerd onder sub a of sub b te
+worden aangeleverd:
+a. een kopie WID met zichtbaar
+BSN van de eigenaar van de
+eenmanszaak. b. een gewaarmerkt uittreksel
+bevolkingsregister, niet ouder
+dan 6 maanden, van de eigenaar
+van de eenmanszaak, waarop is daarvan bevestigen. De koepelorganisatie neemt daarmee de
+verantwoordelijkheid op zich voor de juistheid van deze
+bevestiging. De MR verifieert de KvK nummer en vestigingsplaats van de
+koepelorganisatie in het handelsregister. Als alternatief voor de verklaring van de koepelorganisatie mag het
+MR additioneel bewijs accepteren zoals een bewijs dat de
+vertegenwoordiger de beschikking heeft over een bankrekening op
+naam van het kerkgenootschap aangevuld met notulen en
+agenda's van vergaderingen waaruit de geclaimde
+vertegenwoordigingsbevoegdheid blijkt. Alternatief 3:
+De MR MOET een bezoek  aan het kerkgenootschap op het afleggen
+vestigingsadres dat in het handelsregister staat . vermeld
+De MR MOET de vertegenwoordigingsbevoegdheid van de
+aanvrager valideren aan de hand van de geschreven verklaring van
+alle bestuursleden of minimaal de bestuursleden aangevuld met
+kerkleden (in totaal minimaal 5) én de mondelinge verklaring van
+minimaal 1 aanwezig mede bestuurslid. Als alternatief voor
+aanwezigheid van het mede bestuurslid mag het MR additioneel
+bewijs accepteren zoals een bewijs dat de vertegenwoordiger de
+beschikking heeft over een bankrekening op naam van het
+kerkgenootschap aangevuld met notulen en agenda's van
+vergaderingen waaruit de geclaimde
+vertegenwoordigingsbevoegdheid blijkt. De aanvrager en het mede bestuurslid MOETEN zich identificeren
+met hun WID conform de bestaande regels voor identificatie. De MR MOET de namen van de bestuursleden valideren aan het
+statuut aan de betreffende persoonskenmerken in het betreffende
+WID. De MR legt alle uitgevoerde valuaties en verificaties vast t.b.v. de
+audit-trail. Toelichting bij punt 2:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9641. 2. 3.

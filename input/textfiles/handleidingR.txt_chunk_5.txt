@@ -1,0 +1,54 @@
+>stem(x)
+Decimal pointisatthe|
+-2|221
+-1|87
+-1|443320
+-0|99888665
+-0|44433221
+0|01113334444
+0|88899
+1|002
+1|566916 6-Kansv erdelingen enToevalsgetallen
+Kansv erdelingen enToevalsgetallen
+Vooriedervandemeest gebruikte kansverdelingen zijnvierfuncties beschikbaar, dieres-
+pectievelijkdeverdelingsfunctie, dekansdic htheid, dekwantielfunctie entoevalsgetallen
+berekenen. Denamen vandezefuncties zijnsteeds eencodevoordekansverdelingen,
+voorafgegaan doordeletters:
+-p(voorprobabilit y):verdelingsfunctie. -d(voordensit y):kansdic htheid. -q(voorquantile): kwantielfunctie. -r(voorrandom): toevalsgetallen. Voordenormale verdeling zijnditbijvoorbeelddefuncties. >pnorm(x,m,s); dnorm(x,m,s); qnorm(u,m,s); rnorm(n,m,s)
+Hierin zijnmensoptionele argumen tendieverwachtingenstandaardafwijking (nietvari-
+antie!)aangev en;deninrnorm ishetaantaltegenereren toevalsgetallen enxenuzijn
+vectoren inhetdomein vandefuncties. (Dusdecoordinaten vanualtijd tussen 0en1.)
+Tabel4geefteenoverzichtvankansverdelingen waarvoorsoortgelijk efuncties beschikbaar
+zijn,tesamen metdeargumen ten.Decijfers indekolom`Defaults' zijndedefault waarden
+voordeparameters. Code Verdeling Parameters Defaults
+beta beta shape1, shape2 -,-
+binom binomiaal size,prob -,-
+cauchy Cauchy location, scale 0,1
+chisq chikwadraat df -
+exp exponentieel rate 1
+f F df1,df2 -,-
+gamma gamma shape,rate -,1
+geom geometrisc h prob -
+hyper hypergeometrisc hm,n,k -,-,-
+lnorm lognormaal meanlog, sdlog 0,1
+logis logistiek location, scale 0,1
+nbinom negatief binomiaal size,prob -,-
+norm normaal mean,sd 0,1
+pois Poisson lambda 1
+t Studen t'st df -
+unif homogeen min,max 0,1
+weibull Weibull shape -
+wilcox Wilcoxon m,n -,-
+Tabel4.Codesvoorkansverdelingen
+Defunctiesample doetaselecte trekkingen uiteengegevenpopulatie metofzonder terug-
+legging .Alsalleelemen tenvandepopulatie worden getrokk enzonder teruglegging (de7:Graek en 17
+default), danishetresultaat eenrandom permutatie. >sample(x,3) #3trekkingen uitcoordinaten vanxzonderteruglegging
+>sample(x) #randompermutatie vandecoordinaten vanx
+>sample(x,100,replace= T)#100trekkingen metteruglegging
+>sample(c(0,1),100,rep lace=T,prob=c(0.3,0.7))
+#100trekkingen metteruglegging, waarbij 0metkans0.3
+#en1metkans0.7getrokken wordt
+De`toevalsgetallen' worden genereerd volgens eenalgoritme datgestart wordtvanafdewaarde
+vandevector.Random.seed .Dewaarde vandezevector wordtvoortdurend aangepast, zodat
+steeds nieuwetoevalsgetallen worden verkregen. Soms ishetechtervanbelang omeenvoorgaand
+resultaat exact tereproduceren.

@@ -1,0 +1,93 @@
+3. 5.1 De deelnemer is te allen tijde gerechtigd de Deelnemersovereenkomst tussentijds schriftelijk te beëindigen met
+inachtneming van een opzegtermijn van 3 kalendermaanden. 5.2 De staatssecretaris van Binnenlandse Zaken kan de Deelnemersovereenkomst in de navolgende situaties
+beëindigen:
+Indien de deelnemer enige verplichting uit de Deelnemersovereenkomst of het afsprakenstelsel bewust en/of
+consequent niet nakomt. De toezichthouder de staatssecretaris van Binnenlandse Zaken hiertoe adviseert naar aanleiding van een klacht,
+geschil of handhavingverzoek. De deelnemer failliet is verklaard,  aan hem surseance van betaling is verleend of  onder een
+schuldsaneringsregeling valt. 5.3 Na beëindiging van de Deelnemersovereenkomst zal de deelnemer direct alle activiteiten en uitingen in het kader
+van het vervullen van de desbetreffende rol(len) staken, dan wel zo snel mogelijk staken als praktisch haalbaar is. De
+deelnemer zal alle medewerking verlenen om de continuïteit van de toegangsdienstverlening zeker te stellen, onder
+meer door mee te werken aan overdracht van de toegangsdienstverlening aan een andere deelnemer en beschikt in dit
+kader over een continuïteits- en/of exitplan. Artikel 6. Aansprakelijkheid deelnemers jegens derden en beheerorganisatie
+6.1 De deelnemer aanvaardt door ondertekening van deze Deelnemersovereenkomst aansprakelijkheid voor het
+eigen handelen en/of nalaten binnen de rol die de deelnemer vervult. De deelnemer aanvaardt deze aansprakelijkheid
+ook in die situaties waarbij dit handelen en/of nalaten schade veroorzaakt aan andere deelnemers en/of bedrijven en
+/of dienstverleners en/of de beheerorganisatie. Bedrijven, dienstverleners, andere deelnemers en de beheerorganisatie
+kunnen zich jegens de deelnemer onmiddellijk en direct op deze aansprakelijkheid beroepen. 6.2 In het kader van aansprakelijkheid gelden de algemene regels van het Nederlands recht ten aanzien van de
+inhoud en omvang van wettelijke verplichtingen tot schadevergoeding. 6.3 De deelnemer vrijwaart de staatssecretaris van Binnenlandse Zaken voor vorderingen van derden, uit welke
+hoofde dan ook, ten gevolge van het gebruik van de elektronische toegangsdiensten. Artikel 7. Overige bepalingen
+7.1 De staatssecretaris van Binnenlandse Zaken is bevoegd te onderzoeken of deelnemer de afspraken van het
+afsprakenstelsel naleeft en/of deelnemer voldoet aan de eisen en voorwaarden die aan zijn rol worden gesteld in het
+afsprakenstelsel. De deelnemer verleent hieraan zijn medewerking. 7.2 Verplichtingen uit deze Deelnemersovereenkomst die naar hun aard bedoeld zijn om ook na afloop van deze
+Deelnemersovereenkomst voort te duren, behouden hun werking na afloop van deze Deelnemersovereenkomst. 7.3 Op deze overeenkomst is Nederlands recht van toepassing. Aldus overeengekomen in tweevoud,
+Namens de Staatssecretaris van Binnenlandse Zaken
+Naam:
+Functie:
+Datum:Namens de deelnemer,
+Naam:
+Functie:
+Datum:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1073Plaats: Plaats:
+<Naam deelnemer>
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1074Template verzoek tot (uitbreiding) toetreding
+Dit verzoek tot toetreding stelt (potentiële) deelnemers van Elektronische Toegangsdienstenin staat zich aan te melden
+voor (uitbreiding van) deelname aan het Netwerk. Dit ingevulde formulier vormt een onderdeel van het
+toetredingsproces voor Elektronische Toegangsdiensten, zoals beschreven in . Proces toetredenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1075Bedrijf
+Naam: ________________________________________
+Handelsnaam: ________________________________________
+KvK nummer: ________________________________________Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1076Contactpersoon
+Naam: ________________________________________
+Functie: ________________________________________
+E-mailadres: ________________________________________
+Telefoonnummer: ________________________________________Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1077Huidige rollen
+Bovengenoemd bedrijf is op datum van ondertekening toegetreden tot het Netwerk in de volgende rollen en voor de
+volgende betrouwbaarheidsniveaus:
+eH2 eH2+ eH3 eH4
+Herkenningsmakelaar O
+Middelenuitgever O O O O
+Authenticatiedienst O O O O
+Machtigingenregister O O O OAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1078Huidige optionele functionaliteit
+Bovengenoemd bedrijf levert op datum van ondertekening de volgende optionele functionaliteit:
+Herkennings
+makelaarMiddelen
+uitgeverAuthenticatie
+dienstMachtigingen
+register
+eHerkenning
+Bedrijven (G2B, B2B) O
+Consumenten (B2C) O O
+Aanvullende features
+Gevalideerde attributen O O O
+Single sign-on OAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1079Nieuwe rollen
+Ondergetekende verklaart dat bovengenoemd bedrijf voornemens is het in het afsprakenstelsel beschreven  Proces
+te doorlopen voor de volgende rollen en voor de volgende betrouwbaarheidsniveaus: toetreden
+eH2 eH2+ eH3 eH4
+Herkenningsmakelaar O
+Middelenuitgever O O O O
+Authenticatiedienst O O O O
+Machtigingenregister O O O OAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1080Nieuwe optionele functionaliteit
+Ondergetekende verklaart dat bovengenoemd bedrijf voornemens is het in het afsprakenstelsel beschreven Proces
+te doorlopen voor de volgende optionele functionaliteit: toetreden
+Herkennings
+makelaarMiddelen
+uitgeverAuthenticatie
+dienstMachtigingen
+register
+eHerkenning
+Bedrijven (G2B, B2B) O
+Consumenten (B2C) O O
+Aanvullende features
+Gevalideerde attributen O O O
+Single sign-on OAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1081Geheimhoudingsverklaring
+Ondergetekende verklaart alle informatie die hem in het kader van de toetreding en het gebruik het Afsprakenstelsel
+elektronische toegangsdiensten beschikbaar wordt gesteld, dan wel waarvan Ondergetekende kennis neemt, ongeacht of
+dit mondeling of schriftelijk gebeurt, als vertrouwelijk te behandelen, alleen te gebruiken voor het doel waarvoor de
+informatie is verstrekt en niet aan derden ter beschikking te stellen. Deze Geheimhoudingsverklaring betreft mede, dus
+niet uitsluitend, de informatie die als “Intern” of “Vertrouwelijk” is gekwalificeerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1082Ondertekening
+Ondergetekende verzoekt de beheerorganisatie op basis van de door invulling van dit formulier verschafte informatie en
+de bijgevoegde bijlagen bovengenoemd bedrijf toe te laten treden als deelnemer van het Afsprakenstelsel Elektronische
+Toegangsdiensten voor de hierboven aangekruiste rollen, betrouwbaarheidsniveaus en optionele functionaliteit. Datum: ________________________________________
+Plaats: ________________________________________
+Naam: ________________________________________
+Handtekening:
+________________________________________
+Ondertekening dient plaats te vinden door een bevoegd vertegenwoordiger van de rechtspersoon.

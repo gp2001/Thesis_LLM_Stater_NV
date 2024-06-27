@@ -1,0 +1,266 @@
+3. Dienstbemiddeling
+Dienstbemiddeling is het geautomatiseerd ondersteunen van een  bij het afnemen van een . Bij Dienstafnemer Dienst
+Dienstbemiddeling is er sprake van een technische opdeling in een , de Dienstbemiddelaar (DB) gebruikersinterface, en een
+systeem. De  verzorgt de gebruikersinteractie en daarmee de , het achterliggend Dienstaanbieder (DA) gebruikersinterface
+ondersteuning van de Dienstafnemer, het achterliggende systeem de inhoudelijke afhandeling van de Dienst. Bij Dienstbemiddeling wordt de Dienst afgenomen door de Dienstafnemer. Sluit u als (SaaS-)leverancier aan namens een ? Er is sprake van  in de volgende Dienstverlener (DV) Dienstbemiddeling
+gevallen:
+U wilt gebruikmaken van uw eigen SSL-certificaat;
+U kunt geen gebruikmaken van het SSL-certificaat van de dienstverlener;
+Hetzelfde portaal/dezelfde aansluiting wordt namens meer dan één dienstverlener aangeboden. Andere voorbeelden van Dienstbemiddeling zijn:
+het helpen indienen van een informatievraag, waarbij de gebruiker van extra uitleg of informatie wordt voorzien. geautomatiseerde belastingaangifte vanuit een administratiesysteem. het aggregeren van meerdere diensten. het ontsluiten van een dienst in een andere gelijkwaardige presentatievorm. Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 106
+Dienstencatalogus (DC)
+Een elektronisch bevraagbare catalogus die de gestructureerde verzameling van alle diensten, inclusief de onderverdeling in
+subdiensten en eventuele samengestelde diensten bevat, welke voor het vastleggen van bijzondere , dat wil machtigingen
+zeggen machtigingen die zich beperken tot bepaalde diensten, minimaal noodzakelijk is. Zie ook  . Service catalog
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 107
+Dienstverlener (DV)
+Een   die elektronische en aanbiedt aan Gebruikers waarvoor   voorwaardelijk zijn. Dit kan Partij Dienst Herkenningsdiensten
+een  of  zijn. De Dienstverlener kan binnen Elektronische Toegangsdiensten Dienstaanbieder (DA) Dienstbemiddelaar (DB)
+een   zijn of een private Partij die diensten aanbiedt. Overheidsdienstverlener
+Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 108
+eIDAS-berichtenservice (EB)
+De eIDAS-berichtenservice (EB) is een component/rol binnen het    Netwerk (voor Elektronische Toegangsdiensten) welke
+Elektronische Toegangsdiensten verbindt met de andere eIDAS-lidstaten en vice versa. Via de eIDAS-berichtenservice worden
+diensten in Elektronische Toegangsdiensten ontsloten voor gebruikers met een authenticatiemiddel uitgegeven in een
+andere eIDAS-lidstaat. De eIDAS-berichtenservice ondersteunt alleen web-diensten, geen  . Native apps
+Voor  eIDAS berichtenverkeer heeft de EB de eTD-rol van Authenticatie Dienst (en mogelijk in de toekomst inkomend
+Machtigings Register). Voor  eIDAS berichtenverkeer acteert de EB als Dienst Verlener, en zelfs als Dienst Bemiddelaar t.o.v. het uitgaand
+BRP. In feite fungeert hij als proxy voor de buitenlandse dienstverlener. Hij sluit in deze rol dus aan op een eTD-
+Herkennings Makelaar. Waar in het Afsprakenstelsel de term eIDAS Berichtenservice (EB) wordt gebruikt, gaat dit over "inkomend eIDAS
+Berichtenverkeer" (eIDAS Inbound), indien dit niet verder wordt gespecificeerd. Waar de rol van de eIDAS Berichtenservice voor eIDAS Outbound wordt bedoeld, wordt dit ook expliciet zo benoemd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 109eIDAS-koppelpunt
+Het eIDAS-koppelpunt is een actor en publieke voorziening, welke communicatie tussen andere eIDAS-lidstaten en
+Nederland faciliteert. Het eIDAS-koppelpunt bestaat uit een aantal componenten waarvan alleen de  eIDAS-berichtenservice
+onderdeel is van het . (EB) Netwerk (voor Elektronische Toegangsdiensten)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 110
+eIDAS-verordening
+EU verordening nr. 910/2014 van het Europees Parlement en de Raad (23 juli 2014) en de Uitvoeringsverordening EU 2015
+/1501 en 2015/1502 (8 september 2015), betreffende elektronische identificatie en vertrouwensdiensten voor elektronische
+transacties in de interne markt. Niet alleen EU-lidstaten implementeren de eIDAS-verordening, daarom wordt er aan implementerende landen gerefereerd
+met "eIDAS-lidstaten". De eIDAS-verordening is integraal te lezen op http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:
+32014R0910&from=EN
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 111Eigenaar
+De staatssecretaris van Binnenlandse Zaken die politiek verantwoordelijk is voor de veilige en betrouwbare werking van het
+en als merkeigenaar verantwoordelijk voor de bescherming van het woord- en beeldmerk dat voor het Afsprakenstelsel (AS)
+Afsprakenstelsel wordt gebruikt. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 112Erkende aanbieder eHerkenning
+Als een deelnemer is toegetreden tot het Afsprakenstelsel MAG hij de term erkende aanbieder eHerkenning gebruiken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 113
+Europese Economische Ruimte (EER)
+De Europese Economische Ruimte (EER) is het product van een akkoord uit 1992 tussen Europese landen uit de Europese
+Gemeenschap (later Europese Unie) en de Europese Vrijhandelsassociatie. De EER bewerkstelligt vrij verkeer van personen,
+goederen, diensten en kapitaal in de interne markt van de Europese Unie. De Nederlandse uitvoeringswet ging van kracht op
+11 november 1993. Zie de EER-uitvoeringswet op http://wetten.overheid.nl/BWBR0006249/1996-01-01
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 114Extern verkoopkanaal
+Een partij buiten het afsprakenstelsel die namens één of meerdere erkende Leveranciers inlogmiddelen van deze Leverancier
+(s) verkoopt. Deze partij MAG   rol hebben en/of activiteiten uitvoeren in het (deel)proces van de rollen waarmee de geen
+Deelnemer is toegetreden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 115
+Gebruiker
+Een Natuurlijk persoon  die Elektronische Toegangsdiensten gebruikt om een dienst af te nemen bij een dienstverlener. Zie ook  . Dienstafnemer
+Herkomst
+Eigen definitie specifiek voor de context van het Afspraken­stelselAfsprakenstelsel Elektronische Toegangsdiensten | pagina 116
+Geïnformeerde uitdrukkelijke toestemming
+De geïnformeerde uitdrukkelijke toestemming die wordt gevraagd voorafgaand aan registratie en verstrekking van
+aanvullende attributen. Dit houdt in dat degene die verantwoordelijk is voor de verwerking van persoonsgegevens ervoor
+zorgt dat voorafgaande aan de uitdrukkelijke toestemming van de betrokkene informatie wordt verstrekt over het doel van
+de verwerking van persoonsgegevens, welke gegevens worden verwerkt, of er sprake is van derdenverstrekking en zo ja, met
+welk doel alsmede de rechten die betrokkenen tegen de gegevensverwerking kunnen uitoefenen. Herkomst
+(EU) 2016/679 AVG overweging 32Afsprakenstelsel Elektronische Toegangsdiensten | pagina 117
+Gemachtigde
+De partij die (op grond van wet of machtiging c.q volmacht) bevoegd is om in naam van de vertegenwoordigde bepaalde
+handelingen te verrichten waarvan de rechtsgevolgen worden toegerekend aan de vertegenwoordigde. Voorzover gemachtigde een natuurlijk persoon is, geldt geen beperking ten aanzien van het voorkomen van niet
+ingezetenen als gemachtigde. Zo kan ook een buitenlandse natuurlijke persoon gemachtigde zijn. Herkomst
+Artikel 3:60 lid 1 BW; Artikel 2:1 lid 1 AWB.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 118
+Gevalideerd attribuut
+Een attribuut waarvan de gegevens zijn gecontroleerd aan de hand van gegevens uit een officiële, neutrale en betrouwbare
+bron. Herkomst
+Eigen definitie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 119
+Geverifieerd attribuut
+Een attribuut waarvan de gegevens zijn gecontroleerd aan de hand van gegevens uit een officiële, neutrale en betrouwbare
+bron. Herkomst
+Eigen definitie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 120
+Handelsregister
+Voor in Nederland gevestigde bedrijven is dit de Nederlandse basisregistratie van ondernemingen en rechtspersonen die
+inschrijfplichtig zijn in Nederland, voor andere EU lidstaten is dat het vergelijkbare openbare register van het betreffende
+land. Een overzicht van deze openbare registers is gegeven in BAO bijlage 5. Herkomst
+Eigen definitie o.b.v. Handelsregisterwet 2007Afsprakenstelsel Elektronische Toegangsdiensten | pagina 121
+Hergebruik
+Hergebruik van authenticatiemiddelen: Het toepassen van eerder voor andere doeleinden en onder eigen voorwaarden
+uitgegeven authenticatiemiddelen binnen Elektronische Toegangsdiensten op basis van aanmelding van het
+authenticatiemiddel door de houder ervan. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 122
+Herkenning
+In deze context wordt onder (electronische) herkenning verstaan: ieder van de functies van het Netwerk (voor Elektronische
+gericht op het handhaven en controleren van vertrouwen aangaande identiteiten, machtigingen, Toegangsdiensten)
+wilsuitingen en bevoegdheden in relaties of transacties tussen dienstverleners en bedrijven en de daarin betrokken
+. gebruikers
+Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel. Generalisatie van de begrippen authenticatie, bevoegdheid
+en wilsuiting.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 123
+Herkenningsdiensten
+Diensten voor , te weten: , controle van , vastlegging van een Herkenning Authenticatie (authenticeren) Bevoegdheid
+wilsuiting en de daarbij benodigde identificaties en garanties voor onweerlegbaarheid evenals de daartoe benodigde
+registratieprocessen. Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 124
+Herkenningsmakelaar (HM)
+Een vereiste  binnen het  die door een  aan het Rol Netwerk (voor Elektronische Toegangsdiensten) Deelnemer
+wordt ingevuld en die het single point of contact vormt waarlangs Afsprakenstelsel (AS) dienstverleners Herkenningsdiensten
+afnemen, die de verantwoordelijkheid heeft om het berichtenverkeer van en naar de dienstverleners te ontkoppelen van de
+interne berichten binnen het netwerk en die optreedt als routeerder naar alle deelnemende , authenticatiediensten
+. machtigingenregisters
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 125HSM
+Een Hardware Security Module (HSM) is een fysiek apparaat dat bescherming biedt voor de opslag, management en
+gebruik van cryptografisch materiaal. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 126
+Identificatie (identificeren)
+Het noemen van attributen van een entiteit om deze in een bepaalde context uniek aan te duiden. In de context van
+Elektronische Toegangsdiensten gaat het over identificatie van partijen. Herkomst
+Analoog aan KPMG, NTP Authorization Policy (AP) v1.1. Nota bene: definitie van PKIoverheid spreekt van “vaststellen” van
+de identiteit. De hier gebruikte definitie is preciezer en heeft niet het risico dat vaststellen geassocieerd wordt met
+authenticeren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 127
+Identificerend kenmerk
+Een reeks karakters waarmee iets of iemand (een partij) in een bepaalde context uniek wordt aangeduid. Indien het kenmerk
+enkel uit cijfers bestaat wordt ook van  gesproken. Identificerend nummer
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 128
+Identificerend nummer
+Een  dat bestaat uit cijfers Identificerend kenmerk
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 129Identifier Set
+Een Identifier Set is een verzameling identificerende kenmerken die een dienstverlener specificeert per dienst in de
+. Hierdoor is het mogelijk voor een dienstverlener om meerdere identificerende kenmerken op te Dienstencatalogus (DC)
+vragen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 130
+Identiteit
+De volledige maar dynamische set van alle attributen behorende bij een bepaalde entiteit die het mogelijk maakt betreffende
+entiteit van andere te onderscheiden. Elke entiteit heeft maar één identiteit. De identiteit behoort toe aan de entiteit. Herkomst
+Analoog aan KPMG en ModinisAfsprakenstelsel Elektronische Toegangsdiensten | pagina 131
+Identity provider (IdP)
+Een vorm van een service provider die identiteitsgegevens aanmaakt, onderhoud en beheert ten behoeve van partijen en hen
+authenticeert ten behoeve van andere service providers in de context van een federatie. Herkomst
+Glossary for the OASIS Security Assertion Markup Language (SAML) V2.0 (saml-glossary-2.0-os)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 132
+Intermediaire partij
+Een partij die bevoegd is te handelen op grond van een aan hem verleende machtiging. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 133
+Intern pseudoniem
+Een Intern Pseudoniem wordt gemaakt door de AD en kan gebruikt worden door de MR om een Specifiek Pseudoniem te
+maken. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 134Inzageregister (IR)
+Het BSNk Inzageregister is een dienst van de Basis Voorziening van het BSNk,  met als doel een persoon inzage in de
+elektronische authenticatiemiddelen en machtigingen die op zijn identiteit zijn uitgegeven
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 135
+Inzetgebied
+Een in het  erkende groep gebruikers, waarvan het vrij staat deze al dan niet te bedienen, Afsprakenstelsel (AS) deelnemers
+welke echter in dat geval conform de in het afsprakenstelsel opgenomen eisen moet worden aangeboden. Een inzetgebied wordt in technische zin gekenmerkt door één of meer  . Voorbeelden zijn: Identificerende kenmerken
+bedrijven (  en  ), beroepsbeoefenaren of consumenten ( EntityConcernedID:KvKnr EntityConcernedID:RSIN EntityConcernedID:
+) . Pseudo
+Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelselAfsprakenstelsel Elektronische Toegangsdiensten | pagina 136Ketenmachtiging
+Bij een ketenmachtiging geeft een organisatie een  af aan een . Deze intermediair Machtiging (machtigen) Intermediaire partij
+kan vervolgens de machtiging (door)geven aan een medewerker om namens de organisatie te handelen. Bij een ketenmachtiging verricht de 'laatste schakel' (gebruiker) op basis van de vastgelegde machtigingen een transactie. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 137
+Ketenverklaring
+Een elektronisch vastgelegde verklaring waaruit het bestaan en de juistheid kan worden opgemaakt van een keten van
+bevoegdheden die aantoont dat een bepaalde gebruiker een bepaalde vertegenwoordigde dienstafnemer vertegenwoordigt
+ten behoeve van een bepaalde handeling of dienst op grond van controle van de gehele keten in machtigingenregisters
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 138
+Koppelvlak
+Een koppelvlak is de verbinding tussen twee systemen. Om een koppelvlak te realiseren zijn nodig (a) specificaties en (b)
+implementaties in mensen en middelen. Het  levert de specificaties (a), het netwerk verzorgt de Afsprakenstelsel (AS)
+implementaties (b). Synoniem met Engelse term 'interface'. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 139Leveranciersoverleg (gremium)
+Het leveranciersoverleg is een "voorportaal" van het Tactisch Beraad. Het leveranciersoverleg bestaat uit een afvaardiging van
+alle deelnemers die in dit overleg gezamenlijke de koers bepalen ten aanzien van:
+de doorontwikkeling van het stelsel
+de beleidsontwikkelingen op het stelsel te bespreken
+voorbereidingen te treffen voor de wettelijke fase. Merk op dat het leveranciersoverleg geen onderdeel uitmaakt van de formele governance van het eTD stelsel zoals die in het
+instellingsbesluit is vastgelegd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 140
+Machtiging (machtigen)
+Een herroepbare bevoegdheid die een vertegenwoordigde verleent aan een andere partij (de gemachtigde) om in naam van
+eerstgenoemde rechtshandelingen te verrichten. Een machtiging kan algemeen of bijzonder zijn. Een bijzondere machtiging is beperkt tot bepaalde rechtshandelingen of een
+bepaalde relevante omvang ten aanzien van rechtshandelingen. Machtiging kan worden gezien als synoniem aan volmacht zij het dat de term machtiging voornamelijk in
+bestuursrechtelijke context wordt gebruikt. Herkomst
+Eigen definitie gebaseerd op ModinisAfsprakenstelsel Elektronische Toegangsdiensten | pagina 141Machtigingenbeheerder
+Een  met de bevoegdheid om namens een  machtigingen te registreren, te schorsen, in te trekken en Gebruiker Dienstafnemer
+anderszins bijbehorende registratieprocessen uit te voeren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 142
+Machtigingenregister (MR)
+Een vereiste  binnen het  die door een  aan het Rol Netwerk (voor Elektronische Toegangsdiensten) Deelnemer
+wordt ingevuld en die de verantwoordelijkheid heeft voor het registreren, beheren, controleren van Afsprakenstelsel (AS)
+en andere  en het afleggen van  over bevoegdheden (c.q. het op verzoek van de machtigingen bevoegdheden verklaringen
+verstrekken van machtigingsverklaringen). Gebruiker
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 143
+Machtiging­verklaring
+Een elektronisch vastgelegde verklaring waaruit het bestaan en de juistheid kan worden opgemaakt van een in een
+geregistreerde machtiging zoals deze gecontroleerd is in een  ten behoeve van een bepaalde handeling Machtigingen­register
+of dienst. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 144
+Middelenuitgever (MU)
+Een vereiste rol binnen het  die door een  aan het Netwerk (voor Elektronische Toegangsdiensten) Deelnemer Afsprakenstelsel
+wordt ingevuld en die de verantwoordelijkheid heeft voor het uitgeven van en conform de eisen van (AS) Authenticatiemiddel
+het gespecificeerde . Betrouwbaarheidsniveau
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 145Native app
+Een native applicatie (Native App) is software die specifiek ontwikkeld en geïmplementeerd is voor een gegeven (mobiel)
+apparaat of zijn besturingssysteem. Omdat Native Apps zijn geschreven voor een specifiek platform, kunnen ze profiteren
+van de functies van het besturingssysteem en van andere software die mogelijk op dat platform is geïnstalleerd. Omdat een
+Native App is gebouwd voor een bepaald apparaat en besturingssysteem, heeft het de mogelijkheid om apparaat-specifieke
+hardware en software te gebruiken. Dit betekent dat Native Apps kunnen profiteren van de nieuwste technologie die op
+(mobiele) apparaten beschikbaar komt. Voorwaardelijk voor native apps voor Elektronische Toegangsdiensten is dat het device over een gebruikersinterface (user
+interface) beschikt. Wanneer een , Dienstverlener of andere rol functionaliteit aanbiedt middels een native app, dan wordt de native Deelnemer
+app aangeduid met de afkorting van de rol gevolgd door de "-app", bijvoorbeeld "DV-app" in het geval van een native app
+van een Dienstverlener.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 146
+Natuurlijk persoon
+Een individueel menselijk wezen en subject van rechten en drager van plichten. Iedere natuurlijk persoon is een persoon in de zin van de hier gegeven definitie van persoon. Herkomst
+Eigen definitie overeenkomstig Catalogus Nieuw HandelsregisterAfsprakenstelsel Elektronische Toegangsdiensten | pagina 147
+Netwerk (voor Elektronische Toegangsdiensten)
+De verzameling onderling verbonden componenten die gereguleerd worden door het  en gezamenlijk Afsprakenstelsel (AS)
+leveren en daartoe bestaan uit tenminste één invulling door een  van de rollen Herkenningsdiensten Deelnemer
+, , ,  en BSNk, hun Herkenningsmakelaar (HM) Middelenuitgever (MU) Authenticatiedienst (AD) Machtigingenregister (MR)
+onderlinge verbindingen, de verbindingen tot en met het koppelvlak met dienstverleners en de processen voor uitgifte van
+middelen, registratie van bevoegdheden en aanmelding voor hergebruik vanuit bedrijven, inclusief de benodigde
+voorzieningen voor beheer conform het Afsprakenstelsel. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 148
+Niet natuurlijk persoon
+Hetzij een rechtspersoon, hetzij een samenwerkingsverband van  en/of niet-natuurlijke personen. natuurlijke personen
+Niet iedere niet natuurlijke persoon is een persoon in de zin van de hier gegeven definitie van persoon,
+samenwerkingsverbanden zijn namelijk verbanden van personen maar zelf geen persoon. Herkomst
+Eigen definitie, overeenkomstig Catalogi Basisregistraties ( www.stelselcatalogus.nl )Afsprakenstelsel Elektronische Toegangsdiensten | pagina 149
+Onderneming
+Een onderneming in de zin van de Handelsregisterwet 2007 of een onderneming conform de voorschriften van een andere
+EU lidstaat welke ingeschreven is in het handelsregister van betreffende lidstaat. Herkomst
+Handelsregisterwet 2007Afsprakenstelsel Elektronische Toegangsdiensten | pagina 150
+Ontvangende Partij
+Een Ontvangende Partij (OP) is de beoogde ontvanger van een Bevoegdheidsverklaring met een (specifiek voor deze OP)
+/   (  of VP@OP) van de Gebruiker. Versleutelde Identiteit Versleuteld Pseudoniem VI@OP
+NB
+De Ontvangende Partij ontvangt een specifiek voor hem versleutelde Bevoegdheidsverklaring. De Ontvangende Partij kan
+onder andere zijn de Dienstverlener, andere Deelnemers, en de eIDAS Berichtenservice. Engels: relying partyAfsprakenstelsel Elektronische Toegangsdiensten | pagina 151
+Optioneel te verstrekken attribuut
+Een attribuut dat een Deelnemer MAG verstrekken. Herkomst
+Eigen definitie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 152
+Optionele functionaliteit
+Een in het  beschreven dienst of aanvulling op andere dienst waarvan het vrij staat deze al Afsprakenstelsel (AS) deelnemers
+dan niet aan te bieden, welke echter indien aangeboden conform de in het afsprakenstelsel opgenomen eisen moet worden
+aangeboden. Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel
+Het betreft de volgende functionaliteiten:
+Herkennings
+makelaarMiddelen
+uitgeverAuthenticatie
+dienstMachtigingen
+register
+eHerkenning
+Bedrijven (G2B, B2B) O
+Consumenten (B2C) O O
+Aanvullende features
+Gevalideerde attributen O O O
+Single sign-on OAfsprakenstelsel Elektronische Toegangsdiensten | pagina 153Overeenkomst
+De overeenkomst tussen de  en de , of de overeenkomst tussen de  en de Dienstafnemer Deelnemer Dienstverlener (DV)
+Deelnemer, op grond waarvan de Deelnemer  verleent en waarop de Gebruiksvoorwaarden van Herkenningsdiensten
+toepassing zijn.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 154
+Overheidsdienstverlener
+Een  die onderdeel van de Nederlandse overheid is. Voor zover zaken zowel overheidsdienstverleners als Dienstverlener (DV)
+private dienstverleners kunnen betreffen wordt gesproken van “dienstverleners”. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 155
+Partij
+Een persoon of samenwerkingsverband die in de context van  voorkomt of zou kunnen voorkomen en die Herkenning
+zonodig uniek  en kan worden.

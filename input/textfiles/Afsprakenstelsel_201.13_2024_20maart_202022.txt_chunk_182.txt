@@ -1,0 +1,60 @@
+6. De conformiteitsbeoordelaar beschikt over een
+bedrijfs- of beroepsaansprakelijkheidsverzekering. Een onderzoek van de conformiteitsbeoordelaar wordt
+zodanig gepland en uitgevoerd dat een redelijke mate
+van zekerheid kan worden verkregen dat het object
+van onderzoek op het in de rapportage aangegeven
+moment aan de gestelde eisen voldoet. De rapportage van de conformiteitsbeoordelaar bevat
+minimaal:
+De doelstelling van de opdracht, een beschrijving
+van het object van onderzoek (uniek
+identificerend, met datum en versienummer), de
+eisen op basis waarvan het object van onderzoek
+is beoordeeld en het plan van aanpak met de
+gevolgde stappen en de gehanteerde
+onderzoeksmethoden en aanvalstechnieken;
+Het eindoordeel over de mate waarin het object
+op het aangegeven moment aan de gestelde eisen
+voldoet, met onderbouwing;
+Belangrijkste bevindingen en aanbevelingen;
+Detailbevindingen, met vermelding van
+referenties naar het geregistreerde bewijs over de
+conformiteit aan de betreffende eis. Opdrachtgever MOET op basis van de rapportage een
+verbeterplan op te stellen voor de geconstateerde
+afwijkingen, met daarin minimaal een
+oorzaakanalyse, adequate corrigerende maatregelen
+voor de geconstateerde afwijkingen en een
+oplostermijn en deadline. De gespecificeerde
+oplostermijn staat nadrukkelijk in verhouding tot de
+classificatie van de afwijking en de benodigde
+middelen om deze op te lossen. De termijnen voor het
+opstellen van het verbeterplan en de oplossingen zijn
+ter beoordeling aan de autitor. De opdrachtgever
+MOET het door de auditor geaccepteerde verbeterplan
+aan de toezichthouder ter beschikking te stellen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1005
+7. Indien de conformiteitsbeoordelaar in de rapportage
+oordeelt dat het object van onderzoek - op het in de
+rapportage aangegeven moment- niet of slechts
+gedeeltelijk aan de gestelde eisen voldoet, MOET
+Opdrachtgever in overleg te treden met de
+conformiteitsbeoordelaar om een herbeoordeling uit
+te laten voeren van de corrigerende maatregelen als
+uitbreiding van de uitgevoerde
+conformiteitsbeoordeling, danwel een hernieuwd
+initieel onderzoek te laten uitvoeren door een
+conformiteitsbeoordelaar. De
+conformiteitsbeoordelaar kan daarbij eisen dat het
+verbeterplan vooraf ter beoordeling en goedkeuring
+wordt voorgelegd. Implementatietermijn
+Het Tactisch Beraad heeft 22 juni 2016 besloten de
+implementatietermijn te bepalen wanneer er duidelijkheid
+is over de wet GDI, waarin ook de businesscase voor de
+toepassing van de eIDAS betrouwbaarheidsniveaus  in
+overweging wordt genomen. De uiterlijke implementatiedatum van de RFC 2040 is
+gekoppeld aan de publicatie van de wet GDI,  verwacht per
+31 december 2017.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1006
+Eisen Identificatie op Afstand
+Onderstaande eisen zijn een selectie van de eisen in ETSI TS 119 461 . De eisen zijn integraal overgenomen uit de norm v1.1.1
+en derhalve in de Engelse taal. De niet genoemde hoofdstukken en eisen worden reeds ingevuld door bestaande eisen in het
+Afsprakenstelsel. Zie  . Eisen Identificatie op Afstand niet van toepassing
+De bovenste rij in de tabellen bevat het hoofdstuk, de paragraaf en/of subparagraaf. De eerste kolom bevat de eisen. De
+tweede kolom bevat een toelichting op, of voorbeeld bij de eisen in de eerste kolom.

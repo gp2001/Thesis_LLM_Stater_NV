@@ -1,0 +1,45 @@
+Omplaatjes teprintenoftebewarenalseenpostscript-le moetereenpostscript `graphics device'
+geopendworden. Hetalgemene schema omdeplaatjes teprintenopdeOce-prin terisalsvolgt. >postscript("|lpr -Poce")
+>:::
+>plotopdrachten
+>:::
+>dev.off() #stuurtalleplaatjes naardeprinter
+Deplaatjes kunnen worden verzameld enineenkeernaardeprinterworden gestuurd. Het
+postscript commando maakt hetcurrentgraphics devicegelijk aanpostscript. Hierna wordt
+alleuitvoervangrasc hecommando's omgezet inpostscript-co deenineenlegeschreven.(Het
+schrijvenvindt pasplaats nadat eennieuwgraphics commando isgegeven.)Hetpostscript graph-
+icsdevice wordtgesloten metbehulpvandev.off .Opdatmomen twordtdepostscript le
+automatisc hnaarde(postscript) printergestuurd (mits eendefault printercommando isin-
+gesteld). Bijdefault wordthetpapier (eenA4pagina) volledig gevuld. Ditgeeftvaakgeenmooie
+verhoudingen vandex-aseny-as. Metdeoptiesheight enwidth kanditworden verbeterd. Bijvoorbeeld,
+>postscript("|lpr -Poce",he=8,wi=8) #eenplaatje van8x8inch
+Hetalgemene shema omeenplaatje alspostscript-le opteslaan is
+>postscript("filenaam .ps")
+>plotopdrachten
+>dev.off()
+Opnieu wkunnen deafmetingen vanhetplaatje worden gewijzigd metdeoptiesheight enwidth . Hetismogelijk afwisselend output naarhetgraphics windo wennaardepostscript letesturen. Hetisbovendien mogelijk meerdere graphics windo wstegelijk teopenen. Eenvandegraphics
+devices (eenwindo wofpostscript) issteeds hetcurren tdevice enontvangtdeoutput voorde
+volgende plotop dracht. >x11() #opentgraphics window
+>x11() #openttweedegraphics window
+>postscript() #opentpostscript device
+>dev.list() #geeftalleopendevices
+X11X11postscript
+23 4
+>dev.cur() #hetcurrent device
+postscript
+4EnkeleHighLevelPlotfuncties 21
+>dev.set(2) #maakthetgraphics device2current
+X11
+2
+optienaam betekenis
+xlab=" xlabel"Labelopdex-as
+ylab=" ylabel"Labelopdey-as
+xlim=c( l,r) Range vandex-asvanltotr
+ylim=c( l,h) Range vandey-asvanltoth
+main=" titel" Titelbovendeplot
+sub="subtitel"Titelonder deplot
+lty=n Lijntype:n=1:normaal; n=2,3,::::gebrok en
+Tabel5.Enkeleplot-opties
+EnkeleHighLevelPlotfuncties
+>plot(x,y) Scatterplot depunten(x[i],y[i]) . >plot(x,y,type="l") Plotdepunten(x[i],y[i]) metopeenvolgende
+puntenverbonden dooreenrechte. >plot(x,y,type="n") Plotdeassen, maar nietdepunten.

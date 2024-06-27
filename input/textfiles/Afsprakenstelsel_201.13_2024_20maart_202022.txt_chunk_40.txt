@@ -1,0 +1,53 @@
+een geaggregeerde rapportage met daarin de geanonimiseerde en gebundelde gegevens van de deelnemers. Er vindt een aantal aanvullende controles plaats nadat alle gegevens van deelnemers zijn ontvangen:
+Controle op aantallen middelen: komt de opgegeven groei/krimp overeen met de aantallen van
+voorgaande maand. Controle op aantallen aangesloten : komt de opgegeven groei/krimp overeen met de bedrijven
+aantallen van voorgaande maand. Controle op aantallen transacties:
+Komen bij de transacties tussen HM en AD de aantallen opgegeven door de HM overeen met de
+aantallen opgegeven door de AD. Komen bij de transacties tussen HM en MR de aantallen opgegeven door de HM overeen met de
+aantallen opgegeven door het MR. Zonder geconstateerde fouten bij aangeleverde gegevens zal de beheerorganisatie trachten de rapportage
+daags na de laatst opgeleverde gegevens geanonimiseerd en geaggregeerd gereed te hebben, maar uiterlijk
+binnen de in het   gestelde termijn. Service level
+Indien fouten in aangeleverde gegevens geconstateerd zijn, zal de beheerorganisatie dit via  melden Mantis
+aan de betrokken deelnemer(s) en trachten binnen de genoemde periode juiste gegevens van de
+betrokken deelnemer(s) te verkrijgen en te verwerken. De beheerorganisatie zal via  aan de deelnemers melden als de managementrapportage niet binnen Mantis
+de afgesproken termijn opgeleverd kan worden met vermelding van de oorzaak ervan. Indien het niet mogelijk is om geconstateerde fouten binnen 10 werkdagen in samenspraak met de
+betreffende deelnemer(s) op te lossen, zal alsnog de geaggregeerde managementrapportage gemaakt
+worden, met vermelding welke fouten in de rapportage aanwezig zijn (foutmarges + betrokken deelnemer
+(s)). Indien nieuwe (betere) gegevens worden aangeleverd nadat de managementrapportage is samengesteld,
+zal de beheerorganisatie deze opnieuw samenstellen (indien er impact is op nieuwere
+managementrapportage zal de wijziging ook daar doorgevoerd worden). Na 3 maanden worden geen
+wijzigingen meer gedaan. Indien de beheerorganisatie bijzonderheden heeft te melden, worden deze bijgevoegd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 358Output Geaggregeerde rapportage managementinformatie over de laatste 12 maanden met onderstaande inhoud:
+Overzicht aantallen dienstverleners (uit dienstencatalogus) :
+Maand - Totaal aantal dienstverleners - Aantal nieuwe dienstverleners - Aantal verdwenen dienstverleners -
+Groei aantal aangesloten dienstverleners
+Overzicht aantallen diensten (uit dienstencatalogus) :
+Maand - Totaal aantal diensten - Aantal nieuw aangesloten diensten - Aantal verdwenen diensten - Groei
+aantal aangesloten diensten
+Overzicht aantallen aangesloten bedrijven :
+Maand - Totaal aantal aangesloten bedrijven - Aantal nieuw aangesloten bedrijven - Aantal afgesloten
+bedrijven - Groei aantal aangesloten bedrijven
+Overzicht aantallen middelen :
+Maand - Totaal aantal middelen - Aantal nieuw uitgegeven middelen - Aantal ingetrokken middelen - Groei
+uitgegeven middelen
+Overzicht aantallen belastingdienstmiddelen:
+Maand - Totaal aantal belastingdienstmiddelen- Aantal nieuw uitgegeven belastingdienstmiddelen- Aantal
+ingetrokken belastingdienstmiddelen- Groei uitgegeven belastingdienstmiddelen
+Overzicht aantallen ketenmachtigingen (MR1):
+Maand - Totaal aantal ketenmachtigingen (MR1) - Aantal nieuwe ketenmachtigingen (MR1) - Aantal
+ingetrokken ketenmachtigingen (MR1) - Groei uitgegeven ketenmachtigingen (MR1)
+Overzicht aantallen ketenmachtigingen (MR2):
+Maand - Totaal aantal ketenmachtigingen (MR2) - Aantal nieuw uitgegeven ketenmachtigingen (MR2) - Aantal
+ingetrokken ketenmachtigingen (MR2) - Groei uitgegeven ketenmachtigingen (MR2)
+Overzicht aantallen transacties (DV-HM) (gegevens van HM's) :
+Maand - Aantal AuthnRequest berichten - Aantal Response berichten- Aantal AuthnFailed response berichten
+Overzicht aantallen transacties (HM-AD) (gegevens van HM's) :
+Maand - Aantal AuthnRequest berichten - Aantal Response berichten- Aantal AuthnFailed response berichten
+Overzicht aantallen transacties (HM-AD) (gegevens van AD's) :
+Maand - Aantal AuthnRequest berichten - Aantal Response berichten- Aantal AuthnFailed response berichten
+Overzicht aantallen transacties (HM-MR) (gegevens van HM's) :
+Maand - Aantal XACMLAuthzDecisionQuery berichten - Aantal Response berichten - Aantal XACMLDeny
+response berichten
+Overzicht aantallen transacties (HM-MR) (gegevens van MR's) :
+Maand - Aantal XACMLAuthzDecisionQuery berichten - Aantal Response berichten - Aantal XACMLDeny
+response berichten
+Wie? De beheerorganisatie aggregeert de gegevens en levert de managementrapportage op. 3.

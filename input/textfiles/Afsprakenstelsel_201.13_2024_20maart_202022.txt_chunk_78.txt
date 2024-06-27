@@ -1,0 +1,110 @@
+Detailed information about the
+value of fields can be found in  . Attribute elements
+For eIDAS Outbound, the eIDAS Berichtenservice acts as  a DV , and as Dienstbemiddelaar (DB) for the BRP. Any statement
+in this page about the DV should therefore be interpreted as "DV and/or EB". A column in a message description that starts with 'SAML' indicates that this is the standard value. A value that starts with
+'Elektronische Toegangsdiensten' indicates that the value is specific to Elektronische Toegangsdiensten. [  ] [  ] [  ] [  ] [ Rules for processing requests Response (2) Authentication assertion AttributeStatement Rules for processing
+] [ ] [  ] [  ] response Determine appropriate ECTA and Identifiers: LogoutRequest
+AuthnRequest (1)
+@ID SAML: Unique message attribute
+@Version SAML: Version of the SAML protocol. The value MUST be '2.0'. @IssueInstant SAML: Time at which the message was created. @Destination SAML: URL of the AD on which the message is offered. MUST match the AD's
+metadata. @Consent Elektronische Toegangsdiensten: MUST NOT be included. @ForceAuthn The value 'true' indicates that an existing single sign-on session MUST NOT be
+used for the request in question. If the value is 'false' or empty or the specification
+is missing, the AD MAY use an existing SSO session if one is open. @IsPassive Elektronische Toegangsdiensten: MAY be included. If IsPassive is included, the
+value MUST be 'false'.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 570@ProtocolBinding SAML: MUST NOT be included because  is required AssertionConsumerServiceIndex
+in Elektronische Toegangsdiensten. @AssertionConsumerServiceIndex Elektronische Toegangsdiensten: This attribute element indicates the URL to
+which the response must be sent. The value of AssertionConsumerServiceIndex
+MUST match an index at the assertion consumer service in the HM's metadata. @AssertionConsumerServiceURL SAML: MUST NOT be included because  is required AssertionConsumerServiceIndex
+in Elektronische Toegangsdiensten. @AttributeConsumingServiceIndex Elektronische Toegangsdiensten: The value MUST be '4'. Indicates that it is about
+the interface described in this document. @ProviderName Elektronische Toegangsdiensten: MAY contain a more detailed description of the
+. provider
+Issuer Elektronische Toegangsdiensten: MUST contain the  of the HM. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProvidedID MUST
+NOT be included. Signature Elektronische Toegangsdiensten: MUST contain the  of the HM for Digital signature
+the enveloping message. Extensions Elektronische Toegangsdiensten: MUST contain the attributes , IntendedAudience
+and the corresponding . ServiceID ServiceUUID
+If the DV queries additional attributes (via an AttributeConsumingService as
+described in  and the ), they Interface specifications DV-HM DV metadata for HM
+MUST be included here by the HM. To this extent, one Elektronische
+Toegangsdiensten specific RequestedAttributes (see schema below) element MUST
+be included containing the RequestedAttribute elements reflecting the DV's
+request. The requested attribute(s) MUST be defined in the  and Attribuutcatalogus
+MUST be declared as RequestedAttribute in the  entry for the Service catalog
+requested service. An AD not able to provide these attributes MUST act as specified
+in the alternative use case described in . Attributen niet leverbaar of niet toegestaan
+Other XML attributes MUST NOT be included. Other elements MUST NOT be included. Subject Elektronische Toegangsdiensten: MUST NOT be included
+NameIDPolicy Elektronische Toegangsdiensten: MUST NOT be included. Conditions Elektronische Toegangsdiensten: MUST NOT be included. RequestedAuthnContext Elektronische Toegangsdiensten: MAY contain an attribute
+Comparison='minimum' and an element AuthnContextClassRef that contains the
+minimum  required by the DV. Level of assurance
+When RequestedAuthnContext is included in the request, then it must contain a
+(AuthnContextClassRef) equal to or lower than the level of Level of assurance
+assurance included in the  for the requested service. Service catalogAfsprakenstelsel Elektronische Toegangsdiensten | pagina 571Scoping Elektronische Toegangsdiensten: MUST NOT be included
+XML schema saml protocol extensions
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="urn:etoegang:1.9:samlp-extension"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+elementFormDefault="qualified"
+attributeFormDefault="unqualified">
+<xs:element name="RequestedAttributes">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="md:RequestedAttribute" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+Example message
+<?xml version="1.0" encoding="UTF-8"?>
+<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:esp="urn:etoegang:1.9:samlp-extension"
+ID="_4b5af9ca-33ef-400f-9c97-398ab0c8e9c7"
+Destination="https://..."
+ForceAuthn="true"
+AssertionConsumerServiceIndex="1"
+AttributeConsumingServiceIndex="4"
+ProviderName="DV Name"
+IssueInstant="2015-04-10T12:30:03Z"
+Version="2.0">
+<saml:Issuer/>urn:etoegang:HM:...</saml:Issuer>
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<ds:Reference URI="#_4b5af9ca-33ef-400f-9c97-398ab0c8e9c7">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:Extensions>
+<saml:Attribute Name="urn:etoegang:core:IntendedAudience">
+<saml:AttributeValue>urn:etoegang:DV:...:entities:...</saml:AttributeValue>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 572        </saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:ServiceID">
+<saml:AttributeValue>urn:etoegang:DV:...:services:...</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="urn:etoegang:core:ServiceUUID">
+<saml:AttributeValue>bf83ccef-6c9d-443f-ac11-9df0a0a9d299</saml:AttributeValue>
+</saml:Attribute>
+<esp:RequestedAttributes>
+<md:RequestedAttribute Name="urn:etoegang:1.9:attribute:FirstName" IsRequired="false" />
+</esp:RequestedAttributes>
+</samlp:Extensions>
+<samlp:RequestedAuthnContext Comparison="minimum">
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa3</saml:AuthnContextClassRef>
+</samlp:RequestedAuthnContext>
+</samlp:AuthnRequest>
+Rules for processing requests
+A requesting HM:
+MUST propagate @ProviderName of the party initiating the Request. A receiving AD:
+MUST verify a requested service is defined in the Service Catalog and requested accordingly. MUST sanitize @ProviderName to remove any script or formatting before displaying.

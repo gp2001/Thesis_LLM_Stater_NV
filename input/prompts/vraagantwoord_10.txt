@@ -1,0 +1,78 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek stelt eerst een vraag en vraagt daarna door. Ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die een vraag stelt over een onderwerp dat in de txt terugkomt en daarna doorvraagt over dit onderwerp. Genereer een chosen antwoord door in de tekst behaalde gegevens. Genereer een rejected antwoord die onjuiste antwoorden geeft op de gestelde vragen. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "General-Instruct",
+    "chosen": [
+        {
+            "content": "Identify which planet in our solar system the given facts are referring to.\nThis planet is known for its impressive rings and is the second largest planet in our solar system.",
+            "role": "user"
+        },
+        {
+            "content": "The planet being referred to is Saturn. It is known for its remarkable ring system and is the second largest planet in our solar system after Jupiter.",
+            "role": "assistant"
+        },
+        {
+            "content": "Considering Saturn's prominent ring system, what are the primary components of these rings and how does their composition contribute to their visibility from Earth?",
+            "role": "user"
+        },
+        {
+            "content": "Saturn's rings are primarily composed of countless particles of ice, dust, and rocky material. The size of these particles can range from tiny, dust-sized icy grains to large chunks as big as mountains.\n\nThe high albedo, or reflectivity, of the ice particles is what makes the rings so visible from Earth. These particles effectively reflect sunlight, and when viewed through a telescope, they appear as bright, stunning rings encircling the planet. The thickness of the rings also contributes to their visibility. Despite being relatively thin compared to their overall size, the rings are dense enough to reflect a significant amount of sunlight.\n\nMoreover, the rings are not a solid structure; they are composed of numerous ringlets with gaps of varying sizes between them. These gaps and divisions are caused by gravitational interactions with Saturn's many moons, which create resonances that sweep the rings and carve out empty spaces.",
+            "role": "assistant"
+        },
+        {
+            "content": "Elaborate on the gravitational interactions between Saturn's moons and its rings that lead to the formation of gaps and divisions.",
+            "role": "user"
+        },
+        {
+            "content": "The gaps and divisions in Saturn's rings are primarily the result of what's known as gravitational resonance. This occurs when two orbiting bodies exert a regular, periodic gravitational influence on each other, leading to an increase in the amplitude of their orbital paths.\n\nIn the case of Saturn's rings and moons, certain moons, known as shepherd moons, have orbits that resonate with the orbits of the particles in the rings. For example, if a moon completes two orbits in the same time it takes a ring particle to complete one orbit, they are said to be in a 2:1 resonance. This resonance can clear gaps in the rings or keep the edges of a gap sharp.\n\nA well-known example of this is the Cassini Division, a large gap in Saturn's rings. It's primarily kept clear by the gravitational influence of the moon Mimas. Mimas is in a 2:1 resonance with the particles in this gap, meaning it completes two orbits for every one orbit of the particles. Every other orbit, Mimas is at the same point when the particles are at their closest approach, and its gravitational pull tugs them slightly away, maintaining the gap.\n\nSimilarly, other smaller gaps are maintained by tiny moons that actually orbit within the rings themselves. These shepherd moons help keep the ring particles in line and create the stunningly complex structure of Saturn's ring system that we see today.",
+            "role": "assistant"
+        },
+        {
+            "content": "Explain the role of the shepherd moons in maintaining the structure of Saturn's rings, particularly focusing on how they prevent the dispersion of ring particles.",
+            "role": "user"
+        },
+        {
+            "content": "Shepherd moons play a crucial role in maintaining the structure and preventing dispersion of Saturn's rings by influencing the orbits and motion of the ring particles through gravitational resonances. These small moons have orbits that are dynamically linked to surrounding ring particles, which creates a stabilizing effect.\n\nWhen a shepherd moon and a ring particle are in a gravitational resonance, the orbital period of the moon is related to the orbital period of the particle. This relationship ensures that, during certain points in their orbits, the shepherd moon and ring particle will pass at close proximity. The gravitational interaction between the moon and the nearby ring particles is stronger than the gravity from other parts of Saturn's system, nor just the central planet itself. This enables the shepherd moons to shape and sculpt the rings' edges, maintaining their specific sizes and forming the gaps and divisions.\n\nFor example, the shepherding effect of Prometheus and Pandora crews the F ring into a waist-like feature. If there were no such moons acting as shepherds, the ring particles would gradually spread out and eventually disperse, becoming part of Saturn's E ring or escaping the planet's gravitational influence entirely. Thus, shepherd moons are essential players in maintaining Saturn's ring structures by providing the gravitational stability required to support a large, dynamic system of orbiting particles.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Identify which planet in our solar system the given facts are referring to.\nThis planet is known for its impressive rings and is the second largest planet in our solar system.",
+            "role": "user"
+        },
+        {
+            "content": "The planet being referred to is Saturn. It is known for its remarkable ring system and is the second largest planet in our solar system after Jupiter.",
+            "role": "assistant"
+        },
+        {
+            "content": "Considering Saturn's prominent ring system, what are the primary components of these rings and how does their composition contribute to their visibility from Earth?",
+            "role": "user"
+        },
+        {
+            "content": "Saturn's rings are primarily composed of countless particles of ice, dust, and rocky material. The size of these particles can range from tiny, dust-sized icy grains to large chunks as big as mountains.\n\nThe high albedo, or reflectivity, of the ice particles is what makes the rings so visible from Earth. These particles effectively reflect sunlight, and when viewed through a telescope, they appear as bright, stunning rings encircling the planet. The thickness of the rings also contributes to their visibility. Despite being relatively thin compared to their overall size, the rings are dense enough to reflect a significant amount of sunlight.\n\nMoreover, the rings are not a solid structure; they are composed of numerous ringlets with gaps of varying sizes between them. These gaps and divisions are caused by gravitational interactions with Saturn's many moons, which create resonances that sweep the rings and carve out empty spaces.",
+            "role": "assistant"
+        },
+        {
+            "content": "Elaborate on the gravitational interactions between Saturn's moons and its rings that lead to the formation of gaps and divisions.",
+            "role": "user"
+        },
+        {
+            "content": "The gaps and divisions in Saturn's rings are primarily the result of what's known as gravitational resonance. This occurs when two orbiting bodies exert a regular, periodic gravitational influence on each other, leading to an increase in the amplitude of their orbital paths.\n\nIn the case of Saturn's rings and moons, certain moons, known as shepherd moons, have orbits that resonate with the orbits of the particles in the rings. For example, if a moon completes two orbits in the same time it takes a ring particle to complete one orbit, they are said to be in a 2:1 resonance. This resonance can clear gaps in the rings or keep the edges of a gap sharp.\n\nA well-known example of this is the Cassini Division, a large gap in Saturn's rings. It's primarily kept clear by the gravitational influence of the moon Mimas. Mimas is in a 2:1 resonance with the particles in this gap, meaning it completes two orbits for every one orbit of the particles. Every other orbit, Mimas is at the same point when the particles are at their closest approach, and its gravitational pull tugs them slightly away, maintaining the gap.\n\nSimilarly, other smaller gaps are maintained by tiny moons that actually orbit within the rings themselves. These shepherd moons help keep the ring particles in line and create the stunningly complex structure of Saturn's ring system that we see today.",
+            "role": "assistant"
+        },
+        {
+            "content": "Explain the role of the shepherd moons in maintaining the structure of Saturn's rings, particularly focusing on how they prevent the dispersion of ring particles.",
+            "role": "user"
+        },
+        {
+            "content": "Shepherd moons play a crucial role in shaping and maintaining the structure of Saturn's rings. These moons, which can be found within or near the rings, use their gravitational influence to confine the ring particles and prevent them from spreading out into space.\n\nA shepherd moon orbits near the edge of a ring or within a gap in the ring. As the moon moves along its orbit, its gravitational pull tugs on nearby ring particles. This tug can either speed up or slow down the particles, causing them to move to a different orbit.\n\nFor example, if a ring particle is on the inner side of a shepherd moon's orbit, the moon's gravity will speed up the particle, causing it to move to a larger orbit. Conversely, if a particle is on the outer side of the moon's orbit, the moon's gravity will slow down the particle, causing it to move to a smaller orbit.\n\nThis gravitational \"herding\" effect of the shepherd moons confines the ring particles within a relatively narrow band, maintaining the well-defined edges of the rings and gaps. Two of Saturn's most famous shepherd moons are Prometheus and Pandora, which together confine the narrow F ring.\n\nWithout the presence of shepherd moons, the particles in Saturn's rings would slowly spread out due to their own mutual gravitational interactions and the influence of other celestial bodies. Therefore, these moons are crucial for the long-term stability and intricate structure of Saturn's rings.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Identify which planet in our solar system the given facts are referring to.\nThis planet is known for its impressive rings and is the second largest planet in our solar system.",
+    "question": "Identify which planet in our solar system the given facts are referring to.\nThis planet is known for its impressive rings and is the second largest planet in our solar system."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

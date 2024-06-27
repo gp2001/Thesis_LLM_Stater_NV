@@ -1,0 +1,106 @@
+Richtlijnen communicatie eIDAS
+Berichtenservice to the user. The Dienstverlener MUST use the EntityID to refer to the EB in the AuthnRequest to the HM. Since this reference is static, a Dienstverlener is not bound to honour the update requirements of a
+refresh atleast once every 15 minutes as mentioned above. When presenting "eIDAS" link/button  the "eHerkenning" button MAY also be presented by the DV
+to allow access to the full list of regular ADs as specified above. A DV MAY offer the user to save the selection of the AD as default, except for eIDAS. However, if an error
+occurs when authenticating at a user-preselected default AD, the DV MUST retrieve a current list of
+accredited AD's from the HM and prompt the user to choose an AD. The ASTA's MUST NOT be requested by DV's, ONLY the EB and BRP MAY request ASTA's
+A responding HM:
+MUST only process requests from contracted DVs. MUST validate all signatures to be valid before further processing any request. Message (elements) MUST be
+signed using a certificate as listed in the   for the purpose of signing for a SPSSODescriptor of DV Metadata for HM
+the requesting DV. MUST verify the structure and contents of the request. MUST request authentication, authorization,  and attributes on behalf of the DV, as applicable to the sectorIDs
+requested Service and User's choices. In case of service intermediation the HM MUST verify the Service Intermediary is still authorized by the
+(Service Supplier) by verifying the authorization status of the mediated service Dienstaanbieder (DA)
+(@intermediationAllowed) in the Service Catalog. MUST support the IDPEntry element from the Scoping element in the AuthnRequest. In case the element Scoping
+is present, the HM MUST use the IDPEntry as reference for the AD selected by the user, bypassing the AD-selection
+page (applying use case GUC1-alt and GUC3-alt).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 545MUST verify the chosen AD and optional endpoint provided in the IDPEntry element reference a valid AD/EB as
+listed in the . Network metadata
+MUST sanitize @ProviderName to remove any script or formatting before displaying
+MUST determine the branding to use based on  the service classifier specified by the DV . Domain LoA in
+requestEntityConcernedType in service catalog Branding
+Business 1, 2, 2+, 3, 4 urn:etoegang:1.9:EntityConcernedID:KvKnr
+urn:etoegang: 1.9: EntityConcernedID:RSIN
+urn:etoegang:1.13:EntityConcernedID:PROBASnr
+urn:etoegang:1.11:EntityConcernedID:
+eIDASLegalIdentifiereHerkenning
+Business,
+Consumer1, 2, 2+, 3, 4 urn:etoegang:1.12:EntityConcernedID:PseudoID
+urn:etoegang:1.9:EntityConcernedID:PseudoeHerkenning
+Citizen* 3, 4 urn:etoegang:1.12:EntityConcernedID:BSN eHerkenning
+* Citizen: r1.12 only EU-citizens via eIDAS BerichtenService
+If one of the criteria is not met, the HM must handle this as a non-recoverable error  (see  ). Error handling
+Note: When a HM receives a DV request on a specific version of the DV-HM interface, it should only show AD’s
+that list eme:version in the Metadata with the same, or higher version. Note: When a HM receives a response from an AD, and the AD specifies an MR that is not of the same version, the
+HM must handle this as a non-recoverable error. In case a portal service request is made at the eIDAS-berichtenservice, the HM MUST return a error message
+containing ResultMajor "RequesterError" and ResultMinor "NotSupported"
+With regards to determining the user's choice of AD/MR, the following processing rules apply;
+A HM MAY maintain user preferences (selected AD and MR, and 'Representation' use), except for eIDAS-inbound
+requests, and use these values for determining applicable AD/MR queries, else;
+When the EntityConcernedTypesAllowed for the requested service signify a representation scenario (i.e. KVK,
+RSIN etc.), t . he HM MUST NOT query the user if it wants to authenticate on behalf of himself or another
+In such a scenario a HM MAY opt to only offer a selection list for AD's ( ). This GUC3 Aantonen identiteit
+facilitates the current common practice that the AD already knows the MR so that the user will not be
+confronted with a potential confusing new choice to make whilst this information is already known
+within the scheme. (However this does invoke the possibility that AD will be confronted with lacking
+logistic information; see processing rules HM-AD). In case of a Portal request the eIDAS-berichtenservice
+MUST NOT be offered in the list of AD's to be selected. Note: The examples below show only the AuthnRequest. Additional wrapping elements can be present in case of HTTP
+Artifact binding. Example DV AuthnRequestAfsprakenstelsel Elektronische Toegangsdiensten | pagina 546<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+ID="_6984066c-de03-11e4-a571-080027a35b78"
+ForceAuthn="true"
+IsPassive="false"
+Destination="https://..."
+ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"
+AssertionConsumerServiceURL="https://"
+AttributeConsumingServiceIndex="1"
+IssueInstant="2015-04-08T16:30:03Z"
+Version="2.0">
+<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">urn:etoegang:DV:...</saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI=" ">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:RequestedAuthnContext Comparison="minimum">
+<saml:AuthnContextClassRef xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">urn:etoegang:core:
+assurance-class:loa3</saml:AuthnContextClassRef>
+</samlp:RequestedAuthnContext>
+</samlp:AuthnRequest>
+Example DV AuthnRequest - minimal
+<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+ID="_2962ac7c-de04-11e4-9801-080027a35b78"
+Destination="https://..."
+IssueInstant="2015-04-08T16:30:07Z"
+Version="2.0">
+<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">urn:etoegang:DV:...</saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_2962ac7c-de04-11e4-9801-080027a35b78">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 547        </ds:KeyInfo>
+</ds:Signature>
+</samlp:AuthnRequest>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 548Response (2)
+For chain authorizations ( ), the identification number of Vervallen_Interface specifications HM-MR chain authorization
+the represented service consumer are included in the assertion for the HM in the same way as for single authorizations. The additional information about the chain is stored in a separate attribute. Note: The HM will not identify the MRs from which the underlying assertions originate.

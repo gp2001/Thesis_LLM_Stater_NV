@@ -1,0 +1,101 @@
+Dan kunt u contact opnemen via . https://www.nationaleombudsman.nl/klacht-indienen/uw-klachtAfsprakenstelsel Elektronische Toegangsdiensten | pagina 17Algemene introductie
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Nederland digitaliseert. Mensen en organisaties kunnen via het internet steeds meer zaken digitaal regelen, bijvoorbeeld
+online aankopen doen, een bouwvergunning aanvragen of een belastingaangifte indienen. Bij de ontwikkeling van digitale
+dienstverlening moet iedere organisatie een aantal vraagstukken op het gebied van geautoriseerde toegang oplossen. Het
+Afsprakenstelsel Elektronische Toegangsdiensten biedt een uniforme set van standaarden, afspraken en voorzieningen voor
+de geautoriseerde toegang tot digitale diensten. Hiermee kunnen persoonsgebonden, vertrouwelijke gegevens op een veilige
+en gebruiksvriendelijke wijze uitgewisseld worden. De afspraken gelden tussen de partijen die een erkende rol spelen bij het
+verlenen en gebruik van toegangsdiensten, beheer en doorontwikkeling, sturing en toezicht.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 18eHerkenning
+Het Afsprakenstelsel Elektronische Toegangsdiensten regelt de afspraken en voorzieningen voor eHerkenning.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 19Deelnemers vormen een netwerk dat diensten levert
+De kern van het afsprakenstelsel is het netwerk dat partijen – de zogenaamde deelnemers – samen vormen
+om toegangdiensten te leveren. In dat netwerk nemen partijen deel die authenticatiemiddelen uitgeven en bijbehorende
+diensten verlenen. Bestaande en toekomstige authenticatiemiddelen – zoals gebruikersnaam/wachtwoorden, card readers,
+VPN tokens, maar ook apps kunnen zo worden gebruikt. Ook nemen bij eHerkenning partijen deel die machtigingen van
+bedrijven en organisaties registreren en hierover informatie verstrekken. Bijvoorbeeld het feit dat firma F haar werkneemster
+mevrouw Pietersen machtigt om namens firma F belastingaangifte te doen. Via het netwerk worden partijen met hun
+authenticatiemiddelen en machtigingen gekoppeld aan dienstverleners die hun diensten elektronisch willen ontsluiten en
+bedrijven en andere organisaties die diensten van deze dienstverleners willen afnemen. Het Afsprakenstelsel Elektronische Toegangsdiensten is de Nederlandse oplossing om te voldoen aan de . eIDAS-verordening
+Daarmee worden de diensten van de aangesloten (publieke) Dienstverleners via het stelsel ontsloten voor gebruikers uit
+andere eIDAS-lidstaten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 20De basis van het netwerk ligt vast in afspraken
+Om een dergelijk netwerk tot stand te brengen, te laten functioneren en evolueren, is een set van afspraken nodig: het
+Afsprakenstelsel Elektronische Toegangsdiensten. Deze afsprakenset is minimaal van opzet, genoeg om samenwerking en
+zekerheid in het netwerk te garanderen, en tegelijk zo ruim dat het voldoende vrijheid biedt om competitieve proposities van
+de deelnemers mogelijk te maken. Daartoe bevat het afsprakenstelsel bepalingen over de volgende onderwerpen:
+de rollen in het netwerk, de relaties tussen die rollen en de te leveren dienstverlening;
+de precieze werking van het netwerk: technische relaties, ondersteunde functionaliteit, kwaliteit van gegevens en
+dienstverlening;
+de onderliggende infrastructuur: welke standaarden worden gehanteerd, en welke berichten en koppelvlakken
+worden ondersteund;
+beheer en beveiliging, inclusief de organisatie daarvan. Dit deel omvat tevens afspraken over de handhaving van de
+gemaakte afspraken, wat van essentieel belang is om de werking van het netwerk en het vertrouwen in het netwerk
+conform het afsprakenstelsel te waarborgen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 21Doel en doelgroep  van dit hoofdstuk
+Binnen de totale documentatieset van het afsprakenstelsel geeft dit hoofdstuk op hoofdlijnen inhoudelijk inzicht in gedrag
+en werking van het afsprakenstelsel. De doelgroepen voor dit document zijn:
+beslisser: degene die beslist over aansluiting op eHerkenning als deelnemer (leverancier van toegangsdiensten in het
+netwerk) of in de rol van dienstverlener (organisatie die diensten levert aan gebruikers, mensen en organisaties;
+adviseur: degene die de beslisser inhoudelijk adviseert;
+implementator: degene die aansluiting op (een deel van) het afsprakenstelsel in de breedste zin wil implementeren
+(juridisch, technisch, organisatorisch, procesmatig, etc.) en/of dit wil managen, in de rol van deelnemer of
+dienstverlener. toezichthouder: degene die toeziet op de betrouwbare en veilige werking van het Afsprakenstelsel Elektronische
+Toegangsdiensten. Voor beslisser en adviseur zou de inhoud toereikend moeten zijn. Voor de implementator bevat het al die zaken die voor een
+implementatie van belang zijn; voor vragen die specifiek zijn voor bijvoorbeeld technische aansluiting zijn ook andere delen
+van de documentatieset noodzakelijk. Voor een eerste oriëntatie voor bedrijven die eHerkenning willen gebruiken zijn
+communicatiemiddelen  te (https://www.eherkenning.nl/aansluiten-op-eherkenning/communicatie/ ) van eHerkenning
+gebruiken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 22Afnemers
+De deelnemers aan het Afsprakenstelsel Elektronische Toegangsdiensten leveren eToegangsdiensten  aan gebruikers. Deze
+diensten zorgen voor vertrouwen (op een bepaald betrouwbaarheidsniveau) aangaande identiteiten en bevoegdheden. Er
+bestaan twee soorten afnemers binnen het Afsprakenstelsel Elektronische Toegangsdiensten:
+Dienstverlener (DV) : een partij die digitale diensten  . Bijvoorbeeld een online webshop of een aanbiedt
+overheidsorganisatie als de Belastingdienst. Dienstverleners kunnen via het afsprakenstelsel gebruikers veilig
+toegang geven tot de digitale diensten die zij aanbieden. Als twee dienstverleners samenwerken om een dienst te
+leveren, spreken we van Dienstbemiddeling. De dienstverleners kennen we dan als een Dienstaanbieder (DA) die de
+inhoudelijke afhandeling van een dienst verzorgt en de Dienstbemiddelaar (DB) die de gebruikersinteractie verzorgt
+en daarmee de dienstafnemer ondersteunt. Dienstafnemer   een bedrijf, rechtspersoon, privépersoon of een afnemende overheidsorganisatie die digitale
+diensten afneemt. Bijvoorbeeld: een gebruiker die een aankoop doet in een webshop of zijn belastingaangifte online
+indient. Gebruikers loggen in met inlogmiddelen die voldoen aan het afsprakenstelsel. Een gebruiker kan zo zijn
+identiteit aantonen en aanvullende informatie over bijvoorbeeld zijn bevoegdheden geven.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 23Het authenticatie- en autorisatieproces op hoofdlijnen
+De dienstafnemer (voor de leesbaarheid hierna te noemen: gebruiker) wil een digitale dienst afnemen en bezoekt de
+website van de dienstverlener;
+Op de website van de dienstverlener  met het gevraagde logt de gebruiker in met een authenticatiemiddel
+betrouwbaarheidsniveau;
+De deelnemers binnen het afsprakenstelsel vormen een netwerk dat de gebruiker authenticeert en de bevoegdheden
+controleert;
+Als de controle op authenticatie en bevoegdheden goed verloopt, verklaart het netwerk hierover aan de
+dienstverlener door middel van een set aan verklaringen;
+Op basis van deze informatie weet de dienstverlener wie de gebruiker is en wat hij mag doen;
+De dienstverlener besluit op basis van de set verklaringen of hij de dienst verleent waar de gebruiker om vraagt;
+Om dit proces mogelijk te maken sluit de dienstverlener aan op het afsprakenstelsel via een makelaar en koopt de
+gebruiker (één of meerdere) inlogmiddel(en) die voldoen aan het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 24Aansluiten als dienstverlenerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 25Waarom zou ik aansluiten? Dienstverleners gebruiken eHerkenning om een veilige toegang en gebruik van hun elektronische diensten door
+dienstafnemers (gebruikers) mogelijk te maken. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 26Wat betekent aansluiten? De dienstverlener neemt het gestandaardiseerde koppelvlak van eHerkenning op in de toegang tot deze diensten. De
+De dienstverlener heeft primair met één rol van het netwerk te maken, de zogeheten herkenningsmakelaar. dienstverlener selecteert een  die deze dienst levert en sluit daarmee een contract. De dienstverlener kan vervolgens partij
+aansluiten op het netwerk zodra zij haar systemen gereed heeft en er een positieve test op de werking van de  Interface
+is uitgevoerd. De herkenningsmakelaar zorgt er vervolgens voor dat iedere keer dat de dienst wordt specifications DV-HM
+aangeroepen eerst via het netwerk de vereiste verklaringen worden geleverd. Omdat in het bedrijvendomein het voor alle
+herkenningsmakelaars verplicht is alle achterliggende authenticatiediensten en machtigingenregisters te ontsluiten, kan de
+dienstverlener een herkenningsmakelaar selecteren ongeacht de toepassing of klantgroep.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 27Diensten inschalen op betrouwbaarheidsniveau en definitie
+Voorafgaand aan het aansluiten moet de dienstverlener bepalen welk  van eHerkenning toegang Betrouwbaarheidsniveau
+geeft tot de digitale diensten, of vereist is voor het zetten van de elektronische handtekening. Het door de dienstverlener
+betrouwbaarheidsniveau wordt vastgelegd in een dienstencatalogus. In deze catalogus neemt de dienstverlener op vereiste
+of zij beogen een dienst met SSO toegankelijk te maken, hoe de dienst gedefinieerd wordt, of de dienst bemiddeld kan
+worden door een dienstbemiddelaar en welk soort dienstafnemers toegang kan krijgen. Ten aanzien van de definitie is het
+van belang dat de dienstverlener de dienst een omschrijving geeft die bij een eindgebruiker en/of machtigingenbeheerder
+herkenbaar en betekenisvol is. De eindgebruiker of diegene die machtigen beheert moet kunnen herleiden wat "de dienst"
+is. Als onderdeel van de aansluiting dient tevens bepaald te worden hoe de diensten die aangeboden worden gedefinieerd
+zijn, zodat machtigingenregisters bevoegdheden voor specifieke diensten kunnen vastleggen. Verantwoordelijkheden van de dienstverlener bij transacties door dienstafnemers:
+moet  zich houden aan de technische beveiligingseisen van het toegepaste koppelvlak en aan de
+beveiligingsrichtlijnen van het NCSC;
+is zelf verantwoordelijk voor het controleren van de herkomst van ontvangen berichten;
+moet vanaf het moment dat een gebruiker toegang heeft een logoutknop bieden . Is verantwoordelijk voor het definiëren van de Dienst (het benoemen en beschrijven van de dienst) en voor de keuze
+betrouwbaarheidsniveau (LoA);
+Moet besluiten of hij een dienst openstelt voor Dienstbemiddeling; indien hij hiertoe besluit moet hij dit doorgeven
+aan de Herkenningsmakelaar die dit opneemt in de dienstencatalogus;
+Indien Dienstbemiddeling wordt toegestaan: Draagt de inhoudelijk verantwoordelijkheid van de dienst zelf. Moet een eenduidige technische interface voor Dienstbemiddeling opstellen en beschikbaar stellen aan
+Dienstbemiddelaars;
+Moet toestemming tot Dienstbemiddeling verstrekken aan een Dienstbemiddelaar. De door de dienstverlener ingeschakelde Herkenningsmakelaar zal de Gebruiksvoorwaarden  van het
+AS hierbij in het contract/algemene voorwaarden met de Dienstbemiddelaar van toepassing verklaren
+Mag Attributen ontvangen. Moeten akkoord gaan met  wanneer zij Versleutelde Pseudoniemen of Versleutelde aansluitvoorwaarden BSNk
+Identiteiten wensen te ontvangen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 281. 2. 3.

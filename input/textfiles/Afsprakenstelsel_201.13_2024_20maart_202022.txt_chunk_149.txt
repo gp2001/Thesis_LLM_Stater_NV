@@ -1,0 +1,41 @@
+AVG
+Bewaartermijnen:
+Alle benodigde gegevens t.b.v. identificatie bij uitgifte middel en/of registratie machtiging: 7 jaar (na verlopen
+/intrekking middel/machtiging) tbv fraudeonderzoek en beslechting van geschillen (N.B.: hierbij wordt geen
+onderscheid gemaakt in het niveau van het middel of machtiging, immers het doel is hetzelfde);
+Gegevens betreffende authenticatie: 7 jaar tbv fraudeonderzoek.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 874
+Doelomschrijving Herkenningsmakelaar
+De persoonsgegevens worden verwerkt met als doel het berichtenverkeer van en naar de dienstverleners die gebruik maken
+van het afspraken elektronische toegangsdiensten te ontkoppelen van de interne berichten binnen het netwerk en het
+routeren van deze berichten naar alle binnen het afsprakenstelsel elektronische toegangsdiensten erkende
+authenticatiediensten en machtigingenregisters. Gegevensset:
+voor communicatie met de dienstverlener benodigde gegevens, zoals NAW, geboortedatum, geboorteplaats,
+telefoonnummer(s), e-mailadres
+voor uitvoering van de overeenkomst benodigde gegevens, zoals registratiegegevens, registratietijdstip,
+transactiegegevens, loggingberichten
+De rechtmatigheidsgrondslag is de toestemming van de betrokkene zoals bepaald door de . AVGAfsprakenstelsel Elektronische Toegangsdiensten | pagina 875
+Doelomschrijving klanttevredenheidsonderzoek
+De persoonsgegevens worden verwerkt met als doel een klanttevredenheidsonderzoek over de werking van de elektronische
+toegangsdienst. Gegevensset
+E-mailadres
+Type elektronische toegangsdienst
+De rechtmatigheidsgrondslag is de toestemming van de betrokkene zoals bepaald door de . AVGAfsprakenstelsel Elektronische Toegangsdiensten | pagina 876
+Doelomschrijving Machtigingenregister
+De persoonsgegevens worden verwerkt met als doel het registreren, beheren, controleren van  en andere machtigen
+en het afleggen van  over bevoegdheden en het op verzoek van betrokkene verstrekken van bevoegdheden verklaringen
+machtigingsverklaringen. Gegevensset:
+voor controle van de vertegenwoordigingsbevoegdheid benodigde gegevens, zoals KvK nummer, statutaire en
+handelsnaam van de onderneming; NAW, geboortedatum, geboorteplaats, telefoonnummer(s), e-mailadres,
+bankrekeningnummer van machtigingsverlener en van gemachtigde
+voor uitvoering van de overeenkomst benodigde gegevens, zoals registratiegegevens, registratietijdstip,
+pseudoniemen, , bevoegdheidsgegevens (dienst, duur, omvang bevoegdheid), bevoegdheidsregistratieID
+transactiegegevens, loggingberichten
+De rechtmatigheidsgrondslag is de toestemming van de betrokkene zoals bepaald door de . AVG
+Bewaartermijnen:
+Alle benodigde gegevens t.b.v. identificatie bij uitgifte middel en/of registratie machtiging: 7 jaar (na verlopen
+/intrekking middel/machtiging) tbv fraudeonderzoek en beslechting van geschillen (N.B.: hierbij wordt geen
+onderscheid gemaakt in het niveau van het middel of machtiging, immers het doel is hetzelfde);
+Gegevens betreffende authenticatie: 7 jaar tbv fraudeonderzoek.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 877
+Doelomschrijving Middelenuitgever
+De persoonsgegevens worden verwerkt met als doel de uitgifte van en conform de eisen van het Authenticatiemiddel
+gespecificeerde .

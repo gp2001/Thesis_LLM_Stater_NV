@@ -1,0 +1,23 @@
+Uiteraard dient de vastlegging van deze beheerder
+tenminste op hetzelfde betrouwbaarheidsniveau te gebeuren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 461. Verantwoordelijkheden
+Het Machtigingenregister levert de volgende functionaliteiten aan Machtigingenregisters:
+1.Ondersteunen van Discovery Interface MR-MR chain authorisations
+2. de registratie van identificerende kenmerken van gebruikers die door de dienstafnemer zijn of worden
+gemachtigd om namens de dienstafnemer elektronische verklaringen af te leggen en/of in ontvangst te
+nemen;
+3. het toekennen van pseudoniemen aan gebruikers waarbij de eisen van dataminimalisatie aantoonbaar
+worden gevolgd;
+4. het registreren van machtigingen die door de dienstafnemer zijn afgegeven, waarbij de koppeling met
+identificerende kenmerken en/of pseudoniemen aantoonbaar is terug te voeren op de in de registratiefase
+door de dienstafnemer, of namens deze de machtigingenbeheerder, verschafte gegevens;
+5. een proces, in welke vorm dan ook, voor het opvoeren, onderhouden en intrekken van registraties van
+machtigingen, dat voldoet aan de in het afsprakenstelsel gedefinieerde betrouwbaarheidsniveaus. 6. MOET  (zie ) indien deze geregistreerd BSN gegevens polymorf versleutelen Polymorfe pseudonimisering
+staan bij een eenmanszaak. 7. MOET het BSNk bevragen voor het verkrijgen van polymorfe pseudoniemen en polymorfe Identiteiten
+(PI). 8. MOET zelf de administratie van interne pseudoniemen bijhouden. Het machtigingenregister zorgt voor vastlegging van duidelijke afspraken over de validatie van de
+vertegenwoordigingsbevoegdheid van de gebruiker van de dienstafnemer voor zover het een publiekrechtelijke
+rechtspersoon betreft. Het machtigingenregister voorkomt dat een ingetrokken of geblokkeerde registratie van een machtiging als geldige
+registratie wordt verwerkt. Het machtigingenregister zorgt voor een verwerking van registraties van machtigingen conform de afgesloten
+overeenkomst en overeengekomen service levels. Het machtigingenregister draagt zorg voor correcte uitvoering van alle aan haar in het Afsprakenstelsel
+voorgeschreven verplichtingen, waaronder auditverplichtingen. Het Machtigingenregister levert de volgende functionaliteiten aan Machtigingenregisters:
+Ondersteunen van   Discovery Interface MR-MR chain authorisationsAfsprakenstelsel Elektronische Toegangsdiensten | pagina 47
+1. 2. 3.

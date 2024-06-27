@@ -1,0 +1,60 @@
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:KeyName>
+2fd4e1c6 7a2d28fc ed849ee1 bb76e739 1b93eb12
+</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>
+... </ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+...Afsprakenstelsel Elektronische Toegangsdiensten | pagina 792Metadata for participants
+A participant MUST supply metadata to the  for every system that implements the  of Beheerorganisatie (BO) role HM, AD, MR,
+in the network. A participant MUST NOT supply metadata for a role or functionality it has not been assigned. EB or KR
+This requirement is for metadata for the production network. This requirement does not apply to metadata for the test
+network, because it must also be possible to test the systems of parties that have not yet joined. A participant that has several roles in the network MUST supply metadata for each role separately.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 793EntityDescriptor
+The participant MUST publish SAML metadata for the Beheerorganisatie complying to the specifications defined for the
+namespace urn:oasis:names:tc:SAML:2.0:metadata, with one signed EntitiesDescriptor element. Signing metadata MUST
+meet the requirements for signing, see  . Digital signature
+The EntitiesDescriptor element MUST contain an attribute Name with a value formatted as urn:etoegang:<scheme version>:
+<omgeving>:<sequence number>, whereby <scheme version> indicates the version of the framework, <omgeving> the
+respective environment (P or T), and <sequence number> is a sequence number that distinguishes the different versions of
+metadata. The EntitiesDescriptor MAY contain an Extensions element that contains a PublicationInfo element with the URL and
+creation date of the metadata file. The EntitiesDescriptor element contains one or more EntityDescriptor elements. Each EntityDescriptor element MUST contain the EntityID and an additional version attribute, MAY contain a SAML
+validUntil, EH validFrom, name and ISOname attributes and MUST NOT contain other SAML attributes. The version attribute
+contains the version of the interface specifications on which the entity communicates. The additional attributes are
+described below. The EntityDescriptor MUST contain one or more elements of the type ContactPerson containing an administrative non-
+personal name, email address, and telephone number that can be contacted by participants or the Beheerorganisatie in the
+event of an incident. The field 'company' is optional for Contactperson but may be filled in. In case the Contactperson is
+employed by a different company, the field 'company' of the contactperson MUST be filled in. "The metadata MUST NOT
+contain personally identifiable information in the sense of the GDPR/AVG. The metadata MUST contain data about one's own organization by including one element of the type Organization, which
+describes the name (OrganizationName), the readable name for users (OrganizationDisplayName), and the website
+(OrganizationURL). The same role MAY be filled by several systems. Metadata is supplied for each of the systems. The metadata MUST contain a
+different EntityID in which the Organization element is the same. urn:etoegang:1.13:metadata-e xtension
+ValidFrom 1 Electronische toegangsdiensten: For communicating a time specific change on an Entity, a participant
+can use SAML attribute validUntil and Elektronische Toegangsdiensten specific attribute validFrom (see
+schema below) on the EntityDescriptor. This can for instance be used to facilitate the transition to a new
+version, replacing certificates, etc... Version 1 Electronische toegangsdiensten:  Denotes the ETD version of an endpoint. Name 1 Electronische toegangsdiensten:  MUST be included if there is more than one
+SingleSignOnService element defined
+ISOName 1 Electronische toegangsdiensten:  MAY be implemented to denote the countrycode (formatted according
+ISO 3166-1 alpha-2 for an endpoint. MAY be used by other configuration elements. Example Participant EntitiesDescriptor
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntitiesDescriptorAfsprakenstelsel Elektronische Toegangsdiensten | pagina 794    ID="[reference for dsig]"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:eme="urn:etoegang:1.13:metadata-extension"
+Name="urn:etoegang:1.13:metadata:P:23">
+<ds:Signature>...</ds:Signature>
+<md:Extensions>
+<mdrpi:PublicationInfo publisher="https://.../productie_metadata.xml" creationInstant="2019-04-
+07T10:39:03Z"/>
+</md:Extensions>
+<md:EntityDescriptor
+entityID="urn:etoegang:HM:9999990000010000:entities:0001"
+eme:version="1.9"
+eme:validFrom="2019-04-01T0:04:00Z">
+... <md:Organization>
+... </md:Organization>
+...

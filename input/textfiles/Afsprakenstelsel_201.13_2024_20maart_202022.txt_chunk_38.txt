@@ -1,0 +1,58 @@
+5. Communicatie Ondervindt de gebruiker hinder bij de dienstverlening? Zo ja, dan moet er gecommuniceerd worden,
+zowel intern als extern via het volgende proces:
+Interne informatievoorziening . Alle interne betrokkenen (beheerorganisatie, voorzitters  Tactisch
+of  , BZK en deelnemers) moeten worden voorzien van dezelfde informatie. Beraad Strategisch Beraad
+Vaststellen boodschap . De communicatie adviseurs van de beheerorganisatie doen een voorstel voor
+de inhoud van het nieuwsbericht. De inhoud van het bericht moet afgestemd worden met de
+coördinator van de beheerorganisatie en indien nodig de betrokken deelnemers. Belangrijk is om
+afstemming van de inhoud te krijgen:
+Van wie komt het bericht en met wie moet het afgestemd worden? Het bepalen van de tijdslijn van het bericht: is berichtgeving van korte/lange duur, is de
+calamiteit maar één dag. Of moet de berichtgeving meerdere dagen herhaald worden? . Het nieuwsbericht over de calamiteit wordt gepubliceerd op de website Publicatie www. eherkenning.nl . De beheerorganisatie wijst de betrokken partijen in het netwerk vervolgens op deze
+publicatie via e-mail of telefoon
+Verspreiding . De betrokken partijen (zowel deelnemers als dienstverleners) in het netwerk kunnen
+dit nieuwsbericht overnemen op hun eigen websites. Informeren klanten .De deelnemers informeren hun klanten (dienstverleners en gebruikers) in
+principe zelf. De beheerorganisatie heeft geen contactgegevens van de klanten en kan slechts de
+deelnemers hierbij ondersteunen. De deelnemers herhalen in hun berichtgeving de strekking van
+het nieuwsbericht dat de beheerorganisatie heeft geplaatst. Wie? De incidentmanager BO
+De calamiteitenmanager
+De oplossende partij(en)
+De communicatieadviseur adviseert over interne en externe communicatie (boodschap, kanalen,
+frequentie en doelgroep) en voert dit zo nodig uit via de diverse middelen en kanalen;
+De jurist adviseert waar nodig of gewenst;
+BZK
+(De voorzitter van) het Tactisch Beraad
+3c. Behandelen crisis
+Input Het incident is inschat als crisis
+Activiteit Het crisisteam van het Ministerie van BZK is in the lead, de betrokken personen vanuit de
+beheerorganisatie staan desgevraagd bij. De beheerorganisatie kondigt intern in het netwerk (alle Stelselpartijen, het Tactisch Beraad, het
+Operationeel Beraad, het Strategisch Beraad) direct een communicatiestop af. Output Bijgewerkt incident
+Communicatie Er geldt een communicatiestop. Stelselpartijen staan media niet zelf te woord maar verwijzen door naar
+de persvoorlichter/woordvoerder van BZK. BZK kan communicatieboodschappen opstellen en betrokken partijen opdragen deze over te nemen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 336Wie? BZK
+De incidentmanager BO
+De calamiteitenmanager
+De oplossende partij(en)
+De communicatieadviseur, jurist en incidentmanager
+4. Monitoren, informeren en ondersteunen
+Input Acties om het incident op te lossen
+Activiteit De Incidentmanager en/of calamiteitenmanager coördineert het contact met andere betrokken
+partijen, bewaakt de acties en biedt indien nodig ondersteuning. Dit betekent dat de Beheerorganisatie met
+enige regelmaat de oplossende partij benadert voor informatie. Indien het betreffende incident niet conform de afgesproken  is opgelost bepaalt de Responsetijden
+Beheerorganisatie  of het incident geëscaleerd moet worden naar een . Bij een calamiteit 1calamiteit (3b)
+bepaalt BZK of er opgeschaald moet worden naar . crisis (3c)
+De Beheerorganisatie stelt de deelnemers minimaal 1 keer per 4 uur op de hoogte van de status in geval van
+crisis. In het geval dat de BO het incident niet escaleert naar een calamiteit dan kan de melder de BO vragen om een
+gesprek te organiseren om de impact en hinder te bespreken met de veroorzakende partij. Dit gesprek heeft als
+doel om afspraken te maken zodat het incident wordt opgelost inclusief de termijn en inzicht te krijgen of
+escalatie naar calamiteit van toepassing is. Het gesprek wordt georganiseerd binnen 5 werkdagen na
+binnenkomst van het verzoek. De uitkomst van het gesprek wordt gedeeld met de Toezichthouder . Output
+Bijgewerkt incident
+Op- of afschaling van het incident
+Wie? De incidentmanager BO
+De calamiteitenmanager
+De oplossende partij
+5. Sluiten incident
+Input Melding opgelost incident
+Activiteit De oplossende partij geeft een signaal aan de incidentmanager van de Beheerorganisatie zodra het incident is
+opgelost. De incidentmanager van de Beheerorganisatie meldt dit aan de overige deelnemers via . Mantis
+Indien het incident impact heeft op deelnemers in het stelsel, wordt dit door de incidentmanager als kenmerk
+toegevoegd aan de betreffende melding. Output Opgelost incidentAfsprakenstelsel Elektronische Toegangsdiensten | pagina 3371. 2. 3.

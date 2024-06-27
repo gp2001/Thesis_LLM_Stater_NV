@@ -1,0 +1,142 @@
+Wie? De incidentmanager van de Beheerorganisatie
+De oplossende partij
+6. Opstellen rapportage derden
+Input Mantismeldingen met specifiek kenmerk voor stelselincidenten
+Activiteit
+Voorafgaand aan het Security Officers overleg maakt de incidentmanager aan de hand van meldingen met
+specifiek kenmerk van stelselincident een samenvatting, met daarin:
+De aard van de incidenten;
+De oorzaak van de incidenten;
+Eventuele trends in aard en oorzaak van incidenten. In het Security Officers overleg wordt deze samenvatting geëvalueerd. De incidentmanager verwerkt de conclusies en aanbevelingen in de samenvatting. De Beheerorganisatie rapporteert de volledige samenvatting aan het Tactisch Beraad, de Eigenaar en de
+Toezichthouder. Output Algemeen periodiek evaluatierapport
+Wie Beheerorganisatie, leden van het Security Offers overleg.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3381. Voetnoten
+Deze beslissing wordt genomen door de coördinator van de Beheerorganisatie, zijn vervanger, of diens meerderen in
+lijn. Indien deze niet tijdig beschikbaar zijn, mag de beslissing ook worden genomen door twee andere medewerkers
+die betrokken zijn bij het behandelen van het incident, bijvoorbeeld de security officer en de incidentmanager. Zij
+dienen hierover later verantwoording af te leggen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 339Proces informeren ToezichthouderAfsprakenstelsel Elektronische Toegangsdiensten | pagina 340Doelstelling
+Dit hoofdstuk geeft aan hoe informatie geleverd moet worden aan de Toezichthouder. Dat gaat via een aantal stappen, zoals
+hieronder is geschetst.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 341Overzicht processtappenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 342
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 343
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3441. 2. Toelichting processtappen
+1. Aanleveren informatie
+Input
+Leveren conform Afsprakenstelsel
+Leveren op verzoek van Toezichthouder in het kader van de taak van CvD
+Activiteit
+Betrokkene (Deelnemer, Beheerorganisatie, BSNk) levert de informatie aan zoals is gevraagd dan wel is
+aangegeven in het Afsprakenstelsel. Dit doet de betrokkene door een mailbericht te sturen naar het
+secretariaat van de CvD of de stukken per post te versturen. Het secretariaat maakt een dossier op. Output Bevestiging van ontvangst van de secretariaat van de CvD. Wie? Betrokkene
+Secretariaat van de CvD
+2. Behandeling door het secretariaat van de Commissie van Deskundigen
+Input Informatie mbt verzoek
+Activiteit Het secretariaat behandelt de informatie en geleid het dossier door aan de Commissie van Deskundigen. Indien er geen besluit van de Toezichthouder nodig is geeft het secretariaat terugkoppeling  aan de betrokkene
+met betrekking tot het dossier. Output
+Dossier voor de CvD
+Terugkoppeling aan de betrokkene
+Wie? Secretariaat van de CvD
+Betrokkene
+CvD
+3. Behandeling door de Commissie van Deskundigen
+Input Dossier van het secretariaat
+Activiteit De CvD behandelt de informatie en stelt een advies op naar de Toezichthouder. Output Advies voor de ToezichthouderAfsprakenstelsel Elektronische Toegangsdiensten | pagina 3451. 2. Wie? Toezichthouder
+CvD
+4. Besluit door de Toezichthouder
+Input Advies van de CvD
+Activiteit
+De Toezichthouder maakt een besluit naar aanleiding van het advies van de CvD en deelt die mee aan de
+betrokkene
+Het secretariaat van de CvD ontvangt een kopie van het besluit
+Output Besluit
+Wie? Toezichthouder
+BetrokkeneAfsprakenstelsel Elektronische Toegangsdiensten | pagina 346Proces instandhouding en naleven
+Een goede naleving van het afsprakenstelsel is onontbeerlijk voor de veiligheid, betrouwbaarheid, geloofwaardigheid en het
+vertrouwen in het stelsel. Zowel de Deelnemers aan het Afsprakenstelsel als de Beheerorganisatie, BSNk en de
+Toezichthouder hebben een rol bij de instandhouding van het netwerk en de borging van het naleven van het
+Afsprakenstelsel. In eerste instantie gebeurt het toezien op de naleving zo veel mogelijk vanuit een zelfregulerend systeem en
+in goed onderling overleg tussen partijen in het Afsprakenstelsel. Om de veiligheid, betrouwbaarheid, geloofwaardigheid
+van en het vertrouwen in het Afsprakenstelsel te waarborgen kan het echter noodzakelijk zijn een correcte naleving te
+bewerkstelligen door middel van een interventie. De Toezichthouder houdt toezicht op de naleving van stelselafspraken
+door de Deelnemers, Beheerorganisatie en BSNk voor zover die betrekking hebben op de veilige en betrouwbare werking van
+het Afsprakenstelsel. Meldingen en klachten van Deelnemers, Beheerorganisatie, BSNk, Dienstverleners en Dienstafnemers ten aanzien van de
+veilige en betrouwbare werking van het Afsprakenstelsel worden aan de Toezichthouder gedaan. Doelstelling
+Het Proces instandhouding en naleving heeft als doel de veilige en betrouwbare werking, de geloofwaardigheid van en het
+vertrouwen in het gehele Afsprakenstelsel te borgen door middel van:
+het behandelen van signalen van Deelnemers, Beheerorganisatie, BSNk, Dienstverleners en Dienstafnemers. het behandelen van signalen vanuit de Beheerorganisatie omtrent de technische operationele status en de werking
+van het netwerk
+het beoordelen of afspraken genoemd in het Afsprakenstelsel (inzake de veilige en betrouwbare werking) naar
+behoren worden uitgevoerd
+het bewerkstelligen van naleving door middel van interventies
+Verantwoordelijkheden
+De   is eindverantwoordelijk voor de veilige en betrouwbare werking van het Afsprakenstelsel. Eigenaar
+Het toezicht op de veilige en betrouwbare werking van het Afsprakenstelsel is belegd bij de  . Om Toezichthouder
+de Toezichthouder te adviseren is een   ingesteld. De CvD wordt ambtelijke Commissie van Deskundigen (CvD)
+ondersteund door het   gevestigd bij Agentschap Telecom. Meldingen Secretariaat van de Commissie van Deskundigen
+en klachten, voor zover deze betrekking hebben op de betrouwbaarheid en veilige werking van het Afsprakenstelsel,
+worden door Deelnemers, Beheerorganisatie, BSNk, Dienstverleners en Dienstafnemers gedaan aan de
+Toezichthouder. De Beheerorganisatie is verantwoordelijk voor de instandhouding van de goede technische werking van de
+gemeenschappelijke voorzieningen in het Afsprakenstelsel, zoals de metadata- en dienstencatalogusaggregator,
+Mantis en de website  . De Beheerorganisatie controleert reactief, voornamelijk vanuit meldingen die eherkenning.nl
+conform het incidentmanagementproces worden gedaan en rapporteert aan de Toezichthouder omtrent de
+technische operationele status en werking van het netwerk. De   heeft zich verplicht tot het naleven van de stelselafspraken voor specifieke stelselrollen via de Deelnemer
+ondertekende Deelnemersovereenkomst. De   is zelf verantwoordelijk voor de veilige en betrouwbare werking van de online dienst die hij Dienstverlener (DV)
+aanbiedt. Voor aansluitingen op het Afsprakenstelsel sluit de Dienstverlener een contract met de
+Herkenningsmakelaar waarmee de Dienstverlener zich verplicht tot het nakomen van de  Gebruiksvoorwaarden
+. Daarnaast ondertekent de Dienstverlener een zelfverklaring ( Elektronische Toegangsdiensten Template
+). In het kader van indirecte controle is de Dienstverlener verplicht om een zelfverklaring zelfverklaring Dienstverlener
+af te leggen aan de Deelnemer over de naleving van de voor hem geldende stelselafspraken. De   (burgers, werknemers, consumenten) sluit een contract met de Middelenuitgever/ Dienstafnemer
+Authenticatiedienst en/of Machtigingenregister waarmee de Dienstafnemer zich verplicht tot het nakomen van
+voorwaarden voor het gebruik. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 347Overzicht processtappen
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 348Toelichting processtappen
+0a. Reactief bewaken netwerk en rapportage status van het netwerk
+Input Reguliere beheerprocessen
+Activiteit De Beheerorganisatie bewaakt de operationele werking van de eigen beheerobjecten. Deelnemers rapporteren periodiek aan de Beheerorganisatie over het gebruik van het afsprakenstelsel. Zie
+hiervoor het . De beheerorganisatie aggregeert deze informatie en rapporteert Proces managementrapportage
+die aan de Toezichthouder en het Tactisch Beraad. De Beheerorganisatie rapporteert over informatiestromen die uit de stelselbeheerprocessen komen en
+betrekking hebben op de veilige en betrouwbare werking van het afsprakenstelsel aan de Toezichthouder. Voorbeelden hiervan zijn:
+administraties in het kader van stelselwijzigingen, incidenten, managementinformatie, toetredingen en
+uittredingen,
+administraties van zowel de uitvoering als de uitkomsten van controles, zoals de rapporten van technische
+testen, penetratietesten en merkbescherming. Output Reguliere informatiestromen en rapportage over de werking van het afsprakenstelsel. Wie? Beheerorganisatie
+Toezichthouder
+0b. Melding of klacht
+Input Een vermoeden of feitelijke constatering van Deelnemers, Beheerorganisatie, BSNk, Dienstverleners en
+Dienstafnemers over niet-naleving van de stelselafspraken inzake de veilige en betrouwbare werking van het
+Afsprakenstelsel
+Activiteit Deelnemers, Beheerorganisatie, BSNk, Dienstverleners en Dienstafnemers in het Afsprakenstelsel kunnen een
+melding doen of een klacht indienen bij het secretariaat van de CvD als er een vermoeden van niet-naleving
+inzake de veilige en betrouwbare werking van het Afsprakenstelsel is. Informeren van de Toezichthouder vindt
+plaats via het secretariaat van de CvD conform het  . Proces informeren Toezichthouder
+Output Een melding of klacht
+Wie? Deelnemer, Beheerorganisatie, BSNk, Dienstverlener of Dienstafnemer die meldt
+Toezichthouder
+1. Informatie verzamelenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 349Input De Toezichthouder voert eigenstandig onderzoek uit ter toetsing van de conformiteit met het Afsprakenstelsel
+van Deelnemers, Beheerorganisatie en BSN-Koppelregister. Meldingen of klachten van Deelnemers, Beheerorganisatie, BSNk, Dienstverleners of Dienstafnemers kunnen
+naast eigen bevindingen van de Toezichthouder aanleiding zijn voor het starten van een onderzoek. Voorbeelden zijn:
+Melding over het niet-naleven van de stelselafspraken
+Meldingen van dienstverleners en dienstafnemers over de betrouwbaarheid en veiligheid van de geleverde
+stelseldiensten
+Persistente verschillen van inzicht tussen stelselpartijen over de interpretatie van het afsprakenstelsel voor
+zover deze de veiligheid van en het vertrouwen in het Afsprakenstelsel (kunnen) raken
+Activiteit Een Deelnemer, de Beheerorganisatie, BSNk, Dienstverlener of Dienstafnemer in het Afsprakenstelsel
+informeert de Toezichthouder via het secretariaat van de CvD via een melding of klacht. Het secretariaat van de CvD ontvangt de melding of klacht en toetst de ontvankelijkheid en communiceert de
+uitkomst aan de betrokken partij(-en). De Toezichthouder start uit eigen beweging een onderzoek. Output Mededeling over behandeling
+Wie? Deelnemer, Beheerorganisatie, BSNk, Dienstverlener of Dienstafnemer
+Toezichthouder
+Secretariaat van de Commissie van Deskundigen
+2. Analyseren informatie
+Input Melding, klacht, bevinding
+Activiteit Het Secretariaat van de Commissie van Deskundigen analyseert de informatie en stelt een analyse op van de
+verzamelde informatie. Bij het onderzoek wordt indien opportuun hoor en wederhoor toegepast. Output Analyserapport
+Wie? Secretariaat van de Commissie van Deskundigen
+Deelnemer, Beheerorganisatie, BSNk, Dienstverlener of Dienstafnemer
+3. Adviseren Toezichthouder
+Input Analyse
+Activiteit De Commissie van Deskundigen adviseert de Toezichthouder. Output Advies aan de ToezichthouderAfsprakenstelsel Elektronische Toegangsdiensten | pagina 350Wie? CvD
+Toezichthouder
+4. Aanwijzing van de Toezichthouder
+Input Advies aan de Toezichthouder
+Activiteit De Toezichthouder geeft al dan niet een aanwijzing, zoals genoemd in . De Inrichting toezicht
+betrokken Deelnemer(s), Beheerorganisatie, BSNk, Dienstverlener(s) of Dienstafnemer(s) worden door de
+Toezichthouder geïnformeerd. Merk op: Dit is niet een besluit in de zin van de Algemene wet bestuursrecht (Awb) en de Awb is in dit geval
+dan ook niet van op toepassing. Hier staat de civiele rechtsgang voor open. Output Aanwijzing
+Wie?

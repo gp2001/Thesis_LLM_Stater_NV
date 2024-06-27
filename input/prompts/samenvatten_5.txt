@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een gedetailleerde samenvatting van bepaalde informatie, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een gedetailleerde samenvatting van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord door in de tekst behaalde gegevens, die een goede gedetailleerde samenvatting geeft. Genereer een rejected antwoord die ook een samenvatting geeft, maar die belangrijke informatie weglaat. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "evol_instruct",
+    "chosen": [
+        {
+            "content": "Write a detailed summary of the key idea of the text and provide examples of how robotics has been utilized in modern society. Additionally, emphasize the importance of ethical considerations in the development and implementation of robotics technology to ensure the safety and well-being of both humans and the environment.",
+            "role": "user"
+        },
+        {
+            "content": "The key idea of the text revolves around the evolving role of robotics in modern society and the importance of striking a balance between advancing technology and maintaining ethical standards to protect humans and the environment. By delving into specific examples and emphasizing the need for ethical considerations, this summary invites further curiosity into how robotics can enhance our future while safeguarding the present.\n\nRobotics has transformed various aspects of our lives with myriad applications across numerous sectors. For instance, manufacturing industries have incorporated robots for tasks like assembly, welding, and packaging, significantly increasing productivity and precision. In healthcare, robots assist in intricate surgeries, rehabilitation, and elderly care, vastly improving patient outcomes and simplifying complex procedures. Additionally, robot-based delivery systems and self-driving vehicles have become more prevalent, reshaping transportation and introducing new levels of convenience. The growing prevalence of robotics can also be seen in the rapid development of consumer products such as drones, autonomous vacuum cleaners, and smart home devices.\n\nHowever, as the utilization of robotics expands, ethical considerations become paramount to ensure the safety and well-being of both humans and the environment. The integration of robotics into the workforce raises concerns over job displacement and the need to develop policies that foster equitable distribution of benefits. Ensuring transparency in robot design, especially with AI-integrated systems, is crucial to avoid biases in decision-making and to guarantee adherence to privacy regulations. Another ethical aspect is the development of robots for military purposes, which raises questions about the potential misuse of technology in armed conflicts, with severe humanitarian consequences. Lastly, environmental sustainability should be a priority in the research and development of robotics to minimize resource depletion and pollution.\n\nIn conclusion, robotics has significantly impacted modern society, offering innovative solutions across various sectors. However, the importance of ethical considerations cannot be overstated. By fostering safe, transparent, and environmentally conscious development, robotics technology can continue to enrich our lives while securing the health and well-being of humans and our planet.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Write a detailed summary of the key idea of the text and provide examples of how robotics has been utilized in modern society. Additionally, emphasize the importance of ethical considerations in the development and implementation of robotics technology to ensure the safety and well-being of both humans and the environment.",
+            "role": "user"
+        },
+        {
+            "content": "The key idea of the text is that robotics technology has been widely utilized in modern society, from manufacturing and industrial processes to healthcare and domestic assistance. Examples of these applications include autonomous drones for surveillance and delivery, surgical robots for precise procedures, and robotic assistants for elderly care and household chores. However, the ethical implications of robotics technology must also be considered. This includes ensuring the safety and well-being of both humans and the environment, as well as addressing issues such as privacy, data ownership, and potential job displacement. By prioritizing ethical considerations in the development and implementation of robotics technology, we can harness its benefits while minimizing any potential negative consequences.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Write a detailed summary of the key idea of the text and provide examples of how robotics has been utilized in modern society. Additionally, emphasize the importance of ethical considerations in the development and implementation of robotics technology to ensure the safety and well-being of both humans and the environment.",
+    "question": "Write a detailed summary of the key idea of the text and provide examples of how robotics has been utilized in modern society. Additionally, emphasize the importance of ethical considerations in the development and implementation of robotics technology to ensure the safety and well-being of both humans and the environment."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

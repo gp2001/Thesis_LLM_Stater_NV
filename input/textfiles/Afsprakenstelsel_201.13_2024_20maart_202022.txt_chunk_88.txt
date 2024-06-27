@@ -1,0 +1,30 @@
+The eIDAS specifications transfer both in one message, thus separating these in two calls is deemed ineffective. Request
+A HM MUST request the EB with an AuthnRequest,  identical to the AuthnRequest of the  . All Interface specifications HM-AD
+processing rules MUST be adhered to. Rules for procesing  request
+If a request is received for ECTA urn:etoegang:1.12:EntityConcernedID:BSN the EB must check if the Service Provider
+is entitiled to receive the BSN by checking if the Service Provider is listed on the  . Autorisatielijst BSN
+If the Service Provider is not listed the EB must handle the error as an unrecoverable error (: urn:oasis:names:
+tc:SAML:2.0:status:RequestUnsupported.). In case a portal service request is made at the eIDAS-berichtenservice, the HM MUST return a error message
+containing ResultMajor "RequesterError" and ResultMinor "NotSupported". Additional processing rules for request
+A receiving EB
+if the ServiceInstance belonging to the ServiceUUID in the AuthnRequest is NOT classified as 'eIDAS-inbound', MUST
+handle this as a non-recoverable error (see  ). Error handling
+The EB (in case of inbound authentication requests) MUST process the EntityConcernedTypesAllowed list
+Response
+The EB MUST construct an Assertion identical to the Assertion of an AD as defined in the . In Interface specifications HM-AD
+case an authentication in another eIDAS member state uses representation, the EB MUST construct an Assertion identical to
+the Assertion of an MR as defined in the . Interface specifications HM-MR
+The EB MUST respond to the AuthnRequest in a single SAML Response message (transferred via Artifact binding), using the
+following structure:
+@ID 1 SAML: Unique message characteristic. MUST identify the message uniquely within the scope of
+the sender and receiver for a period of at least 12 months. @InResponseTo 1 SAML: Unique attribute of the AuthnRequest for which this Response message is the answer. @Version 1 SAML: Version of the SAML protocol. The value MUST be '2.0'. @IssueInstant 1 SAML: Time of issuing of the Response. @Destination 1 SAML: URL of the endpoint of the HM on which the message is offered. MUST match the HM's
+metadata. @Consent 0 Elektronische Toegangsdiensten: MUST NOT be present
+Issuer 1 Elektronische Toegangsdiensten: MUST contain the   of the eIDAS-berichtenservice. EntityIDAfsprakenstelsel Elektronische Toegangsdiensten | pagina 600@NameQualifier 0 Elektronische Toegangsdiensten: MUST NOT be included. @SPNameQualifier 0 Elektronische Toegangsdiensten: MUST NOT be included. @Format 0 Elektronische Toegangsdiensten: MUST NOT be included. @SPProvidedID 0 Elektronische Toegangsdiensten: MUST NOT be included. Signature 0.. 1Elektronische Toegangsdiensten: MUST contain the  of the HM for the Digital signature
+enveloping message. When communicated within a ArtifactResolveResponse the signature on the SAML:Response
+MAY be omitted, since the parent message already guarantees the integrity. Extensions 0 Elektronische Toegangsdiensten: MUST NOT be included. Status 1 Elektronische Toegangsdiensten: MUST contain a StatusCode element with the status of the
+authentication. See . Error handling
+StatusCode 1 SAML: MUST be present in a Status element. @Value 1 If not 'success' additional information should be provided. (conform Elektronische
+Toegangsdiensten specifications). StatusCode 0.. 1Only present if top-level StatusCode is not success . ' '
+@Value 1 In the event of a cancellation or error, the element MUST be populated with the value
+AuthnFailed. See . Error handling
+StatusMessage 0..

@@ -1,0 +1,141 @@
+This hasn’t been
+reported for several years. In some cases where
+we have tracked this down, it was due to bugs in the video driver on the
+system in question: it makes changes to the floating point control word
+which are incompatible with R. (Good practice would restore the control
+word to the state it was in when the driver code was called, and R
+tries hard to correct this before running its own code.)  For example,
+one user reported that the virtual screen manager JSP2 caused this
+crash. These errors are essentially impossible for us to fix or work around
+beyond the measures already taken. The only solution we know of is for
+the user to replace the buggy system component that is causing the
+error. 2.22 Why does R never use more than 50% of my CPU? This is a misreading of Windows’ confusing Task Manager. R’s
+computation is single-threaded, and so it cannot use more than one CPU. What the task manager shows is not the usage in CPUs but the usage as a
+percentage of the apparent total number of CPUs. We say ‘apparent’ as
+it treats so-called ‘hyper-threaded’ CPUs such as two CPUs per core, and
+most modern CPUs have at least two cores. You can see how many ‘CPU’s are assumed by looking at the number of
+graphs of ‘CPU Usage History’ on the ‘Performance’ tab of the Windows
+Task manager. R itself would only use multiple CPUs during parallel installation of
+packages, which needs to be selected by user. Some contributed R packages
+use multiple CPUs or multiple threads. 2.23 Does R run under Windows 7/8/10/11/Server 2012/2016/2022? R 4.3 code base still conservatively uses features of Windows 7 and
+later only when available, and otherwise falls back to older features, so it
+might still run on 7, but this is minimally tested (see Q2.2), and the code
+is tuned for newer systems. Some performance work-arounds for old Windows
+systems past their end of support may be removed, such as a custom memory
+allocator removed in R 4.2. Since 4.2, R uses UTF-8 as the native encoding on recent Windows (see Q2.2). Earlier versions of Windows had user and Administrator accounts, and
+user accounts could be given administrative privileges (by being added to
+the local Administrators group) and so write permission over system
+areas such as . R would be installed either by
+users in their own file space or by an account with administrator
+privileges into a system area. Sysadmins could set policies for user
+accounts, and you might for example have needed to be a ‘Power User’ to
+install software at all. Vista and later normally disable the Administrator account and expect
+software installation to be done by an account which is in the local
+Administrator group with ‘admin approval mode’ turned on. (The
+Administrator account by default has it turned off.)  Unlike (say)
+Windows XP, such accounts do not run programs with full administrator
+privileges, and this is where the issues arise. These OSes have the
+concept of ‘over-the-shoulder’ credentials: if you are running without
+full administrator privileges and do something which needs them you may
+be prompted with one or more security-check dialog boxes, and may be
+required to provide administrator credentials or confirm that you really
+want to take that action. Vista and later will report that the R installer has an ‘unidentified
+publisher’ or ‘unknown publisher’ and ask if it should be run. System
+administrators can disable installing applications from non-trusted
+sources, in which case you will have to persuade them that R is
+trustworthy, or digitally sign the R installer yourself, or (unless this
+is also disabled) run the installer from a standard account and install
+into your own file area. If you install R as a standard user into your own file space and use it
+under the same account, there are no known permission issues. If you use the default Administrator account (without ‘admin approval
+mode’ being turned on) and install/update packages (in the system area
+or elsewhere), no issues are known. If you use an account in the local Administrators group in ‘admin
+approval mode’ (which is the intended norm under these OSes),
+installation will make use of ‘over-the-shoulder’ credentials. You will
+run into problems if you try installing (including updating) packages in
+the main R library. (It would be nice if at that point R could use
+over-the-shoulder credentials, but they apply to processes as a whole. Vista and later disallow creating files in the system area
+without credentials.)  There are several ways around. For an installation to be used by a single user, the simplest way is to
+make use of a ‘personal library’: See . For a site installation, you can create a site-wide library directory
+anywhere convenient, and add it to the default package search path for
+all users via in . See . There is a standard location for a
+site library, the directory in the top-level R
+folder (which you would need to create with full control for the R
+installation account). This will be used for installation in preference
+to the main library folder if it exists. This approach will not allow you to update the recommended packages
+unless you ‘Run as administrator’: we suggest you use an R session
+running under Administrator privileges when updating those. If you use an account in the local Administrators group in ‘admin approval
+mode’, you can still install R for the current user only in your own file
+space without using nor being asked for the ‘over-the-shoulder’ credentials. See Q2.4. Another issue with Vista was that the standard POSIX ways that R uses
+(e.g. in and ) to look at file
+permissions no longer worked reliably. was re-written
+to work with Windows NT-based security and the new version seems much
+more reliable with these OSes (but still not 100% correct). 2.24 Quotes don’t come out right on the console/terminal/pager. R 4.2 and later use UTF-8 as the native encoding on recent Windows (see Q2.2) and
+this should make also this previously reported problem disappear. With
+this feature, R automatically uses the 65001 code page (UTF-8). When using from the ( ) or , one may have to select a suitable font that has glyphs for the
+characters intended, such as ‘ ’ for Asian language). R may make use of directional quotes that were not always rendered
+correctly by Windows: these are used by default only by in
+suitable locales (not Chinese/Japanese/Korean). Whether these are used in R output (from functions and ) is controlled by whose
+default is except for the console. There are
+two potential problems with rendering directional quotes. The first is
+with running : in European locales the ‘Windows Command
+Prompt’ is by default set up to use MS-DOS and not Windows default
+encodings: this can be changed via , with being appropriate for Western European (including English)
+locales. The other is that the default raster fonts only include
+directional single quotes and not directional double quotes (which will
+probably be rendered as a filled rectangle). In R 4.2 and later
+on recent versions of Windows where UTF-8 is the native encoding, will automatically switch the console codepage to UTF-8. Directional quotes will also be used in text help which is normally
+displayed in R’s internal pager: these may not be rendered correctly in
+an external pager. They are also used in HTML help, where most browsers
+use fonts which render them correctly. The font used can affect whether quotes are rendered correctly. The
+default font in the console and internal pager is , which has directional quotes on all the systems we
+tried. which has elegant glyphs for directional
+quotes (but seems rather light unless ClearType is in use): is another font which we often select when ClearType is
+in use. Non-TrueType fonts such as and lack directional double quotes on the systems we tried. There is a related problem with using output in , for LaTeX needs to be told about the encoding of
+directional quotes by including in the LaTeX preamble e.g. (for a
+Western European locale) or their use suppressed by . 2.25 There is no tilde on my keyboard! Where tilde does not appear on the main keyboard, it can normally be
+accessed by pressing AltGr (the right Alt key) plus some other key. This is in Canadian (multilingual), German and Scandinavian
+layouts, in Eastern Europe, in Portuguese, or in Spanish, in Francophone Belgian, and so on. You
+can explore those for your keyboard via the ‘On-Screen Keyboard’ (under
+Ease of access on Windows 7). On all Windows versions you should be able to get tilde by holding the
+down the left Alt key and typing 0126 on the numeric keypad (if you have
+one), then releasing the Alt key. 2.26 Can I use R on 64-bit Windows? Yes, and this is the primarily used and the only tested option now. Since R
+4.2.0, 32-bit builds are no longer provided. The 32-bit build of R for Windows (R 4.1 and earlier) will run on both 32-bit and
+64-bit versions of Windows. 64-bit
+versions of Windows run 32-bit executables under the WOW (Windows on
+Windows) subsystem: they run in almost exactly the same way as on a
+32-bit version of Windows, except that the address limit for the R
+process is 4GB (rather than 2GB or perhaps 3GB). When R 4.1 and earlier is installed on 64-bit Windows there is the option of installing
+32- and/or 64-bit builds: the default is to install both. If you are
+using the 32-bit build, replace ‘ ’ by ‘ ’ in the
+examples in this FAQ. 2.27 Should I run 32-bit or 64-bit R? Obviously, only relevant if you are using 64-bit Windows. Since R 4.2.0, 32-bit builds are no longer provided. For most users we would recommend using the ‘native’ build, that is the
+32-bit version on 32-bit Windows and the 64-bit version of 64-bit Windows. The advantage of a native 64-bit application is that it gets a 64-bit
+address space and hence can address far more than 4GB (how much depends
+on the version of Windows, but in principle 8TB). This allows a single
+process to take advantage of more than 4GB of RAM (if available) and for
+R’s memory manager to more easily handle large objects (in particular
+those of 1GB or more). The disadvantages are that all the pointers are
+8 rather than 4 bytes and so small objects are larger and more data has
+to be moved around, and that less external software is (was) available for
+64-bit versions of the OS. The 64-bit compilers are able to take
+advantage of extra features of all x86-64 chips (more registers, SSE2/3
+instructions, …) and so the code may run faster despite using
+larger pointers. The 64-bit build is nowadays usually slightly faster
+than the 32-bit build on a recent CPU (Intel Core 2 or later or AMD
+equivalent). For advanced users the choice may be dictated by whether the contributed
+packages needed are available in 64-bit builds (although CRAN only
+offers 32/64-bit builds). The considerations can be more complex: for
+example 32/64-bit need 32/64-bit ODBC drivers respectively,
+and where both exist they may not be able to be installed together. An
+extreme example is the Microsoft Access/Excel ODBC drivers: if you have
+installed 64-bit Microsoft Office you can only install the 64-bit
+drivers and so need to use 64-bit and hence R. (And
+similarly for 32-bit Microsoft Office.) 2.28 Can both 32- and 64-bit R be installed on the same machine? Obviously, only relevant if the machine is running a 64-bit version of
+Windows – simply select both when using the installer. You can also go
+back and add 64-bit components to a 32-bit install, or . Since R 4.2.0, 32-bit builds are no longer provided. For many Registry items, 32- and 64-bit programs have different views of
+the Registry, but clashes can occur. The most obvious problem is the
+file association for files, which will use the last
+installation for which this option is selected, and if that was for an
+installation of both, will use 64-bit R. To change the association the
+safest way is to edit the Registry entry
+‘ ’
+and replace ‘ ’ by ‘ ’ or . 2.29 Rcmd is not found in my PATH! This has often been reported after an upgrade.

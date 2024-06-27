@@ -1,0 +1,63 @@
+Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 155
+Partij
+Een persoon of samenwerkingsverband die in de context van  voorkomt of zou kunnen voorkomen en die Herkenning
+zonodig uniek  en kan worden. Voorbeelden van partijen zijn: , , geïdentificeerd geauthenticeerd Deelnemers dienstverleners
+, vertegenwoordigden, , … bedrijven gemachtigden
+De term wordt gehanteerd als generalisatie. Herkomst
+Gebaseerd op Identified Entity Party , Principal en System Entity (SAML glossary) en (STORK Glossary and Acronyms v6.0 )
+Identifiable Entity (Modinis) en vervolgens specifiek gemaakt voor Afsprakenstelsel Elektronische Toegangsdiensten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 156
+Persistent Pseudoniem
+Een persistent Pseudoniem (P) is een  op basis van  . Het persistent Pseudoniem kan pseudoniem Polymorfe pseudonimisering
+door een daartoe gerechtigde   worden ontsleuteld uit een   door middel van  Ontvangende Partij Versleuteld Pseudoniem
+. Het persistent Pseudoniem is uniek voor die ontvangende partij en kan niet door andere partijen worden Sleutelmateriaal
+gerelateerd aan de oorspronkelijke identiteit op basis van kenmerken van het persistent Pseudoniem alleen. Het persistent Pseudoniem zoals bedoeld in polymorfe pseudonimisering moet niet worden verward met een  in pseudoniem
+algemene zin. De in het Afsprakenstelsel gebruikte Engelse vertaling van Pseudoniem is "persistent Pseudonym". Bron
+Eigen definitie specifiek voor de context van het afsprakenstelselAfsprakenstelsel Elektronische Toegangsdiensten | pagina 157
+Polymorfe Identiteit
+Een Polymorfe Identiteit (PI) is een specifiek cryptografisch element dat op aanvraag van een Middelenuitgever door
+het BSNk afgeleid kan worden van een identiteit van de Gebruiker (BSN in geval van het Publiek Domein). Het PI is specifiek
+voor de aanvragende Middelenuitgever en wordt daarom genoteerd als PI@MU. Het PI@MU kan gebruikt worden door een Authenticatiedienst om een Gebruiker te authenticeren. Dit kan als de
+Authenticatiedienst dezelfde partij is als de Middelenuitgever of als een Authenticatiedienst hiervoor speciaal geautoriseerd
+is door de betreffende Middelenuitgever (via "MU - AD affiliation" in de Metadata). In dat geval kan de Authenticatiedienst de
+PI@MU transformeren naar een Ontvangende Partij specifieke Versleutelde Identiteit ( ). VI@OP
+E  verschilt van een   in dat een   kan worden en Polymorfe Identiteit Polymorf Pseudoniem Polymorfe Identiteit
+getransformeerd naar een   waaruit (wanneer hiertoe gerechtigd) wél een BSN kan worden afgeleid; Versleutelde Identiteit
+waar een kan worden getransformeerd naar een   waaruit géén BSN kan Polymorf Pseudoniem Versleuteld Pseudoniem
+worden afgeleid, maar een  . Persistent Pseudoniem
+De in het Afsprakenstelsel gehanteerde Engelse vertaling van Polymorfe Identiteit is "Polymorphic Identity".Afsprakenstelsel Elektronische Toegangsdiensten | pagina 158
+Polymorfe pseudonimisering
+Een vorm van versleuteling, waarbij specifieke pseudoniemen voor een gebruiker worden gevormd per  , Ontvangende Partij
+zonder dat de vormende partij het specifiek pseudoniem kan herleiden of de identiteit van de gebruiker bij gebruik hoeft te
+kennen. Polymorfe pseudonimisering is gebaseerd op cryptografie, waardoor het onder andere de bovengenoemde eigenschappen
+kan bieden. Bron
+Eigen definitie specifiek voor de context van het afsprakenstelsel
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 159
+Polymorf Pseudoniem
+Een Polymorfe Pseudoniem (PP) is een specifiek cryptografisch element dat op aanvraag van een Middelenuitgever door het
+afgeleid wordt van een identiteit van de Gebruiker (BSN in geval van het Publiek Domein). Het PP is specifiek voor de BSNk
+aanvragende Middelenuitgever en wordt daarom genoteerd als PP@MU. Deze PP@MU wordt gebruikt door een Authenticatiedienst om een Gebruiker te authenticeren. Dit is mogelijk als de
+Authenticatiedienst dezelfde partij is als de Middelenuitgever of als een Authenticatiedienst hiervoor speciaal geautoriseerd
+is door de betreffende Middelenuitgever (via "MU - AD affiliation" in de Metadata). In dat geval zal de Authenticatiedienst de
+PP@MU transformeren naar een Ontvangende Partij specifiek   ( ). Versleuteld Pseudoniem VP@OP
+Een polymorf  pseudoniem verschilt van een   in dat een polymorf pseudoniem wordt getransformeerd Polymorfe Identiteit
+naar een   waaruit géén BSN kan worden afgeleid, maar een  ; waar een Versleuteld Pseudoniem Persistent Pseudoniem
+polymorfe identiteit kan worden getransformeerd naar een   waaruit (wanneer hiertoe gerechtigd) wél Versleutelde Identiteit
+een BSN kan worden afgeleid. De in het Afsprakenstelsel gehanteerde Engelse vertaling van Polymorf Pseudoniem is "Polymorphic Pseudonym".Afsprakenstelsel Elektronische Toegangsdiensten | pagina 160
+Privépersoon
+Een , echter uitsluitend voor situaties en dienstafnames bij niet-overheidsdienstverleners c.q. in B2C Natuurlijk persoon
+diensten. Herkomst
+Eigen definitieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 161
+Pseudoniem
+Een arbitrair  dat op basis van een bewerking van een ander identificerend kenmerk wordt Identificerend kenmerk
+geproduceerd op een wijze die steeds hetzelfde pseudoniem oplevert bij hetzelfde kenmerk zonder dat deze laatste herleid
+kan worden uit het pseudoniem. Er kunnen meerdere pseudoniemen bestaan bij één , ieder met een Identificerend kenmerk
+eigen werkingsdomein. In dat geval zijn twee pseudoniemen van hetzelfde kenmerk in verschillende domeinen niet aan
+elkaar te relateren. Herkomst
+Gebaseerd op ModinisAfsprakenstelsel Elektronische Toegangsdiensten | pagina 162
+Public Key Infrastructure (PKI)
+Een samenstel van architectuur, techniek, organisatie, procedures en regels, gebaseerd op ‘public key cryptografie’. Het doel
+is het hiermee mogelijk maken van betrouwbare elektronische communicatie en betrouwbare elektronische dienstverlening. Herkomst
+PKIoverheidAfsprakenstelsel Elektronische Toegangsdiensten | pagina 163Publieke domein
+Het domein waarbij interacties plaatsvinden tussen natuurlijke personen / niet-natuurlijke personen enerzijds en de
+Dienstverleners met een publieke taak anderzijds.

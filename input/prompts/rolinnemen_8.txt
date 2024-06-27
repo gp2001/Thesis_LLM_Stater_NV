@@ -1,0 +1,110 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek stelt eerst een vraag en vraagt daarna door, genereer een soortgelijk gesprek. Analyseer de txt, stel een prompt op die een vraag stelt over een onderwerp dat in de txt terugkomt en stel daarna nog meer vragen in hetzelfde gesprek. Ik wil dat in de prompt aangegeven wordt dat de assistent de rol van een taxateur moet innemen ("Reageer als een taxateur"). Genereer een chosen antwoord door in de tekst behaalde gegevens, waarin de assistent de rol van een taxateur inneemt (taalgebruik en kennis). Genereer een rejected gesprek waarbij wel de juiste antwoorden worden gegeven, maar niet in het taalgebruik van een taxateur. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "Dove",
+    "chosen": [
+        {
+            "content": "Pretend you are a AWS Solutions Architect. You are just wrapping up a project where you have implemented CloudWatch dashboards to monitor several AWS services. Write documentation for a customer to view Lambda, API Gateway, S3 and DynamoDB metrics on a CloudWatch Dashboard.\nThe CloudWatch dashboard is already created, the document is meant to inform customers on how to operate it",
+            "role": "user"
+        },
+        {
+            "content": "Title: **AWS CloudWatch Dashboard User Guide for Lambda, API Gateway, S3, and DynamoDB Metrics**\n\nWelcome to the AWS CloudWatch Dashboard User Guide! This guide will help you understand how to monitor and operate your AWS Lambda, API Gateway, S3, and DynamoDB services using the pre-configured CloudWatch Dashboard.\n\n**Table of Contents**\n\n1. Introduction to AWS CloudWatch Dashboards\n2. Navigating to the CloudWatch Dashboard\n3. Viewing Metrics on the Dashboard\n3.1 AWS Lambda Metrics\n3.2 AWS API Gateway Metrics\n3.3 AWS S3 Metrics\n3.4 AWS DynamoDB Metrics\n4. Customizing the Dashboard\n5. Setting Alarms and Notifications\n6. Conclusion\n\n**1. Introduction to AWS CloudWatch Dashboards**\n\nAWS CloudWatch Dashboards provide a customizable, graphical representation of your AWS resources' metrics. With the CloudWatch Dashboard, you can easily monitor your AWS resources' performance and status, identify trends, and troubleshoot issues.\n\n**2. Navigating to the CloudWatch Dashboard**\n\nTo access the CloudWatch Dashboard, follow these steps:\n\n1. Log in to the AWS Management Console.\n2. Navigate to the CloudWatch service by selecting \"Services\" from the top menu and searching for \"CloudWatch\" in the search bar.\n3. In the CloudWatch sidebar,",
+            "role": "assistant"
+        },
+        {
+            "content": "Continue generating, from In the CloudWatch sidebar,",
+            "role": "user"
+        },
+        {
+            "content": "click on \"Dashboards.\"\n4. Locate and click on the pre-configured dashboard for your project. The dashboard will load, displaying the metrics for Lambda, API Gateway, S3, and DynamoDB.\n\n**3. Viewing Metrics on the Dashboard**\n\nThe pre-configured CloudWatch Dashboard provides an organized view of your AWS resources' metrics. Here's a brief overview of the metrics displayed for each service:\n\n**3.1 AWS Lambda Metrics**\n\nAWS Lambda metrics include:\n\n* Invocations: The number of times your Lambda function is invoked.\n* Duration: The time taken to execute your Lambda function.\n* Errors: The number of failed invocations.\n* Throttles: The number of invocation requests that were throttled.\n\n**3.2 AWS API Gateway Metrics**\n\nAPI Gateway metrics include:\n\n* Count: The number of API calls made.\n* Latency: The time between when API Gateway receives a request and sends a response.\n* 4XX and 5XX Errors: The number of client and server-side errors, respectively.\n\n**3.3 AWS S3 Metrics**\n\nS3 metrics include:\n\n* NumberOfObjects: The total number of objects in your S3 bucket.\n* BucketSizeBytes: The total size of your S3 bucket in bytes.\n* AllRequests: The number of requests made to your S3 bucket.\n\n**3.4 AWS DynamoDB Metrics**\n\nDynamoDB metrics include:\n\n* ConsumedReadCapacityUnits and",
+            "role": "assistant"
+        },
+        {
+            "content": "continue",
+            "role": "user"
+        },
+        {
+            "content": "ConsumedWriteCapacityUnits: The number of read and write capacity units consumed by your DynamoDB table, respectively.\n\n* ThrottledRequests: The number of requests that were throttled due to exceeding provisioned throughput.\n* ReadThrottleEvents and WriteThrottleEvents: The number of read and write events that were throttled, respectively.\n\n**4. Customizing the Dashboard**\n\nTo customize the CloudWatch Dashboard, follow these steps:\n\n1. Click the \"Actions\" button in the top-right corner of the dashboard.\n2. Select \"Edit\" from the dropdown menu. The dashboard will enter edit mode.\n3. Click on any widget to modify its settings, such as the metric displayed, time range, or visualization type.\n4. To add a new widget, click the \"Add widget\" button in the top-right corner and choose the desired widget type.\n5. Configure the new widget by selecting the service, metric, and other options.\n6. Click \"Save changes\" to save your customizations and exit edit mode.\n\n**5. Setting Alarms and Notifications**\n\nTo create alarms and notifications based on your AWS resources' metrics, follow these steps:\n\n1. Navigate to the CloudWatch Alarms section by clicking \"Alarms\" in the CloudWatch sidebar.\n2. Click the \"Create alarm\" button.\n3. In the \"Create Alarm\" wizard, select the desired metric from the \"Select metric\" dropdown menu.\n4. Configure",
+            "role": "assistant"
+        },
+        {
+            "content": "continue",
+            "role": "user"
+        },
+        {
+            "content": "the alarm settings, such as the threshold, evaluation period, and comparison operator.\n5. Under \"Actions,\" choose what to do when the alarm changes state, such as sending a notification via SNS or stopping, terminating, or rebooting an EC2 instance.\n\n1. Click \"Create Alarm\" to finish the setup.\n\n**6. Conclusion**\n\nThis guide provided an overview of how to operate and customize the pre-configured CloudWatch Dashboard for monitoring AWS Lambda, API Gateway, S3, and DynamoDB services. By leveraging the dashboard, you can monitor your resources' performance, identify trends, and troubleshoot issues more efficiently. Additionally, you can set up alarms and notifications to ensure prompt action when your resources' metrics cross predefined thresholds.",
+            "role": "assistant"
+        },
+        {
+            "content": "include a section on AWS X-ray and how it can be used to trace Lambdas and API gateway",
+            "role": "user"
+        },
+        {
+            "content": "**7. AWS X-Ray: Tracing Lambdas and API Gateway**\n\nAWS X-Ray is a service that enables you to monitor and analyze the performance of your distributed applications, including Lambda functions and API Gateway. By using X-Ray, you can visualize and trace the flow of requests, identify performance bottlenecks, and troubleshoot issues within your application.\n\n**7.1 Enabling X-Ray for Lambda**\n\nTo enable X-Ray tracing for your Lambda functions, follow these steps:\n\n1. Navigate to the AWS Lambda console.\n2. Select the desired Lambda function.\n3. Under the \"Configuration\" tab, click on \"Monitoring and operations tools.\"\n4. Toggle the \"Enable active tracing\" switch to enable X-Ray tracing.\n5. Save your changes.\n\nNote: Make sure the required IAM permissions are in place for your Lambda function to use X-Ray.\n\n**7.2 Enabling X-Ray for API Gateway**\n\nTo enable X-Ray tracing for your API Gateway, follow these steps:\n\n1. Navigate to the API Gateway console.\n2. Select the desired API.\n3. Click on the \"Stages\" menu item in the left sidebar.\n4. Select the desired stage.\n5. Under the \"Logs/Tracing\" tab, toggle the \"Enable X-Ray Tracing\" switch.\n6. Click \"Save Changes\" to apply the settings.\n\n**7.3 Using X-Ray to Trace and Analyze Performance**\n\nOnce X-Ray",
+            "role": "assistant"
+        },
+        {
+            "content": "continue",
+            "role": "user"
+        },
+        {
+            "content": "is enabled for your Lambda functions and API Gateway, you can use the X-Ray service to trace and analyze performance:\n\n1. Access the AWS X-Ray console by selecting \"Services\" and searching for \"X-Ray\" in the search bar.\n2. In the X-Ray console, you'll find several features to help you understand and optimize your application's performance:\n\t* \"Services\" tab: Lists your services (e.g., API Gateway) and subordinate resources such as Lambda functions.\n\t* \"Groups\" tab: Displays groups of related resources, which can be useful for identifying and troubleshooting issues within your application.\n\t* \"Traces\" tab: Shows individual trace records, which represent a single request's journey through your application. Traces give you detailed information about the request's latency, error rates, and resource usage.\n3. Use the X-Ray UI to explore and analyze your application's performance:\n\t* Click on a service or resource in the \"Services\" tab to view a list of related traces.\n\t* Click on a trace in the \"Traces\" tab to view detailed information about that request, including timelines, errors, and resource usage.\n\t* Use the filters in the top right corner of the X-Ray UI to refine",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Pretend you are a AWS Solutions Architect. You are just wrapping up a project where you have implemented CloudWatch dashboards to monitor several AWS services. Write documentation for a customer to view Lambda, API Gateway, S3 and DynamoDB metrics on a CloudWatch Dashboard.\nThe CloudWatch dashboard is already created, the document is meant to inform customers on how to operate it",
+            "role": "user"
+        },
+        {
+            "content": "Title: **AWS CloudWatch Dashboard User Guide for Lambda, API Gateway, S3, and DynamoDB Metrics**\n\nWelcome to the AWS CloudWatch Dashboard User Guide! This guide will help you understand how to monitor and operate your AWS Lambda, API Gateway, S3, and DynamoDB services using the pre-configured CloudWatch Dashboard.\n\n**Table of Contents**\n\n1. Introduction to AWS CloudWatch Dashboards\n2. Navigating to the CloudWatch Dashboard\n3. Viewing Metrics on the Dashboard\n3.1 AWS Lambda Metrics\n3.2 AWS API Gateway Metrics\n3.3 AWS S3 Metrics\n3.4 AWS DynamoDB Metrics\n4. Customizing the Dashboard\n5. Setting Alarms and Notifications\n6. Conclusion\n\n**1. Introduction to AWS CloudWatch Dashboards**\n\nAWS CloudWatch Dashboards provide a customizable, graphical representation of your AWS resources' metrics. With the CloudWatch Dashboard, you can easily monitor your AWS resources' performance and status, identify trends, and troubleshoot issues.\n\n**2. Navigating to the CloudWatch Dashboard**\n\nTo access the CloudWatch Dashboard, follow these steps:\n\n1. Log in to the AWS Management Console.\n2. Navigate to the CloudWatch service by selecting \"Services\" from the top menu and searching for \"CloudWatch\" in the search bar.\n3. In the CloudWatch sidebar,",
+            "role": "assistant"
+        },
+        {
+            "content": "Continue generating, from In the CloudWatch sidebar,",
+            "role": "user"
+        },
+        {
+            "content": "click on \"Dashboards.\"\n4. Locate and click on the pre-configured dashboard for your project. The dashboard will load, displaying the metrics for Lambda, API Gateway, S3, and DynamoDB.\n\n**3. Viewing Metrics on the Dashboard**\n\nThe pre-configured CloudWatch Dashboard provides an organized view of your AWS resources' metrics. Here's a brief overview of the metrics displayed for each service:\n\n**3.1 AWS Lambda Metrics**\n\nAWS Lambda metrics include:\n\n* Invocations: The number of times your Lambda function is invoked.\n* Duration: The time taken to execute your Lambda function.\n* Errors: The number of failed invocations.\n* Throttles: The number of invocation requests that were throttled.\n\n**3.2 AWS API Gateway Metrics**\n\nAPI Gateway metrics include:\n\n* Count: The number of API calls made.\n* Latency: The time between when API Gateway receives a request and sends a response.\n* 4XX and 5XX Errors: The number of client and server-side errors, respectively.\n\n**3.3 AWS S3 Metrics**\n\nS3 metrics include:\n\n* NumberOfObjects: The total number of objects in your S3 bucket.\n* BucketSizeBytes: The total size of your S3 bucket in bytes.\n* AllRequests: The number of requests made to your S3 bucket.\n\n**3.4 AWS DynamoDB Metrics**\n\nDynamoDB metrics include:\n\n* ConsumedReadCapacityUnits and",
+            "role": "assistant"
+        },
+        {
+            "content": "continue",
+            "role": "user"
+        },
+        {
+            "content": "ConsumedWriteCapacityUnits: The number of read and write capacity units consumed by your DynamoDB table, respectively.\n\n* ThrottledRequests: The number of requests that were throttled due to exceeding provisioned throughput.\n* ReadThrottleEvents and WriteThrottleEvents: The number of read and write events that were throttled, respectively.\n\n**4. Customizing the Dashboard**\n\nTo customize the CloudWatch Dashboard, follow these steps:\n\n1. Click the \"Actions\" button in the top-right corner of the dashboard.\n2. Select \"Edit\" from the dropdown menu. The dashboard will enter edit mode.\n3. Click on any widget to modify its settings, such as the metric displayed, time range, or visualization type.\n4. To add a new widget, click the \"Add widget\" button in the top-right corner and choose the desired widget type.\n5. Configure the new widget by selecting the service, metric, and other options.\n6. Click \"Save changes\" to save your customizations and exit edit mode.\n\n**5. Setting Alarms and Notifications**\n\nTo create alarms and notifications based on your AWS resources' metrics, follow these steps:\n\n1. Navigate to the CloudWatch Alarms section by clicking \"Alarms\" in the CloudWatch sidebar.\n2. Click the \"Create alarm\" button.\n3. In the \"Create Alarm\" wizard, select the desired metric from the \"Select metric\" dropdown menu.\n4. Configure",
+            "role": "assistant"
+        },
+        {
+            "content": "continue",
+            "role": "user"
+        },
+        {
+            "content": "the alarm settings, such as the threshold, evaluation period, and comparison operator.\n5. Under \"Actions,\" choose what to do when the alarm changes state, such as sending a notification via SNS or stopping, terminating, or rebooting an EC2 instance.\n\n1. Click \"Create Alarm\" to finish the setup.\n\n**6. Conclusion**\n\nThis guide provided an overview of how to operate and customize the pre-configured CloudWatch Dashboard for monitoring AWS Lambda, API Gateway, S3, and DynamoDB services. By leveraging the dashboard, you can monitor your resources' performance, identify trends, and troubleshoot issues more efficiently. Additionally, you can set up alarms and notifications to ensure prompt action when your resources' metrics cross predefined thresholds.",
+            "role": "assistant"
+        },
+        {
+            "content": "include a section on AWS X-ray and how it can be used to trace Lambdas and API gateway",
+            "role": "user"
+        },
+        {
+            "content": "**7. AWS X-Ray: Tracing Lambdas and API Gateway**\n\nAWS X-Ray is a service that enables you to monitor and analyze the performance of your distributed applications, including Lambda functions and API Gateway. By using X-Ray, you can visualize and trace the flow of requests, identify performance bottlenecks, and troubleshoot issues within your application.\n\n**7.1 Enabling X-Ray for Lambda**\n\nTo enable X-Ray tracing for your Lambda functions, follow these steps:\n\n1. Navigate to the AWS Lambda console.\n2. Select the desired Lambda function.\n3. Under the \"Configuration\" tab, click on \"Monitoring and operations tools.\"\n4. Toggle the \"Enable active tracing\" switch to enable X-Ray tracing.\n5. Save your changes.\n\nNote: Make sure the required IAM permissions are in place for your Lambda function to use X-Ray.\n\n**7.2 Enabling X-Ray for API Gateway**\n\nTo enable X-Ray tracing for your API Gateway, follow these steps:\n\n1. Navigate to the API Gateway console.\n2. Select the desired API.\n3. Click on the \"Stages\" menu item in the left sidebar.\n4. Select the desired stage.\n5. Under the \"Logs/Tracing\" tab, toggle the \"Enable X-Ray Tracing\" switch.\n6. Click \"Save Changes\" to apply the settings.\n\n**7.3 Using X-Ray to Trace and Analyze Performance**\n\nOnce X-Ray",
+            "role": "assistant"
+        },
+        {
+            "content": "continue",
+            "role": "user"
+        },
+        {
+            "content": "is enabled for your Lambdas and API Gateway, you can use the AWS Management Console or the AWS X-Ray SDK to analyze the performance of your distributed applications. The X-Ray console displays a visualization of your application's call graph, where each component is represented by a node, and the calls between them by edges. You can click on a node to inspect its details, such as response times, error rates, and resource utilization.\n\nBy analyzing the call graph, you can identify performance bottlenecks and service interactions that impact your application's performance. Furthermore, you can use X-Ray to trace individual requests, following their flow through your application's components and identifying any issues, such as failing requests, slow responses, or error-prone code.\n\n**7.4 Conclusion**\n\nAWS X-Ray is an essential service in modern distributed systems engineering. By using X-Ray, you can trace and analyze the performance of your AWS Lambda functions and API Gateway API, identifying performance bottlenecks and resolving issues within your application. Incorporating X-Ray into your monitoring architecture is essential for achieving better team visibility, improving customer experiences, and ultimately, reducing costs through better decision making.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Pretend you are a AWS Solutions Architect. You are just wrapping up a project where you have implemented CloudWatch dashboards to monitor several AWS services. Write documentation for a customer to view Lambda, API Gateway, S3 and DynamoDB metrics on a CloudWatch Dashboard.\nThe CloudWatch dashboard is already created, the document is meant to inform customers on how to operate it",
+    "question": "Pretend you are a AWS Solutions Architect. You are just wrapping up a project where you have implemented CloudWatch dashboards to monitor several AWS services. Write documentation for a customer to view Lambda, API Gateway, S3 and DynamoDB metrics on a CloudWatch Dashboard.\nThe CloudWatch dashboard is already created, the document is meant to inform customers on how to operate it"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij! 
+```json

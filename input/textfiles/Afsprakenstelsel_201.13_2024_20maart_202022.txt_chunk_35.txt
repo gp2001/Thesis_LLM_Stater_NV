@@ -1,0 +1,24 @@
+Technisch beheerder beheerorganisatie
+Technisch beheerders deelnemers
+5. Terugkoppeling onjuistheden dienstencatalogus
+Input Feedback op dienstencatalogus entries uit de praktijk
+Activiteit
+Indien een deelnemer tijdens de uitvoering van zijn werkzaamheden constateert dat een
+dienstencatalogus entry onjuist is, MOET hij dat melden aan de desbetreffende Herkenningsmakelaar
+(direct of via een issue in ). Mantis
+Voorbeelden van onjuiste dienstencatalogus entries zijn onder andere:
+Structureel andere betrouwbaarheidsniveaus uitgevraagd dan beschreven;
+Dienst ondersteunt andere dienstafnemers dan beschreven;
+Dienst staat beschreven als 'IsPublic=true' maar er is geen internetpagina voor de dienst;
+Beschrijving van dienst is onjuist of onbruikbaar voor het kunnen uitgeven van machtigingen. Dienstbemiddeling zonder toestemming
+Bij meldingen aan de Herkenningsmakelaar (direct of via ) neemt deze contact op met de dienstverlener Mantis
+om wijzigingen te vragen van de dienstbeschrijving (keer terug naar stap 1 van dit proces). Output Input voor nieuw proces doorvoeren nieuwe dienstencatalogus. Wie? Technisch beheerder deelnemer
+Technisch beheerder beheerorganisatieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 319Proces implementatie koppelvlakreleaseAfsprakenstelsel Elektronische Toegangsdiensten | pagina 320Doelstelling
+Het realiseren van een nieuwe versie van een release door alle betrokken partijen is complex vanwege de onderlinge
+afhankelijkheden. Het eindresultaat hiervan is dat de nieuwe functionaliteit op een afgesproken moment voor alle
+Samenwerking vanuit alle betrokken partijen is nodig om gebruikers en dienstverleners in het stelsel beschikbaar is. de
+een succes te maken in een omgeving waarbij de marktpartijen ook concurrenten van elkaar zijn. implementatie
+Een implementatie vergt daarom goede coördinatie en goede afspraken van wat  van elkaar mogen verwachten. De partijen
+release manager heeft de taak om dit te organiseren; de betrokken partijen zelf zijn verantwoordelijk voor de invulling
+daarvan.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 321Overzicht processtappenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 322
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3231. 1. 2.

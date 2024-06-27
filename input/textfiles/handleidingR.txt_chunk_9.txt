@@ -1,0 +1,163 @@
+Decomponentenvaneenlistkunnen optweemanieren geselecteerd worden. -Percomponentnummer:z[[i]] isdei-decomponent.Gebruik dubbelevierkantehaken! -Percomponentnaam:z$naam isdecomponentmetnaam naam. > #vervolg vanhetvoorgaande display
+> #devolgende 4opdrachten hebbenidentieke uitvoer
+>z[[2]]
+>z$residuals
+>z$r
+[1]1.1562909 -2.1479019 1.4187857 -1.0190293 0.5918546
+Inditgevalisdegeslecteerde componentvandelisteenvector terlengte 5.Volgens het
+format voorhetselecteren vancoordinaten vanvectoren kanvervolgens eencoordinaat van
+dezevectorworden geselecteerd. >z$r[4] #vierdecoordinaat vanz$r=hetvierderesidu
+[1]-1.019029
+Eenlistkanworden gevormd metbehulpvanhetcommando list.Hierbij kunnen dena-
+menvandecomponentenonmiddelijk worden meegegev enmetbehulpvanhet=symbool. >x<-1:5
+>y<-list(getallen=x, waarofniet=T)
+>y
+$getallen:
+[1]12345
+$waarofniet:
+[1]TRUE24 9:Matrices enArrays
+Defunctienames bevatdenamen vandecomponentenvaneenlist.Dezefunctie kanookworden
+gebruikt omdenamen teveranderen. > #vervolg voorgaand display
+>names(y)
+1]"getallen" "waarofniet"
+>
+>names(y) <-c("nummers", "waar")
+Aaneenlistkunnen extra componentenworden toegevoegddoortoekenning aaneengeselecteerde
+component. > #vervolg voorgaand display
+>y[[3]]<-1:3;y$vier<-"c"
+>y
+$nummers:
+[1]12345
+$waar:
+[1]TRUE
+[[3]]:
+[1]123
+$vier:
+[1]"c"
+9.MATRICES ENARRA YS
+Eenmatrix kanoptweemanieren uiteenvectorworden gecreeerd. >#detweeopdrachten .. >x<-1:8
+>dim(x)<-c(2,4)
+>#..hebbenhetzelfde resultaat alsdeeneopdracht
+>x<-matrix(1:8,2,4, byrow=F)
+>x
+[,1][,2][,3][,4]
+[1,] 1357
+[2,] 2468Matrix-Subscripts 25
+Bijhetgebruik vanzoweldefunctiedimalsdefunctiematrix wordteenmatrix bijdefault
+kolomsgewijs opgevuld metdecoordinaten vandevector. Bijgebruik vanmatrix kandeze
+default worden doorbrok endoorhetargumen tbyrow=T meetegeven. Eenmatrix kanookworden gemaakt dooreenaantalvectoren vangelijkelengte koloms-
+ofrijsgewijs tecombineren metdefunctiescbind enrbind . >cbind(c(1,2),c(3,4))
+[,1][,2]
+[1,] 13
+[2,] 24
+Eenmatrix magworden opgevatalseenbijzonder soortvector: eenvector meteenextra
+attribuut dim.Allenumeriek ebewerkingen diecoordinaatsgewijs opvectoren kunnen
+worden uitgev oerd,kunnen ookopmatrices worden toegepast. >max(x)
+[1]8
+>x*x^2
+[,1][,2][,3][,4]
+[1,] 127125343
+[2,] 864216512
+Daarnaast zijnertalloze functies diespeciek opmatrices werken.Matrix vermenigvuldi-
+gingis%*%endegetransp oneerde ist(x). >matrix(1:4,2,2, byrow=T) %*%x
+[,1][,2][,3][,4]
+[1,] 5111723
+[2,]11253953
+>
+>t(x)
+[,1][,2]
+[1,] 12
+[2,] 34
+[3,] 56
+[4,] 78
+Defunctieapply pasteenalsargumen tgegevenfunctie toeopallerijenofkolommen van
+eenmatrix. >apply(x,1,mean) #vormtdegemiddelden vanderijenvanx
+>apply(x,2,max) #vormtdemaximavandekolommen vanx26 Arrays
+Matrix-Subscripts
+Delen vaneenmatrixxkunnen worden geselecteerd volgens hetschemax[subscript ].Hierin
+heeftsubscript eenvandrievormen. -Eenpaar(rijen,kolommen ),waarinrijendegewenste rijnummers enkolommen degewen-
+stekolomn ummers zijn. `Lege' collecties rijen en/of kolommen betekenenallerijen of
+kolommen . >x[i,j] #het(i,j)-de element
+>x[i,] #dei-derij
+>x[3,c(1,5)] #deelementen inde3-derijen1-steen5-dekolom
+>x[,-j] #allesbehalve dej-dekolom
+-Eenlogischematrix vandezelfde vormalsx.Hetresultaat iseenvector. >x[x>5]
+[1]678
+>x>5
+[,1] [,2] [,3] [,4]
+[1,] FALSE FALSE FALSE TRUE
+[2,] FALSE FALSE TRUE TRUE
+functienaam operatie
+ncol(x) aantalkolommen vaneenmatrix
+nrow(x) aantalrijenvaneenmatrix
+t(x) getransp oneerde vaneenmatrix
+diag(x) maak eendiagonaalmatrix uiteenvectorof
+vormdediagonaalv ectoruiteenmatrix
+col(x) matrix vankolomn ummers
+row(x) matrix vanrijnummers
+cbind( :::) combineer kolommen toteenmatrix
+rbind( :::) combineer rijentoteenmatrix
+apply(x,1,functie) pasfunctie toeopderijenvandematrix
+apply(x,2,functie) pasfunctie toeopdekolommen vandematrix
+%*% matrix vermenigvuldiging
+solve(x) inversevaneenmatrix
+solve(A,b) oplossing vanhetstelsel Ax=b
+eigen(x) eigenwaarden
+chol(x) choleski decomp ositie
+qr(x) q-rdecomp ositie
+svd(x) singuliere waarden decomp ositie
+cancor(x,y) canonisc hecorrelaties
+var(x) covariantiematrix vandekolommen
+Tabel6.Enkelematrix functies10:Data-F rames 27
+Arrays
+Matrices zijntweedimensionale arrays.Deelemen taireoperaties opalgemene arrayszijn
+analoogaandievoormatrices. Defunctiedimnames bevatdenamen vanderijenenkolommen vaneenmatrix. >a #eenkarakter matrix
+sexheightweight
+Jansen"M""1.79""75"
+Pietersen "V""1.61""58"
+Klaassen "V""0.80""23"
+>dimnames(a) #eenlistmettweekarakter vectoren
+[[1]]: alscomponenten
+[1]"Jansen" "Pietersen" "Klaassen"
+[[2]]:
+[1]"sex" "height" "weight"
+>dim(a)
+[1]33
+10.DATA-FRAMES
+Deelemen tenvaneenmatrix alsbesprok enindevorigesectie moetenallemaal dezelfde
+modebezitten: bijvoorbeeldnumeriek, karakter oflogisch.Eendata.frame isinessentie
+eenmatrix waarvandekolommen vanverschillendemodemogen zijn.Dezedatastructuur
+isvooralinteressan tinverband methetread.table commando omtabellenintelezen. (Zieverderop.) Eendata.frame kanookworden gemaakt metbehulpvanhetcommando
+vandezelfde naam. >x<-c("M","V","V")
+>y<-c(1.79,1.61,0.80)
+>z<-c(T,F,T)
+>data.frame(x,y,z)
+xyz
+1M1.79TRUE
+2V1.61FALSE
+3V0.80TRUE28 11:Input enOutput
+11.INPUT ENOUTPUT
+Voorhetinvoerenvangrote data-sets ishetgebruik vandefunctiecnietaanbevolen. De
+bestemanier isomdedataeerstintetypenineenUNIX-lemetbehulpvaneeneditor
+naarkeuzeenvervolgens binnen Rgebruik temakenvandefunctiescan ofdefunctie
+read.table .Hetvoordeel is,dattypfouten metbehulpvandeeditor gemakk elijkkunnen
+worden verbeterd. Inlezen vanVectoren
+Desnelste manier omnumeriek edataintevoerenismetdefunctiescan. >x<-scan(" lenaam")
+Hierin islenaam debetreende UNIXtekstle. Deaanhalingstek enszijnverplicht.Inde
+bovenstaande vormleestdefunctiescandegetallen regelperregel, waarbij degetallen
+gescheiden moetenzijndoorwitte ruimte:eenspatie, tabofnieuweregel. Meteenoptie
+kandesgew ensteenandere separator worden gebruikt. Indezebasisv ormmagde`tekst'le
+alleen getallen bevatten. Meteenandere optie kunnen karakter strings inplaats van
+getallen worden gelezen. Hetresultaat issteeds eenvector, hoewelvaneenvectornatuurlijk
+meteen eenmatrix kanworden gemaakt. >x<-matrix(scan(" lenaam"),10,3) #eenfilemet30getallen
+Ookvoorhetinvoerenvankleine datasets isscansomshandig. Alsgeenlealsargumen t
+wordtgegeven,verwachtscandeinput vanhettoetsenbord. >x<-scan()
+1:12.53.14159 (ingetypt ophettoetsenbord)
+4: (RETURN)
+3itemsread
+>x
+[1]1.00000 2.50000 3.14159
+Deinput wordtafgesloten meteenRETURN ofeenCONTROL -Dopeenlegeregel. Inlezen vanTabellen
+Inveelgevallenbestaat eendataset uiteentabelwaarin degetallen oftekstopiedere regel
+degegevensaangaande eenobjectbetreft. Bijvoorbeeld,eenUNIX-lekandevolgende
+structuur bezitten.

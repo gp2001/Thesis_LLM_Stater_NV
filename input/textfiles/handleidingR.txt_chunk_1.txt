@@ -1,0 +1,50 @@
+Handleiding R
+3/21/2006
+A.W. vanderVaart
+nabewerktdoorM.A. Jonker
+Faculteit derExacte Wetensc happen
+VrijeUniversiteit2
+Deze handleiding isvolledig gebaseerd opdehandleiding S-plus dieisgeschrevendoor
+A.W. vanderVaart.OpenkelepuntenheeftM.A. JonkerdeS-plus handleiding gewijzigd,
+zodathetdiktaat tegebruik enisvoorR.Ditheeft zegedaan doortecontroleren ofde
+S-plus functies nogbestaan enogensc hijnlijk noghetzelfde werken.ZowelA.W. vander
+VaartalsM.A. Jonkervoelenzichnietverantwoordelijk vooreventuelefouten dieontstaan
+doorhetgebruik envandezehandleiding.3
+Inhoud
+1.Manual.................................4
+2.Starten enStopp envanR.........................4
+3.EenVoorbeeldSessie ...........................5
+4.Hulp ..................................6
+5.Vectoren ................................6
+RekenenmetVectoren; Rekenkundige Functies ...............7
+Genereren vanRoosterpun ten ......................8
+Logisc heenKarakter Vectoren ......................9
+Missing Data .............................11
+Subscripts ...............................11
+6.Functies ................................12
+Data-Manipulatie ...........................13
+Statistisc heSamen vattingen .......................14
+Kansv erdelingen enToevalsgetallen ....................15
+7.Graek en................................17
+EnkeleHighLevelPlotfuncties ....................21
+EnkeleLowLevelPlotfuncties ....................21
+8.Lists ..................................22
+9.Matrices enArrays............................24
+Matrix-Subscripts .........................25
+Arrays..............................26
+10.Data-F rames ..............................27
+11.Input enOutput ............................28
+Inlezen vanVectoren ........................28
+Inlezen vanTabellen ........................28
+DataEditing ...........................29
+12.ZelfFuncties Schrijven..........................30
+13.If,For,While, Repeat..........................33
+14.DataDirectories ............................35
+15.Categorisc heData ...........................354 1:Manual
+1.MANUAL
+Ditiseenkortehandleiding voorhetgebruik vanRineenUNIX-omgeving. Alleen de
+belangrijkste mogelijkheden vandetaalkomen hieraandeorde. Vooruitgebreidere infor-
+matie overRverwijzen wenaardeuser's manuals.Hierin worden bijvoorbeelddevelemo-
+gelijkheden beschrevenvoorhetgebruik vankarakter variabelen,geavanceerde graek en,
+engespecialiseerde statistisc hetechnieken,zoalsvariantieanalyse, glim, nonparametrisc he
+regressie, tijdreeksanalyse ensurviv alanalyse.

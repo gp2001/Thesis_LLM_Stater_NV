@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een korte samenvatting over een bepaald onderwerp, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een korte samenvatting van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord door in de tekst behaalde gegevens, die een goede, maar korte samenvatting geeft. Genereer een rejected antwoord die ook een samenvatting geeft, maar die te gedetailleerd is. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "Write a short summary of the movie \"The banshees of Inisherin\". The summary should be written well.",
+            "role": "user"
+        },
+        {
+            "content": "In the enthralling cinematic experience, \"The Banshees of Inisherin,\" a small, seemingly idyllic Irish island conceals ancient secrets and whispers of the supernatural. As the mists cloak the shores, the air carries haunting cries that echo through the night \u2013 the dread-inspiring wails of the banshees. \n\nThe story follows Aisling, a young woman who returns to her ancestral home on Inisherin in search of answers about her mysterious family's past. As the eerie sounds of the banshees fill the air, a chilling sensation engulfs the island and its inhabitants, sending the forgotten tales of curses and hauntings rippling through the community.\n\nTensions rise as Aisling delves deeper into the secrets of her ancestral home, awakening ancient spirits that wield unimaginable powers. Each harrowing shriek propels her closer to an ominous confrontation with the forces of darkness, bringing her face to face with the spectral apparitions that have haunted her lineage for generations.\n\nAs Aisling unravels the twisted threads of Inisherin's ominous past, the island's inhabitants must confront their own buried secrets and fears. In a heart-stopping climax, they are forced to unite against the vengeful banshees in a battle that will decide the fate of Inisherin and its people forever.\n\n\"The Banshees of Inisherin\" is an enthralling cinematic masterpiece that weaves together the rich tapestry of Ireland's spooky folklore and a gripping tale of redemption, courage, and the never-ending struggle between light and darkness.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Write a short summary of the movie \"The banshees of Inisherin\". The summary should be written well.",
+            "role": "user"
+        },
+        {
+            "content": "\"The Banshees of Inisherin\" is a hauntingly beautiful film that takes viewers on a journey through the rocky mountains and rolling hills of Ireland. Two lifelong friends, played by Colin Farrell and Brendan Gleeson, are torn apart by a tragic event and must navigate the treacherous waters of grief, guilt, and betrayal. As they journey through the rugged landscape, they encounter a cast of colorful characters, each with their own secrets and scars. The film is a poignant exploration of the bonds of friendship, the weight of the past, and the power of forgiveness. With stunning cinematography and pitch-perfect performances, \"The Banshees of Inisherin\" is a must-see for fans of drama and Irish literature.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Write a short summary of the movie \"The banshees of Inisherin\". The summary should be written well.",
+    "question": "Write a short summary of the movie \"The banshees of Inisherin\". The summary should be written well."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

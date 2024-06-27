@@ -1,0 +1,85 @@
+To request an identifier from the preceding version 1.11 of the Afsprakenstelsel for migration purposes, the MR MAY request
+a DeprecatedActingSubjectID. To receive encrypted pseudonyms based on earlier OINs or recipientkeysetversions, the MR Afsprakenstelsel Elektronische Toegangsdiensten | pagina 805MAY include a DeprecatedRelyingPartyID with a DeprecatedEntityID and DeprecatedRecipientKeysetVersion. To indicate
+whether to receive an internal pseudonym or persistent pseudonym, the MR MUST supply a UserTypeRequested in the
+metadata: InternalPseudonym for the internal pseudonym, PseudoID for the Encrypted Pseudonym. See examples:   and Example 3 - example metadata extension.xml XML schema metadata extension.1.13.xsdAfsprakenstelsel Elektronische Toegangsdiensten | pagina 806Network metadata
+The Beheerorganisatie checks the participants' metadata for conformity, deletes the signatures and aggregates the metadata
+into one file.The aggregated metadata consists of a signed EntitiesDecriptor element with an cacheDuration XML attribute
+with value "P7D" and an Name XML attribute with a value formatted as  urn:etoegang: :metadata: : VERSIEAS OMGEVING
+, whereby  indicates the version of the framework,  the respective environment (P or A), VOLGNUMMER VERSIEAS OMGEVING
+and  is a sequence number that distinguishes the different versions of metadata. The signature MUST meet VOLGNUMMER
+the requirements described in  . Information security requirements
+The EntitiesDescriptor element contains  elements with the names Authenticatiediensten, 5 EntitiesDescriptor
+Machtigingenregisters, Koppelregisters,  and Herkenningsmakelaars (prefixed with 'urn:etoegang:role:') Interstelseldiensten
+that contain the metadata from the participants in the different roles. Under the role "Interstelseldiensten" the eIDAS-
+berichtenservice is listed, HMs MUST treat this as if it were both an AD and MR. That is, in message validation it can regard it
+as an AD/MR depending on context. However for services classified as 'eIDAS-inbound' it MUST NOT list it as an AD for AD-
+selection by the user (instead, the DV must list this as a separate authentication option, not the HM). Furthermore, it MUST
+send requests as per . Interface specifications HM-EB
+The EntitiesDescriptor element can also contain an additional Dienstverleners (service providers) element that contains
+fictitious service providers. Each Herkenningsmakelaar MUST process the named service providers. These service providers
+are named in the service catalogue and can be used by the Beheerorganisatie and for testing. The EntitiesDescriptor element also contains an Extensions element that contains a PublicationInfo element with the URL
+and creation date of the metadata file, which MUST be filled by the Beheerorganisatie. The Beheerorganisatie publishes the metadata in a fixed location. In order to maintain the privacy of the contacts' details in
+the metadata, the location is a non-indexed URL with server-side SSL that can only be shared with the participants. Example
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntitiesDescriptor
+ID="[reference for dsig]"
+Name="urn:etoegang:1.13:metadata:P:36"
+cacheDuration="P7D"
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:Signature>...</ds:Signature>
+<md:Extensions>
+<mdrpi:PublicationInfo publisher="https://.../productie_metadata.xml" creationInstant="2019-05-
+07T10:39:03Z"/>
+</md:Extensions>
+<md:EntitiesDescriptor Name="urn:etoegang:role:Authenticatiediensten">
+... </md:EntitiesDescriptor>
+<md:EntitiesDescriptor Name="urn:etoegang:role:Machtigingenregisters">
+... </md:EntitiesDescriptor>
+<md:EntitiesDescriptor Name="urn:etoegang:role:Koppelregisters">
+... </md:EntitiesDescriptor>
+<md:EntitiesDescriptor Name="urn:etoegang:role:Herkenningsmakelaars">
+... </md:EntitiesDescriptor>
+<md:EntitiesDescriptor Name="urn:etoegang:role:Interstelseldiensten">
+...Afsprakenstelsel Elektronische Toegangsdiensten | pagina 807    </md:EntitiesDescriptor>
+</md:EntitiesDescriptor>
+A participant MUST process the metadata periodically at a time that is predefined by the Beheerorganisatie. Data about the
+URL and the periodicity are described in  . Proces netwerkmetadata
+A participant MUST use an automated process to process the metadata that finishes in 15 minutes. A participant MUST be
+able to start this automated process (e.g., manually) between the predefined periods in agreement with the
+Beheerorganisatie to accommodate a rollback or other changes.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 808Authorization List BSN format
+The   containing the OIN's of all organisations authorized to use Beheerorganisatie BSNk provides the Autorisatielijst BSN
+BSN. Every OIN also accompanied by a name to improve problem solving activities. The Beheerorganisatie BSNk publishes
+the Autorisatielijst BSN in a location specified in their metadata. The file is available in XML format. Further information
+about the Autorisatielijst can be found in the BSNk documentation (contact Logius for more information).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 809Key provisioning list format
+The Beheerorganisatie BSNk provides the Sleutelverstrekkingslijst containing the OIN's of all Service Providers
+(Dienstverlener) for whom DV-key material has been provided to their Broker (Toegangsdienst). The
+Sleutelverstrekkingslijst is mainly for transparency reasons (like Certificate Transparency, IETF RFC6962
+). The Beheerorganisatie BSNk publishes the Sleutelverstrekkingslijst in a fixed location. The file is available in XML format. Further information about the Key Provisioning list format can be found in the BSNk documentation (Contact Logius for
+more information).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 810Service catalog
+This chapter describes the format and publication of the  (service catalog). Dienstencatalogus (DC)
+The Service catalog holds the information of services offered by Dienstverleners (service providers). A DV can own one or
+more Service Definitions and one or more Service Instances:
+A Service Definition has the elements to describe the functionality of the Service. A Service Instance has the technical details for an implementation of the Service as operated by the Dienstverlener
+. (DV)
+In case of  (Service Intermediation): The Service Instance of the  (Service Dienstbemiddeling Dienstbemiddelaar (DB)
+Intermediary) references the Service Instance of the  (service supplier) by , using the Dienstaanbieder (DA) ServiceUUID
+IntermediatedService.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 811
+Format
+The service catalog MUST have the following format:
+IssueInstant (time at which the service catalog was created)
+Version (version of the service catalog in the  urn:etoegang:<scheme version>:service-catalogue:<omgeving>: format
+<sequence number>. Example: urn:etoegang: :service-catalogue:T:1 1.11
+Signature (signature from the ,  or  for Beheerorganisatie (BO) Herkenningsmakelaar (HM) Dienstverlener (DV)
+authenticity, integrity and non-repudiation). Per Dienstverlener :
+IsPublic (attribute that indicates whether the service provider is in public)
+ServiceProviderID (The service provider's OIN (government ID number)
+OrganizationDisplayName (the name of the service provider as it MUST be displayed by participants, max 64
+characters). Per ServiceDefinition :
+IsPublic (attribute that indicates whether the service is using eHerkenning in public )
+ServiceUUID  (a universally unique identifier that is used for registering entitlements. It is possible the
+same UUID is shared between multiple service providers, in that case they will use the same
+entitlement)
+ServiceName (name of the service determined by the service provider, max 64 characters). ServiceDescription (short description of the service determined by the service provider, max 1024
+characters. MRs MAY use this text to help administrators determine the authorizations).

@@ -1,0 +1,83 @@
+g. Deze afkoopsom  wordt  gestor t in de Reserve  middeldure  huur/  koop  tot NHG. Artikel 12. Hoogt e afkoopsom  per woningbouwpr oject
+Voor een woningbouwproject  van vier of meer  woningen  geldt  zowel  de verplic hting  om 25% sociale
+huur  te realiseren,  als de verplic hting  om 25% middeldure  huur/  sociale  koop  te realiseren.. Indien  deze
+verplic htingen  niet worden  gerealiseerd,  is voor beide  segmenten  een afkoopsom  van toepassing. Artikel 13. Berekening  stimuler ingssubsidie  en afkoop voor sociale  huur  en middeldur e
+huur/sociale  koop
+De berek ening  van de afkoop,  dan wel de stimuleringssubsidie  per woningbouwproject  kent voor soci-
+ale huur  en voor middeldure  huur  dezelfde  systematiek. Indien  sprak e is van een gemengd  programma,
+is in de berek ening  rekening  gehouden  met het aandeel  van elk woningtype  in het woningbouwproject,
+waarvoor een afkoopbedrag  dan wel een stimuleringssubsidie  is vastgesteld  (zie artikel 5,7,10 en 11). Uitgaande  van het verschil in realisatie  ten opzic hte van de norm  wordt  een (theoretisc he) afkoop  be-
+rekend. Naarmate  de realisatie  dichter bij de norm  komt,  wordt  de daadwerk elijke afkoop  lager . Bij extra
+realisatie  ten opzic hte van de norm  wordt  een stimuleringssubsidie  verstrekt. Schema’ s voor berek ening  afkoop  en/of  stimuleringssubsidie  voor sociale  huur  en voor middeldure
+huur/  sociale  koop. Voor beide  segmenten  wordt  de berek ening  apar t uitgev oerd,  maar  wel volgens
+dezelfde  systematiek. Berekening  afkoop/stimuler ingssubsidie
+Zie stap 2 + 3 Afkoop Percentage  sociale  huur  op totaal  aantal
+woningen  in het project Stap  1
+Gemeenteblad  2021  nr. 240753 22 juli 2021 4
+< 25%
+Zie stap 4 + 5 Geen  afkoop  sociaal  nodig,  mo-
+gelijk  wel recht op stimulerings-
+subsidie Percentage  sociale  huur  op totaal  aantal
+woningen  in het project
+>= 25%
+Zie stap 2 + 3 Afkoop Percentage  middeldure  huur/sociale  koop
+op totaal  aantal  woningen  in het project
+< 25%
+Zie stap 4 + 5 Geen  afkoop  middelduur  nodig,
+mogelijk  wel recht op stimule-
+ringssubsidie Percentage  middendure  huur/sociale
+koop  op totaal  aantal  woningen  in het
+project
+>= 25%
+Berekening  volledig e afkoop Stap  2
+Afkoop  per woningtype  bij 0%
+sociale  huur  of middeldure
+huur/  sociale   koop Verplic hting  =
+aantal  woningen
+per type Afkoop  per woning
+sociale  huur  of mid-
+deldure  huur/  socia-
+le koop maal  25%
+Z(a)=X(a)*Y(a) Aantal  type a woningen  *0,25  = Y(a) X(a) Woningty-
+pe a
+Z(b)=X(b)*Y(b) Aantal  type b woningen  *0,25=  Y(b) X(b) Woningty-
+pe b
+Z(a+b) Y (a+b) Som  af-
+koop bij
+0% realisa-
+tie
+Stap  3: Correctie  bij gedeelt elijke afkoop
+Y Norm  aantal  woningen  sociale  huur  of middeldure  huur/sociale  koop
+N (<=Y) Aantal  sociale  huur  of middeldure  huur/sociale  koop  gerealiseerd  (kleiner
+of gelijk  aan Y)
+R=Y-  N Saldo ten opzic hte van de verplic hting
+S=R/Y*Z Som  afkoop bij realisatie  tussen  0% en 25%
+Berekening  aantal  woning en dat in aanmer king komt voor bijdr age (boven verplich-
+ting 25%). Stap  4
+Saldo extra  aantal  woningen
+gerealiseerd  ten opzic hte
+van de verplic hting. aantal  woningen
+sociale  huur  of middeldure
+huur/sociale  koop,  gereali-
+seerd Verplic hting  =
+aantal  woningen
+maal  25%
+L=N-Y N Aantal  woningen
+* 0,25 = Y Woning en in aan-
+merking voor bij-
+drage
+Berekening  stimuler ingsbijdr age extra woning en op basis  van aandeel  woningtypes Stap  5
+Bijdrage Naar  rato verdeling aantal  woningen Bijdrage  per woning
+(sociale  huur  of extra  aantal  woningen
+t.o.v. per type,  sociale  huur
+of middeldure middeldure  huur/so-
+ciale  koop) verplic hting. huur/sociale  koop,  ge-
+realiseerd
+Z(a)=X(a)*R(a) R(a)=  (N(a)/N)*L N(a) X(a) Woningtype  a
+Z(b)=X(b)*R(b) R(b)=  (N(b)/N)*L N(b) X(b) Woningtype  b
+Z (a+b) Som  bijdr age
+Gemeenteblad  2021  nr. 240753 22 juli 2021 5
+Artikel 14. Werkingsg ebied
+Deze beleidsregels  zijn van toepassing  op alle bouwprojecten  op Oegstgeester  grondgebied,  met uit-
+zondering  van de projecten,  waarvan  de randv oorw aarden  per (datum  raadsbesluit)  reeds  (in anterieure
+of grondexploitatieo vereenkomsten)  zijn vastgelegd.

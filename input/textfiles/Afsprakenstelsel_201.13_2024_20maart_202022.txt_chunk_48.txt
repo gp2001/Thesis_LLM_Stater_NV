@@ -1,0 +1,33 @@
+c. Toelichting processtappen
+1. Intake
+Input Melding van interesse van een (nieuwe) deelnemer
+Activiteit Een huidige of nieuwe deelnemer meldt zich bij de beheerorganisatie met een verzoek tot (uitbreiding)
+toetreding. De Beheerorganisatie houdt een intake en informeert de verzoekende partij over:
+de rollen waarop kan worden toegetreden;
+de procedure voor de toetreding tot de betreffende rol(len);
+de voorwaarden voor toetreding waaronder de stelseleisen voor informatiebeveiliging. Output Informatie over het Proces Toetreden en over de werking van het afsprakenstelsel. Wie? Coördinator toetreden
+Toetreder
+2. Formeel verzoek tot toetreding behandelen
+Input Formulier verzoek tot toetreding
+Activiteit De Potentiële Toetreder (hierna genoemd: Toetreder) dient het ingevulde formulier Template verzoek tot
+in bij de Beheerorganisatie en benoemt tevens een aanspreekpunt in de eigen (uitbreiding) toetreding
+organisatie. De Coördinator toetreden controleert het ingevulde formulier op volledigheid. De Beheerorganisatie meldt aan het  dat een verzoek tot Secretariaat van de Commissie van Deskundigen
+toetreding is gedaan. De Beheerorganisatie informeert tevens het Tactisch Beraad over het formele verzoek tot
+toetreding. Het Secretariaat van de CvD meldt aan de CvD of er vooraf feiten bekend zijn die een succesvolle toetreding van
+de deelnemer belemmeren  Indien er sprake is van belemmerende feiten stelt het Secretariaat van de CvD de . Potentiële toetreder op de hoogte. Een voorbeeld van een belemmerend feit is dat de organisatie in het
+Handelsregister staat met de status surseance. Het is de beslissing van de Toetreder om het toetredingsproces
+toch voort te zetten. De Toetreder ontvangt een brief met de op te leveren bewijsstukken van het Secretariaat van de CvD. Dat is
+afhankelijk van de situatie zoals in de inleiding is beschreven. Output Brief aan Toetreder (bij belemmering)
+Wie? Secretariaat van de CvD
+Coördinator toetreden
+Toetreder
+3. Implementatie door deelnemer en leveren bewijsstukkenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 394Input Brief met de op te leveren bewijsstukken
+Activiteit De Toetreder start met het implementeren van de voorwaarden genoemd in het afsprakenstelsel. De Toetreder
+levert de bewijsstukken op aan de Coördinator Toetreden. De Toezichthouder geeft aan welke bewijsstukken van toepassing zijn voor de beoordeling van een nieuwe
+toetreding. De bewijsstukken zijn afhankelijk van het type verandering: betreft het een kleine wijziging in een
+procedure of is het een geheel nieuwe toetreding. Bij een geheel nieuwe toetreding bestaat deze documentatie
+minimaal uit:
+Bewijs van inschrijving in het Handelsregister. De Toezichthouder bevraagt met deze informatie het
+Handelsregister;
+Bewijs van een WA verzekering m.b.t. te leveren diensten;
+Continuïteitsplan m.b.t.

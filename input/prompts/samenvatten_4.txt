@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een samenvatting van bepaalde informatie, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een samenvatting van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord door in de tekst behaalde gegevens. Genereer een rejected die geen goede samenvatting geeft door belangrijke informatie weg te laten. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "sharegpt",
+    "chosen": [
+        {
+            "content": "What's a summary of Nietches beliefs?",
+            "role": "user"
+        },
+        {
+            "content": "Friedrich Nietzsche (1844-1900) was a German philosopher whose work had a profound influence on 20th century thought. His ideas have been interpreted in many different ways, but some of his most central beliefs include:\n\n* The will to power: Nietzsche believed that the driving force behind human action is the will to power, which he defined as the desire to overcome challenges and achieve mastery.\n* The death of God: Nietzsche argued that the traditional religious worldview, which posited a benevolent God who created the world and watches over it, had been discredited by science and philosophy. This led to a \"crisis of nihilism,\" in which people felt lost and without purpose.\n* The \u00dcbermensch: Nietzsche proposed that the \u00dcbermensch, or \"overman,\" is the ideal type of human being. The \u00dcbermensch is strong, creative, and independent, and he lives life according to his own values.\n* Eternal recurrence: Nietzsche believed that the universe is cyclical, and that everything that has happened will happen again an infinite number of times. This idea led him to the conclusion that we should live each day as if it were our last.\n\nNietzsche's work is often seen as dark and pessimistic, but he also believed that life is full of potential and that we have the power to create our own meaning. He urged his readers to \"live dangerously\" and to embrace the challenges of life. His ideas have been influential in a wide range of fields, including philosophy, literature, art, and psychology.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "What's a summary of Nietches beliefs?",
+            "role": "user"
+        },
+        {
+            "content": "Nietzsche's beliefs were centered around the idea of self-mastery, the rejection of traditional values, and the pursuit of individual freedom. He believed that a person should aim to become the master of their own destiny, rather than being controlled by societal expectations or external influences. Nietzsche also rejected traditional morality, arguing that it was often used to oppress individuals and prevent them from achieving their potential. Instead, he advocated for the pursuit of personal excellence and the embracing of individualism. Nietzsche's philosophy emphasized the importance of overcoming obstacles and pushing beyond one's limits, as well as the power of the human imagination to create new values and ways of living. Overall, Nietzsche's philosophy focuses on the idea of self-improvement and the pursuit of personal excellence, and he believed that individuals should be free to live their lives in whatever way they choose, without being constrained by societal norms or traditions.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "What's a summary of Nietches beliefs?",
+    "question": "What's a summary of Nietches beliefs?"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de chosen en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

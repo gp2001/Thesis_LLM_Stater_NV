@@ -1,0 +1,185 @@
+Gezien ook de buurlanden geconfron-
+teerd worden met aangekondigde sluitingen van centrales, is
+het van primordiaal belang om over een voldoende groot en
+betrouwbaar nationaal productiepark te kunnen beschikken
+als fundament voor de bevoorradingszekerheid van België. Het
+bewaken van voldoende potentieel in het transmissienet om
+grote productie-eenheden aan te sluiten blijft dus van groot
+belang.2. De ontwikkeling van interconnecties is een belangrijke bouw -
+steen voor een goed werkende elektriciteitsmarkt en dient
+complementair te worden beschouwd aan de verankering van
+een nationaal productiepark. Robuuste import- en export -
+mogelijkheden dragen bij tot zowel de competitiviteit als tot
+de bevoorradingszekerheid van het Belgische systeem. De lopende investeringen BRABO, ALEGrO en Nemo Link® in
+combinatie met het optimaliseren van de bestaande infrastruc -
+tuur (aanpassingen in bestaande posten, het plaatsen van bijko-
+mende dwarsregeltransformatoren op de grenzen, een gerichte
+uitrol van hoogperformantiegeleiders) staan hierin centraal
+waardoor het transmissienet het hoofd zal kunnen bieden aan de
+verwachte stromen in 2025.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-203019
+RICHTING 2030 EN VERDER
+Richting 2030 en verder sturen de scenario’s (zie hoofdstuk 2) aan
+op een fundamentele transformatie van het productiepark om de
+decarbonisatie van het elektriciteitssysteem op Europese schaal
+mogelijk te maken. De realisatie van een duurzaam, betrouwbaar
+en betaalbaar energiesysteem creëert pertinente behoeften op
+het vlak van netinfrastructuur. Algemeen kan worden vastgesteld dat de stromen steeds groter,
+volatieler en minder voorspelbaar zullen zijn door het variabel
+karakter van hernieuwbare energiebronnen verspreid doorheen
+Europa. Aan de hand van netsimulaties wordt nagegaan of een
+bepaalde netconfiguratie voldoende gedimensioneerd is om de
+elektriciteitsstromen doorheen het net te transporteren zonder
+dat de veiligheid van het systeem in het gedrang komt. Deze net -
+simulaties tonen aan dat het interne backbone netwerk en de
+interconnecties geconfronteerd zullen worden met grote over -
+belastingen indien er geen tijdige investeringen gebeuren. Deze
+congesties zijn te sterk om alleen te worden opgelost door optima -
+lisatie van bestaande infrastructuur. Structurele netversterkingen
+zijn nodig om de verwachte stroomuitwisselingen op te vangen. De verdere uitbouw van het transmissienet op land en in zee is
+nodig om:
+1. De maximale integratie van offshore en onshore hernieuwbare
+energie binnen het Belgische energielandschap te faciliteren
+en hiermee een bijdrage te leveren aan de 2030 doelstellingen;
+2. Hernieuwbare energie op Europese schaal te integreren en toe-
+gang te hebben tot de meest competitieve prijzen op de interna-
+tionale markt met een maximale prijsconvergentie als gevolg. De geplande projecten richting 2030 en verder ter versterking
+van de interne 380 kV backbone staan hierin centraal. De verdere
+ontwikkeling van interconnectoren kan zich dan enten op de ver -
+sterkte backbone. Hiertoe schuift Elia een set van indicatieve
+projecten naar voren op de grenzen met Nederland, Frankrijk,
+het Verenigd Koninkrijk en Duitsland waarvoor ook bilaterale stu-
+dies lopende zijn met de betrokken transmissienetbeheerders. De evolutie van de interconnecties wordt hierbij ook getoetst aan
+de 2030 doelstellingen inzake interconnectiviteit.HET TOEKOMSTIGE 380 KV
+TRANSMISSIENET
+Het principe dat wordt gehanteerd om tot een kosten-efficiënte
+oplossing te komen is in eerste instantie inzetten op het maxi-
+maal benutten van het potentieel van bestaande infrastructuur
+voor zowel de interne 380 kV backbone alsook voor bestaande
+interconnecties. Hierdoor kunnen aanzienlijke efficiëntiewinsten
+worden gerealiseerd met relatief beperkte investeringskosten. Een voorbeeld hiervan is de integratie van dwarsregeltransfor -
+matoren in de bestaande hoogspanningsposten om de stroom-
+fluxen in grotere mate te kunnen sturen. Om de structurele
+nood aan transmissiecapaciteit in te vullen dienen echter ook
+de verbindingen te worden versterkt. Het inzetten van hoogper -
+formantiegeleiders laat toe om de capaciteit van de bestaande
+verbindingen quasi te verdubbelen. Gezien de omvang en het karakter van de energietransitie is
+het maximaal benutten van bestaande infrastructuur echter
+niet voldoende. Voor België verschuift het zwaartepunt van de
+energiemix o.a. naar de Noordzee, waarvoor het net historisch
+minder ontwikkeld is. Waar bestaande corridors reeds maximaal
+zijn benut of waar geografisch geen bestaande corridors zijn,
+maar wel een behoefte is aan transportcapaciteit, dienen nieuwe
+corridors te worden ontwikkeld. Ook bij de ontwikkeling van
+een nieuwe corridor wordt steeds gekozen voor een oplossing
+die, in verhouding tot de kost, de meeste baten opbrengt. Hier
+spelen zowel het vervullen van verschillende (toekomstgerichte)
+behoeften als de technologiekeuze een belangrijke rol. Om de behoeften aan transmissiecapaciteit in te vullen streeft
+Elia naar een robuuste, flexibele en modulaire netwerkinfra-
+structuur: dergelijke aanpak is ook vanuit Belgisch perspectief
+een belangrijke strategische hefboom om de energietransitie
+te realiseren, waarbij keuzevrijheid wordt geboden wat betreft
+de toekomstige energiemix en flexibiliteit op het pad om die te
+bereiken. Onderstaande figuur 0.4 illustreert deze aanpak waar -
+bij de belangrijkste investeringen in het 380 kV net geclusterd
+zijn in 5 investeringspakketten volgens een modulaire logica. 2e HVDC link
+met GB & DE
+Prijsconvergentie door
+RES-integratie op EU-schaalOffshore net
+uitbreiden
+Energiepotentieel uit
+de Noordzee halen
+Nieuwe corridor Avelgem-Centrum (‘Boucle du Hainaut’  )
+Een ontbrekende schakel voor de energiestromen tussen west - oost
+en noord - zuid en om het vermaasde 380kV backbone netwerk aan
+te vullen met het oog op verdere ontwikkelingen
+Maximaliseren potentieel bestaand net via upgrades
+Voor sterkere en volatielere energiestromen is een upgrade van het bestaande
+net van essentieel belang B D  E
+Nieuwe corridor Stevin-Avelgem (‘ Ventilus’ )
+Een noodzakelijke uitbreiding naar de kust om meer
+onthaalcapaciteit te creëren (vb offshore RES, onshore RES,
+interconnectoren) C
+A
+A
+B C
+D E
+E
+Mercator Van Eyck
+ALEGrO
+CooDE-BE IIBruegel
+Gramme
+Courcelles Avelgem
+MOG IIMOG
+NautilusNemoStevin
+Figuur 0.4: Modulaire uitbouw van het 380 kV netwerk FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-203020
+TECHNISCHE OPLOSSINGEN VOOR DE
+ONTWIKKELING VAN 380 KV TRANSMISSIENET
+Voortgaand op de geïdentificeerde behoeften aan extra trans-
+missiecapaciteit worden de individuele projecten toegelicht die deel uitmaken van het investeringsprogramma om aan deze
+noden te voldoen voor de tijdshorizon 2020 tot 2030. ELIA FED ERAAL ONT WIKKELING SPLAN  2015-2025  • 9
+STEVIN
+GEZELLE
+VAN MAERLANT
+AVELGEMHORTARODENHUIZEMERCATOR
+GOUYCOURCELLES
+MONCEAU
+CHOOZ
+AUBANGEVILLEROUXMARCOURTAWIRS JUPILLESERAING
+MOULAINEMEERHOUT
+GRAMME
+BRUMEROMSÉE
+RIMIÈRE
+SOYBOMALMASSENHOVEN
+LINT
+ALEGrOANDRÉ DUMONTMAASBRACHTZANDVLIET
+LILLO
+VAN EYCK
+DILSENDOEL
+KALLOBRABOMOG
+AVELIN
+LONNY
+SCHIFFL ANGEDROGENBOSBRUEGELVERBRANDE BRUG
+ACHÊNEGEERTRUIDENBERG
+BORSSELE RILLAND
+LE VAL
+HOUFFALIZERUIENIZEGEM
+WEVELGEM
+MOESKROENNEMO LINK®
+LIXHE
+Figuur 0.5: Overzichtskaart EHV-projecten (periode 2020-2025)
+AVELGEMIZEGEMHORTARODENHUIZEMERCATOR
+COURCELLES
+MONCEAU
+CHOOZ
+AUBANGEVILLEROUXAWIRS JUPILLESERAING
+MOULAINEMEERHOUT
+GRAMMEROMSÉE
+BRUME
+SOYMASSENHOVEN
+ALEGrOLIXHEMAASBRACHTZANDVLIET
+LILLO
+VAN EYCK
+DILSENDOEL
+BRABO
+LINTMOG
+AVELIN
+LONNY
+SCHIFFL ANGEDROGENBOSBRUEGEL
+ACHÊNEGEERTRUIDENBERG
+BORSSELE RILLAND
+LE VALModular Offshore Grid  - fase 2
+Nieuwe corridor
+Stevin-Avelgem (“Ventilus”)
+Nieuwe corridor
+Avelgem-Centrum
+(“Boucle du Hainaut”)Nautilus (BE-GB II)
+BE-DE IIGEZELLE
+VAN
+MAERLANTNEMO LINK®
+STEVIN
+Figuur 0.6: Overzichtskaart EHV-projecten (periode 2025-2030)FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-203021
+Deze projecten zetten in op het versterken en uitbreiden van het
+interne net, het integreren van bijkomende offshore productie-
+capaciteit en het versterken en uitbreiden van de interconnec -
+ties. Dat gebeurt al naargelang via een upgrade van bestaande
+lijnen of met behulp van nieuwe verbindingen.

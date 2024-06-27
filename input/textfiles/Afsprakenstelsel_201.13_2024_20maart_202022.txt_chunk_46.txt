@@ -1,0 +1,34 @@
+Wie? De beheerorganisatie beoordeelt de metadata;
+De juridisch coördinator beoordeelt de rollen en betrouwbaarheidsniveaus.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3812. Genereren en publiceren netwerkmetadata
+Input Goedgekeurde metadata
+Activiteit 4. Het automatisch proces genereert, na stap 1 in de voorgaande activiteit als wijziging in metadata
+gedetecteerd is, een nieuwe versie van het huidige geaggregeerde metadatabestand met een cacheduration
+van "PT1H" (één uur). Entries met een ValidUntil datum meer dan 1 maand in het verleden worden hierbij uit
+het metadata bestand verwijderd. 5. Deze nieuwe netwerkmetadata wordt door het automatisch proces gepubliceerd op  https://aggregator. (testnetwerk) of  etoegang.nl/test/1.13/networkmetadata.xml https://aggregator.etoegang.nl/1.13
+(productie). Deze metadata en het moment waarop deze door het automatisch proces /networkmetadata.xml
+in productie gezet is, wordt tevens door het automatisch proces per email naar de deelnemers gestuurd. Tevens wordt de metadata gearchiveerd conform de werkbeschrijving in  . Confluence
+Output Gepubliceerde metadata
+Wie? De technisch beheerder van de beheerorganisatie voert deze stap uit
+3. Doorvoeren netwerkmetadata
+Input Gepubliceerde metadata
+Activiteit 6. De automatische processen van de deelnemers pakken de nieuwe metadata op en voeren deze door, waarbij
+de daadwerkelijke wijzigingen door de gebruikte ValidIUntil/ValidFrom datums direct na het
+onderhoudswindow daadwerkelijk actief worden. 7. De deelnemer die nieuwe metadata doorvoert controleert, tijdens zijn onderhoudswindow, de werking van
+de nieuwe metadata. Als de wijzigingen niet goed werken, dan kan de deelnemer tijdens het
+onderhoudswindow een nieuwe versie van de nieuwe metadata uploaden of de oude versie uploaden. Deze
+wordt door het automatisch proces gecontroleerd, geaggregeerd en gepubliceerd op de bovengenoemde
+URLs, waarna deze binnen een uur automatisch door de deelnemers wordt opgepakt en doorgevoerd. a. Zonodig kan de technisch beheerder, bij ernstige verstoringen in het onderhoudswindow, handmatig een
+rollback naar de originele productionele metadata van voor de wijziging doorvoeren. 8. De deelnemers melden in  het resultaat van de doorvoering indien relevant. Mantis
+Output Geïmplementeerde nieuwe metadata
+Wie? De deelnemers implementeren de nieuwe metadata;
+De technisch beheerder monitort en rapporteert aan de deelnemers.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 382Proces onderhoud cookieserver
+Voor de werking van Single Sign On heeft iedere Herkenningsmakelaar een eigen fysieke cookieserver op gezamenlijk
+domein . De DNS van het gezamenlijke domein wordt beheerd door beheerorganisatie. *.sso.eherkenning.nl
+Iedere cookieserver heeft een eigen IP adres gespecificeerd door de betreffende deelnemer. Deze IP-adressen zijn door de
+beheerorganisatie opgenomen in de DNS van . *.sso.eherkenning.nl
+Er moet onderhoud plaatsvinden als een van de deelnemers zijn IP-adres wijzigt. In de praktijk kan dit bijvoorbeeld
+voorkomen wanneer er een nieuwe deelnemer toetreedt, of wanneer een deelnemer besluit zijn software over te zetten op
+een nieuwe machine met een ander IP-adres.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 383Verantwoordelijkheden
+De proceseigenaar is er vanuit de beheerorganisatie verantwoordelijk voor dat het proces wordt uitgevoerd conform de
+procesbeschrijving. De technische beheerder van de beheerorganisatie is er verantwoordelijk voor dat de procesbeschrijving
+actueel blijft.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3841. 2. 3.

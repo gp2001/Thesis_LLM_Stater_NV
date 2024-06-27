@@ -1,0 +1,31 @@
+EncryptedAttribute 0.. nDepending on Rules for processing request
+Additional attributes MAY be included here only IF the StatusCode is 'Success'. Other EncryptedAttribute elements MUST NOT be included. Rules for processing response
+A responding AD:
+Identifiers:
+MUST include a transient identifier as a <NameID> in Subject; see . Linking of AssertionsAfsprakenstelsel Elektronische Toegangsdiensten | pagina 578MUST encrypt any other identity according to the rules specified in SAML encryption  and added as Attribute in the
+. AttributeStatement
+MUST ensure that a user consents to authentication for:
+the ServiceProvider,
+ServiceName
+(optional/if applicable) "@ProviderName"
+Personal attributes and/or BSN of the ActingPerson FOR the Intermediated Service and/or Intermediating
+Service
+MUST ensure only to provide a BSN to receipients on the BSN AutorisationList otherwise respond with a non-
+recoverable error. See  for more details Error handling
+MUST determine appropriate identity(s) according to : Determine appropriate ECTA and Identifiers
+In case of no representation:
+An AD MUST include all appropriate (ECTA) identifiers of the acting user for the DV in ActingSubjectID, as
+described in the service catalogue for the service
+If an AD can not provide any of these requested ECTA-identifiers the AD MUST respond with a
+recoverable error (Attributes not supported). See   for more details Error handling
+In case of Representation
+An AD MUST include the internal pseudonym of the acting user for the MR in ActingSubjectID
+If additional ASTA-identifiers are requested by the EB (in the ServiceCatalog) then an AD MUST include all
+appropriate ASTA-identifiers of the acting user for the DV* in ActingSubjectID, as described in the service
+catalogue for the service
+ActingSubjectID MUST contain an EncryptedID encrypted only for the receiving DA/DB that
+requested the specific ASTA. The recipient of the ASTA for the DA and DB SHOULD be taken from
+the   element in the request. IntendedAudience
+In case of a DA  for whom only the OIN is known, the notation 'urn:etoegang:DV: <OIN> ' is
+to be used as recipient. If an AD can not provide any of these requested ASTA-identifiers the AD MUST respond with a
+recoverable error (Attributes not supported).

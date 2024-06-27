@@ -1,0 +1,113 @@
+2. Distributed Generation, wordt verder “Decentralised” genoemd
+In het “Decentral” scenario ligt de energietransitie op schema
+en wordt deze vooral geleid door de “prosumenten”. Digitali-
+sering en prijssignalen creëren voldoende prikkels voor con-
+sumenten, sommige commerciële en industriële klanten om
+sterk te investeren in opslag en fotovoltaïsche panelen. Tege-
+lijkertijd stappen deze “prosumenten” over op transportmidde-
+len zoals elektrische voertuigen. Naast een verhoogde energie
+efficiëntie van gebouwen is ook de elektrificatie in de verwar -
+mingssector in volle ontwikkeling. De digitalisering maakt het
+onder andere mogelijk om tijdens de winterperioden meer
+volume aan vrijwillig vraagbeheer te hebben, maar ook op het
+niveau van industriële en commerciële consumenten.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-203017
+3. Global Climate Action, wordt verder “Large Scale RES” genoemd
+In het derde scenario “Large scale RES” wordt de energietran-
+sitie voornamelijk ondersteund door de Europese beleidslij-
+nen en de onderlinge samenwerking tussen lidstaten om op
+de meest geschikte manier de hernieuwbare energiebron-
+nen in Europa aan te wenden. Dit scenario vertegenwoor -
+digt het grootste aandeel van hernieuwbare energie in het
+elektriciteitsverbruik, dankzij de grote uitrol van onshore en
+offshore windinstallaties in de Noordzee en van fotovoltaïsche
+1 Zie (TYNDP 2018 – Scenario Report, ENTSO-E, 2018, http://tyndp.entsoe.eu/tyndp2018/scenario-report/) voor meer informatie
+installaties in Zuid-Europa. Nieuwe PV-installaties worden
+eveneens geïnstalleerd maar aan een lager tempo dan in het
+“decentral” scenario. Om de vermindering van de uitstoot van
+broeikasgassen te versnellen, elimineren alle Europese landen
+snel hun productie van kolen en bruinkool. De elektrificatie van
+de transport- en verwarmingssector neemt matig toe in alle
+landen alsook de toename van flexibiliteitsmechanismen om
+de bijkomende vraag te beheren. Distributed Generation
+[DG]
+Sustainable Transition
+[ST]
+Global Climate Action
+[GCA]Verbeterde
+modellering
+en bijgewerkte
+gegevensDecentral
+[DEC]
+Base Case
+[BC]
+Large Scale RES
+[RES]Energietransitie geleid door
+decentrale RES ontwikkelingen
+Huidige trends en
+nationaal beleid
+Grootschalige RES ontwikkeling
+gedreven door globale
+klimaatpolitiekBeide resultaten voor sociaal-economische
+welvaartstoename worden getoond
+EUCO30 is een extern scenario in TYNDP waar de data voor België is bijgewerkt met de laatste voorspelling van het Federaal Planbureau (EUCO30+). Deze updates hebben verwaarloosbare impact op de sociaal-economische resultaten waardoor we volgende vereenvoudiging kunnen maken: EUCO30 = EUCO30+TYNDP 2018 SCENARIO'S TYNDP+ SCENARIO’S
+Figuur 0.2: Scenario’s als basis voor het ontwikkelingsplan
+Deze verschillende scenario's houden rekening met de gevoelig-
+heid voor brandstof- en CO2-prijzen volgens twee “merit-order”
+configuraties: “kolen voor gas” en “gas voor kolen”. Deze 3 scenario's worden aangevuld met een extra EUCO30-
+scenario van de Europese Commissie, voor de tijds horizon 2030
+aangevuld met recente ontwikkelingen aangeleverd door het
+Federaal Planbureau. Dit scenario reflecteert het behalen van
+de Europese 2030 doelstellingen volgens de klimaatrichtlijnen
+opgesteld door de Europese Raad in 2014, maar met een beoogde
+energie-efficiëntie van 30% (vandaar de naam)(1). Figuur 0.2 vat de
+scenario’s samen die als basis dienen voor het ontwikkelingsplan.VOOR DE PERIODE 2030-2040
+Binnen het TYNDP 2018 worden economische resultaten enkel
+gegenereerd op de tijdshorizonten 2025 en 2030. De horizon
+2040 wordt enkel gebruikt voor de identificatie van toekomstige
+elektrische energiesysteemnoden. In het kader van het Federaal
+Ontwikkelingsplan werd ook een langetermijnperspectief onder
+beschouwing genomen om zo de lange termijn behoeften en
+tendensen te identificeren. De tijdshorizon 2035 is niet beschik -
+baar in het TYNDP 2018 maar werd door Elia ontwikkeld door
+een interpolatie tussen de scenario’s van 2030 en 2040 voor alle
+hypotheses op nationaal en Europees niveau.FEDERAAL ONTWIKKELINGSPLAN VAN HET TRANSMISSIENET 2020-203018
+EVOLUTIE VAN HET 380 KV TRANSMISSIENET OM
+EEN BETAALBAAR, DUURZAAM EN BETROUWBAAR
+ENERGIESYSTEEM TE FACILITEREN
+DRIJFVEREN VOOR DE ONTWIKKELING
+VAN HET 380 KV TRANSMISSIENET
+Onderstaande figuur 0.3 illustreert de drijfveren die cruciaal
+zijn voor de verdere ontwikkeling van het 380 kV transmissie-
+net, met name het verzekeren van een competitieve omgeving voor de Belgische marktspelers, het ontwikkelen van een duur -
+zame energievoorziening, en het blijven garanderen van de
+bevoorradingszekerheid. Belangrijkste drijfveren voor de voorgestelde hoogspanningsnetversterkingen in dit plan
+2020-2025 2025-2030 > 2030
+Verzeker marktintegratie en prijsconvergentie met onze buurlanden
+Behaal 2030 RES doelstellingen door middel van integratie
+van onshore & offshore RES capaciteitBehaal COP21 doelstellingen door integratie
+van additionale RES capaciteit
+Laat toe nieuwe capaciteit
+te connecteren aan het net
+Verhoog en verzeker robuustheid
+van haalbare import van
+onze buurlandenCompetitiviteit
+Duurzaamheid
+Bevoorradings-
+zekerheidGeplande investeringen
+& bijkomende PSTs
+ter goedkeuringIndicatief Interconnectors
+Backbone Geplande investeringen & investeringen ter goedkeuring *
+* Behalve MVAR investeringen post-nucleair en Coo 3, welke conditioneel zijn
+Figuur 0.3: Top-down perspectief drijfveren voor de verdere ontwikkeling van het EHV transmissienet
+PERIODE TOT 2025
+In de periode tot 2025 zijn investeringen in de interne backbone
+en in interconnecties onder andere nodig om de nucleaire pha-
+se-out op te vangen:
+1. Kenmerkend voor de energietransitie in België is de buiten-
+dienststelling van productie-eenheden, voor technische of
+economische redenen, of door het toepassen van de wet op
+de nucleaire uitstap. Gezien ook de buurlanden geconfron-
+teerd worden met aangekondigde sluitingen van centrales, is
+het van primordiaal belang om over een voldoende groot en
+betrouwbaar nationaal productiepark te kunnen beschikken
+als fundament voor de bevoorradingszekerheid van België.

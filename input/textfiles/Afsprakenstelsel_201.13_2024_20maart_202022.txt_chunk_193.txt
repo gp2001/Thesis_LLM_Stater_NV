@@ -1,0 +1,268 @@
+3. laten wijzigingen, of te laten de-
+registreren indien over een periode van 24
+maanden geen van de machtigingen uit deze
+set is gebruikt . In het geval de machtigingenbeheerder zijn
+bevoegdheid om de organisatie, of het bedrijf,
+te vertegenwoordigen 24 maanden niet heeft
+gebruikt, verzoekt de Machtigingendienst ook
+de wettelijke vertegenwoordiger van de
+onderneming, of rechtspersoon die in het
+handelsregister is opgenomen om de
+betreffende bevoegdheid te bevestigen, dan wel
+te laten de-registreren. Indien de wettelijke
+vertegenwoordiger zelf de
+machtigingenbeheerder is, vervalt deze eis. In het geval de machtigingenbeheerder, of de
+wettelijke vertegenwoordiger, niet op een
+herhaald verzoek, zoals bedoeld in sub 1 en sub
+, reageert, moet de Machtigingendienst een 2
+machtiging die niet is gebruikt intrekken. Als
+ook wordt geconstateerd dat de onderneming,
+of rechtspersoon niet meer als zodanig in het
+handelsregister is ingeschreven, moeten alle
+machtigingen worden ingetrokken. 3.7 Controledoelstelling: Het Machtigingenregister
+MOET bedrijfsdiscontinuïteit of misbruik van de
+machtigingen voorkomen die voortkomen uit een
+uitgestelde verwerking van de verzochte
+wijzigingen. 3.7.1 LOA 1 Een wijzigingsverzoek voor machtigingen MOET zo
+spoedig mogelijk verwerkt worden. 3.7.2 LOA 2 3 4 Een elektronisch wijzigingsverzoek voor
+machtigingen MOET onmiddellijk verwerkt worden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10543.7.3 LOA 2 3 4 Een niet-elektronisch wijzigingsverzoek voor
+machtigingen moet binnen twee werkdagen
+worden verwerkt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1055Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1056
+Eisen voor geldigheid van verklaringen voor Dienstverleners
+EH1 vervalt per 1-7-2021
+Met ingang van 1 juli 2021 komt het gebruik van het betrouwbaarheidsniveau eH1 te vervallen en moeten de middelen en
+machtigingen minimaal voldoen aan de normen van het betrouwbaarheidsniveau eH2. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1057Norm LoA Vereisten Best practices
+4 LOA 1 2 3 4 De ontvangende partij MOET een
+verklaring alleen gebruiken als deze
+voldoet aan de eisen van die bij het
+betrouwbaarheidsniveau horen (van deze
+verklaring). De ontvangende partij ZOU waar mogelijk
+striktere normen MOETEN hanteren dan de
+ruimte die geboden wordt in de vereisten
+van de in 4.1 en 4.2 gedefinieerde
+betrouwbaarheidsniveaus van de
+verklaringen.Richtlijn is dat de ruimte niet groter zou moeten zijn dan
+noodzakelijk. Dat betekent dat de Dienstaanbieder
+striktere normen zou moeten hanteren als de situatie dat
+toestaat. 4.1   Vereisten
+authenticatie- en machtigingsverklaring
+4.1.1 LOA 3 4 Geldigheidseisen aan een
+authenticatie- en machtigingsverklaring (of
+een daar van afgeleide credential of token)
+MOETEN afgedwongen worden door elke
+partij die de verklaringen ontvangt en/of
+door levert. Dit geldt voor alle Deelnemers
+maar heel specifiek ook voor
+Dienstverlener & Dienstbemiddelaar.Dit geldt voor alle verklaringen die een partij zelf
+gebruikt maar ook de verklaringen die zo'n
+partij doorgeeft aan een volgende partij. Zo zijn een
+Makelaar en Dienstbemiddelaar verantwoordelijk voor
+het doorleveren van slechts authenticatie- en
+machtigingsverklaring waarvan ze zelf hebben
+vastgesteld dat deze voldoen aan de geldigheidseisen,
+voor zover dat mogelijk is. 4.1.1.1 LOA 3 4
+Een Verklaring MAG NIET gebruikt
+worden buiten de
+gebruikerssessie waarin de
+Dienstverlener of
+Dienstaanbieder hem ontvangt. Een Verklaring in een Gebruikerssessie
+MOET binnen 4 uur ververst worden. In een aantal gevallen zal 4 uur zelfs heel ruim zijn. De
+DV moet zelf een afweging maken of 4 uur voor zijn
+proces niet veel te ruim is. Een DV die slechts kleine
+online formulieren beschikbaar stelt zou een veel
+scherpere geldigheidstermijn moeten kiezen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1058 4.2  Vereisten associatieverklaring
+4.2.1 LOA 1 2 3 4 De Dienstbemiddelaar MOET met een
+associatieverklaring de Authenticatie
+(en optioneel)
+Machtigingsverklaring onlosmakelijk
+verbinden aan de een transactie of een
+document overeenkomstig het geldende
+betrouwbaarheidsniveau.Ook hier moet de ruimte niet groter zijn dan
+noodzakelijk. Dat betekent dat de Dienstaanbieder
+strenger zou moeten zijn als zijn situatie dat toestaat. 4.2.1.1 LOA 1 2 3 Een associatieverklaring (met bericht) die
+ontstaat binnen een gebruikerssessie MAG
+NIET ingezonden worden naar de
+Dienstaanbieder buiten de sessie waarin hij
+ontstaat TENZIJ
+de indienende
+partij (Dienstbemiddelaar) de
+Gebruiker gegarandeerd kan
+informeren over eventuele
+inzendproblemen, binnen een
+redelijke termijn voor het betreffende
+bericht., OF
+de Dienstverlener samen met en de
+indienende partij de ontvangst het
+betreffende bericht door de DV
+garanderen.De beoordeling van een 'redelijke termijn' (voor
+het informeren van de Gebruiker over inzendproblemen
+bij een bericht) is een eigen afweging van de
+Dienstaanbieder. Centraal bij het vaststellen van deze
+redelijke termijn staat het
+nadelige gevolg voor de Gebruiker als hij er te laat achter
+komt dat een bericht/transactie niet ontvangen is door
+de Dienstaanbieder. 4.2.1.1.1 LOA 1 2 Een associatieverklaring
+MAG NIET ouder zijn dan 5 dagenDit zijn maximale termijnen een Dienstaanbieder
+zou zelf strengere eisen moeten stellen aan de maximale
+leeftijd van de associatieverklaring als de situatie dat
+toestaat. 4.2.1.1.2 LOA 3 Een associatieverklaring MAG NIET
+ouder zijn dan 1 dag
+4.2.1.1.3 LOA 1 2 3 De beoordeling van een 'speciale omstandigheid' is
+een eigen afweging van de Dienstaanbieder. De speciale Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1059Een Dienstaanbieder MAG onder 'speciale
+omstandigheden' een associatieverklaring
+accepteren tot maximaal 10 dagen oud.omstandigheid moet niet de standaard afhandeling zijn,
+maar slechts gebruikt in uitzonderingsgevallen zoals
+bijvoorbeeld een incident met tijdelijke
+onbeschikbaarheid van de Dienstaanbieder zelf. In dat
+geval kan de DA besluiten om associatieverklaringen te
+accepteren die tijdens de onbeschikbaarheidsperiode
+nog wel geaccepteerd zouden zijn. Anders moeten de
+Dienstbemiddelaars hun berichten opnieuw laten
+accorderen door de Gebruiker. 4.2.1.2 LOA 4 Een associatieverklaring op LoA4 die
+ontstaat binnen een gebruikerssessie MAG
+NIET ingezonden worden naar de
+Dienstaanbieder buiten de sessie waarin hij
+ontstaat. 4.3 Vereisten geldigheid van verklaringen
+van Dienstverleners
+4.3.1 LOA 1 Transportberichten: De geldigheid van
+transportberichten moet niet langer zijn
+dan strikt noodzakelijk: ruim genoeg om
+een efficiënte gebruikerservaring te
+garanderen en kort genoeg om een
+aanvaller minimale gelegenheid te bieden. Authenticatie Tokens: Authenticatie
+Tokens die zijn afgeleid van
+authenticatiemiddelen MOETEN op de
+zelfde termijn als het middel ingetrokken
+of geschorst kunnen worden. Een 'sessie'
+MAG daarom een hele dag duren. Extented Sessie: Een 'extented sessie'
+op een specifiek apparaat MAG (zonder
+expliciete herauthenticatie van de
+gebruiker) onbeperkt duren, maar dan  OAuth2 tokens tbv native DV-app:
+Een Authorization Grant ZOU na 5 minuten MOETEN
+vervallen. Een Access Token MOET na 24 uur vervallen. Refresh Token MOET na een maand vervallen
+Een geldig Refresh Token MAG (binnen die maand)
+wel onbeperkt ververst worden zonder expliciete
+herauthenticatie van de Gebruiker.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1060MOET deze extended sessie minimaal elke
+maand 'in gebruik' zijn geweest. 4.3.2 LOA 2 Hetzelfde als LoA1, uitgezonderd de eisen
+over de 'extended sessie'
+Extented Sessie:
+Een 'extented sessie' op een specifiek
+apparaat ZOU (zonder expliciete
+herauthenticatie van de gebruiker)
+uiterlijk een 7 dagen MOGEN duren. Een 'extented sessie' op een specifiek
+apparaat MAG (zonder expliciete
+herauthenticatie van de gebruiker)
+uiterlijk een jaar duren, maar dan
+MOET deze extended sessie minimaal
+elke maand 'in gebruik' zijn geweest.OAuth2 tokens tbv native DV-app:
+Een Authorization Grant ZOU na 5 minuten MOETEN
+vervallen. Een Access Token MOET na 24 uur vervallen. Een Refresh Token ZOU na 7 dagen
+MOETEN vervallen
+Een Refresh Token MOET binnen een maand
+vervallen
+Een geldig Refresh Token MAG ververst worden met
+een maximum verlenging van 1 jaar zonder
+expliciete herauthenticatie van de Gebruiker. 4.3.3 LOA 3 Hetzelfde als LoA1, uitgezonderd de eisen
+over de 'extended sessie'
+Extented Sessie:
+Een 'extented sessie' op een specifiek
+apparaat ZOU (zonder expliciete
+herauthenticatie van de gebruiker)
+uiterlijk 8 uur MOGEN duren,
+tenminste zolang het apparaat niet uit
+is geweest. Een 'extented sessie' op een specifiek
+apparaat MAG (zonder expliciete
+herauthenticatie van de gebruiker)
+uiterlijk 7 dagen duren, maar dan
+MOET deze extended sessie minimaal
+elke 24 uur 'in gebruik' zijn geweest.OAuth2 tokens tbv native DV-app:
+Een Authorization Grant MOET na 5
+minuten vervallen. Een Access Token MOET na 4 uur vervallen
+Een Refresh Token ZOU na 8 uur MOETEN vervallen
+en als het apparaat uit is geweest. Een Refresh Token MOET binnen 24 uur vervallen
+Een geldig Refresh Token MAG ververst worden met
+een maximum verlenging van 7 dagen zonder
+expliciete herauthenticatie van de Gebruiker.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10614.3.4 LOA 4  Hetzelfde als LoA1, uitgezonderd de eisen
+over de 'Authenticatie Tokens'
+en 'Extended Sessie'
+Authenticatie Tokens: Een 'sessie' MAG
+uiterlijk 1 uur duren, maar dan MOET deze
+sessie constant in gebruik1 zijn
+geweest (voor zover detectie mogelijk is). Extented Sessie: Een 'extented sessie'
+op een specifiek apparaat  MAG NIET
+bestaan.OAuth2 tokens tbv native DV-app is momenteel nog niet
+ondersteund voor native apps, anders:
+Een Authorization Grant MOET na 5
+minuten vervallen. Een Access Token ZOU na 15 minuten
+MOETEN vervallen en als de App inactief1 is geweest. Een Access Token MOET binnen 1 uur vervallen
+Een Refresh Token MAG NIET gebruikt worden Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10621. Voetnoot:
+Een App is inactief als deze op de achtergrond is geweest of als het scherm uit is geweest.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1063Attributenbeleid
+Het leveren van attributen houdt in: het leveren van unieke, gegevens van natuurlijke en niet-natuurlijke personen, zoals
+achternaam, KVK-nummer, organisatie en het voldoen aan een leeftijdsgroep. Deze persoonsgegevens kunnen zelfverklaard
+zijn of geverifieerd tijdens de registratie of op een later moment op een bepaald betrouwbaarheidsniveau. Er zijn verplicht en optioneel te verstrekken attributen. Verplicht te verstrekken attributen zijn gegevens die een Deelnemer
+MOET verstrekken. Optioneel te verstrekken attributen zijn gegevens die een Deelnemer MAG verstrekken. Deze  Optionele
+kan door meerdere rollen (deelnemers) in het netwerk geleverd worden geleverd ten behoeve van  functionaliteit
+. Dienstverlener (DV)
+Voor herkenningsmakelaars is attribuutverstrekking een verplichte functionaliteit om in te richten en te leveren. De
+Deelnemers mogen alle attributen uitwisselen die beschreven zijn in de . Ze hoeven hiervoor niet Attribuutcatalogus
+opnieuw toe te treden of een proceswijziging in te dienen. Indien een nieuw attribuut aan de Attribuutcatalogus moet
+worden toegevoegd, dient wel een proceswijzigingsverzoek te worden ingediend, waarbij gespecificeerd dient te worden
+welk attribuut wordt toegevoegd en welke processen hiervoor worden ingericht. Zie proces . Proces toetredenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1064Welke afspraken en eisen gelden er binnen het afsprakenstelsel? Het verstrekken van attributen gebeurt altijd op basis van : de gebruiker of de vertegenwoordiger van user consent
+de gebruiker moet expliciet toestemming geven om deze informatie door te geven aan de organisatie die erom vraagt
+(dienstverlener). Als een vertegenwoordiger deze toestemming geeft, moet deze hiervoor gemachtigd zijn. Het stelsel verstrekt attributen op verzoek van een dienstverlener. Het is de verantwoordelijkheid van de
+dienstverlener om te beoordelen of er doelbinding is, niet meer gegevens te vragen dan nodig en de dienstafnemer
+(gebruiker) te informeren wat er met de gegevens wordt gedaan (conform AVG, voor wettekst zie  https://wetten. ). overheid.nl/BWBR0040940/2019-02-19
+Aan dienstafnemers (gebruikers) moet steeds inzage, correctie en intrekking geboden worden van de over hen
+geregistreerde persoonsgegevens. Het is niet toegestaan aan gebruikers of (wettelijke) vertegenwoordigers vooraf globaal toestemming te vragen voor
+verstrekken van alle mogelijke attributen. De user consent dient specifiek te zijn voor een bepaald attribuut en mag
+beperkt zijn tot een bepaalde dienst en/of dienstverlener. Nadat de eerste keer met de verstrekking van een bepaald
+attribuut is ingestemd mag de betrokkene aangeven dat dit in vervolg voor dat specifieke doel niet opnieuw gevraagd
+hoeft te worden. Het bewaren van deze instelling is gebonden aan de termijn als gespecificeerd in het Normenkader
+(doorlooptijd van mutaties van bevoegdheden bij herhaalde registratie). betrouwbaarheidsniveausAfsprakenstelsel Elektronische Toegangsdiensten | pagina 1065Verantwoordelijkheden middelenuitgever
+Registreren van door aanvrager van het authenticatiemiddel verstrekte persoonsgegevens behorende bij de houder
+van het middel. Deze persoonsgegevens kunnen zelfverklaard zijn of geverifieerd tijdens de registratie of op een later
+moment op een bepaald betrouwbaarheidsniveau. Als gebruiker een specifieke dienst benadert die bepaalde attributen wilt ontvangen, dan wordt consent gevraagd
+waarbij getoond wordt  i) voor welke dienstverlener en ii) welke dienst en iii) voor welk attribuut. Daarbij is het
+mogelijk vanuit usability oogpunt om de gebruiker meteen te laten kiezen om dit attribuut in navolgende verzoeken
+met de dienstverlener te delen, ook voor andere diensten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1066Verantwoordelijkheden authenticatiedienst
+Het verstrekken van attributen over de geauthenticeerde gebruiker na een geslaagde authenticatie indien dit door de
+dienstverlener gevraagd wordt en indien het op grond van bij middelenuitgever of authenticatiedienst geregistreerde
+user consent of tijdens authenticatie gevraagde consent is toegestaan. Het aanbieden aan de geauthenticeerde gebruiker van inzage, correctie en intrekking van de over hen geregistreerde
+persoonsgegevens en het registreren of er toestemming is verleend voor het zonder steeds opnieuw vragen
+verstrekken van deze persoonsgegevens, aan een specifieke dienstverlener en dienst  (dit proces kan elektronisch of
+op papier worden aangeboden). Een Authenticatiedienst MOET zijn attribuutverstrekking beperken tot de gegevens die zij beheert uit hoofde van het
+uitvoeren van haar rol.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1067Verantwoordelijkheden machtigingenregister
+Het registreren van gegevens van de vertegenwoordigde dienstafnemer of intermediaire partij gegevens welke
+verstrekt kunnen worden binnen de context van een machtiging. Deze kunnen zelfverklaard zijn, geverifieerd tijdens
+registratie of op een later moment of gevalideerd op het moment van authenticatie;
+per gegeven registreren van user consent van de wettelijke vertegenwoordiger of machtigingenbeheerder voor het
+daadwerkelijk verstrekken van die gegevens aan alle dienstverleners (indien gewenst kan worden geregistreerd dat
+een gegeven alleen aan specifieke dienstverlener(s) mag worden geleverd);
+Na aantreffen van machtiging verstrekken van attributen behorende bij de context waarop de machtiging betrekking
+heeft indien dit door de dienstverlener gevraagd wordt en indien het op grond van geregistreerde user consent is
+toegestaan (indien user consent niet vooraf is geregistreerd moet dit op moment van transactie worden gevraagd). Indien attribuutverstrekking wordt aangeboden moet aan vertegenwoordigde dienstafnemers of intermediaire
+partijen waarvoor machtiging worden geregistreerd en hun beheerders inzage, correctie en mogelijkheid tot
+verwijderen geboden kunnen worden van de over hen geregistreerde (persoons)gegevens en of er toestemming is
+verleend voor het zonder steeds opnieuw vragen verstrekken van deze gegevens, aan een specifieke dienstverlener en
+dienst (dit proces kan elektronisch of op papier worden aangeboden).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1068Verantwoordelijkheden herkenningsmakelaar
+Het registreren welke attributen een dienstverlener wil uitvragen bij iedere authenticatie. Het doorgeven van attributen precies zoals ze ontvangen zijn van authenticatiediensten of machtigingenregisters.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1069Templates en formulieren
+Onderstaande documenten kunnen worden opgeslagen als PDF of als Word document voor verdere verwerking. Klik
+. hiervoor rechtsboven op Tools > Export to PDF  of Tools > Export to Word
+Template deelnemersovereenkomst  — De overeenkomst tussen deelnemers en beheerorganisatie op basis waarvan
+deelnemers gehouden zijn het afsprakenstelsel toe te passen. Deze deelnemersovereenkomst verwijst naar het
+afsprakenstelsel maar is er (strikt genomen) zelf geen onderdeel van. Template verzoek tot (uitbreiding) toetreding
+Template wijziging rechtspersoon deelnemer
+Template zelfverklaring Dienstverlener
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1070Template deelnemersovereenkomst
+20180104 Deelnemersovereenkomst Afsprakenstelsel Elektronische Toegangsdiensten.docx
+Deelnemersovereenkomst Afsprakenstelsel elektronische toegangsdiensten
+Partijen
+De Staat der Nederlanden, te dezen vertegenwoordigd door de staatssecretaris van Binnenlandse Zaken, voor
+deze  <functie> , <naam>,
+en
+<Naam deelnemer> gevestigd te <adres>, te dezen  vertegenwoordigd door <naam> , voor deze <functie>, <naam>,
+verder te noemen: deelnemer,
+Overwegende dat
+I. dienstverleners in toenemende mate langs elektronische weg diensten wensen te verlenen aan dienstafnemers;
+II. een betrouwbare herkenning van de dienstafnemer daarbij noodzakelijk is;
+III.

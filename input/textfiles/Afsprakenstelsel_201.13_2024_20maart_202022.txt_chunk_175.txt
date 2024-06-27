@@ -1,0 +1,46 @@
+7. door de gebruiker zelf aan en uit
+te laten zetten voor diensten op
+het LoA van het middel of lager. De notificatie ZOU de Gebruiker
+binnen een tijdsbestek MOETEN
+bereiken zodat de notificatie
+zijn beslissing om de inlog voort
+te zetten of af te breken kan
+beïnvloeden. Het authenticatiemiddel MOET
+een betrouwbaar (trusted) kanaal
+bevatten ten behoeve van
+betrouwbare notificatie en
+bevestiging, ook wanneer zijn
+voor inlog gebruikte applicatie of
+het platform (o.a. PC) waarop de
+applicatie actief is gecorrumpeerd
+is. Dit kanaal MOET de
+mogelijkheid bevatten om de
+gebruiker elementen in het
+authenticatieverzoek te laten
+bevestigen. De Deelnemer MOET de Gebruiker
+bij het aanbieden van de
+notificatiedienst er op attenderen
+dat hij als Gebruiker zelf
+verantwoordelijk is voor de
+beveiliging van zijn browser en
+zelf dus ook verantwoordelijk
+draagt voor de beslissing om in te
+loggen. Het correct functioneren van een
+authenticatiemechanisme (en het
+authenticatiemiddel) moet
+weerstand bieden tegen fysieke en
+logische manipulatie door een
+aanvaller met een 'High door de gebruiker zelf uit te laten zetten. Ook mag de optie worden
+aangeboden de de gebruiker notificatie te koppelen aan het gebruik van
+diensten op het LoA van het middel of lager. Ad 5 Toelichting: Het gaat er om dat de gebruiker via het 'trusted' kanaal
+hoogst betrouwbaar informatie over zijn inlog bij de DV of dienst kan
+worden gegeven en om hoogst betrouwbare bevestiging kan worden
+worden gevraagd van een specifiek transactiegegeven. Deze
+betrouwbaarheid blijf bestaan ook al is de gebruiker slachtoffer van een
+aanval op zijn inlog-applicatie zoals zijn browser en de PC van de
+gebruiker (man-in-the-browser attack/man-in-the-front attack). Bij het
+nemen van maatregelen voor het betrouwbare kanaal moet dus worden
+uitgegaan van de idee dat de gebruikersomgeving is gecorrumpeerd. Ad 7 Toelichting: De wijze waarop conformiteit met deze eis moet
+worden aangetoond is aangegeven in paragraaf 2.4.7 Compliance en
+Audit.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 987
+7. 1. 2.

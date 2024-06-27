@@ -1,0 +1,23 @@
+This reads from the tab-delimited file ,
+which you can edit, or put a modified copy at in your HOME directory (see ). 4.10 Help is not shown for some of the packages This was about Compiled HTML help, which has not been supported since R
+2.10.0. 4.11 How do I get static HTML pages? We presume you want to do this for some special purpose: R’s help system
+will not make use of them, links across library directories will not
+work (unlike R < 2.10.0), ambiguous links will be resolved at install
+time and missing links will be broken (previous versions used
+JavaScript to look for them at run time). But if you still want them,
+here is how to do it. Static HTML pages are not part of the binary distribution, so you will
+need to install R and/or packages from their sources. To install just a
+few packages with static HTML pages use To install R itself with static HTML pages you need to build it from the
+sources for yourself. Change the following line in file (after copying to if that has not already been done). and them all packages installed by that build of R will (by default) be
+installed with static HTML pages. 4.12 How can I get a binary version of a package? Presumably one not available on CRAN, BioC or a similar repository. If you have a source package that is known to work on a Unix-alike
+system, you can try the automated Windows binary package builder
+documented at . If the package is
+not yours, please remember to change the maintainer address so the
+results go to you and not the author(s)! However, if a CRAN package is not available in binary form, this usually
+means that there is a problem with some dependent package or external
+software (often mentioned in the file in the binary
+repository directory). You can email expressing a wish for such a package to be ported—the maintainers will
+take such wishes into account when prioritizing work on binary packages. In many cases installing packages from the sources is not at all
+difficult (it is simple if the package contains no compiled code), so
+please attempt that for yourself before requesting help from the busy
+volunteers. See also Q4.1.

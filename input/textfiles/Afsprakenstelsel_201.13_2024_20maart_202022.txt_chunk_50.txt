@@ -1,0 +1,110 @@
+Commissie van Deskundigen
+Eigenaar
+Toetreder
+7. Toetreden afsprakenstelsel
+Input Positief besluit voor toetreding
+Getekende deelnemersovereenkomstAfsprakenstelsel Elektronische Toegangsdiensten | pagina 399Activiteit De Deelnemer treedt toe tot het afsprakenstelsel
+De Deelnemer geeft de metadata URL en de public key van het signing certificaat aan van de preproductie-
+en productiesystemen door aan de Beheerorganisatie. De Beheerorganisatie verwerkt de metadata tot
+nieuwe metadata voor het netwerk en communiceert deze aan alle deelnemers. Nadat de deelnemers de
+nieuwe metadata hebben verwerkt, is het nieuwe productiesysteem aangesloten op het netwerk. Hierbij
+wordt het proces gevolgd zoals beschreven in  . Proces netwerkmetadata
+De Deelnemer geeft informatie over de propositie door aan de beheerorganisatie. Dit wordt op de website
+van eHerkenning geplaatst. De Deelnemer behaalt zijn ISO-certificering binnen de termijn die daarvoor in het afsprakenstelsel is
+vastgelegd. Output Aangesloten nieuwe deelnemer
+Wie? Eigenaar
+Toetreder
+BeheerorganisatieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 400Proces uittreden
+De   voorziet in artikel 5 het beëindigen van de overeenkomst door zowel de   als deelnemersovereenkomst Deelnemer
+. Eigenaar
+Met het beëindigen van de deelnemersovereenkomst treedt een partij uit het stelsel. De deelnemer heeft na uittreding niet
+langer het recht om zijn diensten onder het merk eHerkenning aan te bieden en is geen partij meer in het netwerk en het
+Afsprakenstelsel Elektronische Toegangsdiensten. Daarnaast kan zowel de Deelnemer als de Eigenaar besluiten om deelname in een bepaalde rol te beëindigen. Bij het
+uittreden van een rol bepaalt de  welke van de onderstaande processtappen van toepassing zijn. ToezichthouderAfsprakenstelsel Elektronische Toegangsdiensten | pagina 401Doelstelling
+Het proces uittreden heeft als doel te zorgen voor een ordentelijke uittreding waarbij risico's zoals imagoschade,
+vertrouwensschade, onderbreking in de continuïteit en beschikbaarheid tot een minimum beperkt worden. Door toezicht op dit proces te houden wordt gewaarborgd dat de uittredende deelnemer voldoende rekening houdt met de
+belangen van de in het stelsel actief blijvende gebruikers en dienstverleners.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 402Overzicht processtappen bij beëindiging door Deelnemer
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 403Processtappen uittreding
+1. Verzoek tot beëindiging deelnemersovereenkomst
+Input Verzoek tot uittreding
+Activiteit De deelnemer meldt het voornemen om uit het stelsel te treden . De schriftelijke opzegtermijn bij de Eigenaar
+is 3 maanden. Output Schriftelijk opzegging van de deelnemersovereenkomst van de deelnemer. Wie? Uittredende deelnemer
+2. Behandelen opzegging rol / deelnemersovereenkomst
+Input Het verzoek tot beëindiging van de deelnemersovereenkomst. Activiteit De deelnemers overeenkomst is tussen Deelnemer en Eigenaar. Beide partijen kunnen deze eenzijdig
+opzeggen. De Eigenaar ontvangt daarom het verzoek tot beëindiging. De Eigenaar vraagt advies aan de CvD inzake de de uittreding. Output Adviesverzoek aan de CvD voor de uittreding
+Bevestiging van het uittredingsverzoek cq beëindigen van de deelnemersovereenkomst. Wie
+CvD (Secretariaat van de CvD)
+Eigenaar
+3. Communiceren uittreding
+Input Het verzoek of besluit tot beëindiging van de deelnemersovereenkomst. Activiteit De Eigenaar stuurt de betreffende deelnemer de bevestiging van het verzoek tot uittreding. De Eigenaar informeert de deelnemers in het stelsel over het beëindigen van de deelnemersovereenkomst. De Eigenaar is verantwoordelijk voor communicatie met de pers omtrent de uittreding. De relevante betrokken partijen in het Afsprakenstelsel moeten geïnformeerd worden. Hierbij dienen de
+verschillende doelgroepen die moeten worden geïnformeerd vooraf te zijn geïdentificeerd en dient de wijze
+van contact vooraf zijn beschreven. Uitgangspunt hierbij dient te zijn dat dienstverleners en gebruikers zoveel
+mogelijk tijd krijgen om gestructureerd over te stappen naar een andere deelnemer. Output Communicatie richting deelnemers en persAfsprakenstelsel Elektronische Toegangsdiensten | pagina 404Wie? Eigenaar
+Uittredende deelnemer richting haar contractpartijen
+4. Uitvoeren handelingen mbt uittreding door deelnemer
+Input Het verzoek tot beëindiging van de deelnemersovereenkomst. Activiteit De uittredende deelnemer voert de maatregelen uit conform het het eigen exitplan (voor een voorbeeld zie
+handreiking exitplan). De uittredende deelnemer stelt hiervoor een "SMART" actieplan met daarin dwingend
+opgenomen de volgorde in de tijd waarop activiteiten dienen te worden uitgevoerd. Hieruit moet bijvoorbeeld
+blijken wanneer de uitgifte van middelen wordt gestopt, wanneer er gecommuniceerd en wanneer de
+dienstverlening wordt stopgezet enzovoort. De uittredende deelnemer moet zijn contractpartijen (de eindgebruikers en aangesloten dienstverleners)
+terstond  informeren over de opzegging van de deelnemersovereenkomst. De contractpartijen moeten zoveel
+mogelijk tijd geboden krijgen om over te stappen naar een andere erkende aanbieder. De uittredende deelnemer dient alle beeldmerken van eHerkenning van internetpagina’s, websites,
+apparatuur, reclame-uitingen en andere (communicatie)middelen te verwijderen. dient alle informatie die niet langer noodzakelijk is, zoals logging, digitale dossiers De uittredende deelnemer
+en fysieke stukken, te verwijderen én veilig te archiveren. Hierbij dient te worden aangegeven of informatie
+verwijderd kan worden of dat deze bij de beheerorganisatie dient te worden ondergebracht en op welke wijze
+dit veilig gebeurt. Persoonsgegevens verdienen hierbij bijzondere aandacht. Output Actieplan
+Aangepaste Communicatie
+Bijgewerkte website van de deelnemer
+Wie? Deelnemer
+CvD met ondersteuning van het secretariaat. 5. Verwijderen deelnemer uit het netwerk
+Input Communicatie uittreding door Eigenaar
+Opdracht van de Eigenaar tot verwijderingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 405Activiteit De Eigenaar geeft opdracht aan de Beheerorganisatie om alle verwijzingen naar de betreffende deelnemer van
+de website (uitgezonderd oudere nieuwsberichten) te verwijderen en levert de communicatie aan over de
+beëindiging van de deelnemersovereenkomst op de website. De Beheerorganisatie verwijdert de informatie van de uittredende partij uit de netwerkmetadata. Deze nieuwe
+metadata levert de Beheerorganisatie op aan de overige deelnemers conform het  . Nadat de Proces metadata
+deelnemers de netwerkmedata hebben verwerkt is de Deelnemer technisch uit het stelsel verwijderd. De Eigenaar bevestigt de uittreding aan de deelnemer en daarmee de beëindiging van de
+deelnemersovereenkomst. Output Verwijdering van de betreffende deelnemer uit het technische netwerk van het stelsel. Wie? BeheerorganisatieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 406Overzicht processtappen beëindiging door Eigenaar van de deelnemersovereenkomst
+De Eigenaar kan besluiten een deelnemer te verwijderen in zijn rol als Toezichthouder om zo op te kunnen treden tegen
+Deelnemers die zich niet aan de afspraken houden. De Commissie van Deskundigen geeft advies hoe opgetreden kan worden
+en verwijdering is hierin een instrument.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 407
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 408Overzicht processtappen
+1. Advies over het opzeggen van de overeenkomst door de Eigenaar
+Input Voorvallen genoemd in artikel 5.2 van de deelnemersovereenkomst
+Activiteit De deelnemersovereenkomst specificeert de redenen om de overeenkomst te beëindigen. Als de Commissie
+van Deskundigen dergelijke omstandigheden constateert dan zal dat aan de Eigenaar kenbaar worden gemaakt
+in een advies. Output Schriftelijk opzegging van de deelnemersovereenkomst van de deelnemer. Wie? CvD
+Eigenaar
+2. Opzeggen van de overeenkomst door de Eigenaar
+Input Advies van de CvD
+Activiteit De Eigenaar zal bij opvolging van het advies de deelnemersovereenkomst met de betreffende deelnemer
+opzeggen. De Eigenaar vraagt de CvD om toezicht te houden op het uittredingsproces. Output Schriftelijk opzegging van de deelnemersovereenkomst van de deelnemer. Wie? Eigenaar
+CvD
+Uittredende deelnemer
+3. Communiceren uittreding
+Input De beëindiging van de deelnemersovereenkomst. Activiteit De Eigenaar brengt de deelnemer schriftelijk op de hoogte van het opzeggen van de overeenkomst en ook
+overige belanghebbenden zoals overige deelnemers, Goverance, Beheerorganisatie en eventueel de pers. Output Brief met de beëindiging van de deelnemersovereenkomst. Communicatieplan
+Wie
+Deelnemer
+Eigenaar
+4. Uitvoeren handelingen mbt uittreding door deelnemerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 409Input De beëindiging van de deelnemersovereenkomst. Activiteit De uittredende deelnemer voert de maatregelen uit conform het het eigen exitplan. De uittredende deelnemer
+stelt hiervoor een "SMART" actieplan met daarin dwingend opgenomen de volgorde in de tijd waarop
+activiteiten dienen te worden uitgevoerd. Hieruit moet bijvoorbeeld blijken wanneer de uitgifte van middelen
+wordt gestopt, wanneer er gecommuniceerd en wanneer de dienstverlening wordt stopgezet enzovoort. De uittredende deelnemer moet zijn contractpartijen (de eindgebruikers en aangesloten dienstverleners)
+terstond  informeren over de opzegging van de deelnemersovereenkomst. De contractpartijen moeten zoveel
+mogelijk tijd geboden krijgen om over te stappen naar een andere erkende aanbieder. De uittredende deelnemer dient alle beeldmerken van eHerkenning van internetpagina’s, websites,
+apparatuur, reclame-uitingen en andere (communicatie)middelen te verwijderen. dient alle informatie die niet langer noodzakelijk is, zoals logging, digitale dossiers De uittredende deelnemer
+en fysieke stukken, te verwijderen én veilig te archiveren. Hierbij dient te worden aangegeven of informatie
+verwijderd kan worden of dat deze bij de beheerorganisatie dient te worden ondergebracht en op welke wijze
+dit veilig gebeurt. Persoonsgegevens verdienen hierbij bijzondere aandacht. Output Actieplan
+Aangepaste Communicatie
+Bijgewerkte website van de deelnemer
+Wie? Deelnemer
+CvD met ondersteuning van het secretariaat. 5. Verwijderen deelnemer uit het netwerk
+Input Communicatie uittreding door Eigenaar
+Opdracht van de Eigenaar tot verwijdering
+Activiteit De Eigenaar geeft opdracht aan de Beheerorganisatie om alle verwijzingen naar de betreffende deelnemer van
+de website (uitgezonderd oudere nieuwsberichten) te verwijderen en levert de communicatie aan over de
+beëindiging van de deelnemersovereenkomst op de website. De Beheerorganisatie verwijdert de informatie van de uittredende partij uit de netwerkmetadata. Deze nieuwe
+metadata levert de Beheerorganisatie op aan de overige deelnemers conform het  . Nadat de Proces metadata
+deelnemers de netwerkmedata hebben verwerkt is de Deelnemer technisch uit het stelsel verwijderd. De Eigenaar bevestigt de uittreding aan de deelnemer en daarmee de beëindiging van de
+deelnemersovereenkomst. Output Verwijdering van de betreffende deelnemer uit het technische netwerk van het stelsel. Wie? BeheerorganisatieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 4101. 2. 1.

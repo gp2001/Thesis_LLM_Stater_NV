@@ -1,0 +1,186 @@
+MR2 MUST use ServiceUUID(s) from MR1.assertion (instead of HM-request)
+ServiceID's for which the Intermediate has a valid mandate. MUST provide and <Advice> element containing an AssertionIDRef referencing to the MR1-assertion
+(not AD-Assertion!), see Linking of Assertions. MUST provide an <XACMLAuthzDecision>
+containing in <Subject>
+a <LinkedDeclarationSignatureValue> with Signature value of the MR1-Assertion referenced to
+via in <Advice> element AssertionIDRef mentioned above. NO <ActingSubjectID> (or <ActingEntityID> in case of backward compatibility), because MR1
+should add ActingSubjectID not MR2
+a <LegalSubjectID> with the appropriate ECTA's and identifiers (see infobox on HM-MR page)
+for ServiceConsumer B based on the requested ECTA-set as described in the ServiceCatalog for _
+the original ServiceUUID/ServiceID that is requested by the DV and added as Attribute in the AD-
+assertion (which is included in the HM-MR2 request). containing in <Resource>
+IF  is not available THEN 'Deny' and start Error Intermediate.CompanyName (of Intermediate_A)
+Handling
+IF available SP-certificate THEN an extra EncryptedAttribute@SP with the Intermediate. ( as known by the ServiceConsumer_B) as a value of urn: CompanyName of Intermediate_A
+etoegang:1.13:attribute-Intermediate:CompanyName
+IF NOT available SP-certificate THEN continue without Intermediate.CompanyName
+IF any attributes of ServiceConsumer B are requested, MR2 MUST assume UserConsent
+the  and  with value(s) identical to MR1 assertion for which Intermediary ServiceID ServiceUUID _
+A the MUST have a mandate from ServiceConsumer_B, otherwise Deny
+ServiceUUID and Portal Request
+A ServiceUUID (value) in the specifications always represents a ServiceInstanceUUID, which is a DV-specific ServiceInstance of
+a ServiceDefinition. A ServiceDefinition is identified using a ServiceUUID which is can be referred to as a
+. Mandates are registered on a ServiceDefinition (not a DV-specific ServiceInstance). Therefor MR1 and ServiceDefinitionUUID
+MR2 have to check on valid mandates by looking up the ServiceDefinition belonging to the  requested ServiceInstance. MR2 is not allowed to extent or reduce the ServiceInstance-list in MR1 assertion. Even more, MR2 will Deny the request if
+Intermediairy_A does not have a valid mandate for all of the services in this list. To prevent such a deny, MR1 should be very
+carefull composing the ServiceInstance-list and only add ServiceInstance's in the response for which the Intermediary has a
+. mandate (from ServiceConsumer_B) at MR2 MR1 can use DiscoveryService for this purpose. Intermediate.CompanyName
+is the name of the  Company that MR2 uses when ServiceConsumer_B is registering or managing mandates for Intermediate
+this intermediate. either the registered official name or trade name (KvK: statutaire naam The  is Intermediate CompanyName
+of handelsnaam). CompanyName has a value of urn:etoegang:1.13:attribute-Intermediate:CompanyName. MR2 always has
+to return the I ntermediate CompanyName. Except when the ServiceProvider does not have an encryption certifiate in the
+tributes always need to be encrypted. ServiceCatalog for this service. Because atAfsprakenstelsel Elektronische Toegangsdiensten | pagina 738Discovery Interface MR-MR chain authorisations
+This page describes the messages for the interface specification between a     Machtigingenregister (MR) (authorization
+information provider) and a  Machtigingenregister (MR) (authorization information provider) in order to provide the chain
+authorisation functionality. In order to maintain the same level of security as is usual in other SOAP services like the one the
+BSNk provides, the security demands including signing and encryption of the message is added in the supplementary page
+. MR-MR webservice Security
+Elektronische Toegangsdiensten only supports chains with one intermediary:
+User G (user) > Intermediary A > Service consumer B. The authorization that the user may act on behalf of Intermediary A is registered as authorization with the first MR. The
+information that there is an authorization from Service consumer B for Intermediary, and in which MR it is stored, MUST
+also be known by the first MR (or ). retrieved at the time of authentication
+ChainInformationQuery
+This is a SOAP service to be implemented by the MR. Schematically it looks like this:
+Name Required Description
+ID YES Unique message attribute, like the SAML ID field
+RequestingEntityId YES The entityID of the MR requesting this information. The EntityID MUST
+match the entityID of the MR in the Network metadata
+IntermediarySubjectID_Type YES ECTA type to use to identify the intermediary company. MUST be set to
+. EntityConcernedID:KvKnr
+Only one LegalSubjectID_Type  element MUST be included
+IntermediarySubjectID    YES Contains the value of the ECTA of the intermediary
+LegalSubjectID_Type   YES ECTA type to use to identify the Service consumer company. LegalSubjectID YES Contains the value of the ECTA of the Service consumer which is to be
+represented
+Only one LegalSubjectID  element MUST be included
+LegalSubjectID Service
+Type Restriction _NO MUST be set to  if this function is used. No other vestigingsnummer
+restructions are currently used
+LegalSubjectID Service CONDITIONAL If the tag Service is used, this tag is required. It LegalSubjectID Restriction Afsprakenstelsel Elektronische Toegangsdiensten | pagina 739Restriction contains the value of the  Service _Type LegalSubjectID Restriction
+Service_Type YES Can be set to either  or . If OIN is used all services OIN ServiceUUID
+belonging to the OIN are requested. The ServiceUUID option can be used to
+request a specific service. Service YES In case Service_Type is : OIN
+An OIN must be selected from the . Service catalog
+All services which are registed under this OIN will be part of the
+discovery request
+In case Service_Type is  ServiceUUID
+A serviceUUID MUST be selected from a service definition in the Service
+. catalog
+Only the selected service is part of the discovery request
+LOAmin NO Specifies the minimum LOA level to be considered by the responding MR
+Processing  rules for creating the request:
+The sender MUST sign and encrypt the request with the keys of the MR in the   Network metadata
+The MR MAY only inquire if a chain authorisation exists if one of the organisations is its customer
+Processing rules for validating the request:
+The recipient MUST verify the request with the keys of the MR in the  . The keys must be retrieved Network metadata
+from the MR stated in the RequestingEntityId. Response
+Name Required Description
+ID YES Unique message attribute, like the SAML
+ID field
+InResponseTo YES This is the same value as send in the ID
+in the  ChainInformationQuery
+Signature YES Signature scopes the Response message
+DateTime YES Issue datetime of the response
+IntermediarySubjectID_Type YES ECTA type to use to identify the
+intermediary company. MUST be set to
+. EntityConcernedID:KvKnr
+IntermediarySubjectID    YES Contains the value of the ECTA of the
+intermediary Afsprakenstelsel Elektronische Toegangsdiensten | pagina 740LegalSubjectID_Type   YES ECTA type to use to identify the Service
+consumer company. MUST return the same
+LegalSubjectId_Type as included in the
+request. LegalSubjectID YES Contains the value of the ECTA of the
+Service consumer which is to be
+represented
+MUST return the same LegalSubjectId as
+included in the request. LegalSubjectID Service _Type Restriction NO MUST be set to vestigingsnummer if this
+function is used. No other restructions
+are currently used
+LegalSubjectID Service Restriction CONDITIONAL If the tag Service LegalSubjectID
+is used, this tag is required. Restriction
+It contains the value of the
+Service _Type LegalSubjectID Restriction
+ServiceList YES A list of services for which the
+Intermediary is authorized (see
+processing rules). Service OPTIONAL,
+one or moreSpecifies the services for which the
+chainauthz is applicable. If no services
+are applicable, this element is not used
+ServiceDefinitionUUID YES The serviceUUID of the service as
+specified in the ServiceDefinition of the
+. service catalog
+LOA YES The LOA which is registed at the
+authorisation which allows usage of this
+service
+Processing rules for creating response
+In case Service_Type in the request is : OIN
+All services which are registed under this  will be part of the discovery request OIN
+The ServiceList MUST return serviceUUID's which are registerd to the requested OIN, if the Intermediary is authorized
+for these services. If there are no applicable services to return, the ServiceList will remain empty. In case Service_Type is in the request  ServiceUUID
+Only the selected service is part of the discovery request
+The ServiceList MUST return the same serviceUUID, if the Intermediary is authorized for these services. Otherwise the
+ServiceList will remain emptyAfsprakenstelsel Elektronische Toegangsdiensten | pagina 741 WSDL example
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+xmlns:etoegang="urn:etoegang:webservices"
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+name="ChainInformationQuery"
+targetNamespace="urn:etoegang:webservices">
+<wsdl:types>
+<xsd:schema targetNamespace="urn:etoegang:webservices"
+attributeFormDefault="unqualified"
+elementFormDefault="qualified">
+<xsd:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="http://www.w3.org/TR
+/xmldsig-core/xmldsig-core-schema.xsd"/>
+<xsd:element name="ChainInformationQueryRequest" type="etoegang:
+ChainInformationQueryRequestType">
+<xsd:annotation>
+<xsd:documentation>Sends an information request
+</xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="ChainInformationQueryRequestType">
+<xsd:
+sequence>
+<xsd:element name="RequestingEntityId" type="etoegang:EntityIDType"
+minOccurs="1" />
+<xsd:element name="IntermediarySubjectID_Type" type="etoegang:ECTA"
+minOccurs="1" />
+<xsd:element name="IntermediarySubjectID" type="etoegang:
+ECTAValueType" minOccurs="1" />
+<xsd:element name="LegalSubjectID_Type" type="etoegang:ECTA"
+minOccurs="1" />
+<xsd:element name="LegalSubjectID" type="etoegang:ECTAValueType"
+minOccurs="1" />
+<xsd:element name="LegalSubjectIDServiceRestriction_Type" type="
+etoegang:ServiceRestrictionTypeType" minOccurs="0" />
+<xsd:element name="LegalSubjectIDServiceRestriction" type="etoegang:
+ServiceRestrictionType" minOccurs="0" />
+<xsd:element name="Service_Type" type="etoegang:ServiceTypeType"
+minOccurs="1" />
+<xsd:element name="Service" type="etoegang:ServiceType" minOccurs="
+1" />
+<xsd:element name="LOAmin" type="etoegang:LOA" minOccurs="1"
+/>
+</xsd:sequence>
+<xsd:attribute name="ID" type="xsd:ID" use="required"
+/>
+</xsd:complexType>
+<xsd:simpleType name="EntityIDType">
+<xsd:annotation>
+<xsd:documentation>EntityID type. </xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="100" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ECTA">
+<xsd:annotation>
+<xsd:documentation>ECTA type. </xsd:documentation>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 742                </xsd:annotation>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="100" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ECTAValueType">
+<xsd:annotation>
+<xsd:documentation>ECTAValueType.

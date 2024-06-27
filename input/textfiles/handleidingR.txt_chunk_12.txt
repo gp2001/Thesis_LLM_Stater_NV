@@ -1,0 +1,219 @@
+Hetresultaat iseenvectorter
+lengte vanhettotaal aantallevels. >x
+[1]335155
+>breaks
+[1]02468
+>
+>tapply(x,cut(x,break s),sum)
+(0,2](2,4](4,6](6,8]
+1615NA
+>
+>y
+[1]010011
+>tapply(x,y,sum)
+01
+913INDEX
+argumen ten13
+boxplot 18
+category 35
+coercie 10
+curren tgraphics device 20
+en10
+false 9
+frame 31
+functies 12
+graphics windo w17
+graphics windo w20
+Highlevelplotfuncties 17
+histogram 18
+karakter strings 9
+karakter vector 10
+kleinste-kw adraten-lijn 22
+levels36
+list22
+logischevergelijkingen 10
+Lowlevelplotfuncties 17
+Machten7
+matrix 24
+maxim um13
+minim um13
+notavailable 11
+of10
+ontkenning 10
+order statistics 14
+prioriteitsv olgorde 8
+product 13
+prompt 4
+qq-plots 18
+random permutatie 17
+rangnummers 14
+rekenkundige operaties 7
+Rekenkundige standaardfuncties 7
+roosters 9searchlist35
+som 13
+spacings 14
+stem-and-leaf-plot 15
+teruglegging 16
+toekenningssym bool6
+true 9
+vector 6
+vervolg-prompt 4
+waarschuwing 8
+NA11
+!=10
+!10
+*7
++7
+-7
+.Random.seed 17
+/7
+:9
+<=10
+<10
+==10
+>=10
+>10
+abline(a,b) 21
+abs7
+acf(x) 15
+acosh 7
+acos 7
+apply 25
+apply 26
+asinh 7
+asin 7
+atanh 7
+atan 7
+boxplot(x) 21
+break 34
+cancor 26cat35
+cbind 25
+cbind 26
+ceiling 7
+chol 26
+col(x) 26
+cor(x,y) 15
+cosh 7
+cos7
+cumsum(x) 13
+cut(x,breaks) 35
+c6
+data.frame 27
+dev.off 20
+diag(x) 26
+diff(x) 14
+dimnames 27
+dim25
+dump 35
+duplicated(x) 14
+dverd16
+eigen 26
+exp7
+FALSE 9
+floor 7
+for33
+gamma 7
+help 6
+hist(x) 21
+identify(x,y,labels) 22
+if(!missing( argument))33
+if33
+is.na 11
+legend() 21
+length(x) 13
+lgamma 7
+lines(x,y) 21
+lines 18list 23
+locator 22
+log10 7
+log7
+lsfit 22
+ls35
+lty21
+main 21
+matplot(matx,maty) 21
+matrix 25
+max(x) 13
+mean(x) 15
+mean(x,trim=) 15
+median(x) 15
+min(x) 13
+mode 10
+mtext(" tekst",side,line) 21
+ncol(x) 26
+next 34
+nrow(x) 26
+numeric 12
+order 14
+par18
+persp(z) 21
+plot(mat) 21
+plot(x,y) 21
+plot(x,y,type="l") 21
+plot(x,y,type="n") 21
+plot(x,y,type="s") 21
+plot 18
+points(x,y) 21
+polygon(x,y) 21
+postscript 20
+prod(x) 13
+pverd16
+q()4
+qqnorm(x) 21
+qqplot(x,y) 21qqverd21
+qr26
+quantile(x,prob) 15
+qverd16
+range(x) 15
+rank(x) 14
+rbind 25
+rbind 26
+read.table 29
+repeat 34
+rep9
+rev14
+rm35
+rnorm 16
+round 7
+row(x) 26
+rverd16
+sample 16
+scan 28
+sdev 30
+seq9
+set.seed 17
+sign 7
+sinh 7
+sin7
+solve 26
+sort 13
+source 29
+stem 15
+sub21
+sum(c(x,y)) 13
+sum(x) 10
+sum(x) 13
+sum(y) 10
+svd26
+t(x) 25
+t(x) 26
+table(x,y) 36table 36
+tanh 7
+tan7
+tapply(x,category,funct ie)37
+text(x,y) 21
+text(x,y,label) 21
+title(" titel","ondertitel")21
+TRUE 9
+unique(x) 14
+var(x) 15
+var(x,y) 15
+while 34
+write 30
+write 35
+xlab 21
+xlim 21
+ylab 21
+ylim 21
+&10
+|10

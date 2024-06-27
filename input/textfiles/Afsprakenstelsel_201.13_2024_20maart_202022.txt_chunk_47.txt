@@ -1,0 +1,56 @@
+8. Proces toetreden
+Het afsprakenstelsel van Elektronische Toegangsdiensten, waaronder het merk eHerkenning valt, staat open voor deelname
+door nieuwe geïnteresseerde partijen. Het Proces Toetreden beschrijft de stappen die genomen moeten worden om toe te
+treden tot het afsprakenstelsel Elektronische Toegangsdiensten. Na ondertekening van de Deelnemersovereenkomst, als
+sluitstuk van het toetredingsproces, mag het merk eHerkenning gevoerd worden. Bij bepaalde wijzigingen, bijvoorbeeld
+wanneer een deelnemer zijn dienstverlening wil uitbreiden of aanpassen, kan er ook sprake zijn van toetreden. In alle
+gevallen dient de kandidaat toetreder (hierna genoemd: de Toetreder) het Proces Toetreden met goed gevolg te doorlopen. Er is sprake van toetreding in de volgende situaties:
+Een nieuwe deelnemer (een partij die nog geen deelnemersovereenkomst heeft getekend) wil één of meer rollen in
+het stelsel gaan vervullen. Een huidige deelnemer wil zijn rol(len) in het stelsel uitbreiden met één of meer rollen. Een huidige deelnemer wil met één of meer betrouwbaarheidsniveaus uitbreiden op de rol(len) die hij al vervulde in
+het stelsel. Een huidige deelnemer wil zijn processen voor uitgifte van middelen of registratie van machtigingen aanpassen. Een huidige deelnemer wil één of meer optionele functionaliteiten gaan leveren (of uitbreiden) aan zijn klanten. Verscheidene partijen willen in een combinatie onder een gemeenschappelijke naam Toegangsdiensten verrichten,
+waarbij ieder van de partijen in de combinatie hoofdelijk aansprakelijk is. In dit geval dienen alle combinanten
+afzonderlijk toe te treden. Indien er een wijziging is in de samenstelling van de combinatie, moet de nieuwe partij
+het Proces Toetreden doorlopen. Een huidige deelnemer implementeert een nieuwe koppelvlakrelease van het afsprakenstelsel, zie ook  Proces change
+. en release
+Een huidige deelnemer wijzigt de rechtspersoon of rechtsvorm. Hij gebruikt dan het formulier  Template wijziging
+. rechtspersoon deelnemer
+De Toezichthouder heeft de mogelijkheid om, afhankelijk van de situatie, bepaalde processtappen over te slaan en/of aan te
+geven wat de op te leveren bewijsstukken zijn. Deze keuze is afhankelijk van de situatie: een nieuwe toetreding verschilt van
+een wijziging van de rechtspersoon, in het geval van de wijziging van de rechtspersoon heeft de Toezichthouder al de
+procesbeschrijvingen getoetst. De Toezichthouder bepaalt en communiceert per situatie de te doorlopen stappen en de op te
+leveren bewijsstukken aan de Toetreder. Gerelateerde onderdelen van het afsprakenstelsel:
+Toetredingseisen
+Testing
+Beleid voor informatiebeveiliging
+Normenkader betrouwbaarheidsniveaus
+Template deelnemersovereenkomst  Afsprakenstelsel Elektronische Toegangsdiensten | pagina 387Doelstelling
+De doelstelling van het Proces Toetreden is om op een zorgvuldige en beheerste wijze nieuwe deelnemers aan te sluiten. Het
+Proces Toetreden vormt een belangrijke waarborg voor het vertrouwen in het merk eHerkenning. De deelnemers moeten
+voldoen aan de eisen genoemd in het afsprakenstelsel om dit vertrouwen in het  merk te kunnen waarborgen  Deze toetsing
+voert de Toezichthouder uit. Zorgvuldige en beheerste toetreding betekent o.a.:
+volgens een transparant proces;
+zonder verstoringen;
+dat de Toetreder voldoet aan het afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 388Verantwoordelijkheden
+Diverse partijen hebben verantwoordelijkheden en taken in het Proces Toetreden:
+De Toetreder is verantwoordelijk voor het implementeren van de eisen die het afsprakenstelsel stelt. Hij stelt de
+benodigde documentatie beschikbaar voor de toetsing. De Toetreder stelt tevens een medewerker als aanspreekpunt
+aan. De Beheerorganisatie faciliteert het Proces Toetreden en is verantwoordelijk voor de administratie en de volledigheid
+van het toetredingsdossier tijdens het Proces Toetreden. De Beheerorganisatie stelt tevens een simulator testtool ter
+beschikking en heeft de taak om de resultaten van de simulator- en ketentestresultaten cq. de implementatie van de
+koppelvlakken van de Toetreder steekproefsgewijs te toetsen (zie  ). De Beheerorganisatie stelt een Testing
+'Coördinator Toetreden' aan. De Coördinator Toetreden notificeert de Toezichthouder via het secretariaat van de Commissie van
+Deskundigen (Hierna te noemen: secretariaat van de CvD), de Eigenaar  en het Tactisch Beraad wanneer een
+nieuwe Toetreder zich meldt. Daarnaast administreert de Coördinator Toetreden  van de beheerorganisatie het
+toetredingsdossier en controleert de volledigheid ervan. De Coördinator Toetreden stelt het volledige dossier
+beschikbaar aan het secretariaat van de CvD met het verzoek de implementatie van een Toetreder te toetsen. De
+Coördinator Toetreden is verantwoordelijk voor het naleven van het Proces Toetreden conform de procesbeschrijving
+en houdt de procesbeschrijving actueel. De  adviseert de Minister over toetredingen. Het advies bevat informatie of Commissie van Deskundigen (CvD)
+een Toetreder kan toetreden tot het afsprakenstelsel. De Toezichthouder toetst de implementatie van de deelnemer
+m.b.t. de opzet van de processen voor het uitgeven en registreren van middelen en machtigingen en de vereiste
+beveiligingsaspecten. De CvD wordt ondersteund door het . Het Secretariaat van de CvD Secretariaat van de Commissie van Deskundigen
+controleert het toetredingsdossier en toetst aan de hand van het controlememorandum of de procesbeschrijvingen
+van de Toetreder voldoen. De Eigenaar sluit, als houder van het merkrecht en politiek verantwoordelijke voor het afsprakenstelsel een
+deelnemersovereenkomst af met de Toetreder. Daarmee krijgt een partij het recht om deel te nemen in het
+netwerk en onder het merk eHerkenning de propositie te voeren waarvoor hij is toegetreden. In het Proces Toetreden spelen concurrentiegevoelige gegevens een rol. Deze gegevens zijn geclassificeerd als 'Vertrouwelijk'.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 389Overzicht processtappenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 390Afsprakenstelsel Elektronische Toegangsdiensten | pagina 391
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 392
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 393a. b. c.

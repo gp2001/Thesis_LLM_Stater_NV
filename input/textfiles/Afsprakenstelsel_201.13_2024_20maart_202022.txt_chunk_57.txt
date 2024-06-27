@@ -1,0 +1,153 @@
+Voor deelnemers Norm
+Verwerking van
+berichten 95% van de berichten MOET binnen 2 seconden worden beantwoord
+99% van de berichten MOET binnen 5 seconden worden beantwoord
+Elke deelnemer MOET ten minste 100 gelijktijdige berichten kunnen verwerken terwijl nog
+wordt voldaan aan de performance-eisenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 442Incidenten
+Onder ‘incidenten’ wordt verstaan: elke gebeurtenis die niet tot de standaardoperatie van een dienst behoort en die mogelijk
+impact c.q. risico oplevert ten aanzien van de kwaliteit, beschikbaarheid, integriteit en/of vertrouwelijkheid van (gegevens
+binnen) het netwerk. Zie ook . Proces incidentmanagementAfsprakenstelsel Elektronische Toegangsdiensten | pagina 443Prioritering incidenten
+Voor de prioritering van incidenten bestaan verschillende escalatieniveaus. Escalatieniveau Impact en urgentie
+Incident
+Verwachte verstoringsduur <4 uur;
+Betrokkenheid van één deelnemer. Calamiteit
+Verwachte verstoringsduur > 4 uur en/of;
+Betrokkenheid van tenminste twee deelnemers en/of;
+Directe en ernstige hinder en/of;
+Impact op vertrouwelijkheid en integriteit. Crisis
+Verwachte verstoringsduur > 48 uur en/of;
+Betrokkenheid van meerdere deelnemers en/of;
+Grote impact op imago en vertrouwen van eHerkenning en/of;
+Politieke implicaties en/of;
+Fundamentele juridische of technische kwetsbaarheid.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 444Melden van incidenten
+Elke deelnemer moet incidenten direct na ontdekking melden bij de beheerorganisatie. Type incident Melding
+Incident
+Via de issuetracker . Mantis
+Calamiteit
+Telefonisch bij de incidentmanager van de beheerorganisatie;
+Na overleg met de beheerorganisatie via de issuetracker . Mantis
+Crisis
+Telefonisch bij de incidentmanager van de beheerorganisatie;
+Na overleg met de beheerorganisatie via de issuetracker . Mantis
+De prioritering van het incident wordt bepaald door de melder. De beheerorganisatie mag de prioriteit van een gemeld
+incident wijzigen. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 445Oplossen van incidenten
+Indien een incident niet binnen de gestelde  opgelost is, maakt de BO de afweging of er opgeschaald moet Responsetijden
+worden conform het  . Proces incidentmanagement
+In het geval van een calamiteit of een crisis moet elke deelnemer 24x7 een contactpersoon beschikbaar hebben.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 446Ondersteuning
+Ondersteuning betreft het afhandelen van zaken als vragen, verzoeken en klachten. Beschikbaarheid deelnemers Norm
+Voor service en support aan elkaar, dienstverleners, eindgebruikers en de beheerorganisatie bij onder
+andere het:
+ondersteunen bij het gebruik van Elektronische Toegangsdiensten;
+verstrekken van informatie;
+aannemen en beantwoorden van vragen (ook van gebruikers);
+in behandeling nemen van storingen en klachten over Elektronische Toegangsdiensten en
+de dienstverlening daarover;
+(helpen) testen en hertesten van aansluitingen;
+aanmaken, toewijzen en sluiten van door de deelnemer aangemaakte meldingen.Zie
+Servicevenster
+Beschikbaarheid beheerorganisatie Norm
+Voor service en support aan deelnemers bij onder andere het:
+verstrekken van informatie;
+in behandeling nemen van storingen en wensen m.b.t. systemen van de Beheerorganisatie;
+(helpen) aansluiten op Elektronische Toegangsdiensten;
+hulp bij technische implementatie;
+uitvoeren van certificaatwissels;
+aankondiging van onderhoud;
+DAL aanvragen en DNS wijzigingen cookie domeinen.Zie
+ServicevensterAfsprakenstelsel Elektronische Toegangsdiensten | pagina 447Contentmanagement
+De beheerorganisatie MOET verzoeken tot wijzigen van content vanuit het  binnen 3 werkdagen Proces contentmanagement
+afhandelen. De beheerorganisatie MOET maximaal 10 dagen na het afronden van gepland onderhoud de publicatie hiervan op  www. verwijderen eherkenning.nl/onderhoud .Afsprakenstelsel Elektronische Toegangsdiensten | pagina 448Managementrapportage
+Managementrapportages zijn bedoeld om de groei van het netwerk en de service level afspraken binnen het netwerk te
+monitoren. Zie ook . Proces managementrapportage
+De deelnemers en de beheerorganisatie verzamelen de eigen managementinformatie van de rapportageperiode (deze loopt
+van de eerste dag van een kalendermaand 0:00 uur tot de laatste dag 24:00 uur). Elke deelnemer moet uiterlijk de 5e van elke kalendermaand de rapportage over de voorafgaande rapportageperiode aan de
+beheerorganisatie opleveren voor 24:00 uur. Hiertoe moet de deelnemer de door de beheerorganisatie beschikbaar gestelde
+rapportagetool gebruiken. De rapportage over ketenmachtigingen en belastingdienstmiddelen moet per e-mail verstrekt
+worden. De regels om rapportages via email te verzenden zijn als volgt:
+1: De rapportage MOET als encrypted bestand verstuurd. Dit mag middels extern vertrouwde websites of middels het
+versleutelen van de rapportage zelf
+2: De decryptiesleutel, of wachtwoord, MOET out-of-band worden verstuurd. De beheerorganisatie zal de geaggregeerde informatie binnen 5 werkdagen delen met alle deelnemers en dienstverleners. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 449Monitoring
+De monitoring van de in het service level gemaakte afspraken zal door de beheerorganisatie worden uitgevoerd. Zij doet dit
+in de eerste plaats door het analyseren van de door deelnemers opgeleverde rapportages, maar ook het uitvoeren van
+steekproeven behoort tot de mogelijkheden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 450Responsetijden
+Voor de verschillende activiteiten van de Deelnemers, Beheerorganisatie en BSNk kunnen andere responsetijden gelden. Activiteit Norm
+Voor Ondersteuning Ontvangstbevestiging binnen 4 werkuren
+Oplossing/antwoord binnen 5 werkdagen
+Afhandeling van incidenten Oplossing binnen 4 uurAfsprakenstelsel Elektronische Toegangsdiensten | pagina 451Communicatie
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Dit document beschrijft de richtlijnen voor naam en merkgebruik, huisstijl afspraken en communicatierichtlijnen voor de
+merken eHerkenning en eIDAS. Het is bedoeld voor alle betrokken partijen: deelnemers en dienstverleners. De
+beheerorganisatie levert richtlijnen, standaard tekst- en beeldmateriaal en andere tools die de deelnemers en dienstverleners
+dienen te gebruiken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 452Eisen communicatie bij samenwerking met externe verkoopkanalen
+Wat betreft het gebruik van het beeld- en woordmerk van eHerkenning door externe verkoopkanalen, gecontracteerd door
+Deelnemers, MOETEN Deelnemers zich houden aan de volgende afspraken:
+De beeld- en woordmerken eHerkenning zijn eigendom van de . Gebruik buiten de vastgelegde afspraken is Eigenaar
+NIET toegestaan;
+Deelnemers zijn NIET bevoegd derden toestemming te geven het beeld- of woordmerk eHerkenning te
+gebruiken, tenzij de samenwerking met het externe verkoopkanaal voldoet aan het Afsprakenstelsel en voldaan is aan
+de meldplicht;
+Het gebruik van het woord- en beeldmerk van eHerkenning in domeinnaam/naamvoering door deze derden
+is NIET toegestaan. De volgende eisen ten aanzien van communicatie door externe verkoopkanalen gelden:
+Deelnemers MOETEN er op toezien dat de externe verkoopkanalen waar zij mee samenwerken:
+De verplichte kernboodschap voor externe verkoopkanalen opnemen, nl: " <naam externe verkoopkanaal>
+is wederverkoper van de erkende leverancier van eHerkenning <Naam erkende leverancier>..." Deze moet gebruikt
+worden bij alle communicatie middelen;
+Voor websites specifiek moet deze op de homepage staan;
+Naast het logo van eHerkenning, het logo van de Deelnemer tonen waarmee zij samenwerken bij alle communicatie
+middelen;
+Het externe verkoopkanaal mag de Deelnemer, waarmee zij een contract hebben afgesloten, niet positioneren als
+enige verkoper van inlogmiddelen voor  eHerkenning;
+De termen  en/of beeldmerken "erkend" of "leverancier" zoals gebruikt in het Afsprakenstelsel in samenhang met
+eHerkenning zijn exclusief voorbehouden aan Deelnemers;
+Geen commerciële uitingen doen over eHerkenning en/of de Deelnemers die de beleving van het merk eHerkenning
+negatief kunnen beïnvloeden. De Deelnemer ziet erop toe dat het externe verkoopkanaal duidelijk is in de communicatie over de kosten voor de
+diensten i.h.k.v. eHerkenning en overige (additionele) dienstverlening.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 453Richtlijnen naam- en merkgebruik eHerkenningAfsprakenstelsel Elektronische Toegangsdiensten | pagina 454Algemeen
+Wat betreft logo, beeldelementen en terminologie MOETEN alle deelnemers en dienstverleners zich houden aan de volgende
+richtlijnen:
+Alle betrokken partijen (deelnemers en dienstverleners) maken gebruik van dezelfde beeldelementen en logo's
+(zoals beschreven in de regels en richtlijnen opgenomen in het ) en passen dezelfde Huisstijlhandboek eHerkenning
+schrijfwijze en terminologie toe (zoals beschreven in de ). Dit zorgt voor eenduidigheid in de Begrippenlijst
+communicatie en uitstraling van het merk eHerkenning richting gebruikers.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 455Deelnemers
+Wat betreft naam- en merkgebruik MOETEN deelnemers zich houden aan de volgende richtlijnen:
+De naam eHerkenning wordt als merk gebruikt voor dienstverlening met eHerkenning binnen het B2B, B2G, B2C en
+G2G domein. eHerkenning is een merk dat binnen het overkoepelende Afsprakenstelsel Elektronische
+Toegangsdiensten valt. In algemene zin kan er gesproken worden over eHerkenningsmiddel of eHerkenningsmiddelen. Partijen die toegetreden zijn tot het afsprakenstelsel, mogen onder de noemer 'erkend aanbieder' het merk
+eHerkenning gebruiken ter ondersteuning van de branding van hun diensten/middelen. Het gebruik van het logo
+'erkend aanbieder' is voorbehouden aan partijen die erkende aanbieder zijn binnen eHerkenning. Andere partijen
+mogen dit logo niet voeren, ook niet voor verwijzingen. Om eenduidige gebruikersinteractie te waarborgen,
+hanteren makelaars eenzelfde standaard keuzescherm van eHerkenning. De makelaars verstrekken de Handleiding Communicatie en de Toolkit (logo eHerkenning,
+betrouwbaarheidsvignetten en inlogbuttons) aan de dienstverleners en informeren en adviseren de dienstverleners
+bij de toepassing van de verplichte alsook optionele merkrichtlijnen. Eisen met betrekking tot de communicatie-uitingen op dialoogvensters tijdens het herkenningsproces worden beschreven in
+het onderdeel Use cases.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 456Dienstverleners
+De dienstverlener heeft zich te houden aan de richtlijnen voor naam- en merkgebruik eHerkenning. Zie Handleiding
+Communicatie Versie 4 [webrichtlijnen].pdf  Afsprakenstelsel Elektronische Toegangsdiensten | pagina 457Richtlijnen communicatie eHerkenningAfsprakenstelsel Elektronische Toegangsdiensten | pagina 458Deelnemers
+Deelnemers MOETEN zichzelf positioneren als deelnemer binnen eHerkenning. Er dient altijd te worden gerefereerd
+aan het afsprakenstelsel en de deelnemer dient zich te positioneren als 'onderdeel' van dit stelsel. Deelnemers dienen zelf richting dienstverleners en gebruikers sales-activiteiten ontplooien. Indien deelnemers informatie over eHerkenning op hun website publiceren MOGEN zij daarvoor gebruik maken van
+de standaardteksten, kernboodschappen of elementen daarvan, zoals die in de communicatie toolkit beschikbaar
+zijn gesteld door de beheerorganisatie. Deelnemers MOGEN voor hun communicatie-uitingen over eHerkenning gebruik maken van de standaardteksten,
+kernboodschappen en andere elementen zoals die in de communicatie toolkit beschikbaar zijn gesteld door de
+beheerorganisatie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 459Dienstverleners
+Dienstverleners MOGEN voor veel gestelde vragen (FAQ) over eHerkenning op hun site doorverwijzen naar de actuele
+veel gestelde vragen op  . eHerkenning.nl
+Indien dienstverleners informatie over eHerkenning op hun website publiceren MOGEN zij daarvoor gebruik maken
+van de standaardteksten, kernboodschappen en andere elementen, zoals die in de communicatie toolkit beschikbaar
+zijn gesteld door de beheerorganisatie. Dienstverleners MOGEN voor hun communicatie-uitingen over eHerkenning gebruik maken van de
+standaardteksten, kernboodschappen en andere elementen zoals die in de communicatie toolkit beschikbaar zijn
+gesteld door de beheerorganisatie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 460Huisstijlhandboek eHerkenning
+Regels en Richtlijnen van de visuele identiteit eHerkenning.pdfAfsprakenstelsel Elektronische Toegangsdiensten | pagina 461Huisstijlhandboek eIDAS
+Op de volgende internetpagina is de handreiking communiceren over eIDAS beschikbaar. Hierin staat hoe Europese
+bedrijven en burgers kunnen inloggen met een Europees erkend inlogmiddel bij dienstverleners. Deze pagina bevat ook de
+communicatietoolkit met tekstmogelijkheden en beeldsuggesties (inlogknop). Zie https://magazines.logius.nl/eidas/2017
+/01/communiceren-met-europese-gebruikers.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 462Richtlijnen communicatie eIDASAfsprakenstelsel Elektronische Toegangsdiensten | pagina 463Deelnemers
+Deelnemers MOETEN zich onthouden van uitingen m.b.t. eIDAS tijdens het inlogproces. Indien deelnemers informatie over eIDAS en Europees inloggen op hun website publiceren MOGEN zij daarvoor
+gebruik maken van de beeldmerken, standaardteksten, kernboodschappen of elementen daarvan, zoals die in de
+communicatie toolkit beschikbaar zijn gesteld via de pagina . Communicatietoolkit eIDAS
+Deelnemers MOGEN voor hun communicatie-uitingen over eIDAS gebruik maken van de beeldmerken,
+standaardteksten, kernboodschappen en andere elementen zoals die in de communicatie toolkit beschikbaar zijn
+gesteld via de pagina . Communicatietoolkit eIDASAfsprakenstelsel Elektronische Toegangsdiensten | pagina 464Dienstverleners
+Dienstverleners MOETEN voor "eIDAS inkomend" een aparte inlogknop tonen, die verwijst naar de "eIDAS
+Berichtenservice" (EB). Uitsluitend deze EB toont het landenkeuze scherm. Dienstverleners MOGEN zelf GEEN
+landkeuze tonen.

@@ -1,0 +1,210 @@
+</xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="ProvideEncryptedRequestType">
+<xsd:complexContent>
+<xsd:extension base="bsnk:BSNkProvideRequestBasetype">
+<xsd:sequence>
+<xsd:element name="RelyingParty" type="bsnk:OINType" />
+<xsd:element name="RelyingPartyKeySetVersion" type="bsnk:KeyVersionType" />
+<xsd:element name="PolymorphicPseudonym" type="bsnk:PolymorphicPseudonymType" />
+<xsd:element name="Role" type="bsnk:RoleType" minOccurs="0" />
+<xsd:element name="TransactionID" type="bsnk:TransactionIDType" minOccurs="0" />
+</xsd:sequence>
+</xsd:extension>
+</xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="BSNkProvideRequestBasetype" abstract="true">
+<xsd:sequence>
+<xsd:element name="Requester" type="bsnk:OINType" />
+</xsd:sequence>
+<xsd:attribute name="DateTime" type="xsd:dateTime" use="required" />
+<xsd:attribute name="RequestID" type="xsd:ID" use="required" />
+</xsd:complexType>
+<xsd:complexType name="PolymorphicPseudonymType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:base64Binary"/>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 654                </xsd:simpleContent>
+</xsd:complexType>
+<xsd:simpleType name="KeyVersionType">
+<xsd:annotation>
+<xsd:documentation>Key(set) version type.</xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:positiveInteger"/>
+</xsd:simpleType>
+<xsd:simpleType name="OINType">
+<xsd:annotation>
+<xsd:documentation>OIN type. </xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:string">
+<xsd:length value="20" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="RoleType">
+<xsd:annotation>
+<xsd:documentation>Role type. </xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:integer"/>
+</xsd:simpleType>
+<xsd:simpleType name="TransactionIDType">
+<xsd:annotation>
+<xsd:documentation>TransactionID Type. </xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:string">
+<xsd:length value="128" />
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="ProvideEPResponse" type="bsnk:ProvideEncryptedResponseType">
+<xsd:annotation>
+<xsd:documentation>
+Response to a ProvideEPRequest. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ProvideEIResponse" type="bsnk:ProvideEncryptedResponseType">
+<xsd:annotation>
+<xsd:documentation>
+Response to a ProvideEIRequest. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="ProvideEncryptedResponseType">
+<xsd:complexContent>
+<xsd:extension base="bsnk:BSNkProvideResponseBasetype">
+<xsd:sequence>
+<xsd:element name="EncryptedPseudonym" type="bsnk:EncryptedPseudonymType" />
+</xsd:sequence>
+</xsd:extension>
+</xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="BSNkProvideResponseBasetype" abstract="true">
+<xsd:attribute name="DateTime" type="xsd:dateTime" use="required" />
+<xsd:attribute name="ResponseID" type="xsd:ID" use="required" />
+<xsd:attribute name="InResponseTo" type="xsd:NCName" use="required" />
+</xsd:complexType>
+<xsd:simpleType name="EncryptedPseudonymType">
+<xsd:restriction base="xsd:base64Binary" />
+</xsd:simpleType>
+<xsd:element name="ProvideEncryptedFault" type="bsnk:ProvideEncryptedFaultType">Afsprakenstelsel Elektronische Toegangsdiensten | pagina 655                <xsd:annotation>
+<xsd:documentation>
+Fault response to a ProvideEPRequest of ProvideEIRequest. </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="ProvideEncryptedFaultType">
+<xsd:sequence>
+<xsd:element name="FaultReason" type="bsnk:ProvideEncryptedFaultReasonType" />
+<xsd:element name="FaultDescription" type="bsnk:FaultDescriptionType" maxOccurs="
+unbounded" />
+</xsd:sequence>
+</xsd:complexType>
+<xsd:simpleType name="ProvideEncryptedFaultReasonType">
+<xsd:union memberTypes="bsnk:FaultReasons bsnk:ProvideEncryptedFaultReasons" />
+</xsd:simpleType>
+<xsd:simpleType name="FaultReasons">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="NotFound">
+<xsd:annotation>
+<xsd:documentation>Provided information results in
+zero matches. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="AuthorizationError">
+<xsd:annotation>
+<xsd:documentation>Authentication invalid or access denied. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="SyntaxError">
+<xsd:annotation>
+<xsd:documentation>Request invalid. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="TemporarilyUnavailable">
+<xsd:annotation>
+<xsd:documentation>Request could temporarily not be
+processed. A new request for provisioning MAY be
+send at a later moment by the requesting party. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ProvideEncryptedFaultReasons">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="ProvisioningRefused">
+<xsd:annotation>
+<xsd:documentation>Transformation refused for other
+(non-disclosed) reason. </xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:complexType name="FaultDescriptionType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="lang" type="xsd:language" />
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:schema>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 656    </wsdl:types>
+<wsdl:message name="BSNk_ProvideEPRequest">
+<wsdl:part name="in" element="bsnk:ProvideEPRequest" />
+</wsdl:message>
+<wsdl:message name="BSNk_ProvideEIRequest">
+<wsdl:part name="in" element="bsnk:ProvideEIRequest" />
+</wsdl:message>
+<wsdl:message name="BSNk_ProvideEPResponse">
+<wsdl:part name="out" element="bsnk:ProvideEPResponse" />
+</wsdl:message>
+<wsdl:message name="BSNk_ProvideEIResponse">
+<wsdl:part name="out" element="bsnk:ProvideEIResponse" />
+</wsdl:message>
+<wsdl:message name="BSNk_ProvideEncryptedFault">
+<wsdl:part name="fault" element="bsnk:ProvideEncryptedFault" />
+</wsdl:message>
+<wsdl:portType name="BSNk_Transform_Port">
+<wsdl:operation name="BSNk_ProvideEP">
+<wsdl:input message="bsnk:BSNk_ProvideEPRequest" wsam:Action="urn:nl-gdi-eid:1.0:webservices:
+ProvideEPRequest" />
+<wsdl:output message="bsnk:BSNk_ProvideEPResponse" wsam:Action="urn:nl-gdi-eid:1.0:webservices:
+ProvideEPResponse" />
+<wsdl:fault message="bsnk:BSNk_ProvideEncryptedFault" name="BSNk_ProvideEncrypted_Fault"/>
+</wsdl:operation>
+<wsdl:operation name="BSNk_ProvideEI">
+<wsdl:input message="bsnk:BSNk_ProvideEIRequest" wsam:Action="urn:nl-gdi-eid:1.0:webservices:
+ProvideEIRequest" />
+<wsdl:output message="bsnk:BSNk_ProvideEIResponse" wsam:Action="urn:nl-gdi-eid:1.0:webservices:
+ProvideEIResponse" />
+<wsdl:fault message="bsnk:BSNk_ProvideEncryptedFault" name="BSNk_ProvideEncrypted_Fault"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="BSNk_Transform_SOAP" type="bsnk:BSNk_Transform_Port">
+<soap:binding style="document"
+transport="http://schemas.xmlsoap.org/soap/http" />
+<wsdl:operation name="BSNk_ProvideEP">
+<soap:operation soapAction="urn:nl-gdi-eid:1.0:webservices:ProvideEPRequest" />
+<wsdl:input>
+<soap:body use="literal" />
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal" />
+</wsdl:output>
+<wsdl:fault name="BSNk_ProvideEncrypted_Fault">
+<soap:fault name="BSNk_ProvideEncrypted_Fault" use="literal" />
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="BSNk_ProvideEI">
+<soap:operation soapAction="urn:nl-gdi-eid:1.0:webservices:ProvideEIRequest" />
+<wsdl:input>
+<soap:body use="literal" />
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal" />
+</wsdl:output>
+<wsdl:fault name="BSNk_ProvideEncrypted_Fault">
+<soap:fault name="BSNk_ProvideEncrypted_Fault" use="literal" />
+</wsdl:fault>
+</wsdl:operation>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 657    </wsdl:binding>
+<wsdl:service name="BSNk_Transform_Service">
+<wsdl:port binding="bsnk:BSNk_Transform_SOAP" name="BSNk_Transform">
+<soap:address location="https://.../TODO/Transform" />
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 658Request
+Consists of a transformation request message <ProvideEPRequest> or <ProvideEIRequest> in  the SOAP body of the request
+message. SOAP should be implemented according to the Web services requirements . Element/@Attribute 0..

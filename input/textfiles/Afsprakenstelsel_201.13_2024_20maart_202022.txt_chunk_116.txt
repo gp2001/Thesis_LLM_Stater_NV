@@ -1,0 +1,132 @@
+Locations of LOA:
+Location in AS Field/location Rationale
+Service
+catalog( ) AuthnContextClassRef   This is the maximum LOA as defined by the DV. Means and authorisations
+need to have this LOA or higher to login. Interface
+specifications
+DV-HM(Request/
+RequestedAuthnContext
+) /AuthnContextClassRefThis allows a DV to override its own minimum LOA downward. Therefore can
+only be lower or equal than the one in the service catalog. Also known as the
+minimum-minimumLOA. (Minimal LOA for minimal functionality)
+Interface
+specifications
+DV-HM(Response/
+) AuthnContextClassRefThis is the LOA which is communicated back to the DV
+Interface
+specifications
+HM-AD(Request/
+RequestedAuthnContext)This allows a DV to override its own minimum LOA downward. Therefore can
+only be lower than the one in the service catalog. Also known as the
+minimum-minimumLOA. (Minimal LOA for minimal functionality) This LOA
+is passed on by the HM. Interface
+specifications
+HM-AD(Response/
+) AuthnStatementThis communicates the level at which the user has authenticated himself. This level needs to be higher or equal to the level as stated in the service
+catalog or the request. Interface
+specifications
+HM-MR(Request
+/LevelOfAssurance)This allows a DV to override its own minimum LOA downward. Therefore can
+only be lower than the one in the service catalog. Also known as the
+minimum-minimumLOA. (Minimal LOA for minimal functionality) This LOA
+is passed on by the HM. Interface
+specifications
+HM-MR(Response/
+) LevelOfAssuranceUsed  This communicates the level at which the authorisation was registered. This
+level needs to be higher or equal to the level as stated in the service catalog or
+the request. Schematically the attributes are passed like this:
+DV->HM HM->AD HM->MR AD->HM MR->HM HM->DV
+(Request/
+RequestedAuthnContext
+) /AuthnContextClassRef(Request/
+RequestedAuthnContext)(Request
+/LevelOfAssurance)X X X
+X X X (Response/ (Response/ (Response/Afsprakenstelsel Elektronische Toegangsdiensten | pagina 732AuthnStatement
+)LevelOfAssuranceUsed
+) AuthnContextClassRef
+)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 733Interface specifications HM-MR chain authorization
+This page describes the messages for the backchannel interface between an  (broker) and a Herkenningsmakelaar (HM)
+(authorization information provider). Machtigingenregister (MR)
+Elektronische Toegangsdiensten only supports chains with one intermediary:
+User G (user) > Intermediary A > ServiceConsumer B. _ _ _
+and the The Intermediary_A registers a mandate for User_G at MR1 ServiceConsumer_B registers a mandate for
+. MR2 has no user-interaction,  the User_A has to select  (including Intermediary_A at MR2 therefore ServiceConsumer_B
+appropriate MR2) at MR1 in order to proceed with chain authorization flow. (of all MR2) MR1 can use discovery-services
+during mandate registration of Intermediary_A or during user authorization flow.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 734MR1 receives a HM-MR request
+After receiving the AD-response, the HM forwards User_G via a HM-MR request  MR1. to At that point the MR1 will decide
+I together with the User_G if the request will be a standard or 'authorisation-chain' request. n the case of a chain
+authorisation  will be slightly different than described in . Below the the rules for processing Interface specifications HM-MR
+only the differences to default HM-MR process rules are described per 'subsection'. Rules for processing request
+Subsection Differences to default HM-MR process rules
+A
+receiving
+MR MUST
+provide an
+Assertion:MR1 will create a XACMLAuthzDecision Statement in the Authorisation assertion containing:
+a <Obligations> element that MUST contain the of MR2 in core: EntityID  urn:etoegang:
+RequireConfirmationFromNextMR attribute
+a <Request><Subject> element that MUST contain an LegalSubjectID with and EncryptedID only for
+MR2 (not for the ServiceProvider, MR2 wil add the appropriate ECTA's for ServiceConsumer B ) _
+a <Request><Resource> element that:
+MUST contain an IntermediateEntityID generated of the type urn:etoegang:1.9:
+IntermediateEntityID:KvKnr. Other intermediary entity Id's MUST NOT be included. MUST contain the  and  for which the User_G MUST has a mandate from ServiceID ServiceUUID
+Intermediary A and for which Intermediary A SHOULD have a mandate from ServiceConsumer _ _ _
+B at MR2. MR1 can use MR2 discovery service to determine appropriate . For Portal ServiceUUID
+Request see "ServiceUUID and Portal Request" infobox below. MUST ignore requested attributes (MR2 wil provide ServiceConsumer_B attributes and
+eHerkenning does not have attributes for Intermediary other than CompanyName)
+Rules for processing response
+Subsection Differences to default HM-MR process rules
+A
+receiving
+HM:Determines 'Authorisation Chain' flow IF the MR1-assertion specifies MR2 in the core: urn:etoegang:
+RequireConfirmationFromNextMR element in < <Obligations> XACMLAuthzDecision Statement>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 735Determines the appropriate AD-assertion based on the AssertionIDRef in the <Advice> element of the
+MR1-Assertion. This AssertionIDRef references the AD-Assertion this MR1-Assertion is directly linked to. Examples
+Example of Response with Obligations
+<xacml-context:Response xmlns:xacml-context="urn:oasis:names:tc:xacml:2.0:context:schema:os">
+<xacml-context:Result>
+<xacml-context:Decision>Permit</xacml-context:Decision>
+<xacml-context:Status>
+<xacml-context:StatusCode Value="urn:oasis:names:tc:xacml:1.0:status:ok" />
+</xacml-context:Status>
+<xacml-policy:Obligations>
+<xacml-policy:Obligation ObligationId="urn:etoegang:core:
+RequireConfirmationFromNextMR" FulfillOn="Permit">
+<xacml-policy:AttributeAssignment DataType="http://www.w3.org/2001
+/XMLSchema#string"
+AttributeId="urn:etoegang:core:AuthorizationRegistryID">urn:nl:eherkenning:
+MR:99999900000001:entities:0017
+</xacml-policy:AttributeAssignment>
+</xacml-policy:Obligation>
+</xacml-policy:Obligations>
+</xacml-context:Result>
+</xacml-context:Response>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 736HM requests MR2 via SOAP interface
+This query and response resemble the XACMLAuthzDecisionQuery and Response as described in Interface specifications HM-
+, but differs on the following aspects.MR
+Rules for processing request
+Subsection Differences to default HM-MR process rules
+A
+requesting
+HM:MUST get MR2 EntityID from MR1-assertion from <Obligations> element
+Create a SOAP-message with an XACMLAuthzDecisionQuery in the message body and send this message
+via a SOAP backchannel to MR2
+XACMLAuthzDecisionQuery MUST provide
+a verbatim copy  of both the MR1-Assertion and AD-Assertion in <Extensions> : <Assertion> element
+MR1-Assertion is copied from MR1-response
+AD-Assertion is copied from (the original) AD-response as referenced to by the AssertionIDRef
+in the <Advice> element of the above MR1-Assertion
+a LegalSubjectID in <Request>  containing the appropriate EntityConcernedID of the <Subject>
+(default is KvKnr) as an EncryptedID@MR2 (not as an EncryptedID@DV!) ServiceConsumer _B
+an IntermediairyEntityID in <Request>  containing exactly one value with Intermediary <Subject>
+KvK-nr (urn:etoegang:1.9:IntermediateEntityID:KvKnr)
+ServiceID  and ServiceUUID  in <Request><Resource> which MUST be copied from
+<Request><Resource> in MR1-assertion
+Rules for processing request
+Subsection Differences to default HM-MR process rules
+A receiving
+MR MUST
+provide an
+: AssertionMR2 recognizes this as a claim confirmation request based on the presence of the urn:etoegang:1.9:
+IntermediateEntityID:KvKnr attribute in the MR1 assertion (in<Request><Resource> element of the
+XACMLAuthzDecision Statement). Afsprakenstelsel Elektronische Toegangsdiensten | pagina 737
+to determine response. MR2 MUST use ServiceUUID(s) from MR1.assertion (instead of HM-request)
+ServiceID's for which the Intermediate has a valid mandate.

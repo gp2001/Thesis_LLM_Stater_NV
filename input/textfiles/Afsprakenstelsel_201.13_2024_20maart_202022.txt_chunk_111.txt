@@ -1,0 +1,62 @@
+These Assertions are linked based on the relationship between the User and the . Dienstverlener (DV) Dienstafnemer
+The  will return an Assertion with the combined result of a Herkenning. This Assertion will hold all Herkenningsmakelaar
+underlying Assertions under an element <Advice>. The initial Assertion of a chain is the Assertion by the AD authenticating the User. Subsequent related Assertions are linked to
+this Assertion. Each linked Assertions is linked to another using the AssertionIDRef under Advice and bound through inclusion of the
+SignatureValue of the linked Assertions, using a attribute. By including the SignatureValue LinkedDeclarationSignatureValue
+in this way, the Assertion is linked cryptographically and secured against modifications. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 722Each underlying Assertion will hold information about the Subject of that Assertion. Assertions part of a single  Herkenning
+stating information about the exact same Subject, will all have a NameID with the same 'transient' ID created by the
+upon authentication of the User. Assertions part of a single  stating information about Authenticatiedienst Herkenning
+distinct other Subjects – i.e. those about the User and about the entity represented – will have a different transient NameID. Each new Herkenning will result in new transient identifiers for each Subject.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 723Representation
+In case of representation, the various Assertions will by definition not describe the same Subject. Each new authorization in
+an authorization chain will therefore introduce a different transient Subject to describe the new entity in the authorization
+chain. The Assertions are themselves are linked in the same way as described above, using the AssertionIDRef to link them and an
+attribute LinkedDeclarationSignatureValue to cryptographically bind them. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 724Polymorphic Pseudonymization Notation
+Polymorfe encryptie en pseudonimisering, uses scheme wide keys. To facilitate key management procedures, all scheme-
+wide keys are versioned using schemeKeySetVersion. For the BSNk documentation you can contact Logius. This paragraph describes the technical format of polymorphic identities and pseudonyms and related key
+formats. Polymorphic identities and pseudonyms in the scheme are based on cryptographic properties of elliptic curves. Usages of Polymorphic Pseudonymization
+Activation
+Polymorphic Identity or Pseudonym
+Encrypted Identity or Pseudonym
+Usage (transformation and decryption)
+Encrypted Identity or Pseudonym
+Identity or Pseudonym
+Format for Polymorphic Identity or Pseudonym
+A Polymorphic Identity or Pseudonym is a combination of points on an elliptic curve. In order for the Identity or Pseudonym
+to be properly usable in the scheme, some additional information is needed. This information is necessary for practical
+management and secure implementation of Identity or Pseudonym in the Scheme and consists of elements like versioning
+(for key management) and recipient. The syntax for expressing an Identity or Pseudonym with this information is listed
+below. Values of the notations below SHALL be represented as (the base64 encoding of) the DER-encoded structure in ASN.1
+notation. Polymorphic Identity or Pseudonym
+A Polymorphic Identity or Pseudonym consists of 3 points on an elliptic curve. Polymorphic Identity or Pseudonym are
+provided via the beheerorganisatie BSNk. They are used via the interface spec BSNk: transform. The notation for a complete
+Polymorphic Identity or Pseudonym is as follows:
+Polymorphic Identity or Pseudonym ASN.1 notation
+PolymorphicIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-identity),
+schemeVersion INTEGER,
+schemeKeySetVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+PolymorphicPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-pseudonym),
+schemeVersion INTEGER,
+schemeKeySetVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+type INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}Afsprakenstelsel Elektronische Toegangsdiensten | pagina 725Herein the schemeVersion indicates the version of the cryptographic scheme and this syntax and SHALL start at 1. The
+is a version that SHALL start at 1 and represents the effective set of long term scheme master keys (PP- schemeKeySetVersion
+M, PD-M, etc...). The schemeVersion defines the elliptic curve used in the scheme as well. The creator SHALL contain the
+entityID (OIN) of the creator, and the recipient SHALL contain the entityID (OIN) of the recipient. The recipientKeySetVersion
+holds the version number for the set of recipient's keys for Polymorphic Identities and  (PA-Di). Note: In Pseudonyms
+schemeVersion 1 the recipientKeySetVersion for MUs and ADs is a sequence starting at 1. Type defines the identity type the
+Pseudonym is derived of, e.g. from a  or an eIDAS Uniqueness Identifier. This field is not necessary in identity based BSN
+forms as here the identity type will become clear as part of decryption of the final structure, i.e. the Encrypted Identity. The
+values currently defined are the ASCII value of 'B' (0x42) for  based and 'E' (0x45) when based on a eIDAS uniqueness BSN
+identifier. is identical to ECPoint as defined in BSI TR 03111 and ANSI X9.62 (2005). Here two encodings are ECPoint
+specified, compressed and compressed. Both encodings are allowed, with a  for uncompressed encoding.

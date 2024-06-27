@@ -1,0 +1,26 @@
+5. Communicatie Ondervindt de gebruiker hinder bij de dienstverlening? Zo ja, dan kan er gecommuniceerd worden, door
+het publiceren van een klein bericht over verstoring op de website  , maar in www.eherkenning.nl
+principe doen we dit niet. Vaak staat de aard van de verstoring niet in verhouding tot de aandacht die
+een nieuwsbericht kan genereren. In principe communiceren de deelnemers zelf via de eigen kanalen richting de aangesloten
+dienstverleners en gebruikers als dat nodig wordt geacht. Zij herhalen in hun berichtgeving dan de
+strekking van het nieuwsbericht dat de beheerorganisatie heeft geplaatst. Wie? De incidentmanager van de Beheerorganisatie
+De incidentmanager van de oplossende partij
+3b. Behandelen calamiteit
+Input Het incident is ingeschat als calamiteit
+Activiteit De Beheerorganisatie coördineert het contact met andere betrokken partijen, bewaakt de acties en biedt
+indien nodig ondersteuning. Dit betekent dat de Beheerorganisatie met enige regelmaat de oplossende
+partij benadert voor informatie. Als een incident langer dan 4 uur duurt dan stelt de Beheerorganisatie de deelnemers minimaal 1 keer
+per 4 uur op de hoogte van de status. De betrokken Stelselpartij(en) lossen in principe zelf de calamiteit op. Zij zijn zelf eerste
+verantwoordelijke voor het organiseren van een operationele oplossing;
+De calamiteitenmanager informeert:
+De verantwoordelijke beleidsmedewerker bij BZK
+De directeuren van de deelnemers
+Naar eigen oordeel eventueel andere personen/organisaties (bijvoorbeeld NCSC of BZK)
+De calamiteitenmanager organiseert binnen 24 uur een telefonische conferentie met alle betrokken
+partijen en zit deze voor. In deze conference call wordt in ieder geval over de interne en externe
+communicatie afspraken gemaakt;
+De Beheerorganisatie draagt zorg voor de opstelling van een actieplan om risico's en schade te
+mitigeren;
+De Beheerorganisatie  geeft advies aan BZK om te escaleren naar . BZK neemt zelf dit 1crisis (3c)
+besluit en komt daarmee "in the lead";
+Output Bijgewerkt incidentAfsprakenstelsel Elektronische Toegangsdiensten | pagina 3351. 2. a.

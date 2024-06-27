@@ -1,0 +1,41 @@
+5. De Deelnemer in het Stelsel MOET iedere afwijking van de vereisten voor de
+implementatie van risico-verlagende beheersmaatregelen toelichten en vastleggen. De Deelnemers in het Stelsel MOETEN erop toezien dat procesgerelateerde
+gebeurtenissen herleidbaar zijn. Deelnemers MOETEN de procesvoorvallen
+registreren, wanneer deze betrekking hebben op: de aanvraag van een token het
+resultaat van de toegepaste verificaties en validaties aanvaarding en weigering van
+aanvragen. 2.4.4 Bijhouden van de administratie
+LoA Vereiste elementen Toelichting en good practice
+LOA 1 2 3 4
+Algemene vereisten voor registratie en archivering;De invulling van
+deze norm voor record keeping MOET de volgende doelstellingen
+ondersteunen:
+Het voldoen aan wettelijke verplichtingen;
+Dispute resolution in geval van (fraude) claims;
+Het vastleggen van adequate audit trails. Deelnemers aan het Stelsel MOETEN toezien op naleving van het
+toepasselijke belasting- en privacyrecht. De Deelnemer in het Stelsel MOET kopieën van identiteitsbewijzen
+archiveren conform de onderstaande eisen:
+Het type identiteitsbewijs en het documentnummer van het
+identiteitsbewijs MOET geregistreerd en gearchiveerd worden. Persoonsgegevens zoals een foto, het Burger Service Nummer
+(BSN) en de nationaliteit MOETEN bij archivering en opslag
+conform de AVG verwerkt worden. Op LoA3 en LoA4 MOET de deelnemer de registraties en logging
+zodanig vastleggen dat deze kunnen worden gebruikt voor
+bewijsvoering in geval van fraudeonderzoek of claims van misbruik. Het is toegestaan om gevoeliger gegevens vast te leggen als die het
+doel dienen om te bewijzen dat een middel zorgvuldig is uitgegeven
+en gebruikt.Interpretatie:
+Ad1 Archivering van verificaties en
+validaties bedoeld voor de opbouw van
+audittrails is ten behoeve van:
+de opsporing en bestrijding van
+frauduleuze informatietransacties;
+de bescherming van de Gebruiker
+bij misbruik van zijn (digitale)
+identiteit. De Deelnemer legt de
+overwegingen voor de
+vastleggingen in het kader
+van archivering vast. De
+Deelnemer specificeert de
+vastleggingen in het kader
+van archivering. Ad 3 Persoonsgegevens zoals een
+foto, het Burger Service Nummer
+(BSN) en de nationaliteit MOETEN
+bij archivering en opslag blijvend Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9975. a. b.

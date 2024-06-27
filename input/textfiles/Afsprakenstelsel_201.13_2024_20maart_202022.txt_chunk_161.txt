@@ -1,0 +1,50 @@
+2. basis van actuele
+informatie over
+statusintrekkingen. Niet op PKI gebaseerde
+handtekeningen MOETEN
+gevalideerd worden met
+een validatiemethode van
+gelijke kwaliteit. LOA 3 LoA2 met toevoeging van:
+Identificatie MAG eveneens
+plaatsvinden met een middel
+op LoA 3 en hoger dat door
+een Deelnemer in het stelsel is
+uitgegeven. Restrictie: Met een
+middel van een
+specifiek LoA MAG
+NIET zonder
+aanvullende
+validaties een
+Stelseldienst (middel
+of machtiging) met
+een hoger LoA
+worden verstrekt. Restrictie: Op basis
+van een middel dat
+niet voor gebruik in
+het burgerdomein is
+uitgegeven MAG NIET
+zonder aanvullende
+validaties een middel
+voor gebruik in het
+burgerdomein
+worden verstrekt.Ad 1 Kern van deze norm is dat identificatie bij registratie of uitgifte altijd
+op het juiste LoA heeft plaats gevonden. Voor een gekwalificeerd certificaat
+heeft een identificatie op LoA4 plaats gevonden. Ten behoeve van de
+uitgifte van middelen voor gebruik in het burgerdomein moet altijd een
+verificatie van het BSN plaatsvinden aan het originele WID van de
+Aanvrager. Validatie van het BSN moet middels een registratie bij BSNk
+plaatsvinden. Ad 2 Validatie van het fysieke adres mag worden opgevat als:
+de deelnemer controleert of het adres voor afgifte gelijk is aan het
+adres dat is opgegeven door de aanvrager voordat het middel wordt
+verzonden per aangetekende post. Deze werkwijze is slechts toegestaan
+in combinatie met een fysieke ontmoeting tijdens het
+registratieproces. Of;
+de deelnemer controleert of het adres voor afgifte gelijk is aan het
+adres voor afgifte van het middel en hij identificeert de ontvanger bij
+uitgifte van het middel als zijnde de aanvrager. Identificatie kan in dit
+geval ook plaatsvinden door een besteldienst die in opdracht van de
+deelnemer het middel in persoon overhandigt aan de aanvrager. Deze
+werkwijze minimaal bedoeld voor situaties waarbij identificatie van de
+aanvrager in het aanvraagproces niet heeft plaatsgevonden. Ad 4 Voorbeelden van geaccepteerde face-to-face controles zijn
+Controle van identiteit door daarvoor opgeleide PostNL-medewerker
+die het middel komt afleverenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 9362. 3. 4.

@@ -1,0 +1,92 @@
+1-1-1997 892.869 27Langlopende 0,750 132.281 0 33.069 99.212 0 2lineair 33.069 1)
+Bank Nederlandse Gemeenten N.V. 1-1-1999 1.495.433 30Langlopende 0,300 256.674 0 28.520 228.154 85.554 7lineair 28.520 1)
+Algemene Pensioen Groep N.V. 1-1-1985 651.628 40Langlopende 7,750 81.449 0 16.291 65.158 0 3lineair 16.291 1)
+Bank Nederlandse Gemeenten N.V. 1-1-1994 9.529.385 30Langlopende 2,850 1.310.291 0 436.763 873.528 0 2lineair 436.763 2)
+Bank Nederlandse Gemeenten N.V. 1-2-2012 7.000.000 30Langlopende 3,210 5.133.336 0 233.333 4.900.003 3.733.338 20lineair 233.333 2)
+Bank Nederlandse Gemeenten N.V. 1-2-2012 4.000.000 10Langlopende 2,810 800.000 0 400.000 400.000 0 0lineair 400.000 2)
+Bank Nederlandse Gemeenten N.V. 1-2-2013 7.000.000 30Langlopende 3,310 5.366.669 0 233.333 5.133.336 3.966.671 21lineair 233.333 2)
+Bank Nederlandse Gemeenten N.V. 1-7-2013 3.000.000 20Langlopende 3,530 1.950.000 0 150.000 1.800.000 1.050.000 11lineair 150.000 2)
+Bank Nederlandse Gemeenten N.V. 1-11-2013 7.000.000 30Langlopende 3,320 5.366.669 0 233.333 5.133.336 3.966.671 21lineair 233.333 2)
+ABN AMRO Bank N.V. 1-2-2015 4.000.000 10Langlopende 3,500 1.700.000 0 400.000 1.300.000 0 3lineair 400.000 3)
+Nederlandse Waterschapsbank N.V. 4-1-2016 5.000.000 30Langlopende 2,364 4.333.332 0 166.667 4.166.665 3.333.330 24lineair 166.667 2)
+Nederlandse Waterschapsbank N.V. 4-1-2016 4.000.000 30Langlopende 2,384 3.466.668 0 133.333 3.333.335 2.666.670 24lineair 133.333 2)
+Nederlandse Waterschapsbank N.V. 4-1-2016 4.000.000 30Langlopende 2,426 3.466.668 0 133.333 3.333.335 2.666.670 24lineair 133.333 2)
+Bank Nederlandse Gemeenten N.V. 4-1-2016 5.000.000 20Langlopende 2,110 4.000.000 0 250.000 3.750.000 2.500.000 14lineair 250.000 2)
+Bank Nederlandse Gemeenten N.V. 4-1-2016 4.000.000 20Langlopende 2,110 3.200.000 0 200.000 3.000.000 2.000.000 14lineair 200.000 2)
+Bank Nederlandse Gemeenten N.V. 22-1-2019 3.570.000 5Langlopende 0,410 3.332.000 0 238.000 3.094.000 0 3lineair 238.000 2)
+Totaal 44.001.319 0 3.312.294 40.689.025 25.968.904 3.312.294
+1) Gegarandeerd door de Staat
+2) WfZ borging
+3) Ongeborgde lening
+Pagina 23Stichting de Hartekamp Groep
+1.8 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+11. Opbrengsten zorgprestaties (en maatschappelijke ondersteuning)
+De specificatie is als volgt: 2021 2020
+€ €
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 97.818.416 91.353.876
+Zorg-gerelateerde corona-compensatie Wlz-zorg 2.745.313 6.763.529
+100.563.729 98.117.405
+Opbrengsten Jeugdwet 5.139.492 4.139.538
+Opbrengsten Wmo 1.238.696 1.106.815
+Zorg-gerelateerde corona-compensatie Jeugdwet en Wmo 2020 -237.138 916.790
+Persoonsgebonden en -volgende budgetten 953.094 668.580
+Zorg-gerelateerde corona-compensatie Persoonsgebonden en -volgende budgetten 0 220.605
+Overige zorgprestaties 439.907 234.234
+Correcties wettelijk budget voorgaande jaren 0 -46.649
+Vrijval /reservering overproductie Wlz-zorg 2020 822.556 -822.556
+Correctie Jeugdwet en Wmo voorgaande jaren 703 71.333
+Meerkosten sociaal domein 2021 100.231 0
+Totaal 109.021.270 104.606.095
+Toelichting:
+12. Subsidies
+De specificatie is als volgt: 2021 2020
+€ €
+Subsidie zorgbonus 1.130.880 2.934.883
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies 759.787 673.545
+Totaal 1.890.667 3.608.428
+Toelichting:
+De subsidiebedragen betreffen in 2021 voornamelijk subsidies voor scholing en coronabanen en in 2020 voor scholing. 13. Overige bedrijfsopbrengsten
+De specificatie is als volgt: 2021 2020
+€ €
+Overige dienstverlening 496.399 501.059
+Boekwinst uit verkoop panden 1.783.169 722.486
+Totaal 2.279.568 1.223.545
+Toelichting:
+Pagina 24In bovenstaande opbrengsten is in totaliteit € 2.845.544 aan corona-compensatie opgenomen (waarvan €1.075.148 doorlopende kosten en
+€1.770.396 meerkosten). Deze compensatie betreft in grote lijnen de volgende zorgdomeinen:
+Wet langdurige zorg   	 € 2.745.313
+Sociaal domein           	 € 100.231
+Er bestaat nog geen volledige overeenstemming over de hoogte van de corona-compensatie 2021. De WLZ-nacaculaties worden in afstemming
+met beide zorgkantoren tweezijding bij de NZa ingedient. De in de opbrengsten verwerkte corona-compensatie is gebaseerd op de landelijke
+formats verstrekt door VWS voor zowel de WLZ als het sociaal domein. Daarbij is rekening gehouden met de berekende omzetderving
+(verminderd met minderkosten), de extra gemaakte (corona)kosten, toepasselijke wet- en regelgeving voor de compensatie daarvan en
+(voorlopige) afspraken met zorgfinanciers over de compensatie. Het kan zijn dat de corona-compensatie hoger of lager wordt vastgesteld dan
+waarmee in deze jaarrekening rekening is gehouden. Deze verschillen zullen verwerkt worden in de jaarrekening 2022. Verwacht wordt dat het
+afrekeningsverschil op totaalniveau beperkt zal zijn/ zich zal bewegen tussen € 50.000 negatief en € 50.000 positief. De gerealiseerde overige subsidies 2021 zijn € 86.242 hoger t.o.v. de gerealiseerde overige subsidies 2020. De boekwinst uit verkoop van grond bedroeg in 2021 € 1,78 mln. In 2020 zijn vier panden verkocht. De opbrengst overige dienstverlening 2021 is in lijn met de opbrengst 2020.Het bedrag voor de subsidie zorgbonus is bepaald op basis van de ingediende subsidieaanvraag en de voorlopige toekenning daarop en
+aangepast tot het niveau van de uitbetaalde subsidiabele zorgbonussen en de belastingheffing daarover. De zorgbonussen zijn uitbetaald in
+2021. De subsidie is nog niet vastgesteld. Op basis van de overwegingen bij de toekenning van de zorgbonussen en de subsidieaanvraag
+daarvoor, worden geen bijzondere afrekeningsverschillen verwacht. Het bedrag aan uitbetaalde bonussen, inclusief de belastingheffing daarover
+bedraagt € 1.130.880 en is verwerkt onder de personeelskosten. Stichting de Hartekamp Groep
+1.8 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+14. Personeelskosten
+De specificatie is als volgt: 2021 2020
+€ €
+Lonen en salarissen 54.353.089 49.653.889
+Sociale lasten 8.466.952 8.155.322
+Pensioenpremies 4.542.206 3.900.895
+Andere personeelskosten:
+- Zorgbonus personeel in loondienst, inclusief eindheffing 1.010.910 2.646.133
+- Andere personeelskosten 1.874.617 1.985.583
+Subtotaal 70.247.774 66.341.822
+Zorgbonus voor personeel niet in loondienst 119.971 288.750
+Personeel niet in loondienst 9.943.664 8.349.187
+Totaal personeelskosten 80.311.409 74.979.759
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+Patiënt- en bewonersgebonden functies 1.070 1.018
+Hotelfuncties 13 13
+Overige functies 103 98
+Gemiddeld aantal personeelsleden op basis van fulltime eenheden 1.186 1.129
+Toelichting:
+van 3,15% per 1 juni en een toename van het aantal fte.'s. De p.n.i.l. kosten zijn in 2021 met 1,6 mln.

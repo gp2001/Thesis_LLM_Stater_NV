@@ -1,0 +1,134 @@
+EntityID
+Other attributes MUST NOT be included. Action Elektronische Toegangsdiensten: MUST be the same as
+the Action element in the request. See
+XACMLAuthzDecisionQuery (above). Environment Elektronische Toegangsdiensten: MUST be empty. Example message
+<?xml version="1.0" encoding="UTF-8"?>
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID=" " InResponseTo=" " Version="2.0" Afsprakenstelsel Elektronische Toegangsdiensten | pagina 596IssueInstant=" " Destination=" ">
+<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"> </saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI=" ">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue> </ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue> </ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName> </ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:Status>
+<samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"> </samlp:StatusCode>
+</samlp:Status>
+<saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0" ID=" "
+IssueInstant=" ">
+<saml:Issuer> </saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI=" ">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue> </ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue> </ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName> </ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<saml:Subject>
+<saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"> </saml:NameID>
+</saml:Subject>
+<saml:Conditions NotBefore=" " NotOnOrAfter=" "> </saml:Conditions>
+<saml:Statement xmlns:xacml-saml="urn:oasis:xacml:2.0:saml:assertion:schema:os" xmlns:xsi="
+http://www.w3.org/2001/XMLSchema-instance" xsi:type="xacml-saml:XACMLAuthzDecisionStatementType">
+<xacml-context:Response xmlns:xacml-context="urn:oasis:names:tc:xacml:2.0:context:schema:os">
+<xacml-context:Result>
+<xacml-context:Decision>Permit</xacml-context:Decision>
+<xacml-context:Status>
+<xacml-context:StatusCode Value="urn:oasis:names:tc:xacml:1.0:status:ok"> <
+/xacml-context:StatusCode>
+</xacml-context:Status>
+</xacml-context:Result>
+</xacml-context:Response>
+<xacml-context:Request xmlns:xacml-context="urn:oasis:names:tc:xacml:2.0:context:schema:os">
+<xacml-context:Subject>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:ActingEntityID" DataType="
+http://www.w3.org/2001/XMLSchema#string" Issuer=" ">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+</xacml-context:Subject>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 597                <xacml-context:Resource>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:ServiceID" DataType="
+http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:ServiceUUID" DataType="
+http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:LevelOfAssurance" DataType="
+http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:LevelOfAssuranceUsed"
+DataType="http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:1.9:EntityConcernedID:KvKnr"
+DataType="http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:ResourceContent>
+<saml:EncryptedAttribute>
+<xenc:EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Id="
+_DE46C6F5E2E3111255D3A715C4760656">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04
+/xmlenc#aes256-cbc"/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<xenc:EncryptedKey>
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04
+/xmlenc#rsa-oaep-mgf1p"/>
+<ds:KeyInfo xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+<ds:KeyName>62355fbd1f624503c5c9677402ecca00ef1f6277</ds:
+KeyName>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>.....</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedKey>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>.......</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+</saml:EncryptedAttribute>
+</xacml-context:ResourceContent>
+</xacml-context:Resource>
+<xacml-context:Action>
+<xacml-context:Attribute AttributeId="urn:oasis:names:tc:xacml:1.0:action:action-id"
+DataType="http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue>Authenticate</xacml-context:AttributeValue>
+</xacml-context:Attribute>
+</xacml-context:Action>
+<xacml-context:Environment> </xacml-context:Environment>
+</xacml-context:Request>
+</saml:Statement>
+</saml:Assertion>
+</samlp:Response>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 598
+Interface specifications HM-EB
+This page describes the interface between a  and the Herkenningsmakelaar (HM) eIDAS-berichtenservice (EB)
+Note: The eIDAS-berichtenservice does not support a portal service. This interface is exclusively applicable to eIDAS Inbound, and NOT to eIDAS Outbound.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 599Incoming authentication
+When the EB serves as an   and  for eIDAS-users from a different eIDAS Authenticatiedienst (AD) Machtigingenregister (MR)
+member state; the HM will request the EB for both authentication and authorization information (machtiging) in one
+request. The eIDAS specifications transfer both in one message, thus separating these in two calls is deemed ineffective.

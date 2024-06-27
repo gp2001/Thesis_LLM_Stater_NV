@@ -1,0 +1,176 @@
+@ID SAML: Unique message attribute
+@Version SAML: Version of the SAML protocol. The value MUST be '2.0'. @IssueInstant SAML: Time at which the message was created. @Destination SAML: URL of the AD on which the message is offered. NameID Elektronische Toegangsdiensten: MUST contain a NameID element, this MUST NOT contain the
+or  of the user. Internal pseudonym Specific pseudonym
+Issuer Elektronische Toegangsdiensten: MUST contain the  of the HM. EntityID
+Signature Elektronische Toegangsdiensten: MUST contain the  of the HM for the enveloped Digital signature
+message.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 588
+Interface specifications HM-MR
+Sequence diagram HM-MR
+disclaimer
+The example messages below need adjusment because of RFC2134. Contact the beheerorganisatie for more info. This page describes the messages for the interface between an  (broker) and a Herkenningsmakelaar (HM)
+(authorization information provider).In the interface described here, the use case Machtigingenregister (MR) GUC4
+consists of an SAML 2.0 XACMLAuthzDecisionQuery and Response. Aantonen bevoegdheid
+A column in a message description that starts with 'SAML:' or 'XACML:' indicates that this is the standard value. A value
+that starts with 'Elektronische Toegangsdiensten' indicates that the value is specific to Elektronische Toegangsdiensten. [  ] [  ] [  ] [  ] [ XACMLAuthzDecisionQuery (1) Rules for processing request Response (2) Rules for processing responses
+] Authorization assertionAfsprakenstelsel Elektronische Toegangsdiensten | pagina 589XACMLAuthzDecisionQuery (1)
+@ID SAML: Unique message attribute
+@Version SAML: Version of the SAML protocol. The value MUST be '2.0'. @IssueInstant SAML: Time at which the message was created. @ReturnContext Elektronische Toegangsdiensten: The value MUST be 'true'. @Destination SAML: URL of the MR on which the message is offered. MUST match the MR's SAML
+. metadata
+@Consent Elektronische Toegangsdiensten: MUST NOT be included. @InputContextOnly Elektronische Toegangsdiensten: MUST NOT be included
+Issuer Elektronische Toegangsdiensten: MUST contain the  of the HM. EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProvidedID MUST NOT be
+included. Signature Elektronische Toegangsdiensten: MUST contain the  of the HM for the Digital signature
+enveloped message. Extensions Elektronische Toegangsdiensten:
+MUST contain an XACML Attribute-element with AttributeId
+AssertionConsumerServiceIndex
+MUST contain the attribute  IntendedAudience . MUST contain an <Assertion> element that contains the AD Assertion in a XACML
+Attribute-element with AttributeId  . Assertions
+If the DV queries additional attributes, they MUST be included here by the HM. To this
+extent, one Elektronische Toegangsdiensten specific RequestedAttributes (see schema)
+element MUST be included containing the RequestedAttribute elements reflecting the DV's
+request. The requested attribute(s) MUST be defined in the   and MUST Attribuutcatalogus
+be declared as RequestedAttribute in the Service catalog entry for the requested service. An MR not able to provide these attributes MUST act as specified in the alternative use case
+described in  . In case of chain authorization, Attributen niet leverbaar of niet toegestaan
+different rules apply with regards to additional attributes, see  Vervallen_Interface
+. Other elements MUST NOT be included. specifications HM-MR chain authorization
+Request Subject Elektronische Toegangsdiensten: MUST contain a transient identifier which must be the
+same as the one contained in the <Assertion> element. Resource Elektronische Toegangsdiensten: MUST contain the XACML attributes  and the ServiceID
+corresponding  and MAY contain a XACML attribute . ServiceUUID LevelOfAssurance
+When  is included in the request, it must contain the same or lower LevelOfAssurance
+(AuthnContextClassRef) as included in the  for the LevelOfAssurance Service catalog
+requested service. Other XML attributes MUST NOT be included.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 590Other elements MUST NOT be included. An MR MAY ignore requests for additional attributes, but MUST NOT reject the message. Action Elektronische Toegangsdiensten: MUST contain the XACML attribute . Action-ID
+Environment Elektronische Toegangsdiensten: MUST be empty. Rules for processing request
+The MR MUST process the EntityConcernedTypesAllowed list. A requesting HM:
+MUST include a copy of the AD Assertion for the authenticated User under   in the extensions of the Assertions
+request. IF ketenmachtiging  see . Vervallen_Interface specifications HM-MR chain authorization
+A receiving MR MUST provide an Assertion:
+Determine required data for processing rules:
+USE (AD-Assertion) AttributeStatement.Attribute.ActingSubjectID.EncryptedID@MR TO determine
+ActingSubject
+USE Authentication-LoA, Requested.Minimum-LoA, Requested.ServiceRestrictions, ActingSubject
+and User input TO determine the response.LegalSubject, response.LOA, response.ServiceIDs and response. ServiceRestrictions accoording         to Use Case Vaststellen bevoegdheid (or proces with similar
+result). USE ActingSubject TO create response.SpecificPseudoniem@SP
+USE Requested.EntityConcernedTypesAllowed and response.LegalSubject TO determine response. EntityConcernedTypes and corresponding response.LegalSubject.Identities
+USE ActingSubject TO create response.SpecificPseudoniem@SP and response.SpecificPseudoniem@SI
+USE XACMLAuthzDecisionQuery.Request.Resource.ServiceUUID TO determine  ServiceCatalog.Minimum-
+LoA, Requested.Attributes, Requested.EntityConcernedTypesAllowed, Requested.ServiceRestrictions,
+ServiceIntermediation, SP-certificate from the Service Catalog
+USE XACMLAuthzDecisionQuery.Request.Resource.ServiceID (<index>=0) TO determine PortalRequest
+IF available XACMLAuthzDecisionQuery.Request.Resource.LevelOfAssurance THEN copy this
+value to Requested.Minimum-LoA ELSE copy ServiceCatalog.Minimum-LoA to Requested.Minimum-LoA. Copy AD-Assertion - AuthnStatement.LevelOfAssurance to Authentication-LoA
+IF (NOT Ketenmachtiging) OR (Ketenmachtiging AND last-MR) THEN
+IF (any of the response.EntityConcernedTypes > r1.09 OR any Requested.Attributes) AND no
+available DV-certificate THEN start Error Handling
+MUST provide an <XACMLAuthz-Decision> containing in <Subject> a <LinkedDeclarationSignatureValue>
+(see Linking of Assertions) with value:
+AD-Assertion: Signature
+MUST provide a <XACMLAuthz-Decision> containing
+IF available SP-certificate THEN
+Copy response.SpecificPseudoniem@SP as an EncryptedID@SP in <Subject> to
+<ActingSubjectID>
+Copy all response.LegalSubject.Identities as EncryptedID@SP in <Subject> to
+<LegalSubjectID>
+IF any requested.ServiceRestrictions THEN copy all requested.ServiceRestrictions in
+<Resource> to <ServiceRestriction> (eg ServiceRestriction:Vestigingsnr)
+IF PortalRequest THEN copy all the response.ServiceID's and response.ServiceUUID's in
+<Resource> to (a multi valued XACML attribute) <ServiceID> respectively <ServiceUUID> (See  GUC4.3
+Portaalfunctie for more details). IF requested.attributes AND User consent THEN in <Resource>
+IF available SP-certificate THEN copy attributesvalue(s) to an EncryptedAttribute@SP
+------- For backward compatibility -------Afsprakenstelsel Elektronische Toegangsdiensten | pagina 591
+Copy response.SpecificPseudoniem@SP in <Subject> to <ActingEntityID>
+IF NOT eIDAS-BS THEN FOR all EntityConcernedTypes in response.EntityConcernedTypes:
+IF EntityConcernedType < r1.11 THEN copy response.EntityConcernedTypes with
+corresponding response.LegalSubject.Identifier (<value>)in <Resource> to <EntityConcernedID>
+-------------------------------------------------
+Determine appropriate ECTA and Identifiers:
+all the EntityConcernedTypes in an  of EntityConcernedTypes with the same Identifier Set
+set number in the . Service catalog
+IF no set numbers are used, only one EntityConcernedType is allowed THEN handle this
+EntityConcernedType as if it was in 1 set. all the EntityConcernedTypes in the identifier set with the lowest possible set number the
+MR can provide for this response.LegalSubject. IF MR can't  provide for any Identifier Set THEN start Error Handling
+Determine the response.EntityConcernedTypes and the corresponding response. LegalSubject.Identifiers for the selected identifier set
+User consent for providing additional attributes can be granted the user OR by the authorization manager of the
+represented service consumer/intermediary (during the transaction or through prior consent)
+All encryption is done using the DV-certificate from the Service Catalog. Example message
+<?xml version="1.0" encoding="UTF-8"?>
+<xacml-samlp:XACMLAuthzDecisionQuery xmlns:xacml-samlp="urn:oasis:xacml:2.0:saml:protocol:schema:os"
+xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID=" " Version="2.0" IssueInstant=" " ReturnContext="
+true" Destination=" ">
+<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+</saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI=" ">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>
+</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName>
+</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:Extensions>
+<xacml-context:Attribute name="AssertionConsumerServiceIndex" DataType="http://www.w3.org/2001Afsprakenstelsel Elektronische Toegangsdiensten | pagina 592/XMLSchema#unsignedShort" Issuer=" ">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:Assertions" DataType="urn:oasis:names:tc:
+SAML:2.0:assertion:Assertion" Issuer=" ">
+<xacml-context:attributevalue>
+<saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" ID="_abc123">
+<saml2:Issuer>urn:etoegang:AD:...</saml2:Issuer>
+... </saml2:Assertion>
+</xacml-context:Attributevalue>
+</xacml-context:Attribute>
+<saml:Attribute Name="urn:etoegang:core:IntendedAudience">
+<saml:AttributeValue>urn:etoegang:DV:OIN:entities:index</saml:AttributeValue>
+</saml:Attribute>
+<esp:RequestedAttributes>
+<md:RequestedAttribute Name="urn:etoegang:1.11:attribute-represented:CompanyName"
+IsRequired="false" />
+</esp:RequestedAttributes>
+</samlp:Extensions>
+<xacml-context:Request xmlns:xacml-context="urn:oasis:names:tc:xacml:2.0:context:schema:os">
+<xacml-context:Subject>
+<xacml-context:Attribute AttributeId="urn:oasis:names:tc:SAML:2.0:assertion:NameID"
+DataType="urn:oasis:names:tc:SAML:2.0:nameid-format:transient" Issuer=" ">
+<xacml-context:AttributeValue> </xacml-context:AttributeValue>
+</xacml-context:Attribute>
+</xacml-context:Subject>
+<xacml-context:Resource>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:ServiceID" DataType="http://www.w3. org/2001/XMLSchema#string">
+<xacml-context:AttributeValue>
+</xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:ServiceUUID" DataType="http://www.w3. org/2001/XMLSchema#string">
+<xacml-context:AttributeValue>
+</xacml-context:AttributeValue>
+</xacml-context:Attribute>
+<xacml-context:Attribute AttributeId="urn:etoegang:core:LevelOfAssurance" DataType="
+http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue>
+</xacml-context:AttributeValue>
+</xacml-context:Attribute>
+</xacml-context:Resource>
+<xacml-context:Action>
+<xacml-context:Attribute AttributeId="urn:oasis:names:tc:xacml:1.0:action:action-id"
+DataType="http://www.w3.org/2001/XMLSchema#string">
+<xacml-context:AttributeValue>Authenticate</xacml-context:AttributeValue>
+</xacml-context:Attribute>
+</xacml-context:Action>
+<xacml-context:Environment>
+</xacml-context:Environment>
+</xacml-context:Request>
+</xacml-samlp:XACMLAuthzDecisionQuery>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 593Response (2)
+@ID SAML: Unique message attribute
+@InResponseTo SAML: Unique attribute of the XACMLAuthzDecisionQuery to which this response message is the
+answer. @Version SAML: Version of the SAML protocol. The value MUST be '2.0'.

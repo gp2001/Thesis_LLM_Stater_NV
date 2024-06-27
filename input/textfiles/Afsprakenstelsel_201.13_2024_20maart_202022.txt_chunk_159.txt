@@ -1,0 +1,34 @@
+De
+Uitvoeringsverordening bevat het Europese framework van eisen voor de aanbieders van authenticatiediensten en de
+betrouwbaarheid van de ingezette authenticatiemiddelen en bijbehorend authenticatiemechanisme. Onderdeel van het
+Europese framework zijn ook eisen voor onderwerpen zoals privacy, aansprakelijkheid of gebruiksvoorwaarden etc. die in
+andere delen van het afsprakenstelsel Elektronische Toegangsdiensten zijn uitgewerkt zoals het hoofdstuk   en het  Juridica
+. Het uitgangspunt van het afsprakenstelsel is om eisen slechts op één plaats vast te leggen. Daar Operationeel handboek
+waar dat van met het oog op de oorspronkelijke eIDAS eis belang is, wordt in dit Normenkader Betrouwbaarheidsniveaus dus
+naar andere delen van het afsprakenstelsel verwezen. Het eIDAS framework heeft een tweetal specifieke subparagrafen opgenomen die betrekking hebben op uitgifte van
+authenticatiemiddelen aan rechtspersonen. Nieuw is daarom ten opzichte van de vorige versie van dit normenkader dat een
+deel van de eisen voor Machtigingenregisters die betrekking hebben op de identificatie van rechtspersonen en registreren
+van bevoegdheden van het hoofdstuk machtigingen zijn verplaatst naar het  Technische specificaties en procedures voor
+. Het resterende hoofdstuk voor eisen aan Machtigingenregister heet nu  uitgifte van authenticatiemiddelen Specificaties voor
+. het beheer van bevoegdhedenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 926Mapping Levels of Assurance (LoA)
+Het eIDAS framework gebruikt andere terminologie voor de aanduiding van betrouwbaarheidsniveaus dan het
+afsprakentelsel. Hieronder wordt daarom aangegeven hoe betrouwbaarheidsniveaus zich tot elkaar verhouden. ETD LoA eIDAS
+1 Non existent
+2 Low
+2+ Low
+3 Substantial
+4 HighAfsprakenstelsel Elektronische Toegangsdiensten | pagina 927Leeswijzer
+De eisen in dit normenkader zijn 'gestapeld'. Dat betekent dat eisen op een lager betrouwbaarheidsniveau van toepassing
+zijn op hogere betrouwbaarheidsniveaus tenzij anders is aangegeven. Technische specificaties en procedures voor uitgifte van authenticatiemiddelen , paragraaf 2.1.1 en 2.1.2 hebben betrekking
+op de registratie en identificatie van  . De paragrafen 2.1.3 en 2.1.4 hebben betrekking op het registratie natuurlijke personen
+en identificatie van   en beroepsbeoefenaren. Daar waar in het kader van registratie van de rechtspersoon een rechtspersonen
+vertegenwoordiger van die rechtspersoon als individu moet worden geïdentificeerd wordt verwezen naar de eisen voor
+identificatie van natuurlijke personen. De overige paragrafen behandelen de (technische) kwaliteiten van authenticatiemiddelen, het uitgifteproces, eisen aan
+beveiliging, organisatie en compliance. Specificaties voor het beheer van bevoegdheden  bevat de specificaties voor het beheer van bevoegdheden (machtigingen)
+van natuurlijke personen die namens een rechtspersoon optreden. Eisen voor geldigheid van verklaringen voor Dienstverleners  bevat de specificaties voor de geldigheid van verklaringen die
+aan Dienstverleners worden verstrekt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 928
+Technische specificaties en procedures voor uitgifte van
+authenticatiemiddelen
+EH1 vervalt per 1-7-2021
+Met ingang van 1 juli 2021 komt het gebruik van het betrouwbaarheidsniveau eH1 te vervallen en moeten de middelen en
+machtigingen minimaal voldoen aan de normen van het betrouwbaarheidsniveau eH2. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9291. 2.

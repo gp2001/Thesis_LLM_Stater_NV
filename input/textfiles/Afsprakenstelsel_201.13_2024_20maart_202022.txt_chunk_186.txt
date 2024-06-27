@@ -1,0 +1,154 @@
+NOTE 11: The document type, e.g. a
+passport of a specific country, can be an
+input parameter to the analysis, or the
+analysis can determine the type by
+automated means. NOTE 12: Automated and manual analysis
+can be used in combination, e.g. with fall-
+back to manual analysis if the automated
+process yields an uncertain result, or by
+using automated analysis as a tool for a
+human registration officer. [CONDITONAL] VAL-8.3.3-19: If
+automated means and machine-learning
+technology are used to analyse physical
+identity documents, the video stream
+recorded according to requirement VAL-
+8.3.3.-04 shall be of sufficient quality for
+the analysis. [CONDITONAL] VAL-8.3.3-20: If
+automated means and machine-learning
+technology are used to analyse physical
+identity documents, the algorithms and
+technology shall be systematically tested
+against reference datasets and be kept
+updated to cope with changes in the
+threats and risk situation. 8.4 Binding to applicant
+8.4.1 General requirements
+BIN-8.4.1-01: The identity proofing
+process shall verify that the applicant is
+the legitimate evidence holder. BIN-8.4.1-02: The identity proofing
+process shall verify that the evidence is in
+the possession of the applicant.NOTE 1: For the evidence types existing eID
+means and existing digital signature means,
+no specific binding requirements are
+needed since the validation of the evidence
+also verifies the binding. This is under the Bij NOTE 1: 'existing eID
+means' is voor ETD
+/eHerkenning niet van
+toepassing in relatie tot
+identificatie op afstand.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1016assumption that only the applicant can use
+the eID means or digital signature means. NOTE 2: For the supplementary evidence
+types trusted register, proof of access, and
+documents and attestations, no specific
+binding requirements are needed. If the
+binding of the authoritative evidence
+(identity document, eID means, or digital
+signature means) to the applicant is
+successful, and the supplementary evidence
+is validated and identifies the same person,
+the supplementary evidence is considered
+bound to the applicant. 8.4.2 Capture of face image of the applicant
+[CONDITONAL] If the applicant is a
+natural person, and an identity
+document is used as evidence, and the
+identity proofing process is carried out
+remotely, the following requirements
+apply. BIN-8.4.2-01: A video stream of the
+applicant's face shall be captured.NOTE 1: The video stream and images
+extracted from the stream can be used for
+binding to applicant by both face biometrics
+and manual means. BIN-8.4.2-02: The video capture process
+shall apply liveness detection measures
+to ensure that the video stream is of a
+live person present in front of the
+camera at the time of the identity
+proofing.NOTE 2: It is required that this happens at
+the time of the identity proofing;
+submission of a pre-recorded video stream
+is considered not to meet the requirements
+for identity proofing to Baseline LoIP. A part
+of liveness detection can be instructing the
+applicant to perform certain actions, where
+the specific actions or their sequence are
+unpredictable to the applicant. BIN-8.4.2-03: The video stream capture
+should apply measures to detect
+artificially generated or manipulated face
+appearance.NOTE 3: Such attacks are sometimes termed
+"deep fake" attacks. [CONDITIONAL] BIN-8.4.2-04: If the
+video stream is captured on the
+applicant's device, the identity proofing
+process shall ensure that the video
+stream is transmitted to an environment
+controlled by the actor responsible for
+the identity proofing process in a
+manner that ensures authenticity,
+integrity, and confidentiality of the video
+stream.NOTE 4: In particular to protect against
+replay attack with an injection of another
+video stream in the process. NOTE 5: This can rely on the applicant's use
+of software approved for the identity
+proofing process, e.g. mobile app
+functionality.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1017[CONDITIONAL] BIN-8.4.2-05: If face
+biometrics is used for binding to
+applicant, at least one image of sufficient
+quality for binding to applicant shall be
+extracted from the video stream. BIN-8.4.2-06: The video stream capture
+shall apply PAD measures in compliance
+with ISO/IEC 30107-3 [3]. BIN-8.4.2-07: The  should be PAD
+evaluated according to ISO/IEC 19989-3
+[i.18].NOTE 6: ISO/IEC 19989-3 [i.18] specifies
+security evaluation of PAD applying
+Common Criteria (ISO/IEC 15408 [i.24]).Presentation Attack Detection
+(PAD): automated
+determination of a
+presentation attack
+BIN-8.4.2-08: Test results for the PAD
+shall achieve an APCER (attack
+presentation classification error rate) as
+defined by ISO/IEC 30107-3 [3] at the
+level of industry best practice.NOTE 7: No specific number is specified for
+the APCER. Rapid technology improvement
+can lead to significant progress in industry
+best practice APCER performance even in
+the short term.APCER = attack presentation
+classification error rate
+proportion of attack
+presentations using the same
+PAI species incorrectly
+classified as bona fide
+presentations in a specific
+scenario
+Bron: ISO30107-
+3: Information technology —
+Biometric presentation attack
+detection — Part 3: Testing
+and reporting, paragraaf 3.2.1
+BIN-8.4.2-09: Test results for the PAD
+should achieve BPCER (bona fide
+presentation classification error rate) as
+defined by ISO/IEC 30107-3 [3] at the
+level of industry best practice.NOTE 8: The BPCER has no impact on
+security but on user-friendliness.BPCER = bona fide
+presentation classification
+error rate
+proportion of bona fide
+presentations incorrectly
+classified as presentation
+attacks in a specific scenario
+Bron: ISO30107-
+3: Information technology —
+Biometric presentation attack
+detection — Part 3: Testing
+and reporting, paragraaf 3.2.2
+Dit is een kwaliteitsnorm
+voor
+gebruikersvriendelijkheid. De
+toetreder dient via een
+risicoanalyse aan te tonen dat
+hierop zicht wordt gehouden. BIN-8.4.2-10: The PAD measures and
+APCER and BPCER rates shall be kept up
+to date concerning advances in the threat
+landscape and available technology.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10188.4.3 Binding to applicant by automated face biometrics
+[CONDITONAL] If binding to applicant is
+by automated face biometrics, the
+following requirements apply:NOTE 1: Use of other biometric means than
+face biometrics is currently out of scope but
+can be a future possibility.

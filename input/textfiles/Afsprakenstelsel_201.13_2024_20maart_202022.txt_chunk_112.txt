@@ -1,0 +1,54 @@
+Both encodings are allowed, with a  for uncompressed encoding. preference
+A Polymorphic Identity of Polymorphic Pseudonym can be signed for integrity protection:
+SignedPolymorphicIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-identity-signed),
+signedPI SEQUENCE {
+polymorphicIdentity PolymorphicIdentity,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+},
+signatureValue ECDSA-Signature
+}
+SignedPolymorphicPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-pseudonym-signed),
+signedPP SEQUENCE {
+polymorphicPseudonym PolymorphicPseudonym,
+auditElement OCTET STRING,
+signingKeyVersion INTEGER
+},
+signatureValue ECDSA-Signature
+}
+An auditElement holds an audit value consisting of an identifier for the creator, a timestamp and a sequence number from
+that creator. This  is 16 bytes in big-endian (32-bit origin, 32-bit timestamp and 64-bit sequence-number). The auditElement
+origin identifies the party providing the Polymorphic/Encrypted Identity or Pseudonym and the unique device used. The
+timestamp and sequence number can be used in case of a compromise or dispute, so that mitigating measure or resolution
+can be accomplished. Note: the timestamp is 32-bit in seconds since 1 jan 1970 UTC. The auditElement is encrypted under a
+key only retrievable by the supervisor of the scheme, which is provided to the supervisior by the keymanagement role. The signatureValue can be used to assert the authenticity of the (polymorphic/encrypted) Identity or Pseudonym. The
+signature is applied to the byte sequence of the complete DER-encoded signed sequence (e.g. signedPP in a
+SignedPolymorphicPseudonym). The public key for verification can be retrieved using the creator from the structure covered
+under the signature and the signingKeyVersion. -- ECPoint is described in ANSI X9.62 (2005), annex E.6. -- In particular, encoding from point to octet string and
+-- from octet string to a point is defined in annex A.5.7
+-- and A.5.8 of ANSI X9.62. ECPoint ::= OCTET STRING
+ECDSA-Signature ::= SEQUENCE {
+signatureType      OBJECT IDENTIFIER (ecdsa-with-SHA384),
+signatureValue     EC-Sig-Value
+}
+-- EC-Sig-Value is identitical to BSI TR 03111 ECDSA-Sig-Value.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 726-- which is identical to ECDSA-Sig-Value defined in RFC5480 as well. EC-Sig-Value ::= SEQUENCE {
+r  INTEGER,
+s  INTEGER
+}
+ecdsa-with-SHA384 OBJECT IDENTIFIER ::= {
+iso(1) member-body(2) us(840) ansi-X9-62(10045) signatures(4)
+ecdsa-with-SHA2(3) 3 }
+id-BSNk-scheme-nl OBJECT IDENTIFIER ::= { joint-iso-itu-t(2) country(16) nl(528) nederlandse-organisatie(1)
+nederlandse-overheid(1003) logius-beheer-usve(10) }
+id-BSNk-identifiers OBJECT IDENTIFIER ::= { id-BSNk-scheme-nl 1 }
+id-BSNk-polymorphics OBJECT IDENTIFIER ::= { id-BSNk-identifiers 1 }
+id-BSNk-polymorphic-identity OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 1 }
+id-BSNk-polymorphic-pseudonym OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 2 }
+id-BSNk-polymorphic-identity-signed OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 3 }
+id-BSNk-polymorphic-pseudonym-signed OBJECT IDENTIFIER ::= { id-BSNk-polymorphics 4 }
+PIP – PPCA optimized
+For privacy enhanced implementation, Polymorphic Identities and Pseudonyms can be implemented on a smartcard. This is
+called a PP-card application, or PPCA. A Polymorphic Identity and a Polymorphic Pseudonym can be combined to 5 points
+on an elliptic curve rather than six, for optimization in a smartcard implementation.

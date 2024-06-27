@@ -1,0 +1,344 @@
+Art. 3:94 BW.Van Lanschot heeft in 2015 een portefeuille zakelijke vast-
+goedleningen verkocht aan Promontoria.7 Promontoria is een
+doelvennootschap zonder werknemers en beschikt, anders dan
+Van Lanschot, niet over een bankvergunning. Het beheer en
+de uitvoering van de vastgoedleningen zijn door Promontoria
+uitbesteed aan servicer Link Asset Services. In de portefeuille bevonden zich ook de door Van Lanschot
+aan Alegre respectievelijk Immobile verstrekte kredieten. Op
+een goed moment heeft Promontoria het krediet opgezegd en
+opgeëist wegens verzuim aan de zijde van Alegre respectievelijk
+Immobile. De door Van Lanschot en Promontoria beoogde
+contractsovername respectievelijk cessie van de leningsover-
+eenkomsten en de daaruit voortvloeiende rechten zijn in de
+onderhavige zaken betwist. Promontoria stelt dat (de vorde-
+ringen uit hoofde van de) kredieten zijn overgegaan als gevolg
+van contractsovername dan wel stille cessie. Immobile betwist
+dat contractsovername heeft plaatsgevonden, omdat zij geen
+medewerking in de vorm van een toestemming bij voorbaat
+zou hebben verleend. Alegre tracht de contractsovername te
+vernietigen met een beroep op dwaling. Ook de cessie wordt
+door beide kredietnemers betwist. In beide zaken achtte recht-
+bank Amsterdam het nuttig, voor het geval er geen contracts-
+overname zou hebben plaatsgevonden, te bespreken of het
+beroep van Promontoria op cessie slaagt. In dat kader heeft de
+rechtbank een viertal prejudiciële vragen voorgelegd aan de
+Hoge Raad. 4 Beantwoording prejudiciële vragen
+4.1 Overdraagbaarheid van het bancaire
+vorderingsrecht
+De eerste prejudiciële vraag is of de aard van het vorderings-
+recht van een bank op haar klant zich ertegen verzet dat dit
+vorderingsrecht door een bank aan een niet-bank wordt over-
+gedragen en in zoverre onoverdraagbaar is als bedoeld in
+art. 3:83 lid 1 BW. De hoofdregel is immers dat een vorde-
+ringsrecht overdraagbaar is, tenzij  de wet of de aard van het
+recht zich tegen een overdracht verzet (of partijen die over-
+draagbaarheid contractueel hebben uitgesloten). Zoals hierboven al kort aangegeven, beantwoordt de Hoge
+Raad deze eerste vraag ontkennend. Hiertoe overweegt hij vrij
+systematisch dat:
+a.de inhoud van de prestatie waartoe de klant is gehouden
+op grond van een overeenkomst van lening met een bank
+(namelijk de betaling aan de bank van de geleende geldsom
+met rente), niet wijzigt door overdracht van het vorde-
+ringsrecht door de bank aan een niet-bank en dat, in dit
+7. Overigens lijkt het erop dat Promontoria de portefeuille inmiddels heeft
+doorverkocht aan het in Duitsland gevestigde Ortolan Nederland Cre-
+dit Oplossingen GmbH; zie ‘Wat staat de doorverkochte klanten van
+Van Lanschot te wachten?’, FD 4 november 2019 en Rb. Amsterdam
+27 juli 2020, ECLI:NL:RBAMS:2020:3853, waarin een (voormalig)
+kredietnemer/debiteur van Van Lanschot en Promontoria tevergeefs in
+een executiegeschil opkwam tegen een door Ortolan aangezegde execu-
+tieveiling. 421       M v V  2 0 2 0 ,  n u m m e r  1 2       d o i :  1 0 . 5 5 5 3 / M v V / 1 5 7 4 5 7 6 7 2 0 2 0 0 3 0 0 1 2 0 0 2
+Dit artikel uit Maandblad voor Vermogensrecht is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoeker
+opzicht, de aard van dat vorderingsrecht zich dus niet
+tegen overdracht aan een niet-bank verzet (r.o. 2.6.2);
+b.de rechten en bevoegdheden van de bank uit hoofde van
+die overeenkomst van lening niet van zodanige aard zijn
+dat deze alleen door een bank kunnen worden uitgeoefend
+(r.o. 2.6.3, eerste alinea);8 en
+c.de verplichtingen van de niet-bank ten opzichte van de
+kredietnemer (ongeacht of deze een zakelijke klant of een
+consument is), waaronder ook eventuele zorgverplichtin-
+gen, niet zodanig verschillen van de (corresponderende)
+verplichtingen van de bank, dat het vorderingsrecht alleen
+door een bank kan worden uitgeoefend (r.o. 2.6.2, tweede
+en derde alinea). Hierbij is volgens de Hoge Raad niet relevant of de kredietne-
+mer consument of zakelijke klant is, of in hoeverre de lening
+vóór de overdracht volledig is nagekomen en/of de bankrelatie
+reeds is opgezegd (derde prejudiciële vraag).9
+De Hoge Raad voegt nog hieraan toe dat de mogelijkheid dat
+de niet-bank de rechten en bevoegdheden die zijn ontleend
+aan het aan haar overgedragen vorderingsrecht feitelijk op een
+andere wijze zal uitoefenen dan de bank, niet meebrengt dat
+een uitzondering moet worden aanvaard op het uitgangspunt
+van art. 3:83 lid 1 BW, dat vorderingsrechten overdraagbaar
+zijn. Dit oordeel is voor de financieringspraktijk de meest wenselij-
+ke uitkomst en achten wij ook inhoudelijk het enige juiste. 4.2 Zorgplichten en rechtsgevolg cessie
+De tweede prejudiciële vraag heeft betrekking op de rechtsge-
+volgen van de cessie, en dan met name de vraag of op de niet-
+bank als cessionaris ten opzichte van de kredietnemer een
+bepaalde zorgplicht komt te rusten, en zo ja, hoe die zorgplicht
+zich dan verhoudt tot de publiekrechtelijke regels die op een
+bank van toepassing zijn en de zorgplicht die op een bank rust. De Hoge Raad noemt in dit kader specifiek de volgende voor
+een bank ten opzichte van haar klanten geldende zorgplichten:
+a.de zorgplicht van een bank jegens haar klant die is neerge-
+legd in art. 2 van de Algemene Bankvoorwaarden die
+(doorgaans) van toepassing zijn op de leningsovereen-
+komst;
+8. Hierbij passeert de Hoge Raad, zonder hieraan overigens veel woorden
+vuil te maken, het beroep van Alegre en Immobile op HR 12 janu-
+ari 1990, ECLI:NL:HR:1990:AC2326, NJ 1990/766 m.nt. W.M. Klein
+(Staat/Appels), waarin juist wel werd aangenomen dat de aard van een
+bepaalde aan de Staat toekomende kredietvordering, in het kader van
+een soort noodkrediet, vanwege de daaraan voor de Staat verbonden ver-
+regaande bevoegdheden zich tegen de overdracht van die vordering door
+de Staat verzette. 9. De derde prejudiciële vraag houdt in of het voor de beantwoording van
+de eerste en de tweede prejudiciële vraag nog uitmaakt of de kredietne-
+mer de kredietovereenkomst niet volledig is nagekomen en of de bank
+de bankrelatie heeft opgezegd. De Hoge Raad beantwoordt deze vragen
+tezamen met de beantwoording van de eerste en tweede prejudiciële
+vraag.b.de (zorg)plichten die kunnen voortvloeien uit verschil-
+lende wettelijke bepalingen die van toepassing zijn op de
+leningsovereenkomst, zoals art. 6:248 lid 1 BW en (als er
+sprake is van een opdrachtrelatie) art. 7:401 BW;
+c.de bijzondere zorgplicht die voortvloeit uit de maatschap-
+pelijke functie van banken (zoals advies-, informatie- en
+waarschuwingsplichten), waarbij de inhoud en de reik-
+wijdte van deze zorgplicht mede afhangen van de omstan-
+digheden van het geval, de ingewikkeldheid van het pro-
+duct en de daaraan verbonden risico’s; en
+d.in het geval de klant een consument is, voor de bank als
+(aanbieder en) financiële dienstverlener (in de zin van
+art. 1:1 Wft) geldende gedragsregels en normen van deel 4
+Wft. Voorop staat dat de cessie geen verandering van de gecedeerde
+vordering teweegbrengt en dat de vordering uit hoofde van de
+lening dus op de niet-bank overgaat zoals deze bij de bank
+bestond, inclusief de aan die vordering verbonden
+(neven)rechten (art. 6:142 BW) en verplichtingen (art. 6:144
+BW). De leningsovereenkomst  en de daaruit voortvloeiende
+gehele  rechtsverhouding tussen de bank en de klant gaan
+echter (anders dan bij contractsovername) bij cessie niet over
+op de niet-bank. De aan die rechtsverhouding verbonden
+zorgplichten – genoemd in a tot en met c hierboven – maken
+als zodanig geen onderdeel uit van de gecedeerde vordering en
+komen dus niet te rusten op de verkrijgende partij. Dat betekent echter niet dat op de verkrijgende partij geen
+enkele zorgplicht rust of dat de zorgplicht van de bank op geen
+enkele wijze kan doorwerken in de rechten en verplichtingen
+van die verkrijgende partij. De Hoge Raad bespreekt de vol-
+gende met elkaar samenhangende regels, waarmee volgens hem
+in voorkomend geval langs verschillende wegen hetzelfde
+resultaat kan worden bereikt:
+a.Het is mogelijk dat de zorgplicht van een bank jegens haar
+cliënt de inhoud van haar vordering nader bepaalt,
+waardoor die vordering beperkingen kent. Diezelfde
+beperkingen gelden eveneens na cessie voor de niet-bank. b.Op grond van art. 6:145 BW kan de kredietnemer zich
+bovendien jegens de verkrijgende partij op dezelfde ver-
+weermiddelen beroepen die hij jegens de overdragende
+partij ook zou hebben. c.Na cessie aan een niet-bank staan de niet-bank en de kre-
+dietnemer jegens elkaar in een rechtsbetrekking die op
+grond van art. 6:2 BW wordt beheerst door de redelijkheid
+en billijkheid. Bij de vaststelling van hetgeen de redelijk-
+heid en billijkheid eisen van de niet-bank moeten alle
+omstandigheden van het geval in aanmerking worden
+genomen. Onder andere is van belang de omstandigheid
+dat de gecedeerde vordering afkomstig is van een bank: van
+de niet-bank kan worden gevergd dat zij haar gedrag mede
+laat bepalen door de gerechtvaardigde belangen van de kre-
+dietnemer. Dit kan meebrengen dat op de niet-bank een
+eigen zorgplicht rust, die bijvoorbeeld kan inhouden dat
+zij zich jegens de kredietnemer op dezelfde wijze moet
+422       M v V  2 0 2 0 ,  n u m m e r  1 2       d o i :  1 0 . 5 5 5 3 / M v V / 1 5 7 4 5 7 6 7 2 0 2 0 0 3 0 0 1 2 0 0 2
+Dit artikel uit Maandblad voor Vermogensrecht is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoeker
+gedragen als kan worden gevergd van een redelijk hande-
+lende bank. Tot slot merkt de Hoge Raad op dat het antwoord op deze
+prejudiciële vraag niet anders wordt indien de cliënt de over-
+eenkomst van lening niet of niet volledig is nagekomen, of de
+bank de bankrelatie heeft opgezegd (derde prejudiciële
+vraag10). Naast deze ‘civielrechtelijke’ (doorwerking van) zorgplichten
+geldt dat wanneer de kredietnemer consument is, de
+verkrijgende partij in beginsel moet worden aangemerkt als
+‘aanbieder’ van het krediet in de zin van art. 1:1 Wft en daar-
+mee onderworpen wordt aan de in deel 4 Wft neergelegde
+normen en gedragsregels, tenzij zij het beheer of de uitvoering
+van de overgenomen vordering (het krediet) uitbesteedt aan
+een kredietbeheerder in de zin van art. 3 Vrijstellingsregeling
+Wft. In dat geval gelden die normen en gedragsregels alleen
+voor die kredietbeheerder en is de verkrijgende partij zelf daar-
+van vrijgesteld. Wij nemen aan dat de Hoge Raad hier niet
+mee bedoelt dat – indien het gaat om kredietverlening aan een
+consument – de lender of record hiermee is ontheven van de
+in deel 4 Wft neergelegde normen en gedragsregels, ongeacht
+of het beheer is uitbesteed aan een andere partij dan de lender
+of record. 4.3 Verantwoordelijkheid kredietverstrekker bij
+overdracht kredietvordering
+Op de vierde prejudiciële vraag, inhoudende welke rechten de
+cliënt kan uitoefenen jegens de cederende bank indien het
+handelen van de niet-bank waaraan vorderingsrechten zijn
+gecedeerd, afwijkt van wat zou mogen worden verwacht van
+een bank op grond van de voor haar geldende publiekrechtelij-
+ke regels en de op de bank rustende zorgplicht, geeft de Hoge
+Raad geen antwoord. Dit aangezien hij van mening is dat het
+antwoord op deze vraag niet nodig is, omdat Van Lanschot
+geen partij is bij de procedures. Voor de rechtspraktijk is dit
+echter wel een belangrijke vraag en wij zullen hieronder bij de
+toepassing van de in de uitspraken neergelegde regels van de
+Hoge Raad ingaan op deze vraag. 5 Toepassing: praktijkvoorbeelden
+Zoals hiervoor al aangestipt, is voor de praktijk van belang om
+zo helder mogelijk te kunnen bepalen welke rechten en ver-
+plichtingen van de oorspronkelijke kredietgever bij (stille) ces-
+sie (automatisch) overgaan op de verkrijgende partij, zodat
+hierover zo nodig bij voorbaat afspraken kunnen worden
+gemaakt en dit kan worden meegenomen in de commerciële
+aspecten, zoals de koopsom voor de vordering. Tegen deze
+achtergrond zullen wij hieronder ingaan op enkele praktijk-
+voorbeelden en proberen antwoorden te formuleren aan de
+hand van de door de Hoge Raad gegeven uitgangspunten. 10. Zie noot 9.5.1 Praktijkvoorbeeld: renteherzieningsrecht
+In de transactiepraktijk is de vraag gerezen of het zogenaam-
+de renteherzieningsrecht, het uit de leningsovereenkomst voor
+de kredietverstrekker voortvloeiende contractuele recht om
+eenzijdig de hoogte van het toepasselijke rentepercentage te
+herzien, kan worden uitgeoefend door de partij die de rente-
+dragende vordering overneemt. Verkrijgende partijen hebben
+graag invloed op de rente bij renteherziening. Investeerders
+kunnen daarmee immers bijvoorbeeld hun opbrengst (of
+‘yield’) vergroten en SPV’s die zelf ‘aan de achterkant’ rente-
+verplichtingen hebben onder de obligaties waarmee de aan-
+koop van de vorderingen is gefinancierd, kunnen via dit
+renteherzieningsrecht bijvoorbeeld waarborgen dat hun
+operationele lasten vanuit de rente-inkomsten kunnen blij-
+ven worden voldaan. In de literatuur11 werd eerder al betoogd dat het renteherzie-
+ningsrecht bij cessie van de hoofdvordering mee overgaat op
+de verkrijgende partij. Ook de Hoge Raad lijkt hiervan nu
+impliciet uit te gaan. Hij bespreekt immers in r.o. 2.16 van de
+onderhavige arresten de rechtspositie van de verkrijgende
+partij als deze ná de cessie de rente verhoogt. De Hoge Raad oordeelt dat indien de verkrijgende partij de
+rente verhoogt, de kredietnemer jegens de verkrijgende partij
+geen beroep kan doen op een voor de overdragende partij  gel-
+dende zorgplicht, nu die zorgplicht als zodanig door cessie niet
+is overgegaan op de verkrijgende partij. Wel kan de kredietne-
+mer zich jegens de verkrijgende partij beroepen op de inhoud
+van de gecedeerde vordering en dus ook op de beperkingen die
+onderdeel zijn van die vordering. Indien de overdragende
+partij en de kredietnemer bijvoorbeeld een maximaal toegesta-
+ne renteverhoging waren overeengekomen , beperkt die afspraak
+de inhoud van de vordering die de overdragende partij aan de
+verkrijgende partij cedeert en gaat de vordering met de aldus
+beperkte inhoud over op de verkrijgende partij. Deze beper-
+king van de mogelijkheid om de rente te verhogen is in dat
+geval dus onderdeel van de vordering en geldt uit dien hoofde
+voor de verkrijgende partij, aldus de Hoge Raad. Indien op de
+overdragende partij een (bijzondere) zorgplicht rust die
+inhoudt of meebrengt dat de rente slechts tot een bepaald
+maximum kan worden verhoogd, beperkt deze zorgplicht de
+inhoud van de vordering die de bank aan de verkrijgende partij
+cedeert en gaat de vordering met de aldus beperkte inhoud
+11. Zie bijv. Rongen 2011, nr. 1022, die het renteherzieningsrecht net als de
+rentevordering ziet als (gestapeld(e)) nevenrecht(en) in de zin van
+art. 6:142 BW. Biemans benadert het iets anders. Hij ziet alleen het
+recht op bedongen rente (het rentebeding) als een nevenrecht. De
+bestaande rentevorderingen gaan volgens hem niet als nevenrecht over,
+tenzij zij afzonderlijk worden overgedragen. De toekomstige rentevorde-
+ringen ontstaan rechtstreeks in het vermogen van de verkrijgende partij
+als gevolg van het feit dat het rentebeding als nevenrecht is overgegaan
+naar de verkrijgende partij. De verkrijgende partij is partij bij het rente-
+beding dat is overgegaan naar de verkrijgende partij en is uit dien hoofde
+bevoegd de rente te wijzigen (zie J.W.A. Biemans, Rechtsgevolgen van
+stille cessie (diss. Nijmegen; Onderneming en Recht, deel 65), Kluwer:
+Deventer 2011, nr. 382). 423       M v V  2 0 2 0 ,  n u m m e r  1 2       d o i :  1 0 . 5 5 5 3 / M v V / 1 5 7 4 5 7 6 7 2 0 2 0 0 3 0 0 1 2 0 0 2
+Dit artikel uit Maandblad voor Vermogensrecht is gepubliceerd door Boom juridisch en is bestemd voor anonieme bezoeker
+over op de verkrijgende partij. Ook in dat geval is de beperking
+van de mogelijkheid de rente te verhogen onderdeel van de
+vordering en geldt deze beperking uit dien hoofde voor de
+verkrijgende partij, aldus wederom de Hoge Raad. Voorts staan naar het oordeel van de Hoge Raad de
+verkrijgende partij en de kredietnemer ná de cessie ten opzich-
+te van elkaar in een rechtsbetrekking die ingevolge art. 6:2 BW
+wordt beheerst door de redelijkheid en billijkheid, en kan uit
+hetgeen die redelijkheid en billijkheid in voorkomend geval
+van de verkrijgende partij eisen toch een plicht tot beperking
+van een renteverhoging voortvloeien. Hierbij kan volgens de
+Hoge Raad mede van belang zijn in hoeverre de renteverho-
+ging marktconform is. De Hoge Raad lijkt dus ervan uit te gaan dat de overdragende
+en de verkrijgende partij(en) verschillende rentes mogen han-
+teren, zij het dat een renteverhoging door een verkrijgende
+partij door een zorgplicht kan worden beperkt (voor zover die
+zorgplicht dus in die zin de inhoud van de vordering beperkt)
+en niet naar maatstaven van redelijkheid en billijkheid onaan-
+vaardbaar mag zijn. Volgens de Hoge Raad betekent dit dat
+een kredietnemer geen bescherming geniet als de overdragen-
+de partij bevoegd was de rente te verhogen maar dat uit cou-
+lance niet heeft gedaan, en de verkrijgende partij na de cessie
+overgaat tot een renteverhoging die niet door een bijzondere
+zorgplicht wordt beperkt en niet naar maatstaven van redelijk-
+heid en billijkheid onaanvaardbaar is. Aan de hand van het volgende voorbeeld proberen wij te
+onderzoeken wat de betekenis is van dit oordeel van de Hoge
+Raad:
+a.Kredietnemer A sluit een (hypothecaire) lening af bij een
+kredietverstrekker. Looptijd van de (hypothecaire) lening
+is dertig jaar. Er wordt een rente overeengekomen van
+1,5% voor vijf jaar. De vordering uit hoofde van de (hypo-
+thecaire) lening wordt (zonder mededeling aan kredietne-
+mer A) stil gecedeerd aan verzekeraar A. b.Dezelfde dag sluit kredietnemer B, de buurman van kre-
+dietnemer A, eveneens een lening af bij dezelfde krediet-
+verstrekker en onder dezelfde voorwaarden als die van kre-
+dietnemer A. De vordering uit hoofde van de (hypothecai-
+re) lening wordt (dus zonder mededeling aan kredietne-
+mer B) stil gecedeerd aan verzekeraar B. c.Kredietnemer C, de andere buurman van kredietnemer A,
+sluit eveneens een lening af bij dezelfde kredietverstrekker
+en onder dezelfde voorwaarden als die van kredietnemer
+A. De vordering uit hoofde van de (hypothecaire) lening
+wordt niet overgedragen (gecedeerd) en blijft dus op de
+balans (het ‘eigen boek’) van de kredietverstrekker. d.Na vijf jaar stelt de kredietverstrekker een nieuw renteper-
+centage vast van wederom 1,5%. Verzekeraar A en verzeke-
+raar B verhogen de toepasselijke rentepercentages echter
+naar 2,0% respectievelijk 3,0%. De nieuwe rentevastperio-
+de is voor alle leningen wederom vijf jaar.e.We gaan verder uit van de navolgende assumpties: krediet-
+nemers A, B en C (en hun onderpanden) hebben hetzelfde
+risicoprofiel; alle drie door de kredietverstrekker, verzeke-
+raar A en verzekeraar B voor de tweede renteperiode van
+vijf jaar vastgestelde rentepercentages zijn marktconform;
+en er zijn geen contractuele beperkingen overeengekomen
+in de verhouding tussen de kredietverstrekker en krediet-
+nemers A, B en C. De eerste vraag is – aannemende dat er geen hierop betrekking
+hebbende zorgplicht rust(te) op de kredietverstrekker, geen
+beperking is overeengekomen en ook geen ‘recht op coulance’
+is ontstaan – of de verhoging van het rentepercentage door
+verzekeraars A en B naar maatstaven van redelijkheid en bil-
+lijkheid onaanvaardbaar is. De Hoge Raad lijkt van oordeel te
+zijn dat de kredietnemer in deze situatie niet kan optreden
+tegen de renteverhoging door de verkrijgende partij. Wij zijn
+echter van mening dat de kredietnemer, als hij niet heeft inge-
+stemd met een overdracht van de vordering en, in geval van
+een consument, als hij ook niet uitdrukkelijk is gewezen op
+deze consequentie van een overdracht, erop moet kunnen
+vertrouwen dat hij ongeacht de overdracht – en gelet op de
+overwegingen van de Hoge Raad dus hetzij via inperking van
+het vorderingsrecht, hetzij via de werking van de redelijkheid
+en billijkheid – enkel gebonden is aan de rentetarieven die de
+lender of record hanteert (ervan uitgaande dat de lender of
+record nog actief is), en dat dit zou moeten betekenen dat de
+verkrijgende partij, ongeacht of de cessie is meegedeeld bij de
+uitoefening van het haar toekomende renteherzieningsrecht,
+gebonden is aan de door de lender of record gehanteerde
+rentetarieven.12 Een andere uitkomst zou betekenen dat een
+kredietnemer die – naar mag worden aangenomen – bewust
+voor een bepaalde kredietverstrekker kiest niet alleen buiten
+zijn macht en zonder dat hij daarop enige invloed kan uitoefe-
+nen, geconfronteerd kan worden met een andere partij als
+schuldeiser, maar ook met het (rente)beleid van die andere
+schuldeiser. Interessant is in dit kader ook hoe het oordeel van de Hoge
+Raad zich verhoudt met de eensporig-rentebeleidregel ex
+art. 81a van het Besluit gedragstoezicht financiële onderne-
+mingen Wft (Bgfo). Op grond van de eensporig-rentebeleidre-
+gel moet een aanbieder van hypothecair krediet voor consu-
+menten dezelfde debetrentevoet hanteren bij dezelfde rente-
+vastperiode als voor nieuwe en bestaande kredietnemers bij
+een vergelijkbaar risicoprofiel.13 Omdat ook de verkrijgende
+partij van de vorderingen op grond van de Wft als vergunning-
+plichtige aanbieder van krediet kwalificeert, geldt de eenspo-
+rig-rentebeleidregel in beginsel ook voor haar. Dat is niet het
+geval als de verkrijgende partij gebruik maakt van de ‘securiti-
+12. Vgl. in deze zin Rongen 2011, nr. 1025. Rongen lijkt zijn standpunt te
+hebben herzien en is nu samen met Lieverse van mening dat zodra
+mededeling heeft plaatsgevonden de verkrijgende partij niet langer meer
+gebonden is aan de rentetarieven die de oorspronkelijke kredietverstrek-
+ker hanteert (zie de noot van C.W.M. Lieverse en M.H.E. Rongen
+onder dit arrest, Ondernemingsrecht 2020/136, par 3.4). 13. Stb.

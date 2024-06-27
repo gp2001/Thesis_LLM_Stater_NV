@@ -1,0 +1,32 @@
+3. Eisen
+Het machtigingenregister MOET bewaken dat het registratieproces waarmee de bevoegdheidsverklaring is vastgelegd
+minimaal van het door de dienstverlener vereiste betrouwbaarheidsniveau is. Het machtigingenregister MOET de naam van dienstverlener tonen zoals die in de dienstencatalogus is opgenomen . Het machtigingenregister MAG NIET betrouwbaarheidsniveaus voeren of gebruiken waarvoor hij geen expliciete
+toestemming heeft van de beheerorganisatie. Het machtigingenregister MOET alle processen inrichten volgens de eisen voor het betreffende
+betrouwbaarheidsniveau zoals beschreven in . Normenkader betrouwbaarheidsniveaus
+Het machtigingenregister MOET het hoogst mogelijke betrouwbaarheidsniveau hanteren in het antwoord. Dat wil
+zeggen dat als er bijv. een algemene bevoegdheid is geregistreerd op een laag niveau, maar voor de betreffende dienst
+ook een specifieke bevoegdheid is vastgelegd op een hoger niveau dat het machtigingenregister dan het hogere
+niveau MOET hanteren. Het machtigingenregister MOET zich houden aan de richtlijnen naam- en merkgebruik eHerkenning. Zie ook . Attributenbeleid
+Eisen richting het InzageRegister:
+Een MachtigingsRegister MOET de statusgegevens van elke 'verzameling van machtigingen' registeren en actueel
+houden bij het BSNk-InzageRegister . Voor Ketenmachtigingen geldt:
+Registratie van de identificerende kenmerken van partijen die geen natuurlijk persoon zijn en die bevoegd zijn om
+namens een vertegenwoordigde dienstafnemer bepaalde elektronische diensten af te nemen bij dienstverleners;
+Vastleggen in welk volgend machtigingenregister ; een volgend deel van een keten zich bevindt
+Vastleggen van beperkingen van de strekking van machtigingen die specifiek zijn voor ketenmachtigingen (Bij
+uitbreiding naar meer schakels moeten de controles aangaande kennisgeving bij substitutie hier worden
+toegevoegd.). In het bijzonder dat een dienst "voor derden" mag worden uitgevoerd door betreffende gemachtigde
+en de mogelijkheid om de vertegenwoordigde dienstafnemer waarvoor de ketenmachtiging benut mag worden te
+specificeren;
+Ondersteunen van het koppelvlak voor verificatie van de volgende schakel in geval van ketenmachtiging en de
+uitbreidingen voor het doorgeven van informatie over de intermediaire partij ( Vervallen_Interface specifications HM-
+). MR chain authorization
+Het  MOET in volgende prioriteitsvolgorde de informatie aangaande de compleetheid van de keten machtigingenregister
+benutten:
+Hetgeen gespecificeerd is bij een gevonden geldige machtiging
+Hetgeen in de vraag als specificatie is meegegeven
+Hetgeen bij ontbreken van bovenstaande aan de gebruiker gevraagd is. Het is mogelijk om deze bevoegdheid te beperken tot één vestiging van de vertegenwoordigde dienstafnemer. Dit leidt tot
+een machtigingsketen op grond waarvan een gebruiker (gebruiker) de betreffende vestiging van de vertegenwoordigde
+dienstafnemer mag vertegenwoordigen. Indien het Machtigingenregister het BSN-domein ondersteunt
+De MR is verantwoordelijk om te voldoen aan de aansluitvoorwaarden van BSNk. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 48Verantwoordelijkheden Middelenuitgever
+De middelenuitgever geeft authenticatiemiddelen uit voor het identificeren en authenticeren van gebruikers.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 491. 2. 3.

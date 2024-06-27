@@ -1,0 +1,92 @@
+6. Afspraken implementatie Gemeenschappelijk normenkader
+informatiebeveiliging, certificatie en assurance
+Deelnemers, Beheerorganisatie en BSNk MOETEN in bezit zijn van een geldige certificaat conform de standaard ISO
+27001 of een Third Party Mededeling (jaarlijks) inzake de conformiteit aan de genoemde ISO standaard. In de Verklaring van Toepasselijkheid behorende bij de certificatie dan wel Third Party Mededeling MOETEN
+minimaal de normen uit het  zijn opgenomen. Gemeenschappelijk normenkader informatiebeveiliging
+Daar waar het Afsprakenstelsel geen maatregelen voorschrijft MOETEN de Deelnemers, Beheerorganisatie en BSNk op
+basis van risicoanalyse zelf de beheersmaatregelen voor hun activiteiten en infrastructuur definiëren. De  MOET aantoonbaar onderdeel zijn van in de risicoanalyses van Deelnemers, Beheerorganisatie stelselrisicoanalyse
+en BSNk die zij in het kader van hun managementsysteem opstellen. De potentiële deelnemer MOET bij toetreding(en) tot het Stelsel (rollen, functionaliteiten en
+betrouwbaarheidsniveaus) de verplichting op zich nemen om binnen 6 maanden bij een initiële toetredingen zijn
+activiteiten voor het Stelsel te laten voorzien van certificatie of een TPM. De potentiële deelnemer MOET daarvoor op
+het moment van toetreden worden gebonden aan de op dat moment geldende versie van het Gemeenschappelijk
+Normenkader Informatiebeveiliging en de Stelselrisicoanalyse. Bestaande deelnemers MOETEN bij toetredingen tot nieuwe functionaliteiten, rollen, betrouwbaarheidsniveaus en
+bijstellingen van het normenkader een redelijke termijn krijgen om de geldende elementen van het
+Gemeenschappelijk Normenkader Informatiebeveiliging te implementeren en in hun certificatie of TMP in te passen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 855Afspraken Gemeenschappelijke Classificatie van Stelselinformatie
+Stelselgegevens hebben betekenis op het niveau van het Stelsel. De bescherming van die gegevens door individuele
+deelnemers en beheerorganisaties moet daarom een gelijk niveau hebben. De Gemeenschappelijke Classificatie van
+Stelselgegevens (tabel 1) geeft richting aan het nemen van beveiligingsmaatregelen. In tabel 1 is de classificatie van informatie binnen het Stelsel beschreven. De tabel legt met voorbeelden uit hoe de
+classificatie moet worden begrepen. Tabel 2 geeft een lijst van voorbeelden van geclassificeerde stelselgegevens en dient als
+referentie voor de classificatie van overige bestaande en nieuwe Stelselinformatie. Tabel 1: Classificatie van informatie binnen het Stelsel
+Classificatie Openbaar Intern Vertrouwelijk
+Uitleg Alle informatie over
+het Stelsel bedoeld
+voor (potentiële)
+klanten of breder
+publiek.Informatie die door alle direct
+betrokkenen in het Stelsel wordt
+uitgewisseld. De informatie is niet bedoeld voor
+anderen maar als onverhoopt deze
+informatie met derden wordt gedeeld
+treedt er geen substantiële financiële
+schade of imago schade op.Informatie die extra
+bescherming nodig heeft. Openbaring aan niet
+bevoegden brengt het risico
+van substantiële schade toe
+aan het Stelsel; financieel,
+imago gerelateerd of
+anderszins. Voorbeeld
+De Stelsel-
+documentatie
+Informatie over
+de aanbieders van
+diensten op de
+website van het
+Stelsel
+Factsheets etc.Agenda's en vergaderverslagen
+Mails (tenzij expliciet is aangegeven dat
+deze vertrouwelijk zijn)
+Dienstencatalogus
+MetadataContractgegevens
+Testgegevens
+Klantenregistratie AD en MD
+Logbestanden
+Referentie
+Vertrouwelijkheid
+is n.v.t. N.B.: er worden
+wel eisen gesteld
+aan juistheid en
+beschikbaarheid
+van deze
+informatieVertrouwelijkheid is laag
+AVG
+Maatregelniveau:
+Baseline
+AV23 Risicoklasse 1Vertrouwelijkheid is Midden
+/Hoog
+AVG
+Maatregelniveau:
+Baseline + Specifiek
+AV23 Risicoklasse 2
+Tabel 2: Referentietabel met voorbeelden van geclassificeerde gegevens
+Referentietabel met gegevens binnen het Stelsel
+(niet uitputtend)ClassificatieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 8561 Logbestanden van berichten-/transactieverkeer Vertrouwelijk - AV23
+Risicoklasse 2
+2 Contractgegevens Vertrouwelijk
+3 Registraties AD en MD Vertrouwelijk - AV23
+Risicoklasse 2
+4 Metadata Intern1
+5 Dienstencatalogus Intern1
+6 Testgegevens Vertrouwelijk
+7 Auditrapporten Vertrouwelijk
+8 Informatie betreffende de toetreding van deelnemers exclusief het advies aan het
+Tactisch BeraadVertrouwelijk
+9 Berichten(verkeer) Vertrouwelijk
+10 SNO rapportages van individuele deelnemers Vertrouwelijk
+11 Generieke managementrapportages Intern
+12 Vergaderverslagen Operationeel Beraad, Tactisch Beraad etc. Intern
+13 Beveiligingsincidenten-registratie Vertrouwelijk
+14 Generieke beveiligingsrapportage (trends) Intern
+15 Documentatie van het Afsprakenstelsel Openbaar
+16 Informatie op de website van het Stelsel Openbaar
+17 RFC's Intern/Vertrouwelijk2
+18 Rapporten van security-audits of penetratietesten VertrouwelijkAfsprakenstelsel Elektronische Toegangsdiensten | pagina 8571. 2.

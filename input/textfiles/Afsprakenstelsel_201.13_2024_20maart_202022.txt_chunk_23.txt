@@ -1,0 +1,226 @@
+Zie ook  . Dienstafnemer
+Gebruiksvoorwaarden
+Deze gebruiksvoorwaardenNetwerk (voor Elektronische Toegangsdiensten)
+De verzameling onderling verbonden componenten die gereguleerd
+worden door het  en gezamenlijk Afsprakenstelsel (AS)
+leveren en daartoe bestaan uit tenminste één Herkenningsdiensten
+invulling door een  van de rollen , Deelnemer Herkenningsmakelaar (HM)
+, , Middelenuitgever (MU) Authenticatiedienst (AD) Machtigingenregister
+en BSNk, hun onderlinge verbindingen, de verbindingen tot en met (MR)
+het koppelvlak met dienstverleners en de processen voor uitgifte van
+middelen, registratie van bevoegdheden en aanmelding voor hergebruik
+vanuit bedrijven, inclusief de benodigde voorzieningen voor beheer
+conform het Afsprakenstelsel. Overeenkomst
+De overeenkomst tussen de  en de , of de Dienstafnemer Deelnemer
+overeenkomst tussen de  en de Deelnemer, op grond Dienstverlener (DV)
+waarvan de Deelnemer  verleent en waarop de Herkenningsdiensten
+Gebruiksvoorwaarden van toepassing zijn. Partij
+Een persoon of samenwerkingsverband die in de context van  Herkenning
+voorkomt of zou kunnen voorkomen en die zonodig uniek  geïdentificeerd
+en kan worden. Voorbeelden van partijen zijn: geauthenticeerd
+, , , vertegenwoordigden, Deelnemers dienstverleners bedrijven
+, … gemachtigden
+De term wordt gehanteerd als generalisatie. Single Sign On (SSO)
+Een functie die wordt gefaciliteerd zoals omschreven in het
+, waardoor een authenticatie van een gebruiker wordt Afsprakenstelsel (AS)
+hergebruikt, waardoor deze gebruiker niet opnieuw hoeft in te loggen. Toezichthouder
+De staatssecretaris van Binnenlandse Zaken. Als Eigenaar van het afsprakenstelsel voor elektronische
+toegangsdiensten, is de staatssecretaris van BZK tevens
+Toezichthouder. Om de rollen van Eigenaar en
+Toezichthouder zo veel als mogelijk te scheiden, is een
+Commissie van Deskundigen ingesteld door de
+Ministerraad.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 233Gemachtigde
+De partij die (op grond van wet of machtiging c.q volmacht) bevoegd is om
+in naam van de vertegenwoordigde bepaalde handelingen te verrichten
+waarvan de rechtsgevolgen worden toegerekend aan de
+vertegenwoordigde. Voorzover gemachtigde een natuurlijk persoon is, geldt
+geen beperking ten aanzien van het voorkomen van
+niet ingezetenen als gemachtigde. Zo kan ook een
+buitenlandse natuurlijke persoon gemachtigde zijn.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 234Artikel 2. Toepassingsgebied
+De Deelnemer dient deze Gebruiksvoorwaarden van toepassing te verklaren op de Overeenkomst die de Dienstafnemer en de
+Dienstverlener in het kader van het Netwerk voor Elektronische Toegangsdiensten sluiten met een Deelnemer. Een Deelnemer kan één of meer van de volgende rollen vervullen. De Middelenuitgever geeft authenticatiemiddelen uit en identificeert natuurlijke personen. De Authenticatiedienst authenticeert personen. Het Machtigingenregister faciliteert het registreren, onderhouden en controleren van machtigingen. De Herkenningsmakelaar vervult een routeer- en navigeerfunctie en vormt het koppelpunt tussen het Netwerk voor
+Elektronische Toegangsdiensten en de Dienstverleners.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 235Artikel 3. Tussentijdse beëindiging van de Overeenkomst door
+beëindiging deelname
+De Overeenkomst eindigt van rechtswege indien en zodra de deelname van de Deelnemer aan het Afsprakenstelsel
+Elektronische Toegangsdiensten eindigt. De Deelnemer stelt de Dienstafnemer en/of de Dienstverlener met wie de
+Deelnemer een Overeenkomst is aangegaan, door middel van een aangetekende brief direct op de hoogte van deze
+beëindiging. Indien de in dit artikel bedoelde tussentijdse beëindiging zich voordoet, is de Deelnemer verplicht alle medewerking te
+verlenen om de continuïteit van de verlening van Elektronische Toegangsdiensten door andere Deelnemers zeker te stellen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 236Artikel 4. Beperking van aansprakelijkheid
+De aansprakelijkheid van een Partij jegens de andere Partij is beperkt tot het eigen handelen en/of nalaten in het kader van
+(de rol binnen) het Afsprakenstelsel. In het kader van de aansprakelijkheid gelden de algemene regels van het Nederlands recht ten aanzien van de inhoud en
+omvang van wettelijke verplichtingen tot schadevergoeding.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 237Artikel 5. Geheimhouding
+5.1 Partijen zullen strikte geheimhouding in acht nemen ten aanzien van vertrouwelijke informatie en informatie waarvan
+men het vertrouwelijk karakter redelijkerwijs kan vermoeden, die in het kader van de uitvoering van de Overeenkomst wordt
+uitgewisseld, tenzij een wettelijke plicht of een rechterlijke uitspraak openbaarmaking van deze gegevens gebiedt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 238Artikel 6. Achterhalen netwerkfalen
+6.1 Onder een netwerkfalen wordt verstaan het niet naar behoren verlopen van een transactie tussen de Dienstafnemer en de
+Dienstverlener of tussen een Dienstaanbieder en een Dienstbemiddelaar, bijvoorbeeld als gevolg van een
+Beveiligingsincident dan wel naar aanleiding van de onjuiste verwerking en/of doorgeleiding van:
+de authenticatie van een gebruiker en/of de Dienstafnemer;
+de registratie van een machtiging;
+een wilsuiting. 6.2 In geval van een vermoeden van een netwerkfalen, ondernemen de Partijen stappen om oorzaak van het netwerkfalen te
+achterhalen. De Dienstafnemer en Dienstverlener dienen hun medewerking hieraan te verlenen en te begrijpen dat de
+Beheerorganisatie en/of de Toezichthouder op enig moment ingeschakeld kunnen worden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 239Artikel 7. Overdraagbaarheid rechten en verplichtingen
+Overeenkomst
+7.1 Partijen zijn niet bevoegd hun rechten en verplichtingen uit de Overeenkomst over te dragen aan een derde, behalve na
+schriftelijke toestemming van de wederpartij. In het geval een Deelnemer zijn rechten en plichten uit de Overeenkomst wil
+overdragen, dient de overnemende partij eveneens toegelaten te zijn aan het Netwerk voor Elektronische Toegangsdiensten
+als Deelnemer in dezelfde rol.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 240Artikel 8. Toepasselijk recht
+8.1 Op deze Gebruiksvoorwaarden is Nederlands recht van toepassing.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 241Verplichtingen voor de DienstafnemerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 242Artikel 10. Dienstafnemer
+10.1 De Dienstafnemer voldoet aan alle op hem rustende verplichtingen op grond van het Afsprakenstelsel. 10.2 De Dienstafnemer dient aan de Deelnemer tijdig juiste en volledige informatie aan te leveren, indien de Deelnemer
+daarom verzoekt. 10.3 Indien de Dienstafnemer niet tijdig, dan wel onjuiste en/of onvolledige informatie verstrekt, dan kan dit niet aan de
+Deelnemer worden toegerekend, tenzij de Deelnemer wist of behoorde te weten dat er sprake is van onjuiste en/of
+onvolledige informatie en de Deelnemer deze informatie niettemin heeft verwerkt. 10.4 De Dienstafnemer geeft direct alle relevante mutaties door aan de Deelnemer, en trekt direct daaraan gerelateerde
+Authenticatiemiddelen en machtigingen in of blokkeert deze. 10.5 Indien ten aanzien van een Authenticatiemiddel en/of een machtiging sprake is van onbevoegd of anderszins onjuist
+gebruik, of indien dit wordt vermoed, doet de Dienstafnemer direct na kennisname melding van aan de betreffende
+Middelenuitgever, dan wel trekt de Dienstafnemer de registratie van de betreffende machtiging in. 10.6 Indien een Dienstaanbieder voor het gebruik van een dienst de functionaliteit SSO toestaat, is het de keuze van de
+Dienstafnemer om al dan niet van deze functionaliteit gebruik te maken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 243Artikel 11. Beveiligingsverplichting van de Dienstafnemer
+11.1 De Dienstafnemer draagt zorg voor de voldoende beveiliging van de netwerkverbindingen en de systemen die onder
+diens verantwoordelijkheid vallen en door de Dienstafnemer worden gebruikt in het kader van Elektronische
+Toegangsdiensten . 11.2 De Dienstafnemer meldt het aan de Deelnemer indien er een vermoeden is van een Beveiligingsincident. De Deelnemer
+meldt dit vermoeden van een Beveiligingsincident aan de Beheerorganisatie. De Beheerorganisatie meldt dit vermoeden aan
+de Toezichthouder. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 244Artikel 12. Toezicht van de Dienstafnemer op gedragingen van
+personen
+12.1 De Dienstafnemer is zich ervan bewust dat een middel persoonsgebonden en niet overdraagbaar is. De informatie die
+de Dienstafnemer met gebruik van persoonsgebonden Authenticatiemiddelen kan raadplegen, aanvragen en bewerken
+(wijzigen) is vaak van privacygevoelige aard, vertrouwelijk en persoonlijk. De Dienstafnemer wordt er in dit verband met
+klem op gewezen dat strikte geheimhouding van zijn Authenticatiemiddel geboden is. 12.2 De Dienstafnemer ziet toe op en is verantwoordelijk voor de gebruiker die optreedt namens de Dienstafnemer. De
+Dienstafnemer laat geen werkwijze toe die leidt tot onzorgvuldig handelen van zijn vertegenwoordigers, zoals het gebruik
+van persoonsgebonden Authenticatiemiddelen door meerdere personen, het onbevoegd gebruik van persoonsgebonden
+Authenticatiemiddelen, het gebruik van Authenticatiemiddelen voor een ander doel dan het doel waarvoor zij zijn
+afgegeven, etc. 12.3 De Dienstafnemer is verplicht misbruik of een vermoeden van misbruik van Authenticatiemiddelen te melden bij de
+Deelnemer. Gelijktijdig met deze melding wordt door de Dienstafnemer een verzoek tot het intrekken of schorsing van het
+desbetreffende Authenticatiemiddel bij de Deelnemer ingediend. 12.4 De Dienstafnemer ziet er op toe dat degene die het als Machtigingenbeheerder heeft aangewezen zorgvuldig handelt bij
+de verstrekking en het beheren van die machtigingen alsmede dat deze machtigingen zorgvuldig worden gebruikt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 245Artikel 13. Vervulling rol(len) door de Dienstafnemer
+13.1 Indien de Dienstafnemer zelf één of meer rollen binnen het Netwerk voor vervult, Elektronische Toegangsdiensten
+gelden voor hem alle verplichtingen die aan de desbetreffende rol zijn verbonden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 246Verplichtingen van de DienstverlenerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 247Artikel 14. Vaststellen openstellingsbesluit
+14.1 De Dienstverlener voldoet aan alle op hem rustende verplichtingen op grond van het Afsprakenstelsel. 14.2 De Dienstaanbieder maakt kenbaar dat hij de elektronische weg heeft opengesteld en geeft daarbij aan welke diensten
+langs elektronische weg kunnen worden afgenomen. 14.3 In het openstellingbesluit maakt de Dienstaanbieder een keuze voor één of meer Betrouwbaarheidsniveaus. Bij het
+maken van de keuze voor één of meer Betrouwbaarheidsniveaus kan de Handreiking Betrouwbaarheidsniveau van het Forum
+Standaardisatie als handreiking worden gebruikt. De keuze voor een Betrouwbaarheidsniveau is de uitsluitende
+verantwoordelijkheid van de Dienstaanbieder. De Deelnemer en de Dienstbemiddelaar zijn niet aansprakelijk voor schade
+die ontstaat ten gevolge van een door de Dienstaanbieder vastgesteld Betrouwbaarheidsniveau. Dit laat de aansprakelijkheid
+van de Deelnemer voor de eigen dienstverlening onverlet.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 248Artikel 15. Melding onregelmatigheden
+15.1 In het geval de Dienstverlener ten aanzien van aan haar verstrekte herkenningsgegevens onregelmatigheden constateert
+of een vermoeden daarvan heeft, doet de Dienstverlener hiervan direct melding aan de Herkenningsmakelaar waarmee zij
+een Overeenkomst heeft afgesloten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 249Artikel 16. Beveiliging dienstverlener
+16.1 De Dienstverlener is verantwoordelijk voor de beveiliging en controle van de eigen systemen en netwerken die worden
+gebruikt, de website en de koppeling met de Herkenningsmakelaar. De Dienstverlener voldoet aan de eisen van het
+Afsprakenstelsel inzake onder meer de beveiliging van de verbinding en haar systemen, de website en de koppeling met de
+Herkenningsmakelaar. 16.2 Voor zover de Dienstverlener een publiekrechtelijk rechtspersoon is, wordt door deze overheidsdienstverlener – naast
+de door Elektronische Toegangsdiensten in het Afsprakenstelsel bekendgemaakte (technische) eisen en voor geschreven
+beveiligingsmaatregelen - tevens voldaan aan de door het Nationaal Cyber Security Center vastgestelde  ten aanzien van eisen
+beveiliging voor elektronische dienstverlening. 16.3 Indien naar het oordeel van de Herkenningsmakelaar de Dienstverlener niet voldoet aan de in artikel 16.1 en 16.2
+bedoelde beveiligingseisen is de Herkenningsmakelaar, overeenkomstig artikel 23 van deze Gebruiksvoorwaarden
+gerechtigd de Dienstverlener af te sluiten. Het nemen van een dergelijke maatregel wordt door de Herkenningsmakelaar met
+redenen omkleed. 16.4 De Dienstverlener geeft toestemming tot een controle door een door de Herkenningsmakelaar aan te wijzen auditeur
+bij het redelijke vermoeden of na het veroorzaken van een Beveiligingsincident.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 250Artikel 17. SSO
+17.1 Het Netwerk voor Elektronische Toegangsdiensten ondersteunt SSO. De Dienstverlener is verantwoordelijk voor de
+keuze om SSO al dan niet toe te staan voor zijn dienstverlening. 17.2 De Dienstverlener geeft bij registratie van de dienst in de dienstencatalogus op of deze SSO toestaat. 17.3 De Dienstverlener zorgt voor laagdrempelige en adequate informatieverstrekking over het gebruik en de werking van
+SSO aan de Dienstafnemer.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 251Artikel 18. Beveiliging
+18.1 De Deelnemer is verantwoordelijk voor de beveiliging en controle van de netwerkverbindingen, native apps en
+systemen die hij gebruikt in het kader van . De Deelnemer voldoet daarbij aan de eisen van Elektronische Toegangsdiensten
+het Afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 252Artikel 19. Betrouwbaarheidsniveaus
+1.1 De Deelnemer ondersteunt de Betrouwbaarheidsniveaus zoals vastgelegd in de Overeenkomst.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 253Artikel 20. Informatieverplichting
+20.1 De Deelnemer is verplicht alle informatie, waaronder informatie over de Overeenkomst, te verstrekken aan de
+Toezichthouder voor zover deze informatie voor de Toezichthouder noodzakelijk is om (voortzetting van) deelname aan het
+Netwerk voor Elektronische Toegangsdiensten te kunnen beoordelen, naleving van de afspraken van het Afsprakenstelsel te
+kunnen controleren, dan wel indien dit noodzakelijk is vanwege een klacht of een handhavingsverzoek.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 254Artikel 21. Privacy
+21.1 De Deelnemer gebruikt aan hem verstrekte informatie slechts voor het doel waarvoor deze informatie aan hem is
+verstrekt. De Deelnemer verstrekt geen informatie aan anderen dan degenen waaraan de Deelnemer uit hoofde van de
+Overeenkomst informatie mag verstrekken c.q. op grond van een wettelijke verplichting moet verstrekken. 21.2 De Deelnemer verwerkt uitsluitend persoonsgegevens indien en voor zover dit noodzakelijk is ter uitvoering van de
+Overeenkomst. 21.3 De Deelnemer verstrekt geen persoonsgegevens die betrekking hebben op de gebruiker, tenzij:
+de Dienstverlener of de Dienstafnemer deze gegevens opvraagt in het kader van een juridische procedure; of
+er sprake is van een vordering van een bevoegde opsporingsinstantie of toezichthouder; en
+een en ander geschiedt conform de geldende rechtsregels inzake de verstrekking van persoonsgegevens. 21.4 De verwerking van persoonsgegevens in het kader van uitvoering van de Overeenkomst, geschiedt door de Deelnemer
+overeenkomstig de bepalingen van de  . AVGAfsprakenstelsel Elektronische Toegangsdiensten | pagina 255Artikel 22. Cookies
+22.1 Bij bepaalde instellingen die de Gebruiker zelf kiest, wordt gebruik gemaakt van functionele cookies, dat wil zeggen
+cookies waarvoor geen expliciete toestemming vereist is. Deze cookies worden niet gebruikt voor andere doeleinden dan het
+faciliteren van de door de Gebruiker gekozen instelling.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 256Artikel 23. Toezicht
+23.1 De Toezichthouder houdt toezicht op de Deelnemers, de Beheerorganisatie, de centrale voorzieningen die noodzakelijk
+zijn om het Netwerk van elektronische toegangsdiensten te laten functioneren en  behandelt handhavingsverzoeken,
+meldingen en klachten over de veilige en betrouwbare werking van het Afsprakenstelsel. 23. 2 De Deelnemer schorst de toegang tot zijn dienst in geval van acuut gevaar voor de veilige en betrouwbare werking van
+het Afsprakenstelsel en overlegt met de Toezichthouder over verder te ondernemen stappen. De Toezichthouder behandelt geen zakelijke geschillen tussen Deelnemers of Dienstafnemers. 23.3Afsprakenstelsel Elektronische Toegangsdiensten | pagina 257Organisatie
+Hier vindt u de organisatorische documenten van het Afsprakenstelsel Elektronische Toegangsdiensten: het operationele
+handboek, de service level, het businessmodel en het handboek huisstijl. Deze documenten bevatten informatie over de
+stelselbrede beheerprocessen, de algemene service level die Elektronische Toegangsdiensten hanteert en het gebruik van het
+beeldmerk van eHerkenning bij externe communicatie. Deze categorie bevat de volgende onderdelen:
+Operationeel handboek  — Dit document beschrijft de operationele beheerprocessen voor het Netwerk. Deze
+processen hebben als doel om het merk Elektronische Toegangsdiensten te beheren. Onder merkbeheer valt onder
+andere het beheren van de documentatie van het afsprakenstelsel, de relaties in het netwerk, het technische netwerk,
+digitale sleutels, toetreding en wensen of wijzigingen. Businessmodel  — Dit document beschrijft het businessmodel voor Elektronische Toegangsdiensten. Onder het
+businessmodel worden verstaan de afspraken die betrekking hebben op de onderlinge verrekening van kosten en
+baten tussen verschillende partijen die samen het Netwerk (voor Elektronische Toegangsdiensten) invullen. Het is
+bedoeld voor deelnemers en dienstverleners. Service level  — Dit document beschrijft de Service Level afspraken die gelden voor deelnemers en de
+beheerorganisatie van Elektronische Toegangsdiensten. Het betreft een beschrijving van het minimale Service Level
+dat de deelnemers moeten leveren aan elkaar en hun dienstafnemers en het minimale Service Level dat de
+beheerorganisatie levert aan de deelnemers. Communicatie  — Dit document beschrijft de richtlijnen voor naam en merkgebruik, huisstijl afspraken en
+communicatierichtlijnen voor de merken eHerkenning en eIDAS. Het is bedoeld voor alle betrokken partijen:
+deelnemers en dienstverleners. De beheerorganisatie levert richtlijnen, standaard tekst- en beeldmateriaal en andere
+tools die de deelnemers en dienstverleners dienen te gebruiken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 258Operationeel handboek
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Dit document beschrijft de operationele beheerprocessen voor het Netwerk. Deze processen hebben als doel om het merk
+Elektronische Toegangsdiensten te beheren. Onder merkbeheer valt onder andere het beheren van de documentatie van het
+afsprakenstelsel, de relaties in het netwerk, het technische netwerk, digitale sleutels, toetreding en wensen of wijzigingen. De juridische afbakening van de beheerorganisatie staat beschreven in  . Juridisch kader
+Dit document is primair geschreven voor de beheerorganisatie en de deelnemers. Daarnaast is het ook ter inzage voor het
+Ministerie van Binnenlandse Zaken (opdrachtgever voor Elektronische Toegangsdiensten) en iedere andere organisatie die
+interesse heeft in Elektronische Toegangsdiensten. Leeswijzer
+Helpdesk  — De beheerorganisatie beschikt over een helpdesk specifiek voor de deelnemers van Elektronische
+Toegangsdiensten. Deze helpdesk is het eerste meldpunt in geval van vragen, issues of andere problemen binnen het
+netwerk. Proces aanvragen BSNk-sleutelmateriaal
+Proces attribuutcatalogus
+Proces beheren simulator  — De simulator is door de beheerorganisatie ontwikkeld om deelnemer en dienstverleners
+een simulatortest te laten uitvoeren. Hiermee worden koppelvlakken gesimuleerd. Proces beheren testnetwerk  — Het testnetwerk is een netwerk van alle deelnemers. Het heeft als functie om nieuwe
+systemen van nieuwe toetreders of deelnemers te kunnen onderwerpen aan ketentesten. Hiermee kan in een
+netwerk, dat zich op hoofdlijnen gedraagt als het productienetwerk, worden gecontroleerd of aan alle eisen wordt
+voldaan. Proces certificaatwissel  — In de metadata zijn één of meer actuele certificaten per deelnemer opgenomen. De
+deelnemers en de beheerorganisatie hebben de mogelijkheid om uit voorzorg ook certificaten op te geven die
+gebruikt (kunnen) gaan worden bij het wisselen van een certificaat. Dit maakt het netwerk minder kwetsbaar
+wanneer een certificaat gewisseld moet worden. Proces change en release  — Het Afsprakenstelsel Elektronische Toegangsdiensten is dynamisch. Het change en
+releaseproces beschrijft het proces van het ontstaan van een wijziging, de toetsing en de besluitvorming en het
+verwerken van de wijziging in het Afsprakenstelsel (AS). Het Proces implementatie koppelvlakrelease beschrijft de
+implementatie van een change in het  Netwerk (voor Elektronische Toegangsdiensten) door een betrokken partij. Proces contentmanagement
+Proces distributie en publicatie van documenten  — De beheerorganisatie verricht algemene communicatie
+activiteiten voor Elektronische Toegangsdiensten. Een van die activiteiten is het publiceren van het Afsprakenstelsel
+Elektronische Toegangsdiensten en andere bij Elektronische Toegangsdiensten berustende informatie (dit betekent
+documenten met de classificatie 'Elektronische Toegangsdiensten openbaar'). De deelnemers en de
+beheerorganisatie gebruiken de documentatie voor het beheer van Elektronische Toegangsdiensten. Andere
+geïnteresseerde par
+Proces doorvoeren nieuwe dienstencatalogus  — In de dienstencatalogus zijn alle diensten van aangesloten
+dienstverleners opgenomen die worden onderscheiden binnen Elektronische Toegangsdiensten. De
+beheerorganisatie beheert de geaggregeerde dienstencatalogus. Dit proces beschrijft hoe wijzigingen op de
+dienstencatalogus worden doorgevoerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 259Proces implementatie koppelvlakrelease
+Proces incidentmanagement
+Proces informeren Toezichthouder
+Proces instandhouding en naleven  — Een goede naleving van het afsprakenstelsel is onontbeerlijk voor de
+veiligheid, betrouwbaarheid, geloofwaardigheid en het vertrouwen in het stelsel. Zowel de Deelnemers aan het
+Afsprakenstelsel als de Beheerorganisatie, BSNk en de Toezichthouder hebben een rol bij de instandhouding van het
+netwerk en de borging van het naleven van het Afsprakenstelsel. In eerste instantie gebeurt het toezien op de
+naleving zo veel mogelijk vanuit een zelfregulerend systeem en in goed onderling overleg tussen pa
+Proces managementrapportage
+Proces meldingenbeheer  — De beheerorganisatie is aanspreekpunt voor zaken met betrekking tot de ontwikkeling
+en implementatie van het Afsprakenstelsel Elektronische Toegangsdiensten. snippet.issues functioneert als portaal
+voor het maken van meldingen. Bij het melden van een incident moet het proces incidentmanagement als basis
+genomen worden. Proces migratie sleutelmateriaal voor polymorfe pseudonimisering
+Proces netwerkmetadata
+Proces onderhoud cookieserver  — Voor de werking van Single Sign On heeft iedere Herkenningsmakelaar een eigen
+fysieke cookieserver op gezamenlijk domein snippet.url.sso. De DNS van het gezamenlijke domein wordt beheerd
+door beheerorganisatie. Proces toetreden  — Het afsprakenstelsel van Elektronische Toegangsdiensten, waaronder het merk eHerkenning
+valt, staat open voor deelname door nieuwe geïnteresseerde partijen. Het Proces Toetreden beschrijft de stappen die
+genomen moeten worden om toe te treden tot het afsprakenstelsel Elektronische Toegangsdiensten. Na
+ondertekening van de Deelnemersovereenkomst, als sluitstuk van het toetredingsproces, mag het merk eHerkenning
+gevoerd worden. Bij bepaalde wijzigingen, bijvoorbeeld wanneer een deelnemer zijn dien
+Proces uittreden
+Proces uitvoeren centrale penetratietest
+Proces wijziging rechtspersoon  — Wanneer een deelnemer de rechtspersoon wil wijzigen, maakt hij dit kenbaar aan
+de beheerorganisatie door middel van het formulier Template wijziging rechtspersoon deelnemer. mailto:
+info@eherkenning.nl.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 260Helpdesk
+De beheerorganisatie beschikt over een helpdesk specifiek voor de deelnemers van Elektronische Toegangsdiensten. Deze
+helpdesk is het eerste meldpunt in geval van vragen, issues of andere problemen binnen het netwerk. De helpdesk kan in principe niet gebruikt worden door gebruikers van Elektronische Toegangsdiensten. Zij wenden zich tot
+de dienstverlener of tot de deelnemer waarmee zij een relatie hebben.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 261Verantwoordelijkheden
+De proceseigenaar is er vanuit de beheerorganisatie verantwoordelijk voor dat het proces wordt uitgevoerd conform de
+procesbeschrijving. De technisch beheerder van de beheerorganisatie is er verantwoordelijk voor dat de procesbeschrijving
+actueel blijft.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 262Overzicht processtappen
+1. Melding helpdeskAfsprakenstelsel Elektronische Toegangsdiensten | pagina 2631. 2.

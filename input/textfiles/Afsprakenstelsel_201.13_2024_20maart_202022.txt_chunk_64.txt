@@ -1,0 +1,128 @@
+De gevraagde attributen worden opgenomen in de DV-HM  en de SAML metadata
+(Dienstencatalogus). Een dienstverlener kan verschillende metadata profielen hanteren voor verschillende Service catalog
+sets met uit te vragen attributen. In stap 3.2 van   neemt de Herkenningsmakelaar, wanneer de dienstverlener om aanvullende GUC3 Aantonen identiteit
+attributen vraagt, de attributen die de authenticatiedienst zou kunnen leveren in de vraag op. Na stap 3.4 van   toont de authenticatiedienst, wanneer aanvullende attributen van de GUC3 Aantonen identiteit
+authenticatiedienst worden gevraagd, de authenticatiedienst dit ondersteunt en de attributen in de Dienstencatalogus voor
+de gevraagde dienst vermeld staan, de beschikbare attributen en de waarden van de attributen en vraagt de gebruiker
+goedkeuring om deze attributen te verstrekken ( ). In het geval van Dienstbemiddeling levert de User consent
+authenticatiedienst de attributen versleuteld aan alleen de dienstaanbieder op. De authenticatiedienst MOET de display
+name van de attributen uit de   op eenvoudige wijze tonen. De authenticatiedienst MOET de doelbinding Attribuutcatalogus
+uit de Dienstencatalogus op eenvoudige wijze tonen. Indien de gebruiker al eerder doorlopende user consent heeft gegeven
+dan kan deze stap achterwege worden gelaten. In stap 3.5 van   worden, wanneer aanvullende attributen worden gevraagd en de GUC3 Aantonen identiteit
+authenticatiedienst dit ondersteunt, in het antwoord ook de beschikbare en waarvoor de gebruiker user consent heeft
+verleend, opgenomen in versleutelde vorm. Na stap 4.3 van   toont het machtigingenregister, wanneer aanvullende attributen van het GUC4 Aantonen bevoegdheid
+machtigingenregister worden gevraagd, het machtigingenregister dit ondersteunt en de attributen in de Dienstencatalogus
+voor de gevraagde dienst vermeld staan, de beschikbare attributen en de waarden van de attributen en vraagt de
+gebruiker goedkeuring om deze attributen te verstrekken ( ). In het geval van Dienstbemiddeling levert het User consent
+machtigingenregister de attributen versleuteld aan alleen de dienstaanbieder op. Het Machtigingenregister MOET de display
+name van de attributen uit de   op eenvoudige wijze tonen. Het Machtigingenregister MOET de Attribuutcatalogus
+doelbinding uit de Dienstencatalogus op eenvoudige wijze tonen. Indien de machtigingenbeheerder van de
+vertegenwoordigde dienstafnemer/intermediaire partij al eerder (bijvoorbeeld bij registratie van de machtiging)
+doorlopende user consent heeft gegeven dan kan deze stap achterwege worden gelaten. In stap 4.4 van  worden, wanneer aanvullende attributen worden gevraagd en het GUC4 Aantonen bevoegdheid
+machtigingenregister dit ondersteunt, in het antwoord ook de beschikbare en waarvoor de gebruiker user consent heeft
+verleend, opgenomen in versleutelde vorm. Vestigingsspecifieke attributen worden alleen verstrekt indien ze als zodanig
+gevraagd worden. In stap 1.3 van  en stap 2.4 van GUC1 Gebruiken eToegang als dienstafnemer GUC2 Gebruiken eToegang als
+worden, wanneer aanvullende attributen door de dienstverlener zijn gevraagd en deze attributen door vertegenwoordiger
+authenticatiedienst en/of machtigingenregister zijn geleverd, deze in versleutelde vorm aan het antwoord toegevoegd. Bij Dienstbemiddeling worden attributen alleen geleverd aan de Dienstaanbieder, de Dienstbemiddelaar ontvangt dus geen
+attributen. Een Dienstbemiddelaar kan deze attributen wel verkrijgen door voorafgaand aan de Dienstbemiddeling de
+attributen zelf uit te vragen voor een eigen dienst (en treedt dan direct als dienstverlener op).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 497Attributen niet leverbaar of niet toegestaan
+Indien AD of MR één of meer van de gevraagde attributen, waarvan in de  of het verzoek is aangegeven dat SAML metadata
+deze niet Required zijn, niet kunnen leveren (hetzij omdat zij deze gegevens niet registeren, hetzij omdat er geen User
+gegeven wordt) wordt in stap 5 van , respectievelijk stap 4 van  consent GUC3 Aantonen identiteit GUC4 Aantonen
+een authenticatieverklaring afgegeven die enkel de authenticatie en gegevens die wel leverbaar zijn bevat. De bevoegdheid
+Use case wordt vervolgens normaal vervolgd. In stap 3 van  of stap 4 van  GUC1 Gebruiken eToegang als dienstafnemer GUC2
+levert de HM de gevraagde attributen die geleverd konden worden, de andere Gebruiken eToegang als vertegenwoordiger
+attributen worden niet meegezonden. Indien AD of MR één of meer van de gevraagde attributen, waarvan in de Dienstencatalogus of het verzoek is aangegeven dat
+deze Required zijn, niet kunnen leveren (hetzij omdat zij deze gegevens niet registeren, hetzij omdat er geen user consent
+gegeven wordt) of omdat voor de gevraagde dienst de attributen niet in de Dienstencatalogus vermeldt staan, wordt na stap 5
+van  , respectievelijk stap 4 van   de Use case niet vervolgd (zie GUC3 Aantonen identiteit GUC4 Aantonen bevoegdheid Error
+). handling
+Dienstverlener MOET er rekening mee houden dat gevraagde optionele attributen niet geleverd kunnen worden. Dit kan
+betekenen dat bepaalde dienstverlening niet mogelijk is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 498Attribuut komt niet voor in attribuutcatalogus
+Zowel de Herkenningsmakelaar (in stap 1 van  en stap 1 van GUC1 Gebruiken eToegang als dienstafnemer GUC2 Gebruiken
+) als de authenticatiedienst (in stap 2 van ) als het eToegang als vertegenwoordiger GUC3 Aantonen identiteit
+machtigingenregister (in stap 2 van ) dienen te controleren of het attributen betreft die GUC4 Aantonen bevoegdheid
+voorkomen in de attribuutcatalogus. Indien dit niet het geval is dienen zij een fout met die strekking te tonen (zie Error
+) en wordt de use case niet vervolgd. handlingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 499Dienst of dienstverlener komt niet voor in dienstencatalogus
+In stap 1.1 van , stap 2.1 van , GUC1 Gebruiken eToegang als dienstafnemer GUC2 Gebruiken eToegang als vertegenwoordiger
+stap 3.2 van , stap 4.2 van  of stap 5.1 van  kan GUC3 Aantonen identiteit GUC4 Aantonen bevoegdheid GUC5 Aantonen BSN
+worden geconstateerd dat de dienst of dienstverlener niet voorkomt of het gebruik van dienstbemiddeling niet is toegestaan
+voor de dienst in de door de betreffende deelnemer gehanteerde versie van de dienstencatalogus. De betreffende deelnemer
+MOET het bericht afwijzen, zoals beschreven  . Error handlingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 500Gebruiker annuleert
+De gebruiker kan de authenticatie op elk gewenst moment annuleren. Wanneer het annuleren plaatsvindt bij de   MOET deze het proces afbreken en naar de Herkenningsmakelaar (HM)
+antwoorden met een foutmelding die is beschreven in  . Dienstverlener (DV) Error handling
+Wanneer het annuleren plaatsvindt bij de  MOET deze het proces afbreken en naar de DV Authenticatiedienst (AD)
+antwoorden met een foutmelding die is beschreven in . De HM MOET de gebruiker dan aanbieden een andere Error handling
+authenticatiedienst te kiezen. Indien er een selectie van een authenticatiedienst bewaard is moet deze worden genegeerd. Indien vervolgens opnieuw een authenticatiedienst geselecteerd wordt moet de vraag of deze instelling bewaard moet
+worden opnieuw getoond worden met default "leeg". De nieuwe keuze overschrijft de oude. Wanneer het annuleren plaatsvindt bij het  MOET deze het proces afbreken en naar de HM Machtigingenregister (MR)
+antwoorden met een foutmelding die is beschreven in  . De HM MOET de gebruiker dan aanbieden opnieuw Error handling
+een AD te kiezen of de Herkenning te annuleren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 501Soort dienstafnemer kan niet worden geleverd
+In stap 3.3 van   kan een authenticatiedienst (en in stap 4.3 van  een GUC3 Aantonen identiteit GUC4 Aantonen bevoegdheid
+machtigingenregister) vaststellen dat de voor het antwoord benodigde soort dienstafnemer niet kan worden geleverd. Dit
+kan bijvoorbeeld komen doordat de gebruiker niet behoort tot de gevraagde beroepsgroep, of doordat de
+authenticatiedienst of machtigingenregister niet gerechtigd is de gevraagde gegevens vast te leggen. In dat geval MOET de
+betreffende deelnemer het bericht weigeren, zoals beschreven in . Error handlingAfsprakenstelsel Elektronische Toegangsdiensten | pagina 502
+Use cases Single Sign-On
+In stap  of   kan de GUC1 Gebruiken eToegang als dienstafnemer GUC2 Gebruiken eToegang als vertegenwoordiger
+dienstverlener in de vraag specificeren dat single sign-on is toegestaan of dat een hernieuwde authenticatie wordt
+afgedwongen. Voor diensten die betrouwbaarheidsniveau 4 vereisen  is single sign-on nooit toegestaan. In stap  wordt door een authenticatiedienst die SSO ondersteunt als volgt gehandeld: GUC3 Aantonen identiteit
+Indien door de dienstverlener een hernieuwde authenticatie wordt afgedwongen en er al eerder een aanlog door de
+gebruiker heeft plaatsgevonden waarvan de authenticatie bewaard is gebleven, MOET de nog niet verlopen
+authenticatie worden beëindigd. Daarnaast MAG na succesvolle authenticatie de optie worden geboden aan de
+gebruiker om aangelogd te blijven. Indien de gebruiker deze optie selecteert, wordt deze bewaard en kan vanaf dat
+moment SSO plaatsvinden. Tevens MOET de authenticatiedienst vanaf dit moment de timer van het maximum
+authenticatiedienst tijdsverloop starten;
+Indien SSO is toegestaan en er al eerder een aanlog door de gebruiker heeft plaatsgevonden waarvan de authenticatie
+bewaard is en die nog niet verlopen is, wordt deze hergebruikt zonder interactie met de gebruiker en gaat het
+authenticatiedienst tijdsverloop opnieuw in;
+Indien er geen eerdere (nog) geldige authenticatie is, MAG de optie worden geboden aan de gebruiker om aangelogd
+te blijven. Indien de gebruiker deze optie selecteert, wordt deze bewaard en kan vanaf dat moment SSO plaatsvinden. Tevens zal de authenticatiedienst vanaf dit moment de timer van het maximum authenticatiedienst tijdsverloop
+starten. Na het succesvol uitvoeren van  of GUC1 Gebruiken eToegang als dienstafnemer GUC2 Gebruiken eToegang als
+MOET de dienstverlener die SSO toepast lokaal de sessie bijhouden. Indien SSO wordt toegepast moet de vertegenwoordiger
+dienstverlener een logoutfunctie aanbieden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 503Varianten bij Single Sign-On
+Als onderdeel van de alternatieve flow voor Single Sign-On kunnen de volgende varianten voorkomen (die hier dus als
+alternatieve flow binnen de alternatieve flow van  beschreven worden). Use cases Single Sign-On
+Geen reactie bij lezen of schrijven selectie authenticatiedienst
+Single Log-outAfsprakenstelsel Elektronische Toegangsdiensten | pagina 504Geen reactie bij lezen of schrijven selectie authenticatiedienst
+Als het cookie niet gelezen kan worden, dan moet het proces doorgaan alsof er geen selectie gemaakt is. Als het cookie niet
+geschreven kan worden, dan moet het proces doorgaan zonder een foutmelding aan de eindgebruiker te tonen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 505Single Log-out
+De volgende specifieke use case (Single log-out) MOET door alle authenticatiediensten en Herkenningsmakelaars
+ondersteund worden, ook door authenticatiediensten die geen Single Sign-On ondersteunen. Zij MOGEN logoutberichten
+NIET afkeuren en MOETEN de melding tonen zoals beschreven in stap 2 hieronder. Nr. Actie Omschrijving
+Initiële staat Een uitvoerende natuurlijke persoon heeft op basis van één of meer verklaringen toegang bij
+een dienstverlener en deze houden lokaal een sessie bij. Mogelijk is er ook bij andere
+dienstverleners nog een geldige sessie aanwezig. 1 gebruiker
+selecteert "logout"
+binnen de website
+van de
+dienstverlener.De uitvoerende persoon wordt lokaal uitgelogd bij de dienstverlener conform de eisen in
+en daarna doorgestuurd naar de Herkenningsmakelaar met Single sign-on and user sessions
+een logoutbericht (zie ). Interface specifications DV-HM
+2 HM ontvangt
+logoutbericht en
+stuurt dit naar
+geselecteerde
+authenticatiedienstDe Herkenningsmakelaar stuurt het logoutbericht door naar de authenticatiedienst. Op basis
+van het ontvangen bericht beëindigt de authenticatiedienst de eventueel nog geldige
+bewaarde authenticatie en toont daarna in browserwindow een bericht "uitgelogd bij [naam
+dienstverlener] en [naam authenticatiedienst]. Als u van andere Herkenningsdiensten
+gebruik heeft gemaakt, moet u daar zelf nog uitloggen. U kunt ook alle browservensters
+sluiten" (of een andere tekst met gelijke strekking). Finale staat De gebruiker heeft bij de authenticatiedienst geen geldige sessie meer, maar mogelijk nog
+wel bij de andere dienstverleners waarbij eerder is ingelogd. Indien de browser wordt
+afgesloten verdwijnen ook die sessies. Wanneer de Herkenningsmakelaar geen geldige authenticatiedienst vindt om het logoutbericht naar toe te sturen, dan toont
+de Herkenningsmakelaar een scherm met de tekst "Uitloggen is momenteel niet mogelijk. Sluit alle [naam browser*]
+vensters om de beveiliging van uw informatie te waarborgen."
+*naam browser bepaald op basis van browserdetectie, of alleen 'browservensters' als detectie niet mogelijk is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 506Use cases voor Administratie
+De volgende processen onderscheiden waarin uitvoerende natuurlijke personen, dienstafnemers en dienstverleners
+voorbereidingen treffen voor het gebruik van Elektronische Toegangsdiensten. AUC1 Aansluiten dienst
+AUC2 Verkrijgen authenticatiemiddel
+AUC3 Registreren bevoegdheid
+AUC3.1 Registreren bevoegdheid eenmanszaken
+AUC3.2 Registreren status machtigingen eenmanszaken
+AUC4 Registreren attribuut
+AUC6 Activeren BSN
+AUC6.1 Activeren BSN mbv VI  — In het kader van sleutelmigratie van de IdentityProviderKeySet en van
+de SchemeWideKeySet (zie Proces migratie sleutelmateriaal voor polymorfe pseudonimisering) moet een
+MachtigingsRegister en MiddelenUitgever alle nog active (en dus eerder geactiveerde) BSN's opnieuw
+activeren bij BSNk-Activeren. Hiervoor stuurt de Machtigingenregister of MiddelenUitgever de BSN in de vorm
+van een Versleutelde Identiteit naar BSNk-Activeren.

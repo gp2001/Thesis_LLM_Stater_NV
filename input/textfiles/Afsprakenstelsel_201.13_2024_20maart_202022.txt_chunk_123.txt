@@ -1,0 +1,59 @@
+Formaat Base64 representatie van een versleutelde identiteit, als drie punten op een elliptische kromme,
+specifiek voor de Dienstverlener (DER-encoded structure in ASN.1 notatie, een (Signed)
+EncryptedIdentity, zie  ). Na decryptie levert Handreiking Polymorphic Pseudonimization Notation
+dit een 9 cijferig BSN op. Ketenmachtigingen
+Vertegenwoordiging
+Overig
+MAG gebruikt worden om een gebruiker te identificeren middels een ASTA of ECTAAfsprakenstelsel Elektronische Toegangsdiensten | pagina 759urn:etoegang:1.12:EntityConcernedID:PseudoID
+NameQualifier urn:etoegang:1.12 EntityConcernedID:PseudoID:
+Omschrijving Een  wordt gebruikt om een  urn:etoegang:1.12:EntityConcernedID:PseudoID Natuurlijk
+te identificeren binnen Elektronische Toegangsdiensten, voor gebruik binnen persoon
+eHerkenning. Het PseudoID is een Dienstverlener specifiek persistent pseudoniem dat om
+privacy-redenen ook nog eens specifiek per Dienstverlener is versleuteld. Dit persistente
+pseudoniem is identiek voor de gebruiker onafhankelijk van welke   de Verklarende Partij
+gebruiker gebruik maakt. Formaat Base64 representatie van versleutelde identiteit, als drie punten op een elliptische kromme,
+specifiek voor de Dienstverlener (DER-encoded structure in ASN.1 notatie, een (Signed)
+EncryptedPseudonym, zie  . Handreiking Polymorphic Pseudonimization Notation
+Ketenmachtigingen
+Vertegenwoordiging
+Overig
+MAG gebruikt worden om een gebruiker te identificeren middels een ASTA of ECTAAfsprakenstelsel Elektronische Toegangsdiensten | pagina 760urn:etoegang:1.13:EntityConcernedID:Pseudo
+Attribuutnaam urn:etoegang: yConcernedID:Pseudo 1.13:Entit
+Omschrijving Een  dat wordt gebruikt om een vertegenwoordiger (igv vertegenwoordiging) te identificeren binnen Specifiek Peudoniem
+eHerkenning. Formaat  32 byte hex gevolgd door een @ en een 16 byte hex
+ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890@ABCDEF1234567890ABCDEF1234567890
+(zie ) Specific pseudonym
+Ketenmachtigingen
+Vertegenwoordiging
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 761
+Attribuutcatalogus
+Een aantal attributen MOET kunnen worden geleverd. Dit zijn verplicht te verstrekken attributen. De attribuutcatalogus
+beschrijft welke attributen een attribuutverstrekker kan leveren. Attributen waarvan de naam met urn:etoegang: :attribute: (met  een versie van het AS) begint, mogen enkel door x.y x.y
+Authenticatiediensten worden geleverd. Attributen waarvan de naam met urn:etoegang: :attribute-represented: begint, x.y
+mogen enkel door Machtigingdiensten worden geleverd. Aangezien de eIDAS-berichtenservice (EB) voor eIDAS-inbound
+zowel als AD als MR optreedt, mag de EB beide leveren. Voor eIDAS-outbound, levert de BRP de minimale vereiste attributenset en heeft de EB de rol van Dienstbemiddelaar. Elke deelnemer MAG alleen de attributen verstrekken die gespecificeerd zijn in de attribuutcatalogus. De attribuutcatalogus
+bestaat uit een ondertekend <AttributeCatalogue> element. Signing gebeurt met dezelfde   waarmee ook de private key
+metadata ondertekend wordt. Zie  . Digital signature
+Een deelnemer MOET op een gemeenschappelijk overeengekomen tijdstip de attribuutcatalogus verwerken. Dit hoeft niet op
+basis van de XML representatie van de attribuutcatalogus te gebeuren, zolang men de kenmerken van de attributen in acht
+neemt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 762
+XML formaat
+Data element 0.. nInvulling
+@Version 1 Elektronische Toegangsdiensten: Versie van de attribuutcatalogus in het
+formaat: urn:etoegang:<scheme version>:<omgeving>:attribute-catalogue:
+<sequence number>. Bijvoorbeeld: urn:etoegang:1.11:attribute-catalogue:P:1
+@IssueInstant 1 Elektronische Toegangsdiensten: Tijd waarop de attribuutcatalogus is
+aangemaakt
+Signature 1 Elektronische Toegangsdiensten: MOET de elektronische handtekening van de
+partij die de attribuutcatalogus heeft aangemaakt, over het hele bericht
+bevatten
+Attribute 1.. nElektronische Toegangsdiensten:  Eén of meerdere elementen die een
+attribuut specificeren met de kenmerken uit Attribuutcatalogus. Name 1 Elektronische Toegangsdiensten : Naam van het attribuut. Type 1 Elektronische Toegangsdiensten : Type van het attribuut. Bijvoorbeeld “
+http://www.w3.org/2001/XMLSchema#string ”
+FriendlyName 1.. nElektronische Toegangsdiensten : Een korte omschrijving van het attribuut
+zodat de betekenis van het attribuut eenduidig geïnterpreteerd wordt, één
+voorkomen per taal. @lang 1 taal van FriendlyName, om in gebruikersinterfaces te tonen. Description 1.. nElektronische Toegangsdiensten : Een gedetailleerde omschrijving van het
+attribuut zodat de betekenis van het attribuut eenduidig geïnterpreteerd
+wordt, één voorkomen per taal. @lang 1 taal van Description, om in (toelichtingen bij) gebruikersinterfaces te tonen. PermissibleSource 1.. nElektronische Toegangsdiensten : Referentie aan bronnen welke het attribuut
+op mogen leveren. De beheerorganisatie publiceert de laatste versie van de  op  attribuutcatalogus https://extranet.eherkenning.nl/1.11
+.

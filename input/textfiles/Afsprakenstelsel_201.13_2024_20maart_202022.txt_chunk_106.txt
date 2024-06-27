@@ -1,0 +1,57 @@
+1. Pseudonyms
+A user may be referred to as follows:
+In the event of representation:
+inside the network with an  issued by the AD; and Internal pseudonym
+inside and outside of the network with a  issued by the MR Specific pseudonym
+In the event of non-representation:
+Inside and outside of the network with a  issued by the AD Specific pseudonym
+For polymorfe pseudonimisering  the following pseudonyms are discerned in the Afsprakenstelsel ETD:
+Pseudonyms Transformation of Unique to  May be transformed into
+Polymorphic
+Pseudonyma cryptographic derivative of a root
+identifying attribute, such as the BSNa
+Participant
+(MU/AD),Encrypted Pseudonym
+Polymorfe
+IdentiteitEncrypted Identity
+Encrypted
+PseudonymPolymorphic Pseudonym a Relying
+PartyPersistent Pseudonym
+Encrypted
+IdentityIdentity, equal to the root identifying attribute the
+original PIP was derived from, such as BSN. Persistent
+PseudonymEncrypted Pseudonym -
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 669Encrypted Pseudonym  — An Encrypted Pseudonym is a Persistent Pseudonym encrypted under Polymoprohic
+Pseudonimization for a specific recipient. Internal pseudonym  — The internal pseudonym is determined by the AD and MUST be unique within the AD its
+context. Every time the same authentication token is used, it should return the same internal pseudonym. When
+requested by the user, a new pseudonym MAY always be ignored. An internal pseudonym that has been used MUST
+NOT be reused. The only exception is when an authentication token is replaced and the AD can determine with
+sufficient certainty that it is really being replaced. In this case, the same internal pse
+Persistent Pseudonym  — A Persistent Pseudonym is a pseudonym identifier for a natural person specific for the
+relying party, that is persistent independent of the Attesting Party. Polymorphic Pseudonym  — A Polymorphic Pseudonym is a cryptographic structure that can be transformed into a
+specific Encrypted Pseudonym, without disclosing the relevant subject due to Polymorphic Pseudonimization. Specific pseudonym  — The specific pseudonym is unique for each different combination of user, represented service
+consumer, intermediary and service provider.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 670Encrypted Pseudonym
+An  Pseudonym is a   encrypted under Polymoprohic Pseudonimization for a specific Encrypted Persistent Pseudonym
+recipient. An Encrypted Pseudonym is derived from a Polymorphic Pseudonym. Due to the cryptographic nature of an Encrypted
+Pseudonym, it can be derived from a Polymorphic Pseudonym and randomized without disclosing the actual pseudonym or
+identity of the subject. The  will include an Encrypted Pseudonym in the Assertion for every  party (Ontvangende Partij). The Attesting Party relying
+Encrypted Pseudonym is specific for the recipient and can be decrypted to a  . Persistent PseudonymAfsprakenstelsel Elektronische Toegangsdiensten | pagina 671Internal pseudonym
+The internal pseudonym is determined by the AD and MUST be unique within the AD its context. Every time the same
+authentication token is used, it should return the same internal pseudonym. When requested by the user, a new pseudonym
+MAY always be ignored. An internal pseudonym that has been used MUST NOT be reused. The only exception is when an
+authentication token is replaced and the AD can determine with sufficient certainty that it is really being replaced. In this
+case, the same internal pseudonym MAY be used for the new authentication token. The format of the internal pseudonym MUST have a hexadecimal value of 32 byte. For
+example, ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890Afsprakenstelsel Elektronische Toegangsdiensten | pagina 672Persistent Pseudonym
+A Persistent Pseudonym is  for a natural person specific for the relying party, that is persistent a pseudonym identifier
+independent of the  .A Persistent Pseudonym is an identifier for a natural person, that a relying party will Attesting Party
+obtain after decrypting an  . Encrypted Pseudonym
+The resulting pseudonym is independent of the entity  the pseudonym for the User, thus does not differ between asserting
+one Attesting Party or another. The resulting pseudonym is specific to the relying party, thus preserving privacy of the user by preventing linking across
+relying organisations. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 673Polymorphic Pseudonym
+A Polymorphic Pseudonym is a   that can be transformed into a specific  , cryptographic structure Encrypted Pseudonym
+without disclosing the relevant subject due to Polymorphic Pseudonimization.A Polymorphic Pseudonym is derived from
+the identity of a natural person. The Polymorphic Pseudonym can be transformed into an   specific for Encrypted Pseudonym
+a relying party, without disclosing the original identity. A Polymorphic Pseudonym is specific for a natural person for usage at a specific . Hereby Polymorphic Attesting Party
+Pseudonyms support compartmentalization between different Attesting Parties, since it can only be used in the context of
+that specific Attesting Party.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 674
+1. 2. 1.

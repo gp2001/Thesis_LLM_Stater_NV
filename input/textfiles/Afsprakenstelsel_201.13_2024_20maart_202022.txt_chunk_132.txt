@@ -1,0 +1,60 @@
+Element/@Attribute 0.. nDescription
+IDPSSODescriptor 1 Elektronische Toegangsdiensten: A Herkenningsmakelaar MUST include only one
+IDPSSODescriptor and MUST NOT include any other elements. An IDPSSODescriptor
+element MUST contain the WantAuthnRequestsSigned XML attribute with value "true"
+and MUST NOT contain any other optional attributes. KeyDescriptor  1.. nSAML: An IDPSSODescriptor element MUST contain one or more KeyDescriptor elements
+with the use XML attribute with value "signing" and one or more KeyDescriptor elements
+with the use XML attribute with the value "encryption". Every KeyDescriptor element
+marked for "signing" MUST contain a KeyName element and a valid   PKIoverheid
+certificate with which the service provider its SAML messages and/or direct TLS
+connections can be authenticated. KeyDescriptors marked for "signing" are also the keys
+that will be used to specify the attesting Entity through Holder-of-Key-
+Subjectconfirmation in case of DienstBemiddeling. KeyDescriptors marked for "signing"
+MAY contain certificates other than PKIoverheid for authenticating direct TLS
+connections, as long as such certificates are valid and comply with the requirements in
+. Secure connection
+Every KeyDescriptor element marked for "encryption" MUST contain a KeyName element
+and a valid PKIoverheid certificate to be used to encrypt IDs and attributes for the DV. Note: HMs must process all of the described KeyDescriptor elements. KeyName in the
+signatures and protocol messages indicates which certificate in the metadata is used for
+the signature. ArtifactResolutionService 1.. n Elektronische toegangsdiensten: The ArtifactResolutionService MUST be implemented at
+least once per service. @Binding 1  SAML:  The binding parameter denotes the type of binding used. In
+theArtifactResolutionService this is the SAML-SOAP binding only. The value of this
+attribute is an urn relating to:  http://docs.oasis-open.org/security/saml/v2.0/saml-
+bindings-2.0-os.pdf
+@Location 1  SAML:  The URL of the SAML endpoint
+@Index 1 SAML:  The index of the binding, MUST be unique for all
+ArtifactResolutionService elements
+SingleLogoutService 0.. nElektronische Toegangsdiensten: MAY be implemented more than once. Describes the
+endpoint used to log the user out of its current session. @Binding 1 SAML:  The binding parameter denotes the type of binding used. This is an urn relating
+to: http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf
+@Location 1 SAML:  The URL of the SAML endpoint
+SingleSignOnService 1.. nElektronische Toegangsdiensten: MUST contain at least one SingleSignOnService
+element for which the Binding attribute has the value urn:oasis:names:tc:SAML:2.0:
+bindings:HTTP-ArtifactAfsprakenstelsel Elektronische Toegangsdiensten | pagina 790If the HM offers support for native apps through the OAuth2 protocol, the
+IDPSSODescriptor from the HM MUST contain one SingleSignonService element with a
+Binding attribute which has the value 'urn:etoegang:1.11:bindings:native-app',
+representing the endpoint supporting native apps using the OAuth2 protocol. @Binding 1 SAML:  The binding parameter denotes the type of binding used. This is an urn relating
+to:http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf
+@Location 1 SAML:  The URL of the SAML endpointAfsprakenstelsel Elektronische Toegangsdiensten | pagina 791Processing rules for the DV
+The HM metadata MUST be validated by the DV
+The DV MUST check if the endpoints in the location parameters are available. The DV MAY skip validation of SingleSignOnService elements if they are not used
+The DV MUST use the HM metadata if validation succeeds. Example Herkenningsmakelaar
+... <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+WantAuthnRequestsSigned="true">
+... <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="
+https://..." index="0" />
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...."/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="
+https://...."/>
+<md:SingleSignOnService Binding="urn:etoegang:1.11:binding:native-app" Location="https://...." />
+</md:IDPSSODescriptor>
+... Example
+... <md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:KeyName>
+2fd4e1c6 7a2d28fc ed849ee1 bb76e739 1b93eb12
+</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>
+...

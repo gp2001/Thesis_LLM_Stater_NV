@@ -1,0 +1,22 @@
+Those roles that are
+in direct contact with their customers (e.g. a HM with it's DV's and an AD/MR with its users) are allowed to tighten security
+based on their risk analysis. All communication between peers in these specifications is based on HTTP. All communication MUST be secured using
+Transport Layer Security, TLS. As a result, all communication MUST be transported over HTTPS ( https://tools.ietf.org/html
+). /rfc2818Afsprakenstelsel Elektronische Toegangsdiensten | pagina 745For HTTPS and TLS, any implementation MUST take the recommendations in BCP195 ( ) https://tools.ietf.org/html/rfc7525
+and the latest version of the NCSC-security guidelines for TLS-usage (currently   https://www.ncsc.nl/binaries/ncsc
+/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-
+). The following requirements are applicable for this beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf
+specification in relation to the NCSC guidelines:
+For back-channel communication, the guidelines categorized as "good" MUST be applied. For front-channel communication, the guidelines for "good" MUST be applied and the guidelines for "sufficient"
+MAY be applied, depending on target audience and support requirements. Guidelines categorized as "insufficient" MUST NOT be applied and those categorized as "phase out" SHOULD NOT be
+used. As HTTP itself is stateless, implementations are free to choose a method of maintaining state or sessions with a User-agent
+when applicable. The following applies for any HTTP state/session mechanism:
+HTTP servers MUST ensure session and state information is secured and User-agents are properly instructed with
+relevant security settings (e.g. proper cookie lifetime, Secure setting for cookies, CORS headers and similar). Any HTTP session or state tracking mechanisms MUST be implemented using current best practices to avoid session
+hijacking and other attacks. For more information, see for instance https://github.com/OWASP/CheatSheetSeries
+. /blob/master/cheatsheets/Session_Management_Cheat_Sheet.md
+Multiple certificates
+SAML and XML-encryption allow for multiple ‘recipients’ of the same encrypted element. The (SAML) construct for this is
+specified in more detail in errata E43 of . SAML 2.0 errata 05
+This feature MAY be used to help facilitate a certificate change at the Service Provider, by (temporarily) allowing both the old
+and/or the new certificate to be used. The following additional requirements than apply. each EncryptedKey MUST have a CarriedKeyName equal to the KeyName used in the KeyInfo of the EncryptedData.

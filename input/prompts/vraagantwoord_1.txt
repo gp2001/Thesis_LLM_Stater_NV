@@ -1,0 +1,46 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek stelt eerst een vraag en vraagt daarna door. Ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die een vraag stelt over een onderwerp dat in de txt terugkomt en stel daarna nog meer vragen in hetzelfde gesprek. Genereer een chosen antwoord door in de tekst behaalde gegevens. Genereer een rejected gesprek dat lijkt op het chosen gesprek, waarbij de antwoorden niet alle informatie geven en dus een deel weglaat. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "Dove",
+    "chosen": [
+        {
+            "content": "In a race, if I pass the second position what position would I be in",
+            "role": "user"
+        },
+        {
+            "content": "If you pass the person in second position during a race, that means you have moved ahead of them and taken their place. So you would now be in second position.",
+            "role": "assistant"
+        },
+        {
+            "content": "When I asked this of my ten-year old, he said passing second place would put you in first place. Why do you think he may have made that mistake? What might he have been thinking?",
+            "role": "user"
+        },
+        {
+            "content": " It is likely that your ten-year-old made an understandable error or misinterpretation when answering your question about race positions. Here are a few possible reasons for his response:\n\n1. Simplification: In his mind, he may have simplified the situation by assuming that passing one of the two leading participants must lead to a more favorable position (being in first place). Incorrectly, he thought passing second place meant he had surpassed the leader and thus would be in first position. It is common for children at this age to understand concepts through simplification before grasping the nuances and complexities.\n\n2. Confusion over which position is mentioned: It's possible that he misunderstood your question and thought you asked about passing the leader or \"first place\" instead of the second position. If this were the case, his response about being in the first position would make sense, albeit wrong in the context of your original question.\n\n3. Focus on outcome and not process: Young children often focus on the final outcome or the bigger picture more so than intricate details or processes. Your ten-year-old may have quickly thought about where he would be upon completion of passing the second position\u2014first place\u2014and kept his attention there instead of considering the momentary situation during the race where he overtook the second-place runner.\n\n4. Inconsistent use of position terms: If your child has not had much experience with athletic events and terminology, he may have not yet fully conceptualized the notion of positions in a race or sport and how they are counted. With proper clarification and further explanation, he would likely be able to better understand the concept of race positions.\n\nOverall, it's important to remind your child that asking questions is an essential part of learning, and with further guidance and explanations, he will be able to develop a more accurate understanding of race positions.\n",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "In a race, if I pass the second position what position would I be in",
+            "role": "user"
+        },
+        {
+            "content": "If you pass the person in second position during a race, that means you have moved ahead of them and taken their place. So you would now be in second position.",
+            "role": "assistant"
+        },
+        {
+            "content": "When I asked this of my ten-year old, he said passing second place would put you in first place. Why do you think he may have made that mistake? What might he have been thinking?",
+            "role": "user"
+        },
+        {
+            "content": "Your ten-year-old might have made that mistake because he could be thinking that passing the second-place runner means you are ahead of everyone else in the race, thus placing you in the first position. It's a common misunderstanding, especially among children, who might interpret \"passing\" as \"being the best\" or \"winning.\" This confusion may arise from a lack of clear understanding of the concept of positions in a race, or from the excitement of overtaking someone in a competition, which may lead to the assumption that you are now in the lead.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "In a race, if I pass the second position what position would I be in",
+    "question": "In a race, if I pass the second position what position would I be in"
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij! 
+```json

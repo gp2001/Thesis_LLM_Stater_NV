@@ -1,0 +1,193 @@
+AuthnContextClassRef 1 Elektronische Toegangsdiensten: MUST be included. Contains either the value 'urn:
+oasis:names:tc:SAML:2.0:ac:classes:unspecified' (default) or the obtained effective
+, see below under "rules for processing responses". Level of assurance
+AttributeStatement 1 Elektronische Toegangsdiensten: MUST contain an <AttributeStatement> in accordance
+with the following section and the rules for processing responses. Example HM Assertion
+<saml:Assertion Version="2.0"
+ID="_535162e2-de06-11e4-98a2-080027a35b78"
+IssueInstant="2015-04-08T16:30:05Z">
+<saml:Issuer>urn:etoegang:HM:...</saml:Issuer>
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_535162e2-de06-11e4-98a2-080027a35b78">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>...</ds:DigestValue>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 552            </ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>...</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyName>...</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<saml:Subject>
+<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+<saml:SubjectConfirmationData Recipient="https://..." NotOnOrAfter="2015-04-08T16:40:03Z"
+InResponseTo="_6984066c-de03-11e4-a571-080027a35b78"/>
+</saml:SubjectConfirmation>
+</saml:Subject>
+<saml:Conditions NotBefore="2015-04-08T16:29:04Z" NotOnOrAfter="2015-04-08T17:00:04Z">
+<saml:AudienceRestriction>
+<saml:Audience>urn:etoegang:DV:...</saml:Audience>
+</saml:AudienceRestriction>
+</saml:Conditions>
+<saml:Advice>
+<saml:Assertion IssueInstant="2015-04-08T16:30:04Z" ID="_8a792d9e-de07-11e4-9db2-080027a35b78"
+Version="2.0">
+<saml:Issuer>urn:etoegang:AD:...</saml:Issuer>
+<!-- Verbatim copy of AD declaration of identity contents -->
+</saml:Assertion>
+</saml:Advice>
+<saml:AuthnStatement AuthnInstant="2015-04-08T16:30:04Z">
+<saml:AuthnContext>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa4</saml:AuthnContextClassRef>
+</saml:AuthnContext>
+</saml:AuthnStatement>
+<saml:AttributeStatement>
+... </saml:AttributeStatement>
+</saml:Assertion>
+Example HM Assertion for minimal DV request
+<saml:Assertion Version="2.0"
+ID="_535162e2-de06-11e4-98a2-080027a35b78"
+IssueInstant="2015-04-08T16:30:05Z">
+<saml:Issuer>urn:etoegang:HM:...</saml:Issuer>
+<ds:Signature>
+... </ds:Signature>
+<saml:Subject>
+<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+<saml:SubjectConfirmationData Recipient="https://..." NotOnOrAfter="2015-04-08T16:40:03Z"
+InResponseTo="_6984066c-de03-11e4-a571-080027a35b78"/>
+</saml:SubjectConfirmation>
+</saml:Subject>
+<saml:Conditions NotBefore="2015-04-08T16:29:04Z" NotOnOrAfter="2015-04-08T17:00:04Z">
+<saml:AudienceRestriction>
+<saml:Audience>urn:etoegang:DV:...</saml:Audience>
+</saml:AudienceRestriction>
+</saml:Conditions>
+<saml:Advice>
+<saml:Assertion IssueInstant="2015-04-08T16:30:04Z" ID="_8a792d9e-de07-11e4-9db2-080027a35b78"
+Version="2.0">
+<saml:Issuer>urn:etoegang:AD:...</saml:Issuer>
+<!-- Verbatim copy of AD declaration of identity contents -->
+</saml:Assertion>
+</saml:Advice>
+<saml:AuthnStatement AuthnInstant="2015-04-08T16:30:04Z">
+<saml:AuthnContext>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 553            <saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa4</saml:AuthnContextClassRef>
+</saml:AuthnContext>
+</saml:AuthnStatement>
+<saml:AttributeStatement>
+... </saml:AttributeStatement>
+</saml:Assertion>
+Example HM Assertion for Representation
+Vraag het op bij de BO / Ask BO
+Example HM Assertion for citizen domain
+<saml:Assertion Version="2.0"
+ID="_535162e2-de06-11e4-98a2-080027a35b78"
+IssueInstant="2015-04-08T16:30:05Z">
+<saml:Issuer>urn:etoegang:HM:...</saml:Issuer>
+<ds:Signature>
+... </ds:Signature>
+<saml:Subject>
+<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+<saml:SubjectConfirmationData Recipient="https://..." NotOnOrAfter="2015-04-08T16:40:03Z"
+InResponseTo="_6984066c-de03-11e4-a571-080027a35b78"/>
+</saml:SubjectConfirmation>
+</saml:Subject>
+<saml:Conditions NotBefore="2015-04-08T16:29:04Z" NotOnOrAfter="2015-04-08T17:00:04Z">
+<saml:AudienceRestriction>
+<saml:Audience>urn:etoegang:DV:...</saml:Audience>
+</saml:AudienceRestriction>
+</saml:Conditions>
+<saml:Advice>
+<saml:Assertion IssueInstant="2015-04-08T16:30:04Z" ID="_8a792d9e-de07-11e4-9db2-080027a35b78"
+Version="2.0">
+<saml:Issuer>urn:etoegang:AD:...</saml:Issuer>
+<!-- Verbatim copy of AD declaration of identity contents -->
+</saml:Assertion>
+<saml:Assertion IssueInstant="2015-04-08T16:30:04Z" ID="_8a792d9e-de07-11e4-9db2-080027a35b78"
+Version="2.0">
+<saml:Issuer>urn:etoegang:KR:...</saml:Issuer>
+<!-- Verbatim copy of KR declaration of sectoral identity contents -->
+</saml:Assertion>
+</saml:Advice>
+<saml:AuthnStatement AuthnInstant="2015-04-08T16:30:04Z">
+<saml:AuthnContext>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa4</saml:AuthnContextClassRef>
+</saml:AuthnContext>
+</saml:AuthnStatement>
+<saml:AttributeStatement>
+... </saml:AttributeStatement>
+</saml:Assertion>
+Example - HM Assertion - eIDAS-OUT withService Intermediation
+<saml2:Assertion ID="_67d2200a8bd8401dc1b7274106731ca6" IssueInstant="2019-02-26T10:35:43.000Z" Version="
+2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">urn:etoegang:HM:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 55400000003271247010000:entities:7611</saml2:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_67d2200a8bd8401dc1b7274106731ca6">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+<ec:InclusiveNamespaces PrefixList="xs" xmlns:ec="http://www.w3.org/2001/10/xml-
+exc-c14n#"/>
+</ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue/>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:KeyName>f04a58c387f4f8b5f1fa3a614f79f073f3f08953</ds:KeyName>
+</ds:KeyInfo>
+</ds:Signature>
+<saml:Subject xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+<saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient" xmlns:saml="urn:oasis:
+names:tc:SAML:2.0:assertion">ed3d5655-b6ee-47bf-87d5-fb77302e14b4</saml:NameID>
+<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer" xmlns:saml="urn:oasis:
+names:tc:SAML:2.0:assertion">
+<saml:SubjectConfirmationData InResponseTo="_d3fda417414c17b2667995961cf79fc5" NotOnOrAfter="
+2019-02-26T10:37:39Z" Recipient="https://brk.eid-tst.ad.nl/brk/HM1CServiceProvider" xmlns:saml="urn:
+oasis:names:tc:SAML:2.0:assertion"/>
+</saml:SubjectConfirmation>
+</saml:Subject>
+<saml2:Conditions NotBefore="2019-02-26T10:35:43Z" NotOnOrAfter="2019-02-26T10:37:43Z" xmlns:saml2="
+urn:oasis:names:tc:SAML:2.0:assertion">
+<saml2:AudienceRestriction>
+<saml2:Audience>urn:etoegang:DV:00000001111111110000:entities:9113</saml2:Audience>
+<saml2:Audience>urn:etoegang:DV:00000002222222220000:entities:9613</saml2:Audience>
+</saml2:AudienceRestriction>
+</saml2:Conditions>
+<saml:AuthnStatement AuthnInstant="2019-04-08T16:30:07Z">
+<saml:AuthnContext>
+<saml:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa4</saml:AuthnContextClassRef>
+</saml:AuthnContext>
+</saml:AuthnStatement>
+<saml2:Advice>
+<saml:Assertion IssueInstant="2019-04-08T16:30:04Z" ID="_8a792d9e-de07-11e4-9db2-080027a35b78"
+Version="2.0">
+<saml:Issuer> urn:etoegang:AD:00000004444444445001:entities:9042</saml:Issuer>
+<!-- Verbatim copy of AD declaration of identity contents -->
+</saml:Assertion>
+<saml:Assertion IssueInstant="2019-04-08T16:30:07Z" ID="dd4dae83-0f35-4695-b24a-29d470a63ea7"
+Version="2.0">
+<saml:Issuer> urn:etoegang:MR:00000005555555555001:entities:9042</saml:Issuer>
+<!-- Verbatim copy of MR declaration of identity contents -->
+</saml:Assertion>
+</saml2:Advice>
+<saml2:AuthnStatement AuthnInstant="2019-02-26T10:35:43Z" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:
+assertion">
+<saml2:AuthnContext>
+<saml2:AuthnContextClassRef>urn:etoegang:core:assurance-class:loa4</saml2:
+AuthnContextClassRef>
+<saml2:AuthenticatingAuthority>urn:etoegang:AD:00000004444444445001:entities:9042</saml2:
+AuthenticatingAuthority>
+</saml2:AuthnContext>
+</saml2:AuthnStatement>
+<saml2:AttributeStatement xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">Afsprakenstelsel Elektronische Toegangsdiensten | pagina 555        . . .

@@ -1,0 +1,58 @@
+Nederland dient uiterlijk in 2018 het mogelijk te maken dat met
+genotificeerde middelen uit andere eIDAS-lidstaten diensten afgenomen kunnen worden bij Nederlandse publieke
+instellingen en overheden. Hiertoe is het ETD-stelsel ook de Nederlandse oplossing om te voldoen aan de eIDAS-
+verordening. Dienstverleners die aansluiten op een makelaar van eHerkenning of Idensys zijn
+daarmee  "Europaproof"  en voldoen hiermee aan de verordening (EU) nr. 910/2014. Release 1.11 introduceert daarnaast een nieuw koppelvlak  voor het ondersteunen van native apps. In toenemende mate
+maken Dienstverleners (DV's) gebruik van applicaties op mobiele en andere platformen (gekenmerkt door hun
+besturingssysteem) om hun diensten voor gebruikers te ontsluiten. Dit nieuwe koppelvlak is gericht op het ondersteunen
+van zogenaamde native apps, ofwel platformafhankelijke applicaties, anders dan webapplicaties. Dit verwijst naar
+verschillende platformen, waaronder mobiele platformen als smartphones en tablets, maar ook andersoortige kanalen,
+zoals mainframes, client-server applicaties, PC's, laptops, smart devices (zoals een smartwatch), of set-top-boxen. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 66Marktwerking
+Marktwerking is een belangrijk uitgangspunt voor het Afsprakenstelsel Elektronische Toegangsdiensten. Met marktwerking
+streeft het Afsprakenstelsel Elektronische Toegangsdiensten de volgende doelstellingen na:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 67Keuzevrijheid
+Gebruikers hebben te allen tijde keuzevrijheid om zelf te bepalen welke Middelenuitgever door haar wordt gebruikt. Dienstverleners mogen het gebruik van een specifieke Middelenuitgever niet verplichten noch verbieden. Toegang tot een
+dienst mag alleen worden geweigerd indien authenticatie met het middel niet tegemoet komt aan de eisen van de
+Dienstverlener met betrekking tot vanuit het stelsel ondersteunde functionaliteit (bijvoorbeeld een te laag
+betrouwbaarheidsniveau, of door het ontbreken van een geassocieerd verplicht attribuut of machtiging).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 68Diversiteit
+Het stelsel maakt diversiteit mogelijk en zal actief toezien op beschikbaarheid van middelen voor met name individuen
+buiten de primaire doelgroep ((lichamelijke) beperkingen, ouderen, digibeten, kinderen, etc.).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 69Continuïteit
+Het stelsel is niet afhankelijk van één Deelnemer. Als er één of meerdere Deelnemers zouden uitvallen, dan komt de
+continuïteit van de Nederlandse identiteitsinfrastructuur niet in gevaar. Andere partijen kunnen deze dienstverlening
+eenvoudig overnemen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 70Innovatie
+Het stelsel blijft ruimte bieden voor innovatie. Het stelsel blijft dankzij marktwerking aantrekkelijk voor nieuwe,
+innoverende proposities op het gebied van online identificatie. Hiermee wordt voorkomen dat de ontwikkeling stil blijft
+staan. Deelnemers kunnen binnen de eigen dienstverlening innoveren, maar worden ook de mogelijkheid geboden om
+innovaties en functionele eisen in het stelsel te brengen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 71Betaalbaarheid
+Dankzij concurrentie tussen partijen wordt de markt gedwongen om continu naar optimalisatie van hun processen te
+zoeken. Hiermee wordt voorkomen dat er een onnodig hoge prijs wordt betaald voor online identificatie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 72Veiligheid
+Het toezicht op het stelsel kan daadkrachtig worden ingezet omdat het zwaarste dwangmiddel - uitsluiting van het stelsel -
+kan worden toegepast. Dit in tegenstelling tot een éénpartijstelsel, waarbij uitsluiting geen optie is.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 73Begrippenlijst
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Binnen Elektronische Toegangsdiensten wordt één begrippenlijst gehanteerd. In deze lijst zijn enkelvoudsvormen van
+zelfstandige naamwoorden en werkwoorden opgenomen. Waar in dit document de werkwoordsvorm van deze zelfstandige
+naamwoorden wordt gehanteerd, heeft deze dezelfde betekenis als de gedefinieerde zelfstandige naamwoorden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 74
+Afgeschermde kopie WID
+Kopie  waarbij de bijzondere persoonsgegevens, te weten pasfoto,  en Wettelijk identificatie document (WID) BSN
+nationaliteit, zijn afgeschermd. Herkomst
+Eigen definitie conform Richtsnoeren APAfsprakenstelsel Elektronische Toegangsdiensten | pagina 75
+Afsprakenstelsel (AS)
+Het geheel aan afspraken op gebied van organisatie, besturing, toezicht, beheer, architectuur, toepassingen, techniek. procedures en regels aangaande het  in een bepaalde vastgestelde versie. Het Netwerk (voor Elektronische Toegangsdiensten)
+doel is betrouwbare  en verstrekking van identiteitsinformatie op basis van de eHerkenningsdiensten van een authenticatie
+goed gereguleerd netwerk voor eHerkenning. Herkomst
+Eigen definitie naar analogie van definitie van  PKIAfsprakenstelsel Elektronische Toegangsdiensten | pagina 76Akte
+Een getekend geschrift dat een bewijsbestemming heeft. Een akte heeft als bijzondere eigenschap dat deze in een juridische
+procedure dwingende bewijskracht heeft. Een elektronische vorm hiervan kan een document zijn, getekend met een
+elektronische handtekening volgens de wet op de elektronische handtekeningen. (Naar wetboek van burgerlijke rechtsvordering art. 156 lid 1.)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 77
+Associatieverklaring
+Een elektronisch vastgelegd bericht dat verklaringen verbindt met een Transactiebericht en deze samenstelling niet meer
+wijzigbaar maakt. Herkomst
+Eigen definitie specifiek voor de context van het afsprakenstelsel. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 78
+Attribuutcatalogus (AC)
+Een elektronisch bevraagbare catalogus die de gestructureerde verzameling van alle via het netwerk verkrijgbare optionele
+attributen bevat inclusief de aanduiding waarmee zij opgevraagd kunnen worden. Zie ook  . Attribuutcatalogus
+Herkomst
+Eigen definitie analoog aan dienstencatalogusAfsprakenstelsel Elektronische Toegangsdiensten | pagina 79
+1. 2. 3.

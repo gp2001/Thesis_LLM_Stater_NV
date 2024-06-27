@@ -1,0 +1,425 @@
+Als PermissibleSource in de
+attributencatalogus wordt 'urn:
+etoegang:1.11:attribute-sourceid:
+eIDAS' opgenomen. Bij levering van het attribuut wordt
+het land van oorsprong wordt als
+postfix toegevoegd (ISO-3166-1 alpha-
+2, tweeletterig; aangevuld met
+'eIDAS'), bijvoorbeeld 'urn:etoegang:
+1.11:attribute-sourceid:eIDAS: ' DE
+voor attributen verkregen via eIDAS
+vanuit DuitslandGeen. Het attribuut  is niet gecontroleerd door de deelnemer,
+maar verkregen van een andere EU-lidstaat. urn:
+etoegang:
+1.9:
+attribute-Zelfverklaard, zonder controle door de
+deelnemerGeen. Het attribuut is niet gecontroleerd door de deelnemer,
+maar door de Gebruiker zelf opgegeven.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 765sourceid:
+SelfDeclared
+EntityID Het  van de deelnemer die de EntityID
+controle heeft uitgevoerdDe deelnemer heeft een proces ingericht waarmee het attribuut
+onlosmakelijk geassocieerd is met de gebruiker. Bijvoorbeeld
+door de Gebruiker tijdens het proces  AUC2 Verkrijgen
+een e-mail- of postadres op te laten geven authenticatiemiddel
+en daar een OTP naar toe te sturen. Als de Gebruiker zich met zijn
+middel kan authenticeren en deze OTP kan opgeven, is dat
+voldoende bewijs dat hij toegang heeft tot het opgeg even adres. urn:
+etoegang:
+1.13:
+attribute-
+sourceid:
+NLPROBASVerkregen uit PROBAS Conform eisen geldend voor de betrouwbaarheid van vaststellen
+identiteit DienstafnemerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 766Attribuutcatalogus generiek
+URN Omschrijving Formaat Toegestane
+bronVerplicht
+of
+optioneel? urn:etoegang:1.9:attribute:
+PostalCodePostcode van de gebruiker. eIDAS: PostCode.String
+max 12SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.9:attribute:
+HouseNumberHuisnummer van de gebruiker. Integer SelfDeclared Optioneel
+urn:etoegang:1.9:attribute:
+HouseNumberSuffixHuisnummer toevoeging van de gebruiker. String
+max 5SelfDeclared Optioneel
+urn:etoegang:1.11:
+attribute:POBoxPostbusnummer van de gebruiker. eIDAS: POBOX.String,
+max 20SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:ThoroughfareStraat van de gebruiker. eIDAS: ThoroughfareString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:
+LocatorDesignatorHuisnummer, of andere unieke identificatie van
+een adres op een "straat" ( ) van de thoroughfare
+gebruiker. eIDAS: LocatorDesignatorString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:LocatorNameNaam van een gebouw of deel ervan als specialisatie
+van het adres van de gebruiker. eIDAS: LocatorNameString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:AddressAreaWijk of deel van een gemeente van de gebruiker. eIDAS: CvaddressAreaString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:PostNamePlaatsnaam in het adres van de gebruiker. eIDAS: PostNameString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:
+AdminunitSecondlineProvincie of staat binnen het adres van de
+gebruiker. eIDAS: AdminunitSecondlineString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute:
+AdminunitFirstlineTweeletterige landcode  van het adres conform
+ISO3166-1 (alpha-2), of de volledige naam van het
+land van de gebruiker. eIDAS: AdminunitFirstlineString
+max
+100SelfDeclared,
+eIDASOptioneel
+Postcode van de vertegenwoordigde. String
+max 12SelfDeclared, OptioneelAfsprakenstelsel Elektronische Toegangsdiensten | pagina 767urn:etoegang:1.11:
+attribute-represented:
+PostalCodeeIDAS: PostCode eIDAS
+urn:etoegang:1.11:
+attribute-represented:
+HouseNumberHuisnummer van de vertegenwoordigde. Integer SelfDeclared Optioneel
+urn:etoegang:1.11:
+attribute-represented:
+HouseNumberSuffixHuisnummer toevoeging van de
+vertegenwoordigde.String
+max 5SelfDeclared Optioneel
+urn:etoegang:1.11:
+attribute-represented:
+POBoxPostbusnummer van de vertegenwoordigde. eIDAS: POBOXString,
+max 20SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+ThoroughfareStraat van de vertegenwoordigde. eIDAS: ThoroughfareString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+LocatorDesignatorHuisnummer, of andere unieke identificatie van
+een adres op een "straat" ( ) van de thoroughfare
+vertegenwoordigde. eIDAS: LocatorDesignatorString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+LocatorNameNaam van een gebouw of deel ervan als specialisatie
+van het adres van de vertegenwoordigde. eIDAS: LocatorNameString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+AddressAreaWijk of deel van een gemeente van de
+vertegenwoordigde. eIDAS: CvaddressAreaString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+PostNamePlaatsnaam in het adres van de vertegenwoordigde. eIDAS: PostNameString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+AdminunitSecondlineProvincie of staat binnen het adres van de
+vertegenwoordigde. eIDAS: AdminunitSecondlineString
+max
+200SelfDeclared,
+eIDASOptioneel
+urn:etoegang:1.11:
+attribute-represented:
+AdminunitFirstlineDrieletterige landcode van het adres conform
+ISO3166-1 (alpha-3), of de volledige naam van het
+land van de vertegenwoordigde. eIDAS: AdminunitFirstlineString
+max
+100SelfDeclared,
+eIDASOptioneelAfsprakenstelsel Elektronische Toegangsdiensten | pagina 768Afsprakenstelsel Elektronische Toegangsdiensten | pagina 769
+Attribuutcatalogus natuurlijke personen
+Voor eIDAS-outbound, levert de BRP de minimale vereisten attributenset van de handelende natuurlijke persoon. Deze
+worden niet geleverd door AD van het Afsprakenstelsel. URN Omschrijving Formaat Bron Verplicht of
+optioneel? urn:etoegang:1.9:
+attribute:FirstNameBeschikbare voorna(a)m(en) van
+de gebruiker (beschikbaarheid is
+afhankelijk van de bron)String max 200 ID, IDCopy,
+eIDASVerplicht
+urn:etoegang:1.9:
+attribute:InitialsInitialen van de voorna(a)m(en)
+van de gebruikerString max 35 ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:
+FamilyNameInfixVoorvoegsel behorend bij
+Achternaam, conform
+Voorvoegseltabel GBA (Tabel 36). Zie  Logisch Ontwerp GBA-V
+(element 02.30, blz. 236) voor
+uitleg over de toepassing van de
+tabel op een achternaam.String max 10 ID, IDCopy,
+eIDASVerplicht
+(indien van
+toepassing
+bij
+bijbehorende
+achternaam)
+urn:etoegang:1.9:
+attribute:
+FamilyNameAchternaam (geslachtsnaam) van
+de gebruikerString max 200 ID, IDCopy,
+eIDASVerplicht
+urn:etoegang:1.11:
+attribute:
+BirthNameNaam van de gebruiker bij
+geboorteString max 200  eIDAS -
+urn:etoegang:1.11:
+attribute:non-
+transliterated:
+FirstNameVoornaam van de gebruiker in
+ander alfabetString max 200  eIDAS -
+urn:etoegang:1.11:
+attribute:non-
+transliterated:
+FamilyNameAchternaam van de gebruiker in
+ander alfabetString max 200  eIDAS -
+urn:etoegang:1.11:
+attribute:non-
+transliterated:
+FirstNameAtBirthVoornaam van de gebruiker bij
+geboorte in ander alfabetString max 200  eIDAS -
+urn:etoegang:1.11:
+attribute:non-
+transliterated:
+FamilyNameAtBirthAchternaam van de gebruiker bij
+geboorte in ander alfabetString max 200 eIDAS -
+urn:etoegang:1.9:
+attribute:
+DateOfBirthGeboortedatum van de gebruiker
+Volgens de BRP zijn de volgende
+afwijkende datumformaten String 10
+jjjj-mm-ddID, IDCopy,
+eIDASVerplichtAfsprakenstelsel Elektronische Toegangsdiensten | pagina 770toegestaan: jjjj-mm-dd, jjjj-mm-
+00, jjjj-00-00, 0000-00-00
+urn:etoegang:1.9:
+attribute:
+18OrOlderIs gebruiker ouder dan 18 true/false ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:
+16OrOlderIs gebruiker ouder dan 16 true/false  ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:
+12OrOlderIs gebruiker ouder dan 12 true/false ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:
+65OrOlderIs gebruiker ouder dan 65 true/false ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:
+PlaceOfBirthGeboorteplaats van de gebruiker String max 40 ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:GenderGeslacht van de gebruiker "M", "F", "U" ID, IDCopy,
+eIDASOptioneel
+urn:etoegang:1.9:
+attribute:EmailE-mailadres van de gebruiker URI, max 320; mailto:
+<localname>@<domainname>
+( ) RFC6068SelfDeclared Optioneel
+urn:etoegang:1.9:
+attribute:MobileMobiele nummer van de gebruiker URI, max 19; tel:
++<CountryCode>
+<phonenumber> ( ) RFC3966SelfDeclared OptioneelAfsprakenstelsel Elektronische Toegangsdiensten | pagina 771Attributencatalogus niet-natuurlijke personen
+URN Omschrijving Formaat Bron Verplicht
+of
+optioneel? urn:etoegang:1.11:
+: attribute-represented
+CompanyNameHuidige naam  van de organisatie,
+waaronder deze geregistreerd staat (NL: in
+het handelsregister).String max 200 KvK, eIDAS
+PROBASVerplicht
+urn:etoegang:1 .13:
+attribute-intermediate:
+CompanyNameHuidige naam  van de organisatie van de
+intermediair, waaronder deze
+geregistreerd staat (NL: in het
+handelsregister).String max 200 KvK Optioneel
+urn:etoegang:1.11:
+attribute-represented:
+non-transliterated:
+CompanyName van de organisatie in ander Huidige naam
+alfabet (bijvoorbeeld Grieks), waaronder
+deze geregistreerd staat.String max 200 eIDAS -
+(wordt
+gevuld
+door AD
+in andere
+lidstaat)
+urn:etoegang:1.11:
+attribute-represented:
+VATRegistrationNumberBTW-nummer. NL: Dit attribuut is een afgeleide van het
+RSIN en wordt daartoe aan de hand van
+het RSIN gevalideerd.String max 200 KvK, eIDAS Optioneel
+urn:etoegang: 1.11:
+attribute-represented:
+TaxReferenceNumberFiscaal referentienummer. NL: Dit attribuut is een afgeleide van het
+RSIN en wordt daartoe aan de hand van
+het RSIN gevalideerd.String max 200 KvK, eIDAS Optioneel
+urn:etoegang: 1.11:
+attribute-represented:
+ChamberOfCommerceDe identificatiecode bedoeld in artikel 3,
+lid 1, van Richtlijn 2009/101/EG van het
+Europees Parlement en de Europese Raad. NB: Voor Nederlandse organisaties wordt
+gebruikt ipv EntityConcernedID:KvKnr
+ChamberOfCommerce.String max 200 eIDAS Optioneel
+urn:etoegang: 1.11:
+attribute-represented:
+KvKnrHet KvK nummer van de
+vertegenwoordigde dienstafnemer.String max 200 KvK Verplicht
+urn:etoegang: 1.11:
+LEI attribute-represented:De identificatiecode voor juridische
+entiteiten bedoeld in
+Uitvoeringsverordening (EU) nr. 1247
+/2012 van de Europese Commissie. NL: Gevuld met LEI (Legal Entity
+Identifier) zoals verkregen van KvK.String max 200 KvK, eIDAS OptioneelAfsprakenstelsel Elektronische Toegangsdiensten | pagina 772urn:etoegang: 1.11:
+attribute-represented:
+EORIHet registratie- en identificatienummer
+van marktdeelnemer bedoeld in
+Uitvoeringsverordening (EU) nr. 1352
+/2013 van de  Commissie. Europese
+: Gevuld met het Economic Operator NL
+Registration and Identification nummer
+zoals uitgegeven door Douane, obv RSIN
+zoals verkregen van KvK.String max 200 KvK, eIDAS Optioneel
+urn:etoegang: 1.11:
+attribute-represented:
+SEEDHet accijnsnummer bedoeld in artikel 2,
+punt 12, van Verordening (EU) nr. 389
+/2012 van de Europese Raad. Gevuld met System for Exchange of Excise
+Data | accijnsnummer, zoals uitgegeven
+door Douane.String max 200 SelfDeclared,
+eIDASOptioneel
+urn:etoegang: 1 .11:
+SIC attribute-represented:De : Een Standard Industrial Classification
+viercijferige code om de bedrijfsvoering
+van de rechtspersoon te classificeren.String max 200;
+optioneel
+meervoudigKvK, eIDAS Optioneel
+urn:etoegang:1.13:
+attribute-represented:
+SubsidyDit attribuut geeft aan of een bedrijf recht
+heeft op subsidie en op welke grond. (Attribuut is case-insensitive)String, mogelijke
+waardes:
+BELASTINGDIENSTEntityID van
+de MROptioneelAfsprakenstelsel Elektronische Toegangsdiensten | pagina 773
+Handreiking Polymorphic Pseudonimization Notation
+The specifications on this page are a copy of the one provided in the "Uniforme Set van Eisen" (USvE) version 1.0. Please note
+that the Afsprakenstelsel Elektronische Toegangsdiensten adheres to these USvE specifications, and a copy is included here
+for information only. The copy may have been modified to reflect Afsprakenstelsel Elektronische Toegangsdiensten
+terminology and references. Polymorphic Pseudonymization  uses a number of cryptographic structures. These crypto-structures are denoted in the
+Interface Specifications : as follows
+Pseudonym
+(Dutch)Notation Pseudonym (English) Notation Explanation
+Polymorf
+PseudoniemPP@MU  Polymorphic Pseudonym PP@MU PP denotes the pseudonym is a
+Polymorphic Pseudonym. The abbrevation
+following the   symbol denotes the '@'
+relying party the Polymorphic Pseudonym
+is unique to. Polymorfe
+IdentiteitPI@MU Polymorphic Identity  PI@MU PI denotes the pseudonym is a
+Polymorphic Identity. The abbrevation
+following the   symbol denotes '@'
+the relying party the Polymorphic
+Pseudonym is unique to. Versleuteld
+PseudoniemVP@DV  Encrypted Pseudonym  EP@DV VP in Dutch or EP in English denotes the
+pseudonym is an Encrypted Pseudonym. The abbrevation following the   symbol '@'
+denotes  relying party the Encrypted the
+Pseudonym is unique to. Versleutelde
+IdentiteitVI@DV  Encrypted Identity  EI@DV VI in Dutch or EI in English denotes the
+pseudonym is an Encrypted Identity. The
+abbrevation following the   symbol '@'
+denotes  relying party the Encryped the
+Pseudonym is unique to. persistent
+PseudoniemP@DV  persistent Pseudonym  P@DV P denotes the pseudonym is a persistent
+Pseudonym. The abbrevation following
+the   symbol denotes  relying party '@' the
+the persistent Pseudonym is unique to. Identiteit -  Identity  - The Identity in polymorphic
+pseudonymization refers to the identity
+obtained after decryption of an Encrypted
+Pseudonym by a receiving party. This
+Identity equals the root identifying
+attribute used to generate the PIP that
+Polymorph Pseudonyms are based on, for
+example the BSN. Instead of referring to
+the decrypted Encrypted Pseudonym as Afsprakenstelsel Elektronische Toegangsdiensten | pagina 774Identity, the root identifying attribute is
+used instead. Sleutelmateriaal DV-keys The Dienstverlener (DV) specific
+keymaterial necessary to decrypt Encrypted
+Pseudonyms. PolymorphicSchemePublicKeySet Polymorphic Pseudonymization scheme
+general public keys. This paragraph describes the technical format of polymorphic identities and pseudonyms and related key
+formats. Polymorphic identities and pseudonyms in the scheme are based on cryptographic properties of elliptic curves. Usages of Polymorphic Pseudonymization
+Activation
+Polymorphic Identity or Pseudonym
+Encrypted Identity or Pseudonym
+Usage (transformation and decryption)
+Encrypted Identity or Pseudonym
+Identity or Pseudonym
+Format for Polymorphic Identity or Pseudonym
+A Polymorphic Identity or Pseudonym is a combination of points on an elliptic curve. In order for the Identity or Pseudonym
+to be properly usable in the scheme, some additional information is needed. This information is necessary for practical
+management and secure implementation of Identity or Pseudonym in the Scheme and consists of elements like versioning
+(for key management) and recipient. The syntax for expressing an Identity or Pseudonym with this information is listed
+below. Values of the notations below SHALL be represented as (the base64 encoding of) the DER-encoded structure in ASN.1
+notation. Polymorphic Identity or Pseudonym
+A Polymorphic Identity or Pseudonym consists of 3 points on an elliptic curve. Polymorphic Identity or Pseudonym are
+provided via the . They are used via the interface . The notation Interface spec BSNk: activate Interface spec BSNk: transform
+for a complete Polymorphic Identity or Pseudonym is as follows:
+Polymorphic Identity or Pseudonym ASN.1 notation
+PolymorphicIdentity ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-identity),
+schemeVersion INTEGER,
+schemeKeyVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+PolymorphicPseudonym ::= SEQUENCE {
+notationIdentifier OBJECT IDENTIFIER (id-BSNk-polymorphic-pseudonym),Afsprakenstelsel Elektronische Toegangsdiensten | pagina 775    schemeVersion INTEGER,
+schemeKeyVersion INTEGER,
+creator IA5String,
+recipient IA5String,
+recipientKeySetVersion INTEGER,
+type INTEGER,
+points SEQUENCE (SIZE (3)) OF ECPoint
+}
+Herein the schemeVersion indicates the version of the cryptographic scheme and this syntax and SHALL start at 1. The
+schemeKeyVersion is a version that SHALL start at 1 and represents the effective set of long term scheme master keys (PP-M,
+PD-M, etc...). The schemeKeyVersion defines the elliptic curve used in the scheme as well. The creator SHALL contain the
+entityID (OIN) of the creator, and the recipient SHALL contain the entityID (OIN) of the recipient. The recipientKeySetVersion
+holds the version number for the set of recipient's keys for Polymorphic Identities and  (PA-Di). Note: In Pseudonyms
+schemeVersion 1 the recipientKeySetVersion for MUs and ADs is a sequence starting at 1. Type defines the identity type the
+Pseudonym is derived of, e.g. from a  or an eIDAS Uniqueness Identifier. This field is not necessary in identity based BSN
+forms as here the identity type will become clear as part of decryption of the final structure, i.e. the Encrypted Identity. The
+values currently defined are the ASCII value of 'B' (0x42) for  based and 'E' (0x45) when based on a eIDAS uniqueness BSN
+identifier. ECPoint is identical to ECPoint as defined in BSI TR 03111 and ANSI X9.62 (2005). Here two encodings are
+specified, compressed and compressed. Both encodings are allowed, with a preference for uncompressed encoding.

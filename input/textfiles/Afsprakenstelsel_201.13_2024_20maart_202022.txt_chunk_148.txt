@@ -1,0 +1,32 @@
+Het is uiteindelijk altijd aan de Deelnemer om te bepalen of hij van deze set van persoonsgegevens of
+doelomschrijving wenst af te wijken. Als een Deelnemer meer persoonsgegevens wil verwerken zal hij hiervoor wel
+de noodzaak moeten kunnen onderbouwen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 871Authenticatiedienst als verwerker van het BSN
+In het geval de Authenticatiedienst zijn diensten ook in het BSN domein aanbiedt  - dat wil zeggen dat private
+authenticatiemiddelen worden ingezet voor het afnemen van elektronische diensten bij (overheids)organisaties die
+gerechtigd zijn het BSN te verwerken - wordt een verwerkersovereenkomst voor de verwerking van het BSN afgesloten. De
+Authenticatiedienst is in dit geval voor de verwerking van het BSN nummer een 'verwerker' in de zin van de AVG. De
+verwerkersovereenkomst wordt afgesloten tussen de minister van BZK als verantwoordelijke voor het BSNk en de
+Authenticatiedienst. In deze verwerkersovereenkomst is onder meer opgenomen met welke doel het BSN door de Authenticatiedienst mag
+worden verwerkt en welke passende technische en organisatorische beveiligingsmaatregelen de authenticatiedienst ten
+aanzien van deze verwerking moet nemen. De wettelijke basis voor de verwerking van het BSN door de minister van BZK in dit kader wordt voorzien in het "Besluit
+verwerking persoonsgegevens GDI"  ter uitvoering bij  van de Wet elektronisch berichtenverkeer Belastingdienst. 1artikel X
+De rechtmatigheidsgrondslag voor de verwerking van het BSN door de Authenticatiedienst als vewerker is de uitvoering van
+de verwerkersovereenkomst  die hiervoor wordt afgesloten met de minister van BZK. De rechtmatigheidsgrondslag voor de doorverstrekking van de persoonsgegevens door Authenticatiedienst aan het BSNk, in
+het geval de betrokkene bij registratie aangeeft het authenticatiemiddel ook in het publiek domein te willen gebruiken - te
+weten: voorletters, geslachtsnaam, geboortedatum en geboorteplaats, het pseudoID - geschiedt op basis van toestemming. Deze toestemming wordt al bij de registratie door de Authenticatiedienst aan de betrokkene gevraagd en vastgelegd .1Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8721. Voetnoot
+Het betreft het "Besluit houdende regels betreffende de verwerking van persoonsgegevens in de voorzieningen voor
+de generieke digitale infrastructuur DigiD, DigiD Machtigen, MijnOverheid en BSN-Koppelregister (Besluit
+verwerking persoonsgegevens GDI) ".Afsprakenstelsel Elektronische Toegangsdiensten | pagina 873
+Doelomschrijving Authenticatiedienst als verantwoordelijke
+De persoonsgegevens worden verwerkt met als doel de authenticatie van betrokkene voor het afnemen van een
+elektronische toegangsdienst zoals vastgelegd in de dienstencatalogus van het Afsprakenstelsel elektronische
+toegangsdiensten op basis van het door betrokkene gebruikte authenticatiemiddel. Gegevensset:
+voor identificatie benodigde gegevens, zoals NAW, geboortedatum, geboorteplaats, telefoonnummer(s), e-
+mailadres, bankrekeningnummer
+voor authenicatie benodigde gegevens, zoals NAW, geboortedatum, geboorteplaats, telefoonnummer(s), e-
+mailadres, bankrekeningnummer
+voor uitvoering van de overeenkomst benodigde gegevens, zoals registratiegegevens, registratietijdstip,
+pseudoniemen, transactiegegevens, loggingberichten
+De rechtmatigheidsgrondslag is de toestemming van de betrokkene zoals bepaald door de . AVG
+Bewaartermijnen:
+Alle benodigde gegevens t.b.v.

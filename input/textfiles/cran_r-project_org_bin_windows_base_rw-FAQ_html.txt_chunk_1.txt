@@ -1,0 +1,33 @@
+Version for R for Windows FAQ Table of Contents 1 Introduction This FAQ is for the Windows port of R: it describes features specific to
+that version. The main R FAQ can be found at The information here applies only to recent versions of R for Windows. It is biased towards users of 64-bit Windows and since R 4.2.0, only 64-bit
+builds of R are provided. 2 Installation and Usage 2.1 Where can I find the latest version? Go to any CRAN site (see for a list), navigate to the directory and
+collect the file(s) you need. The current release is distributed as an
+installer ‘ ’ of about 80MB. There are also links on that page to the ‘ ’ and
+‘ ’ snapshots. These are frequently updated builds of
+development versions of R. The ‘ ’ build includes bug
+fixes to the current release, and ‘ ’ contains these as well
+as changes that are planned to eventually make it into the next
+‘ ’ release. ‘ ’ is less stable and likely to contain
+bugs, be careful if you use it. 2.2 How do I install R for Windows? Current binary versions of R are known to run on Windows 7 or later. R 4.1
+is the last version that supported 32-bit versions: See . Windows Vista is no longer supported. R 4.2.0 and later require the Universal C Runtime (UCRT), which is included in
+Windows 10 and Windows Server 2016 or newer. On earlier versions of Windows,
+UCRT has to be installed before installing R. UCRT is available for Windows since
+Windows Vista SP2 and Windows Server 2008 SP2. We primarily test on versions of Windows currently supported by Microsoft,
+recently mainly Windows 10, Windows Server 2022 and sometimes on Windows 11. The most thorough testing is done via CRAN packages checks: for R 4.3 this
+has been on Windows Server 2022. R 4.3.0 has been tested to install, start
+and pass its own checks also on Windows 7 and Windows 8.1, but it has not
+been tested with contributed packages. For UTF-8 to be the native encoding, you need R at least 4.2 and at least
+Windows 10 (version 1903) on desktop systems, Windows Server 2022 on
+long-term support server systems or Windows Server 1903 from the semi-annual
+channel. Your file system must allow case-honouring long file names (as is likely
+except perhaps for some network-mounted systems). An installation takes
+up to 175MB of disk space. We tried to make R to work with space in file names, but building of some
+packages from source may not work as this is little tested. By default,
+most versions of Windows have short names (aka 8dot3names) enabled by
+default on the system drive, and hence folder has a
+short-name variant ‘ ’, which is then used by R. When R is
+installed on a different drive, we recommend that you ensure that the short
+name is available or choose an installation directory name without space,
+such as . You can check whether the short name is available from
+R by or by from the
+‘ ’. If it is not, you may create it using , e.g. and .

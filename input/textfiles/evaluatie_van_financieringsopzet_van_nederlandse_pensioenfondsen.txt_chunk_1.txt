@@ -1,0 +1,479 @@
+TPEdigitaal 2008 jaargang 2(2) 43-60 Evaluatie van de financieringsopzet van
+Nederlandse pensioenfondsen
+Eduard Ponds
+Veel Nederlandse pensioenfondsen hebben een middell oonregeling
+met risicobeheer op basis van zogenaamde beleidssta ffels. In een be-
+leidsstaffel zijn de premie en de indexatie direct gerelateerd aan de fi-
+nanciële positie van een pensioenfonds. Ten opzicht e van de oude
+praktijk hebben pensioenfondsen dankzij de staffels  hun solvabili-
+teitsbeheer substantieel verbeterd. Bovendien is sp rake van een wel-
+vaartsverbetering voor de deelnemers door de vergro ting van interge-
+nerationele risicodeling. Er liggen echter nog grot e vraagstukken voor
+die de lange termijn houdbaarheid kunnen ondermijne n: ongewenste
+intragenerationele herverdelingseffecten, slecht ge definieerde eigen-
+domsverhoudingen en een uniform financieel beleid v oor een hetero-
+geen deelnemersbestand. De bijdrage bespreekt mogel ijke oplos-
+singsrichtingen voor deze vraagstukken. 1 Inleiding
+Nederlandse pensioenfondsen verzorgen voor meer dan 90% van de wer k-
+nemers een aanvullende pensioenregeling. Het belegd vermogen is  ruim
+700 miljard euro. Het is te voorzien dat bijna de helft van het toekom stig
+oudedagsinkomen van gepensioneerden afkomstig zal zijn van pensioen-
+fondsen. De andere helft zal bestaan uit het AOW-pensioen en eigen be-
+sparingen. Pensioenfondsen zijn dus belangrijk voor Nederland. Veel Ne-
+derlandse pensioenfondsen zijn opgestart in de jaren vijftig. T ot recent
+waren veel van de door de fondsen verzorgde regelingen vormgegeve n als
+een eindloonregeling met – de facto – onvoorwaardelijke indexatie van
+pensioenen aan de loongroei of de prijsinflatie. De premie diende in be gin-
+sel voldoende te zijn om nieuwe opbouw van pensioenaanspraken te finan-
+cieren. De premie werd door veel fondsen ook ingezet als instrume nt van
+solvabiliteitsbeheer. Een situatie met hoge overdekking gaf grond om een 44      Eduard Ponds
+TPEdigitaal 2(2) lage premie te vragen, bij een slechte financiële positie we rd de premie
+verhoogd. Pensioenen werden een belangrijk onderwerp in de Nederlandse be -
+leidsdiscussie met de pensioencrisis in de eerste jaren na 2000 (vergelijk
+sectie 2). Als reactie op deze crisis pasten Nederlandse pe nsioenfondsen
+hun financieringsopzet aan. Veel fondsen gingen over naar middelloonre -
+gelingen met voorwaardelijke indexatie. Naast de premie werd daarmee
+ook de indexatie een instrument in het solvabiliteitsbeheer. Veelal is dit
+geregeld via een zogenaamde beleidsstaffel. De hoogte van premie  en in-
+dexatie wordt met een beleidsstaffel direct gerelateerd a an de financiële
+positie van een pensioenfonds. Hierbij is geregeld dat een l age dekkings-
+graad tot premieverhogingen en indexatiekortingen leidt. Bij ee n hoge
+dekkingsgraad kan volstaan worden met een kostendekkend premienivea u
+en volledige indexatie worden gegeven, eventueel aangevuld met inha al-
+indexatie ter compensatie van indexatiekortingen. In deze bijdrage evalueer ik de invoering van beleidsstaffels. In zijn al-
+gemeenheid kan dit als positief worden beoordeeld (vergelijk sec tie 3). De
+beleidsstaffels hebben geleid tot een substantiële verbetering  van het sol-
+vabiliteitsbeheer bij pensioenfondsen. Ook is sprake van een welv aartsver-
+betering voor de deelnemers. De aanpassingen hebben geleid tot een ver-
+groting van intergenerationele risicodeling en dit levert voorde el op voor
+de deelnemers – in elk geval vanuit een theoretisch perspectie f. Verder is
+de invoering van de staffels als generationeel evenwichtig te  zien. Een wij-
+ziging in de pensioenregeling of in de financieringsopzet kan gem akkelijk
+leiden tot intergenerationele overdrachten. De combinatie van de invoering
+van flexibele indexatie met een verhoging van de premie naar een kosten-
+dekkend niveau heeft er evenwel voor gezorgd dat overdrachten tusse n de
+generaties beperkt zijn gebleven. Naast grote waardering l igt er nog een
+aantal lastige vraagstukken voor in de financieringsopzet va n Nederlandse
+pensioenfondsen, die de houdbaarheid op langere termijn kunnen onder-
+mijnen. In sectie 4 ga ik in op de mijn inziens belangrijkste vraagstukken
+en geef daarbij ook de mogelijke oplossingsrichtingen aan. 2 De overstap naar een hybride DB-DC systeem
+Pensioenen werden een belangrijk onderwerp in de Nederlandse belei ds-
+discussie met de pensioencrisis in de eerste jaren na 2000. Die crisis was
+het gevolg van twee ontwikkelingen. Dit betreft allereerst de introductie
+van fair value principes in de verantwoording door de pensioenfondse n
+van hun financiële positie. De overstap naar fair value accounti ng maakte Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      45
+TPEdigitaal 2(2)
+de grote omvang van de financiële risico’s in de financiering va n pensioe-
+nen expliciet. Bovendien werd door fair value accounting duidelijk da t de
+financiële positie van pensioenfondsen direct gerelateerd is aan de  ontwik-
+kelingen van financiële markten. Juist in die periode van de ove rstap naar
+fair value accounting ontwikkelden de financiële markten zich voor pensi-
+oenfondsen zeer ongunstig. Er was wereldwijd sprake van een sterk e
+koersval van aandelen waardoor het belegd vermogen sterk afnam. Daar-
+naast deed zich een rentedaling voor die leidde tot een sterke stijging van
+de waarde van de pensioenverplichtingen. Deze ontwikkelingen op de fi-
+nanciële markten hebben gezamenlijk tot een sterke daling van de  dek-
+kingsgraden geleid. De lage dekkingsgraden zette de toenmalige toezicht-
+houder van de pensioensector, de Pensioen- en Verzekeringskamer, aan t ot
+het formuleren van expliciete richtlijnen hoe en binnen welke peri ode de
+pensioenfondsen dienden te komen tot financieel herstel. De opstelli ng van
+deze zogenaamde herstelplannen confronteerden de pensioenfondsen met
+het probleem wie van de belanghebbenden moest betalen voor de ontsta ne
+tekorten in de dekking. De pensioencrisis maakte duidelijk dat éé n van de
+kernvragen in collectief risicodragen in feite nooit goed geste ld is geweest,
+laat staan helder beantwoord. Die kernvraag is: “Wie draagt wanneer in
+welke mate de risico’s in de financieringsopzet?:” Of anders gesteld, w ie is
+verantwoordelijk voor het aanzuiveren van een tekort in de financi ering en
+aan wie valt een overschot in de financiering toe?1 Zijn dat de werkenden,
+de gepensioneerden, de toekomstige deelnemers, de werkgever(s)? Dit
+probleem van slecht gedefinieerde eigendomsrechten binnen pensioen-
+fondsen deed zich ook voor in andere landen met een grote rol voor pe nsi-
+oenfondsen, zoals de Verenigde Staten en Groot-Brittannië. In die la nden
+werd in veel gevallen de “oplossing” voor de tekorten bij pensioen fondsen
+gevonden door te stoppen met collectieve regelingen verzorgd door pen si-
+oenfondsen en over te stappen naar individuele regelingen, waarbij  werk-
+nemers zelf de risico’s in de financiering van pensioenen moeten gaan dra-
+gen. In Nederland daarentegen bestond er een grote weerstand om ove r te
+gaan naar individuele regelingen. In de pensioendiscussie van die t ijd was
+sprake van vele, vaak uiteenlopende standpunten. Maar alle partij en kon-
+den zich toen verenigen in een breed gedragen streven om pensioenr ege-
+lingen te blijven stutten op collectiviteit en solidariteit. E r was en is sprake
+van een Nederland-brede aversie tegen individuele pensioenregelingen. 1 In de afgelopen 20 jaar zijn er twee perioden gewee st waarin juist de toedeling van finan-
+ciële overschotten een groot thema was, vergelijk d e periode eind jaren tachtig met de dis-
+cussie naar aanleiding van het wetsvoorstel Brede H erwaardering, en de periode tweede
+helft van de jaren negentig met de discussie naar a anleiding van de praktijk van lage pre-
+mies en zelfs premierestituties. 46      Eduard Ponds
+TPEdigitaal 2(2) Nederlandse pensioenfondsen vonden dan ook een andere uitweg uit de
+pensioencrisis. Er is overgestapt naar middelloonregelingen met v oor-
+waardelijke indexatie, waarbij het solvabiliteitsbeheer gereg eld wordt met
+de invoering van zogenaamde beleidsstaffels (vergelijk Ponds 2003a  en
+van Dalen 2003 voor de eerste voorstellen). Bij een aantal pensioe nfond-
+sen, met name de ondernemingspensioenfondsen, is ook nog de stap gezet
+om de rol van de werkgever in het risicodraagvlak te beperk en of zelfs ex-
+pliciet uit te sluiten. Deze fondsen evolueren met een dergelij ke stap tot
+stand-alone pensioenfondsen geheel gebaseerd op intergenerationele ri si-
+codeling tussen huidige en toekomstige deelnemers. Dit type regel ing is nu
+bekend als collectief DC. De verwachting is dat in de komende jaren bij
+meer pensioenfondsen een inperking van de rol van de werkgever in het  ri-
+sicodraagvlak zal plaatsvinden en dat dus meer pensioenfondsen ee n col-
+lectief DC als regeling zullen hebben. Het belang van intergener ationele ri-
+sicodeling zal daardoor dan ook bij Nederlandse pensioenfondsen ver der
+toenemen. 3 Evaluatie invoering beleidsstaffel
+Voor de evaluatie van de effecten van de introductie van de bele idsstaffel
+maak ik gebruik van ALM (Asset Liability Management) als ana lysekader. Het ALM-kader is vandaag de dag een zeer belangrijke tool v oor pensi-
+oenfondsen om hun beleid te evalueren. ALM-studies hebben een grote
+vlucht genomen in Nederland. Inmiddels bestaan er drie typen van AL M-
+studies die alle drie waardevol zijn bij het beoordelen van bel eidsstaffels. Het betreft wat ik noem ten eerste klassiek ALM, ten twe ede value-based
+ALM en ten derde utility-based ALM. Klassiek ALM: solvabiliteit. In de onderstaande tabel wordt voor een ge-
+stileerd pensioenfonds een vergelijking gemaakt tussen een driet al varian-
+ten in de financieringsopzet van dit fonds. De eerste variant is d e financie-
+ringsopzet die Nederlandse pensioenfondsen hanteerden in de naoorlogse
+periode. Indexatie werd de facto altijd gegeven en de premie was het in-
+strument om de ontwikkeling van de dekkingsgraad bij te sturen. De twee-
+de variant betreft de invoering van de beleidsstaffel, waarbi j indexatie en
+premie flexibel zijn en gerelateerd aan de dekkingsgraad. In de derde vari-
+ant wordt naast de invoering van beleidsstaffel ook de premie v erhoogd
+naar minimaal een kostendekkend niveau in lijn met de nieuwe ric htlijnen
+van de toezichthouder die ingesteld werden na de pensioencrisis. De ALM-studie omvat een periode van 20 jaar. De startdekkingsgr aad is
+gelijk aan 130% nominaal (dit is 90% reëel). De vergelijking  van de vari- Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      47
+TPEdigitaal 2(2)
+anten vindt plaats aan de hand van een drietal typische indica toren van een
+klassieke ALM studie In de tabel is ten eerste het solvabi liteitsrisico weer-
+gegeven, gemeten als de kans op tenminste één keer een nominale  dek-
+kingsgraad kleiner dan 100% in die 20 jaar. Daarnaast is het pre mierisico
+vermeld, dat gemeten is als de gemiddelde verandering in het pr emieni-
+veau van jaar op jaar. Als derde indicator is het indexatierisic o vermeld,
+gemeten als de kans op indexatiekortingen aan het einde van de 20-j aars
+periode. De tabel maakt duidelijk dat de invoering van de beleidsstaffe l en het
+hanteren van een kostendekkende premie tot een aanzienlijke daling  van
+het solvabiliteitsrisico hebben geleid. Als de naoorlogse prakt ijk zonder
+meer was voortgezet zou het solvabiliteitsrisico uitkomen op 19%. Met de
+aanpassingen is het solvabiliteitsrisico teruggebracht tot m inder dan 1%. Deze verbetering in de solvabiliteitspositie is gerealis eerd door via de aan-
+pasbare indexatie een deel van het pensioenfondsrisico bij de deelnem ers
+neer te leggen. Daarnaast leidt de verhoging van de premie na ar een kos-
+tendekkend niveau tot een hogere gemiddelde dekkingsgraad dat ook tot
+een verdere reductie van de kans op onderdekking leidt. Bovendien sluit
+een gemiddeld hogere dekkingsgraad een beter indexatieresultaat in. De pensioenfondsen hebben dus een verbetering van hun solvabiliteit
+kunnen realiseren door deelnemers via aanpasbare pensioenen een deel van
+het financieringsrisico te laten dragen en door werknemers een hogere
+premie te laten betalen. Maar hoe werkt dit uit op de versch illende bij het
+pensioenfonds betrokken generaties? En is deze aanpassing nu ook een
+verbetering in welvaartstermen voor de deelnemers? Op deze tw ee vragen
+ga ik nu in. Tabel 1 . Klassiek ALM resultaten voor een drietal pensioenr egelingen
+Naoorlogse praktijk  Beleidsstaffel Beleidsstaffel + kos-
+tendekkende premie
+%
+Solvabiliteitsrisico a 19 5 <1
+Premierisicob <2 <2 <1
+Indexatierisico c 0 39 19
+Bron: eigen berekening
+a Kans nominale dekkingsgraad kleiner dan 100% over 20 jaar. b Gemiddelde premiesprong per jaar. c Kans op indexatiekortingen na 20 jaar. Toelichting: De startdekkingsgraad is 130% nominaal  (90% reëel). Het beleggingsbeleid is
+gebaseerd op 60% reële activa en 40% nominale activ a. Het rendement op deze mix is 7%. De loongroei is 3% verwacht. Het mismatchrisico bed raagt 10%. De ALM studie is uitge-
+voerd voor een periode van 20 jaar. 48      Eduard Ponds
+TPEdigitaal 2(2) Value-based ALM: intergenerationele overdrachten. In een recente pu-
+blicatie heb ik de zogenaamde methodiek van value-based generationa l ac-
+counting voorgesteld (Ponds 2003b). Doel van deze methodiek is om
+waardeoverdrachten tussen generaties binnen een pensioenfonds met f i-
+nanciering gebaseerd op intergenerationele solidariteit in beeld te brengen. Deze aanpak leent zich bij uitstek om na te gaan in hoeverre een beleids-
+aanpassing tot een evenwichtige verdeling van baten, lasten en ris ico’s
+leidt over de aan het pensioenfonds deelnemende generaties. Alvorens in te gaan op de resultaten van deze analyse wil ik e erst kort
+de methodiek van value-based generational accounting toelichten. Een pensioenfonds is een geheel van belanghebbenden. De inhoud van
+het pensioencontract is bepalend voor de waarde van de claims die  elk van
+de belanghebbenden op het pensioenfonds hebben. De claim van een deel-
+nemer is het samenstel van opgebouwde rechten plus indexatietoe zeggin-
+gen plus aanspraken op het residu minus premie-inleg. De som van de claims van alle deelnemers is altijd gelij k aan de waarde
+van het vermogen van het fonds. Immers, de totale waarde van alle  claims
+van de deelnemers op enig moment in de tijd kan nooit groter zij n dan het
+totale vermogen van het fonds op dat moment. Veranderingen in de fina n-
+cieringsopzet (bijvoorbeeld een aanpassing van de beleggingsmix of van
+de premiemethodiek) of veranderingen in de regels over de risicov erdeling
+tussen deelnemers (bijvoorbeeld een aanpassing van de regels betreffende
+voorwaardelijke indexatie of een verandering in tempo van inhaalindex a-
+tie) hebben tot gevolg dat de claims van de belanghebbenden in waar de
+veranderen. Daarbij blijft gelden dat de totale waarde van a lle claims op
+moment van een beleidsaanpassing zich niet wijzigt. Het pensio enfonds is
+in dit verband dan ook te kenmerken als een zero-sum game (nulsoms pel). Het vermogen is immers niet toe- of afgenomen door een beleidsver ande-
+ring. Wel kan een beleidsverandering leiden tot verandering i n de waarde
+van de afzonderlijke claims van de belanghebbenden. Juist doordat he t
+pensioenfonds een zero-sum game is, zal daarbij gelden dat wat de  ene
+partij wint aan waarde ten koste gaat van een of meer van de andere partij-
+en waar sprake is van waardeverlies. Er vinden dan in feite wa ardeover-
+drachten tussen de partijen plaats. Deze waardeoverdrachten zijn nu te ana -
+lyseren met de methode van value-based generational accounting. In f eite
+is deze methodiek een samenstel van generational accounting bekend van
+overheidsfinanciën (vgl. Kotlikoff 2002.) en value-based ALM (vgl. Kort-
+leve & Ponds 2006). Met mijn ABP-collega Roy Hoevenaars heb ik de methode toegepas t op
+een reëel bestaand pensioenfonds (Hoevenaars & Ponds 2008). We zijn
+onder meer nagegaan wat de effecten zijn geweest van de vera ndering in
+de financieringsopzet van pensioenfondsen als reactie op de pensioenc risis Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      49
+TPEdigitaal 2(2)
+in de periode na 2000, in de kern bestaande uit de invoering van de be-
+leidsstaffel en de verhoging van de premie naar een kostendekke nd ni-
+veau.2
+De onderstaande figuur 1 laat de effecten zien voor de generaties. De
+evaluatie beslaat een periode van 20 jaar. Op de horizontale as van de fi-
+guur zijn de leeftijden van de verschillend generaties vermeld in het jaar
+2006. Op de verticale as staat op welke wijze de claim van e lk van de ge-
+neraties op het pensioenfonds zich wijzigt als gevolg van de aanp assing in
+de inhoud en financieringsopzet van de regeling. De veranderingen in de
+claims zijn uitgedrukt in procenten van de totale waarde nominale  ver-
+plichtingen in 2006. De verandering in de claim van een generatie kan po-
+sitief zijn in welk geval de betreffende generatie voordee l heeft bij de ver-
+andering. Een negatieve uitkomst leidt tot nadeel voor een gene ratie. De
+som van alle generatierekeningen moet noodzakelijkerwijs uitkom en op
+nul. Een beleidsaanpassing leidt immers niet tot meer of mi nder waarde in
+het pensioenfonds.3
+Figuur 1 laat twee lijnen zien. De gestippelde lijn geeft het e ffect aan
+voor de generaties als gevolg van de omzetting van de vigere nde eindloon-
+regeling met de facto onvoorwaardelijke indexatie naar een midde lloonre-
+geling met indexatie voorwaardelijk op de financiële positie van het pensi-
+oenfonds, geregeld via de inzet van een beleidsstaffel. Het be eld is dat
+jongeren aan waarde winnen, terwijl de oudere deelnemers waarde v erlie-
+zen. De verklaring hiervoor is dat de oudere deelnemers via de conditione-
+le indexatie ook gaan deelnemen in het risicodraagvlak, zodat jonge re
+deelnemers minder risico hoeven te absorberen. De aaneengesloten lijn geeft het effect voor de generaties aan van een
+door de toezichthouder opgelegde vereiste van een premiestelling g eba-
+seerd op een kostendekkend rendement. Nu zijn het de jongeren die waar-
+deverlies leiden als gevolg van de hogere premie. De ouderen win nen
+waarde, doordat de hogere premie-inleg leidt tot een hogere dekki ng van
+de aanspraken, waardoor de onzekerheid rond de lopende en toekomstige
+indexatie afneemt. De combinatie van de invoering van flexibele indexatie met een v erho-
+ging van de premie naar een kostendekkend niveau heeft er voor gez orgd
+dat overdrachten tussen de generaties beperkt zijn gebleven. 2 Bij veel pensioenfondsen was de premie in de jaren negentig sterk verlaagd door de hoge
+dekkingsgraden in de jaren negentig. Bij een aantal  fondsen is zelfs overgegaan op pre-
+mierestitutie. 3 De methodiek geeft inzicht in het effect van beleid swijzigingen voor de verschillende ge-
+neraties, maar het zegt niets over de vraag of de u itgangssituatie al dan niet fair is voor de
+betrokkenen. 50      Eduard Ponds
+TPEdigitaal 2(2) Figuur 1 Waardeoverdrachten tussen generaties als gevolg van  beleidsaanpassin-
+gen 2006-2025 (in % van de totale nominale verplich tingen)
+-0.80-0.60-0.40-0.200.000.200.400.60
+0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105
+leeftijd%
+Invoering kostendekkende premie Invoering  beleidsstaffel
+Bron: Hoevenaars en Ponds (2008). Het voorgaande laat zien dat een beleidsverandering tot overdrac hten tus-
+sen generaties kan leiden en daardoor grote gevolgen kan hebben voor de
+positie van de verschillende generaties. De methodiek van value- based ge-
+nerational accounting stelt pensioenfondsbestuurders in staat om me t een
+zorgvuldige keuze van beleidsparameters aanpassingen in het beleid zo in
+te vullen dat de overdrachten tussen generaties zo klein mogelijk zijn. Utility-based ALM: welvaartaspecten van risicodeling tuss en genera-
+ties. Ik wil nu ingaan op de derde methode om het bijgestelde pensioen-
+contract te beoordelen, utility-based ALM. Deze methode helpt ons bi j het
+beantwoorden van de vraag of de invoering van de beleidsstaffel ook van-
+uit een welvaartsoogpunt goed is geweest. Elke verandering in he t pensi-
+oencontract leidt tot een andere invulling van de wijze waarop h et risico in
+de financiering gedragen wordt door de verschillende generaties. W el-
+vaartaspecten van pensioenregelingen zijn aan de hand van een utilit y-
+based ALM studie te bestuderen. Op dit terrein heb ik samen me t Jiajia Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      51
+TPEdigitaal 2(2)
+Cui en Frank de Jong een working paper geschreven (Cui et al. 2007) ,
+waarvan ik met u een aantal resultaten wil delen.4
+In het paper gaan we uit van een ideale economische marktsetting  waar
+slechts één markt ontbreekt, namelijk een markt waarin huidig e en toe-
+komstige generaties risico’s met elkaar kunnen verhandelen. Verder kun-
+nen individuen en pensioenfondsen elke gewenste positie innemen op de
+vermogensmarkt met inachtneming van de twee gebruikelijke restricties, te
+weten: de restricties van short-sales en inlenen. In deze sett ing hebben we
+een aantal collectieve regelingen die in de realiteit door pe nsioenfondsen
+worden verzorgd vergeleken met twee individuele regelingen. De vergelij-
+king is gebaseerd op een standaard nutsfunctie met constante rel atieve risi-
+coaversie, waarbij het individu streeft naar een optimale spr eiding van zijn
+levensduurinkomen over consumptie gedurende zijn levenscyclus. Er is
+verder verondersteld dat individuen geen andere oudedagsvoorziening
+aanhouden dan de bestudeerde regeling zelf. De onderstaande tabel geeft voor vier van de bestudeerde regeling en het
+effect aan voor de welvaartspositie van een individuele deelnem er. Bij de
+berekening van de welvaart is eerst een klassieke ALM studi e uitgevoerd. Vervolgens is voor een 25-jarige nieuwe deelnemer de welvaart  gemeten
+voor elk van de vier regelingen. Deze meting van de welvaart  is gedaan
+aan de hand van het zekerheidsequivalent van de consumptie over de g ehe-
+le levenscyclus heen van deze 25-jarige. De eerste van de vier bestudeerde pensioenregelingen is een ind ividuele
+regeling die in de praktijk veel voorkomt. Het is een Defin ed Contribution
+regeling met een vaste premie. Het individu heeft wel de moge lijkheid om
+elk jaar de beleggingsmix van zijn regeling aanpassen, ook na pens ione-
+ring. De welvaartpositie die het individu met deze regeling kan realiseren
+is genormaliseerd op 100. De tweede regeling is ook een individuele DC regeling, maar  het indivi-
+du kan nu elk jaar naast zijn beleggingsmix ook zijn premie-inleg  aanpas-
+sen. De inzet van een extra instrument om risico te absorberen le idt tot een
+welvaartsverbetering van 2,8% per jaar. Deze regeling komt in de praktijk
+weinig voor. De derde en de vierde regeling zijn collectief van aard en vang en fluctu-
+aties in de dekkingsgraad op via intergenerationele risicodeli ng. Bij deze
+twee regelingen is verondersteld dat een eenmaal gekozen bele ggingsbe-
+leid niet wordt aangepast. De traditionele DB regeling is de  regeling die in
+Nederland door veel pensioenfondsen werd verzorgd in de naoorlogse pe -
+4 Vergelijkbare welvaartseffecten van intergeneration ele risicodeling zijn te vinden in de
+studies van Bovenberg et al. (2007) en Teulings & d e Vries (2006). 52      Eduard Ponds
+TPEdigitaal 2(2) riode tot begin 2000. Risico werd enkel opgevangen door aanpassingen in
+de premie. Ten opzichte van de eerste regeling is sprake van een hogere
+welvaart ter grootte van 2,5% per jaar. In de vierde regeling, de regeling
+met beleidsstaffel, wordt naast het premie-instrument ook het index atie-
+instrument ingezet om de dekkingsgraad van het pensioenfonds bij te stu-
+ren. Er is nu sprake van een toename van de welvaart van 4,2% per jaar ten
+opzichte van de realistische DC regeling. De uitkomst van 4,2% welvaart-
+verbetering is substantieel, want 4,2% verbetering in terme n van zeker-
+heidsequivalent consumptie is vergelijkbaar met bijvoorbeeld ruim  2
+jaarsalarissen aan extra consumptie over de levenscyclus of b ijvoorbeeld
+met ruim 2 jaar korter werken 5 Dit zijn grote welvaartswinsten die een col-
+lectief kan realiseren ten opzichte van individuele regelingen. Tabel 2 Welvaartswinst per jaar
+Stuurinstrumentarium Verandering wel vaart per
+jaar
+Individuele regelingen
+DC: realistisch Beleggingsbeleid 100
+DC: optimaal Beleggingsbeleid en Premie +2.8%
+Collectieve regelingen
+Traditioneel DB Premie +2.5%
+Collectief DC Premie en Indexatie +4.2%
+Bron: Cui et al. 2007. Elk model is noodzakelijkerwijs een gestileerde weergave va n de com-
+plexe realiteit. Een volledige welvaartanalyse van collec tieve regelingen
+zal ook andere aspecten moeten insluiten. Ik noem een aantal van de be -
+langrijkste aspecten. Deze aspecten kunnen zowel tot meer welvaart als ook
+tot minder welvaart voor de deelnemers leiden. Allereerst zij n er welvaart-
+kosten uit hoofde van het gebrek van maatwerk. Collectieve re gelingen
+houden doorgaans geen rekening met de heterogeniteit in behoeften en
+omstandigheden van de deelnemers en leggen aan alle deelnemers dezelfde
+premie- en indexatieregels op (vgl. Bovenberg et al. 2007; Nijman & Oer-
+lemans 2008). Anderzijds zijn er in de realiteit grote welvaart winsten te
+onderkennen dankzij ten eerste de lage kosten van collectieve reg elingen
+als gevolg van schaalvoordelen en ten tweede de omstandigheid dat pro-
+5 Bij deze berekeningen is verondersteld dat de verwa chte duur van de deelname aan de
+pensioenregeling 55 jaar is, uitgaande van een verw achte intrede op leeftijd 25 en ver-
+wacht overlijden op leeftijd 80. Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      53
+TPEdigitaal 2(2)
+fessionals de beslissingen nemen namens de individuele deelnemer s die
+dat zelf niet willen en dat ook niet kunnen (Prast et al. 2005). Conclusies uit evaluatie beleidsstaffel. Uit de evaluatie van de invoering
+van de beleidsstaffel zijn drie belangrijke conclusies te t rekken. Ten eerste,
+de invoering van beleidsstaffels heeft geleid tot een substant iële verbete-
+ring van het solvabiliteitsbeheer bij pensioenfondsen. Ten twee de, wijzi-
+gingen in de pensioenregeling of in de financieringsopzet zullen lei den tot
+intergenerationele overdrachten. De combinatie van de invoering van
+flexibele indexatie met een verhoging van de premie naar een kos tendek-
+kend niveau heeft er voor gezorgd dat overdrachten tussen de gene raties
+beperkt zijn gebleven. Ten derde hebben de recente aanpassingen van N e-
+derlandse pensioenfondsen geleid tot een welvaartsverbetering voor  de
+deelnemers. De aanpassingen hebben de facto geleid tot een vergroting van
+intergenerationele risicodeling en dit levert voordeel op voor de de elne-
+mers – in elk geval vanuit een theoretisch perspectief. Kortom de aanpassing van de regeling richting een hybride DB-DC re-
+geling is dus om meerdere redenen als een verbetering te zien. Kan de pen-
+sioenfondssector nu een pas op de plaats maken en voor lange tijd tevreden
+achterover leunen? Neen, allerminst. Er blijven probleemvelden liggen die er in toen emen-
+de mate toe zullen leiden dat de opzet van de regeling ter disc ussie wordt
+gesteld. De volgende paragraaf gaat hier op in. 4 Openstaande vragen
+Kernelementen financieringsopzet. Het Nederlandse pensioenfondsen-
+systeem is in essentie geënt op verplichte deelname en collectieve ris icode-
+ling. Binnen deze setting hebben de Nederlandse pensioenfondsen de
+kernparameters in grote mate op dezelfde wijze ingevuld:
+i Uniforme pensioenopbouw voor alle actieve deelnemers: Elke werk -
+nemer ongeacht geslacht en leeftijd bouwt per jaar een gelijk recht per
+dienstjaar op, veelal rond de 2% van het pensioengevend salaris. ii  Uniforme premie voor alle actieve deelnemers: Elke werkne mer be-
+taalt dezelfde doorsneepremie als percentage van het pensioenge vend
+salaris, ongeacht leeftijd, inkomen of geslacht. De doorsneepremi e
+dient allereerst ter dekking van de nieuwe opbouw per dienstjaar e n
+ten tweede kan de premie ingezet worden voor het bijsturen van de
+dekkingsgraad. 54      Eduard Ponds
+TPEdigitaal 2(2) iii  Uniform indexatiebeleid voor alle deelnemers:De opgebouwde aan-
+spraken van alle deelnemers worden jaarlijks op dezelfde wij ze opge-
+hoogd met veelal de loongroei of de prijsinflatie als referenti evariabe-
+le. iv  Uniform beleggingsbeleid voor alle deelnemers:Voor alle deelnem ers
+wordt hetzelfde beleggingsbeleid gevoerd. De deelnemers ongeacht
+leeftijd hebben daardoor hetzelfde risicoprofiel
+Naast grote waardering is er ook onbehagen bij de bestaande sys tematiek. Mijns inziens is dat onbehagen in essentie terug te voeren op dri e velden
+van vraagstukken.6 Allereerst is er onbehagen over velerlei vormen van
+herverdelingseffecten tussen deelnemers doordat een uniforme fi nancie-
+ringsopzet wordt opgelegd aan een heterogeen bestand van deelnemers. Een tweede onbehagen betreft slecht gedefinieerde eigendomsverhoudin-
+gen. Ten derde is er onbehagen doordat het uniforme financieringsbelei d
+aan alle deelnemers hetzelfde risicoprofiel oplegt. Herverdelingseffecten. Herverdelingseffecten tussen deelnemers ontstaan
+door de combinatie van uniforme opbouw en uniforme premie, de door-
+sneepremie. De omvang van de verschillende herverdelingseffect en is re-
+cent goed in beeld gebracht. Allereerst wil ik verwijzen naar de PGGM-
+studie van Boeijen en anderen (Boeijen et al. 2006) over het omsla gele-
+ment in de systematiek van de doorsneepremie die jaarlijks tot overdrach-
+ten leidt van jonge naar oude werknemers. Daarnaast zijn er de s tudies van
+Aarssen en Kuipers (2006) en die van Bonenkamp (2007) naar de grootte
+van intragenerationele overdrachten. Er vinden men name overdracht en
+plaats van mannen naar vrouwen en van lage inkomens naar hoge inko-
+mens als gevolg van verschillen in verwachte levensduur. Deze vormen van overdrachten zijn altijd aanwezig geweest in  de finan-
+cieringsopzet van de Nederlandse pensioenfondsen. Kennelijk werd di t tot
+dusverre als onvermijdelijk bijproduct gepercipieerd van een ve rplicht ge-
+stelde collectieve regeling die per saldo voordeel oplevert v oor alle deel-
+nemers 7. Mocht het draagvlak hiervoor eroderen, dan is het belangrijk  om
+6 Onbehagen is deels ook terug te voeren op een verme end gebrek aan transparantie. In de
+afgelopen jaren hebben pensioenfondsen op dit aspec t grote verbeteringen doorgevoerd. Wel is af te vragen of individuele deelnemers in st aat zijn om de ‘contingent-claim’ ka-
+rakter van conditionele indexatie te onderkennen en  dit op adequate wijze mee te nemen
+in hun beslissingen. Pensioenfondsen zouden de indi viduele deelnemers op dit terrein
+helpen door het hanteren van eenvoudige staffels me t heldere communicatie over hoe
+groot de indexatierisico’s zijn. Vergelijk ook Pond s en Van Riel (2008). 7 Vergelijk Deken et al . (2006) over motivatie en acceptatie solidariteit en herverdeling ex-
+post in verplicht gestelde collectieve oudedagsvoor zieningen. Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      55
+TPEdigitaal 2(2)
+te onderkennen dat deze typen van overdrachten in technische zin goed o p-
+losbaar zijn (vgl. Boeijen et al. 2006). Hiervoor is het nodig da t de opbouw
+en de premiestelling niet langer uniform zijn, maar dat er in de opbouw
+en/of in de premiestelling een differentiatie plaats vindt naa r leeftijd of
+naar deelnemerscategorie (bijvoorbeeld naar mannen en vrouwen en naa r
+hoge en lage inkomens). Met nadruk is op te merken dat een gedifferentieerde opbouw of pr emie
+geenszins insluit dat naar een individuele regeling moet worden  overge-
+stapt. De hoge kwaliteit van het Nederlandse pensioenfondsensyst eem is in
+essentie geënt op verplichte deelname, collectieve risicodeli ng en systeem
+van waardeoverdrachten. Deze kernelementen blijven onverminderd hun
+kracht behouden als binnen een collectieve regeling overgega an wordt op
+gedifferentieerde opbouw of premiestelling. Eigendomsrechten: ‘Wie risico draagt bepaalt’. Pensioencontracten van
+Nederlandse pensioenfondsen waren in de naoorlogse periode gekenmerk t
+door slecht geformuleerde eigendomsrechten. Een groot aantal pensi oen-
+fondsen heeft sinds enkele jaren beleidsstaffels met expliciet e regels voor
+indexatietoekenningen en premiebepaling ingevoerd. Hierdoor is beter  ge-
+regeld hoe de betrokken partijen meedelen in mee- en tegenvalle rs. Daar-
+entegen is de toedeling van een ruime overdekking voorbij de bovengr ens
+van beleidsstaffel of de toedeling van nominale onderdekking bij v eel
+fondsen nog steeds niet of onvolledig ingevuld. Verdelingsconflicten kunnen zich daardoor opnieuw in de toekomst
+voordoen. Het is dan ook van belang dat er een verdeelsleutel (‘closu re ru-
+le’) wordt geformuleerd op basis waarvan op elk moment in de ti jd expli-
+ciet is geregeld hoe het vermogen toedeelbaar is over de bela nghebbenden
+en wie in welke mate draagt risico, met name ook in situatie s van ruime
+overdekking of nominaal tekort. Deze verdeelsleutel is ook bruikba ar bij
+de toedeling van stemrecht over de belanghebbenden en hun vertegen-
+woordigers. De eigendomsrechten dienen mijns inziens gebaseerd te worden op een
+eenvoudige principe, namelijk: wie risico draagt, bepaalt. Het aa ndeel van
+de belanghebbenden in het risicodraagvlak kan worden bepaald door het
+pensioenfonds te zien als een aggregaat van embedded options (vergel ijk
+Hoevenaars en Ponds 2008; Kocken 2006). De som van embedded options
+is gelijk aan de waarde van het vermogen van het pensioenfonds op  enig
+moment in de tijd. Het eigendomsrecht van elk van de belanghebbenden i s
+in deze aanpak nu bepaald door de relatieve grootte van de embedded op-
+tions in handen van die belanghebbenden. De claim op een overschot of
+tekort zal daardoor groter zijn naarmate de betrokkene meer ri sico draagt. Deze aanpak vereist wel dat pensioencontracten volledig expli ciet zijn ten 56      Eduard Ponds
+TPEdigitaal 2(2) aanzien van de vraag wie wanneer welk deel van het financiële risico
+draagt. Uniforme financieringsopzet en risicoprofiel over de leve nscyclus. Een
+derde veld van onbehagen hangt samen met de vraag hoe voor een coll ec-
+tief van jong en oud het optimale financieringsbeleid moet worden i nge-
+vuld. Wat dient het ijkpunt te zijn voor beleid? Het deelnemer sbestand is
+een samenstel van jonge en oude deelnemers, van actieven en inacti even. Voor elk van deze groepen is het in beginsel mogelijk om te kome n tot een
+optimaal financieel beleid. Maar hoe moet optimaal beleid voor het collec-
+tief worden vastgesteld? In feite is het niet mogelijk om voor een collectief
+tot de opstelling van een optimaal beleid te komen. Er ontbreekt een een-
+duidige doelstellingsfunctie. In de praktijk moet daarom gekozen w orden
+voor een beleid dat het “meest acceptabel” is gegeven de ui teenlopende
+voorkeuren en deelbelangen van groepen verzekerden. Pensioenfondsen
+hebben steeds nagestreefd om een balans te vinden tussen verschille nde
+doelen: i betaalbaarheid van de regeling (premie), ii adequate zek erheid
+rond de indexatie van opgebouwde aanspraken en iii solvabiliteitseisen van
+de toezichthouder. Een groot aantal pensioenfondsen in Nederland wordt steeds ouder 8. Het
+overzicht in tabel 3 geeft een idee van de mate van vergrijz ing van de pen-
+sioenfondsen. In dit overzicht staat het relatieve belang van gepensioneer-
+den en slapers in de voorziening pensioenverplichtingen. Op de eerste regel is dat vermeld voor alle Nederlandse pens ioenfond-
+sen. Dat relatieve belang van gepensioneerden was in 2001 47%. In 2006
+is dat gestegen naar 50%. Een toename met 3%-punt. In de komende ja ren
+zal dat percentage gestaag toenemen. De tweede regel geeft dat weer voor het pensioenfonds ABP. I n 2001 is
+het belang van de gepensioneerden en overige niet-actieven 48%, in 2006
+is dat toegenomen tot 53% en de projectie voor 2016 is dat het belang ge-
+stegen zal zijn tot 73%, een toename met 20%-punt ten opzichte van nu!! Binnen 10 jaar is dus driekwart van de voorziening toe te rekenen  aan
+deelnemers die met pensioen zijn of anderszins niet meer acti ef zijn bij
+overheid en onderwijs. 8 De vergrijzing van Nederlandse pensioenfondsen kent  verschillende oorzaken. Veel pen-
+sioenfondsen stammen uit de jaren vijftig. De cohor ten die thans en in de komende jaren
+met pensioen gaan zijn de eersten die in staat zijn  geweest om een volledige pensioenop-
+bouw te doorlopen. Bovendien betreft dit de babyboo m cohorten die relatief groot van
+omvang zijn. Deels wordt de vergrijzing van fondsen  veroorzaakt door inkrimpende be-
+drijfstakken. Tegenover grijze fondsen staan ook jo nge fondsen. Evaluatie van de financieringsopzet van Nederlandse  pensioenfondsen      57
+TPEdigitaal 2(2)
+Tabel 3 Relatief belang gepensioneerden en overige niet-act iven in Voorziening
+Pensioen Verplichtingen a
+2001 2006 2016 2026
+%
+Alle pensioenfondsen 47 50 nb nb
+Waarvan ABP 48 53 73 75
+Bron: DNB resp. ABP. a Ouderdomspensioen, nabestaandepensioen en FPU.

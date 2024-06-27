@@ -1,0 +1,63 @@
+Element/@Attribute 0.. nDescription
+EntityDesciptor 1 SAML: Required element to start Metadata
+@EntityId 1 SAML: MUST contain the  ; EntityID
+@Version  0.. 1Elektronische toegangsdiensten: MAY contain an additional version
+attribute containing the version of the interface specifications on which the entity
+communicates;
+Signature 1 SAML:  MUST be included to verify the integrity of the message. SPSSODescriptor 1  SAML: the SPSSODescriptor implements profiles specific to service providers
+@AuthnRequestsSigned  1 Elektronische toegangsdiensten: Must be set to true
+@WantsAssertionsSigned  1 Elektronische toegangsdiensten: Must be set to true
+@ProtocolSupportEnumeration  1 SAML: Denotes the protocols which can be used. Currently scoped to SAML2. KeyDescriptor   1.. nSAML: An SPSSODescriptor element MUST contain one or more KeyDescriptor
+elements with the use XML attribute with value "signing" and one or more
+KeyDescriptor elements with the use XML attribute with the value "encryption". Alternatively, at least one KeyDescriptor without a use XML attribute MAY be
+included, indicating the default that the key is for both signing and encryption. Every KeyDescriptor element marked for "signing" MUST contain a KeyName
+element and a valid   certificate with which the service provider its PKIoverheid
+SAML messages and/or direct TLS connections can be authenticated. KeyDescriptors marked for "signing" are also the keys that will be used to specify
+the attesting Entity through Holder-of-Key-Subjectconfirmation in case of
+DienstBemiddeling. KeyDescriptors marked for "signing' MUST be valid and
+comply with the requirements in . Secure connection
+Every KeyDescriptor element marked for "encryption" MUST contain a KeyName
+element and a valid PKIoverheid certificate to be used to encrypt IDs and
+attributes for the DV. Note: HMs must process all of the described KeyDescriptor
+elements. KeyName in the signatures and protocol messages indicates which
+certificate in the metadata is used for the signature. ArtifactResolutionService   1.. nElektronische toegangsdiensten: The ArtifactResolutionService MUST be
+implemented at least once per service. @Binding  1 SAML:  The binding parameter denotes the type of binding used. In
+theArtifactResolutionService this is the SAML-SOAP binding only. The value of this
+attribute is an urn relating to: http://docs.oasis-open.org/security/saml/v2.0
+/saml-bindings-2.0-os.pdf
+@Location  1 SAML:  The URL of the SAML artifact resolution endpointAfsprakenstelsel Elektronische Toegangsdiensten | pagina 784  @Index  1 SAML:  The index of the binding, MUST be unique for all
+ArtifactResolutionService elements
+AssertionConsumerService  1.. n SAML: The most common AssertionConsumerService is the HTTP-Artifact service
+binding. This binding is used by the web interface specifications. See  Interface
+for more information. specifications
+A Service of a Dienstverlener (Service Provider) MAY be offered using only an
+endpoint with SOAP binding in the AssertionConsumerService of the
+SPSSODescriptor. In such a case, the Service MUST only be consumed via
+Dienstbemiddeling (service intermediation). A Service with both a HTTP (Artifact,
+GET or POST) and SOAP binding, is accessible directly and using
+Dienstbemiddeling
+@Binding  1 SAML:  The binding parameter denotes the type of binding used. This is an urn
+relating to: http://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os. pdf
+@Location  1 SAML:  The URL of the SAML endpoint
+@Index  1 SAML:  The index of the binding, MUST be unique for all
+AssertionConsumerService elements. @isDefault  0.. 1 If several AssertionConsumerService entries are included, one of these entries
+MUST be flagged as default by setting the isDefault XML attribute with value "true". AttributeConsumingService   1.. n A service provider MUST include at least one service AttributeConsumingService
+element in which the service provider indicates which attributes are requested by
+default. A Service provider MAY include additional AttributeConsumingService
+elements containing different sets of attributes it wants to receive for the
+respective additional services. Multiple AttributeConsumingService elements MAY be present and can be
+mapped to the same ServiceID. This allows DVs to request authentication for a
+single service with varying attributes depending on the context. The union of all
+attributes that may be queried for a ServiceID MUST be declared in the Service
+Catalog. @Index  1 The index of the binding, has to be unique for each AttributeConsumingService. @isDefault  0.. 1 In case multiple AttributeConsumingServices are defined, the 'isDefault' XML
+attribute on that AttributeConsumingService element MUST be used to indicate
+the default service. ServiceName  1.. nSAML: Name of the service
+@lang   0.. 1SAML: Localized name of the service, must be in ISO 31661 alpha2 format
+RequestedAttribute  1.. n Each AttributeConsumingService MUST contain exactly one attribute with the
+same name as . This ServiceID MUST reference the entry for the Service of ServiceID
+the requesting Dienstverlener (Service Provider) in the  . In case of Service catalog
+Dienstbemiddeling (service intermediation) this ServiceID MUST reference the
+entry for the Service of the Dienstbemiddelaar (service intermediary).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 785The AttributeConsumingService MAY contain one or more RequestedAttributes
+that are in the  . Attribuutcatalogus
+@Name  1 The name of the requested attribute. MUST correspond with attributes from
+.

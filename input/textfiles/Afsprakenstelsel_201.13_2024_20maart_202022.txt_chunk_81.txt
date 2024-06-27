@@ -1,0 +1,65 @@
+If an AD can not provide any of these requested ASTA-identifiers the AD MUST respond with a
+recoverable error (Attributes not supported). See  for more details Error handling
+In case of Service Intermediation
+An AD MUST ensure ServiceProvider is authorised to use service intermediation as stated on the list
+AllowedForServiceIntermediation IF the AD does not want to use the service catalog to determine that the
+ServiceProvider is authorised to intermediate the intermediated service
+If the AD does configure the AllowedForServiceIntermediation list locally, An the AD MUST use
+the ServiceCatalog to determine that the ensure ServiceProvider is authorised to intermediate the
+intermediated service as stated in the ServiceCatalog
+An AD MUST add ASTA- and ECTA-identifiers for the intermediated service as stated in the ServiceCatalog
+using the same above processing rules as for the DV
+IF non-representation AND NOT service intermediation THEN MUST include the appropriate identity(s) of the user
+for the Dienstverlener (DV) as an <EncryptedID> in ActingSubjectID
+IF non-representation AND service intermediation THEN MUST include the appropriate identity(s) of the user for
+both Dienstverleners (DienstBemiddelaar (DB) and Dienstaanbieder (DA)) as an <EncryptedID> in ActingSubjectID
+Reference implementation processing rules for Identities
+DV.ServiceProviderID = ServiceCatalog(request.ServiceUUID).ServiceProviderID
+DV.IntermediatedService = ServiceCatalog(request.ServiceUUID).IntermediatedService
+DV.ASTA-sets = ServiceCatalog(DV.ServiceUUID).ActingSubjectTypeAllowed
+DV.ECTA-sets = ServiceCatalog(DV.ServiceUUID).EntityConcernedTypeAllowed
+IF non-representation  THEN
+Determine approperiate.Identities  (DV.ECTA-sets,  ) DV.ServiceProviderID, DV.Type
+MUST include all appropriate.Identities (Type and Value) as an EncryptedID@DV in ActingSubjectID
+IF  THEN representationAfsprakenstelsel Elektronische Toegangsdiensten | pagina 579i MUST  nclude  of the user for the appropriate MachtigingRegister as an Internal pseudonym
+EncryptedID@MR in ActingSubjectID
+IF  THEN DV.ASTA-sets
+Determine appropriate.Identities  (DV.ASTA-sets, ) DV.ServiceProviderID, DV.Type
+i MUST nclude all appropriate.Identities (Type and Value) as an EncryptedID@DV in ActingSubjectID
+# ico Service Intermediation via service-catalog, DB authorization must be checked in service catalog
+IFDV.IntermediatedService  AND  DV.ServiceProviderID Config(AllowedForServiceIntermediation) IS IN THEN
+DA.ServiceUUID = DV.IntermediatedService
+DA.ServiceProviderID = ServiceCatalog(DA.ServiceUUID).ServiceProviderID
+DA.@intermediationAllowed = ServiceCatalog(DA.ServiceUUID).@intermediationAllowed
+DA.ServiceIntermediationAllowed = ServiceCatalog(DA.ServiceUUID).ServiceIntermediationAllowed
+DA.ASTA-sets = ServiceCatalog(DA.ServiceUUID).ActingSubjectTypeAllowed
+DA.ECTA-sets = ServiceCatalog(DA.ServiceUUID).EntityConcernedTypeAllowed
+DA.@intermediationAllowed = “generalAvailable” ( DA.@intermediationAllowed = IF  OR
+“requiresApproval” AND DV.ServiceProviderID DA.ServiceIntermediationAllowed )  IS IN THEN
+non-representation IF THEN
+(DA.ECTA-sets Determine approperiate.Identities , DA.ServiceProviderID)
+i  MUST nclude all appropriate.Identities (Type and Value) as an EncryptedID@DA in
+ActingSubjectID
+representation AND DA.ASTA-sets IF THEN
+(DA.ASTA-sets, Determine appropriate.Identities  DA.ServiceProviderID)
+i MUST nclude all appropriate.Identities (Type and Value) as an EncryptedID@DA in
+ActingSubjectID
+# Determine appropriate.Identities for (ECTA- or ASTA-) Sets for Recepient (DV of DA)
+DetermineAppropriateIdentifiers (sets, Recipient.ServiceProviderID)
+GROUP  ecta/acta-sets  setNumber in setsBY
+ORDER  sets  setNumer ASSENDING BY
+FOR EACH  set   setsIN
+# check IF all IdentityTypes in set can and may be provided for het user
+FOR EACH  IdentifierType  set IN
+IdentifierType=BSN Recipient.ServiceProviderID IF AND NOT on the BSN AutorisationList  THEN
+respond with a unrecoverable error (Attributes not supported). See   for more details. Error handling
+IF IdentifierType can not be provided for this user  next set THEN
+# all IdentifierTypes are checked, cu rrent Set =  appropriate set
+# Add the Identifiers of the user for all IdentifierTypes ( ) in the Identificerende kenmerken appropriate set
+to appropriate.Identities
+FOR EACH  IdentifierType  set IN
+appropriate.Identities[IdentifierType] = IdentifierValue of IdentifierType for the user and
+Receipient combination
+RETURN appropriate.Identities
+# No appropriate Set can be provides for this user - start error handling
+respond with a recoverable error (Attributes not supported).

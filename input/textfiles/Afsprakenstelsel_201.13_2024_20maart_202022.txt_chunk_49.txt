@@ -1,0 +1,86 @@
+7. Het is gewenst dat de toetsing aan het Normenkader betrouwbaarheidsniveaus efficiënt kan worden
+uitgevoerd ter beperking van de doorlooptijd. Daarom zijn er criteria gesteld waaraan de op te leveren
+procesbeschrijvingen moeten voldoen:
+Voor elke afzonderlijk betrouwbaarheidsniveau dat door de deelnemer wordt geleverd is een beschrijving
+beschikbaar. De beschrijving is per betrouwbaarheidsniveau en volgt de levenscyclus van middelen en/of machtigingen
+(van aanvraag tot intrekken). De beschrijvingen voor de uitgifte van middelen en/of machtigingen is als volgt ingedeeld:
+De fase van aanvraag;
+De fase van uitgifte;
+De fase van authenticatie;
+De fase voor intrekking, vernieuwing en eventueel schorsing;
+De communicatie met Gebruikers;
+De technische kwaliteiten van het authenticatiemiddel;
+De procesflow;
+De specifieke technische en beheersmatige beveiligingsmaatregelen behorende bij het middel en/of de
+machtiging. Per processtap een beschrijving van de vastlegging (logging) van de input, de verwerking en de output. Het
+gaat hier vooral om vastlegging van uitgevoerde controles, verificaties en validaties. (specifiek 3a t/m 3d). Beschrijving van de archivering van bewijs dat voortkomt uit punt 5. Verwijzingen naar de relevante voorschriften uit het normenkader betrouwbaarheidsniveaus bij de
+voorgaande beschrijvingen 3 t/m 6. Output Bewijsstukken volgens het controlememorandum
+Wie? Toezichthouder
+Coördinator toetreden
+Toetreder
+3a. Toelichting technische implementatie
+Input Gegevens aansluiting testnetwerk en testresultatenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 396Activiteit
+De Toetreder levert de metadata URL en de public key van het signing certificaat van de acceptatie
+systemen. Hiermee wordt vervolgens de metadata geautomatiseerd aangemaakt volgens het  Proces
+. netwerkmetadata
+De Toetreder betrekt de test authenticatiemiddelen en machtigingen bij andere deelnemers (indien van
+toepassing). De Toetreder voert een simulator- en ketentest uit en is in staat deze te presenteren en te demonstreren
+aan BO. De BO maakt hier verslag van en voegt deze toe aan het toetredingsdossier. De simulator- en ketentests vinden plaats in het testnetwerk ( ). Proces beheren testnetwerk
+De simulatortest wordt uitgevoerd met een simulator, een instrument dat berichten verzendt en de
+antwoorden beoordeelt op conformiteit aan het afsprakenstelsel. In de ketentest worden ketens van  , , Dienstverlener (DV) Herkenningsmakelaar (HM)
+,   ,   en/of BSNk getest, Authenticatiedienst (AD) Machtigingenregister (MR) eIDAS-berichtenservice (EB)
+door met een gesimuleerde dienstverlener berichten te versturen naar de verschillende
+Herkenningsmakelaars in het netwerk. De focus van deze test is interoperabiliteit. Voor meer informatie over testen voor deelnemers, zie . Testing
+Output Presentatie/demonstratie van de interoperabiliteit in het testnetwerk
+Wie? Coördinator Toetreden
+Toetreder
+3b. Toelichting Toets Informatiebeveiliging (ISO27001 audit )
+Input Formeel verzoek tot toetreding + afspraken over het te doorlopen proces
+Activiteit De Toetreder moet aantonen dat stappen zijn gezet om ISO27001 gecertificeerd te worden en vraagt een
+Certificerende Instelling (in casu de ISO-auditor) een ISO27001 certificeringsaudit uit te voeren, waarbij de
+scope van het toepassingsgebied in ieder geval een aanduiding van de rollen bevat die de Toetreder wil gaan
+uitvoeren in het afsprakenstelsel. Indien de Toetreder al ISO27001 gecertificeerd is kan het zijn dat de scope van het toepassingsgebied wijzigt,
+waardoor ook nieuwe maatregelen toegevoegd dienen te worden. Bovenstaande kan dan ook van toepassing
+zijn. Het rapport van de ISO-auditor (waaruit tenminste blijkt dat de opzet en bestaan van alle relevante
+maatregelen getoetst is) en de bijbehorende Verklaring van Toepasselijkheid wordt vervolgens door de
+Toetreder aangeleverd bij de Coördinator Toetreden. Zie . Beleid voor informatiebeveiliging
+Het ISO-certificaat dient binnen 6 maanden na toetreding te worden aangeleverd bij de Toezichthouder via het
+Secretariaat van de CvD. Zie voor de informatiebeveiligingseisen waaraan de Toetreder moet voldoen om te mogen toetreden:  Beleid
+voor informatiebeveiliging
+Output ISO-certificaat of verklaring
+Wie? Vanuit de Toetreder de aangestelde contactpersoon
+ToetrederAfsprakenstelsel Elektronische Toegangsdiensten | pagina 3973c. Toelichting Penetratietest
+Input Formeel verzoek tot toetreding + afspraken over het te doorlopen proces
+Activiteit De Toetreder is verplicht om een penetratietest te ondergaan die overeenkomt met het Beleid voor
+. penetratietesten
+De Toetreder levert de resultaten van de penetratietest op bij de Beheerorganisatie. Output Gecontroleerde resultaten penetratietest
+Wie? Coördinator Toetreden
+Toetreder
+4. Overdracht van dossier Toetreden naar het Secretariaat van de Commissie van Deskundigen
+Input Dossier van de Beheerorganisatie
+Activiteit De Beheerorganisatie controleert de documentatie op volledigheid en beoordeelt, indien van toepassing, de
+testresultaten van de Toetreder. De Beheerorganisatie doet een melding aan het Secretariaat van de CvD zodra
+de bewijsstukken compleet zijn. De beheerorganisatie rapporteert het Secretariaat van de CVD over de
+uitkomst van de beoordeling van de testresultaten. Output Brief met melding een compleet dossier. Overdrachtsdossier met bewijsstukken. Wie? Coördinator Toetreden
+Secretariaat van de CvD
+5. Toetsing door het secretariaat van de Commissie van Deskundigen
+Input Overdrachtsdossier met bewijsstukken
+Activiteit Het secretariaat van de CvD toetst of de procesbeschrijvingen behorende bij de rol waarin de Toetreder wil
+toetreden voldoen aan de eisen zoals gesteld in het . Normenkader betrouwbaarheidsniveaus Het toetsen van
+Dit geldt zowel bij nieuwe de opzet van de processen gebeurt, met het principe van hoor en wederhoor. toetreding als bij tussentijdse wijziging van deze processen. Het secretariaat van de CvD beoordeelt het toetredingsdossier en stelt een controlememorandum op. Dit
+memorandum bevat de bevindingen van de procesbeschrijvingen van de Toetreder ten opzichte van het
+Normenkader Betrouwbaarheidsniveaus. Output Gecontroleerde procesbeschrijving(en). Controlememorandum.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 398Wie? Secretariaat van de CvD
+Toetreder
+Coördinator Toetreden
+6. Opstellen advies door Commissie van Deskundigen en besluit toetreding door Eigenaar
+Input Controlememorandum
+Beschrijving De CvD stelt een advies op basis van de bewijsstukken en de bevindingen uit het controlememorandum. De CvD adviseert de Minister (in zijn rol als Eigenaar) over de toetreding. De Eigenaar neemt een besluit op basis van het advies van de CvD. Een eventueel negatief besluit wordt
+door de Eigenaar gecommuniceerd naar de Toetreder en daarmee eindigt het proces toetreden. Na een positief besluit wordt een Deelnemersovereenkomst afgesloten. De Eigenaar maakt, gebaseerd op
+het herstel van bevindingen genoemd in het controlememorandum, afspraken over het oplossen die
+bevindingen. Het CvD ziet toe op de opvolging van deze afspraken. Na rechtsgeldige ondertekening van de deelnemersovereenkomst heeft de toetredende partij rechten en
+verplichtingen als deelnemer van het afsprakenstelsel. De Coördinator Toetreden stelt het Tactisch Beraad op de hoogte van de toetreding. Output Getekende overeenkomst
+Besluit aan Toetreder
+Wie? Commissie van Deskundigen
+Eigenaar
+Toetreder
+7.

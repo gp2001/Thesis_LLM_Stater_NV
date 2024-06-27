@@ -1,0 +1,108 @@
+v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.10 Cryptografie
+A.10.1 Cryptografische beheersmaatregelen  Zorgen voor correct en doeltreffend
+gebruik van cryptografie om de
+vertrouwelijkheid, authenticiteit en
+/of integriteit van informatie te
+beschermen. A. 10.1.1Beleid inzake het gebruik van
+cryptografische beheersmaatregelen Ter bescherming van informatie moet
+een beleid voor het gebruik van
+cryptografische beheersmaatregelen
+worden ontwikkeld en
+geïmplementeerd. S S S Conform Information security
+requirements
+A. 10.1.2Sleutelbeheer  Met betrekking tot het gebruik, de
+bescherming en de levensduur van
+cryptografische sleutels moet tijdens
+hun gehele levenscyclus een beleid
+worden ontwikkeld en
+geïmplementeerd. Sv Sv Sv Conform Information security
+requirements
+A.11 Fysieke beveiliging en beveiliging
+van de omgeving Deelnemers en BO vullen dit naar
+eigen inzicht in. A.11.1 Beveiligde gebieden  Onbevoegde fysieke toegang tot, Afsprakenstelsel Elektronische Toegangsdiensten | pagina 901schade aan en interferentie met
+informatie en informatieverwerkende
+faciliteiten van de organisatie
+voorkomen. A. 11.1.1Fysieke beveiligingszone Beveiligingszones moeten worden
+gedefinieerd en gebruikt om
+gebieden te beschermen die gevoelige
+of essentiële informatie en
+informatieverwerkende faciliteiten
+bevatten. v v v
+A. 11.1.2Fysieke toegangsbeveiliging  Beveiligde gebieden moeten worden
+beschermd door passende
+toegangsbeveiliging om ervoor te
+zorgen dat alleen bevoegd personeel
+toegang krijgt. v v v
+A. 11.1.3Kantoren, ruimten en faciliteiten
+beveiligenVoor kantoren, ruimten en
+faciliteiten moet fysieke beveiliging
+worden ontworpen en toegepast. v v v
+A. 11.1.4Beschermen tegen bedreigingen van
+buitenaf Tegen natuurrampen, kwaadwillige
+aanvallen of ongelukken moet fysieke
+bescherming worden ontworpen en
+toegepast.v v v
+A. 11.1.5Werken in beveiligde gebieden  Voor het werken in beveiligde
+gebieden moeten procedures worden
+ontwikkeld en toegepast. v v v
+A. 11.1.6Laad- en loslocatie  Toegangspunten zoals laad- en
+loslocaties en andere punten waar
+onbevoegde personen het terrein
+kunnen betreden, moeten worden
+beheerst, en zo mogelijk worden
+afgeschermd van v v vAfsprakenstelsel Elektronische Toegangsdiensten | pagina 902informatieverwerkende faciliteiten
+om onbevoegde toegang te
+vermijden. A.11.2 Apparatuur  Verlies, schade, diefstal of
+compromittering van
+bedrijfsmiddelen en onderbreking
+van de bedrijfsvoering van de
+organisatie voorkomen. A. 11.2.1Plaatsing en bescherming van
+apparatuur Apparatuur moet zo worden geplaatst
+en beschermd dat risico’s van
+bedreigingen en gevaren van
+buitenaf, alsook de kans op
+onbevoegde toegang worden
+verkleind.v v v
+A. 11.2.2Nutsvoorzieningen  Apparatuur moet worden beschermd
+tegen stroomuitval en andere
+verstoringen die worden veroorzaakt
+door ontregelingen in
+nutsvoorzieningen.v v v
+A. 11.2.3Beveiliging van bekabeling  Voedings- en
+telecommunicatiekabels voor het
+versturen van gegevens of die
+informatiediensten ondersteunen,
+moeten worden beschermd tegen
+interceptie, verstoring of schade. v v v
+A. 11.2.4Onderhoud van apparatuur  Apparatuur moet correct worden
+onderhouden om de continue
+beschikbaarheid en integriteit ervan
+te waarborgen. v v v
+A. 11.2.5Verwijdering van bedrijfsmiddelen  Apparatuur, informatie en software
+mogen niet van de locatie worden
+meegenomen zonder voorafgaande
+goedkeuring. v v vAfsprakenstelsel Elektronische Toegangsdiensten | pagina 903A. 11.2.6Beveiliging van apparatuur en
+bedrijfsmiddelen buiten het terrein Bedrijfsmiddelen die zich buiten het
+terrein bevinden, moeten worden
+beveiligd, waarbij rekening moet
+worden gehouden met de
+verschillende risico’s van werken
+buiten het terrein van de organisatie. v v v
+A. 11.2.7Veilig verwijderen of hergebruiken
+van apparatuur Alle onderdelen van de apparatuur die
+opslagmedia bevatten, moeten
+worden geverifieerd om te
+waarborgen dat gevoelige gegevens
+en in licentie gegeven software
+voorafgaand aan verwijdering of
+hergebruik zijn verwijderd of veilig
+zijn overschreven. Sv Sv Sv Belangrijk hierbij is dat
+wanneer apparatuur wordt
+verwijderd/hergebruikt of
+anderszins er gecontroleerd
+moet worden dat gevoelige
+gegevens (bijv. persoonsgegevens,
+metagegevens,
+routeringstabellen, etc.)
+onleesbaar worden gemaakt. A.

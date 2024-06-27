@@ -1,0 +1,38 @@
+3. Verdere informatie
+Er zijn  definities in het afsprakenstelsel opgenomen waarin de minimale service level afspraken zijn Service level
+opgenomen die van toepassing zijn op de dienstverlening van de herkenningsmakelaar en de dienstverlener. Tussen de
+herkenningsmakelaar en de dienstverlener wordt een overeenkomst afgesloten die betrekking heeft op dienst(en) die door
+de herkenningsmakelaar worden geleverd en waarop tevens de  van Gebruiksvoorwaarden Elektronische Toegangsdiensten
+toepassing zijn. Hier kunnen ook (additionele) service level afspraken in worden opgenomen. In Interface specifications DV-
+is het koppelvlak tussen dienstverlener en Herkenningsmakelaar technisch beschreven en de specificatie van de HM
+dienstencatalogus uitgewerkt. Sluit u als (SaaS-)leverancier aan namens een ? Er is sprake van  in de volgende Dienstverlener (DV) Dienstbemiddeling
+gevallen:
+U wilt gebruikmaken van uw eigen SSL-certificaat;
+U kunt geen gebruikmaken van het SSL-certificaat van de dienstverlener;
+Hetzelfde portaal/dezelfde aansluiting wordt namens meer dan één dienstverlener aangeboden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 29Meedoen als dienstafnemerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 30Hoe doe ik mee als dienstafnemer? Dienstafnemers kunnen meedoen met eHerkenning door de aanschaf van een authenticatiemiddel waarmee ze kunnen
+inloggen bij een dienstverlener die aangesloten is op eHerkenning. Met dit middel kunnen ze inloggen en een dienst
+afnemen of een elektronische handtekening zetten. Bij eHerkenning kan ook een vertegenwoordiger van de dienstafnemer
+gemachtigd worden voor het doen van transacties. Deze vertegenwoordigingsbevoegdheid moet in
+een machtigingenregister zijn vastgelegd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 31Met wie doe ik zaken als dienstafnemer? Een dienstafnemer bepaalt zelf welk middel hij aanschaft, zolang het maar aan het gevraagde betrouwbaarheidsniveau
+voldoet. Deze keuzevrijheid geldt ook voor het registreren van machtigingen. Het Afsprakenstelsel is zo opgezet dat veel
+verschillende soorten authenticatiemiddelen gebruikt kunnen worden, bijvoorbeeld gebruikersnaam/wachtwoorden, card /
+card readercombinaties, VPN tokens, maar ook mobiele telefoons met TANs. De beheerorganisatie maakt een steeds actueel
+overzicht van de toegetreden aanbieders van authenticatiemiddelen openbaar, zie  Een https://eherkenning.nl/leveranciers . dienstafnemer mag middelen bij meer dan één middelenuitgever aanschaffen en bevoegdheden in meerdere
+machtigingenregisters laten vastleggen. Omdat de registratieprocedures voor het verkrijgen van authenticatiemiddelen en
+het vastleggen van bevoegdheden gedeeltelijk dezelfde gegevens betreffen kan het voorkomen dat middelenuitgever en
+machtigingenregister samenwerken door de benodigde registraties in één proces aan bedrijven aan te bieden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 32Gebruiksvoorwaarden
+De Deelnemers zijn verplicht om een overeenkomst af te sluiten op basis waarvan de  worden verleend Herkenningsdiensten
+en waarop de Deelnemer verplicht is de  van toepassing te verklaren. Gebruiksvoorwaarden Elektronische Toegangsdiensten
+Wanneer een dienstafnemer het gebruik van eHerkenning wil beëindigen kan zij bevoegdheden en eventueel
+authenticatiemiddelen laten intrekken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 33Betrouwbaarheidsniveaus
+Binnen het afsprakenstelsel zijn middelen op verschillende betrouwbaarheidsniveaus beschikbaar. De dienstverlener geeft
+aan met welk betrouwbaarheidsniveau de dienstafnemer moet inloggen of ondertekenen. De dienstafnemer bepaalt op welk
+betrouwbaarheidsniveau hij een inlogmiddel wil aanschaffen, zolang hij met dit middel maar aan het
+. Conform de eisen van dit betrouwbaarheidsniveau voldoet wat voor de afname van een dienst vereist is
+betrouwbaarheidsniveau wordt zijn identiteit vastgesteld en wordt het middel daadwerkelijk verstrekt. De procedure
+daarvoor varieert per betrouwbaarheidsniveau. De verschillen in de registratieprocedures per betrouwbaarheidsniveau zijn te
+vinden in . Normenkader betrouwbaarheidsniveausAfsprakenstelsel Elektronische Toegangsdiensten | pagina 34Aansluiten als dienstbemiddelaar
+Binnen het stelsel wordt bij het begrip Dienstverlener onderscheid gemaakt in dienstbemiddelaar en dienstaanbieder. Dit
+onderscheid is vooral van belang bij Dienstbemiddeling. De Dienstbemiddelaar is een   Dienstverlener (DV) die de
+Dienstafnemer ondersteunt in het afnemen van een digitale   Dienst ten behoeve van de   Dienstaanbieder (DA) door middel
+van  Dienstbemiddeling . Afsprakenstelsel Elektronische Toegangsdiensten | pagina 351. 2.

@@ -1,0 +1,73 @@
+TemporarilyUnavailable Request could temporarily not be processed. A new request for registration MAY be sent at a later
+moment by the requesting party.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 652
+BSNk: transform
+The most recent version of the technical BSNk specifications are available on  or on https://wiki.bsn-koppelregister.nl/
+request (beheerorganisatie BSNk through . The information below is for information only. servicecentrum@logius.nl)
+In order to realize step 7 in the    an interface is necessary beween the MR and AUC3.1 Registreren bevoegdheid eenmanszaken
+BSNk. This interface wil implement  for the MR. In order to facilitate the transformation of the PI this AUC6 Activeren BSN
+interface will also implement  . This will allow the MR to transform the PI  to the VI of the owner of the AUC10 Transformeren
+sole trader for the DV who requested this information. This interface describes the message exchange between MR and BSNk. It fulfills two functions: obtaining a Polymorphic
+Pseudonym and Polymorphic Identity for a newly registered user with the MR (activate) and transforming a Polymorphic
+Pseudonym or Polymorphic Identity to an Encrypted Pseudonym or Encrypted Identity specialized for a Relying Party.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 653Interface Transform
+This interface between an Machtigingenregisterand BSNk transforms a given Polymophic Pseudonym to a Relying Party
+specific Encrypted Pseudonym or Polymorphic Identity to an Encrypted Identity. An Machtigingenregister uses this interface
+after authenticating an User. WSDL transform
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+xmlns:bsnk="urn:nl-gdi-eid:1.0:webservices"
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+name="BSNk_transform"
+targetNamespace="urn:nl-gdi-eid:1.0:webservices">
+<wsdl:types>
+<xsd:schema targetNamespace="urn:nl-gdi-eid:1.0:webservices"
+attributeFormDefault="unqualified"
+elementFormDefault="qualified">
+<xsd:element name="ProvideEPRequest" type="bsnk:ProvideEncryptedRequestType">
+<xsd:annotation>
+<xsd:documentation>Request message to provide an encrypted
+pseudonym of a user for a specific relying party
+(service provider). </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ProvideEIRequest" type="bsnk:ProvideEncryptedRequestType">
+<xsd:annotation>
+<xsd:documentation>Request message to provide an encrypted
+identity of a user for a specific relying party
+(service provider). </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:complexType name="ProvideEncryptedRequestType">
+<xsd:complexContent>
+<xsd:extension base="bsnk:BSNkProvideRequestBasetype">
+<xsd:sequence>
+<xsd:element name="RelyingParty" type="bsnk:OINType" />
+<xsd:element name="RelyingPartyKeySetVersion" type="bsnk:KeyVersionType" />
+<xsd:element name="PolymorphicPseudonym" type="bsnk:PolymorphicPseudonymType" />
+<xsd:element name="Role" type="bsnk:RoleType" minOccurs="0" />
+<xsd:element name="TransactionID" type="bsnk:TransactionIDType" minOccurs="0" />
+</xsd:sequence>
+</xsd:extension>
+</xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="BSNkProvideRequestBasetype" abstract="true">
+<xsd:sequence>
+<xsd:element name="Requester" type="bsnk:OINType" />
+</xsd:sequence>
+<xsd:attribute name="DateTime" type="xsd:dateTime" use="required" />
+<xsd:attribute name="RequestID" type="xsd:ID" use="required" />
+</xsd:complexType>
+<xsd:complexType name="PolymorphicPseudonymType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:base64Binary"/>Afsprakenstelsel Elektronische Toegangsdiensten | pagina 654                </xsd:simpleContent>
+</xsd:complexType>
+<xsd:simpleType name="KeyVersionType">
+<xsd:annotation>
+<xsd:documentation>Key(set) version type.</xsd:documentation>
+</xsd:annotation>
+<xsd:restriction base="xsd:positiveInteger"/>
+</xsd:simpleType>
+<xsd:simpleType name="OINType">
+<xsd:annotation>
+<xsd:documentation>OIN type.

@@ -1,0 +1,80 @@
+OnderhoudAfsprakenstelsel Elektronische Toegangsdiensten | pagina 833Exchange metadata
+Within the network, all Herkenningsmakelaars, Authenticatiediensten and Machtigingenregisters should exchange each
+others metadata, so the systems can verify the origin of a request and subsequently process it. The beheerorganisatie has a process in place to aggregate metadata and publish one file which contains all relevant
+metadata. For the test environment, this also contains the metadata for all simulated entities, including the simulated
+Dienstverlener. Refer to   for the process of metadata aggregation. Proces netwerkmetadataAfsprakenstelsel Elektronische Toegangsdiensten | pagina 834Process service catalog
+All systems in the network must be aware of the properties of each service, in order to process authentication requests in a
+correct way. For this purpose, the beheerorganisatie maintains a aggregated  . See service catalog Proces doorvoeren nieuwe
+.For the test network, there is a separate service catalog, which holds all services which are offered by the dienstencatalogus
+simulated Dienstverlener.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 835Network monitoring
+The Beheerorganisatie does not actively monitor the network's status. It is possible to monitor the networkstatus by executing automatic tests periodically. For this purpose, participants might
+purchase or develop their own tooling. Whenever the participants wish to monitor the network themselves actively, they
+MUST use the monitoring OIN (99999900000002) which is mentioned in the service catalog.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 836Informatiebeveiliging en privacy
+Dit hoofdstuk bevat de normenkaders en het beleid aangaande borging van veiligheid, privacy en continuïteit van
+Elektronische Toegangsdiensten. Het bevat de volgende onderdelen:
+Beleid voor informatiebeveiliging  — Dit document bevat het beleid voor informatiebeveiliging dat onderdeel is van
+het Afsprakenstelsel Elektronische Toegangsdiensten. Privacybeleid  — Om Herkenningsdiensten te kunnen leveren worden persoonsgegevens verwerkt. De verwerking van
+persoonsgegevens is alleen rechtmatig als wordt voldaan aan de voorwaarden die de Algemene verordening
+gegevensbescherming (AVG) of andere toepasselijke specifieke privacy wet- en regelgeving hieraan stelt. Gemeenschappelijk normenkader informatiebeveiliging  — ISO 27001:2013 beheersdoelstellingen en
+beheersmaatregelen binnen de scope van eToegangsdiensten, - activiteiten, -objecten en -informatie
+Normenkader betrouwbaarheidsniveaus  — Beschrijft de wijze waarop authenticatiemiddelen en machtigingen
+geclassificeerd worden op betrouwbaarheidsniveau en de normen die daarbij worden toegepast. Attributenbeleid
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 837Beleid voor informatiebeveiliging
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Dit document bevat het beleid voor informatiebeveiliging dat onderdeel is van het Afsprakenstelsel Elektronische
+Toegangsdiensten. Het is voorzien dat het Afsprakenstelsel een groeiende maatschappelijke rol vervult in het burgerdomein, bedrijvendomein
+en consumentendomein als leverancier van vertrouwen tussen gebruikers en aanbieders van online diensten. De diensten
+die binnen de kaders van het stelsel worden geleverd zijn vertrouwensdiensten en daarmee een essentieel onderdeel van de
+strategie voor informatiebeveiliging van Gebruikers en Dienstverleners. Het verwerven en behouden van vertrouwen van de
+Dienstverleners en Gebruikers is daarom een belangrijke randvoorwaarde voor het succes van het Stelsel. Het
+Afsprakenstelsel bevat de strategische, tactische en operationele eisen waaraan partijen moeten voldoen om
+te mogen leveren als onderdeel van het (zie ). Het beleid voor informatiebeveiliging is Herkenningsdiensten stelsel  Algemeen
+een instrument voor de borging van dit vertrouwen. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 838Doelstelling
+Het beleid voor informatiebeveiliging bevat beleidskaders die tot doel hebben de veilige en betrouwbare werking van het
+Stelsel te waarborgen. Beleidsdoelstellingen:
+De Gebruikers en Dienstverleners ervaren een ongestoorde en veilige werking van de stelseldiensten die zij afnemen. Deelnemers, Beheerorganisatie van het stelsel en de beheerder van het BSNk integreren informatiebeveiliging in hun
+bedrijfsvoering en informeren de . Toezichthouder
+De Eigenaar (merkeigenaar en politiek verantwoordelijke) van het Stelsel is in staat gesteld om op transparante wijze
+verantwoording af te leggen over het behalen van de doelstelling van dit beleid. De Toezichthouder is in staat gesteld om effectief en onafhankelijk het publieke belang van het Stelsel te bewaken op
+de naleving van stelselafspraken inzake informatiebeveiliging van het Stelsel. Dit beleid is van toepassing voor alle partijen die deelnemen in het Stelsel en vastgesteld door het  van het Tactisch Beraad
+Stelsel. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 839Organisatie van verantwoordelijkheid voor informatiebeveiliging
+Het Stelsel kent verschillende rolhouders die elke een eigen verantwoordelijkheid hebben voor de informatiebeveiliging van
+het Stelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 840Eigenaarsrol
+De  van het Stelsel is politiek verantwoordelijk voor de veilige en betrouwbare werking van het Stelsel. De Eigenaar Eigenaar
+formuleert daartoe een interne controlestrategie voor het Stelsel en handelt daarnaar. De Eigenaar is 'Merkeigenaar' van het
+Stelsel en verantwoordelijk voor de merkbescherming. De houder van de rol Eigenaar van het Stelsel is de Minister van
+Binnenlandse Zaken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 841Beheerdersrol
+De  van het Stelsel voert zijn taken uit in opdracht van de Eigenaar. De Beheerorganisatie is Beheerorganisatie (BO)
+verantwoordelijk voor de informatiebeveiliging van zijn eigen activiteiten en coördineert de informatiebeveiliging op het
+niveau van het Stelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 842BSNk
+BSNk heeft als rol een bijzondere positie in het Stelsel. Het ministerie van BZK is opdrachtgever van het BSNk. De Beheerder
+van het BSNk is geen deelnemer maar moet wel voldoen aan het Afsprakenstelsel, net als een Deelnemer of de
+Beheerorganisatie van het Stelsel. De Beheerder van het BSNk is daarmee ook verantwoordelijk voor de
+informatiebeveiliging van zijn eigen activiteiten. In dit document wordt waar beheerder van het BSNk is bedoeld gesproken
+over BSNk.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 843Deelnemersrol
+De  in het Stelsel is een private partij of publieke partij die is toegetreden tot het Stelsel. De Deelnemer is Deelnemer
+verantwoordelijk voor de informatiebeveiliging van zijn eigen stelselactiviteiten en infrastructuur. De Deelnemers zijn
+verantwoordelijk voor de naleving van de Stelselafspraken inzake informatiebeveiliging en tevens voor de controle op de
+naleving van de stelselvoorwaarden voor de afname van stelseldiensten door Gebruikers en Dienstverleners.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 844Dienstverlenersrol
+De  in het Stelsel is een private partij of publieke partij die Stelseldiensten afneemt van de Deelnemer in Dienstverlener (DV)
+het Stelsel. De Dienstverlener is zelf verantwoordelijk voor de informatiebeveiliging van de online dienst die met behulp van
+het Stelsel aanbiedt. De Dienstverlener is tevens verantwoordelijk voor de naleving van de voorwaarden voor afname van
+stelseldiensten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 845Gebruikersrol
+Gebruikers zijn individuele personen en bedrijven. Gebruikers nemen authenticatiediensten en diensten voor machtigingen
+af van Deelnemers in het stelsel. Gebruikers zijn verantwoordelijk voor de informatiebeveiliging van de eigen
+gebruikersomgeving.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 846Toezichthouderrol
+Als  van het publiek-private afsprakenstelsel voor elektronische toegangsdiensten, is de Minister van Binnenlandse Eigenaar
+Zaken tevens . Om de rollen van Eigenaar en Toezichthouder zo veel als mogelijk te scheiden, is een Toezichthouder
+ingesteld door de Ministerraad. Commissie van Deskundigen (CvD)
+De Toezichthouder houdt toezicht op de naleving van stelselafspraken door de Eigenaar, Beheerder, Deelnemers en BSNk. De Commissie van Deskundigen adviseert over te nemen stappen in het kader van toezicht. Hiermee krijgt de minister een
+onafhankelijk advies over toetredingen en te ondernemen acties in het kader van handhaving en optreden bij incidenten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 847De rol van de Stelselgovernance
+De ontwikkeling en het onderhoud van het Stelsel is door de Eigenaarsrol belegd bij de Stelselgovernance. De governance
+omvat het , het  en het , in deze raden zijn de Deelnemers en de Strategisch Beraad Tactisch Beraad Operationeel Beraad
+Dienstverleners vertegenwoordigd, de Beheerorganisatie van het Stelsel vervult de secretarisrol. Besluiten over wijzigingen
+van Stelselafspraken worden binnen het mandaat van het Strategisch Beraad door het Tactisch Beraad genomen op advies
+van het Operationeel beraad. Het Tactisch Beraad vervult daarmee het dagelijks bestuur van het Stelsel en is onder meer
+verantwoordelijk voor de afweging van beveiligingsrisico's en maatregelen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 848Generieke beleidsuitgangspunten voor informatiebeveiliging
+Het Stelsel kent de volgende generieke beleidsuitgangspunten voor informatiebeveiliging: Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8491. 2. 3.

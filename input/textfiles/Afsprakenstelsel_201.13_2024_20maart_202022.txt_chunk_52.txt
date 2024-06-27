@@ -1,0 +1,21 @@
+4. Beschrijft de scope van de dienstverlening waarvoor het exit-plan van toepassing is. Doel van deze paragraaf is dat de medewerker die verantwoordelijk wordt gesteld voor de uitvoering van het exitplan snel
+overzicht over het speelveld kan krijgen. Beschrijft de stelsel-rollen waarvoor is toegetreden, inclusief verwijzing naar actuele brongegevens. Beschrijft de diensten, functionaliteiten waarvoor is toegetreden, inclusief verwijzing naar actuele brongegevens. Beschrijft de omvang van de dienstverlening (markt, klanten) of verwijst voor deze informatie naar actuele
+bedrijfsinterne bronnen. Beschrijft welk scenario voor welke rollen en dienstverlening van toepassing is. 3. Het Exit-scenario
+Dit hoofdstuk beschrijft een of meerdere exit scenario’s voor de diensten die zijn opgenomen in hoofdstuk 2. Dit hoofdstuk
+sluit aan bij hetgeen in het Operationeel handboek over het proces uittreden is opgenomen (RFC2041). Daar waar het
+relevant is, maakt het plan een onderscheid tussen een geplande en ongeplande stop van de dienstverlening. Doelstelling
+Beschrijft in grote lijnen wat het scenario beoogt te bereiken. Stappenplan
+Beschrijft de activiteiten die uitgevoerd moeten worden, geeft hierbij aan hoe kerndoelen 1-5 concreet worden
+ingevuld met welk resultaat en gewenste doorlooptijd. Daarnaast beschrijft het de afhankelijkheden tussen de
+activiteiten. Dit stappenplan moet door de verantwoordelijke definitief ingevuld kunnen worden op het moment dat
+het exitplan in werking moet treden. Verantwoordelijkheden
+Beschrijft de verantwoordelijkheden voor de uitvoering van elke activiteit en ‘wie’ (persoon/afdeling) de activiteit
+daadwerkelijk uitvoert. Contact
+Beschrijft de contactgegevens van de relevante personen bij de Toezichthouder en Beheerorganisatie en de
+contactgegevens van de verantwoordelijke en beheerder voor dit exitplan bij de Deelnemer. Specifieke aandachtspunten voor de verschillende rollen
+Rol MU/AD:
+realisatie van privacy-waarborgen die borgen dat gebruikersgegevens en gebruiksgegevens conform gelden
+privacy wet- en regelgeving worden verwerkt;
+realisatie van doeltreffende waarborgen voor de communicatie naar gebruikers. Rol HM:
+realisatie van waarborgen voor de communicatie naar Dienstverleners. Rol MR:
+waarborgen voor de communicatie richting Dienstafnemer. Alle rollen:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 4121. 2. 3.

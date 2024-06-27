@@ -1,0 +1,152 @@
+Die genereert en verstrekt een Polymorf Pseudoniem en
+Polymorfe Identi
+AUC7 Proces verlenen toestemming dienstbemiddeling  — Voor Diensten die via Dienstbemiddeling kunnen worden
+ontsloten, kan toestemming van de Dienstaanbieder (DA) benodigd zijn. Dit proces beschrijft de werkwijze voor het
+verlenen van toestemming door een Dienstaanbieder aan een Dienstbemiddelaar (DB) om een Dienst te mogen
+bemiddelen. AUC8 Verkrijgen lijst Authenticatiediensten
+AUC9 Verstrekken sleutelmateriaal Dienstverleners  — Het BSNk beheert en verstrekt via een Herkenningsmakelaar
+cryptografisch sleutelmateriaal aan elke Dienstverlener (DV) die aantoonbaar beschikt over een PKIoverheid-
+certificaat. Indien de Dienstverlener geautoriseerd is om het BSN te verwerken verstrekt het BSNk speciaal
+BSN Sleutelmateriaal. De Dienstverlener ontsleutelt met dit Sleutelmateriaal het Versleutelde Identiteit of
+Versleutelde Pseudoniem van de Gebruiker dat de Dienstverlener verstrekt. AUC10 Transformeren
+AUC10.2 MachtigingsRegister of Authenticatiedienst gebruikt BSNk transformatie functie
+AUC10.3 HSM transformatie
+AUC11Afsprakenstelsel Elektronische Toegangsdiensten | pagina 507AUC1 Aansluiten dienst
+In deze use case wordt een dienst van een dienstverlener aangesloten op Elektronische Toegangsdiensten. De invulling van
+deze use case is onderdeel van het competitieve domein van Elektronische Toegangsdiensten en wordt in zijn geheel
+overgelaten aan de Herkenningsmakelaar. Hierbij dient een Herkenningsmakelaar in elk geval te voldoen aan de in AUC1
+gestelde eisen. Aansluiten dienst
+Bij de implementatie van deze use case gelden de volgende eisen:
+De Herkenningsmakelaar MOET een overeenkomst met de dienstverlener sluiten. Zie ook . Deze Juridisch kader
+overeenkomst MOET in lijn zijn met de . Gebruiksvoorwaarden Elektronische Toegangsdiensten
+De Herkenningsmakelaar MOET waarborgen dat de dienstverlener het koppelvlak DV-HM zoals beschreven in
+of een gelijkwaardig koppelvlak correct heeft geïmplementeerd. In het geval van Interface specifications
+Dienstbemiddeling MOET de Herkenningsmakelaar ook waarborgen dat de bij die Herkenningsmakelaar aangesloten
+dienstaanbieder/dienstbemiddelaar het koppelvlak DB-DA zoals beschreven in  correct heeft Interface specifications
+geïmplementeerd. De Herkenningsmakelaar MOET waarborgen dat de dienst(en) van de dienstverlener, het bijbehorende
+betrouwbaarheidsniveau, toestemming voor dienstbemiddeling en de toegestane typen dienstafnemers correct,
+voorzien van een uniek nummer in een dienstencatalogus worden beschreven en dat deze dienstencatalogus wordt
+aangeleverd bij de beheerorganisatie. Zie  en  . Operationeel handboek Interface specifications
+In het geval de aan te sluiten dienst van een Dienstbemiddelaar is, MOET de Herkenningsmakelaar vooraf in de
+dienstencatalogus controleren of toestemming voor de dienst van de dienstaanbieder vereist is en zo ja, controleren
+toestemming heeft verstrekt. Indien of de dienstaanbieder in de dienstencatalogus controleren de dienstbemiddelaar
+de toestemming na aansluiting komt te vervallen, is dat reden om de aansluiting van de dienst op te schorten. De Herkenningsmakelaar MOET voor de Dienstverlener sleutelmateriaal ophalen bij BSNk voor het ontsleutelen van
+DV-specifieke Versleutelde Pseudoniemen c.q. Versleutelde Identiteiten en leveren aan een ontvangende partij, zie
+. AUC9 Verstrekken sleutelmateriaal Dienstverleners
+De Herkenningsmakelaar MOET controleren of een Dienstverlener gerechtigd is het BSN te ontvangen bij de
+autorisatielijst BSN, wanneer een Dienstverlener in de dienstencatalogus een EntityConcernedTypeAllowed
+EncryptedBSN registreert. De Herkenningsmakelaar MOET de legitimiteit controleren door middel van een controle op de authorisatielijst
+BSN wanneer een dienst DeprecatedServiceProviderID toepast. N.B. Een dienstverlener ZOU een uniek nummer voor een dienst NIET MOETEN hergebruiken voor andere diensten. Wanneer
+een dienstverlener een dienst of de beschrijving van een dienst wijzigt MOET de dienstverlener waarborgen dat de betekenis
+van de dienst gelijk blijft en daarmee geregistreerde bevoegdheden geldig blijven. In het geval dat de dienstverlener dit niet
+kan of wil waarborgen MOET een nieuw uniek nummer worden toegekend.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 508Alternatieve scenario's
+Voor deze use case zijn geen alternatieve scenario's gedefinieerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 509AUC2 Verkrijgen authenticatiemiddel
+In deze use case verkrijgt de gebruiker een voor Elektronische Toegangsdiensten geschikt authenticatiemiddel. Dit kan op
+verschillende manieren: Het kan zijn dat de gebruiker een eigen (privé) middel verkrijgt, maar het kan ook zijn dat de
+gebruiker het middel op initiatief van, of door zijn werkgever krijgt uitgereikt of dat de gebruiker een eerder verkregen
+authenticatiemiddel registreert bij een middelenuitgever voor gebruik binnen Elektronische Toegangsdiensten. Bij de
+registratie kan een middel worden gekoppeld aan één of meer identificerende kenmerken van beroepsbeoefenaren. De
+invulling van deze use case is onderdeel van het competitieve domein van Elektronische Toegangsdiensten en wordt
+grotendeels overgelaten aan de middelenuitgever. Hierbij dient een middelenuitgever in elk geval te voldoen aan de in AUC2
+gestelde eisen. Verkrijgen authenticatiemiddel
+Bij de implementatie van deze use case gelden de volgende eisen:
+De middelenuitgever MOET alle processen beschrijven en inrichten volgens de eisen voor het betreffende
+betrouwbaarheidsniveau zoals beschreven in . De beschrijvingen MOETEN Normenkader betrouwbaarheidsniveaus
+via de website van de middelenuitgever worden gepubliceerd. De middelenuitgever MAG NIET betrouwbaarheidsniveaus voeren of gebruiken waarvoor hij geen expliciete
+toestemming heeft van de beheerorganisatie. De middelenuitgever MOET een overeenkomst met de gebruiker en/of de dienstafnemer sluiten. Zie ook Juridisch
+. kader
+De middelenuitgever MOET waarborgen dat het authenticatiemiddel te gebruiken is bij ten minste één
+authenticatiedienst en daar uniek is te authenticeren. De middelenuitgever MOET waarborgen dat voor het authenticatiemiddel bevoegdheden kunnen worden
+geregistreerd in een machtigingenregister. De middelenuitgever MAG het BSN van de gebruiker eenmalig gebruiken om deze te activeren bij BSNk zodat het
+eHerkenningsmiddel gebruikt kan worden voor diensten die zijn polymorfe pseudoniem en/of polymorfe identiteit
+vereisen. Hiervoor MOET de middelenuitgever expliciete toestemming hebben van de gebruiker in kwestie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 510Alternatieve scenario's
+Voor deze use case zijn geen alternatieve scenario's gedefinieerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 511AUC3 Registreren bevoegdheid
+In deze use case legt de dienstafnemer de bevoegdheid van een gebruiker vast in een machtigingenregister. Deze
+bevoegdheid kan voortvloeien uit een machtiging of een wettelijke vertegenwoordigingsbevoegdheid (de gebruiker is bijv. eigenaar van een eenmanszaak). De invulling van deze use case is onderdeel van het competitieve domein van Elektronische
+Toegangsdiensten en wordt in zijn geheel overgelaten aan het machtigingenregister. Hierbij dient een machtigingenregister
+in elk geval te voldoen aan de in   gestelde eisen. AUC3 Registreren bevoegdheid
+Bij de implementatie van deze use case gelden de volgende eisen:
+Het machtigingenregister MOET alle processen beschrijven en inrichten volgens de eisen voor het betreffende
+betrouwbaarheidsniveau zoals beschreven in document . De beschrijvingen Normenkader betrouwbaarheidsniveaus
+MOETEN via de website van het machtigingenregister worden gepubliceerd. Het machtigingenregister MAG NIET betrouwbaarheidsniveaus voeren of gebruiken waarvoor hij geen expliciete
+toestemming heeft van de beheerorganisatie. Het machtigingenregister MOET een overeenkomst met de dienstafnemer sluiten. Zie ook . Juridisch kader
+Het machtigingenregister MOET bevoegdheden zo vastleggen dat voor elke dienst in de dienstencatalogus een
+eenduidige uitspraak is te doen over de bevoegdheid van de gebruiker. Het machtigingenregister MOET vastleggen wat het betrouwbaarheidsniveau van een vastgelegde bevoegdheid is. Het machtigingenregister MAG mogelijkheden bieden voor het beperken van een bevoegdheid tot een bepaalde
+vestiging van de dienstafnemer. Daarentegen MAG het machtigingenregister een beperking van de bevoegdheid tot
+een vestiging NIET afdwingen. Het machtigingenregister MOET waarborgen dat bij het vastleggen van een bevoegdheid de aanvrager voldoende
+geïnformeerd is over de betekenis van die bevoegdheid. Het machtigingenregister MOET duidelijk onderscheid maken tussen dienstverleners en diensten die live danwel in
+test/pilot fase zijn. Het machtigingenregister MOET de mogelijkheid bieden voor het registreren van een algemene bevoegdheid. Een
+registratie van een dergelijke bevoegdheid betekent dat de gebruiker alle huidige en toekomstige diensten in de
+dienstencatalogus mag afnemen. Het machtigingenregister MAG in aanvulling op de registratie van een algemene bevoegdheid ook een
+registratieproces voor een algemene bevoegdheid met beperkingen voor geselecteerde diensten aanbieden. Het registreren van machtigingen voor bedrijven en organisaties die niet in het Nederlandse handelsregister zijn
+ingeschreven vereist verificatie van identificatie van de dienstafnemer en vertegenwoordigingsbevoegdheid in
+buitenlandse handelsregisters of daarmee vergelijkbare openbare registers. Deelnemers zijn niet verplicht deze
+functionaliteit aan te bieden, het is een . Optionele functionaliteit
+Het machtigingenregister MOET de machtigingenbeheerder op enig moment informeren over het feit dat een
+machtiging voor een dienst ook geldig is indien deze dienst nu of in de toekomst door andere Dienstverleners wordt
+aangeboden. Het moment hiervoor is vrij, dit kan vooraf (op het moment van machtiging) of achteraf (wanneer op
+een later moment één of meerdere geregistreerde machtigingen door een andere Dienstverlener worden gebruikt).Afsprakenstelsel Elektronische Toegangsdiensten | pagina 512Alternatieve scenario's
+Deze scenario's zijn terug te vinden onder   en  AUC3.1 Registreren bevoegdheid eenmanszaken AUC3.2 Registreren status
+machtigingen eenmanszakenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 513AUC3.1 Registreren bevoegdheid eenmanszaken
+Voor het initieel registreren van bevoegdheden rondom eenmanszaken gelden aanvullende eisen ten opzichte van  AUC3
+. Dit is in verband met de wijze waarop de eenmanszaak geregistreerd is Registreren bevoegdheid bij de kamer van
+. De kamer van koophandel gebruikt in het geval van een eenmanszaak niet het RSIN om koophandel in het handelsregister
+de juridische identiteit te bepalen, maar de BSN gegevens van de eigenaar van de eenmanszaak. Om de  veiligheid van BSN
+gegevens te garanderen moet voldaan worden aan de volgende aanvullende eisen:
+Het machtigingenregister MOET controleren of de gebruiker eigenaar is van de eenmanszaak. Het machtigingenregister MAG NIET de BSN gegevens opslaan van de eigenaar van de eenmanszaak. Het machtigingenregister MOET het BSN van de eigenaar van de eenmanszaak polymorf encrypted opslaan. BSN gegevens moeten op dezelfde manier worden verwerkt als BSN gegevens die zijn verstrekt om een natuurlijk
+persoon te identificeren. Een  om deze gegevens te registreren is als volgt: voorbeeld use case
+1: Een gebruiker meldt zich aan bij het machtigingsregister. 2: De gebruiker levert een kopie aan van het uittreksel van de KVK waar het KVK nummer op staat van de eenmanszaak. 3: De gebruiker levert  document waar het BSN nummer op staat van de gebruiker. een WID
+4: Het machtigingenregister controleert de geldigheid van beide documenten. 5: Het machtigingenregister controleert of de NAW gegevens op de beide documenten overeenkomen. 6: Indien deze gegevens correct zijn en overeenkomen wordt de gebruiker aangewezen als de beheerder van de machtigingen
+voor de eenmanszaak. 7: Het machtigingenregister registreert de BSN gegevens bij het BSNk en slaat zelf de polymorfe identiteit op van de eigenaar
+van de eenmanszaak mbv    AUC6 Activeren BSN
+8. Het MachtigingsRegister registeert de machtiging(en) van de eenmanszaak voor specifieke Gebruikers
+9:  Het machtigingenregister registreert de status van de machtigingen bij het BSNk mbv  AUC3.2 Registreren status
+machtigingen eenmanszaken
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 514AUC3.2 Registreren status machtigingen eenmanszaken
+Voor het registreren van de status van machtigingen rondom eenmanszaken gelden aanvullende eisen ten opzichte van
+, die zijn opgelegd vanuit het BSNk. AUC3 Registreren bevoegdheid
+Een MachtigingsRegister MOET  van elke 'verzameling van machtigingen' registeren en actueel houden bij de status
+het BSNk-InzageRegister (met een beschrijving) die zinvol is voor de eigenaar van de eenmanszaak. Een MachtigingsRegister MAG NIET de status registreren van elke individuele machtiging. Een MachtigingsRegister moet als een minimum onderscheid maken tussen machtigingen voor de (eigennaar van de)
+eenmanszaak als Vertegenwoordigde en Vertegenwoordiger. Op dit moment is de eenmanszaak als
+Vertegenwoordiger nog niet ondersteund in ETD! Een MachtigingsRegister MAG als een maximum onderscheid maken tussen meerdere 'verzameling van
+machtigingen' elk met een specifiek doel en bijbehorende beschrijving als dit zinvol is voor de eenmanszaak, bijv
+"Bedrijfsmachtigingen voor de administratie afdeling"
+Een MachtigingsRegister MAG in de beschrijving van de 'verzameling van machtingen' geen gegevens opnemen die
+gebruikt kunnen worden om de eenmanszaak of de gemachtigde te identificeren
+Stap Actie Omschrijving
+Initiële staat Een MachtigingsRegister heeft de BSN van de Zelfstandige Ondernemer eerder
+geactiveerd bij BSNk-Activeren. En de het MachtigingsRegiser wil een status van
+(een verzameling) machtigingen bij het BSNk Inzageregister registreren of een
+eerder geregistreerde status moet aan gepast worden.. 2.1 MR identificeert het
+Authenticatiemiddel en de
+GebruikerHet MachtigingsRegister identificeert de Zelfstandige Ondernemer volgens de
+eisen die het normenkader stelt (minimaal) op betrouwbaarheidsniveau 3 en
+identif (verzameling van) machtigingen waarvan een statusgegevens
+geregistreerd moeten worden bij het BSNk-Inzageregister
+Het MachtigingsRegister doorloopt   functie. Daar wordt AUC10 Transformeren
+het (niet naar BSN te herleiden) Versleuteld Pseudoniem van het Inzageregister
+vastgesteld (VP@IR). 2.2 De MR stuurt de nieuwe status
+naar het BSNk InzageregisterHet MachtigingsRegister stuurt de nieuwe status naar bij het BSNk
+Inzageregister met het zojuist verkregen Versleuteld Pseudoniem van de
+Gebruiker (VP@IR) en het volgnummer van de (verzameling van) machtigingen. 2.3 BSNk Inzageregister valideert
+de aanvraagHet BSNk Inzageregister controleert of het MachtigingsRegister gemachtigd is
+om een BSN te activeren  en of de aanvraag daadwerkelijk en ongewijzigd van
+het MachtigingsRegister afkomstig is en ontsleutelt de BSNk Inzageregister
+specifieke pseudoniem van de Gebruiker uit de Versleutelde Pseudoniem
+(VP@IR). 2.4 BSNk Inzageregister versleutelt
+en registreert de nieuwe statusHet BSNk Inzageregister registreert de nieuwe status voor de combinatie van
+specifieke pseudoniem van de Gebruiker, het MachtigingsRegister en het
+volgnummer van de (verzameling van) machtigingen. Deze registratie gaat
+met [interface spec BSNk: registerStatusEIM
+Finale staat de verzameling van machtigingen heeft een nieuwe status bij het
+BSNk Inzageregister Afsprakenstelsel Elektronische Toegangsdiensten | pagina 515Afsprakenstelsel Elektronische Toegangsdiensten | pagina 516AUC4 Registreren attribuut
+In deze use case wordt een attribuut geregistreerd voor gebruik binnen Elektronische Toegangsdiensten. De invulling van
+deze use case wordt verder uitgewerkt in  en hier verder niet beschreven. Proces change en releaseAfsprakenstelsel Elektronische Toegangsdiensten | pagina 517AUC6 Activeren BSN
+Deze Use Case wordt gerealiseerd door de BSNk Use Case AUC1 Activeren BSN. Voor meer informatie kunt u contact
+opnemen met de beheerorganisatie BSNk via . servicecentrum@logius.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 518AUC6.1 Activeren BSN mbv VI
+In het kader van sleutelmigratie van de IdentityProviderKeySet en van de SchemeWideKeySet (zie Proces migratie
+) moet een MachtigingsRegister en MiddelenUitgever alle nog active (en sleutelmateriaal voor polymorfe pseudonimisering
+dus eerder geactiveerde) BSN's opnieuw activeren bij BSNk-Activeren. Hiervoor stuurt
+de Machtigingenregister of MiddelenUitgever de BSN in de vorm van een Versleutelde Identiteit naar BSNk-Activeren. Die genereert en verstrekt een Polymorf Pseudoniem en Polymorfe Identiteit met het nieuwe sleutelmateriaal voor
+betreffende BSN specifiek voor de betreffende Machtigingenregister of MiddelenUitgever. Deze Use Case wordt gerealiseerd door de BSNk Use Case AUC1 Activeren BSN. Voor meer informatie kunt u contact
+opnemen met de beheerorganisatie BSNk via . servicecentrum@logius.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 5191. 2. 3.

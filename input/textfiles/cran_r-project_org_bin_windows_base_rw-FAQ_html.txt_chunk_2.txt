@@ -1,0 +1,35 @@
+You
+will have a shortcut to on your desktop and/or somewhere
+on the Start menu file tree, and perhaps also in the Quick Launch part
+of the taskbar (Vista and earlier). Right-click each shortcut, select
+Properties... and change the ‘Start in’ field to your working directory. Also, you need to remove the argument in the Target
+field, which implements the default behavior. (If your account was not the one used for installation, you may need to
+copy the shortcut before editing it.) On some systems with R prior to 4.2 you will have two shortcuts, one for
+32-bit with a label starting and one for 64-bit starting (see ) You may also want to add command-line arguments at the end of the
+Target field ( any final double quote, and separated by a
+space), for example . You can also set
+environment variables at the end of the Target field, for example , and if you want to ensure that menus and
+messages are in (American) English, . 2.3 How do I check an installation is not corrupt? Relates to earlier installers, removed in R 2.11.0. 2.4 Can I customize the installation? The normal way to customize the installation is by selecting components
+from the wizards shown by the installer. However, sysadmins might like
+to install R from scripts, and the following command-line flags are
+available for use with the installer. only show the installation progress window and error messages. only show error messages. set the default installation directory set the default Start-menu group name set the initial list of components: Components are named ‘ ’,
+‘ ’ (up to R 4.1), ‘ ’ and ‘ ’. install for the current user only even if the current user has Administrator
+privileges It is also possible to save the settings used to a file and later
+reload those settings using save the settings to the specified file. Don’t forget to use the quotes if
+the filename contains spaces. instructs the installer to load the settings from the specified file
+after having checked the command line. A successful installation has exit code 0: unsuccessful ones may give 1,
+2, 3, 4 or 5. See the help for Inno Setup
+( ) for details. 2.5 How do I run it? Just double-click on the shortcut you prepared at installation. If you want to set up another project, make a new shortcut or use the
+existing one and change the ‘Start in’ field of the Properties. You may if you prefer run R from the command line of any shell you use,
+for example a ‘Command Prompt’ or a port of a Unix shell such as or . (The command line can be anything you
+would put in the Target field of a shortcut, and the starting directory
+will be the current working directory of the shell. Note that the R
+executables are not by default added to the .)  People running
+from a terminal usually prefer to run and not . 2.6 Can I run R from a CD or USB drive? Yes, with care. A basic R installation is relocatable, so you can burn
+an image of the R installation on your hard disc or install directly
+onto a removable storage device such as a flash-memory USB drive. Running R does need access to a writable temporary directory and to a
+home directory, and in the last resort these are taken to be the current
+directory. This should be no problem on a properly configured version
+of Windows, but otherwise does mean that it may not be possible to run R
+without creating a shortcut starting in a writable folder. 2.7 How do I UNinstall R? Normally you can do this from the ‘ ’ group in
+the Control Panel. If it does not appear there, run in the top-level installation directory.

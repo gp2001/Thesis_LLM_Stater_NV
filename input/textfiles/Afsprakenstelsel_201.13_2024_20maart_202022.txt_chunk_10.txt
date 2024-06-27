@@ -1,0 +1,79 @@
+Verder ligt er
+het voornemen voor uitbreiding van eHerkenningsfunctionaliteit met bijvoorbeeld ondertekendiensten, waarbij de afnemer
+van de dienst zijn wilsuiting – bijvoorbeeld een belastingaangifte of vergunningsaanvraag – elektronisch kan bekrachtigen. Ook is het ondersteunen van een keten van machtigingen gewenst – niet alleen firma F die haar eigen werkneemster
+Pietersen kan machtigen, maar ook firma F die accountantsfirma A machtigt, die op haar beurt haar werkneemster Elimami
+machtigt om namens firma F belastingaangifte te doen. Tenslotte ligt er de behoefte om eHerkenning voor machine-to-
+machine communicatie geschikt te maken. Evenzovele zaken die om regie vragen door de beheerorganisatie van het
+afsprakenstelsel.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 53Versie 1.2
+Gedurende 2011 is het aantal bedrijven dat eHerkenning gebruikt en het aantal dienstverleners dat aangesloten is sterk
+gegroeid. In deze versie 1.2 is de functionaliteit uitgebreid met attribuutverstrekking, wordt vastgelegd hoe optionele
+functionaliteit beschreven wordt en worden diverse RfCs uit het reguliere beheerproces verwerkt. Vanaf deze versie mogen
+meerdere versies van koppelvlakken binnen het netwerk toegepast worden voor zover deze in het afsprakenstelsel
+beschreven zijn. Concreet betekent dat dat versie 1.1 van de koppelvlakken gedurende deze versie mag bestaan naast versie 1.2. Tevens zijn
+tekstuele verbeteringen doorgevoerd en enkele inconsistenties tussen documenten opgelost. Deze laatste zaken betreffen
+geen inhoudelijke wijzigingen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 54Versie 1.3
+Deze versie omvat een aantal RfCs met functionele wijzigingen die voortbouwen op versie 1.2, waaronder ten aanzien van
+attribuutverstrekking en foutafhandeling. Daarnaast bevat deze versie een grote hoeveelheid tekstuele verbeteringen op
+basis van het reviewcommentaar van de vier banken die intentieverklaring eHerkenning hebben onderschreven, alsook
+diverse verbeteringen rond beheer en het implementatieproces voor nieuwe versies. Tevens zijn de teksten ten aanzien van
+governance aangepast aan hetgeen per eind 2011 afgesproken is aangaande het beleggen van de beheerorganisatie bij
+Logius.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 55Versie 1.4
+Deze versie omvat een aantal RfCs met functionele wijzigingen die voortbouwen op versie 1.3 voor o.a. toepassing van
+nieuwe KvK vestigingsnummer betere aansluiting op de voor overheid verplichte webrichtlijnen, voor het faciliteren van
+G2G gebruik. De term "bedrijf" die afkomstig was uit de beginfase is daarbij door het algemenere "dienstafnemer"
+vervangen, wel is in voorbeelden onveranderd uitgegaan van de belangrijkste doelgroep, namelijk bedrijven. Nieuwe versies
+van de deelnemersovereenkomst en gebruiksvoorwaarden en verder uitgewerkte procesbeschrijvingen van enkele cruciale
+beheerprocessen. In deze versie is tevens de nieuwe governance van het afsprakenstelsel verwerkt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 56Versie 1.5
+Deze versie omvat een aantal RfCs die de Betrouwbaarheidsniveaus van eHerkenning meer in lijn brengen met de
+internationale STORK norm. Daarnaast bevat deze versie RFCs die pilotbare functionaliteit bevatten voor B2C dienstverlening
+en attributen voor beroepsbeoefenaren. Verder bevat deze versie een vernieuwd Juridisch Kader inclusief nalevingsbeleid en
+gebruiksvoorwaarden. Beheerprocessen rond change- en releasemanagement, metadata, dienstencatalogus en
+penetratietesten zijn in meer detail beschreven.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 57Versie 1.6
+Deze versie is een tussenversie waarin veel onderdelen van het afsprakenstelsel zijn opgeschoond maar die geen nieuwe
+functionaliteit bevat. Het is tevens de eerste nieuwe versie die is vastgesteld onder beheer van Logius. Alle pilotbare
+functionaliteit is uit het afsprakenstelsel verwijderd, evenals de verwijzigingen naar non-standaard koppelvlakken. De
+koppelvlakdocumenten zijn ontdubbeld. Procesbeschrijvingen zijn aangevuld en aangescherpt en de
+informatiebeveiligingsdocumenten zijn geactualiseerd. De eisen aan verwerken van (kopie) WID documenten zijn
+verduidelijkt . Tenslotte is de deelnemersovereenkomst geactualiseerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 58Versie 1.7
+Deze versie bevat verschillende nieuwe functionaliteiten, te weten , uitgebreide attribuutverstrekking, Single Sign On (SSO)
+ketenmachtigingen, ondersteuning van B2C authenticatiediensten en authenticatie van beroepsbeoefenaren. Voor
+deelnemers en dienstverleners is dit optionele functionaliteit waarvoor zij separaat kunnen toetreden. Ook is in deze versie
+het koppelvlak DV-HM verder gestandaardiseerd zodat dienstverleners gebruik kunnen maken van standaard SAML pakketten
+om aan te sluiten op eHerkenning. Daarnaast is de compensatieregeling voor migraties verder uitgewerkt en het Juridisch
+Kader verder aangescherpt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 59Versie 1.8
+Versie 1.8 bevat een aanscherping van enkele processen in het , alsmede wijzigingen in het Operationeel handboek Juridisch
+. In technische zin bevat deze versie een verscherping van de afspraken over het automatisch verspreiden van de kader
+netwerkmetadata en de dienstencatalogus. De koppelvlakspecificaties blijven gelijk aan die van 1.7.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 60Versie 1.9
+Release 1.9 is de eerste release die plaatsvindt onder het  Instellingsbesluit Elektronische Toegangsdiensten . Onder dit
+Instellingsbesluit vallen de twee merken eHerkenning en Idensys. Release 1.9 bevat een aantal wijzigingen en extra
+functionaliteiten die nodig zijn voor de realisatie van het Introductieplateau van Idensys. Op basis van het Introductieplateau
+van Idensys worden pilots uitgevoerd met Idensys. Daarnaast bevat release 1.9 e en aantal verbeteringen relevant voor
+eHerkenning.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 61Pilots met Idensys
+Met Idensys wordt een belangrijke stap gezet naar standaardisatie en integratie van toegangsdiensten voor overheid en
+bedrijfsleven. Het wordt mogelijk om met private inlogmiddelen in het BSN-domein in te loggen. Daarmee wordt ook voor
+het BSN-domein authenticatie op het hoogste betrouwbaarheidsniveau geregeld. De pilots met Idensys vinden plaats in het BSN-domein (op betrouwbaarheidsniveau 3 en 4) en in het consumentendomein
+(op betrouwbaarheidsniveaus 2, 2+, 3 en 4). De pilots duren tot medio/eind 2016 waarna geëvalueerd wordt en
+besluitvorming over verdere invoering/opschaling plaatsvindt. Tijdens de pilots worden de volgende functionaliteiten ondersteund:
+Inloggen: Identificatie en authenticatie
+Op  bij bedrijven betrouwbaarheidsniveau 2, 2+, 3 en 4
+Op betrouwbaarheidsniveaus 3 en 4 bij bedrijven en de overheid
+Attribuutverstrekking: het leveren van aanvullende, gevalideerde persoonsgegevens op basis van  . Deze User consent
+informatie wordt door de authenticatiedienst verstrekt en is gevalideerd op basis van een WID. Het gaat om de
+volgende aanvullende gegevens:
+Geslachtsnaam, voornaam, initialen, geboortedatum-/plaats
+Leeftijdsverificatie
+Functionaliteiten zoals machtigingen en ontsluiten van andere attribuutregisters zijn nog geen onderdeel van Idensys in de
+pilotfase.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 62eHerkenning
+De toevoeging van de   aan de Dienstencatalogus maakt het mogelijk om diensten over te dragen naar een ServiceUUID
+andere Dienstverlener (ofwel dezelfde dienst te delen met meerdere Dienstverleners) met behoud van geregistreerde
+machtigingen. De portaalfunctie ( ) is uitgebreid; de gebruiker kan nu voor meerdere diensten tegelijk inloggen. GUC4.3 PortaalfunctieAfsprakenstelsel Elektronische Toegangsdiensten | pagina 63Algemeen
+Door het toevoegen van het BSN-domein zijn een aantal privacy-verhogende maatregelen getroffen, waaronder:
+De Artifact-binding wordt gebruikt voor alle koppelvlakken, dit zorgt ook voor een betere user-experience
+End-to-end encryptie: alle attributen en identificerende kenmerken worden zodanig versleuteld dat deze alleen
+gelezen kan worden door de beoogde ontvanger, niet meer door tussenliggende partijenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 64Versie 1.10
+Deze versie introduceert de mogelijkheid tot   en voegt nadere specificaties toe voor de rol  Dienstbemiddeling
+, waardoor het mogelijk is voor deze rol toe te treden. Ondertekendienst (OD)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 65Versie 1.11
+Deze koppelvlakrelease bevat de specificaties om authenticatie met middelen uit andere eIDAS-lidstaten te kunnen
+gebruiken bij Nederlandse publieke Dienstverleners. Nederland dient uiterlijk in 2018 het mogelijk te maken dat met
+genotificeerde middelen uit andere eIDAS-lidstaten diensten afgenomen kunnen worden bij Nederlandse publieke
+instellingen en overheden.

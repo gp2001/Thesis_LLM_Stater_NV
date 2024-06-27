@@ -1,0 +1,28 @@
+4.5 Loading a package fails. Is the package installed for this version of R? Packages need to have
+prepared for R 4.2.0 or later. You can tell the version the package was compiled for by looking at the
+‘ ’ line in its file. For a small number of binary packages you need to install additional
+software and have its DLLs in your . Windows will normally
+give an informative message about a certain DLL not being found. See for a
+listing of some of these packages (notably , , , , and some of the packages connecting to databases). 4.6 Package TclTk does not work. For package to work (try or after ) you need to have Tcl/Tk
+installed. This is part of the R installation, so it should be there. However, if you have the environment variable set to a
+non-empty value, it is assumed that you want to use a different Tcl/Tk
+8.6.x installation with the path to its directory given by
+value of , and that this is set up correctly (with set if needed). Note that you do need 8.6.x and not
+8.5.x nor 8.4.x, and you do need the architecture to match, that is a
+32-bit or 64-bit build of Tcl/Tk to match the R build in use. (There is
+no guarantee that a 64-bit build will work: it depends on the layout it
+uses and R 4.2 and later use a different layout from previous versions.) In the past several package authors have suggested using ActiveTcl
+( ) as a way to
+get Tcl/Tk extensions (but the support files do contain the most
+commonly used and extensions). This could
+be used by setting (for a default install) current versions do not by default contain any extra
+extensions (although they may be downloaded via the facility) and this only worked for 32-bit R. As only 64-bit builds are provided as of R 4.2, the Tcl/Tk bundle used is
+now also 64-bit only. The older combined 32-bit/64-bit bundle for R 4.1
+cannot be used with R 4.2 and later, because it has a different directory layout even
+for the 64-bit part. 4.7 Hyperlinks in HTML sometimes do not work. This question was much more relevant prior to version 2.10.0. They may still not work between packages installed in different libraries
+if the HTTP server has been disabled: the remedy is not to do that! 4.8 fails. You may not be able to update a package which is in use: Windows ‘locks’
+the package’s DLL when it is loaded. So use (or the menu equivalent) in a new session. If you put in your you will need to
+start R with to be able to update package . If you set to include , you will
+need to unset it temporarily. It has been reported that some other software has interfered with the
+installation process by preventing the renaming of temporary files, being a known example. 4.9 How do I add to the list of repositories? as shown in the item on the menu? This reads from the tab-delimited file ,
+which you can edit, or put a modified copy at in your HOME directory (see ).

@@ -1,0 +1,69 @@
+c. certificaat kan eveneens een
+nieuw middel worden
+aangevraagd. In dit geval
+MOET geverifieerd worden:
+dat de aanvrager
+daadwerkelijk in bezit is
+van het middel;
+dat bij gebruik van een
+middel dat buiten het
+stelsel is uitgegeven er
+daadwerkelijk
+een identificatie op
+locatie heeft
+plaatsgevonden bij
+aanvraag of uitgifte van
+het middel, of
+dat bij gebruik van een
+middel dat buiten het
+stelsel is uitgegeven er een
+identificatie op afstand
+heeft plaatsgevonden die
+MOET voldoen aan de
+eisen van het
+afsprakenstelsel eTD of
+ETSI TS 119 461 bij
+aanvraag of uitgifte van
+het middel. Eisen Identificatie op Afstand
+LoA Vereiste elementen Toelichting
+en good
+practiceAfsprakenstelsel Elektronische Toegangsdiensten | pagina 9401. LOA 3Op LoA3 wordt Identificatie op Afstand toegestaan, waarbij – naast de geldende vereisten inzake
+de identiteitsvaststelling - in elk geval moet worden voldaan aan de eisen die zijn vermeld op
+pagina:  Eisen Identificatie op Afstand
+2.1.3 Bewijs en verificatie van identiteit (rechtspersoon)
+LoA Vereiste elementen Toelichting en good practice
+LOA 1
+Controledoelstelling: Het
+machtigingenregister MOET erop toezien
+dat de vertegenwoordigers van de
+Dienstafnemer deugdelijk worden
+geïdentificeerd. Controledoelstelling: Het
+machtigingenregister MOET erop toezien
+dat de Dienstafnemer of de gemachtigde
+Rechtspersoon deugdelijk wordt
+geïdentificeerd. Controledoelstelling: Het
+machtigingenregister moet erop toezien
+dat de door de Dienstverlener
+aangeleverde informatie als feitelijk juist
+is geverifieerd. Controledoelstelling: Het
+machtigingenregister MOET erop toezien
+dat de bevoegdheden van de
+vertegenwoordigers van de
+Dienstafnemer deugdelijk worden
+geverifieerd. De eerste identificatie van de
+vertegenwoordigers van de Ad 3 Interpretatie: De gegevens die de aanvrager aandraagt
+moeten zijn vergeleken met de geregistreerde gegevens in het
+handelsregister. Van de brongegevens in het handelsregister
+wordt aangenomen dat zij correct zijn. Indien de deelnemer bij
+de controle in het handelsregister onjuistheden in de gegevens
+ontdekt of vermoedt bestaat er geen terug meldplicht, tenzij om
+een andere reden al een terug meld verplichting van toepassing
+was op de deelnemer. De geregistreerde vestigingsadressen in het
+handelsregister zijn niet altijd gelijk aan een
+correspondentieadres. Waar vestigingsadres en
+correspondentieadres samenvallen, vervalt de eis voor het
+verifiëren van het correspondentieadres. In het geval van
+rechtspersonen zonder vestigingsadres moet in elk geval het
+correspondentieadres gecontroleerd worden. Ad 3b en d Het vestigings- en/of correspondentieadres wordt
+gebruikt voor schriftelijke communicatie met de organisatie. Voor uitgifte van het token, zie paragraaf 2.2.2 Uitgifte, uitreiking
+en activering. Ad 3c:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 9411. a.

@@ -1,0 +1,90 @@
+Toelichting processtappen
+1. Attribuut toevoegen aan attribuutcatalogus
+Input Middels het  is een nieuw attribuut toegevoegd aan het Afsprakenstelsel Proces change en release
+Activiteit De technisch beheerder voegt het attribuut met alle kenmerken toe aan de attribuutcatalogus
+De vorige versie van de attribuutcatalogus wordt handmatig opgehaald vanaf de gepubliceerde locatie;
+Het nieuwe attribuut, met alle kenmerken zoals beschreven in de RFC, wordt toegevoegd;
+De change manager (of een tweede technisch beheerder) controleert dit;
+De attribuutcatalogus wordt voorzien van een digitale handtekening met het certificaat van de
+Beheerorganisatie (conform ); Digital signature
+De nieuwe versie van de attribuutcatalogus wordt handmatig gepubliceerd. Output
+Een nieuwe attribuutcatalogus
+Wie? De technisch beheerder voert deze stap uit
+De change manager controleert de wijziging
+2. Publiceren attribuutcatalogus in het testnetwerk
+Input De nieuwe attribuutcatalogus
+Activiteit
+De technisch beheerder publiceert de nieuwe attribuutcatalogus  ophttps://extranet.eherkenning.nl/1.11
+; /test/attribuutcatalogus.xml
+Middels een bericht op  wordt dit aangekondigd. Mantis
+Output Gepubliceerde attribuutcatalogus in het testnetwerk
+Wie? De technisch beheerder van de beheerorganisatie voert deze stap uit
+3. Doorvoeren attribuutcatalogus in het testnetwerk
+Input Gepubliceerde attribuutcatalogus
+Activiteit De deelnemers pakken de nieuwe attribuutcatalogus op en voeren deze door binnen 24 uur. Output Geïmplementeerde nieuwe attribuutcatalogus in het testnetwerk
+Wie? De deelnemers implementeren de nieuwe attribuutcatalogus
+4. Publiceren attribuutcatalogus in het productienetwerk
+Input De nieuwe attribuutcatalogusAfsprakenstelsel Elektronische Toegangsdiensten | pagina 2721. 2. Activiteit
+De technisch beheerder publiceert de nieuwe attribuutcatalogus  ophttps://extranet.eherkenning.nl/1.11
+; /attribuutcatalogus.xml
+Middels een bericht op  wordt dit aangekondigd. Mantis
+Output Gepubliceerde attribuutcatalogus in het testnetwerk
+Wie? De technisch beheerder van de beheerorganisatie voert deze stap uit
+5. Doorvoeren attribuutcatalogus in het productienetwerk
+Input Gepubliceerde attribuutcatalogus
+Activiteit De deelnemers pakken de nieuwe attribuutcatalogus op en voeren deze . door binnen 24 uur
+Output Geïmplementeerde nieuwe attribuutcatalogus in het productienetwerk
+Wie? De deelnemers implementeren de nieuwe attribuutcatalogusAfsprakenstelsel Elektronische Toegangsdiensten | pagina 273Proces beheren simulator
+De simulator is door de beheerorganisatie ontwikkeld om deelnemer en dienstverleners een simulatortest te laten uitvoeren. Hiermee worden koppelvlakken gesimuleerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 274Verantwoordelijkheden
+De proceseigenaar is er vanuit de beheerorganisatie verantwoordelijk voor dat het proces wordt uitgevoerd conform de
+procesbeschrijving. De technische beheerder van de beheerorganisatie is er verantwoordelijk voor dat de procesbeschrijving
+actueel blijft.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 275Overzicht processtappen
+1. Beheer simulatorAfsprakenstelsel Elektronische Toegangsdiensten | pagina 2761. 2. Toelichting processtappen
+1. Beheer simulator
+Input Nieuwe versie afsprakenstelsel
+Activiteit
+De beheerorganisatie past de simulator aan op de nieuwe versie van het afsprakenstelsel
+Wanneer de nieuwe versie van de simulator beschikbaar is, stelt de beheerorganisatie de deelnemers
+per e-mail hiervan op de hoogte. Output
+Nieuwe versie simulator
+Bericht aan de deelnemers
+Wie? Beheerorganisatie, technische beheerder
+Deelnemers, technische beheerders
+Opmerkingen De simulator is te vinden op . De handleiding van de simulator is ook https://simulator.etoegang.nl
+opgenomen op deze website.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 277Proces beheren testnetwerk
+Het testnetwerk is een netwerk van alle deelnemers. Het heeft als functie om nieuwe systemen van nieuwe toetreders of
+deelnemers te kunnen onderwerpen aan ketentesten. Hiermee kan in een netwerk, dat zich op hoofdlijnen gedraagt als het
+productienetwerk, worden gecontroleerd of aan alle eisen wordt voldaan.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 278Uitgangspunten
+Een (aspirant) deelnemer zal afhankelijk van zijn rol ( ,  of Herkenningsmakelaar (HM) Authenticatiedienst (AD)
+één of meerdere systemen in het testnetwerk opgenomen hebben. Van elk systeem kan tevens zowel Middelenuitgever (MU)
+een acceptatie- als een preproductie-versie aanwezig zijn. Een (aspirant) deelnemer test zijn acceptatiecomponenten tegen
+de preproductiecomponenten van de overige deelnemers. De voorwaarden om het testnetwerk te laten functioneren, zijn als volgt:
+De staat van de preproductiecomponenten in het testnetwerk benadert zo veel mogelijk het productienetwerk. Een herkenningsmakelaar MAG dienstverleners via haar preproductiecomponent toegang verlenen tot AD/MR van
+andere deelnemers en de simulator, mits dit niet tot overlast leidt. Het uitvoeren van stresstesten MAG toestemming vooraf van alle te raken deelnemers. Deelnemers MOGEN testmiddelen verschaffen aan dienstverleners die zijn aangesloten via een andere deelnemer. De acceptatieomgeving dient om de eigen software te testen tegen de preproductiecomponenten van andere
+deelnemers. Een deelnemer MOET toestemming hebben om te testen tegen de acceptatieomgeving van een andere deelnemer. Alle deelnemers hebben de beschikking over testmiddelen, voor de preproductiecomponenten in het testnetwerk,
+voor elke authenticatiedienst en machtigingenregister, op elk toegetreden (of nog toe te treden)
+betrouwbaarheidsniveau. De deelnemers leveren deze testmiddelen aan elkaar uit. Bij het deployen van een systeem in het testnetwerk dient voor een deelnemer of de beheerorganisatie helder te zijn
+welke build versie het systeem heeft. (Bijvoorbeeld door naamgeving, het displayen van het build nummer op de
+pagina of in een afgeleide (file).) Dit zodat kan worden nagegaan tegen welke versie van een systeem aan wordt
+getest. Bij de    tegen welke build versies is getest. toetredingschecklists wordt altijd aangegeven
+Acceptatiecomponenten in het testnetwerk MOETEN herkenbaar zijn aan de toevoeging (acc) in de displayname
+Preproductiecomponenten in het testnetwerk MOETEN herkenbaar zijn aan de toevoeging (preprod) in de
+displayname
+Voor beschikbaarheid van preproductiecomponenten in het testnetwerk wordt een inspanningsverplichting en een
+meldplicht van verstoringen afgesproken. Verzoeken van deelnemers om meer informatie betreffende een fout (op een systeem) in het testnetwerk ZOU binnen
+één werkdag beantwoord MOETEN worden. Het in bezit hebben van testmiddelen door deelnemers en dienstverleners impliceert dat deze testmiddelen ook te
+allen tijde kunnen werken. Dat wil zeggen dat de uitgevers van deze middelen zich hiermee verplichten een
+soortgelijk serviceniveau te leveren als bij productiemiddelen het geval is. Issues en verstoringen betreffende het testnetwerk worden gemeld in de issuetracker . Mantis
+De metadata en dienstencatalogus voor het testnetwerk zullen  verspreid worden, als de noodzaak zich ad hoc
+aandient. Deze zullen op dezelfde manier als binnen het productienetwerk worden aangeboden aan de deelnemers. Een deelnemer MAG haar acceptatie- en preproductiecomponenten NIET afsluiten voor andere deelnemers. De deelnemers MOETEN zowel voor de acceptatie- als de preproductieomgeving gebruik maken van  PKIoverheid
+certificaten. Dit geldt voor zowel het signing- als encryptiecertificaat. Deze omgevingen moeten immers zo veel als
+mogelijk gelijkwaardig aan de productieomgeving zijn.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 279Proces certificaatwissel
+In de metadata zijn één of meer actuele certificaten per deelnemer opgenomen. De deelnemers en de beheerorganisatie
+hebben de mogelijkheid om uit voorzorg ook certificaten op te geven die gebruikt (kunnen) gaan worden bij het wisselen
+van een certificaat . Dit maakt het netwerk minder kwetsbaar wanneer een certificaat gewisseld moet worden. Dit proces beschrijft hoe het wisselen van certificaten verloopt. Om het proces van het wisselen van een certificaat succesvol te laten verlopen, is het van belang dat deelnemers meerdere
+certificaten per deelnemer kunnen verwerken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 280Verantwoordelijkheden
+De proceseigenaar is er vanuit de beheerorganisatie verantwoordelijk voor dat het proces wordt uitgevoerd conform de
+procesbeschrijving. De technisch beheerder van de beheerorganisatie is er verantwoordelijk voor dat de procesbeschrijving
+actueel blijft.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 281Overzicht processtappen
+1. Aanleveren nieuwe certificaat
+2. Verwijderen oude certificaatAfsprakenstelsel Elektronische Toegangsdiensten | pagina 2821. 2. 1.

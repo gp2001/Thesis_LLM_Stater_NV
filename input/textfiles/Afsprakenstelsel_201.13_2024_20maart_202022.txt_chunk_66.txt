@@ -1,0 +1,178 @@
+6. AUC7 Proces verlenen toestemming dienstbemiddeling
+Voor en die via  kunnen worden ontsloten, kan toestemming van de  Dienst Dienstbemiddeling Dienstaanbieder (DA)
+benodigd zijn. Dit proces beschrijft de werkwijze voor het verlenen van toestemming door een Dienstaanbieder aan een
+om een Dienst te mogen bemiddelen. Dienstbemiddelaar (DB)
+Diensten krijgen bij aansluiting vier opties om via Dienstbemiddeling ontsloten te mogen worden:
+Niet bemiddelbaar;
+Bemiddeling door derden niet toegestaan;
+Vrij bemiddelbaar (geen toestemming vereist);
+Toestemming vereist
+Wanneer een Dienstaanbieder voor een van de eerste drie opties kiest, is er geen (expliciete) toestemming benodigd en
+daarmee is er geen proces nodig. Indien een DA aangeeft toestemming te vereisen, moet toestemming kenbaar worden
+gemaakt zodat dit in het netwerk gecontroleerd en erkend kan worden. Het proces voor het verlenen van toestemming verloopt als volgt:
+DB geeft bij DA aan dat deze een dienst van de betreffende Dienstaanbieder wil gaan ontsluiten op basis van
+Dienstbemiddeling. DA neemt aanvraag in behandeling en kan/mag daarbij een aanvullend toestemmingsproces – zoals het toepassen
+van toestemmingscriteria of een testtraject – toepassen. DA verleent toestemming aan de DB; de DA deelt dit mee aan zijn eigen HM en aan de DB. De HM van de DA registreert de erkenning voor bemiddeling in de dienstencatalogus (in
+ServiceIntermediationAllowed) welke aan de beheerorganisatie wordt aangeleverd volgens Proces doorvoeren
+. nieuwe dienstencatalogus
+De DB vraagt aan zijn eigen HM om de bemiddeling te activeren. De HM van de DB controleert in de nieuwe dienstencatalogus of toestemming door de DA voor de DB is opgenomen
+en alleen als dit zo is mag de DB aansluiten voor Dienstbemiddeling van de betreffende dienst.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 520Alternatief scenario
+De DA verleent geen toestemming. In dit geval dient de DA dit zelf aan de DB mee te delen, breekt af voor stap 3 en wijzigt er
+voor het netwerk niets. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 521AUC8 Verkrijgen lijst Authenticatiediensten
+In deze use case vraagt een  de meest recente lijst met gecertificeerde ADs voor een dienst op bij de HM. Dienstverlener (DV)
+Deze lijst dient om de gebruiker een AD te laten kiezen bij de DV, zie alternatief scenario 1.1 ( GUC1 Gebruiken eToegang als
+) en alternatief scenario 3.3 ( ). dienstafnemer GUC3 Aantonen identiteit
+Nr. Actie Omschrijving
+8.1 Vraag lijst
+AuthenticatiedienstenDe Dienstverlener vraagt een lijst op van relevante Authenticatiediensten via een door de
+Herkenningsmakelaar verstrekte URL. De URL bevat een parameter voor de betreffende
+dienst (ServiceUUID). 8.2 Antwoord lijst
+AuthenticatiedienstenEen Herkenningsmakelaar levert hierop een lijst met relevante informatie van alle van
+toepassing zijnde Authenticatiediensten voor de dienst (op basis van ServiceUUID) van een
+Dienstverlener. 'Van toepassing zijnde' is hierbij een Authenticatiedienst welke minimaal
+het gevraagde betrouwbaarheidsniveau en het gevraagde identificerende kenmerk kan
+leveren volgens de . Network metadata De lijst wordt door de Herkenningsmakelaar op
+Een Herkenningsmakelaar alfabetische volgorde (OrganizationDisplayName) gesorteerd. ondertekent deze lijst met een geldig PKIo-certificaat voor signing zoals vermeldt voor de
+HM in de . Network metadata
+8.3 Ontvangen lijst
+AuthenticatiedienstenDe DV controleert de handtekening en bewaart de lijst met relevante
+Authenticatiediensten. De Dienstverlener toont alle relevante Authenticatiediensten in
+dezelfde volgorde als aangeleverd door de Herkenningsmakelaar en in gelijke weergave
+aan de gebruiker, wanneer de gebruiker een selectie kan maken zoals beschreven in
+alternatief scenario 1.1 ( ). GUC1 Gebruiken eToegang als dienstafnemerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 522AUC9 Verstrekken sleutelmateriaal Dienstverleners
+Het BSNk beheert en verstrekt via een Herkenningsmakelaar cryptografisch sleutelmateriaal aan elke Dienstverlener (DV) die
+aantoonbaar beschikt over een PKIoverheid-certificaat. Indien de Dienstverlener geautoriseerd is om het BSN te verwerken
+verstrekt het BSNk speciaal BSN Sleutelmateriaal. De Dienstverlener ontsleutelt met dit Sleutelmateriaal het Versleutelde
+Identiteit of Versleutelde Pseudoniem van de Gebruiker dat de Dienstverlener verstrekt. Voor eIDAS Outbound acteert de eIDAS Berichtenservice als Dienstverlener, die dienstbemiddelaar is voor de BRP. Daarom
+moet in deze use case het gebruik van de term "Dienstverlener", worden geïnterpreteerd als "Dienstaanbieder (hier: BRP) en
+/of eIDAS Berichtenservice (EB)". Deze use case is een variant op de BSNk use case <AUC5>. Stap Actie Omschrijving
+Initiële staat Een Dienstverlener heeft Sleutelmateriaal nodig om de identiteit (bijv BSN) en
+/of pseudoniem uit de Versleutelde Identiteit/Pseudoniem te halen en vraagt
+zijn Herkenningsmakelaar om hem hierbij te ondersteunen. 9.1 De Herkenningsmakelaar
+valideert het verzoek.De Herkenningsmakelaar valideert dat het verzoek afkomstig is van bevoegd
+medewerker van de Dienstverlener, of een door deze geautoriseerde derde of
+zijn systeem. 9.2 De Herkenningsmakelaar stuurt
+een aanvraag naar het
+Sleutelbeheer De Herkenningsmakelaar stuurt een aanvraag voor Sleutelmateriaal naar het
+BSNk Sleutelbeheer met daarin het PKIoverheid-certificaat van betreffende
+Dienstverlener. 9.3 Sleutelbeheer valideert de
+aanvraagBSNk Sleutelbeheer controleert of de aanvraag daadwerkelijk en ongewijzigd
+van een erkende Herkenningsmakelaar afkomstig is en of het meegeleverde
+PKIoverheid-certificaat van de Dienstverlener geldig is. 9.4 Sleutelbeheer controleert of
+Dienstverlener BSN mag
+ontvangenBSNk Sleutelbeheer controleert of het OIN van de Dienstverlener zoals deze
+op het meegeleverde PKIoverheid-certificaat voorkomt op de Autorisatielijst
+BSN en ook Sleutelmateriaal mag ontvangen om een BSN te ontsleutelen. 9.5 Sleutelbeheer genereert
+SleutelmateriaalBSNk Sleutelbeheer genereert het Sleutelmateriaal voor het OIN van
+de Dienstverlener inclusief het BSN-Sleutelmateriaal indien diens OIN
+inderdaad voorkomt op de Autorisatielijst BSN
+9.6  Sleutelbeheer versleutelt
+SleutelmateriaalBSNk Sleutelbeheer versleutelt Sleutelmateriaal obv de publieke sleutel op het
+meegeleverde PKIoverheid-certificaat van de Dienstverlener
+9.7 Sleutelbeheer verstrekt
+Sleutelmateriaal aan de
+Herkenningsmakelaar en
+registreert de verstrekkingBSNk Sleutelbeheer verstrekt Sleutelmateriaal ten behoeve van de
+Dienstverlener aan de aanvragende Herkenningsmakelaar en registreert de
+verstrekking in een publiekelijk toegankelijke Sleutelverstrekkingslijst . 9.8 Herkenningsmakelaar verstrekt
+Sleutelmateriaal aan de
+DienstverlenerDe Herkenningsmakelaar verstrekt Sleutelmateriaal aan de
+betreffende Dienstverlener. 9.9 Dienstverlener ontsleutelt en
+installeert Sleutelmateriaal De Dienstverlener ontsleutelt Sleutelmateriaal en installeert dit op
+zijn toegangssystemen. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 523Finale staat De Dienstverlener kan BSN en Pseudoniem uit een Versleutelde Identiteit
+/Pseudoniem halen. En de sleutelverstrekking is geregistreerd in
+het Sleutelverstrekkingslijst. De Dienstverlener kan via zijn HM diensten aansluiten en is klaar om
+gebruikers voor die dienst obv Persistent Pseudoniem of BSN te ontvangen. NB: deze use case wordt gerealiseerd mbv    Interface specifications MR-BSNkAfsprakenstelsel Elektronische Toegangsdiensten | pagina 524AUC10 Transformeren
+Deze Use Case wordt gerealiseerd door de BSNk Use Case AUC2 Transformeren. Voor meer informatie kunt u contact
+opnemen met de beheerorganisatie BSNk via . servicecentrum@logius.nlAfsprakenstelsel Elektronische Toegangsdiensten | pagina 525AUC10.2 MachtigingsRegister of Authenticatiedienst gebruikt BSNk
+transformatie functie
+Uitwerking van stap 2.2 van  AUC10 Transformeren
+Stap Actie Omschrijving
+Initiële staat het MachtigingsRegister of AuthenticatieDienst heeft de
+benodigde  Polymorfe Identiteit/Pseudoniem (PP@MU of PI@MU)
+van de betreffende Gebruiker en weet ten behoeve van welke
+Ontvangende Partij transformatie nodig is. 2.2.1 MachtigingsRegister of
+AuthenticatieDienst randomiseert PI@MU
+of PP@MUhet MachtigingsRegister of
+AuthenticatieDienst randomiseert de Middelenuitgever
+specifieke Polymorfe identiteit/pseudoniem (PP@MU of PI@MU)
+zodat het  deze niet meer kan herkennen. BSNk
+2.2.2 MachtigingsRegister of
+AuthenticatieDienst vraagt het   om BSNk
+de PI@MU of PP@MU te transformerenhet MachtigingsRegister of AuthenticatieDienst stuurt de
+gerandomiseerde Middelenuitgever specifieke Polymorfe identiteit
+/pseudoniem (  of ) samen met de identiteit (OIN), en PP@MU PI@MU
+BSNk-sleutelversie (BSNk-recipientKeySetVersion in de
+Dienstcatalogus) van de beoogde Ontvangende Partij(-en) naar het
+BSNk volgens . De BSNk-structuur versie (BSNk- BSNk: transform
+structureVersion in de Dienstcatalogus) bepaalt welke BSNk-
+Transformatieservice gebruikt moet worden. In het geval van DienstBemiddeling waarbij beide ontvangers een
+polymorf pseudoniem of polymorfe identiteit vereisen:
+MOET de BSNk-structuurversie "2" zijn voor beide partijen
+MOET in het transform request bij de RelyingParty van de
+dienstbemiddelaar het LinkVerification element worden
+toegevoegd
+Indien de BSNk-structuurversie "1" is, of niet is ingevuld MOET de
+BSNk-transformatieservice V1 aangeroepen worden. Indien de BSNk-str  is MOET de BSNk- uctuurversie "2"
+transformatieservice V2 aangeroepen worden. 2.2.3 BSNk  valideert de aanvraag Het  controleert dat de aanvragende partij geautoriseerd is BSNk
+als MachtigingsRegister of AuthenticatieDienst en of de aanvraag
+daadwerkelijk en ongewijzigd van die partij afkomstig is. 2.2.4 BSNk  transformeert de PI@MU  VI@OP of
+PP@MU VP@OPHet  transformeert met zijn HSM de Middelenuitgever BSNk
+specifieke Polymorfe Identiteit/Pseudoniem met behulp van
+de identiteit ( ) en sleutelversie van de Ontvangende Partij naar OIN
+een specifieke Versleutelde Identiteit/Pseudoniem
+(PP@MU  VP@OP of PI@MU  VI@OP). 2.2.5 BSNk  verstrekt de VI@OP of VP@OP aan
+het MachtigingsRegister of de
+AuthenticatiedienstAfsprakenstelsel Elektronische Toegangsdiensten | pagina 526Het  verstrekt  Ontvangende Partij BSNk   de voor de
+specifieke Versleutelde Identiteit/Pseudoniem (VP@OP of
+VI@OP) aan het MachtigingsRegister of AuthenticatieDienst en logt
+de aanvraag ten behoeve van audit-doeleinden. Finale staat Het MachtigingsRegister of AuthenticatieDienst kan de Gebruiker
+identificeren  de betreffende Ontvangende Partij. voorAfsprakenstelsel Elektronische Toegangsdiensten | pagina 527AUC10.3 HSM transformatie
+NB Deze interface naar de HSM wordt door de HSM (en/of bijbehorende firmware-)  gespecificeerd. leverancier
+Nr. Actie Omschrijving
+2.3.1 HSM
+valideert
+de
+aanvraagHet HSM controleert of de aanvragende applicatie geauthenticeerd en geautoriseerd is en of de
+aanvraag correct aan de specificatie voldoet. 2.3.2 HSM
+genereert
+het
+VP@OP of
+VI@OPDe HSM transformeert één of meerdere Polymorfe identiteit(en)/pseudoniem(en) met behulp
+van de   (OIN) en sleutelversie van de Ontvangende Partij naar één of meer Ontvangende identiteit
+Partij(en) specifieke Versleutelde Identiteit(en)/Pseudoniem(en) (PP@MU  VP@OP of PI@MU
+VI@OP). 2.3.3 HSM
+verstrekt
+het
+VP@OP of
+VI@OPDe HSM verstrekt  Ontvangende Partij specifieke Versleutelde Identiteit(en)/Pseudoniem de voor de
+(en) (VP@OP of VI@OP) aan de aanvrager en logt de aanvraag ten behoeve van auditing.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 528AUC11
+Op dit moment is Dienstbemiddeling functionaliteit beperkt tot de eIDAS BerichtenService (EB) van de RVO als
+Dienstbemiddeling voor de BRP-Attributendienst van de RvIG. Deze beperking wordt afgedwongen op basis van de OIN van
+de EB. Om een eventuele OIN-migratie van de EB te kunnen faciliteren moet de EB ook meerdere geautoriseerde OIN's
+kunnen hebben. Hiertoe zal de Logius Beheerorganisatie een lijst van toegestane Dienstbemiddelaars
+(Allowed4ServiceIntermediation) publiceren via email en Leveranciersoverleg. Overige 'instellingsparameters voor Dienstbemddeling' zijn  and  IntermediatedService ServiceIntermediation
+) en staan in de DienstCatalogus. De AD/MR MAG deze (@intermediationAllowed, ServiceIntermediationAllowed
+instellingsparameters tijdens het authenticatieproces uit de ServiceCatalogus halen en toepassen. Maar een AD/MR mag deze
+instellingsparameters ook handmatig uit de DienstCatalogus overnemen en in een 'configuratie-bestand' afhandelen. Via het   wordt per aanpassing van Allowed4ServiceIntermediation of overige instellingsparameters een Leveranciersoverleg
+implementatietermijn afgesproken.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 529Gebruikersinterface
+Dit hoofdstuk beschrijft eisen die worden gesteld aan de gebruikersinterface met de gebruiker. Voor eisen in dit hoofdstuk waaraan middelen en of kanalen door hun opzet niet of zeer lastig kunnen voldoen geldt de
+verplichting in overleg met de beheerorganisatie een acceptabele oplossing te realiseren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 530Dialoogbeschrijving
+Alle dialoogvensters die door partijen in het herkenningsproces worden ingezet om met de gebruiker te communiceren
+ZOUDEN MOETEN voldoen aan de volgende eisen:
+De naam van de partij die het dialoogvenster presenteert (en op dat moment een rol in het herkenningsproces
+vervult) wordt duidelijk getoond. Zie ook . Dialoogbeschrijving Herkenningsmakelaars
+De naam van de dienst, dienstverlener (of dienstbemiddelaar en dienstaanbieder) alsmede de extra beschrijving van
+de dienst (indien beschikbaar) worden duidelijk aan de gebruiker getoond, bij voorkeur zoals beschreven op
+Dialoogbeschrijving Herkenningsmakelaars
+Het dialoogvenster MAG NIET informatie bevatten die niet rechtstreeks van toepassing is op, of bijdraagt aan het
+herkenningsproces. Reclame-uitingen of links naar andere webpagina's die buiten het herkenningsproces vallen
+MOGEN NIET worden opgenomen. Het beeldmerk van het product (eHerkenning en eIDAS) wordt getoond en wel volgens de daarvoor geldende
+richtlijnen. Zie   Communicatie. De gebruiker moet in staat zijn de URL en het gepresenteerde SSL certificaat te controleren. Dientengevolge MOGEN
+schermen NIET ingebed worden, bijvoorbeeld in een mobiele app of een (i)frame. Partijen MOETEN hierop
+controleren en zonodig het herkenningsproces afbreken. Een partij MAG naast bovengenoemde gebruik maken van haar eigen logo's en huisstijl. Het ontwerp MOET bruikbaar zijn op schermen met lage resolutie of hoge pixeldichtheid, bijvoorbeeld mobiele
+apparaten. Hiervoor kan gebruik worden gemaakt van responsive webdesign-technieken. Naast dialoogschermen worden ook "URL-redirections" uitgevoerd (o.a. vaak door de HM). De gebruikte redirect-schermen MOETEN voldoen aan de volgende eisen:
+De laadtijd van het redirect-scherm wordt tot een minimum beperkt en moet voldoen aan de eisen m.b.t. . Performance
+Bij succesvolle redirects merkt de gebruiker zo min mogelijk van het redirect scherm. Ideaal gezien is het scherm wit. In het geval dat de redirect poging niet succesvol is voldoen de huidige maatregelen m.b.t. . Error handling
+Bovenstaande punten functioneren zonder afhankelijkheden van "scripts" (bijv. mag het uitschakelen van JavaScript
+in de browser deze functionaliteit niet belemmeren).

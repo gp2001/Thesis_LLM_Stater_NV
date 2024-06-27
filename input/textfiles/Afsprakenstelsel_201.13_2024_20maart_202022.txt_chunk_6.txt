@@ -1,0 +1,96 @@
+De toetredingseisen zijn te vinden op
+de pagina  . Details over de functionaliteit kan de lezer vinden in de . De specificaties van de Toetredingseisen Use cases
+gebruikte koppelvlakken tussen de verschillende rollen staan beschreven in  . Interface specifications
+Van iedere rol wordt op hoofdlijnen de verantwoordelijkheid aangegeven, voor zover deze verplicht zijn voor alle
+deelnemers. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 38Verantwoordelijkheden Authenticatiedienst
+Een  authenticeert dienstafnemers of hun vertegenwoordigers. Authenticatiedienst (AD)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 39Verantwoordelijkheden
+De authenticatiedienst is verantwoordelijk voor het authenticeren van personen op basis van hun
+authenticatiemiddel. De authenticatiedienst biedt daartoe aan een gebruiker een online interface om zich te (laten) authenticeren. De authenticatiedienst verwerkt een authenticatievraag conform de gesloten overeenkomst en overeengekomen
+service levels tussen de deelnemers en hun klanten. De authenticatiedienst ziet erop toe dat authenticatievragen alleen worden verwerkt indien zij kunnen worden
+verwerkt aan de hand van toegelaten authenticatiemiddelen van toegelaten middelenuitgevers. De authenticatiedienst verwerkt bijbehorende logoutberichten en toont de gebruiker een scherm met een
+bevestiging van de logout nadat deze succesvol heeft plaatsgevonden (indien de authenticatiedienst geen SSO
+ondersteunt of heeft uitgevoerd dan wordt een in die situatie passende boodschap getoond). De authenticatiedienst draagt zorg voor correcte uitvoering van alle aan haar in het Afsprakenstelsel voorgeschreven
+verplichtingen, waaronder auditverplichtingen. Indien de AD attribuutverstrekking ondersteunt
+Zie AttributenbeleidAfsprakenstelsel Elektronische Toegangsdiensten | pagina 40
+Eisen
+De authenticatiedienst MOET bewaken dat zowel de identificatie (i.c. het gebruikte authenticatiemiddel) als het
+proces van de authenticatie van minimaal het door de dienstverlener gewenste betrouwbaarheidsniveau is. De authenticatiedienst MOET op elke getoonde web pagina de naam van dienstverlener tonen zoals die in de
+dienstencatalogus is opgenomen. De authenticatiedienst MAG NIET betrouwbaarheidsniveaus voeren of gebruiken waarvoor hij geen expliciete
+toestemming heeft van de . Eigenaar
+De authenticatiedienst MOET alle processen inrichten volgens de eisen voor het betreffende betrouwbaarheidsniveau
+zoals beschreven in . Normenkader betrouwbaarheidsniveaus
+De authenticatiedienst MOET toegang hebben tot de relevante door de middelenuitgever vastgelegde informatie om
+tot een authenticatie van het betreffende betrouwbaarheidsniveau te komen. De authenticatiedienst MOET zich houden aan de  . Richtlijnen naam- en merkgebruik eHerkenning
+Indien de authenticatiedienst single sign-on ondersteunt
+De authenticatiedienst MOET single sign-on zodanig uitvoeren dat er geen risico's op hergebruik of afluisteren van
+het authenticatiemechanisme bestaan. De authenticatiedienst MOET zodra een vraag van een dienstverlener ontvangen wordt waarin geen verplichte
+authenticatie door de gebruiker gespecificeerd is, de optie aanbieden om ingelogd te blijven. De authenticatiedienst
+MAG deze optie ook bieden indien wel een verplichte authenticatie gespecificeerd is. Het is toegestaan instellingen
+van de gebruiker aangaande het al dan niet aangemeld blijven na eerste authenticatie op een andere manier vast te
+leggen en toe te passen. Deze specificatie door de gebruiker blijft alleen relevant indien het een vraag betreft waarbij
+de dienstverlener single sign-on toestaat. Als een gebruiker  persoon kiest om niet ingelogd te blijven, MOET deze keuze door de authenticatiedienst
+onthouden worden. De authenticatiedienst MOET de gebruiker middels teksten op het scherm of anderszins duidelijk maken in welke
+situatie de gebruiker zich bevindt (time-out van een SSO sessie, gedwongen authenticatie tijdens een bestaande SSO
+sessie, logout, etc.)
+De authenticatiedienst MOET vanaf de eerste authenticatie met SSO het maximum AD-tijdsverloop bewaken. Een
+volgende authenticatie op basis van SSO ZOU MOETEN worden gegeven indien deze binnen dit maximum AD-
+tijdsverloop valt tenzij een logoutbericht is ontvangen of er sprake is van afgedwongen authenticatie. Na het ontvangen van een logoutbericht MAG de gebruiker NIET geauthenticeerd worden op basis van SSO. Toelichting
+De authenticatiediensten gaan initieel het BSN ondersteunen voor de eIDAS implementatie van eHerkenning. Dit houdt in
+dat vooralsnog de EB het BSN van de authenticatiedienst mag ontvangen. Aangezien de authenticatiedienst  ondersteunt het BSN-domein
+De authenticatiedienst MOET het koppelvlak voor online (de)registreren van het BSNk implementeren. De authenticatiedienst MOET alle processen beschrijven en inrichten volgens de eisen voor het betreffende
+betrouwbaarheidsniveau zoals beschreven in  . De beschrijvingen MOETEN Normenkader betrouwbaarheidsniveaus
+via de website van de middelenuitgever/authenticatiedienst worden gepubliceerd. Het betrouwbaarheidsniveau voor het identificatie- en registratieproces MOET minstens voldoen aan de criteria voor
+niveau  EH3. De authenticatiedienst MOET een overeenkomst met de gebruiker sluiten. Zie ook  . Juridisch kader
+De authenticatiedienst MOET voor de gebruiker het BSN registreren bij het BSNk, via het daarvoor aangewezen
+koppelvlak. De authenticatiedienst MOET de registratie afmelden indien het middel en/of het pseudoniem niet (meer)
+toegeschreven kunnen worden aan de gebruiker. De authenticatiedienst is verantwoordelijk om te voldoen aan de aansluitvoorwaarden van BSNk. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 41Afsprakenstelsel Elektronische Toegangsdiensten | pagina 42Verantwoordelijkheden Herkenningsmakelaar
+De  vormt de linking pin tussen het  en de Herkenningsmakelaar (HM) Netwerk (voor Elektronische Toegangsdiensten)
+dienstverleners, en heeft een routeer- en navigatiefunctie in het netwerk. Dit reduceert het aantal relaties tussen
+dienstverleners enerzijds en authenticatiediensten, machtigingenregisters en het  anderzijds. BSNkAfsprakenstelsel Elektronische Toegangsdiensten | pagina 43Verantwoordelijkheden
+De Herkenningsmakelaar routeert binnen het netwerk ten behoeve van een dienstverlener conform de afgesloten
+overeenkomst en overeengekomen service levels. De Herkenningsmakelaar sluit een duidelijke Service Level Agreement met de dienstverlener af. Deze Service Level
+Agreement kan onderdeel uitmaken van de overeenkomst. De Herkenningsmakelaar sluit  en houdt deze alleen toegelaten authenticatiediensten en machtigingenregisters aan
+aangesloten, een en ander conform hetgeen hiertoe is vastgelegd in het Afsprakenstelsel. Om aan te tonen dat de Dienstverlener/Dienstbemiddelaar/Dienstaanbieder voldoet aan de voor hem geldende
+verplichtingen aan het afsprakenstelsel overlegt deze de ingevulde   aan de Template zelfverklaring Dienstverlener
+Herkenningsmakelaar. De Herkenningsmakelaar is verantwoordelijk voor het testen van de dienstverlener opdat de dienstverlener, alvorens
+hij wordt aangesloten op het netwerk, aan alle in het afsprakenstelsel opgenomen specificaties voldoet. De Herkenningsmakelaar is het centrale aanspreekpunt voor de dienstverlener en de beheerorganisatie, onder
+andere in het geval van calamiteiten of een beveiligingsincident bij een dienstverlener. De
+Herkenningsmakelaar verstrekt als centraal aanspreekpunt de dienstverlener en de beheerorganisatie alle benodigde
+informatie. De Herkenningsmakelaar MOET borgen dat de naam van de Dienstverlener/Dienstbemiddelaar/Dienstaanbieder in
+de Dienstencatalogus overeenkomt met de naam in het gebruikte PKI-certificaat. Indien een PKIo-certificaat wordt
+gebruikt, dient het OIN daarin ook overeen te komen met het OIN in diens  . EntityID
+De Herkenningsmakelaar draagt zorg voor correcte uitvoering van alle aan haar in het Afsprakenstelsel
+voorgeschreven verplichtingen, waaronder auditverplichtingen. Indien de Herkenningsmakelaar twijfelt of van mening is dat de Dienstverlener niet langer aan zijn verplichtingen
+voldoet, geeft hij dit terstond door aan de Toezichthouder. Een  die een koppelvlak aanbiedt met de  sluit Herkenningsmakelaar eIDAS-berichtenservice (EB)
+een overeenkomst met de staatssecretaris van Binnenlandse Zaken als verantwoordelijke voor de  eIDAS-
+om de interoperabiliteit tussen het Afsprakenstelsel Elektronische Toegangsdiensten en de berichtenservice (EB)
+eIDAS-oplossingen van andere lidstaten te realiseren ten behoeve van grensoverschrijdend inloggen met door de
+Europese Commissie op grond van artikel 9 van de  erkende authenticatiemiddelen. eIDAS-verordeningAfsprakenstelsel Elektronische Toegangsdiensten | pagina 44Eisen
+Een Herkenningsmakelaar MOET:
+Aan Dienstverleners een gestandaardiseerd koppelvlak leveren waarover toegangsdiensten kunnen worden
+geïnitieerd en gevraagde verklaringen kunnen worden geleverd. Voor Authenticatiediensten en Machtigingenregisters tenminste de twee meest recente gestandaardiseerde
+koppelvlakken ondersteunen zolang dit voor migratie en/of het gekozen  noodzakelijk is. Inzetgebied
+Aan Gebruikers een online interface leveren om de gebruiker in staat te stellen indien nodig een Authenticatiedienst
+of een Machtigingenregister te selecteren. Bij de selectie van de Authenticatiedienst MOET de Herkenningsmakelaar alle instanties van de eIDAS-
+berichtenservice als Authenticatiedienst tonen als de dienstinstantie (ServiceInstance) is geclassificeerd als 'eIDAS-
+inbound'. Anders MOET de Herkenningsmakelaar deze NIET tonen. Indien het  bedrijven/consumenten wordt bediend Inzetgebied
+zowel het koppelvlak voor online bevragen van machtigingenregisters als het koppelvlak voor verificatie van
+de volgende schakel aan een Machtigingenregister ondersteunen. in staat zijn om op basis van een authenticatieverklaring en een of meer machtigingsverklaringen ontvangen
+van Machtigingsregisters een verklaring aan de Dienstverlener over authenticatie en ketenmachtiging samen
+te stellen. Voorafgaand aan verstrekking moet de Herkenningsmakelaar de consistentie van alle verklaringen
+en gespecificeerde informatie controleren. Gebruikers bij de selectie van de Authenticatiedienst de optie bieden om deze instelling te bewaren. Iedere
+Herkenningsmakelaar moet zorgen dat een gebruiker waarvoor de selectie van de Authenticatiedienst bewaard is,
+deze vraag niet opnieuw voorgelegd krijgt. SSO ondersteunen en daartoe vragen met SSO doorgeven aan een Authenticatiedienst en logoutberichten verwerken
+en doorsturen naar de Authenticatiedienst. Registreren welke attributen een Dienstverlener wil uitvragen bij iedere authenticatie. Attributen  precies zoals ze ontvangen zijn van Authenticatiediensten of Machtigingenregisters. doorgeven
+Na ontvangst van een verklaring van een Machtigingenregister controleren of het een incomplete keten betreft die
+alleen geldig is indien aanvullende schakels ook geverifieerd kunnen worden. Zich houden aan de richtlijnen naam- en merkgebruik eHerkenning. De Dienstverlener ontzorgen bij het verkrijgen van sleutelmateriaal voor het ontsleutelen van Versleutelde
+Pseudoniemen en/of Versleutelde Identiteiten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 45Verantwoordelijkheden Machtigingenregister
+Dienstafnemers  kunnen iemand vragen om namens hen te handelen. Dit regelen ze via een machtiging. Binnen het netwerk
+wordt deze machtiging op raadpleegbare wijze vastgelegd in een . In het machtigingenregister Machtigingenregister (MR)
+wordt de koppeling gelegd tussen het authenticatiemiddel van gemachtigde en de bevoegdheid. Op basis van die gegevens
+samen kan het netwerk met een bepaald betrouwbaarheidsniveau verklaren dat iemand met een bepaald
+authenticatiemiddel namens een bepaald bedrijf mag handelen voor de afname van een bepaalde dienst. De procedure voor het vastleggen van bevoegdheden varieert naar gelang het betrouwbaarheidsniveau. Hoe hoger het
+niveau, des te meer bewijzen dienen overlegd te worden. De registraties hiervoor worden uitgevoerd onder
+verantwoordelijkheid van de dienstafnemer conform . Een vertegenwoordigde dienstafnemer Meedoen als dienstafnemer
+kan een beheerder laten vastleggen die zijn bevoegdheden beheert. Uiteraard dient de vastlegging van deze beheerder
+tenminste op hetzelfde betrouwbaarheidsniveau te gebeuren.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 461.

@@ -1,0 +1,33 @@
+Error handling
+IF IdentifierType can not be provided for this user  next set THEN
+# all IdentifierTypes are checked, cu rrent Set =  appropriate set
+# Add the Identifiers of the user for all IdentifierTypes ( ) in the Identificerende kenmerken appropriate set
+to appropriate.Identities
+FOR EACH  IdentifierType  set IN
+appropriate.Identities[IdentifierType] = IdentifierValue of IdentifierType for the user and
+Receipient combination
+RETURN appropriate.Identities
+# No appropriate Set can be provides for this user - start error handling
+respond with a recoverable error (Attributes not supported). See   for more details. Error handling
+Note: At this moment the use of ASTA-sets and Service Intermediarion is limited to the EB for eIDAS Outgoing. Attributes:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 580
+MUST include additional attributes as an AttributeStatement.EncryptedAttribute that are requested by the DV
+(Dienstaanbieder/DienstBemiddelaar) as specified in the   and consented by the user. Service catalog
+IF required attributes cannot be provided (because of consent of not available) MUST act according to UC on not
+providing Attributes (see  ) : stop the authentication flow and start Attributen niet leverbaar of niet toegestaan
+error flow. MUST encrypt attributes according to the rules specified in 3. SAML encryption and added as an Encrypted
+Attribute in the AttributeStatement. MUST ensure user consent according to rules of the Attribute Policy (see Attributenbeleid)
+MUST ensure that only attributes are provided that are listed for the requested service in the service catalog
+If additional required atributes are requested by the DV (in the HM-request) then an AD MUST include these
+Attributes
+If an AD can not provide a requested required atttributes the AD MUST respond with a recoverable error
+(Attributes not supported). See   for more details Error handling
+If additional optional atributes are requested by the DV (in the HM-request) then an AD SHOULD include these
+Attribute
+Reference Implementation of Processing Rules for Attributes
+Request.RequestedAttributes IF THEN
+attribute  Request.RequestedAttributes FOR EACH IN
+attribute.isRequired = ServiceCatalog(DV.ServiceUUID).RequestedAttribute[attribute].isRequired
+attribute available  user-consent IF AND THEN MUST
+include attribute as EncryptedAttribute@DV with a unique Encrypted_DATA_ID that is the
+same as the attribute name in the attribute catalogue (e.g. urn:etoegang:1.9:attribute:
+FirstName). ELSE IF attribute.isRequired  respond with a recoverable error).

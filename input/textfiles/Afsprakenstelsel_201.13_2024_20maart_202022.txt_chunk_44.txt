@@ -1,0 +1,79 @@
+De persoon die verantwoordelijk is gemaakt zorgt er voor dat de melding correct wordt behandeld. De
+beheerorganisatie ziet er op toe dat dit binnen redelijke termijn gebeurt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 372Proces migratie sleutelmateriaal voor polymorfe pseudonimisering
+Voor polymorfe pseudonimisering beschikken  partijen in het eTD-stelsel over verschillende soorten verschillende
+cryptografisch sleutelmateriaal, meer informatie is op te vragen bij de BSNk beheerpartij  .Om verscheidene redenen zal het
+voor komen dat dit sleutelmateriaal dient te worden vervangen om Polymorfe Pseudoniemen te kunnen blijven genereren
+n. Voor de ondersteuning van dergelijke sleutelmigraties worden de volgende processen voorgeschreven. en ontsleutele
+Er zijn vier scenario's voor sleutelvervanging en sleutelmigratie voorzien. Daarvan zijn de Sleutelmigratie A, B1 en C
+(resp RecipientKeySet versie,  heel eenvoudig en hebben geen OIN wijziging BSN-Dienstverlener en  IdentityProviderKeySet)
+verdere detailering nodig. Sleutelmigratie D betreft de migratie van een SchemeWideKeySet. Die zou alleen bij hoge
+uitzondering voor moeten komen sleutel compromitatie bij BSNk-SleutelBeheer of een significante aanpassing beleid voor
+gebruik van het BSNk. Verdere detaillering en planning is afhankelijk van situatie en zal op ad-hoc basis door de BSNk-
+BeheerOrganisatie uitgewerkt worden. Op dit moment geldt dat ook voor een p eriodieke vervanging van de
+SchemeWideKeySet die niet voor 2024 verwacht wordt. Sleutelmigratie A: RecipientKeySet versie
+Sleutelmigratie  De sleutelset bij een   (DV, DB, DA) dient te worden vervangen. Ontvangende Partij
+Mogelijke
+oorzaakPeriodieke vervanging (PKIoverheid certificaat), sleutel compromitatie
+Proces Een Ontvangende Partij initieert een verzoek tot sleutelvervanging. De Ontvangende Partij geeft een notificatie aan zijn Herkenningsmakelaar of de Beheerorganisatie
+cf. Operationeel Handboek
+De Ontvangende Partij vraagt via zijn Herkenningsmakelaar nieuw sleutelmateriaal op bij het BSNk
+zie  . AUC9 Verstrekken sleutelmateriaal Dienstverleners
+Totdat dit nieuwe sleutelmateriaal operationeel is,  de Ontvangende Partij in de kan
+dienstencatalogus (voor DVs), c.q. in de metadata (voor MR), aangeven Versleutelde Pseudoniemen
+of Versleutelde Identiteiten op basis van een eerdere versie van het sleutelmateriaal te willen
+ontvangen
+De Ontvangende Partij installeert en test dit nieuwe sleutelmateriaal, en wijzigt bij goedkeuring
+van het BSNk de sleutelversie in de metadata (voor MR), c.q. dienstencaalogus (via HM). NB Pseudoniemen die al bekend zijn bij de Ontvangende Partij,  worden omgerekend met behulp kunnen
+van het oude en nieuwe sleutelmateriaal. Machtigingenregisters gebruiken de versie zoals vermeld in de dienstencatalogus of metadata en
+hebben geen actieve rol in deze migratie. Sleutelmigratie B1: OIN wijziging Dienstverlener voor BSN dienst
+Sleutelmigratie De identiteit waarop een sleutelset van een Dienstverlener is gebaseerd wijzigt. Mogelijke
+oorzaakHet OIN van een Dienstverlener ondergaat een organisatorische wijziging (bijvoorbeeld wijziging
+rechtspersoon, of overdracht van een Dienst aan een andere organisatie)
+Proces De Dienstverleners vragen nieuw sleutelmateriaal op via hun Herkenningsmakelaar, conform
+sleutelmigratie A. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 373NB Feitelijk is hier geen sprake van een echte SleutelMigratie, de waarden van Versleutelde Identiteiten
+(BSN) wijzigen met het nieuwe Sleutelmateriaal. Dienstverleners ontvangen Versleutelde Identiteiten
+voor de volgens de dienstencatalogus actieve sleutel. Sleutelmigratie C: IdentityProviderKeySet
+Sleutelmigratie Wijziging van de sleutelset in de transformatie-HSM bij het BSNk-Transformatie
+Mogelijke
+oorzaakPeriodieke vervanging, sleutel compromitatie, organisationele wijziging (resulterend in bijvoorbeeld
+wijziging OIN of PKIo certificaat van MU/AD/EB)
+Proces Een Machtigingenregister initieert het verzoek tot sleutelwissel. Het BSNk-Transformatie vraagt nieuw sleutelmateriaal aan bij het BSNk-Sleutelbeheer en
+installeert dit nieuwe sleutelmateriaal  conform AUC9 Verstrekken sleutelmateriaal Dienstverleners
+Het Machtigingenregiste r kan bestaande Polymorfe Pseudoniemen en Polymorfe Identiteiten
+. blijven gebruiken met oude sleutelmateriaal, afhankelijk van oorzaak
+Het Machtigingenregister kan met o ude Polymorfe Identiteit een Versleutelde Identiteit voor het
+en BSNk verkrijgen en op basis hiervan nieuwe Polymorfe Pseudoniemen en Polymorfe Identiteit
+aanvragen via de BSNk-activatie (mbv  ). AUC6.1 Activeren BSN mbv VI
+Het Machtigingenregister maakt gebruik van de nieuwe Polymorfe Pseudoniemen en Polymorfe
+Identiteiten om Versleutelde Pseudoniemen en Versleutelde Identiteiten (BSN) aan Dienstverlener
+te verstrekken. Authorisatie kan gedurende een migratieperiode met zowel het oude als het nieuwe
+sleutelmateriaal plaatsvinden, afhankelijk van welk Polymorfe Pseudoniem of Polymorfe Identiteit
+beschikbaar is. NB De pseudoniemen bij de Ontvangende Partij (DV) worden niet geraakt door wijziging van de
+IdentityProviderKeySet, net als dat zij ook van verschillende MR's tot hetzelfde Persistente Pseudoniem
+c.q. identiteit ontsleutelen. Sleutelmigratie D: SchemeWideKeySet
+Sleutelmigratie Wijziging van de sleutelset bij het BSNk en daarmee alle afhankelijke sleutels in het stelsel. Mogelijke
+oorzaakPeriodieke vervanging , sleutel compromitatie bij BSNk-SleutelBeheer of een significante aanpassing
+beleid voor gebruik van het BSNk.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 374
+Proces Het BSNk initieert de sleutelwissel. BSNk-Sleutelbeheer genereert nieuw sleutelmateriaal in zijn HSM(s) en behoudt het oude
+sleutelmateriaal voor migratie tot een aangekondigde datum. BSNk-BeheerOrganisatie kondigt een sleutelwissel en een bijbehorende planning aan bij alle
+betrokken partijen. BSNk-Transformatie krij  gt voor elk MachtigingsRegister nieuw sleutelmateriaal in zijn HSM(s)
+volgens de daarvoor geldende procedure van het BSNk. De Dienstverleners vragen nieuw sleutelmateriaal op via hun Herkenningsmakelaar, conform
+sleutelmigratie A. De Machtigingenregisters vragen nieuwe Polymorfe Pseudoniemen en Polymorfe Identiteiten op
+bij het BSN, conform sleutelmigratie C . Gedurende een migratieperiode levert de Machtigingenregisters de Versleutelde Pseudoniemen en
+Versleutelde Identiteiten op basis van zowel het oude en nieuwe sleutelmateriaal op voor de
+Ontvangende Partijen. NB Deze procedure kent de meeste impact, aangezien deze migratie alle partijen raakt. g Goede afstemmin
+is hierbij cruciaal. Omdat alle verklaringen ook ondertekend zijn obv PKIo, zal oud PP-sleutelmateriaal in vrijwel alle
+gevallen nog geruime tijd bruikbaar blijven, omdat het binnen de context van verklaringen nog
+vertrouwd kan worden. De migratie kan daarmee afgestemd worden om gefaseerd en gecoördineerd
+geleidelijk doorgevoerd te worden. Bij het verkrijgen van Polymorfe Pseudoniemen en Polymorfe Identiteiten door het
+Machtigingenregister, worden deze ondertekend door het BSNk. Deze ondertekening vindt plaats met
+een ECDSA signature, waarvoor de publieke sleutel in de metadata staat. Deze sleutel kan daarmee los
+van deze procedure 'Sleutelmigratie D' gewijzigd worden via het reguliere  . Proces netwerkmetadata
+Dienstverleners die PseudoID gebruiken ipv BSN zullen beide Versleutelde Pseudoniemen moeten
+ontsleutelen (elk met het bijbehorende versie van het sleutelmateriaal) om de PseudoID's te kunnen
+migreren. Omdat de oude en nieuwe Versleutelde PseudoID's als een  attribuut gecommuniceerd worden, kunnen multi-valued
+. Hierdoor hoeft een migratieperiode als gevolg van het ene type meerdere sleutelmigraties gelijktijdig ondersteund worden
+sleutelmigratie, een andere sleutelmigratie niet te blokkeren. Voor BSN's is er sowieso geen probleem, tenminste als de DV's
+in staat zijn om de Versleutelde Identiteit bij hun actuele SleutelVersie te kiezen of met meerdere Sleutels te gelijk kunnen
+werken. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 375
+1. 2.

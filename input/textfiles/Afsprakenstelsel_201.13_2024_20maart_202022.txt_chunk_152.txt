@@ -1,0 +1,72 @@
+Deelnemers, BSNk en BO richten dit
+naar eigen inzicht in. A.6.1.3 Contact met overheidsinstanties  Er moeten passende contacten met
+relevante overheidsinstanties worden
+onderhouden. v v S Stelseltaak voor BO De BO onderhoudt op stelselniveau
+contact met relevante
+overheidsinstanties. A.6.1.4 Contact met speciale
+belangengroepen Er moeten passende contacten met
+speciale belangengroepen of andere
+gespecialiseerde beveiligingsfora en
+professionele organisaties worden
+onderhouden. v v S Stelseltaak voor BO De BO onderhoudt contact met
+speciale groepen of fora zoals bij
+Europese ontwikkelingen (eIDAS) en
+het NCSC specifiek voor
+informatiebeveiliging. A.6.1.5 Informatiebeveiliging in
+projectbeheer Informatiebeveiliging moet aan de
+orde komen in projectbeheer,
+ongeacht het soort project. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.6.2 Mobiele apparatuur en telewerken Het waarborgen van de veiligheid van
+telewerken en het gebruik van
+mobiele apparatuur. Mogelijk ontstaat vanuit
+bestaande normenkaders
+(hogere Indien draagbare computers en
+communicatievoorzieningen ten
+behoeve van het verlenen van Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8891. betrouwbaarheidsniveaus) een
+beperking op de mogelijkheid
+om werkzaamheden via
+mobiele apparatuur uit te
+voeren.stelseldiensten of stelselbeheer
+worden toegestaan MOETEN
+passende maatregelen te worden
+genomen. A.6.2.1 Beleid voor mobiele apparatuur  Beleid en ondersteunende
+beveiligingsmaatregelen moeten
+worden vastgesteld om de risico’s die
+het gebruik van mobiele apparatuur
+met zich meebrengt te beheren. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.6.2.2 Telewerken  Beleid en ondersteunende
+beveiligingsmaatregelen moeten
+worden geïmplementeerd ter
+beveiliging van informatie die vanaf
+telewerklocaties wordt bereikt,
+verwerkt of opgeslagen. v v v Deelnemers, BSNk en BO vullen dit
+naar eigen inzicht in. A.7 Veilig personeel
+A.7.1 Voorafgaand aan het dienstverband  Waarborgen dat medewerkers en
+contractanten hun
+verantwoordelijkheden begrijpen en
+geschikt zijn voor de functies
+waarvoor zij in aanmerking komen. A.7.1.1 Screening  Verificatie van de achtergrond van alle
+kandidaten voor een dienstverband
+moet worden uitgevoerd in
+overeenstemming met relevante wet-
+en regelgeving en ethische
+overwegingen en moet in verhouding
+staan tot de bedrijfseisen, de
+classificatie van de informatie
+waartoe toegang wordt verleend en de
+vastgestelde risico’s. S S S Uit de risicoanalyse (bijv. via
+"misbruik-scenario's") kan
+blijken dat per rol en evt. per
+betrouwbaarheidsniveau
+onderscheid moet worden
+gemaakt in het niveau van
+screening.De wijze en diepgang van de
+screening moet zijn gerelateerd
+aan de bevoegdheden en
+taakstelling van de betreffende
+medewerker. Zo mag worden
+verwacht dat de screening voor
+een systeembeheerder met
+speciale bevoegdheden ten
+aanzien van
+systeemprogrammatuur Afsprakenstelsel Elektronische Toegangsdiensten | pagina 8901. 2. a.

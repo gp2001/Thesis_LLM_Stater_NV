@@ -1,0 +1,35 @@
+MUST verify each collected assertion has at minimum the Level of Assurance as requested by the DV. If verification
+fails, MUST handle the received responses as an unrecoverable error. MUST provide an <AuthnContextClassRef>:
+By default fill the AuthnContextClassRef with the value 'urn:oasis:names:tc:SAML:2.0:ac:classes:
+unspecified'. When a DV explicitly requests a detailed LoA by including an AuthnContextClassRef in its AuthnRequest
+(see above): The HM MUST communicate the effective Level of Assurance of the combined assertions. The
+effective Level of assurance is the minimum of the LoA of the Authentication assertion and (if applicable)
+the LoA of the Representation authorization assertion(s). The MR communicates two Levels of Assurance in its Assertion. A LevelOfAssurance (requested) and a
+LevelOfAssuranceUsed (actually obtained). The HM MUST use the LevelOfAssuranceUsed from the MR
+Assertion as the LoA of the Representation authorization. . HM MUST provide an <Subject> with the following <NameID>
+IF DV connects to r1.13 (or newer) AND non-represenation THEN copy AD-assertion: Subject.NameID. TransientID
+IF DV connects to r1.13 (or newer) AND representation THEN copy MR-assertion: Subject.NameID. TransientID
+IF DV connects to r1.11 (or older)   copy MR-assertion: XACMLAuthz-Decision.Subject.ActingEntityID THEN
+HM MUST provide an <AttributeStatement> with the following <Attributes> and <EncryptedAttributes>
+IF DV connects to r1.13 (or newer)  THEN
+the HM must  copy all relevant information (see ) from the below Interface specifications DV-HM
+sources to the ActingSubjectID attribute:
+MR-Assertion: XACMLAuthz-Decision.Subject.ActingSubjectID (EncryptedID)
+AD-assertion: Response.Assertion.AttributeStatement.ActingSubjectID. copy all relevant AD-assertion: AttributeStatement.EncryptedAttribute
+IF Representation THEN
+IF DV connects to r1.13 (or newer) THEN
+copy all relevant EncryptedID from MR-Assertion: XACMLAuthz-Decision.Subject. LegalSubjectID to <LegalSubjectID>
+copy all relevant EncryptedID from MR-Assertion: XACMLAuthz-Decision.Subject. ActingSubjectID to <ActingSubjectID>
+copy  MR-assertion: XACMLAuthz-Decision.Resource.EncryptedAttribute  all relevant
+IF DV connects to r1.11 (or older)  Representation   copy MR-assertion: XACMLAuthz- AND THEN
+Decision.Resource.EntityConcernedID
+copy MR-Assertion: XACMLAuthz-Decision.Statement.Request.Resource.ServiceID
+IF available copy all MR-assertion: XACMLAuthz-Decision.Resource.ServiceRestrictions
+IF Ketenmachtiging    copy MR2-Assertion: XACMLAuthz-Decision.Statement.Request. THEN
+Resource.IntermediateEntityID
+MUST provide an <Advice>, by default filled with verbatim copy of all Assertions – so that original
+signatures over the assertions remains verifiable – gathered during the authentication process. HM MAY
+offer their DV to omit this information, if they archive this information and allow for later retrieval.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 561
+NOTE: When copying encrypted XML elements (<EncryptedID>, <EncryptedAttribute>) to create the summary declaration
+the HM MUST substitute used XML identifiers to point at the EncryptedTypes for a guaranteed unique identifier. This MAY
+be accomplished by pre- or suffixing the used identifier in the copy. (Rationale:  values must uniquely identify the elements which bear them.

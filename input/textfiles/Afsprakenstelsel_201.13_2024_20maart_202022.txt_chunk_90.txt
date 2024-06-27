@@ -1,0 +1,61 @@
+A receiving HM
+MUST validate the response and signature. MUST validate and process the message according to the processing rules in  and – if Interface specifications HM-AD
+applicable – those in . Interface specifications HM-MR
+MUST accept and process both Assertions as if they were received from any other AD and MR (if applicable). MUST include both messages in its response to the initiating DV/OD.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 602Interface specifications DV-HM RequestADlist
+For preselection of an AD by the user at the DV, the DV retrieves a list of relevant AD's for that service from the HM (that the
+HM compiles from network metadata), to complete . AUC8 Verkrijgen lijst Authenticatiediensten
+DV-HM sequence diagram
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 603RequestADlist (1)
+A DV may request a list of all accredited ADs, by making a HTTP GET request at an endpoint provided by its HM. Parameter 0.. nDescription
+ServiceUUID 1 ServiceUUID  is an identifier of a ServiceInstance as listed in the . Provided Service catalog
+here to refer to the service for which the list is requested. RequestedAuthnContext 0.. 1Optionally, an additional parameter 'RequestedAuthnContext' MAY be included with a
+LoA equal to or lower than listed in the Service Catalog. Example RequestADlist
+GET /listAD.xml?ServiceUUID=a392d917-d965-4cb8-bff4-238694fc3336 HTTP/1.1
+Host: hm.example.nl
+Processing rules for RequestADList
+A requesting DV:
+MUST supply the ServiceUUID registered in the Service Catalog for the ServiceInstance for which authentication will
+be requested as the 'ServiceUUID' parameter. MAY optionally request the list of ADs for a LoA equal to or lower than listed in the Service Catalog. A receiving HM:
+MUST validate a request.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 604ProvideADlist (2)
+A HM MUST respond with a signed list of valid, applicable and accredited ADs for the requested service. This list MUST be a
+subset of the . Network metadata
+The list is a signed SAML EntitiesDescriptor, containing one EntityDescriptor per AD or two in case validity dates are used as
+in . Metadata for participants
+Each EntityDescriptor contains one IDPSSODscriptor with one or more SingleSignOnService elements and one Organization
+element. The Orgnization element contains a OrganizationName, OrganizationDisplayName and OrganizationURL, as per
+SAML metadata specification. Other element and attributes as described in  MAY be present. Metadata for participants
+Example ProvideADlist (SAML metadata)
+<md:EntitiesDescriptor
+xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+xmlns:eme="urn:etoegang:1.11:metadata-extension">
+<ds:Signature>...</ds:Signature>
+<md:EntityDescriptor entityID="urn:etoegang:AD:...">
+<md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:SingleSignOnService Location="https://..." Binding="urn:oasis:names:tc:SAML:2.0:bindings:
+HTTP-Artifact" eme:name="app" />
+<md:SingleSignOnService Location="https://..." Binding="urn:oasis:names:tc:SAML:2.0:bindings:
+HTTP-Artifact" eme:name="web" />
+</md:IDPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="nl">AD A</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="nl">AD A</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="nl">https://...</md:OrganizationURL>
+</md:Organization>
+</md:EntityDescriptor>
+<md:EntityDescriptor entityID="urn:etoegang:AD:...">
+<md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:SingleSignOnService Location="https://..." Binding="urn:oasis:names:tc:SAML:2.0:bindings:
+HTTP-Artifact" />
+</md:IDPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="nl">AD B</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="nl">AD B</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="nl">https://...</md:OrganizationURL>
+</md:Organization>
+</md:EntityDescriptor>
+</md:EntitiesDescriptor>
+Processing rules for ProvideADlist
+A responding HM:
+MUST provide a subset of the  , containing all applicable ADs for the requested service. The subset: Network metadata
+MUST contain all valid ADs supporting at least a LevelOfAssurance equal to or greater than the minimum
+requested level of assurance. The eIDAS Berichtenservice (EB) MUST NOT be included as one of the valid ADs.

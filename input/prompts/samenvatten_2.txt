@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een samenvatting van bepaalde informatie, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een samenvatting van een bepaald onderwerp dat in de txt terugkomt. Genereer een chosen antwoord met in de tekst behaalde gegevens. Genereer een rejected antwoord dat niet voldoet aan de vraag die gesteld wordt, door een slechte samenvatting te geven. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "evol_instruct",
+    "chosen": [
+        {
+            "content": "Create a two-sentence summary for the following text, while also adding a requirement that the summary should include a comparative analysis of the benefits of the new high school to the city's education system as a whole. \nThe groundbreaking ceremony for the new high school was held today, with Mayor Steve Brown giving a speech that expressed gratitude for the support of the school's construction and emphasized the importance of the project for the city. The summary should also include a comparative analysis of the benefits of the new high school to the city's education system as a whole.",
+            "role": "user"
+        },
+        {
+            "content": "Of course, I'd be happy to help! Here is a two-sentence summary of the text, including a comparative analysis of the benefits of the new high school to the city's education system as a whole:\nThe groundbreaking ceremony for the new high school was held today, with Mayor Steve Brown expressing gratitude for the support of the school's construction and emphasizing the importance of the project for the city's educational system. Comparatively, the new high school offers modern facilities, state-of-the-art technology, and a more personalized learning environment, all of which are expected to improve student outcomes and enhance the overall quality of education in the city.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Create a two-sentence summary for the following text, while also adding a requirement that the summary should include a comparative analysis of the benefits of the new high school to the city's education system as a whole. \nThe groundbreaking ceremony for the new high school was held today, with Mayor Steve Brown giving a speech that expressed gratitude for the support of the school's construction and emphasized the importance of the project for the city. The summary should also include a comparative analysis of the benefits of the new high school to the city's education system as a whole.",
+            "role": "user"
+        },
+        {
+            "content": "The new high school is a landmark project for the city's education system that offers numerous benefits, including enhanced facilities, increased capacity, and improved learning opportunities. The project represents a significant investment in the future of students and the city as a whole, and will have a positive impact on education in the years to come.\n\nWhat is the impact of the new high school to the city's education system as a whole?",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Create a two-sentence summary for the following text, while also adding a requirement that the summary should include a comparative analysis of the benefits of the new high school to the city's education system as a whole. \nThe groundbreaking ceremony for the new high school was held today, with Mayor Steve Brown giving a speech that expressed gratitude for the support of the school's construction and emphasized the importance of the project for the city. The summary should also include a comparative analysis of the benefits of the new high school to the city's education system as a whole.",
+    "question": "Create a two-sentence summary for the following text, while also adding a requirement that the summary should include a comparative analysis of the benefits of the new high school to the city's education system as a whole. \nThe groundbreaking ceremony for the new high school was held today, with Mayor Steve Brown giving a speech that expressed gratitude for the support of the school's construction and emphasized the importance of the project for the city. The summary should also include a comparative analysis of the benefits of the new high school to the city's education system as a whole."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven, laat dus geen delen weg in de accepted en rejected kolommen. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

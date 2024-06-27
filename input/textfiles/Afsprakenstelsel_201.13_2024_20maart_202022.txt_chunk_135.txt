@@ -1,0 +1,56 @@
+NameIDFormat
+An IDPSSODescriptor element MUST contain one or more NameIDFormat XML (s), containing the attribute Identificerende
+(EntityConcernedTypes) the participant supports. A SPSSODescriptor of a Participant (as used by HM) MUST NOT kenmerken
+contain a NameIDFormat. The  NameIDFormats should be included per role, if certified for the applicable  (and conditions): following domain
+Role Application
+domainAdditional condition include NameIDFormat
+HM *Citizen
+domaineHerkenning branding urn:etoegang:1.12:EntityConcernedID:
+PseudoID
+urn:etoegang:1.12:EntityConcernedID:BSN
+Consumer
+domaineHerkenning branding urn:etoegang:1.9:EntityConcernedID:
+Pseudo
+urn:etoegang:1.12:EntityConcernedID:
+PseudoID
+Business
+domaineHerkenning branding urn:etoegang:1.9:EntityConcernedID:KvKnr
+urn:etoegang:1.9:EntityConcernedID:RSIN
+urn:etoegang:1.13:EntityConcernedID:
+PROBASnrAfsprakenstelsel Elektronische Toegangsdiensten | pagina 803AD Consumer
+domaineHerkenning branding urn:etoegang:1.9:EntityConcernedID:
+Pseudo
+urn:etoegang:1.12:EntityConcernedID:
+PseudoID
+Business
+domaineHerkenning branding urn:etoegang:1.9:EntityConcernedID:KvKnr
+urn:etoegang:1.9:EntityConcernedID:RSIN
+urn:etoegang:1.13:EntityConcernedID:
+PROBASnr
+MR Business
+domaineHerkenning branding; KvKnr supported urn:etoegang:1.9:EntityConcernedID:KvKnr
+eHerkenning branding; RSIN nummer supported urn:etoegang:1.9:EntityConcernedID:RSIN
+eHerkenning branding; PROBASnr supported urn:etoegang:1.13:EntityConcernedID:
+PROBASnr
+eHerkenning branding; KvKnr + chain
+authorization supportedurn:etoegang:1.9:IntermediateEntityID:
+KvKnr
+eHerkenning branding; RSIN nummer chain
+authorization supportedurn:etoegang:1.9:IntermediateEntityID:
+RSIN
+EB *Citizen
+domaineHerkenning branding urn:etoegang:1.12:EntityConcernedID:BSN
+urn:etoegang:1.12:EntityConcernedID:
+PseudoID
+Consumer
+domaineHerkenning branding urn:etoegang:1.9:EntityConcernedID:
+Pseudo
+Business
+domain eHerkenning branding  urn:etoegang:1.11:EntityConcernedID:
+eIDASLegalIdentifier
+*Citizen domein: only voor EU Citizens
+Example NameIDFormat
+... <md:IDPSSODescriptor>
+... <md:NameIDFormat>urn:etoegang:1.9:EntityConcernedID:KvKnr</md:NameIDFormat>
+<md:NameIDFormat>urn:etoegang:1.9:EntityConcernedID:Pseudo</md:NameIDFormat>
+...

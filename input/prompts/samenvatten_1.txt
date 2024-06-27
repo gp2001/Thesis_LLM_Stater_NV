@@ -1,0 +1,30 @@
+Je gaat een txt file als input krijgen. Kijk of de txt bruikbare financiële gegevens bevat, als dat het geval is, genereer dan Nederlandstalige ORPO-trainingsdata in onderstaande vorm. Het onderstaande gesprek vraagt om een samenvatting van bepaalde informatie, ik wil dat jij een soortgelijk gesprek gaat genereren. Analyseer de txt, stel een prompt op die vraagt om een samenvatting van een onderwerp dat in de txt terugkomt. Genereer een chosen antwoord met in de tekst behaalde gegevens. Genereer een rejected antwoord dat erg lijkt op het accepted antwoord, maar die kleine stukjes informatie bevat die niet kloppen. Geef alleen de json en schrijf verder niks. Schrijf alle prompts en antwoorden compleet in het Nederlands.
+
+{
+    "source": "ultrachat",
+    "chosen": [
+        {
+            "content": "Can you summarize the experience of taking photos at the missile range on the border of England and Wales?\nGenerate according to: It\u2019s not every day that you get asked to take photos at a missile range which is used to test weapons and munitions for the military. Luckily we took our 4\u00d74 as the location is in a steep valley on the border of England and Wales. The staff there were very helpful and had set up several displays for us to photograph.\nThe images will be used on the website we created, and also on other promotional material.\nStretch Marketing is a small but perfectly formed marketing consultancy offering help with everything to get your message out there. We'll shout it from the rooftops if necessary.",
+            "role": "user"
+        },
+        {
+            "content": "Taking photos at a missile range on the border of England and Wales is a rare and captivating experience. The location lies in a picturesque steep valley, requiring a 4x4 vehicle for easy navigation. This exceptional assignment offers the opportunity to capture images of weapons and munitions testing sites for military use.\n\nUpon arrival, the accommodating staff have thoughtfully arranged various displays to showcase different aspects of the range. These photographs will serve as a valuable resource for promoting the missile range, featuring on their website and in promotional materials.\n\nStretch Marketing, a dynamic and resourceful marketing consultancy, was tasked with handling the photographic project. The firm offers a wide range of services, including marketing strategies, events, and promotional campaigns. Whether it's whispering or shouting your message from the rooftops, Stretch Marketing delivers the ideal solutions to effectively reach your target audience. This extraordinary experience at the missile range perfectly demonstrates their capabilities and commitment to meeting each client's unique needs.",
+            "role": "assistant"
+        }
+    ],
+    "rejected": [
+        {
+            "content": "Can you summarize the experience of taking photos at the missile range on the border of England and Wales?\nGenerate according to: It\u2019s not every day that you get asked to take photos at a missile range which is used to test weapons and munitions for the military. Luckily we took our 4\u00d74 as the location is in a steep valley on the border of England and Wales. The staff there were very helpful and had set up several displays for us to photograph.\nThe images will be used on the website we created, and also on other promotional material.\nStretch Marketing is a small but perfectly formed marketing consultancy offering help with everything to get your message out there. We'll shout it from the rooftops if necessary.",
+            "role": "user"
+        },
+        {
+            "content": "Sure, I can help you summarize the experience of taking photos at a missile range. At the missile range on the border of England and Wales, which is mainly used for testing weapons and munitions for the military, you get the opportunity to take photos that will be used on your website and other promotional material. The location is in a steep valley, so it's best to bring a 4x4 vehicle. The staff at the missile range were very helpful and had set up various displays for you to photograph. Overall, it was a unique and exciting experience.",
+            "role": "assistant"
+        }
+    ],
+    "prompt": "Can you summarize the experience of taking photos at the missile range on the border of England and Wales?\nGenerate according to: It\u2019s not every day that you get asked to take photos at a missile range which is used to test weapons and munitions for the military. Luckily we took our 4\u00d74 as the location is in a steep valley on the border of England and Wales. The staff there were very helpful and had set up several displays for us to photograph.\nThe images will be used on the website we created, and also on other promotional material.\nStretch Marketing is a small but perfectly formed marketing consultancy offering help with everything to get your message out there. We'll shout it from the rooftops if necessary.",
+    "question": "Can you summarize the experience of taking photos at the missile range on the border of England and Wales?\nGenerate according to: It\u2019s not every day that you get asked to take photos at a missile range which is used to test weapons and munitions for the military. Luckily we took our 4\u00d74 as the location is in a steep valley on the border of England and Wales. The staff there were very helpful and had set up several displays for us to photograph.\nThe images will be used on the website we created, and also on other promotional material.\nStretch Marketing is a small but perfectly formed marketing consultancy offering help with everything to get your message out there. We'll shout it from the rooftops if necessary."
+}
+
+Let op dat de terugkerende prompt altijd exact hetzelfde is en compleet in het Nederlands wordt geschreven. Gebruik enkel en alleen informatie die uit de txt komt, verzin hier zelf niets bij!
+```json

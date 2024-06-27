@@ -1,0 +1,46 @@
+Note: In
+schemeVersion 1 the recipientKeySetVersion for DVs is a value of 8 decimal digits corresponding with the issue date
+(notBefore) of the certificate, in the format YYYYMMDD, used to request the PEM file at the party generating the keys within
+the scheme. A DirectEncryptedPseudonym is identitical  to an EncryptedPseudonym, although an additonal processing step is needed
+before decryption. This form is only applicable for reporting from BSNk_registration to CIF. EC-Schnorr-Signature ::= SEQUENCE {
+signatureType      OBJECT IDENTIFIER (ecschnorr-plain-SHA384),
+signatureValue     EC-Sig-Value
+}
+bsi-de OBJECT IDENTIFIER ::= {
+itu-t(0) identified-organization(4) etsi(0)
+reserved(127) etsi-identified-organization(0) 7
+}
+id-ecc OBJECT IDENTIFIER ::= { bsi-de algorithms(1) 1 }
+ecschnorr-plain-signatures OBJECT IDENTIFIER ::= { id-ecc signatures(4) 3 }
+ecschnorr-plain-SHA384 OBJECT IDENTIFIER ::= { ecschnorr-plain-signatures 3 }
+The auditElement is similar to the auditElement of a Polymorphic Identity or Pseudonym. The signature is a Schnorr
+signature for efficiency. id-BSNk-encrypted OBJECT IDENTIFIER ::= { id-BSNk-identifiers 2 }
+id-BSNk-encrypted-identity OBJECT IDENTIFIER ::= { id-BSNk-encrypted 1 }
+id-BSNk-encrypted-pseudonym OBJECT IDENTIFIER ::= { id-BSNk-encrypted 2 }
+id-BSNk-encrypted-identity-signed OBJECT IDENTIFIER ::= { id-BSNk-encrypted 3 }Afsprakenstelsel Elektronische Toegangsdiensten | pagina 779id-BSNk-encrypted-pseudonym-signed OBJECT IDENTIFIER ::= { id-BSNk-encrypted 4 }
+id-BSNk-encrypted-direct-pseudonym OBJECT IDENTIFIER ::= { id-BSNk-encrypted 5 }
+id-BSNk-encrypted-direct-pseudonym-signed OBJECT IDENTIFIER ::= { id-BSNk-encrypted 6 }
+Identity or Pseudonym
+Finally, an Encrypted Identity or Pseudonym can be decrypted into a Identity or Pseudonym respectively, consisting of (the X
+coordinate of) 1 point on an elliptic curve. The Identity or Pseudonym is not directly used in any of the interfaces, but is the
+RECOMMENDED representation of a Identity or Pseudonym for a relying party to use after decryption of a Encrypted Identity
+or Pseudonym. Decrypted pseudoID ASN.1 notation
+Identity ::= SEQUENCE {
+notationIdentifier     OBJECT IDENTIFIER (id-BSNk-decrypted-identifier),
+schemeVersion          INTEGER,
+schemeKeyVersion       INTEGER,
+recipient              IA5String,
+type                   INTEGER,
+identityValue          IA5String
+}
+Pseudonym ::= SEQUENCE {
+notationIdentifier     OBJECT IDENTIFIER (id-BSNk-decrypted-pseudonym),
+schemeVersion          INTEGER,
+schemeKeyVersion       INTEGER,
+recipient              IA5String,
+recipientKeySetVersion INTEGER,
+diversifier            IA5String,
+type                   INTEGER,
+pseudonymValue         IA5String
+}
+In case of an Identity, the identity can be extracted from the X coordinate of the EllipticCurvePoint of the Identity.

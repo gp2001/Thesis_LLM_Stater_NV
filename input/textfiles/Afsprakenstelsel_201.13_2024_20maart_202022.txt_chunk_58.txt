@@ -1,0 +1,22 @@
+Dienstverleners MOGEN zelf GEEN
+landkeuze tonen. Indien dezelfde service ook in het bedrijvendomein wordt aangeboden, wordt los hiervan de eHerkennings
+inlogknop getoond volgens de  . Richtlijnen communicatie eHerkenning
+De EU-vlag MOET als visual marker bij de inlogknop voor Europees inloggen gebruikt worden. De vlag zelf
+mag niet als inlogknop gebruikt worden. Meer informatie is te vinden in:  Algemene richtlijnen stijlelementen
+. eIDAS.pdf
+Dienstverleners MOGEN voor veel gestelde vragen (FAQ) over eIDAS op hun site doorverwijzen naar de actuele veel
+gestelde vragen op . Communicatietoolkit eIDAS
+Indien dienstverleners informatie over eIDAS en Europees inloggen op hun website publiceren MOETEN zij daarvoor
+gebruik maken van de beeldmerken, standaardteksten, kernboodschappen en andere elementen, zoals die in de
+communicatie toolkit beschikbaar zijn gesteld via de pagina . Communicatietoolkit eIDAS
+Dienstverleners MOETEN voor hun communicatie-uitingen over eIDAS gebruik maken van de beeldmerken,
+standaardteksten, kernboodschappen en andere elementen zoals die in de communicatie toolkit beschikbaar zijn
+gesteld door de beheerorganisatie.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 465
+Techniek en functionaliteit
+Hier vindt u de technische documenten van het Afsprakenstelsel Elektronische Toegangsdiensten: de
+koppelvlakspecificaties, de use cases en testen voor deelnemers. Deze documenten bevatten informatie over welke
+standaarden worden gehanteerd, de functionaliteit, de berichten en koppelvlakken die Elektronische Toegangsdiensten
+ondersteunt en de testen die worden uitgevoerd. Deze categorie bevat de volgende onderdelen:
+Use cases  — Beschrijft de functionaliteit van Elektronische Toegangsdiensten in detail. Gebruikersinterface  — Dit hoofdstuk beschrijft eisen die worden gesteld aan de gebruikersinterface met de gebruiker. Interface specifications
+Attribuutverstrekking  — Een AD, MR of EB kan als attribuutverstrekker optreden. Zij mogen alleen attributen
+aanbieden die in de Attribuutcatalogus beschreven worden.

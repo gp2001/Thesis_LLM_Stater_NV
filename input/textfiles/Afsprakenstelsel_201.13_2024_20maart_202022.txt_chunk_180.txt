@@ -1,0 +1,49 @@
+2. Hetzelfde als LoA 2 punten 2 en 3 en LoA3 punt 2 en met
+toevoeging van:
+De deelnemer MOET risicobeperkende maatregelen
+nemen voor de dreiging dat een medewerker met valse
+voorwendselen een authenticatiemiddel creëert op naam
+van een fictief persoon, of op naam van een bestaand
+persoon zonder dat deze daarom heeft verzocht. De
+Deelnemer MOET maatregelen nemen die
+functiescheiding handhaven tussen medewerkers die de
+uitgifte van het authenticatiemiddel controleren en
+medewerkers die de uitgifte van het authentictiemiddel
+goedkeuren. Deze eis is ontleent aan het Programma van
+Eisen PKIoverheid v4.3, deel 3 – basiseisen, eis-nummer
+5.2.4-pkio77 en onderliggende ETSI eisen. Van
+registratie- en uitgifteprocessen voor LoA4
+authenticatiemiddelen die zijn gebaseerd op een
+gekwalificeerd certificaat mag worden verondersteld dat
+die aan deze eis voldoen.Ad 1 Toelichting: Voorkomen wordt dat één en
+dezelfde medewerker zonder enige vorm van
+controle, toezicht of functiescheiding in staat is
+om de registratie van een gebruiker te doen en
+vervolgens een authenticatiemiddel kan creëren
+en uitreiken. Dat het onwaarschijnlijk wordt
+gemaakt dat technisch beheerders ongezien
+rechtstreeks ingrijpen op databases om daarmee
+een werkend authenticatiemiddel te creëren. Dat
+betekent dat ofwel de technisch beheerder deze
+handeling niet kan verrichten ofwel dat een
+dergelijke handeling van de beheerder vrijwel
+direct wordt gesignaleerd en onder de aandacht
+van het management wordt gebracht. 2.4.7 Compliance en audit
+LoA Vereiste elementen Toelichting en good practice
+LOA 1 2
+De Deelnemer MOET bij toetreding tot het Stelsel zijn
+processen voor uitgifte van middelen en de technische
+beschrijving van de middelen en het
+authenticatiemechanisme ter beoordeling aanbieden
+aan de Toezichthouder en de externe
+conformiteitsbeoordelaar. Als toegetreden partij
+MOET de Deelnemer bij wijziging van zijn processen
+deze opnieuw aanbieden ter beoordeling door de
+Toezichthouder.Ad 1 en 2 Toelichting:
+De wijze waarop deelnemers processen aan de
+Toezichthouder aanbieden volgt de betreffende
+vereisten uit het  van Operationeel handboek
+het stelsel. De eisen aan de conformiteitsbeoordelaar, de
+uit te voeren toetsen en
+conformiteitsrapportage zijn beschreven in de
+Handreiking Conformiteitstoetsing Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10022. 3. 1.

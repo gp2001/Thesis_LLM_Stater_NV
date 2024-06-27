@@ -1,0 +1,63 @@
+b. Opstellen implementatieplan
+Input Vastgestelde release
+Activiteit De releasemanager stelt in afstemming met de aanspreekpunten per implementerende partij een
+implementatieplan op in het geval de release ketenafhankelijkheden bevat. Het proces om te komen tot een
+concreet en duidelijk afgebakend en gezamenlijk vastgesteld implementatieplan waaraan alle
+implementerende partijen zijn gebonden, is als volgt:
+De implementerende partij (hierna partij) benoemt een verantwoordelijke voor de realisatie van een
+release. Deze persoon is voor die partij het aanspreekpunt tijdens de gehele . implementatie
+Iedere partij maakt een impactanalyse en stelt een planning op. De releasemanager stelt aan de hand van deze planningen en in samenwerking met deze
+aanspreekpunten, een concept implementatieplan op. In het concept implementatieplan wordt een
+voorstel gedaan voor:
+de concrete maatregelen die de verschillende partijen moeten nemen;
+de bijbehorende milestones en deadline(s). Output
+Concept implementatieplan
+Wie? Release manager
+Bevoegde vertegenwoordigers van de implementerende partijen. Aanspreekpunt van de implementerende partijen. Tactisch Beraad
+2. Vaststellen implementatieplan
+Input Concept implementatieplanAfsprakenstelsel Elektronische Toegangsdiensten | pagina 324Activiteit De releasemanager organiseert dat de betrokken partijen met het concept implementatieplan kunnen
+instemmen. Het instemmen vindt plaats door het ondertekenen van het implementatieplan door een daartoe
+bevoegde vertegenwoordiger. Zodra alle implementerende  hebben  is het implementatieplan partijen getekend van kracht. De releasemanager communiceert het implementatieplan aan het Tactisch Beraad. Output Goedgekeurd en door de implementerende partijen ondertekend implementatieplan. Wie? Implementerende partijen
+De release manager
+3. Realiseren release
+Input Goedgekeurd implementatieplan
+Activiteit Na het vaststellen van het release- en implementatieplan  start de realisatie en implementatie door de
+betrokken partijen. De implementatie bestaat uit één of meer van de volgende stappen:
+De implementerende partijen realiseren de functionaliteit zoals afgesproken in het implementatieplan;
+De Beheerorganisatie levert een communicatieplan op voor communicatie rondom de nieuwe
+implementatie;
+De deelnemers  tot de nieuwe versie van het Afsprakenstelsel conform het  . treden toe Proces toetreden
+De partijen voeren hun acties uit het communicatieplan uit. De partijen stemmen hun activiteiten af tijdens de implementatie  onder regie van de releasemanager. De
+releasemanager monitort de voortgang van de gehele release en rapporteert tussentijds over de voortgang aan
+het Tactisch Beraad. Output Gerealiseerde functionaliteit
+Wie? Implementerende partijen
+De release manager
+4. Uitrol release
+Input Gerealiseerde functionaliteit
+Activiteit De uitrol van de release gaat conform  . Het is van belang dat de activiteit en het Proces netwerkmetadata
+planning afgestemd wordt met de beheerorganisatie. Output Werkende functionaliteit in het productienetwerk. Wie? Implementerende partijen
+De releasemanagerAfsprakenstelsel Elektronische Toegangsdiensten | pagina 3255. Uitvoering evaluatie
+Input De ervaringen van betrokken partijen bij het realiseren van de release. Activiteit De release manager organiseert binnen twee maanden nadat de implementatie gereed is een evaluatie met de
+betrokken partijen. Output
+Evaluatie. Wie? De release manager;
+De implementerende partijen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 326Proces incidentmanagement
+Het afsprakenstelsel heeft een proces om incidenten binnen het Netwerk op te lossen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 327Doelstelling
+Het Proces Incidentmanagement heeft als doel om verschillende typen incidenten op gestructureerde wijze af te handelen
+binnen het stelsel. Daarbij dient de dienstverlening zo min mogelijk te worden verstoord. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 328Classificatie van incidenten
+Incident Een gebeurtenis die niet tot de standaardoperatie van een elektronische toegangsdienst behoort en die
+mogelijk impact c.q. risico oplevert ten aanzien van de kwaliteit, beschikbaarheid, integriteit en/of
+vertrouwelijkheid van (informatie binnen) het afsprakenstelsel. Incidenten kunnen bijvoorbeeld gaan om
+Verstoringen: dit zijn gebeurtenissen die er toe leiden dat (onderdelen van) de dienstverlening van
+eHerkenning beperkt of niet beschikbaar zijn;
+Informatiebeveiligingsincidenten: waaronder verlies van USB stick, laptop, losse harde schijf en ook
+signaleringen van hackpogingen, pogingen tot binnendringen in het systeem of malware;
+Fraude of vermoeden van fraude door bijvoorbeeld een medewerker of hacker. Calamiteit  Een incident waarvoor aan één van de volgende voorwaarden is voldaan:
+Verwachte verstoringsduur overstijgt de afgesproken   binnen het  Responsetijden
+; Beschikbaarheidsvenster
+Betrokkenheid van tenminste twee deelnemers;
+Directe en ernstige hinder;
+Impact op vertrouwelijkheid en integriteit;
+Meldplichtig datalek als bedoeld in de Meldplicht datalekken. Crisis Een incident waarvoor aan één van de volgende voorwaarden is voldaan:
+De calamiteit heeft een grote impact op de uitstraling/imago van eHerkenning en het vertrouwen van
+bedrijven en overheidsdienstverleners in het stelsel;
+De verwachte verstoring i.e.

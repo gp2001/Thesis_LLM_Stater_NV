@@ -1,0 +1,59 @@
+4. aangegeven de reeds
+genomen, nog te nemen
+maatregelen en de
+restrisico's. een GAP-analyse overleggen
+waarin ten opzichte van het
+Gemeenschappelijk
+normenkader
+informatiebeveiliging is
+aangegeven welke
+maatregelen reeds zijn
+geïmplementeerd en welke
+maatregelen nog moeten
+worden geïmplementeerd. De Beheerorganisatie moet per
+deelnemer bijhouden welke
+versie van het normenkader van
+toepassing was bij de audits in
+het kader van certificering of
+TPM. A. 18.2.2Naleving van beveiligingsbeleid en -
+normenDe directie moet regelmatig de
+naleving van de informatieverwerking
+en -procedures binnen haar
+verantwoordelijkheidsgebied
+beoordelen aan de hand van de
+desbetreffende beleidsregels, normen
+en andere eisen betreffende
+beveiliging. Sv Sv S Opstellen en uitvoeren van een
+controleplan op basis waarvan
+procedures regelmatig worden
+gecontroleerd op naleving.De Deelnemers, BSNk en BO moeten
+de naleving van
+informatiebeveiliging kunnen
+aantonen. De Toezichthouder op het stelsel
+toetst de naleving van
+Stelselafspraken door Deelnemers,
+BSNk en BO. A. 18.2.3Beoordeling van technische naleving  Informatiesystemen moeten
+regelmatig worden beoordeeld op
+naleving van de beleidsregels en
+normen van de organisatie voor
+informatiebeveiliging. Sv Sv S Opstellen en uitvoeren van een
+controleplan op basis waarvan
+informatiesystemen regelmatig
+worden gecontroleerd op de
+implementatie van
+beveiligingsstandaards.Conform . Operationeel handboek
+De beheersmaatregel op
+stelselniveau betreft het (laten) Afsprakenstelsel Elektronische Toegangsdiensten | pagina 923uitvoeren van security
+assessments  zoals pentesten en code
+reviews.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 924Normenkader betrouwbaarheidsniveaus
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status Definitief
+Beschrijft de wijze waarop authenticatiemiddelen en machtigingen geclassificeerd worden op betrouwbaarheidsniveau en de
+normen die daarbij worden toegepast.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 925eIDAS
+Dit normenkader volgt in   de paragraaf- Technische specificaties en procedures voor uitgifte van authenticatiemiddelen
+indeling van de Europese eIDAS uitvoeringsverordening EU 2015/1502. De reden is dat deze structuur het vergemakkelijkt
+om aan te tonen dat het afsprakenstelsel voldoet aan de in Europees verband gestelde normering. De
+Uitvoeringsverordening bevat het Europese framework van eisen voor de aanbieders van authenticatiediensten en de
+betrouwbaarheid van de ingezette authenticatiemiddelen en bijbehorend authenticatiemechanisme.

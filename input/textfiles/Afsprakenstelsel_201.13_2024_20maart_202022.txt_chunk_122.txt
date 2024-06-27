@@ -1,0 +1,53 @@
+Formaat Het PROBASnr bestaat uit 9 cijfers. Voorbeeld: 123456789. Ketenmachtigingen
+Vertegenwoordiging
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 754EntityConcernedID:Pseudo
+Attribuutnaam urn:etoegang: EntityConcernedID:Pseudo 1.9:
+Omschrijving Een specifiek pseudoniem dat wordt gebruikt om een  te identificeren binnen consument
+eHerkenning. Formaat 32 byte hex
+Ketenmachtigingen
+Vertegenwoordiging
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 755EntityConcernedID:RSIN
+Attribuutnaam urn:etoegang: 1.9: EntityConcernedID:RSIN
+Omschrijving Het Rechtspersonen en Samenwerkingsverbanden Identificatienummer van de vertegenwoordigde
+dienstafnemer/intermediair
+Formaat Het RSIN bestaat uit 9 cijfers. Voorbeeld: 123456789. Ketenmachtigingen
+Vertegenwoordiging
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 756
+ServiceRestriction:SubdossierNr
+Attribuutnaam urn:etoegang: SubdossierNr 1.9: ServiceRestriction:
+Omschrijving Het vestigingsnummer (oude formaat) van de vertegenwoordigde dienstafnemer
+Formaat Het vestigingsnummer bestaat uit 4 cijfers, bijvoorbeeld 0001
+Ketenmachtigingen Nee voor intermediair, Ja voor dienstafnemer
+Vertegenwoordiging
+Een beperking tot een vestiging betekent dat de vertegenwoordiger alleen bevoegd is om de desbetreffende vestiging te
+vertegenwoordigen. Indien een dienstverlener een beperking op subdossier- of vestigingsnummer accepteert
+MOET deze ook transacties accepteren zonder deze beperking
+MOET deze een aangeleverde beperking respecteren. Het negeren ervan kan dit als gevolg hebben dat er geen
+rechtsgeldige rechtshandeling tot stand is gekomen
+MAG dit subdossier- of vestigingsnummer niet gebruikt worden als bepaling van de locatie, maar alleen om
+de grenzen van de vertegenwoordigingsbevoegdheid vast te stellen
+ServiceRestriction:SubdossierNr zelf dient niet te worden opgenomen in de dienstencatalogus (als
+EntityTypeConcernedAllowed), indien een DV deze nog gebruikt. Om aan te geven dat een DV deze beperking accepteert,
+dient  in de dienstencatalogus te worden opgenomen. Een MR MOET het SubdossierNr ServiceRestriction:Vestigingsnr
+meeleveren naast het Vestigingsnr, zolang de KvK deze nog levert. Kamer van Koophandel heeft aangekondigd te stoppen met het leveren van dit attribuut. Doorgifte van dit attribuut is op
+lange termijn niet gegarandeerd.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 757
+ServiceRestriction:Vestigingsnr
+Attribuutnaam urn:etoegang: ServiceRestriction:Vestigingsnr 1.9:
+Omschrijving Het vestigingsnummer (nieuwe formaat) van de vertegenwoordigde dienstafnemer
+Formaat Het vestigingsnummer bestaat uit 12 cijfers, bijvoorbeeld 123456789012
+Ketenmachtigingen Nee voor intermediair, Ja voor dienstafnemer
+Vertegenwoordiging
+Een beperking tot een vestiging betekent dat de vertegenwoordiger alleen bevoegd is om de desbetreffende vestiging te
+vertegenwoordigen. Indien een dienstverlener een beperking op subdossier- of vestigingsnummer accepteert
+MOET deze ook transacties accepteren zonder deze beperking
+MOET deze een aangeleverde beperking respecteren. Het negeren ervan kan dit als gevolg hebben dat er geen
+rechtsgeldige rechtshandeling tot stand is gekomen
+MAG dit subdossier- of vestigingsnummer niet gebruikt worden als bepaling van de locatie, maar alleen om
+de grenzen van de vertegenwoordigingsbevoegdheid vast te stellenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 758urn:etoegang:1.12:EntityConcernedID:BSN
+NameQualifier urn:etoegang:1.12:EntityConcernedID:BSN
+Omschrijving Een  wordt gebruikt om een  of urn:etoegang:1.12:EntityConcernedID:BSN  Natuurlijk persoon
+éénmanszaak te identificeren binnen Elektronische Toegangsdiensten. Dit  urn:etoegang:1.12:
+is een BSN die om privacy-redenen specifiek per Dienstverlener polymorf is EntityConcernedID:BSN
+versleuteld. Formaat Base64 representatie van een versleutelde identiteit, als drie punten op een elliptische kromme,
+specifiek voor de Dienstverlener (DER-encoded structure in ASN.1 notatie, een (Signed)
+EncryptedIdentity, zie  ).

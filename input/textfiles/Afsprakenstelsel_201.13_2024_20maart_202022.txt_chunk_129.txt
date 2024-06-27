@@ -1,0 +1,20 @@
+Participants supply metadata and the Beheerorganisatie validates, aggregates and publishes it according to  Proces
+. netwerkmetadata
+Moreover, service providers adapting to the standard DV-HM interface specifications, MUST exchange SAML metadata with
+their supporting HM systems based on specifications describes in this chapter. DV metadata for HM  — For each service, a Dienstverlener (DV) MUST supply metadata to the HM as a valid SAML file
+according to urn:oasis:names:tc:SAML:2.0:metadata with one signed EntityDescriptor element. HM metadata for DV  — A Herkenningsmakelaar (HM) MUST supply metadata to the service provider as a valid SAML
+file according to urn:oasis:names:tc:SAML:2.0:metadata with one signed EntityDescriptor element. Metadata for participants  — A participant MUST supply metadata to the Beheerorganisatie (BO) for every system that
+implements the role of HM, AD, MR, EB or KR in the network. A participant MUST NOT supply metadata for a role or
+functionality it has not been assigned. Network metadata  — The Beheerorganisatie checks the participants' metadata for conformity, deletes the signatures
+and aggregates the metadata into one file. Authorization List BSN format  — The Beheerorganisatie BSNk provides the Autorisatielijst BSN containing the OIN's
+of all organisations authorized to use BSN. Every OIN also accompanied by a name to improve problem solving
+activities. The Beheerorganisatie BSNk publishes the Autorisatielijst BSN in a location specified in their metadata. The
+file is available in XML format. Further information about the Autorisatielijst can be found in the BSNk
+documentation (contact Logius for more information). Key provisioning list format  — The Beheerorganisatie BSNk provides the Sleutelverstrekkingslijst
+containing the OIN's of all Service Providers (Dienstverlener) for whom DV-key material has been provided to their
+Broker (Toegangsdienst). The Sleutelverstrekkingslijst is mainly for transparency reasons (like Certificate
+Transparency, IETF RFC6962). The Beheerorganisatie BSNk publishes the Sleutelverstrekkingslijst in a fixed location. The file is available in XML format. Further information about the Key Provisioning list formaAfsprakenstelsel Elektronische Toegangsdiensten | pagina 782DV metadata for HM
+For each service, a  MUST supply metadata to the HM as a valid SAML file according to urn:oasis:names:tc: Dienstverlener (DV)
+SAML:2.0:metadata with one signed EntityDescriptor element.Signing metadata MUST meet the requirements for signing
+and encrypting, see  . For eIDAS-outbound the EB and BRP MUST act in the same way as a Dienstverlener. Digital signatureAfsprakenstelsel Elektronische Toegangsdiensten | pagina 783Metadata:
+This section describes the layout of the metadata. Elements not listed in this table MUST NOT be included in the metadata.

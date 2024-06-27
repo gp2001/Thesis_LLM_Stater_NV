@@ -1,0 +1,94 @@
+b. Doelstelling
+De doelstelling van het change- en releaseproces is tweeledig:
+Op transparante en zorgvuldig wijze besluiten over welke wijzigingen wel en niet worden doorgevoerd. Alle
+belanghebbenden moeten invloed kunnen hebben op de wijziging van het Afsprakenstelsel. De release op gestructureerde wijze inbrengen in het Afsprakenstelsel en de productieversie van het netwerk. volgens de planning;
+met minimale verstoringen voor Elektronische Toegangsdiensten.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 286Verantwoordelijkheden
+In het change- en releaseproces worden de volgende verantwoordelijkheden onderscheiden:
+Het   is verantwoordelijk voor het schetsen van strategische kaders voor de inhoudelijke Strategisch Beraad
+doorontwikkeling van het Afsprakenstelsel Elektronische Toegangsdiensten in het meerjarenplan;
+Het  besluit over de inhoud van de releases op basis van het advies van het Tactisch Beraad
+Operationeel Beraad en bij een koppelvlakrelease ook op basis van advies van het Leveranciersoverleg. In het
+geval van een koppelvlakrelease stelt het Leveranciersoverleg een releasemanager/productowner aan ;
+De releasemanager en productowner  coördineert de totstandkoming van de release
+Het  toetst of een RFC past in de architectuur van het stelsel. Het Operationeel Beraad Operationeel Beraad
+brengt advies uit over de RFC en samenstelling van een release aan het Tactisch Beraad. Het  stelt een advies op ten aanzien van de inhoud van een koppelvlakrelease, de daarbij leveranciersoverleg
+horende prioriteit en de releasemanager/ productowner voor een koppelvlakrelease. Het leveranciersoverleg
+is verantwoordelijk voor de backlog rond koppelvlak RFC's, de aangestelde product owner beheert deze
+backlog met input uit het LO
+Beheerorganisatie:
+De change manager is verantwoordelijk dat het proces change en release wordt uitgevoerd volgens de
+procesbeschrijving. De change manager actualiseert de procesbeschrijving en coördineert de
+verschillende stappen in het proces. De changemanager organiseert de validatie aan de hand van een demonstratie van de deelnemers van
+de goede werking van de interoperabiliteit tussen de deelnemers. De jurist, security officer en stelstelarchitect leveren een bijdrage met betrekking tot het uitvoeren van
+een risico- en impactanalyse op de RFCs. Een RFC kan door een stakeholder worden voorbereid en ingebracht worden voor behandeling. De indiener
+van een RFC zorgt voor een motivatie en draagvlak waarom een RFC nodig is. Overzicht processtappenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 287
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 288
+Afsprakenstelsel Elektronische Toegangsdiensten | pagina 289Toelichting processtappen
+1a. Opstellen RFC
+Input Het verzoek van een RFC kan door een stakeholder worden gemeld. Denk hierbij aan de governance, het
+leveranciersoverleg en de beheerorganisatie. Een RFC kan verschillende aanleidingen hebben, zoals:
+Correcties: denk aan tekstuele correcties en patches. Het doorvoeren van correcties heeft geen impact op
+de inhoud/werking van het Afsprakenstelsel. Issues: denk aan een (deel van een) functionaliteit die in de praktijk niet goed toepasbaar blijkt. Het
+oplossen van issues heeft impact op de inhoud/werking van het Afsprakenstelsel. Nieuwe functionaliteit: het accepteren van nieuwe functionaliteiten heeft impact op de inhoud/werking
+van het Afsprakenstelsel. Regelgeving: zorgen dat het AS in lijn blijft met nationale en Europese regelgeving. Activiteit De change manager maakt naar aanleiding van het verzoek een dossier voor de RFC aan en deze krijgt een
+uniek kenmerk. De eigenaar van de RFC is de zogenaamde penvoerder. Hij of zij is het aanspreekpunt voor de
+RFC en organiseert de activiteiten om de RFC klaar te maken voor behandeling door de governance. Mocht bij het opstellen blijken dat de RFC impact heeft op het koppelvlak dan wordt het  Proces realisatie
+gevolgd. koppelvlak wijzigingen
+Een RFCs bevat minimaal:
+de beschrijving van de concrete gewenste wijziging
+een beschrijving van de aanleiding/context,
+de oplossingsrichting,
+de globale impact per rol in het Afsprakenstelsel
+de rechtvaardiging hiervan (toegevoegde waarde, business case). Deze business case moet gedragen zijn
+door de betrokken partijen. De penvoerder moet hiermee in staat zijn om deze in het Tactisch Beraad te
+motiveren. De eigenaar van de RFC geeft zelf aan of de inhoud besloten of inzichtelijk is voor de betrokken partijen in de
+initiële fase. Zodra de RFC gereed is voor toetsing door de governance is deze inzichtelijk voor de betrokken
+partijen. Deze partijen hebben dan ook de mogelijkheid om voorafgaand aan de behandeling door de
+governance commentaar te leveren. De penvoerder geeft aan de change manager aan wanneer de RFC gereed
+is voor de behandeling door de Governance. De change manager organiseert de toetsing op i
+door de Beheerorganisatie en agendeert de RFC voor behandeling in het nformatiebeveiliging en juridica
+Operationeel Beraad. Output Opgestelde RFC
+Wie? Penvoerder RFC
+Change manager
+Leveranciersoverleg
+1b. presentatie oplossingsrichting RFC van werkgroep door penvoerder
+Input Oplossingsrichting RFC vanuit een werkgroepAfsprakenstelsel Elektronische Toegangsdiensten | pagina 290Activiteit De penvoerder en/of sponsor presenteert de gekozen oplossingsrichting aan de leden van het OB met als doel
+deze te toetsen en te bediscussiëren. Output
+Verbeterde RFC
+Draagvlak voor de RFC bij leden OB
+Wie? Penvoerder en/of sponsor
+2. Bepalen impact RFC door BO
+Input RFC
+Activiteit Vanuit de beheerorganisatie bepaalt de security officer en de jurist de RFCs op het gebied van security en
+privacy risico's. Bij complexe RFC's voert de stelselarchitect een review uit. De stelselarchitect bepaalt de
+impact op de architectuur en de conformiteit ten aanzien van de architectuurprincipes. Output
+Verbetervoorstellen gericht aan de penvoerder
+Impact bepaald op het vlak van security en privacy (Actuele risicomatrix)
+Eventueel impact bepaald door stelselarchitect
+Agendering voor behandeling door OB
+Wie? Security officer
+Jurist
+Stelselarchitect
+3. Behandeling RFC door het Operationeel Beraad
+Input RFC getoetst door BO
+Activiteit Het Operationeel beraad stelt een advies op voor het Tactisch Beraad of een RFC implementeerbaar is en/of het
+past het in de architectuur en AS. Het Operationeel Beraad stelt vast of het wel/geen koppelvlakrelease is. Output Advies over de RFC als voorbereiding voor de besluitvorming door het Tactisch Beraad. Wie? Operationeel Beraad
+4. Besluiten over RFC's
+Input RFC's met advies Operationeel BeraadAfsprakenstelsel Elektronische Toegangsdiensten | pagina 291Activiteit De RFC wordt samen met het advies van het Operationeel Beraad doorgeleid naar het Tactisch Beraad. Indien de verzameling bestaat uit administratieve RFC's dan zal de changemanager die aanbieden in een
+releasebundel. Voor RFC's buiten een koppelvlakrelease kunnen er implementatietermijnen van toepassing
+zijn. In principe zijn er dan twee vaste momenten in het jaar om een RFC's geïmplementeerd te hebben: 1 juni
+en 1 december van een betreffend jaar. De koppelvlak RFC's worden los aangeboden en komen na goedkeuring op de backlog van de leveranciers
+Output
+Een formeel vastgestelde release (eventueel spoedrelease)
+Start Proces implementatie koppelvlakrelease
+Aangehouden RFCs
+Wie? Change manager
+Tactisch Beraad
+5. Plaatsten van koppelvlak RFC op backlog realisatie
+Input Positief besluit mbt koppelvlak RFC
+Activiteit Het leveranciersoverleg bepaalt aan de hand van de eigen capaciteit en behoeft en marktpotentieel welke
+koppelvlak RFC's wanneer gerealiseerd worden. Ze informeren het Tactisch Beraad hierover wat op de backlog
+staat en wat daarbij de prioriteit van realisatie is. Zodra het leveranciersoverleg besloten heeft dat een RFC geïmplementeerd wordt wordt dat doorgegeven aan
+de changemanager in verband met het verwerken van de aanpassingen in het afsprakenstelsel. Output Backlog en prioriteitsstelling en inzicht welke items in een volgende release ingepland zijn. Wie? Leveranciersoverleg
+Tactisch beraad
+6.

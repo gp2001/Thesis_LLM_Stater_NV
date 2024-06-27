@@ -1,0 +1,28 @@
+De Dienstverlener heeft een patchmanagementproces ingericht zodat steeds de laatste (beveiligings-)patches
+zijn geïnstalleerd (B0-7). De Dienstverlener beheerst de toegangsbeveiliging / toegangsbeheer van de relevante systemen (B0-12). De Dienstverlener draagt zorg voor het gebruik van veilige beheermechanismen zoals het gebruik van veilige
+netwerkprotocollen, beheerinterfaces die via het internet uitsluitend door middel van sterke authenticatie te
+benaderen zijn en het uitsluiten dat er gebruik wordt gemaakt van zogenaamde ‘backdoors’ om de systemen
+te benaderen (B2-1). De Dienstverlener draagt er zorg voor dat bij de ontwikkeling van web-applicaties gebruik wordt gemaakt van
+veilige ontwikkeltechnieken, zoals beschreven in de OWASP top 10 (samenvattend B3-1 t/m 7). De Dienstverlener heeft sleutelbeheer ingericht waarbij minimaal gegarandeerd wordt dat sleutels niet
+onversleuteld op de servers zijn geplaatst en neemt maatregelen ter beveiliging van de privé sleutel (private
+key) (B5-1). De Dienstverlener draagt zorg voor versleuteling van sessie cookies (B5-4). De Dienstverlener voert actief controles uit op logging, gericht op de operatie en beveiliging van systemen
+(B7-8). De Dienstverlener draagt er zorg voor dat bij uitbesteding van activiteiten de relevante verplichtingen worden
+vastgelegd (in een overeenkomst) (B0-14). De Dienstverlener beheerst de geheimhouding van vertrouwelijke stelsel gerelateerde informatie en de zorgvuldige
+omgang met persoonsgegevens van dienstafnemers ( ). Aanvullende verplichtingen
+De Dienstverlener beheerst de juiste koppeling van een authenticatiemiddel van de dienstafnemer aan het account
+van die dienstafnemer bij de Dienstverlener ( ). Aanvullende verplichtingen
+De Dienstverlener beheerst de risico’s van de online dienst die hij aansluit. De Dienstverlener heeft het
+betrouwbaarheidsniveau van de dienst vastgesteld op basis van de analyse van deze risico’s ( Aanvullende
+). verplichtingenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 10946. Indien (bijzondere) persoonsgegevens worden verwerkt, verklaart de Dienstverlener hiertoe gerechtigd te zijn en
+bewerkersovereenkomsten afgesloten te hebben met relevante partijen. Voorts aanvaardt ondergetekende dat de Herkenningsmakelaar gedurende de looptijd van de overeenkomst met de
+dienstverlener beoordeelt of de dienstverlener blijft voldoen aan de op hem rustende verplichtingen op grond van het
+afsprakenstelsel. Indien de Herkenningsmakelaar hieromtrent twijfelt of van mening is dat dit niet langer het geval is, geeft hij dit terstond
+door aan de Toezichthouder. Indien de Toezichthouder oordeelt dat de Herkenningsmakelaar dient te handhaven, zal de
+Herkenningsmakelaar terstond zijn dienstverlening aan de Dienstverlener schorsen of beëindigen . Datum: ________________________________________
+Plaats: ________________________________________
+Naam: ________________________________________
+Handtekening:
+________________________________________
+Ondertekening dient plaats te vinden door een bevoegd vertegenwoordiger van de rechtspersoon. Dat kan zijn de statutair bestuurder van de rechtspersoon of een gevolmachtigde,
+in dat geval moet een kopie van een volmacht worden bijgevoegd. Indien dit document afgedrukt meerdere pagina's bestrijkt, graag alle voorliggende pagina's paraferen. Als PDF of
+Word document mag deze ook digitaal ondertekend worden. Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10951. 2.

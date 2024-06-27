@@ -1,0 +1,48 @@
+2. Alle digitale persoonsgegevens en andere gevoelige
+gegevens MOETEN met cryptografie zijn beschermd
+tijdens transport. Alle digitale persoonsgegevens en andere gevoelige
+gegevens in ruste MOETEN met cryptografie zijn
+beschermd als: i) deze data vanaf het internet te
+benaderen is ii) deze data op draagbare/verwijderbare
+media staat. De toegang tot gevoelig cryptografisch materiaal dat voor
+de uitgifte van elektronische identificatiemiddelen en
+voor authenticatie wordt gebruikt, MOET zijn beperkt tot
+de uitoefening van taken en toepassingen waarvoor de
+toegang strikt noodzakelijk is.Ad 3 Als toegang tot de systemen of media op
+eenvoudige wijze verkregen kan worden dan
+dient via cryptografie dit risico beperkt te
+worden. Betreft bijvoorbeeld een database server
+die rechtstreeks met een client vanaf het Internet
+te benaderen is. Is niet van toepassing op een
+database server die in een beveiligde zone staat
+waar enkel andere (interne) systemen zoals
+applicatie servers bij kunnen komen. Met draagbare/verwijderbare media wordt
+bedoeld: Laptops, usb-sticks, harddisks etc. Is
+niet van toepassing als deze media in beveiligde
+ruimtes, zoals een datacenter, zijn geplaatst. Ad 4 Verondersteld wordt dat met de verplichte
+ISO27001 certificatie voldaan wordt aan deze eis. LOA 3 Zelfde als LoA2 punten 2 en 3 en met toevoeging van:
+De deelnemer MOET risico-beperkende maatregelen
+nemen voor de dreiging dat een medewerker met valse
+voorwendselen een authenticatiemiddel creëert op naam
+van een fictief persoon, of op naam van een bestaand
+persoon zonder dat deze daarom heeft verzocht. De
+Deelnemer MOET zijn maatregelen baseren op een
+analyse van de risico's in het registratie en uitgifte proces
+ten aanzien van de genoemde dreiging. Gevoelig cryptografisch materiaal dat voor de uitgifte van
+elektronische identificatiemiddelen en voor authenticatie
+wordt gebruikt MOET zijn beschermd tegen
+ongeoorloofde manipulatie.Ad 1 Toelichting: Voorkomen wordt dat één en
+dezelfde medewerker zonder enige vorm van
+controle, toezicht of functiescheiding in staat is
+om de registratie van een gebruiker te doen en
+vervolgens een authenticatiemiddel kan creëren
+en uitreiken.Dat het onwaarschijnlijk wordt
+gemaakt dat technisch beheerders ongezien
+rechtstreeks ingrijpen op databases om daarmee
+een werkend authenticatiemiddel te creëren. Dat
+betekent dat ofwel de technisch beheerder deze
+handeling niet kan verrichten ofwel dat een
+dergelijke handeling van de beheerder vrijwel
+direct wordt gesignaleerd en onder de aandacht
+van het management wordt gebracht. Ad 2 Verondersteld wordt dat met de verplichte
+ISO27001 certificatie voldaan wordt aan deze eis. LOA 4Afsprakenstelsel Elektronische Toegangsdiensten | pagina 10011. 1.

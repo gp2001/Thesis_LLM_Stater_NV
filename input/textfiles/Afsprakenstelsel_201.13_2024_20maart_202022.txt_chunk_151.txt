@@ -1,0 +1,60 @@
+In deze risicoanalyse
+moeten de gegeven risico's op stelselniveau wel worden meegewogen. De norm c.q. beheersmaatregel maakt
+geen verplicht onderdeel uit van de VvT van de deelnemers en Beheerorganisatie. S Vanuit het afsprakenstelsel zijn er nadere specificaties voor de norm gegeven. Er wordt verwezen naar een
+document of er wordt om speciale aandacht gevraagd. De norm c.q. beheersmaatregel maakt onderdeel uit
+van de VvT van de Deelnemers, BSNk en Beheerorganisatie. Sv De norm is vanuit stelseloptiek relevant, maar er is geen nadere specificatie van de norm gegeven. Dit
+betekent dat de norm onderdeel uit maakt van de VvT van het ISMS van de Deelnemers, BSNk en
+Beheerorganisatie of dat er argumenten zijn waarom deze norm vanuit de rol of dienstverlening in het kader
+van het stelsel niet van toepassing is voor de Deelnemers, BSNk of de Beheerorganisatie. Deze argumenten
+dienen in relatie tot de VvT controleerbaar te worden vastgelegd en onderdeel gemaakt van het auditdossier.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 887ISO 27001:2013 beheersdoelstellingen en beheersmaatregelen binnen de scope van eToegangsdiensten, - activiteiten,
+-objecten en -informatie
+Norm Titel Doelstellingen en
+beheersmaatregelenDeelnemer BSNk BO Opmerkingen Toelichting en referenties
+A.5 Informatiebeveiligingsbeleid
+A.5.1 Aansturing door de directie van de
+informatiebeveiligingHet verschaffen van
+directieaansturing van en -steun voor
+informatiebeveiliging in
+overeenstemming met bedrijfseisen
+en relevante wet- en regelgeving. A.5.1.1 Beleidsregels voor
+informatiebeveiligingTen behoeve van
+informatiebeveiliging moet een reeks
+beleidsregels worden gedefinieerd,
+goedgekeurd door de directie,
+gepubliceerd en gecommuniceerd
+aan medewerkers en relevante
+externe partijen. Sv Sv Sv Iedere deelnemer, BSNk en de
+BO stelt een eigen
+beleidsdocument voor
+informatiebeveiliging op
+waarin rekening wordt
+gehouden met het
+beleidsdocument voor
+informatiebeveiliging dat voor
+het Netwerk c.q. het stelsel
+van Elektronische
+Toegangsdiensten is opgesteld.De beheerorganisatie beheert het
+Beleid voor informatiebeveiliging
+namens het Stelsel. A.5.1.2 Beoordelen van het
+informatiebeveiligingsbeleidHet beleid voor informatiebeveiliging
+moet met geplande tussenpozen of
+als zich significante veranderingen
+voordoen, worden beoordeeld om te
+waarborgen dat het voortdurend
+passend, adequaat en doeltreffend is. Sv Sv Sv Deelnemers, BSNk en de BO
+beoordelen regelmatig de
+werking van het
+informatiebeveiligingsbeleid
+en leveren hierover input t.b.v. de beoordeling op
+stelselniveau.Beleid voor informatiebeveiliging
+wordt periodiek beoordeeld met
+, de input van de Toezichthouder
+deelnemers, BSNk en de BO. A.6 Organiseren van
+informatiebeveiliging Afsprakenstelsel Elektronische Toegangsdiensten | pagina 888A.6.1 Interne organisatie  Een beheerkader vaststellen om de
+implementatie en uitvoering van de
+informatiebeveiliging binnen de
+organisatie te initiëren en te
+beheersen. A.6.1.1 Rollen en verantwoordelijkheden bij
+informatiebeveiliging Alle verantwoordelijkheden bij
+informatiebeveiliging moeten
+worden gedefinieerd en toegewezen. Sv Sv S Beheerorganisatie coördineert t.b.v. het stelsel.

@@ -1,0 +1,43 @@
+3. De aangeleverde informatie is afhankelijk van het type: een Dienst of een Dienst welke Dienstbemiddeling
+toepast. De dienstverlener levert informatie over de dienst aan bij de (primaire) Herkenningsmakelaar. Deze informatie
+over de dienst MOET het volgende bevatten:
+In het geval van een Dienst die niet zelf Dienstbemiddeling toepast (de dienst mag wel Dienstbemiddeling
+accepteren):
+Of de dienst/dienstverlener al publiek beschikbaar is (op een publiek toegankelijke webpagina) voor
+IsPublic;
+De precieze URL waar de dienst beschikbaar is (alleen voor diensten die al publiek beschikbaar zijn);
+De precieze URL waar de voor de dienst geldende privacy policy beschikbaar is (alleen voor diensten die
+attributen uitvragen) ;
+Een correcte, voor gebruikers te begrijpen beschrijving van de dienstverlener (voor
+OrganizationDisplayName);
+Een correcte, voor gebruikers te begrijpen naam van de dienst (voor Servicename) en beschrijving (voor
+ServiceDescription);
+De gewenste  en  (kunnen in overleg met de Herkenningsmakelaar worden ServiceID ServiceUUID
+afgestemd);
+Het betrouwbaarheidsniveau wat door de  (voor AuthnContextClassRef). Dit MOET dienst wordt gevraagd
+het standaard betrouwbaarheidsniveau zijn voor de dienst, zoals in de  beschreven. Dienstencatalogus (DC)
+Een bestaande dienst MAG op deze wijze NIET van betrouwbaarheidsniveau gewijzigd worden. Indien een
+dienst van wijzigt MOET deze opgevoerd worden als nieuwe dienst; betrouwbaarheidsniveau
+De soorten dienstafnemer die de dienst kunnen gebruiken (voor EntityConcernedTypesAllowed);
+De beperkingen die de dienst kan verwerken (voor ServiceRestrictionsAllowed);
+Indien er een internetpagina is met uitgebreidere beschrijving van de dienst: een URL van die
+internetpagina (voor ServiceDescriptionURL);
+Het certificaat waarmee te ontvangen identiteiten en attributen versleuteld moeten worden (voor
+ServiceCertificate);
+Als een HM een nieuwe DV aansluit die voor zijn dienstverlening intermediaire CA's wil gebruiken die niet
+op   vermeld zijn, dan moet de HM dit in   melden. De overige https://cert.pkioverheid.nl/ Mantis
+deelnemers dienen de CA conform  toe te voegen aan hun systemen. Service level
+Indien er attributen voor de dienst uitgevraagd (kunnen) worden, MOET ieder attribuut aangemeld
+worden inclusief doelverantwoording (voor het vullen van RequestedAttribute en PurposeStatement);
+Indien de dienst via meer dan één Herkenningsmakelaar wordt gekoppeld aan Elektronische
+Toegangsdiensten: de namen en/of OINs van de verschillende alternatieve Herkenningsmakelaars (voor
+AdditionalHerkenningsmakelaarID). N.B. de alternatieve Herkenningsmakelaars leveren verder geen
+informatie over de dienst aan de beheerorganisatie, alleen de primaire Herkenningsmakelaar;
+Aangeven of voor deze dienst Dienstbemiddeling is toegestaan en zo ja, of toestemming nodig is. Bij
+vereiste toestemming geldt dit ook voor toevoegen/intrekken van toestemming voor een specifieke
+bemiddeling, door het OIN van de betreffende dienstbemiddelaars door te geven. Indien de Dienstinstantie (ServiceInstance) in aanmerking komt voor één of meer classificaties dan
+worden deze doorgegeven. Zie 'Classifiers' onder  . Service catalog
+De RecipientKeySetVersion (Sleutelsetversie voor ontsleutelen van versleutelde pseudoniemen, afgeleid
+van geldigheidsdatum PKIo-certificaat). In het geval een Dienst met toepassing van Dienstbemiddeling wordt aangesloten/aangepast:
+De bovenstaande punten 1, 3, 4, 6, 11 en 14. Welke Dienst instantie wordt bemiddeld, door het ServiceUUID van de betreffende dienst instantie
+(ServiceInstance) uit de dienstencatalogus op te geven. De dienstinstantie mag verder niet opnieuw bemiddeld worden .Afsprakenstelsel Elektronische Toegangsdiensten | pagina 3171. 2. 1.

@@ -1,0 +1,18 @@
+3. Pseudonym required
+A service is requested that requires a pseudonym for the acting person (not a BSN), as specified in the Service Catalog. For this
+situation, 2 different scenarios are possible, depending if the user has on-boarded at his/her MU/AD with BSN or not. In case (s)he did NOT onboard with BSN, the AD must produce a so-called  (SP), which is usually Specific pseudonym
+related to the "means of authentication", and not to the BSN. Otherwise, the AD has activated the BSN at BSNk and received a Polymorphic Pseudonym (PP), and could work with
+this. Currently, the default pseudonym is the Specific Pseudonym. Only in case of eIDAS Outbound, the Polymorphic Pseudonym
+is used. In the latter case, this is explicitly specified in the Service Catalog. When the "Wet Digitale Overheid" (WDO) comes into force, this may need to change. At that time further guidelines must be
+determined when to use which type of pseudonym. In case the Specific Pseudonym is required:
+The AD provides an encrypted  of the user for the DV to the HM, encrypted to the DV Specific pseudonym
+The HM can provide the encrypted pseudonym in its response to the DV, without being able to access the value of the
+pseudonym nor being able to trace users across DV's
+The DV can decrypt the pseudonym and use it as an identifier to the account of the user for its business processes. In case the Polymorphic Pseudonym is required:
+The BSN of the acting subject must be activated with BSNk by the AD, during on-boarding, resulting in a Polymorphic
+Identity (PI), which is managed by the AD
+The AD transforms the PP into an Encrypted Pseudonym (EP, or "Versleuteld Pseudoniem": VP), encrypted for the
+Service Provider
+The AD adds the EP to the AD-assertion and returns this in its response to the HM
+The HM adds all relevant "identifiers" in its response to the Service Provider
+The DV decrypts the EP to a PP and uses this as identification of the user.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 6231. 2. 3.

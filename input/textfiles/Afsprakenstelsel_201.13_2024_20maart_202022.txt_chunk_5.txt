@@ -1,0 +1,54 @@
+3. Waarom zou ik aansluiten als Dienstbemiddelaar? Sluit u als (SaaS-)leverancier aan namens een ? Er is sprake van  in de volgende Dienstverlener (DV) Dienstbemiddeling
+gevallen:
+U wilt gebruikmaken van uw eigen SSL-certificaat;
+U kunt geen gebruikmaken van het SSL-certificaat van de dienstverlener;
+Hetzelfde portaal/dezelfde aansluiting wordt namens meer dan één dienstverlener aangeboden. Als er geen sprake is van dienstbemiddeling zal de dienstaanbieder zelf het 'zichtbare' gedeelte van een dienst tonen. Dit is
+de plaats waar de authenticatie, machtigingen en alle andere gegevens van de gebruiker die nodig zijn voor het afnemen van
+een dienst worden opgevraagd. Het komt echter ook voor dat een  partij dan de dienstaanbieder de dienstafnemer andere
+ondersteunt in het afnemen van een digitale dienst. Deze dienstverlenende partij biedt dan het 'zichtbare' deel van de dienst
+aan, en wordt dan de 'dienstbemiddelaar' genoemd. Het voordeel voor de dienstbemiddelaar is dat het mogelijk is aan te sluiten op een gestandaardiseerde werkwijze voor het
+verkrijgen van autorisaties om namens de dienstafnemer de diensten te kunnen afnemen. De dienstafnemers worden daarbij
+ontzorgd door de dienstbemiddelaar en zijn er op grond van onweerlegbare bewijzen van verzekerd dat de
+dienstbemiddelaar alleen met hun instemming de diensten via dienstbemiddeling voor hen kan afnemen.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 36Wat betekent aansluiten? Een dienstbemiddelaar heeft een verantwoordelijkheid richting gebruiker om diens beoogde gebruikerswens correct te
+vertalen en aan te bieden richting dienstverlener. Hiertoe dient de dienstbemiddelaar ook alle verklaringen omtrent
+identiteit, machtigingen en gegevens die door de gebruiker benodigd zijn om geautoriseerd te worden voor de dienst te
+verzamelen. Met het onlosmakelijk verbinden van deze verklaringen aan het 'transactiebericht' verklaart de
+dienstbemiddelaar zelf over dit proces (zie ). Associatieverklaring
+Door het aangaan van de overeenkomst met de herkenningsmakelaar aanvaardt de dienstbemiddelaar de aansprakelijkheid
+voor zijn eigen handelen en/of nalaten bij het leveren van diensten op basis van het afsprakenstelsel. De dienstbemiddelaar voldoet aan de koppelvlakspecificaties van Elektronische Toegangsdiensten om de verklaringen te
+verkrijgen. Verder dient de dienstbemiddelaar zich te houden aan de technische beveiligingseisen van het toegepaste koppelvlak en aan
+de beveiligingsrichtlijnen van het NCSC en verantwoordelijkheid te nemen voor het controleren van de herkomst van
+ontvangen verklaringen. Verantwoordelijkheden/rechten van een dienstbemiddelaar zijn in ieder geval:
+Verkrijgen van toestemming van de dienstaanbieder om dienstbemiddeling voor een dienst te realiseren. Juist transformeren van invoer en bedoeling van de gebruiker naar transactieberichten voor de dienst en de
+informatie van een dienst juist transformeren voor de gebruiker. Verkrijgen van instemming van de gebruiker in het afnemen van de dienst. De Verklaringen van Herkenning verzamelen en op juiste wijze verbinden met het transactiebericht en aan
+dienstaanbieder aanleveren met transactiebericht. Informeren van de gebruiker als het transactiebericht niet bij de dienstaanbieder afgeleverd kan worden. De dienstbemiddelaar ontvangt alleen identificerende kenmerken; attributen worden van het stelsel niet aan de
+dienstbemiddelaar geleverd. Moet vanaf het moment dat een handelend natuurlijk persoon toegang heeft, al dan niet op basis van een vraag
+waarvoor SSO is toegestaan, een logoutknop bieden . Moet zich houden aan de technische beveiligingseisen van het toegepaste koppelvlak en aan de
+beveiligingsrichtlijnen van het NCSC. Is zelf verantwoordelijk voor het controleren van de herkomst van ontvangen berichten. Verdere informatie
+Er zijn  definities in het afsprakenstelsel opgenomen waarin de minimale service level afspraken zijn Service level
+opgenomen die van toepassing zijn op de dienstverlening van de herkenningsmakelaar en de dienstbemiddelaar. Tussen de
+herkenningsmakelaar en de dienstbemiddelaar wordt een overeenkomst afgesloten die betrekking heeft op dienst(en) die
+door de herkenningsmakelaar worden geleverd en waarop tevens de  Gebruiksvoorwaarden Elektronische Toegangsdiensten
+van toepassing zijn. Hier kunnen ook (additionele) service level afspraken in worden opgenomen. In Interface specifications
+is het koppelvlak tussen dienstbemiddelaar en herkenningsmakelaar technisch beschreven en de specificatie van de DV-HM
+dienstencatalogus uitgewerkt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 37Deelnemers en diensten
+De doelstelling van het Afsprakenstelsel Elektronische Toegangsdiensten is om het eenvoudig mogelijk te maken voor
+burgers, bedrijven en overheden om veilig online in te loggen en transacties te kunnen doen bij bedrijven en overheden. Hiervoor worden de volgende diensten geleverd door de deelnemers aan het afsprakenstelsel:
+Identificatie en authenticatie op een bepaald betrouwbaarheidsniveau: is de gebruiker wie hij zegt te zijn? En kan hij
+dit aantonen met de gewenste zekerheid? Verstrekken van aanvullende, gevalideerde persoonsgegevens (attributen) op verzoek van de gebruiker zoals
+geslachtsnaam, voornaam, initialen, geboortedatum/plaats  voldoen aan leeftijdsgrens;en
+Machtigingen: de bevoegdheid aantonen om (rechtsgeldig) te kunnen handelen namens iemand die jou gemachtigd
+heeft;
+Om deze diensten te kunnen leveren werken de volgende rollen samen in het Netwerk:
+Authenticatiedienst (AD) : authenticeert gebruikers;
+Herkenningsmakelaar (HM) : vormt de linking pin tussen het netwerk voor eHerkenning en de dienstverleners, en
+heeft een routeer- en navigatiefunctie in het netwerk; dit reduceert het aantal relaties tussen dienstverleners
+enerzijds en authenticatiediensten, machtigingenregisters en het BSNk anderzijds;
+Machtigingenregister (MR) : registreert, onderhoudt en controleert bevoegdheden;
+Middelenuitgever (MU) : geeft authenticatiemiddelen uit voor het identificeren en bij uitgifte authenticeren van
+natuurlijke personen;
+BSNk: zorgt voor de koppeling van authenticatiemiddelen aan BSN's voor de authenticatie van personen;
+eIDAS-berichtenservice (EB) : onderdeel van het ; zorgt voor ontsluiting van het Afsprakenstelsel eIDAS-koppelpunt
+Elektronische Toegangsdiensten voor eIDAS-gebruikers en -diensten volgens de . eIDAS-verordening
+Om rollen te vervullen in het netwerk dient de deelnemer daartoe toegetreden te zijn. De toetredingseisen zijn te vinden op
+de pagina  .

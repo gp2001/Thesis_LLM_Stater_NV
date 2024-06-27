@@ -1,0 +1,120 @@
+Dezewaarde kanworden gebruikt voormissing
+data. (`NA'iseenafkorting voor`notavailable '.)Bijhettoepassen vanberekeningen heeftiedere
+expressie waarin minstens een`NA'waarde voorkomt,dewaarde `NA'.Metdefunctieis.na kan
+worden nagegaan welkecoordinaten vaneenvector dewaardeNAbezitten. >x<-c(NA,1,4)
+>x
+[1]NA14
+>x+1
+[1]NA25
+>is.na(x)
+[1]TRUEFALSEFALSE
+Subscripts
+Eengedeelte vaneenvectorkanworden geselecteerd volgens dealgemene vorm
+x[subscript ]:
+Hetsimpelstevoorbeeldishetselecteren vandei-decoordinaat. >x[i] #i-decoordinaat vanx
+Algemener kansubscript devolgende drievormen nemen. -Eenvectorvanpositiev enatuurlijk egetallen. Hetresultaat isdevectorvandiecoordinaten
+vanxwaarvandenummers insubscript voorkomen. Decoordinaten vaneenvectorworden
+altijd gedachtalsgenummerd volgens 1,2,3,:::. >x
+[1]10536
+>x[1:3];x[c(4,1,4)] #detweedegeeftdevector(x[4],x[1],x[4])
+[1]1053
+[1]610612 6:Functies
+-Eenlogischevectorvandezelfde lengte alsx.Hetresultaat iseenvectormetdiecoordinaten
+vanxwaarvoordecorresp onderende coordinaten vandelogischevectordewaardeTbezit-
+ten. >y<-x>9#yis(TRUE,FALSE,FALSE,FALSE)
+>x[y] #geeftx[1]
+[1]10
+>x[x>9]
+[1]10
+-Eenvectorvannegatiev egetallen. Allecoordinaten vanxbehalvedegespecifeerde worden
+geselecteerd. >x[-(1:2)] #geeft(x[3],x[4])
+[1]36
+Andersom kunnen ooktoekenningen aangesubscripte vectoren worden gemaakt. Daarbij
+blijvenongeselecteerde coordinaten onveranderd. >x[x<0]<-0 #maaktallenegatieve coordinaten gelijkaan0
+>y[y<0]<--y[y<0] #hetzelfde resultaat alsmety<-abs(y)
+Eenvectormoetbestaan voordat jeeendeelervankuntselecteren. Eennumeriek evector
+terlengtenkunjecreerenmetdefunctienumeric . >x<-numeric(5)
+>x
+[1]00000
+Eenandere mogelijkheid isgebruik temakenvandefunctierep. 6.FUNCTIES
+Allebewerkingen inRworden uitgev oerddoorfuncties .Eenaantaldaarvan,zoalscen
+seqisinhetvoorgaande albehandeld. Intotaal kentRzo'n500standaardfuncties en
+eengroeiend aantallocalefuncties. Indezehandleiding wordtslechtseenbeperktaantal
+functies besprok en.Daarnaast kaniedere gebruikster haareigen functies schrijven.Alle
+functies worden opdezelfde manier gebruikt. Eenfunctie wordtaangero ependoorhettypenvanzijnnaam, tesamen meteventuele
+argumen ten. >functienaam(arg1,arg2 ,:::)
+Deronde haakjes zijnverplicht,zelfsalsdefunctie geenargumen tenbehoeft.Zonder de
+haakjes reageert Rmethetlisten vandedenitie vandefunctie. >functienaam() #voerdefunctie functienaam uit(zonder argumenten)6-Data-Manipulatie 13
+>functienaam #listdedefinitie vandefunctie functienaam
+Deargumenten kunnen verplichtzijnofoptioneel. Optionele argumen tenmogen bijde
+aanroepvandefunctie worden weggelaten. Indatgevalgebruikt R,indien nodig,zoge-
+naamde default waarden. Ieder argumen theefteennaam. Optionele argumen tenworden
+vaakgespecifeerd doormiddel vandeconstructie argumentnaam =waarde.Bijvoorbeeld,
+in
+>seq(-3,3,length=1000)
+bezithetderde argumen tdenaam `length '.Hetvoordeel vanhetspeciceren vanargu-
+mentenbijnaam is,datdedenitiev olgorde vandeargumen tenkanworden doorbrok en
+enonbelangrijk eargumen tenkunnen worden weggelaten. Bijvoorbeeld,indedenitie van
+defunctieseqisbyhetderde enlength hetvierde argumen t.Bijdeaanroepseq(-
+3,3,1000) interpreteert Rhetgetal1000alshetderde argumen tindedenitie vanseq. Daarditbyisheeftdezeaanroepeenander eect danseq(-3,3,length=1000) . Argumen tnamen mogen worden afgekorttotdeeerste paarletters diedeargumen tnaam
+noguniek bepalen. >seq(-3,3,l=1000)
+Sommige functies bezitten eenvariabelaantalargumen ten.Eenvoorbeeldhiervanisde
+concatenatiefunctie c. Data-Manipulatie
+Defuncties
+>length(x); sum(x); prod(x); max(x); min(x)
+gevenrespectievelijkdelengte vandevectorxendesom,hetproduct, hetmaxim um
+enhetminim umvanzijncoordinaten. Delaatste vierfuncties kunnen ookopmeerdere
+vectoren tegelijk worden toegepast. >sum(x,y); prod(x,y); max(x,y), min(x,y)
+Dezecommando's gevensom,product, maxim umenminim umvanallecoordinaten van
+devectorenxenytesamen. Deeerste isbijvoorbeeldequivalentaansum(c(x,y)) . Defunctiecumsum(x) produceert eenvector metdezelfde lengte alsx,waarvandei-de
+coordinaat gelijk isaandesomvandeeerste icoordinaten vanx. >cumsum(rep(1,10))
+[1]12345678910
+Eenvector kanopgroottegesorteerd worden metbehulpvansort. >x<-c(2,6,4,5,5,8,8,1,3,0)
+>length(x)
+[1]1014 6-Statistisc heSamen vattingen
+>sort(x)
+[1]0123455688
+Metorder krijgjedepermutatie dienodigisomdevectoropgroottegeordend tekrijgen. Dezekanworden gebruikt omeentweedevectormeteeneerste meetepermuteren. >order(x)
+[1]10819345267
+Instatistisc hetermen issort(x) devector vanorderstatistics ;order(x) isietsanders! Uitdedenities volgt,datx[order(x) ]eveneens deorder statistics vanxgeeft. Defunctierevdraait devolgorde vandecoordinaten vaneenvector om.Derhalv eis
+rev(sort(x)) devector vanorder statistics indalende volgorde. >rev(sort(x))
+[1]8865543210
+>rev(x)
+[1]0318855462
+Defunctierank(x) geeft derangnummers vanx.Inhetgevalvantiesinxworden
+gemiddelde rangnummers gegeven,zoalsgebruik elijkindestatistiek. >rank(x)
+[1]3.08.05.06.56.59.59.52.04.01.0
+Hetcommando unique(x) geeft deverschillende waarden inxendelogischevectordupli-
+cated(x) geeftvooriedere coordinaat aanofdezelfde waarde aleerder isvoorgekomen. >unique(x)
+[1]26458130
+>duplicated(x)
+[1]FALSEFALSEFALSEFALSETRUEFALSETRUEFALSEFALSEFALSE
+Tenslotte geeftdiff(x) despacings vanx,eenvector meteencoordinaat minder, diedever-
+schillen vanopeenvolgende coordinaten vanxbevat.Metbehulpvanoptionele argumen tenkan
+diff ookhogere ordeverschillen produceren, meteenlagnaarkeuze. >x
+[1]2645588130
+>diff(x) #devectorx[2]-x[1], x[3]-x[2], :::
+[1]4-21030-72-3
+>diff(x, lag=2) #devectorx[3]-x[1], x[4]-x[2], :::
+[1]2-1133-7-5-1
+>diff(x,lag=1,differe nces=2)#hetzelfde alsdiff(diff(x))
+[1]-63-13-3-79-56-Kansv erdelingen enToevalsgetallen 15
+Statistisc heSamen vattingen
+Eenaantalfuncties geeft statistisc hesamen vattingen. Denamen sprekenmeestal voor
+zich.VandeinTabel3genoemde functies zijnsommige geenstandaardfuncties, maar
+localefuncties. functienaam operatie
+mean(x) gemiddelde
+mean(x, trim= ) getrimd gemiddelde
+median(x) mediaan
+var(x) variantie,covariantiematrix
+mad(x) mediaan absolute deviatie
+range(x) devector(min(x),max(x))
+quantile(x,prob) kwantielen
+summary(x) gemiddelde, minim um,maxim um,kwartielen
+stem(x) stem-en-leaf-plot
+var(x,y) covariantie
+cor(x,y) correlatieco ecient
+acf(x,plot=F) autoofpartielecorrelatie coecienten
+Tabel3.Statistisc hesamen vattingen
+Dekwantielfunctie heefttweevectoren alsargumen ten.Hijgeeftdeempirisc hekwantielen
+vandeeerste vectorvoordepercentages gespeciceerd indetweede.

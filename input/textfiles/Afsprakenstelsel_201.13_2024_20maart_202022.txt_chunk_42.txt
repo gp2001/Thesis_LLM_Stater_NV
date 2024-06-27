@@ -1,0 +1,45 @@
+Het middel komt in
+aanmerking voor de subsidieregeling uitgevoerd door RVO voor het belastingdienstmiddel. Elke persoon/organisatie
+combinatie telt als één belastingdienstmiddel. Template
+Maak voor het versturen per e-mail gebruik van de volgende template:
+Naam middelenuitgever
+Heeft betrekking op Maand
+/Jaar
+Aantal nieuwe belastingdienstmiddelen
+Aantal afgesloten belastingdienstmiddelen
+Totale aantal belastingdienstmiddelenAfsprakenstelsel Elektronische Toegangsdiensten | pagina 363Rapportage Ketenmachtigingen
+Er moet worden gerapporteerd over de het aantal  geregistreerde ketenmachtigingen. Omdat een ketenmachtiging uit een
+MR1 en een MR2 deel bestaat is het moet hier apart over gerapporteerd worden. Bij alle getallen gaat het om de aantallen per . Onderstaand wordt per MR gedefinieerd waar de op te leveren  kalendermaand
+cijfers aan moeten voldoen. MR1
+Aantal nieuwe ketenmachtigingen geregistreerd in deze kalendermaand
+Aantal afgesloten ketenmachtigingen in deze kalendermaand
+Totale aantal ketenmachtigingen aan het einde van deze kalendermaand (laatste dag om 23.59 Nederlandse tijd)
+Een MR1 machtiging is een machtiging die een intermediair ontvangen heeft om te mogen handelen bij één of meerdere
+dienstverleners namens een externe organisatie. Elke intermediair/organisatie combinatie telt als één machtiging. Voor
+welke specifieke diensten en dienstverleners, en welk aantal diensten is niet van belang. Ook het aantal medewerkers van de
+intermediair dat gebruik mag maken van de machtiging is niet relevant. De machtiging telt als actief als er minimaal één
+bruikbare machtiging is om bij een dienstverlener te mogen handelen namens een organisatie door een intermediair. Een
+machtiging telt als inactief als de laatste machtiging voor een dienst is afgesloten en deze dus effectief nergens meer
+bruikbaar is. Of er wel- of geen MR2 machtiging is (en of men dus praktisch gebruik kan maken van de machtiging), is niet
+relevant. MR2
+Aantal nieuwe ketenmachtigingen geregistreerd in deze kalendermaand
+Aantal afgesloten ketenmachtigingen in deze kalendermaand
+Totale aantal ketenmachtigingen aan het einde van deze kalendermaand (laatste dag om 23.59 Nederlandse tijd)
+Een MR2 machtiging is een machtiging die een organisatie heeft afgegeven aan een derde partij om namens hem te kunnen
+handelen. Elke intermediair/organisatie combinatie telt als één machtiging. Voor welke specifieke diensten en
+dienstverleners, en welk aantal diensten is niet van belang. De machtiging telt als actief als er minimaal één bruikbare
+machtiging is om bij een dienstverlener te mogen handelen namens de organisatie door een intermediair. Een machtiging
+telt als inactief als de laatste machtiging voor een dienst is afgesloten en deze dus effectief nergens meer bruikbaar is. Of er
+wel- of geen MR1 machtiging is (en of men dus praktisch gebruik kan maken van de machtiging), is niet relevant. Template
+Maak voor het versturen per e-mail gebruik van de volgende template:
+Naam machtigingenregister
+Heeft betrekking op Maand
+/Jaar
+Aantal nieuwe ketenmachtigingen MR1
+Aantal afgesloten ketenmachtigingen MR1
+Totale aantal ketenmachtigingen MR1Afsprakenstelsel Elektronische Toegangsdiensten | pagina 364Aantal nieuwe ketenmachtigingen MR2
+Aantal afgesloten ketenmachtigingen MR2
+Totale aantal ketenmachtigingen MR2Afsprakenstelsel Elektronische Toegangsdiensten | pagina 365Proces meldingenbeheer
+De beheerorganisatie is aanspreekpunt voor zaken met betrekking tot de ontwikkeling en implementatie van het
+Afsprakenstelsel Elektronische Toegangsdiensten. functioneert als portaal voor het maken van meldingen. Bij het Mantis
+melden van een incident moet het proces incidentmanagement als basis genomen worden.

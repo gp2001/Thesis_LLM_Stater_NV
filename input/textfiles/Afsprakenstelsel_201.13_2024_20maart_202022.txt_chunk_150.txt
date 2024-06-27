@@ -1,0 +1,35 @@
+4. Zorgvuldigheid
+Het zorgvuldigheidsbeginsel vloeit voort uit het beginsel van   en houdt in dat een deelnemer maatregelen dient Doelbinding
+te nemen. Het verdient aanbeveling de beveiliging van persoonsgegevens onderdeel te laten uitmaken van het
+informatiebeveiligingsbeleid. De onderliggende procedures die door de deelnemers zullen moeten worden ingericht om aantoonbaar en controleerbaar
+aan het invulling te kunnen geven aan het zorgvuldigheidsbeginsel zijn:
+Procedure naleving beveiligingsplicht. Indien er een wijziging in de verwerking van persoonsgegevens is, zal op basis
+van een risico analyse c.q. impactbepaling van deze wijzigingen voor de beveiliging van de persoonsgegevens worden
+uitgevoerd en zo nodig aanpassing van de beveiligingsmaatregelen. Indien van toepassing ook de overeengekomen
+beveiligingsmaatregelen in de vewerkersovereenkomst aanpassen. Inpassing van de meldplicht datalekken in het informatiebeveiligingsbeleid en/of incidentmanagementproces dat in
+dit kader is ingericht. Procedure kwaliteit. Op basis van deze procedure wordt ondervangen dat te veel ontvangen gegevens niet worden
+verwerkt, geen bovenmatigheid, alsmede een periodieke controle wordt ingevoerd op juistheid en actualiteit van de
+persoonsgegevens. Procedure bewaartermijnen. Op basis van deze procedure wordt gecontroleerd op de duur van de opslag en de
+vernietiging van de gegevens op het moment dat de bewaartermijn is bereikt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 880Doelbinding
+Als uitvloeisel van het beginsel van doelbinding is een deelnemer gehouden om maatregelen te nemen. De deelnemers moeten om aantoonbaar en controleerbaar aan het doelbindingsbeginsel invulling geven.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 881Controle op de naleving en privacy managementcyclus
+Voor de controle van de naleving van de AVG wordt een aantal instrumenten gehanteerd:Afsprakenstelsel Elektronische Toegangsdiensten | pagina 882Privacy Self Assessment
+De Privacy Self Assessment wordt jaarlijks door de deelnemers zelf uitgevoerd. De uitkomsten van deze PSA worden door de
+deelnemers aan de Toezichthouder verstrekt. De Toezichthouder controleert of de PSA door de Deelnemer is gehouden.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 883Privacy Impact Analyse
+De Privacy Impact Analyse wordt een onderdeel van de Stelselrisicoanalyse van het afsprakenstelsel. Om hieraan invulling te
+geven wordt in de  een overzicht  opgenomen met de geïdentificeerde risico's uit de PIA. Dit zorgt ervoor Stelselrisicoanalyse
+dat deze privacyrisico's worden meegenomen tijdens het normale proces van herijken van de Stelselrisicoanalyse die
+tenminste jaarlijks, of bij een belangrijke stelselwijziging - zoals nieuwe functionaliteit of doelgroep plaatsvindt.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 884Privacy managementcyclus
+De controle van de deelnemers op de naleving van de privacy wet- en regelgeving vindt enerzijds plaats via de ISO27001-
+certificatie op basis waarvan aantoonbaar moet zijn dat wordt voldaan aan de privacy wet- en regelgeving. Anderzijds wordt
+de controle op de naleving gewaarborgd door middel van de naleving van het privacybeleid op basis waarvan de deelnemers
+vastleggen welke verwerkingen van persoonsgegevens plaatsvinden, alsmede hierover ook jaarlijks zelf een Privacy Self
+Assessment uitvoeren waarover zij rapporteren aan de Toezichthouder. Het toezicht op de naleving van de privacy wet- en
+regelgeving  en de verantwoording over de uitvoering hiervan door de deelnemers ligt hiermee bij de Toezichthouder.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 885Gemeenschappelijk normenkader informatiebeveiliging
+Afsprakenstelsel Document
+Versie 1.13 24 maart 2022 Auteur Beheerorganisatie
+Datum vaststelling 24 Mar 2022   Classificatie Openbaar
+Datum publicatie 24 Apr 2022   Status DefinitiefAfsprakenstelsel Elektronische Toegangsdiensten | pagina 886Legenda
+Afkorting Betekenis
+v Vanuit het afsprakenstelsel is er geen nadere specificatie van de norm gegeven. Deelnemers, BSNk en de
+Beheerorganisatie baseren de keuze van maatregelen op hun uitgevoerde risicoanalyse. In deze risicoanalyse
+moeten de gegeven risico's op stelselniveau wel worden meegewogen.

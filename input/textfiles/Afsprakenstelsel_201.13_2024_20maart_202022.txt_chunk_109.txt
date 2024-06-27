@@ -1,0 +1,30 @@
+EntityID
+The attributes NameQualifier, SPNameQualifier, Format and SPProviderID MUST NOT be included. Signature Elektronische Toegangsdiensten: MUST contain the  of the sender for the enveloped Digital signature
+message. Extensions Elektronische Toegangsdiensten: MUST NOT be included. Status The <Status> element MUST include a <StatusCode> element with the code value 'urn:oasis:names:tc:
+SAML:2.0:status:Success', if the response is valid and the artifact can be resolved. Otherwise, an error
+MUST be returned in accordance with . Error handling
+any ##any MUST contain a Response message if the responder recognizes the artifact as valid, otherwise contains
+no additional elements. The Response message MAY contain a Signature (even though it's integrity is already guaranteed by the
+signature on the artifact response)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 706SAML SOAP binding
+For back-channel requests without user interaction, the SAML SOAP binding can be prescribed. The following apply in this
+case:
+the communication MUST use a mutual authenticated . This MUST be established using TLS with Secure connection
+certificates as listed in the   or the . Network metadata DV metadata for HM
+the SAML v 2.0 SOAP binding as described in paragraph 3.2 of the   document MUST be used. SAML Bindings 2.0
+as SOAPAction, the value ' ' MUST be used. http://www.oasis-open.org/committees/security
+The following HTTP headers MUST be set:
+Cache-Control = "no-cache, no-store"
+Pragma = "no-cache"Afsprakenstelsel Elektronische Toegangsdiensten | pagina 707Alternative bindings to communicate the Authnrequest to the Herkenningsmakelaar
+HTTP Post
+The implementation of a HTTP Post binding MUST meet the following requirements:
+The AuthnRequest MUST be signed, using a digitial signature (<ds:Signature>) as described in . Digital signature
+The message MUST be encoded as a parameter 'SAMLRequest' in a HTML form using base64 encoding to be
+submitted via HTTP POST. A RelayState MAY be used, it MUST be encoded as a parameter 'RelayState'. Client-side scripting SHOULD be used to submit the form, but MUST NOT be required; the user MUST be able to
+submit the form manually. HTTP Redirect
+The implementation of the HTTP Redirect binding MUSTmeet the following requirements:
+The AuthnRequest message MUST NOT contain a <ds:Signature> element. The message MUST be compressed using the DEFLATE method and in turn represented in Base-64 encoding. The compressed and coded message MUST be added to the URL as a query string parameter and MUST be designated
+as SAMLRequest. If RelayState data is included in the HTTP Redirect message, it must be encoded separately and added to the URL as a
+query string parameter and MUST be designated as RelayState. If a RelayState is not provided, the whole parameter
+MUST be absent in the URL. A digital signature MUST be calculated over the part of the URL SAMLRequest=value&RelayState=value. This digital
+signature MUST be generated as described in  . The digital signature MUST be included as a query Digital signature
+string parameter.

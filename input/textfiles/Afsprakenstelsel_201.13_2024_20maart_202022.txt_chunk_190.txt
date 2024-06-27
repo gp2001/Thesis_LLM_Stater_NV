@@ -1,0 +1,483 @@
+• From other documents supplied by the
+applicant or from other sources. COL-8.2.2.1-02: The following
+attributes shall at a minimum be
+collected if the applicant is a natural
+person:
+a) family name(s), first name(s), which
+should be current names;
+b) further information as needed to
+uniquely identify the applicant as a
+natural person in the identity proofing
+context.NOTE 1: There can be cases where the name
+attributes collected need to match the name
+provided by an evidence, which is not
+necessarily the current name when a name
+change occurred after the evidence was issued. NOTE 2: Requirements for the presence of
+naming attributes can depend on the identity
+proofing context. In some contexts, a full
+name (all family names and first names) can be
+required, while in other contexts full name is
+not needed. In rare cases, a person can have
+only one name, classified as either first name
+or family name. NOTE 3: Depending on the identity proofing
+context, unique identification can be in the
+form of a single attribute such as a national
+identity number, or as one or more additional
+attributes that together with the name provide
+unique identification. NOTE 4: ETSI EN 319 412-2 [i.9] specifies X.509
+certificate profile for natural persons. In
+addition to the name of the subject, a country
+attribute with undefined semantics is
+mandatory, and usually a serialNumber
+attribute is required to guarantee a unique
+identity. While values for the country and the
+serialNumber attributes can be part of the Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1027attributes collected, these values can also be
+generated and added by the certification
+authority. NOTE 5: Although the outcome of the identity
+proofing can be a pseudonym identity, identity
+proofing conforming to the present document
+requires identification of the real identity of
+the person as determined by applicable
+identity documents, official registers or other
+authoritative sources. COL-8.2.2.1-03: The attributes to
+collect shall be as determined by the
+identity proofing context.NOTE 6: Given the identity proofing context,
+the legal basis for collecting certain attributes
+can be laws or regulations allowing collection
+or consent by the applicant. Applicant's
+consent can be extended to the collection of
+attributes additional to the minimum set
+needed for the identity proofing context. COL-8.2.2.1-04: The identity proofing
+process shall not collect identity
+attributes that are not included in the
+result of the identity proofing, except
+when such attributes are required for
+attribute and evidence validation and
+/or binding to applicant. 8.2.2.2 Attribute collection for legal person De eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.3. [CONDITONAL] If the applicant is a
+legal person, the requirements in the
+present clause apply. COL-8.2.2.2-01: For each identity
+proofing context supported, the means
+used to collect identity attributes for a
+legal person shall be documented and
+published.NOTE: Depending on the identity proofing
+context, attribute collection for a legal person
+may vary from basic company information to
+an extensive record of information about the
+legal person, including information such as
+beneficial owners and personnel in key roles. EXAMPLE 1: Attributes can be collected from
+business registers, commercial information
+providers, documents and attestations, or by
+manual input in the course of the identity
+proofing process. COL-8.2.2.2-02: The attributes
+collected shall uniquely identify the
+applicant as a legal person in the
+identity proofing context.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1028COL-8.2.2.2-03: The following
+attributes shall, as a minimum, be
+collected if the applicant is a legal
+person:
+a) full name of the legal person;
+b) country of registration of the legal
+person;
+c) unique identifier and type of
+identifier for the legal person (unless
+such identifier does not exist).EXAMPLE 2: Unique identifier can be national
+registration number, tax number, VAT
+number, or LEI (Legal
+Entity Identifier). 8.2.2.3 Attribute collection for natural person representing legal person De eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.4. [CONDITONAL] If the applicant is a
+natural person representing a legal
+person, the requirements in the
+present clause apply. COL-8.2.2.3-01: Identity attributes for
+the natural person shall be collected
+according to the requirements in clause
+8.2.2.1 of the present document. COL-8.2.2.3-02: Identity attributes for
+the legal person shall be collected
+according to the requirements in clause
+8.2.2.2 of the present document. COL-8.2.2.3-03: The role of the natural
+person with respect to the legal person
+and identification of the source of the
+authorization of the natural person to
+represent the legal person shall be
+collected. 8.2.4 Use of existing eID means as evidence De eisen in deze paragraaf
+gaan over het gebruik van
+andere elektronische
+identificatiemiddelen voor
+het aantonen van de
+identiteit. Het proces voor
+identificatie op afstand bij
+ETD/eHerkenning biedt
+geen ruimte voor het
+gebruik van andere
+elektronische
+identificatiemiddelen voor
+het aantonen van de
+identiteit.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1029[CONDITONAL] If existing eID means
+for authentication is used as evidence,
+the requirements in the present clause
+apply.NOTE 1: A physical identity document can be
+used with the applicant's physical presence
+and remotely by the applicant presenting the
+document in front of a camera. COL-8.2.4-01: For each identity
+proofing context supported, the
+conditions that an eID or eID scheme is
+required to fulfil to be accepted for
+identity proofing shall be documented
+and published.NOTE 1: Most eID solutions today represent a
+natural person, although eID means for a legal
+person or a natural person representing a legal
+person is possible. EXAMPLE 1: The documentation can list
+named eIDs or eID schemes or describe the
+necessary characteristics of eIDs or eID
+schemes by referring to a required LoA as
+defined by an assurance level
+framework. EXAMPLE 2: Acceptance for an identity
+proofing context can require that certain
+identity attributes are asserted by the eID
+means. EXAMPLE 3: The identity proofing context can
+state that only eIDs notified according to the
+eIDAS
+Regulation [i.1] Article 9 can be used. COL-8.2.4-02: The eID shall conform to
+eIDAS LoA substantial or high or
+conform to an LoA defined by another
+assurance level framework and offering
+comparable assurance to the relevant
+eIDAS LoA level.NOTE 2: eIDAS LoAs are specified by CIR (EU)
+2015/1502 [i.3]. The identity proofing context
+can require
+conformance to specifically the eIDAS LoA
+framework and can also require that eIDs are
+notified
+according to the eIDAS Regulation [i.1] Article
+9. EXAMPLE 4: The eID can conform to a national
+assurance level framework of an EU Member
+State or an
+assurance level framework of a non-EU state;
+in both cases, the assurance level framework
+can be aligned with the eIDAS LoAs. NOTE 3: The comparable assurance to an eIDAS
+LoA level can be assessed by an independent,
+accredited
+conformity assessment body. NOTE 4: The identity proofing context can
+place further requirements on the issuing of
+the eID, e.g. to avoid a long chain of eID
+renewals where the presence (physical or
+remote) of the eID subject is a long time in the
+past, or to avoid a long chain of eIDs that are
+all issued based on another eID.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1030[CONDITIONAL] COL-8.2.4-03: If
+required attributes to be collected
+cannot be confirmed by the
+authentication using the eID means,
+these attributes shall be collected from
+other sources and validated by use of
+other evidence in accordance with the
+identity proofing context.NOTE 5: Typically, this happens when required
+attributes are not present in the identity
+assertion obtained from the authentication
+protocol. [CONDITIONAL] COL-8.2.4-04: If the
+eID means is used for an identity
+proofing process supporting an EU
+qualified trust service, the eID shall
+conform to eIDAS LoA substantial or
+high.NOTE 6: When the qualified trust service is the
+issuance of a qualified certificate, eIDAS Article
+24.1 (b) states that the eID means is required
+to be issued based on a prior physical presence
+of the natural person or an authorized
+representative of the legal person. 8.2.5 Use of existing digital signature means as evidence De eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.2. [CONDITONAL] If an existing digital
+signature means with a supporting
+certificate is used as evidence, the
+requirements in the present clause
+apply. COL-8.2.5-01: For each identity
+proofing context supported, the
+conditions under which digital
+signatures and certificates are accepted
+shall be documented and published.NOTE 1: A digital signature can be applied by a
+natural person (electronic signature as defined
+by eIDAS), a legal person (electronic seal as
+defined by eIDAS), or a natural person
+representing a legal person, depending on the
+information included in the certificate and the
+semantics of this information. NOTE 2: The conditions can be stated in the
+form of a signature policy; see ETSI TS 119 172-
+1 [i.13]. NOTE 3: The present document makes no
+assumption on the format or content of the
+document signed. Identity attributes are
+evidenced by the certificate, not by the signed
+document. EXAMPLE 1: Regarding digital signature, the
+identity proofing context can require that a
+qualified electronic signature/seal, according
+to the eIDAS regulation, is used. EXAMPLE 2: Regarding certificate, the list can
+consist of named certificate issuers or describe
+the necessary characteristics of the certificate, Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1031e.g. by referring to a policy level as defined by
+ETSI EN 319 411-1 [i.7] or ETSI EN 319 411-2 [i. 8]. EXAMPLE 3: Acceptance for an identity
+proofing context can pose requirements for
+certificate content, e.g. require that certain
+identity attributes are present for the named
+subject. [CONDITONAL] COL-8.2.5-02: If a
+digital signature with a supporting
+certificate is accepted as evidence of
+identity for a natural person
+representing a legal person, the
+certificate should evidence the
+connection between the natural and
+the legal person.NOTE 4: For an X.509 certificate, this will
+typically imply that the Subject field of the
+certificate identifies both the natural and the
+legal person; however, such identification in
+itself does not evidence that the natural person
+is authorized to represent the legal person for
+the identity proofing. COL-8.2.5-03: The certificate shall at
+least conform to the NCP policy level as
+defined by ETSI EN 319 411-1 [i.7].NOTE 5: The identity proofing context can
+place further requirements on the issuing of
+the certificate, e.g. to avoid a long chain of
+certificate renewals where the presence
+(physical or remote) of the certificate  subject
+is a long time in the past, or to avoid a long
+chain of certificates that are all issued based on
+another certificate. A requirement for the
+certificate to be issued based on one of the use
+cases defined in the present document can be
+recommended. [CONDITIONAL] COL-8.2.5-04: If
+required attributes to be collected are
+not present in the certificate, these
+attributes shall be collected from other
+sources and validated by the use of
+other evidence in accordance with the
+identity proofing context. [CONDITIONAL] COL-8.2.5-05: If the
+digital signature with certificate is used
+for an identity proofing process
+supporting an EU qualified trust
+service, the digital signature shall be a
+qualified electronic signature as
+defined by the eIDAS Regulation if the
+applicant is a natural person or a
+natural person representing a legal
+person, or a qualified electronic seal as
+defined by the eIDAS Regulation if the
+applicant is a legal person.NOTE 6: When the qualified trust service is the
+issuance of a qualified certificate, eIDAS Article
+24.1 (c) states that the qualified certificate is
+required to be issued based on identity
+proofing either by a prior physical presence of
+the natural person or of an authorized
+representative of the legal person, or by an eID
+means conforming to eIDAS substantial or
+high that is in turn based on identity proofing
+by the physical presence of the natural person
+or an authorized representative of the legal
+person. 8.2.6 Use of trusted register as supplementary evidence De eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1032betrouwbaarheidsniveaus,
+paragraaf 2.1.1. [CONDITONAL] If a trusted register is
+used as supplementary evidence, the
+requirements in the present clause
+apply. COL-8.2.6-01: For each identity
+proofing context supported, a list of
+the trusted registers used to collect and
+/or validate attributes, and whether
+lookup in these registers is mandatory
+or optional, shall be documented and
+published.NOTE 1: Availability of trusted registers can
+vary between countries, ranging from no
+availability to lookup in particular sources, e.g. national population registers or business
+registers, mandated by national regulation. EXAMPLE 1: Trusted registers can be used both
+to validate attributes that are already collected
+to ensure that the attribute values are correct
+and up to date, and to fetch additional
+attributes. COL-8.2.6-02: Only official national or
+nationally approved registers should be
+accepted as trusted registers.EXAMPLE 2: Depending on the identity
+proofing context, information sources such as
+existing customer
+databases of TSPs or other service providers
+can be defined as trusted registers. [CONDITIONAL] COL-8.2.6-03: If the
+applicant is a legal person, the
+attributes collected for the legal person
+shall be verified against an
+authoritative business register to the
+extent that the legal person is
+registered and that the required
+attributes are present in the register.NOTE 2: There can be a need to do identity
+proofing of entities that do not possess a
+unique identifier and that are not present in
+any business register, e.g. public sector
+agencies in some countries. 8.2.7 Use of proof of access as supplementary evidence De eisen in deze paragraaf
+gaan over het gebruik van
+vertrouwde
+toegangsmethoden voor het
+aantonen van de
+identiteit. Het proces voor
+identificatie op afstand bij
+ETD/eHerkenning maakt
+geen gebruik controle van
+vertrouwde
+toegangsmethoden voor het
+antonen van de identiteit. [CONDITONAL] If proof of access is
+used as supplementary evidence, the
+requirements in the present clause
+apply. COL-8.2.7-01: For each identity
+proofing context supported, a list of NOTE: Proof of access will usually be relevant
+only for natural persons.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1033the proof of access mechanisms that
+are required or accepted as
+supplementary evidence of identity and
+the attributes that are collected or
+validated from these mechanisms shall
+be documented and published.EXAMPLE 1: Proof of access to a bank account
+with identity information obtained from the
+bank. EXAMPLE 2: Proof of access to a mobile phone
+with identity information obtained from the
+mobile operator's subscription register. COL-8.2.7-02: The attributes returned
+from the proof of access shall be
+reliably linked to the applicant.EXAMPLE 3: Proof of access to a bank account
+owned by another person could result in
+attributes for the other person to be returned. COL-8.2.7-03: The reliability of
+attributes obtained from proof of
+access mechanisms shall be evaluated
+with all cases of attributes considered
+to have lower reliability than the
+outcome of the general identity
+proofing process documented and
+published.EXAMPLE 4: The general outcome of an
+identity proofing process is Baseline, but a
+mobile phone number
+obtained from proof of access can have lower
+reliability. 8.2.8 Use of documents and attestations as supplementary evidence De eisen in deze paragraaf
+gaan over het gebruik
+documenten en
+verklaringen voor het
+aantonen van de
+identiteit. Het proces voor
+identificatie op afstand bij
+ETD/eHerkenning maakt
+geen gebruik documenten
+en verklaringen voor het
+aantonen van de identiteit. [CONDITONAL] If documents and
+attestations are used as supplementary
+evidence, the requirements in the
+present clause apply. COL-8.2.8-01: For each identity
+proofing context supported, a list of
+the documents or attestations required
+or accepted as supplementary evidence
+of identity and the attributes that are
+collected or validated from this
+documentation shall be documented
+and published.EXAMPLE 1: For a natural person, in some
+countries, utility bills or similar can be
+required as evidence of
+address. EXAMPLE 2: Attestations can be used as
+evidence that a legal person exists and for
+further information on its legal status, and as
+evidence that a natural person is entitled to
+represent the legal person. [CONDITIONAL] COL-8.2.8-02: If the
+applicant is a legal person, a statement
+from a natural person verified to
+represent the legal person may be
+accepted as evidence.Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1034COL-8.2.8-03: The reliability of
+attributes obtained from documents
+and attestations shall be evaluated with
+all cases of attributes considered to
+have lower reliability than the outcome
+of the general identity proofing process
+documented and published.EXAMPLE 3: The general outcome of an
+identity proofing process is Baseline, but an
+address obtained from a utility bill can have
+lower reliability. COL-8.2.8-04: Acceptance of digital
+documents and attestations should be
+limited to digital documents and
+attestations that are evidenced by the
+issuer's digital signature.NOTE: The identity proofing context can pose
+requirements that a digital signature is
+required to fulfil to be accepted. 8.2.9 Evidence collection for natural person representing legal person De eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.4. [CONDITIONAL] If the applicant is a
+natural person purporting to represent
+a legal person, the requirements in the
+present clause apply. COL-8.2.9-01: Evidence for the natural
+person's identity shall be collected
+according to the relevant requirements
+from clauses 8.2.3 to 8.2.8 of the
+present document. COL-8.2.9-02: Evidence for the legal
+person's identity shall be collected
+according to the relevant requirements
+from clauses 8.2.3 to 8.2.8 of the
+present document. COL-8.2.9-03: For each identity
+proofing context supported, the
+accepted means to evidence the link
+between the natural person's identity
+and the legal person's identity shall be
+documented and published.EXAMPLE 1: Trusted registers like business
+registries, or required documents and
+attestations. COL-8.2.9-04: For each identity
+proofing context supported, the
+positions, roles, or other relationships
+accepted for a natural person to
+represent a legal person shall be
+documented and published.EXAMPLE 2: Directors, executives, board
+members, or a natural person with
+authorization duly delegated from another
+natural person in an authorized role. COL-8.2.9-05: For each identity
+proofing context supported, any
+freshness (current) requirement Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1035applicable to any statement or
+document regarding the natural
+person's relationship to the legal
+person shall be documented and
+published. COL-8.2.9-06: If the legal person is
+listed in an authoritative business
+register, the role of the natural person
+concerning the legal person shall be
+collected from or validated against this
+business register to the extent that the
+required attributes are present in the
+register.NOTE 1: Practices for registration vary between
+countries. As one example, public sector
+entities are not registered in business registers
+in all countries. COL-8.2.9-07: The role of the natural
+person concerning the legal person
+may be collected from or verified
+against other information sources than
+authoritative business registers.NOTE 2: This, in particular, applies to legal
+persons that are not present in such business
+registers. EXAMPLE 3: Information source can be public
+notaries, other registers than business
+registers, the official web site of the legal
+person, contacts with representatives of the
+legal person other than the concerned
+natural person etc. COL-8.2.9-08: Documents and
+attestations from the concerned legal
+person may be used as evidence of a
+natural person's authorization to
+represent the legal person. 8.3 Attribute and evidence validation
+8.3.1 General requirementsDe eisen in deze paragraaf
+zijn onderdeel van het
+Normenkader
+betrouwbaarheidsniveaus,
+paragraaf 2.1.1. VAL-8.3.1-01: All necessary identity
+attributes shall be validated to the
+required reliability by the presented
+evidence. VAL-8.3.1-02: Evidence of the identity
+proofing process shall be collected and
+secured supporting requirements in
+clause 8.5.2 of the present document. VAL-8.3.1-03: The handling of
+differences in encoding of identity
+attributes between collected attributes
+and attributes from evidence, and
+between different evidence, shall be
+described.EXAMPLE 1: Typical sources of differences are
+transcription between alphabets or from non-
+alphabetical scripts (e.g. Chinese) to an
+alphabet, transcription of national language
+characters (e.g. Norwegian æ, ø, å)Afsprakenstelsel Elektronische Toegangsdiensten | pagina 1036into Latin characters, and transcription of
+diacritics (e.g.
