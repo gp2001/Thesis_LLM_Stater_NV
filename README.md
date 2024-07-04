@@ -1,6 +1,6 @@
 # Generating an ORPO Dataset using LLMs
 
-This repository contains scripts for generating data for training anothe LLM. The project includes the following components:
+This repository contains scripts for generating data for training LLMs. The project includes the following components:
 
 - **LLM.ipynb**: A notebook for language model operations.
 - **text_cleaning**: A folder containing:
